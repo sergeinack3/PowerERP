@@ -1,0 +1,23 @@
+# Powererp language file - Source file is en_US - help
+CommunitySupport=Forum/Wiki desteği
+EMailSupport=E-posta desteği
+RemoteControlSupport=Çevrimiçi gerçek zamanlı/uzaktan destek
+OtherSupport=Diğer destek
+ToSeeListOfAvailableRessources=Mevcut kaynaklarla iletişim kurmak/görmek için:
+HelpCenter=Yardım Merkezi
+PowererpHelpCenter=Powererp Yardım ve Destek Merkezi
+ToGoBackToPowererp=Aksi takdirde, <a href="%s">Powererp'ı kullanmaya devam etmek için buraya tıklayın</a>.
+TypeOfSupport=Destek türü
+TypeSupportCommunauty=Topluluk (ücretsiz)
+TypeSupportCommercial=Ticari
+TypeOfHelp=Tür
+NeedHelpCenter=Yardım veya desteğe mi ihtiyacınız var?
+Efficiency=Verim
+TypeHelpOnly=Sadece yardım
+TypeHelpDev=Yardım + Geliştirme
+TypeHelpDevForm=Yardım + Geliştirme + Eğitim
+BackToHelpCenter=Aksi takdirde, <a href="%s">Yardım Merkezi ana sayfasına geri dönün</a>.
+LinkToGoldMember=Dolibar tarafından diliniz (%s) için önceden belirlenmiş eğitmenlerden birini onların ekran etiketlerine tıklayarak arayabilirsiniz (durum ve maksimum fiyat otomatik olarak güncellenir):
+PossibleLanguages=Desteklenen diller
+SubscribeToFoundation=Powererp projesine yardımcı olun, vakfa abone olun
+SeeOfficalSupport=Kendi dilinizde Powererp desteği için: <br><b><a href="%s" target="_blank">%s</a></b>

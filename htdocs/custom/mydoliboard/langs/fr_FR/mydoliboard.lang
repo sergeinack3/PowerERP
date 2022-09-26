@@ -1,0 +1,144 @@
+# Powererp language file - fr_FR - marque pages
+CHARSET=UTF-8
+##ADMIN
+NothingToSetup=Activez le module pour accéder à la page de configuration
+GeneralSetup=Paramètres généraux
+GeneralSetting=Paramètres généraux
+PatasTools=Outils Patas-M
+PatasToolsNews=Retrouvez ici les informations de patas-monkey.com (nécessite une connexion à internet)
+PatasMonkeyPresent=Ce module est une création des patas-monkey, une documentation de celui-ci est disponible sur notre site
+MoreModulesLink=Vous pouvez trouver tous nos développements sur le dolistore
+SettingIsOnToolsMenu=Le module ne nécessite pas de paramétrage particulier. <br/>Ses fonctionnalités sont accessibles depuis le menu principal 'Outils Patas-M'.
+BackToModuleList=Retour à la liste des modules
+NewVersionAviable=Une nouvelle version du module est disponible
+NumberVersion=Version
+MonthVersion=Mois de publication
+ChangesVersion=Principales modifications apportées
+
+##ABOUT
+About=À propos
+Slogan=Développement, support et formation pour Powererp
+LienModules=Nos modules
+LienServices=Nos services
+LienDoc=Nos documentations
+LienDolistore=Retrouvez nos autres modules
+Changelog=ChangeLog du module
+SupportModuleInformation=Informations techniques
+SupportModuleInformationDesc=<br/><em>Note : Ces informations sont utiles et pourront vous être demandées si vous rencontrez un bug dans le fonctionnement du module.</em>
+PowererpVersion=Version de Powererp
+ModuleVersion=Version du module
+PHPVersion=Version de PHP
+DatabaseVersion=Version de la base de données
+WebServerVersion=Version du serveur web
+
+##EXTRAFIELDS
+Extrafield=Champs supplémentaires
+Extrafields=Champs supplémentaires
+
+
+myDoliboard=MyDoliBoard
+myDoliboardPresentation=Création de tableaux de bord dynamiques personnalisés
+NewPage=Nouvelle page
+ListOfPage=Liste des pages
+NewBoard=Nouveau tableau
+ListOfBoard=Liste des tableaux
+#MyDoliboard=Mes doliboards
+MydoliboardList=Accès aux doliboards
+MydoliboardSetting=Liste des pages myDoliboard
+MydoliboardSheetSetting=Liste des tableaux myDoliboard
+EditMyPage=Détail d'une page
+unentered=Non saisi
+paramfields=Champs de paramétrage
+name=Libellé
+author=Auteur
+alias=Alias
+enabled=actif
+label=Description
+ImportBoard=Importer une Page
+LaunchImport=Lancer l'importation
+PageTitle=Titre de la page
+TitleMenu=Titre du menu
+menutitle=Titre
+MainMenu=Menu principal
+mainmenu=Menu principal
+LeftMenu=Menu secondaire
+leftmenu=Menu secondaire
+perms=Habilitation
+langfiles=Fichiers de traduction
+QueryList=Requête du tableau
+querylist=Requête SQL du tableau
+ImportExport=Importation / Exportation de la page
+ImportMyDoliboard=Lancer l'Importation
+FillImportExportData=Fichier XML de transfert de page
+EditMyBoard=Paramétrage des tableaux
+UpdateMydoliboard=Modification du Paramétrage de la page
+UpdateMySheet=Modification du Paramétrage du tableau
+ConfirmDeleteAPage=Confirmer la suppression d'un champ
+TitleSheet=Nom du tableau
+displaycell=Bloc d'affichage
+querymaj=Requête de mise à jour avant affichage
+querydisp=Requête de sélection
+explainbypassSQLinjection=Pour bypasser la protection contre le SQL injection saisissez #SEL# à la place de SELECT
+blocAmode=Paramètres Bloc haut centré
+blocBmode=Paramètres Bloc milieu gauche
+blocCmode=Paramètres Bloc milieu droite
+blocDmode=Paramètres Bloc bas centré
+Amode=haut centré
+Bmode=milieu gauche
+Cmode=milieu droite
+Dmode=bas centré
+0mode=Standard
+1mode=Tableau + graphique
+2mode=Graphique
+3mode=Tableau
+GraphicType=Type de Graphique
+
+ExportSheet=Onglet d'export
+StartExportCol=Colonne de début d'export
+StartExportRow=Ligne de début d'export
+
+
+lines=Lignes
+bars=Histogrammes
+pie=Secteur
+PatasTools=Outils Patas-M
+nbBoard=Nombre de tableaux
+nbBoards=Nombre de tableaux
+menu=Menus
+active=État
+myDoliboardSetup=Configuration du module myDoliBoard
+
+## Reports
+PeriodFilter=Période de sélection
+DateDebFilter=Date de début
+DateFinFilter=Date de fin
+DisplayInfo=Paramètres d'affichage
+DisplayMode=Regroupement
+WeekMode=Par semaine
+MonthMode=Par mois
+TrimMode=Par trimestre
+YearMode=Par année
+NumberCountMode=Comptabilisation
+ByElement=Par élément
+ByDetail=Par ligne de détail
+Proposals=Propositions commerciales
+Orders=Commandes clients
+SupplierOrders=Commandes Fournisseurs
+ReportBoard=Rapport Doliboard
+ElementSelect=Elément de Reporting
+GeneralSetup=Configuration générale
+SettingIsOnToolsMenu=Configuration MyDoliboard
+AccessOnToolsMenu=L'accès à la création et au paramétrage de vos tableaux de bord personnalisés se situe dans le menu principal "Patas-Tools" puis le menu secondaire MyDoliBoard.
+NumberVersion=Version
+MonthVersion=Publication
+ChangesVersion=Changements apportés à la version
+PatasMonkeyPresent=Ce module est une création des patas-monkey, une documentation de celui-ci est disponible sur notre site
+MoreModulesLink=Vous pouvez trouver tous nos développements sur le dolistore
+BackToModuleList=Retour à la liste des modules
+PatasToolsDesc=L'accès aux fonctionnalités de nos modules se situe dans votre menu secondaire
+NotInTab=Aucun
+CategProduct=Catégorie de produits
+CategoriesProducts=Catégorie de produits
+CategSociete=Catégorie de société
+ElementTab=Onglet dans l'élément
+No data available in table=Aucune donnée

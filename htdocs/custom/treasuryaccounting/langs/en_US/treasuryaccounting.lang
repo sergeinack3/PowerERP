@@ -1,0 +1,14 @@
+# Powererp language file - en_US - Treasury Accounting
+CHARSET=UTF-8
+Module163029Name=Treasury accounting
+Module163029Desc=Module for generating cash accounting transactions according to accrual accounting. (partial use or not of the other modules)
+
+#
+# Menu
+#
+MenuAccountancyTreasuryJournal=Treasury
+
+#
+# Admin
+#
+TreasuryAccountingSetup=Configuration of module "treasury accounting"

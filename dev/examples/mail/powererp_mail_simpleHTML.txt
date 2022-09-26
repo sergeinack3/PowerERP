@@ -1,0 +1,7 @@
+From: powererp-robot@domain.com <powererp-robot@domain.com>
+Return-Path: powererp-robot@domain.com <powererp-robot@domain.com>
+X-Mailer: Powererp version 2.7.0-beta (using php mail)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+<html><head><title></title></head><body>Test&eacute;<br>fdsfsdf<br>fsdf<strong>sfd</strong>s<br>fssdfsd<br></body></html>

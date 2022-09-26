@@ -1,0 +1,23 @@
+# Powererp language file - Source file is en_US - help
+CommunitySupport=Fórum/Wiki támogagtás
+EMailSupport=Email támogagtás
+RemoteControlSupport=Online valós idejű / távoli támogatás
+OtherSupport=Más jellegü támogatás
+ToSeeListOfAvailableRessources=Kapcsolatba lépni / látni az elérhető erőforrásokat:
+HelpCenter=Segítség Központ
+PowererpHelpCenter=Powererp Súgó és támogatás központ
+ToGoBackToPowererp=Ellenkező esetben kattintson ide, <a href="%s"> hogy továbbra is használja a Powererp </a>.
+TypeOfSupport=A támogatás típusa
+TypeSupportCommunauty=Közösség (ingyenes)
+TypeSupportCommercial=Üzleti
+TypeOfHelp=Típus
+NeedHelpCenter=Segítségre vagy támogatásra van szüksége?
+Efficiency=Hatékonyság
+TypeHelpOnly=Csak segítség
+TypeHelpDev=Segítség és fejlesztés
+TypeHelpDevForm=Segítség + Fejlesztés + Tréning
+BackToHelpCenter=Egyébként  <a href="%s"> visszatérés a Súgó központba </a>.
+LinkToGoldMember=Felhívhatja a Powererp által az Ön nyelvére előre kiválasztott oktatók egyikét (%s), ha rákattint a widgetre (az állapot és a maximális ár automatikusan frissül):
+PossibleLanguages=Támogatott nyelvek
+SubscribeToFoundation=Segítsen a Powererp projektnek, iratkozzon fel az alapítványra
+SeeOfficalSupport=Hivatalos Powererp támogatás a saját nyelvén: <br><b><a href="%s" target="_blank">%s</a></b>

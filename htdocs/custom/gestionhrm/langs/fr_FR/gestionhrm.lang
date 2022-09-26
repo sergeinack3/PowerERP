@@ -1,0 +1,138 @@
+ModuleName=gestionhrm
+gestionhrmSetup=Gestion HRM module setup
+ModuleDescgestionhrm=Gestion RH avancée
+gestionhrm=HRM
+
+#Attendance
+
+hrm_presences = Gestion des Présences
+hrm_presence = Gestion des Présences
+Liste_des_attendance = Liste des Présences
+
+in_time = À l'heure
+out_time = Jusqu'à l'heure
+request_attendc = Déclarer la présence
+presence = Présence
+attendec_employe = Employé de présence
+present =   Présent(e)
+nopresent = Absent(e)
+status = Etat
+notavailabl = Indisponible
+all_user = Présence de tous les employées
+employe=Employe
+
+# Award
+
+hrm_award = Gestion des Primes
+Liste_des_award = Liste des Primes
+award        = Prime
+award_for    = Objet de prime
+award_type   = Type de prime
+award_amount = Montant 
+award_date   = Date 
+award_month  = Mois 
+
+add_award  = Ajouter un prime
+edit_award = Modifier 
+gift       = Cadeau
+cash       = En espèces
+
+
+
+# Complaint 
+
+hrm_complain = Gestion des Plaintes
+Liste_des_complain = Liste des plaintes
+add_complain = Signaler une plainte
+new_complain = Nouvelle plainte
+complainby = Plainte par
+against = Plainte contre
+complain = Plainte
+
+# Warning
+
+hrm_warning = Gestion des Avertissements
+warning     = Avertissement
+add_warning = Créer un avertissement
+new_warning = Nouvel avertissement
+Liste_des_warning = Liste des Avertissements
+warningby = Avertissement par
+against_wrn = Avertissement contre
+
+
+#Resignation
+
+hrm_resignation = Gestion des Démissions
+Liste_des_demissions = Liste des Démissions
+add_resignation = Déclarer une démission
+resignation = Démission
+notice_date = Date d'avis
+date_resignation  = Date de démission
+resignation_for = Démission pour
+Nb_de_complwarn = Nombre de Plaintes/Avertissements
+Nb_demission_resiliation = Nombre de Résiliations/Démissions
+
+#Termination
+
+hrm_termination       = Gestion des Résiliations
+Liste_des_termination = Liste des Résiliations
+new_termination       = Nouvelle résiliation
+termination           = Résiliation
+date_termination  = Date de Résiliation
+termination_for = Résiliation pour
+
+
+#Promotions
+
+hrm_promotion       = Gestion des Promotions
+Liste_des_promotion = Liste des Promotions
+
+
+#Holiday
+
+hrm_holiday       = Gestion des Vacances
+Liste_des_holiday = Liste des vacances
+holiday     = Vacance
+holiday_for = Raison de vacance
+add_holiday = Ajouter une vacance
+duree = Durée (Jour)
+
+
+#Dashbord
+
+dashbordhrm  = Tableau de bord
+Statebordgrh = Statistiques de GRH
+Statebordhrm = Statistiques de HRM
+
+presences    = Les Présences
+awards       = Les Primes
+complains    = Les Plaintes
+warnings     = Les Avertissements
+resignations = Les Démissions
+terminations = Les Résiliations
+holidays     = Les Vacances
+timeconsm    = Temps consommés
+consomtempsbyprojet = Le temps consommé sur les 5 dernières tâches de projet sélectionné:
+
+
+draft = Congés en Brouillon
+approve = Congés Approuvé
+refuser = Congés Refusée
+
+Statebordaward = Les 5 dernières primes
+Statebordvacance = Les 5 dernières vacances
+
+Statebordpresenc  = Les 5 dernières déclarations de présence:
+Nb_notefrais      = Statistique des Note de Frais
+
+ecv = E-CV
+recrutement = Recrutement
+cv=CV et Lettres
+recru_recherche_avancee=Recherche avancée
+ecv_competences = Compétences
+
+WorkingBoardRecrut = Le nombre de candidatures à chaque étape par rapport aux postes
+title_chartrecrut = Candidatures/Etapes
+WorkingBoardcontrat = Les 5 dernières contrats des salariés:
+edit = Modifier
+sauvg=Sauvegarder

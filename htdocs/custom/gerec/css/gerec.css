@@ -1,0 +1,10 @@
+.gerecContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.gerecContainer input {
+  border: 1px solid silver;
+}

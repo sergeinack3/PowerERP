@@ -1,0 +1,86 @@
+# Powererp language file - fr_FR - CoefPricR
+CHARSET=UTF-8
+
+# ADMIN/ABOUT
+CoefPricRSetup=Configuration du module CoefPricR
+# ADMIN/ABOUT
+CoefPricRSetup=Configuration du module CoefPricR
+BackToModuleList=Retour à la liste des modules
+About=À propos
+NewVersionAviable=Une nouvelle version du module est disponible
+NumberVersion=Version
+MonthVersion=Mois de publication
+ChangesVersion=Principales modifications apportées
+Extrafield=Champs supplémentaires
+PatasToolsNews=Retrouvez ici les informations de patas-monkey.com (nécessite une connexion à internet)
+PatasTools=Outils Patas-M
+SupportModuleInformation=Informations techniques
+SupportModuleInformationDesc=<br/><em>Note : Ces informations sont utiles et pourront vous être demandées si vous rencontrez un bug dans le fonctionnement du module.</em>
+PowererpVersion=Version de Powererp
+ModuleVersion=Version du module
+PHPVersion=Version de PHP
+DatabaseVersion=Version de la base de données
+WebServerVersion=Version du serveur web
+Slogan=Développement, support et formation pour Powererp
+LienModules=Nos modules
+LienServices=Nos services
+LienDoc=Nos documentations
+LienDolistore=Retrouvez nos autres modules
+GeneralSetup=Paramètres généraux
+Changelog=ChangeLog du module
+coefpricrGeneralSetup=Paramètres généraux
+coefpricr=CoefPricR
+
+coefPricRPresentation=Modification en masse des prix de ventes
+CoefPricRSettingValue=Définition du mode de calcul des prix 
+AllowIndexMode=Autoriser le mode de calcul du dernier prix de vente par indice (Expérimental)
+AllowCoefMode=Autoriser le mode de calcul par multiplication du dernier prix de vente
+AllowPMPMode=Autoriser le mode de calcul par multiplication du PMP
+AllowCostPriceMode=Autoriser le mode de calcul par multiplication du prix de revient (cost price)
+AllowFournishMinMode=Autoriser le mode de calcul par le moins cher des prix fournisseurs
+AllowFournishMaxMode=Autoriser le mode de calcul par le plus cher des prix fournisseurs
+UseFournishReputation=Utiliser la fonction de préférence fournisseur
+ChangePrice=Changement en masse
+DeletePrice=Suppression en masse
+IndexPrice=Changement par indice (Expérimental)
+HistoryPrice=Historique de prix
+CoefPricRArea=Espace CoefPricR
+PriceChangeByDate=Nombre de prix crées/modifiés par date
+LastNewPrice=Derniers prix modifiés
+LastIndexChange=Derniers indices ajoutés
+ChangePricRMode=Mode de calcul de changement de prix
+IndexMode=Par indice (Expérimental)
+CoefMode=selon prix de vente
+PmpMode=selon le PMP
+CostPriceMode=selon le prix de revient
+FournishMaxMode=selon le fournisseur max
+FournishMinMode=selon le fournisseur min
+AddReputation=+Réputation
+SelectCalculationPriceOnSetting=Sélectionner un mode de calcul de prix dans le paramétrage
+
+LaunchChangePrice=Lancement du changement en masse des prix
+CoefPricRValue=Coefficient à appliquer
+CoefPricRDateAAAAMMJJ=Date d'application du coefficient (AAAAMMJJ)
+CoefPricRDate=Date d'application du coefficient
+
+ResultChangePrice=Résultat du changement de prix en masse
+NbNewPrice=Nombre de nouveau prix
+CoefPricRIndiceList=Liste des indices de CoefPricR (Expérimental)
+BackToCoefPricRIndiceList=Retour à la liste des indices de CoefPricR
+DateCoef=Date d'application de l'indice
+ValueCoef=Valeur de l'indice
+NewCoefPricRIndice=Nouvelle valeur de l'indice
+EditCoefPricRIndice=Modifier la valeur de l'indice
+ShowCoefPricRIndice=Voir la valeur de l'indice
+PriceHistory=Historique des prix
+ProductType=Type
+desc=Base de modification
+CoefPricrIndiceSetup=Liste des indices
+
+DeleteType=Supprimer
+CoefDate=Date d'application
+Coef=Valeur
+EraseMade=Suppression effectuée
+LeftOnlyOnePrice=Suppression impossible
+MultipriceModeLevel=Niveau(x) de prix
+Level=Niveau

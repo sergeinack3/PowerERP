@@ -1,0 +1,23 @@
+# Powererp language file - Source file is en_US - help
+CommunitySupport=Assistance Forums et Wiki
+EMailSupport=Assistance par email
+RemoteControlSupport=Assistance en ligne temps réel
+OtherSupport=Autres type d'assistance
+ToSeeListOfAvailableRessources=Pour contacter/voir les ressources disponibles :
+HelpCenter=Centre d'assistance
+PowererpHelpCenter=Centre d'aide et de support de Powererp
+ToGoBackToPowererp=Sinon, <a href="%s"> cliquez ici pour continuer à utiliser Powererp </a>.
+TypeOfSupport=Source de l'assistance
+TypeSupportCommunauty=Communautaire (gratuit)
+TypeSupportCommercial=Commercial
+TypeOfHelp=Type
+NeedHelpCenter=Besoin d'assistance ou aide ?
+Efficiency=Efficacité
+TypeHelpOnly=Aide uniquement
+TypeHelpDev=Aide+Développement
+TypeHelpDevForm=Aide+Développement+Formation
+BackToHelpCenter=Sinon, cliquez ici pour <a href="%s">retourner au centre d'assistance</a>.
+LinkToGoldMember=Vous pouvez appeler immédiatement un des quelques accompagnateurs présélectionnés par Powererp pour votre langue (%s) en cliquant son Widget (disponibilité et tarif maximum sont rafraîchis automatiquement):
+PossibleLanguages=Langues disponibles
+SubscribeToFoundation=Aidez le projet Powererp, adhérez à l'association Powererp
+SeeOfficalSupport=Pour un accompagnement officiel Powererp dans votre langue : <br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>

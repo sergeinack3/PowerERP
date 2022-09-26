@@ -1,0 +1,417 @@
+
+
+.info-box-text-module .info-box-desc .ds_url_module_desc{
+    /*opacity: 1 !important;
+    color: #A9AFB5 !important;*/
+}
+.info-box-text-module .info-box-title .ds_url_module_name 
+{
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: #000;
+    cursor: default;
+}
+.info-box-module .info-box-icon a.ds_image_module_logo {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+.info-box-module .info-box-icon .ds_image_module_logo img {
+    max-width: 60%;
+}
+.info-box-content .info-box-desc .ds_url_module_desc
+{
+    text-decoration: none !important;
+    color: #0a1464;
+    cursor: default;
+}
+table[summary="list_of_modules"] .ds_url_module_desc
+{
+    text-decoration: none !important;
+    color: #202020;
+    cursor: default;
+}
+table[summary="list_of_modules"] .ds_url_module_name
+{
+    text-decoration: none !important;
+    color: #202020;
+    cursor: default;
+}
+
+#GanttAvanc .ModChart label{
+    color: #ffffff;
+}
+
+#GanttAvanc .containerinfoproject{
+    background-color: #fff;border: 2px dotted #aaa; border-radius:3px;padding: 8px; width:100%;
+}
+#GanttAvanc .gantt { font-family:tahoma, arial, verdana; font-size:10px;}
+
+#GanttAvanc .gdatehead { border-top: #efefef 1px solid; font-size: 12px; border-left: #efefef 1px solid; height: 18px }
+
+#GanttAvanc .ghead { border-top: #efefef 1px solid; font-size: 12px; border-left: #efefef 1px solid; width: 24px; height: 20px }
+
+#GanttAvanc .gname { border-top: #efefef 1px solid; font-size: 12px; width: 18px; height: 18px }
+
+#GanttAvanc .ghead A { font-size: 10px; color: #000000; text-decoration: none }
+
+#GanttAvanc .gheadwkend A { font-size: 10px; color: #000000; text-decoration: none }
+
+#GanttAvanc .gheadwkend { border-top: #efefef 1px solid; font-size: 12px; border-left: #efefef 1px solid; width: 24px; height: 20px; background-color: #cfcfcf }
+
+#GanttAvanc .gfiller { border-top: #efefef 1px solid; border-left: #efefef 1px solid; width: 18px; height: 18px }
+
+#GanttAvanc .gfillerwkend { border-left: #efefef 1px solid; width: 18px; height: 18px; background-color: #cfcfcf }
+
+#GanttAvanc .gitem { border-top: #cccccc 1px solid; width: 18px; height: 18px }
+
+#GanttAvanc .gitemwkend { border-top: #cccccc 1px solid; border-left: #cccccc 1px solid; width: 18px; height: 18px }
+
+#GanttAvanc .gmilestone {	border-top: #efefef 1px solid; font-size: 14px; overflow: hidden; border-left: #efefef 1px solid; width: 18px; height: 18px}
+
+#GanttAvanc .gmilestonewkend {	border-top: #efefef 1px solid; border-left: #cccccc 1px solid; width: 18px; height: 18px}
+
+#GanttAvanc .btn { border-right: #ffffff; border-top: #ffffff; font-weight: bold; font-size: 10px; border-left: #ffffff; width: 12px; color: #cccccc; border-bottom: #ffffff; background-color: #ffffff }
+
+#GanttAvanc .hrcomplete { border-right: #000000 2px solid; padding-right: 0px; border-top: #000000 2px solid; padding-left: 0px; padding-bottom: 0px; border-left: #000000 2px solid; width: 20px; color: #000000; padding-top: 0px; border-bottom: #000000 2px solid; height: 4px }
+
+#GanttAvanc .hrhalfcomplete { border-right: #000000 2px solid; border-top: #000000 2px solid; border-left: #000000 2px solid; width: 9px; color: #000000; border-bottom: #000000 2px solid; height: 4px }
+
+#GanttAvanc .gweekend { font-family:tahoma, arial, verdana; font-size:11px; background-color:#EEEEEE; text-align:center; }
+
+#GanttAvanc .gtask { font-family:tahoma, arial, verdana; font-size:11px; background-color:#00FF00; text-align:center; }
+
+#GanttAvanc .gday { font-family:tahoma, arial, verdana; font-size:11px; text-align:center; }
+
+#GanttAvanc .gcomplete { background-color:black; height:5px; overflow: auto;}
+
+div.scroll { border-right: #efefef 1px solid; padding-right: 0px; padding-left: 0px; padding-bottom: 0px; overflow: hidden; width:100%; padding-top: 0px; border-bottom: #efefef 1px solid; background-color: #ffffff }
+
+div.scrollgantt2 { position:absolute; padding-right: 0px; overflow:auto ;overflow-x:scroll;overflow-y:hidden; padding-left: 0px; padding-bottom: 0px; left: 0; right: 0; padding-top: 0px; background-color: #ffffff }
+
+
+#GanttAvanc div.scrollgantt2{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+    
+.gTaskInfo          {background: #dbecff; width: 200px; padding: 4px 6px 4px 6px; float: left;border-radius: 10px;}
+#GanttAvanc .gTtTitle           {display: block; font-size: 12px; font-weight: bold; color: #404040; margin-left: 4px; margin-bottom: 1em;}
+#GanttAvanc .gTaskLabel         {font-size: 11px; font-weight: bold; color: #656565; margin-left: 4px;}
+#GanttAvanc .gTaskText          {position:absolute; left: 90px; padding-top: 1px; font-size: 10px; font-weight: normal; color: #656565;}
+#GanttAvanc .gTaskNotes         {font-size: 11px; font-weight: normal; color: #323232; padding: 0 15px; display: block;}
+#GanttAvanc .gTIn               {padding-top: 10px;}
+
+#GanttChartDIV a.btn-excel {
+    float: right;
+    color: #296d1ee3;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+#GanttChartDIV a.btn-pdf {
+    float: right;
+    color: #de4242;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+#GanttAvanc span.select2{
+	width: 80% !important;
+}
+
+#GanttChartDIV .gname {
+    width: 200px !important;
+    height: 40px;
+    max-width: 200px !important;
+    border-top: #efefef 1px solid;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#GanttChartDIV .td-prog {
+    font-size: 12px;
+    border-left: #efefef 1px solid;
+    width: 60px;
+    height: 20px;
+    vertical-align: sub;
+  	width: 35px !important;
+  	max-width: 35px;
+    vertical-align: sub;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#GanttChartDIV {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#GanttAvanc td.ghead {
+    /*border: 1px solid #dddd;*/
+}
+
+#GanttAvanc td.gdatehead {
+    background: #f9d1a1;
+    background: #44546a;
+    color: #ffffff;
+}
+#GanttAvanc td.td_tr2 {
+    background: #afdef1;
+    background: #44546a;
+    color: #ffffff;
+}
+
+#GanttChartDIV span.select2{
+	width: 60px !important;
+}
+
+#GanttAvanc .showtask:hover{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+#GanttAvanc table#theTable {
+    width: 100%;
+}
+#GanttAvanc table#theTable tr td:first-child {
+    width: 30%;
+}
+
+.JSGanttInfo {
+    font-family: tahoma, arial, verdana;
+    font-size: 10px;
+    display: block;
+    background: #f0f0f0;
+    color: #656565;
+    position: absolute;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 7px;
+}
+.JSGanttInfo div.gTaskInfo {
+    background: #f0f0f0 !important;
+}
+
+#GanttAvanc .scrollgantt2 .gTaskInfo, .scroll .gTaskInfo{
+    display: none;
+}
+
+
+/*
+body,
+html {
+  height: 100%;
+}
+
+.tooltipHeader {
+  float: right;
+  font-size: 0.6rem;
+}
+
+.tooltipHeader::before {
+  float: left;
+  content: "Date:";
+  padding-right: 5px;
+  opacity: 0.5;
+  display: block;
+}
+
+.tooltipHeader::after {
+  float: none;
+}
+
+.tooltipPointWrapper {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tooltipPoint {
+  font-size: 1.5rem;
+  padding-left: 5px;
+  /* color: #FF0045; 
+
+.tooltipValueSuffix {
+  padding-left: 5px;
+  color: #1bc9a8;
+}
+
+.tooltipLine {
+  display: block;
+  opacity: 0.5;
+  background-color: #fff;
+  width: 100%;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+}
+*/
+
+.JSGanttInfo:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 10%;
+    margin-left: -8px;
+    border-bottom: 8px solid #fff;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+#GanttAvanc .ModChart{
+  color: #fff !important;
+    padding-top:10px; 
+    padding-bottom:10px; 
+    background-color:#a9e3dc; 
+    background-color:#0a3444; 
+    width:100%; 
+    float:left;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+#GanttChartDIV .select2-container--default .select2-selection--single{
+    border-radius: 3px !important;
+}
+
+#GanttChartDIV .gcomplete, #GanttChartDIV .task-bar{
+    border-bottom-right-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+#GanttChartDIV .task-bar{
+    position: relative;
+}
+
+#GanttAvanc .opacitymedium{
+    text-align: center;
+    height: 150px;
+    border: 2px dotted #aaa;
+    color: #263c5c;
+    opacity: 0.5;
+    line-height: 10
+}
+
+#GanttAvanc .legendColor{
+    width: 40%;
+    float: left;
+    background: #fff;
+}
+.legendParent{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+#GanttAvanc .legendColor .txt_clr{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1px;
+    width: 50px;
+    float: left;
+}
+
+#GanttAvanc .legendColor .txt_lbl{
+    margin-left: 10px;
+    padding: 2px 2px 2px 0 !important;
+}
+
+#GanttAvanc .divActions{
+    width: 60%;
+    float: left;
+    text-align: right;
+    line-height: 5;
+}
+
+#GanttAvanc .divActions .butActionGantt{    
+    padding: 8px 14px;
+    border-radius: 3px;
+    color: #fff !important;
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500 !important;
+}
+
+#GanttAvanc .divActions .butActionGantt.gbtn_bdf{
+    background: #f97272;
+}
+
+#GanttAvanc .divActions .butActionGantt.gbtn_xls{
+    background: #279696;
+}
+
+#GanttAvanc .divActions .butActionGantt.gbtn_imp{
+    background: #03a9f4;
+}
+#GanttAvanc .divActions .butActionGantt.gbtn_scren{
+    background: #0a3444;
+    cursor: pointer;
+}
+#GanttAvanc table.tableforfield{
+    border: none !important;
+}
+
+#GanttAvanc span.clrtd{
+    color: #666;
+}
+
+
+#GanttAvanc .loader-round-circle {
+    width: 1em;
+    height: 1em;
+    font-size: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    -webkit-animation: loader-round-circle 1.3s infinite linear;
+    -o-animation: loader-round-circle 1.3s infinite linear;
+    animation: loader-round-circle 1.3s infinite linear;
+}
+
+#GanttAvanc .loadingcircle {
+    text-align: center;
+    height: 150px;
+    background: #0a3444;
+    border: 2px dotted #080808;
+    color: #263c5c;
+    opacity: 0.5;
+}
+
+#GanttAvanc .task-bar strong.compltask{
+    position: absolute;
+    right: 0;
+}
+
+#GanttAvanc .open, #GanttAvanc .close {
+    font-size: 12px;
+    font-weight: 600;
+    background: #fff;
+    padding: 4px 9px;
+    border-radius: 10px;
+    margin-right: 8px;
+    color: #0a3444;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project_task_extras_color .span-color{
+    padding: 3px 6px;
+    border-radius: 4px;
+}

@@ -1,0 +1,8 @@
+# Powererp language file - fr_FR - Extraprice
+CHARSET=UTF-8
+ExtraPriceSetup=Paramétrage d'extraprice
+ExtrapriceFormulaSetting=Paramétrage de la formule de calcul du prix
+ExtrapriceFormula=Formule de calcul
+ExtrapriceExplication='$newprice' correspond au prix de vente calculées '$origineprice' au prix de départ, les autres zones sont expliquées dans la documentation
+MoreModules=Autres Modules
+MoreModulesLink=Les autres modules du même développeur

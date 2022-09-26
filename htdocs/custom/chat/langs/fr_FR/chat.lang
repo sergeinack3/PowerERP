@@ -1,0 +1,114 @@
+# <one line to give the program's name and a brief idea of what it does.>
+# Copyright (C) <year>  <name of author>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleXXXName'
+# (where XXX is value of numeric property 'numero' of module)
+Module452000Name = Chat
+# Module description 'ModuleXXXDesc'
+# (where XXX is value of numeric property 'numero' of module)
+Module452000Desc = Module de chat confectionné pour powererp
+# Permissions
+Permission452002 = Lire les messages et télécharger les pièces jointes du chat
+Permission452003 = Supprimer ses messages du chat
+Permission452004 = Supprimer n'importe quel message du chat
+Permission452005 = Voir les utilisateurs en ligne
+
+#
+# Page d'administration
+#
+ChatSetup = Configuration du module chat
+Settings = Réglages
+ChatConf = Paramètres du chat
+ChatPopupConf = Paramètres de la fenêtre popup
+ChatAutoRefreshTime = Temps de rafraîchissement automatique du chat en seconde (Par défaut: 5 secondes)
+ChatMaxMsgNumber = Nombre maximum de messages affichés sur le chat (Par défaut: 50)
+ShowImagesPreview = Afficher un aperçu des images sur le chat
+UseTheMinimumSpace = Utiliser le minimum possible d'espace disponible (quand la fenêtre popup est minimisée)
+ChatPopupSize = Taille de la fenêtre popup
+ChatPopupBackgroundColor = Couleur de fond de la fenêtre popup (Par défaut: <b>428bca</b>, Suggestions: <b>777777</b>, <b>5cb85c</b>, <b>5bc0de</b>, <b>f0ad4e</b>, <b>d9534f</b>)
+ChatPopupTextColor = Couleur de texte de la fenêtre popup (Par défaut: <b>Blanc</b>)
+White = Blanc
+Black = Noir
+ChatPopupCounterColor = Couleur du libellé de notification de la fenêtre popup (Par défaut: <b>d9534f</b>)
+ChatPrivateMessageBorderColor = Couleur de la bordure des messages privés (Par défaut: <b>f0ad4e</b>, Suggestions: <b>ffffff</b>)
+ChatPrivateMessageBackgroundColor = Couleur de fond des messages privés (Par défaut: <b>fbf9fa</b>, Suggestions: <b>e4fccc</b>, <b>d6e8f4</b>)
+EnableChatPopup = Activer l'affichage de la fenêtre popup
+ReplaceChatMainMenu = Remplacer le menu principal par un raccourci en haut à droite
+PullLeftChatPopup = Placer la fenêtre popup à gauche
+UseThemeColor = Utiliser la couleur du thème actif
+AttachmentsSecurity = Ajouter l'extension <b>.noexe</b> aux pièces jointes exécutables pour plus de sécurité
+ChatPopupNotice = La fenêtre popup peut causer des ralentissements et des latences sur votre serveur, en fonction du nombre d'utilisateurs qui y sont connectés et du temps de raffraichissement automatique du chat.
+HidePrivateMessagesInOpenRoom = Masquer les messages privés sur le chat public (ne s'applique pas à la fenêtre popup)
+
+#
+# Page À propos
+#
+About = À propos
+ChatAbout = À propos du module chat
+ChatAboutPageDesc = <a href="http://www.dolistore.com/fr/modules/829-Chat.html" target="_blank"><b>Chat</b></a> : Module de chat simple et fluide<br/><br/>Développé par <a href="https://github.com/AXeL-dev" target="_blank">AXeL</a><br/><br/>Pour toute question technique ou retour, contactez-moi sur <a href="mailto:contact.axel.dev@gmail.com">contact.axel.dev@gmail.com</a><br><br>Retrouvez mes autres modules sur <a href="http://www.dolistore.com/search.php?orderby=position&orderway=desc&search_query=axel-dev&submit_search=Rechercher" target="_blank">Dolistore</a>
+
+#
+# Page d'exemple
+#
+ChatIndexPageName = Chat en direct
+TypeAMessagePlaceHolder = Tapez un message...
+SearchPlaceHolder = Rechercher...
+SendPrivateMessage = Contacter en privé
+SendMessage = Envoyer
+AddFiles = Joindre un fichier
+PrivateMessageTo = Message privé à :
+PrivateMessageFrom = Message privé de :
+LastLogin = Dernière connexion :
+NoMessageFound = Aucun message trouvé...
+Reply = Répondre
+Online = En ligne
+NewMessage = Nouveau message
+DeleteMessage = Supprimer
+EnterToSend = Entrée pour envoyer
+Private = Privé
+SortMessagesByDate = Trier les messages par date
+NewMessage = Nouveau message
+Options = Options
+SelectAll = Sélectionner tout
+AllUsers = Tout les utilisateurs
+OnlineUsers = Utilisateurs en ligne
+Back = Retour
+ClickToReply = Cliquez pour répondre
+Me = Moi
+EnableSound = Activé le son
+DisableSound = Désactivé le son
+
+#
+# Box d'exemple
+#
+MyBox = Ma boîte
+MyBoxDescription = Description de ma boîte
+
+#
+# Menu
+#
+ChatTopMenu = Chat
+
+#
+# Error/Warning Messages
+#
+PleaseTypeAMessage = Veuillez entrer un message
+CannotSendMessageToYourself = Vous ne pouvez pas envoyer un message à vous même
+CannotDeleteMessage = Vous ne pouvez pas supprimer ce message

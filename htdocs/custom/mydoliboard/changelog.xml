@@ -1,0 +1,78 @@
+<changelog>
+<Version Number="3.5.+1.1.2">
+	<change type='fix'>many bug fix</change>
+	<change type='add'>add xml sample</change>
+</Version> 
+<Version Number="3.6.+1.2.0">
+	<change type='add'>new commun top menu with other patas-tools</change>
+</Version> 
+<Version Number="3.6.+1.2.1">
+	<change type='fix'>error if no row returned on board</change>
+	<change type='add'>link on current element in tabmode</change>
+	<change type='add'>category tabs (product and society added)</change>
+</Version> 
+<Version Number="3.6.+1.2.2" MonthVersion="2015-01">
+	<change type='fix'>error on type of space (list or graph)</change>
+	<change type='fix'>date format on filter</change>
+</Version> 
+<Version Number="3.7.+1.3.0" MonthVersion="2015-08">
+	<change type='fix'>3.7 comptability</change>
+</Version>
+<Version Number="3.8.+1.4" MonthVersion="2015-12">
+	<change type='add'>new type of graphic (graph)</change>
+	<change type='fix'>auguria menu compatibility</change>
+</Version>
+<Version Number="3.9.+1.5.0" MonthVersion="2016-06"> 
+	<change type='chg'>3.9 and custom folder compatibility</change>
+</Version> 
+<Version Number="3.9.+1.5.1" MonthVersion="2016-07">
+	<change type='add'>xml version changelog feature</change>
+</Version>
+<Version Number="4.0.+2.0.0" MonthVersion="2016-10">
+	<change type='add'>4.0 Compatibility</change>
+	<change type='add'>(MAJOR) Reporting dynamic cross tables on main elements</change>
+</Version>
+<Version Number="4.0.+2.0.1" MonthVersion="2016-12">
+	<change type='fix'>bad filter init field getpost</change>
+</Version>
+<Version Number="5.0.+2.1.0" MonthVersion="2017-02">
+	<change type='chg'>5.0 compatibility</change>
+	<change type='add'>new look on admin about page</change>
+	<change type='add'>information version on admin setup page</change>
+</Version>
+<Version Number="5.0.+3.0.0" MonthVersion="2017-06">
+	<change type='add'>(MAJOR) Export on xls template</change>
+	<change type='add'>corechange menu need for customers_bills menu</change>
+</Version>
+<Version Number="5.0.+3.0.1" MonthVersion="2017-07">
+	<change type='fix'>Dol_dir_list error on export XLS</change>
+	<change type='chg'>refactoring for jenkins</change>
+</Version>
+<Version Number="6.0.+3.1.0" MonthVersion="2017-08">
+	<change type='fix'>error on blocD </change>
+	<change type='chg'>6.0 comptability</change>
+</Version>
+<Version Number="6.0.+3.1.1" MonthVersion="2017-10">
+	<change type='fix'>Table presentation (line border left on V6)</change>
+	<change type='chg'>new right 'report' for Reporting access </change>
+	<change type='add'>(MAJOR) Reporting dynamic cross tables on project times</change>
+</Version>
+<Version Number="7.0.+3.2.0" MonthVersion="2018-03">
+	<change type='chg'>7.0 comptability</change>
+	<change type='add'>new graphtype (Pie)</change>
+	<change type='chg'>display sql query on debug mode (page disabled) </change>
+</Version>
+<Version Number="8.0.+3.3.0" MonthVersion="2018-09">
+	<change type='chg'>8.0 comptability</change>
+	<change type='fix'>Patas-tools top menu can be duplicate</change>
+</Version>
+<Version Number="10.0.+3.4.0" MonthVersion="2019-09">
+	<change type='chg'>10.0 comptability</change>
+</Version>
+<Version Number="12.0.+3.5.0" MonthVersion="2020-07">
+	<change type='chg'>11.0 and 12.0 comptability</change>
+</Version>
+
+<!-- Remplir le undocumented.xml ? -->
+<Powererp minVersion="6.0.0"/>
+</changelog>

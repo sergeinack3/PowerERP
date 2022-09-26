@@ -1,0 +1,20 @@
+{
+    "name": "vkr/signature-to-image",
+    "type": "library",
+    "description": "Fork of Signature to Image by Thomas Bradley",
+    "homepage": "https://github.com/wladislavk/signature-to-image",
+    "license": "MIT",
+    "authors": [
+        {"name": "Thomas J Bradley", "email": "hey@thomasjbradley.ca"}
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-gd": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VKR\\SignatureToImage\\": "src/"
+        }
+    }
+}

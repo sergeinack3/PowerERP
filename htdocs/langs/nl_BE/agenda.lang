@@ -1,0 +1,42 @@
+# Powererp language file - Source file is en_US - agenda
+EventReports=Gebeurtenisrapporten
+ViewPerType=Overzicht per type
+AgendaAutoActionDesc=Hier kunt u gebeurtenissen definiëren die u Powererp automatisch in Agenda wilt laten maken. Als er niets wordt gecontroleerd, worden alleen handmatige acties opgenomen in logboeken en weergegeven in Agenda. Automatisch bijhouden van zakelijke acties die worden uitgevoerd op objecten (validatie, statuswijziging), wordt niet opgeslagen.
+AgendaSetupOtherDesc=Deze pagina biedt opties voor het exporteren van uw Powererp-evenementen naar een externe agenda (Thunderbird, Google Agenda, enz.)
+EventRemindersByEmailNotEnabled=Herinneringen via email was niet ingeschakeld in %s van module setup.
+NewCompanyToPowererp=Derde %s aangemaakt
+COMPANY_DELETEInPowererp=Derden (externen) %s verwijderd
+ContractValidatedInPowererp=Contract %s goedgekeurd
+CONTRACT_DELETEInPowererp=Contract %s geannuleerd
+MemberModifiedInPowererp=Lid %s werd aangepast
+MemberResiliatedInPowererp=Lid %s verwijderd
+MemberSubscriptionModifiedInPowererp=Abonnement %s voor lid %s aangepast
+ShipmentValidatedInPowererp=Shipment %s goedgekeurd
+ShipmentClassifyClosedInPowererp=Verzending %s werd geclassificeerd als gefactureerd
+ShipmentBackToDraftInPowererp=Verzending %s zet om naar conceptstatus
+ShipmentDeletedInPowererp=Shipment %s gewist
+ProposalSentByEMail=Commercieel voorstel %s verzonden per e-mail
+InvoiceSentByEMail=Klantfactuur %s per e-mail verzonden
+SupplierOrderSentByEMail=Bestelling %s per e-mail verzonden
+ORDER_SUPPLIER_DELETEInPowererp=Aankooporder %s verwijderd
+ShippingSentByEMail=Verzending %s verzonden per e-mail
+ProposalDeleted=Offerte verwijderd
+HOLIDAY_CREATEInPowererp=Verzoek om verlof %s gemaakt
+HOLIDAY_MODIFYInPowererp=Verzoek om verlof %s gewijzigd
+HOLIDAY_APPROVEInPowererp=Verzoek om verlof %s goedgekeurd
+HOLIDAY_DELETEInPowererp=Verzoek om verlof %s verwijderd
+EXPENSE_REPORT_CREATEInPowererp=Onkostenrapport %s aangemaakt
+EXPENSE_REPORT_VALIDATEInPowererp=Onkostenrapport %s gevalideerd
+EXPENSE_REPORT_APPROVEInPowererp=Onkostenrapport %s goedgekeurd
+EXPENSE_REPORT_DELETEInPowererp=Onkostenrapport %s verwijderd
+EXPENSE_REPORT_REFUSEDInPowererp=Onkostenrapport %s geweigerd
+PROJECT_MODIFYInPowererp=Project %s gewijzigd
+TICKET_CREATEInPowererp=Ticket %s aangemaakt
+TICKET_MODIFYInPowererp=Ticket %s aangepast
+AgendaModelModule=Document sjablonen voor een gebeurtenis
+AgendaUrlOptionsNotAdmin=<b>logina=!%s</b> om de uitvoer van acties te beperken die niet werden toegewezen aan de gebruiker <b>%s</b>.
+AgendaUrlOptions4=<b>logint=%s</b> om de uitvoer van acties te beperken die aan de gebruiker <b>%s</b> is toegewezen. (eigenaar en anderen).
+AgendaUrlOptionsProject=<b>project=__PROJECT_ID__</b> om de uitvoer te beperken tot acties die zijn gekoppeld aan project <b>__PROJECT_ID__</b>.
+AgendaUrlOptionsNotAutoEvent=<b>notactiontype=systemauto</b> om automatische gebeurtenis uit te sluiten.
+AgendaHideBirthdayEvents=Verberg verjaardagen van contacten
+ConfirmCloneEvent=Weet u zeker als u event <b>%s</b> wilt klonen?

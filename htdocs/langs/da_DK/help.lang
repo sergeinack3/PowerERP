@@ -1,0 +1,23 @@
+# Powererp language file - Source file is en_US - help
+CommunitySupport=Forum / Wiki støtte
+EMailSupport=Emails støtte
+RemoteControlSupport=Online realtids / fjernsupport
+OtherSupport=Anden support
+ToSeeListOfAvailableRessources=Til at kontakte / se tilgængelige ressourcer:
+HelpCenter=Hjælpecenter
+PowererpHelpCenter=Powererp Hjælp og supportcenter
+ToGoBackToPowererp=Ellers <a href="%s"> Klik her for at fortsætte med at bruge Powererp </a>.
+TypeOfSupport=Type af støtte
+TypeSupportCommunauty=Fællesskab (fri)
+TypeSupportCommercial=Tilbud
+TypeOfHelp=Type
+NeedHelpCenter=Need help or support?
+Efficiency=Effektivitet
+TypeHelpOnly=Hjælp kun
+TypeHelpDev=Hjælp + Udvikling
+TypeHelpDevForm=Hjælp + Udvikling + Træning
+BackToHelpCenter=Ellers <a href="%s"> gå tilbage til Hjemmesiden til Hjælpecenter </a>.
+LinkToGoldMember=Du kan ringe til en af ​​de undervisere, der er valgt af Powererp for dit sprog (%s) ved at klikke på deres Widget (status og maksimumspris opdateres automatisk):
+PossibleLanguages=Understøttede sprog
+SubscribeToFoundation=Hjælp Powererp-projektet, abonner på fundamentet
+SeeOfficalSupport=For official Powererp support in your language: <br><b><a href="%s" target="_blank">%s</a></b>

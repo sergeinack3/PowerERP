@@ -1,0 +1,115 @@
+# Powererp language file - fr_FR - projectbudget
+CHARSET=UTF-8
+
+# NOM DU MODULE
+projectbudget=ProjectBudget
+projectbudgetPresentation=Ventilation des achats sur les projets
+
+# ADMIN GENERAL
+NothingToSetup=Activez le module pour accéder à la page de configuration
+GeneralSetup=Paramètres généraux
+GeneralSetting=Paramètres généraux
+PatasTools=Outils Patas-M
+PatasMonkeyTools=Espace des outils Patas-monkey
+PatasToolsNews=Retrouvez ici les informations de patas-monkey.com (nécessite une connexion à internet)
+PatasMonkeyPresent=Ce module est une création des patas-monkey, une documentation de celui-ci est disponible sur notre site
+MoreModulesLink=Vous pouvez trouver tous nos développements sur le dolistore
+SettingIsOnToolsMenu=Le module ne nécessite pas de paramétrage particulier. <br/>Ses fonctionnalités sont accessibles depuis le menu principal 'Outils Patas-M'.
+BackToModuleList=Retour à la liste des modules
+NewVersionAviable=Une nouvelle version du module est disponible
+NumberVersion=Version
+MonthVersion=Mois de publication
+ChangesVersion=Principales modifications apportées
+projectbudgetSetup=Configuration du module ProjectBudget
+projectbudgetSettingValue=Paramétrage principal
+
+## ABOUT GENERAL
+About=À propos
+Slogan=Développement, support et formation pour Powererp
+LienModules=Nos modules
+LienServices=Nos services
+LienDoc=Nos documentations
+LienDolistore=Retrouvez nos autres modules
+Changelog=ChangeLog du module
+SupportModuleInformation=Informations techniques
+SupportModuleInformationDesc=<br/><em>Note : Ces informations sont utiles et pourront vous être demandées si vous rencontrez un bug dans le fonctionnement du module.</em>
+PowererpVersion=Version de Powererp
+ModuleVersion=Version du module
+PHPVersion=Version de PHP
+DatabaseVersion=Version de la base de données
+WebServerVersion=Version du serveur web
+
+## EXTRAFIELDS
+Extrafield=Attribut supplémentaire
+Extrafields=Attributs supplémentaires
+
+## ADMIN MODULE
+FournVentilationMode=Type de ventilation
+SelectVentilationMode=Sélection du type de ventilation
+OnOrder=Sur les commande
+OnInvoice=Sur les factures
+MixedModeOrderValueUsed=Mode Mixte - Totalisation des commandes
+MixedModeInvoiceValueUsed=Mode Mixte - Totalisation des factures
+DisplayDetailElement=Affichage des éléments par état d'affectation
+ShowListOfSupplierOrder=Commandes fournisseurs
+InfoShowListOfOrder=Affiche la liste des commandes fournisseurs associées au projet par état
+ShowListOfSupplierInvoice=Factures fournisseurs
+InfoShowListOfInvoice=Affiche la liste des factures fournisseurs associées au projet par état
+ShowListOfCustomerOrder=Commandes clients
+InfoShowListOfCustomerOrder=Affiche la liste des commandes clients associées au projet par état
+ShowListOfCustomerInvoice=Factures clients
+InfoShowListOfCustomerInvoice=Affiche la liste des factures clients associées au projet par état
+Statut=État
+
+## MENUS
+BudgetType=Type de ventilation
+
+## TYPE DE VENTILATION
+NewprojectbudgetType=Nouveau type de ventilation
+VentilationType=Type de ventilation
+NewType=Nouveau type de ventilation
+EditprojectbudgetType=Édition du type de ventilation
+BackToprojectbudgetTypeList=retour à la liste des types
+DeleteType=Supprimer
+ShowprojectbudgetType=Détail du type de ventilation
+projectbudgetType=Liste des types de ventilation
+
+##PERMISSIONS
+Permission1601501=Lire les ventilations
+Permission1601502=Affecter/modifier les ventilations
+Permission1601503=Supprimer les ventilations
+Permission1601505=Configurer les types de ventilation
+
+## PROJECTBUDGETTABS
+MntPlanned=Coût prévu
+MntRevised=Mnt. Révision
+MntOrderedYet=Mnt. Cde
+NbCmde=Nb. Cde
+
+MntBilledYet=Mnt. Fact
+NbFact=Nb. Fact
+
+MntAjusted=Écart
+MntBudget=Budget
+PctProgressPlanned=Evolution
+BudgetAchat=Ventilation des achats
+NotVentiled=Non affecté
+MntConsumed=Coût consommés
+LeftTime=Temps restant
+MntLeft=Coût restant
+TotalTime=Temps total
+MntTotal=Coût total
+NotApplied=N/A
+
+RefClient=Réf. Client
+UpdateBudget=Mettre à jour les valeurs de ventilation
+UpdateTask=Mettre à jour les charges de travail
+
+ShowAssociatedCustomerOrder=%s commande(s) client(s) associée(s)
+ShowAssociatedCustomerInvoice=%s facture(s) client(s) associée(s)
+ShowAssociatedOrder=%s commande(s) fournisseur(s) associée(s)
+ShowAssociatedInvoice=%s facture(s) fournisseur(s) associée(s)
+SelectFilterVentilationMode=Filtrer par le type d'achat fournisseur
+NoCustomerOrderAssociatedToProject=Aucune commande client associée au projet
+NoCustomerInvoiceAssociatedToProject=Aucune facture client associée au projet
+NoProjectSelected=Aucun projet lié

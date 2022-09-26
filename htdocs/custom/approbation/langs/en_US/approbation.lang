@@ -1,0 +1,55 @@
+ModuleName=Approvals
+approbationSetup=Approvals module setup
+ModuleDescapprobation=Approvals management
+approbation=Approvals
+
+
+Mes_approbations=My Approvals
+Mes_demandes=My requests
+Nouvelle_demande=New request
+Gestion_des_approbations=Approvals Management
+Liste_des_approbations=List of approvals
+Approbations_a_reviser=Approvals to review
+Types_d_approbations=Approvals types
+Type_d_approbation=Approval Type
+Aprovaltypename=Name of approval type
+Nouveau_type=New type
+Approval_Subject=Approval Subject
+Request_Owner=Request Owner
+periode=Period
+Requis=Required
+Éléments=Items
+Quantité=Quantity
+Référence=Reference
+Lieu=Location
+
+
+
+
+#-------------------------------------------------------- Imane
+etat=State
+add_demande=New request
+a_soumettre=To Submit
+soumis=Submitted
+confirme_resp=Approved
+refus=Refused
+#annulerapp=Canceled
+mesapprobations=Requests
+Approvers=Approvers 
+category=Category
+Aprovaldemandename=Approval request name
+nouv_demande=New request
+a_reviser=To Review
+approb_recherche_avancee=Advanced search
+srch_by_type=Search by approval type
+srch_by_demande=Search by requests
+recru_result_of_search=Research result
+
+
+
+
+
+
+
+
+

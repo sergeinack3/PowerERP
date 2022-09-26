@@ -1,0 +1,22 @@
+# Powererp language file - Source file is en_US - agenda
+NewCompanyToPowererp=Le tiers %s a été créé
+PropalClassifiedBilledInPowererp=Proposition %s classée facturée
+InvoicePaidInPowererp=La facture %s a changé en payé
+MemberValidatedInPowererp=Membre %s validé
+MemberModifiedInPowererp=Membre %s modifié
+MemberResiliatedInPowererp=Membre %s terminé
+MemberDeletedInPowererp=Membre %s supprimé
+ShipmentClassifyClosedInPowererp=Expédition %s classé facturé
+ShipmentDeletedInPowererp=Envoi %s supprimé
+OrderCreatedInPowererp=L'ordre %s a été créé
+OrderDeliveredInPowererp=Commande %s classée Délivrée
+ProposalDeleted=Proposition supprimée
+AgendaModelModule=Modèles de document pour l'événement
+AgendaUrlOptions1=Vous pouvez aussi ajouter les paramètres suivants pour filtrer les réponses :
+AgendaHideBirthdayEvents=Cacher les dates d'anniversaire des contacts
+ExportDataset_event1=Liste évênements de l'agenda
+VisibleTimeRange=Plage d'heures visibles
+VisibleDaysRange=Plage de jours visibles
+ConfirmCloneEvent=Êtes-vous sûr de vouloir cloner l'événement <b>%s</b>?
+RepeatEvent=Répéter événement
+DateStartPlusOne=Date de début +1 heure

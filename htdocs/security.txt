@@ -1,0 +1,5 @@
+# Security policies of Powererp ERP CRM project
+Contact: mailto:security@powererp.org
+Preferred-Languages: en
+Policy: https://github.com/Powererp/powererp/security/policy
+Expires: Sat, 31 Dec 2050 00:00:00 GMT

@@ -1,0 +1,182 @@
+Module940328081Name = <a target="_blank" href="https://www.dolibarrstore.com">Payslip</a>
+Module940328081Desc = <a target="_blank" href="https://www.dolibarrstore.com">Management of employee payslips - https://www.dolibarrstore.com <i style="font-size: 12px;" class="fa fa-external-link"></i></a>
+payrollmodSetup = Payslip module setup
+payrollmodAbout = About Payslip
+BackToModuleList = Back to the list of modules
+payrollmod=Payslip
+
+
+
+#---------------------------------------------------------
+payrollsemployee=Employee Payslips
+payrollmod2=Employee Bulletin
+payrollsname=Pay slip name
+payrollmodemploye=Employee
+payrollsalairenet=Net salary
+NewPayroll=New bulletin
+PAYROLLSLIP=Payslip
+Fiche_de_salaire=Payslip
+payrollmodmsgconfirmdelet=Are you sure you want to continue deleting?
+payrollcalculdesalaire=Salary calculation
+payrollofmonth=Period
+payrollmod_employe=Employee
+payrollmod_ref=Reference
+payrollmodeditormod=dolibarrstore.com
+payrollsdatepay=Payment date
+payrolllist=Employee Payslips
+payrolladd=New
+payrollrules=Salary Rules
+BASIQUE=Basic
+BRUT=Gross
+COTISATION=Contribution
+OTHER=Other
+
+
+payrollCode=N°
+payrollDesignation=Designation
+payrollBase=Base
+payrollTaux=Rate
+payrollSalariale_Patronale=Salary / Boss
+payrollRetenu_Gain=Retained / Gain
+payrollTotal=Total
+payrollCategorie=Category
+
+payrollMontant_de_base=Basic amount
+payrollPart_par_defaut=Default share
+payrollCalcule_automatiquement=Automatically calculated
+payrollMontant_fixe=Fixed amount
+payrollSalaire_de_base=Base salary
+#payrollSalaire_Brut_Imposable=Taxable Gross Salary
+payrollSalaire_Brut_Imposable=Gross Salary
+payrollSalariale=Salary
+payrollPatronale=Employer
+payrollGain=Gain (+)
+payrollRetenu=Retained (-)
+payrollGainSigne=+
+payrollRetenuSigne=-
+ChooseAnEmployee=Please choose an employee
+
+
+payrollBulletin_de_paie=Payslip
+payrollBulletin_de_salaire=Payslip
+payrollPeriode=Period
+payrollPaiement_le=Payment on
+payrollPar=By
+payrollMatricule=Registration number
+payrollSituation_F=F. Situation
+payrollNbre_enfants=Nbr of children
+payrollPart_IGR=Part IGR
+payrollAnciennete=Seniority
+payrollN_de_securite_sociale=Social Security N°
+payrollEmploi_occupe=Current job
+payrollQualification=Qualification
+payrollNbre_Jrs=Nbr of days
+payrollDate_d_embauche=Hiring date
+payrollAcquis=Acquired
+payrollReste_a_prendre=Remains to be taken
+payrollPrix=Price
+payrollRepos_comp=Comp. rest
+payrollConges=Leave
+payrollDates_de_conges=Holiday dates
+payrolldu=from
+payrollau=to
+payrollCommentaire=Comment
+payrollNombre=Number
+payrollPart_salariale=Wage share
+payrollPart_patronale=Employer's share
+payrollRetenue=Retenue
+payrollTotal_des_Cotisations=Total Contributions
+payrollSalaire_de_base=Base salary
+payrollCharges_salariales=Wage costs
+payrollCharges_patronales=Employer contributions
+payrollRetenus=Retained
+payrollTransports=Transportation
+payrollNet_a_payer=Net to pay
+payrolltipfooter=To help you assert your rights, keep this payslip indefinitely.
+payrollSignature_employe=Employee signature
+payrollCachet_et_signature_employeur=Employer's stamp and signature
+payrollPrintFile=Print
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------------------------------------------------- User
+beginpayrollmod2=Payslip
+endpayrollmod2=---
+payrollmatricule=Registration number
+payrollzone=Zone
+payrollcategorie=Category
+payrollechelon=Echelon
+payrollmodnummod=940328081
+payrollcnss=Social Security number
+
+
+
+SetupSavedpayroll = Configuration enregistrée
+Watermarkphoto=Watermark photo
+NewPayrollRule=New Payslip Rule
+NewPayrollRule2=New Rule
+listofpayroll=Payslip list
+
+
+
+
+
+
+
+
+
+#--------------------------------------------------------- 
+payrollIban_Rib=Iban / Rib
+payrollEmploi=Employment
+payrollStatut_professionnel=Professional status
+payrollNiveau=Level
+payrollEntree=Entry
+payrollConvention_collective=Collective agreement
+payrollElements_de_paie=Payroll elements
+payrollA_deduire=To deduct
+payrollA_payer=To pay
+payrollCharges_patronales=Employer contributions
+payrolltexte_en_gras=Bold text
+payrollTotal_des_Cotisations_contributions=Total contributions
+payrollNet_a_payer_avant_impot=Net payable before income tax
+
+payrollNet_paye=Net paid
+payrollHeures=Hours
+payrollHeures_suppl=Additional hours
+payrollBrut=Brut
+payroll_Plafond_S=S.S. Ceiling
+payrollNet_imposable=Net taxable
+payrolle_Ch_patronales=Employer cont.
+payrollCout_global=Global cost
+payrollTotal_verse=Total paid
+payrollAllegements=Reliefs
+payrollMensuel=Monthly
+payrollAnnuel=Annual
+payrollRepos_R=Repos R
+payrollAcquis=Acquired
+payrollPris=Taken
+payrollSolde=Balance
+payrollSalaire_brut=Gross salary
+payrollCumuls=Cumulative
+payrollJours_travailles=Worked days
+payrollAvantages_en_nature=Benefits in kind
+
+payrollmodelepaie=Payslip template
+payrollFranceModel=France
+payrollCamerounModel=Cameroon
+payrollCote_d_ivoireModel=Ivory Coast
+
+
+payrolltipfooter_france=In your interest, and to help you assert your rights, keep this payslip indefinitely. Further information : www.service-public.fr
+payrolltipfooter_cameroun=To help you make your rights, keep this payslip indefinitely.
+
+

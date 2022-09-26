@@ -1,0 +1,55 @@
+<changelog>
+<Version Number="3.5.+1.2.0" MonthVersion="2016-05">
+	<change type='fix'>3.4 / 3.5 compatibilty version</change>
+	<change type='fix'>sellers access right</change>
+	<change type='add'>order and pagination on list of process</change>
+</Version>
+<Version Number="3.6.+1.3.0" MonthVersion="2016-06">
+	<change type='add'>suppliers orders and bills have process feature</change>
+</Version>
+<Version Number="3.6.+1.3.1" MonthVersion="2016-08">
+	<change type='add'>percent of backlog proposal </change>
+</Version>
+<Version Number="3.7.+1.4.0" MonthVersion="2015-07">
+	<change type='fix'>3.7  compatibilty version (extrafields)</change>
+	<change type='fix'>minor admin change</change>
+</Version>
+<Version Number="3.7.+1.4.1" MonthVersion="2015-08">
+	<change type='add'>customised color on langs files : choose your rainbow</change>
+	<change type='add'>add user filter on calendar view and process_list</change>
+</Version>
+<Version Number="3.8.+1.5.0" MonthVersion="2015-09">
+	<change type='add'>factory, equipement, localise have process feature</change>
+	<change type='chg'>move module configuration to front</change>
+</Version>
+<Version Number="4.0.+1.6.0" MonthVersion="2016-11">
+	<change type='add'>xml changelog welcome</change>
+	<change type='chg'>4.0 Compatibility</change>
+	<change type='chg'>inline month display</change>
+</Version>
+<Version Number="6.0.+1.7.0" MonthVersion="2017-11">
+	<change type='fix'>6.0 Compatibility</change>
+</Version>
+<Version Number="6.0.+1.7.1" MonthVersion="2017-12">
+	<change type='fix'>new header management on calendar</change>
+</Version>
+<Version Number="7.0.+1.8.0" MonthVersion="2018-03">
+	<change type='fix'>7.0 Compatibility</change>
+</Version>
+<Version Number="7.0.+1.8.1" MonthVersion="2018-04">
+	<change type='fix'>factory calendar error</change>
+</Version>
+<Version Number="7.0.+1.8.2" MonthVersion="2018-06">
+	<change type='fix'>extrafields template error require vs include</change>
+</Version>
+<Version Number="8.0.+2.0.0" MonthVersion="2018-08">
+	<change type='inf'>8.0 Compatibility</change>
+	<change type='inf'>MAJOR VERSION, NOW USE OF fullcalendar plug-in</change>
+</Version>
+<Version Number="9.0.+2.1.0" MonthVersion="2019-04">
+	<change type='inf'>9.0 Compatibility</change>
+</Version>
+
+<!-- Remplir le undocumented.xml ? -->
+<Powererp minVersion="4.0.0"/>
+</changelog>
