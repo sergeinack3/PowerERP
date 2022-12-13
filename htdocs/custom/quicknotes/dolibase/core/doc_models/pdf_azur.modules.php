@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -34,7 +34,7 @@ class pdf_azur extends DocModel
 	public $type;
 
 	public $phpmin = array(4, 3, 0); // Minimum version of PHP required by model
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	public $page_largeur;
 	public $page_hauteur;
@@ -186,7 +186,7 @@ class pdf_azur extends DocModel
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities($object->doc_title));
-				$pdf->SetCreator('Powererp '.DOL_VERSION);
+				$pdf->SetCreator('PowerERP '.DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref).' '.$outputlangs->transnoentities($object->doc_title).' '.$outputlangs->convToOutputCharset($object->thirdparty->name));
 				if (! empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) $pdf->SetCompression(false);

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=Esta ferramenta só debe ser utilizada por usuarios ou desenvolvedores experimentados. Ofrece utilidades para construír ou editar o seu propio módulo. A documentación para o desenvolvemento <a href="%s" target="_blank" rel="noopener noreferrer">manual alternativo está aquí</a>
 EnterNameOfModuleDesc=Introduza o nome do módulo/aplicación a crear sen espazos. Use maiúsculas para separar palabras (por exemplo: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Introduza o nome do obxecto a crear sen espazos. Use maiúsculas para separar palabras (por exemplo: MyObject, Student, Teacher ...). Xerarase o ficheiro de clase CRUD, pero tamén o ficheiro API, páxinas para listar/engadir/editar/eliminar obxectos e ficheiros SQL.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Pode eliminar o seu módulo. AVISO: Eliminaranse t
 EnterNameOfObjectToDeleteDesc=Pode eliminar un obxecto. AVISO: Eliminaranse todos os ficheiros de codificación (xerados ou creados manualmente) relacionados co obxecto.
 DangerZone=Zona de perigo
 BuildPackage=Construír o paquete
-BuildPackageDesc=Pode xerar un paquete zip da súa aplicación para que estea listo para distribuílo en calquera Powererp. Tamén podes distribuílo ou vendelo no mercado como <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Pode xerar un paquete zip da súa aplicación para que estea listo para distribuílo en calquera PowerERP. Tamén podes distribuílo ou vendelo no mercado como <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Documentación de compilación
 ModuleIsNotActive=Este módulo aínda non está activado. Vaia a %s para activalo ou faga clic aquí
 ModuleIsLive=Este módulo activouse. Calquera cambio pode romper unha función activa actualmente.
@@ -101,7 +101,7 @@ HooksDefDesc=Define na propiedade <b> module_parts ['hooks'] </b>, no descriptor
 TriggerDefDesc=Defina no ficheiro de activación o código que quere executar cando se executa un evento empresarial externo ao seu módulo (eventos desencadeados por outros módulos). 
 SeeIDsInUse=Ver identificacións en uso na súa instalación
 SeeReservedIDsRangeHere=Ver o rango de identificacións reservadas
-ToolkitForDevelopers=Kit de ferramentas para desenvolvedores Powererp
+ToolkitForDevelopers=Kit de ferramentas para desenvolvedores PowerERP
 TryToUseTheModuleBuilder=Se ten coñecemento de SQL e PHP, pode empregar o asistente para o creador de módulos nativos. <br> Active o módulo <strong>%s </strong> e use o asistente facendo clic no <span class="fa fa-bug "> </span> no menú superior dereito. <br> Aviso: esta é unha función avanzada para desenvolvedores, <b> non </b> experimente no seu sitio de produción.
 SeeTopRightMenu=Ver <span class="fa fa-bug"> </span> no menú superior dereito
 AddLanguageFile=Engadir ficheiro de idioma

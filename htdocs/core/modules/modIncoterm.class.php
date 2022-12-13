@@ -24,13 +24,13 @@
  *  \ingroup    incoterm
  *  \brief      Description and activation file for the module MyModule
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *  Description and activation class for module MyModule
  */
-class modIncoterm extends PowererpModules
+class modIncoterm extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -44,7 +44,7 @@ class modIncoterm extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 62000;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'incoterm';
@@ -53,7 +53,7 @@ class modIncoterm extends PowererpModules
 		$this->family = "srm";
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Incoterm management";
-		$this->version = 'powererp';
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'incoterm';
@@ -69,7 +69,7 @@ class modIncoterm extends PowererpModules
 		$this->requiredby = array(); // List of module ids to disable if this one is disabled
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(3, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3, 0); // Minimum version of PowerERP required by module
 		$this->langfiles = array("incoterm");
 
 		$this->const = array(

@@ -18,4 +18,4 @@ ModuleZapierForPowererpDesc = وحدة زابيا لدوليبار
 ZapierForPowererpSetup=إعدادات زابيا لدوليبار
 ZapierDescription=الربط مع زابيا
 ZapierAbout=عن وحدة زابيا
-ZapierSetupPage=لا حاجة للاعدادات من جانب دوليبار لاستخدام زابيا على دوليبار.\nلكن، لابد من إنشاء حزمة على جانب زابيا لاستخدام زابيا على دوليبار. راجع التوثيق <a href="https://wiki.powererp.org/index.php/Module_Zapier">على هذه الصفحة</a>
+ZapierSetupPage=لا حاجة للاعدادات من جانب دوليبار لاستخدام زابيا على دوليبار.\nلكن، لابد من إنشاء حزمة على جانب زابيا لاستخدام زابيا على دوليبار. راجع التوثيق <a href="https://wiki.PowerERP.org/index.php/Module_Zapier">على هذه الصفحة</a>

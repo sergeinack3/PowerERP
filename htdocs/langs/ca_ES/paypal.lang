@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=Configuració mòdul PayPal
-PaypalDesc=Aquest mòdul permet el pagament dels clients mitjançant <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Això es pot utilitzar per a un pagament ad hoc o per a un pagament relacionat amb un objecte Powererp (factura, comanda, ...)
+PaypalDesc=Aquest mòdul permet el pagament dels clients mitjançant <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Això es pot utilitzar per a un pagament ad hoc o per a un pagament relacionat amb un objecte PowerERP (factura, comanda, ...)
 PaypalOrCBDoPayment=Paga amb PayPal (targeta de crèdit o PayPal)
 PaypalDoPayment=Paga amb PayPal
 PAYPAL_API_SANDBOX=Mode de proves(sandbox)

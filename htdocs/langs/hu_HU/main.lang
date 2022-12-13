@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Nincs kérés a hibában
 ErrorServiceUnavailableTryLater=A szolgáltatás nem elérhető. Kérjük ismételd meg később.
 ErrorDuplicateField=Két példányú érték egyedülálló mezőben
 ErrorSomeErrorWereFoundRollbackIsDone=Hibát találtunk. A változtatások nincsenek elmentve.
-ErrorConfigParameterNotDefined=A <b>%s</b> paraméter nincs definiálva a <b>conf.php</b> Powererp configurációs fájlban .
-ErrorCantLoadUserFromPowererpDatabase=<b>%s</b> felhasználó nem található a Powererp adatbázisban.
+ErrorConfigParameterNotDefined=A <b>%s</b> paraméter nincs definiálva a <b>conf.php</b> PowerERP configurációs fájlban .
+ErrorCantLoadUserFromPowererpDatabase=<b>%s</b> felhasználó nem található a PowerERP adatbázisban.
 ErrorNoVATRateDefinedForSellerCountry=Hiba '%s' számára nincs Áfa meghatározva.
 ErrorNoSocialContributionForSellerCountry=Hiba, nincsenek meghatározva társadalombiztosítási és adóügyi adattípusok a '%s' ország részére.
 ErrorFailedToSaveFile=Hiba, nem sikerült a fájl mentése.
@@ -95,7 +95,7 @@ RecordDeleted=Rekord törölve
 RecordGenerated=Rekord létrehozva
 LevelOfFeature=Funkciók szintje
 NotDefined=Nem meghatározott
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp hitelesítési mód beélítva ehhez <b>%s</b> a <b>conf.php</b> beállító fájlban.<br>Ez azt jelenti, hogy ez a jelszó adatbázis Powererp rendszertől független, így ennek a mezönek a megváltoztatása nem befolyásoló.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP hitelesítési mód beélítva ehhez <b>%s</b> a <b>conf.php</b> beállító fájlban.<br>Ez azt jelenti, hogy ez a jelszó adatbázis PowerERP rendszertől független, így ennek a mezönek a megváltoztatása nem befolyásoló.
 Administrator=Rendszergazda
 Undefined=Nincs definiálva
 PasswordForgotten=Elfelejtett jelszó ?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Adatbázis tipus kezelő
 RequestLastAccessInError=Az utolsó adatbázis hozzáférés hibaüzenete
 ReturnCodeLastAccessInError=Az utolsó adatbázis hozzáférés hibakódja
 InformationLastAccessInError=Az utolsó adatbázis hozzáférési hiba leírása
-PowererpHasDetectedError=A Powererp technikai hibát észlelt
+PowererpHasDetectedError=A PowerERP technikai hibát észlelt
 YouCanSetOptionPowererpMainProdToZero=Elolvashatja a naplófájlt, vagy beállíthatja a $ powererp_main_prod opciót '0' értékre a konfigurációs fájlban, hogy további információkat kapjon.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=További információ
@@ -122,7 +122,7 @@ TechnicalID=Technikai azon.
 LineID=Sorazonosító
 NotePublic=Megjegyzés (nyilvános)
 NotePrivate=Megjegyzés (privát)
-PrecisionUnitIsLimitedToXDecimals=Powererp beállított pontossági határral az egység árakhoz <b>%s</b> decimálisokkal.
+PrecisionUnitIsLimitedToXDecimals=PowerERP beállított pontossági határral az egység árakhoz <b>%s</b> decimálisokkal.
 DoTest=Teszt
 ToFilter=Szűrő
 NoFilter=Nincs szűrő
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Tagok
 MenuAgendaGoogle=Google naptár
 MenuTaxesAndSpecialExpenses=Adók | Különleges kiadások
-ThisLimitIsDefinedInSetup=Powererp limit (Menu home-setup-security): %s Kb, PHP limit: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP limit (Menu home-setup-security): %s Kb, PHP limit: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
 NoFileFound=No documents uploaded
 CurrentUserLanguage=Jelenlegi nyelv
 CurrentTheme=Jelenlegi téma
@@ -909,7 +909,7 @@ ViewFlatList=Lapos lista megtekintése
 ViewAccountList=Főkönyv megtekintése
 ViewSubAccountList=Alszámlák megtekintése
 RemoveString=Távolítsa el a '%s' karakterláncot
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Nyilvános letöltési link
 PublicDownloadLinkDesc=Only the link is required to download the file
 DirectDownloadInternalLink=Privát letöltési link

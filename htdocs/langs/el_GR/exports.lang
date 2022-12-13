@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ExportsArea=Εξαγωγές
 ImportArea=Εισαγωγή
 NewExport=Νέα εξαγωγή
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Επιλέξτε τη μορφή αρχείου πο�
 ChooseFileToImport=Μεταφορτώστε το αρχείο και κάντε κλικ στο εικονίδιο %s για να επιλέξετε αρχείο ως αρχείο εισαγωγής πηγής ...
 SourceFileFormat=Source file format
 FieldsInSourceFile=Fields in source file
-FieldsInTargetDatabase=Τομείς-στόχοι που Powererp δεδομένων (bold = υποχρεωτικό)
+FieldsInTargetDatabase=Τομείς-στόχοι που PowerERP δεδομένων (bold = υποχρεωτικό)
 Field=Field
 NoFields=No fields
 MoveField=Move field column number %s

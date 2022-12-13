@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -62,7 +62,7 @@ ErrorServiceUnavailableTryLater=Ayni paytda xizmat mavjud emas. Keyinroq qayta u
 ErrorDuplicateField=Noyob maydonda takroriy qiymat
 ErrorSomeErrorWereFoundRollbackIsDone=Ba'zi xatolar topildi. O'zgarishlar orqaga qaytarildi.
 ErrorConfigParameterNotDefined=<b> %s </b> parametri <b> conf.php </b> konfiguratsiya faylida aniqlanmagan.
-ErrorCantLoadUserFromPowererpDatabase=Powererp ma'lumotlar bazasida <b> %s </b> foydalanuvchisi topilmadi.
+ErrorCantLoadUserFromPowererpDatabase=PowerERP ma'lumotlar bazasida <b> %s </b> foydalanuvchisi topilmadi.
 ErrorNoVATRateDefinedForSellerCountry=Xato, '%s' mamlakati uchun QQS stavkalari aniqlanmagan.
 ErrorNoSocialContributionForSellerCountry=Xato, '%s' mamlakati uchun ijtimoiy / soliq soliqlari turi aniqlanmagan.
 ErrorFailedToSaveFile=Xato, faylni saqlab bo'lmadi.
@@ -95,7 +95,7 @@ RecordDeleted=Yozuv o'chirildi
 RecordGenerated=Yozuv yaratildi
 LevelOfFeature=Xususiyatlar darajasi
 NotDefined=Belgilanmagan
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp autentifikatsiya qilish rejimi <b> conf.php </b> konfiguratsiya faylida <b> %s </b> ga o'rnatildi. <br> bu shuni anglatadiki, parol ma'lumotlar bazasi Powererp uchun tashqi, shuning uchun bu maydonni o'zgartirish hech qanday ta'sir ko'rsatmasligi mumkin.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP autentifikatsiya qilish rejimi <b> conf.php </b> konfiguratsiya faylida <b> %s </b> ga o'rnatildi. <br> bu shuni anglatadiki, parol ma'lumotlar bazasi PowerERP uchun tashqi, shuning uchun bu maydonni o'zgartirish hech qanday ta'sir ko'rsatmasligi mumkin.
 Administrator=Ma'mur
 Undefined=Aniqlanmagan
 PasswordForgotten=Parol unutdingizmi?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Ma'lumotlar bazasi turi menejeri
 RequestLastAccessInError=Ma'lumotlar bazasiga kirish uchun so'nggi so'rov xatosi
 ReturnCodeLastAccessInError=So'nggi ma'lumotlar bazasiga kirish uchun so'rov xatosi uchun qaytarish kodi
 InformationLastAccessInError=So'nggi ma'lumotlar bazasiga kirish so'rovining xatosi haqida ma'lumot
-PowererpHasDetectedError=Powererp texnik xatolikni aniqladi
+PowererpHasDetectedError=PowerERP texnik xatolikni aniqladi
 YouCanSetOptionPowererpMainProdToZero=Qo'shimcha ma'lumot olish uchun log faylini o'qishingiz yoki konfiguratsiya faylingizda $ powererp_main_prod parametrini '0' ga o'rnatishingiz mumkin.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Qo'shimcha ma'lumot
@@ -122,7 +122,7 @@ TechnicalID=Texnik guvohnoma
 LineID=Qator identifikatori
 NotePublic=Izoh (ommaviy)
 NotePrivate=Izoh (xususiy)
-PrecisionUnitIsLimitedToXDecimals=Powererp birlik narxlarining aniqligini <b> %s </b> o'nliklariga cheklash uchun o'rnatildi.
+PrecisionUnitIsLimitedToXDecimals=PowerERP birlik narxlarining aniqligini <b> %s </b> o'nliklariga cheklash uchun o'rnatildi.
 DoTest=Sinov
 ToFilter=Filtr
 NoFilter=Filtr yo‘q
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=A'zolar
 MenuAgendaGoogle=Google kun tartibi
 MenuTaxesAndSpecialExpenses=Soliqlar | Maxsus xarajatlar
-ThisLimitIsDefinedInSetup=Powererp limiti (menyuda uyni sozlash-xavfsizlik): %s Kb, PHP limit: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp limiti (Menyu %s): %s Kb, PHP limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP limiti (menyuda uyni sozlash-xavfsizlik): %s Kb, PHP limit: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limiti (Menyu %s): %s Kb, PHP limit (Param %s): %s Kb
 NoFileFound=Hech qanday hujjat yuklanmadi
 CurrentUserLanguage=Joriy til
 CurrentTheme=Joriy mavzu
@@ -909,7 +909,7 @@ ViewFlatList=Yassi ro'yxatni ko'rish
 ViewAccountList=Hisob kitobini ko'rish
 ViewSubAccountList=Hisob osti daftarini ko'rish
 RemoveString='%s' qatorini olib tashlash
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Umumiy yuklab olish havolasi
 PublicDownloadLinkDesc=Faylni yuklab olish uchun faqat havola kerak
 DirectDownloadInternalLink=Shaxsiy yuklab olish havolasi

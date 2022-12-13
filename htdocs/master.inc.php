@@ -28,7 +28,7 @@
 /**
  *	\file       htdocs/master.inc.php
  * 	\ingroup	core
- *  \brief      File that defines environment for all Powererp process (pages or scripts)
+ *  \brief      File that defines environment for all PowerERP process (pages or scripts)
  * 				This script reads the conf file, init $lang, $db and and empty $user
  */
 
@@ -82,7 +82,7 @@ $conf->file->main_force_https = empty($powererp_main_force_https) ? '' : $powere
 $conf->file->strict_mode = empty($powererp_strict_mode) ? '' : $powererp_strict_mode; // Force php strict mode (for debug)
 $conf->file->instance_unique_id = empty($powererp_main_instance_unique_id) ? (empty($powererp_main_cookie_cryptkey) ? '' : $powererp_main_cookie_cryptkey) : $powererp_main_instance_unique_id; // Unique id of instance
 $conf->file->dol_document_root = array('main' => (string) DOL_DOCUMENT_ROOT); // Define array of document root directories ('/home/htdocs')
-$conf->file->dol_url_root = array('main' => (string) DOL_URL_ROOT); // Define array of url root path ('' or '/powererp')
+$conf->file->dol_url_root = array('main' => (string) DOL_URL_ROOT); // Define array of url root path ('' or '/PowerERP')
 if (!empty($powererp_main_document_root_alt)) {
 	// powererp_main_document_root_alt can contains several directories
 	$values = preg_split('/[;,]/', $powererp_main_document_root_alt);
@@ -200,7 +200,7 @@ if (!is_numeric($conf->entity)) {
 //print "We work with data into entity instance number '".$conf->entity."'";
 $conf->setValues($db);
 
-// Create object $mysoc (A thirdparty object that contains properties of companies managed by Powererp.
+// Create object $mysoc (A thirdparty object that contains properties of companies managed by PowerERP.
 if (!defined('NOREQUIREDB') && !defined('NOREQUIRESOC')) {
 	require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
 

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=HRM аймағы
 UserCard=Қолданушы картасы
 GroupCard=Топтық карта
@@ -37,7 +37,7 @@ SuperAdministratorDesc=Жаһандық әкімші
 AdministratorDesc=Әкімші
 DefaultRights=Әдепкі рұқсаттар
 DefaultRightsDesc=<u> жаңа </u> пайдаланушыға автоматты түрде берілетін <u> әдепкі </u> рұқсаттарын анықтаңыз (бар пайдаланушылардың рұқсаттарын өзгерту үшін пайдаланушы картасына өтіңіз).
-PowererpUsers=Powererp қолданушылары
+PowererpUsers=PowerERP қолданушылары
 LastName=Тек
 FirstName=Аты
 ListOfGroups=Топтардың тізімі
@@ -66,7 +66,7 @@ LinkedToPowererpUser=Link to user
 LinkedToPowererpThirdParty=Link to third party
 CreatePowererpLogin=Пайдаланушы жасаңыз
 CreatePowererpThirdParty=Үшінші тарап құру
-LoginAccountDisableInPowererp=Powererp есептік жазбасы өшірілген.
+LoginAccountDisableInPowererp=PowerERP есептік жазбасы өшірілген.
 UsePersonalValue=Жеке құндылықты қолданыңыз
 InternalUser=Ішкі қолданушы
 ExportDataset_user_1=Қолданушылар және олардың қасиеттері
@@ -90,8 +90,8 @@ UserDeleted=%s пайдаланушысы жойылды
 NewGroupCreated=%s тобы құрылды
 GroupModified=%s тобы өзгертілді
 GroupDeleted=%s тобы жойылды
-ConfirmCreateContact=Бұл контакт үшін Powererp есептік жазбасын жасағыңыз келетініне сенімдісіз бе?
-ConfirmCreateLogin=Осы мүше үшін Powererp есептік жазбасын жасағыңыз келетініне сенімдісіз бе?
+ConfirmCreateContact=Бұл контакт үшін PowerERP есептік жазбасын жасағыңыз келетініне сенімдісіз бе?
+ConfirmCreateLogin=Осы мүше үшін PowerERP есептік жазбасын жасағыңыз келетініне сенімдісіз бе?
 ConfirmCreateThirdParty=Осы мүше үшін үшінші тарапты құрғыңыз келетініне сенімдісіз бе?
 LoginToCreate=Жасау үшін кіріңіз
 NameToCreate=Жасалатын үшінші тараптың атауы

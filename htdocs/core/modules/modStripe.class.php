@@ -23,13 +23,13 @@
  *  \ingroup    stripe
  *  \brief      Description and activation file for the module Stripe
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  * 	Description and activation class for module Paybox
  */
-class modStripe extends PowererpModules
+class modStripe extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -41,7 +41,7 @@ class modStripe extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 50300;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'stripe';
@@ -53,8 +53,8 @@ class modStripe extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Module to offer an online payment page by credit card with Stripe";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of image file used for this module.
@@ -73,7 +73,7 @@ class modStripe extends PowererpModules
 		$this->depends = array(); // List of modules id that must be enabled if this module is enabled
 		$this->requiredby = array(); // List of modules id to disable if this one is disabled
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(5, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(5, 0); // Minimum version of PowerERP required by module
 		$this->langfiles = array("stripe");
 
 		// Constants

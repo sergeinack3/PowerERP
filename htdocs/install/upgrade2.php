@@ -40,7 +40,7 @@
 
 include_once 'inc.php';
 if (!file_exists($conffile)) {
-	print 'Error: Powererp config file was not found. This may means that Powererp is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
+	print 'Error: PowerERP config file was not found. This may means that PowerERP is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
 }
 require_once $conffile;
 require_once $powererp_main_document_root.'/compta/facture/class/facture.class.php';
@@ -203,7 +203,7 @@ if (!GETPOST('action', 'aZ09') || preg_match('/upgrade/i', GETPOST('action', 'aZ
 		$versionranarray = explode('.', DOL_VERSION);
 
 
-		// Force to execute this at begin to avoid the new core code into Powererp to be broken.
+		// Force to execute this at begin to avoid the new core code into PowerERP to be broken.
 		$sql = 'ALTER TABLE '.MAIN_DB_PREFIX.'user ADD COLUMN birth date';
 		$db->query($sql, 1);
 		$sql = 'ALTER TABLE '.MAIN_DB_PREFIX.'user ADD COLUMN dateemployment date';

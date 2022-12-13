@@ -22,13 +22,13 @@
  *  \ingroup    collab
  *  \brief      Description and activation file for the module Collab
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe Websites module
  */
-class modCollab extends PowererpModules
+class modCollab extends PowerERPModules
 {
 
 	/**
@@ -50,7 +50,7 @@ class modCollab extends PowererpModules
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Enable the public collaboration features, like shared pad, shared online sheets, etc...";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = 'development';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);

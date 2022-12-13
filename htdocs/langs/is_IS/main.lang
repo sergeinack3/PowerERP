@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Nei, farið fram á villu
 ErrorServiceUnavailableTryLater=Service not available at the moment. Try again later.
 ErrorDuplicateField=Tvöfalt gildi í einstakri sviði
 ErrorSomeErrorWereFoundRollbackIsDone=Some errors were found. Changes have been rolled back.
-ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the Powererp config file <b>conf.php</b>.
-ErrorCantLoadUserFromPowererpDatabase=Gat ekki fundið <b>notandann %s </b> í Powererp gagnagrunninum.
+ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the PowerERP config file <b>conf.php</b>.
+ErrorCantLoadUserFromPowererpDatabase=Gat ekki fundið <b>notandann %s </b> í PowerERP gagnagrunninum.
 ErrorNoVATRateDefinedForSellerCountry=Villa, enginn VSK hlutfall er skilgreind fyrir% landsins.
 ErrorNoSocialContributionForSellerCountry=Error, no social/fiscal taxes type defined for country '%s'.
 ErrorFailedToSaveFile=Villa tókst að vista skrána.
@@ -95,7 +95,7 @@ RecordDeleted=Record deleted
 RecordGenerated=Record generated
 LevelOfFeature=Stig af lögun
 NotDefined=Ekki skilgreint
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp authentication mode is set to <b>%s</b> in configuration file <b>conf.php</b>.<br>This means that the password database is external to Powererp, so changing this field may have no effect.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP authentication mode is set to <b>%s</b> in configuration file <b>conf.php</b>.<br>This means that the password database is external to PowerERP, so changing this field may have no effect.
 Administrator=Stjórnandi
 Undefined=Óskilgreint
 PasswordForgotten=Password forgotten?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Gagnasafn tegund framkvæmdastjóri
 RequestLastAccessInError=Latest database access request error
 ReturnCodeLastAccessInError=Return code for latest database access request error
 InformationLastAccessInError=Information for latest database access request error
-PowererpHasDetectedError=Powererp hefur fundist tæknilega villu
+PowererpHasDetectedError=PowerERP hefur fundist tæknilega villu
 YouCanSetOptionPowererpMainProdToZero=You can read log file or set option $powererp_main_prod to '0' in your config file to get more information.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Meiri upplýsingar
@@ -122,7 +122,7 @@ TechnicalID=Technical ID
 LineID=Line ID
 NotePublic=Ath (public)
 NotePrivate=Ath (einka)
-PrecisionUnitIsLimitedToXDecimals=Powererp var skipulag að takmarka nákvæmni verði eining <b>í %s </b> brotum.
+PrecisionUnitIsLimitedToXDecimals=PowerERP var skipulag að takmarka nákvæmni verði eining <b>í %s </b> brotum.
 DoTest=Próf
 ToFilter=Sía
 NoFilter=No filter
@@ -732,8 +732,8 @@ MenuAWStats=Awstats
 MenuMembers=Members
 MenuAgendaGoogle=Google dagskrá
 MenuTaxesAndSpecialExpenses=Taxes | Special expenses
-ThisLimitIsDefinedInSetup=Powererp takmörk (Valmynd heim-skipulag-öryggi): %s  KB, PHP takmörk: %s  Kb
-ThisLimitIsDefinedInSetupAt=Powererp limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP takmörk (Valmynd heim-skipulag-öryggi): %s  KB, PHP takmörk: %s  Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
 NoFileFound=No documents uploaded
 CurrentUserLanguage=Valið tungumál
 CurrentTheme=Núverandi þema
@@ -909,7 +909,7 @@ ViewFlatList=View flat list
 ViewAccountList=View ledger
 ViewSubAccountList=View subaccount ledger
 RemoveString=Remove string '%s'
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Public download link
 PublicDownloadLinkDesc=Only the link is required to download the file
 DirectDownloadInternalLink=Private download link

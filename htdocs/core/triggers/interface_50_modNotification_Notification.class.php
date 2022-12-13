@@ -45,7 +45,7 @@ class InterfaceNotification extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "notification";
 		$this->description = "Triggers of this module send email notifications according to Notification module setup.";
-		// 'development', 'experimental', 'powererp' or version
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = self::VERSION_DOLIBARR;
 		$this->picto = 'email';
 

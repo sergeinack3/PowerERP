@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -27,7 +27,7 @@ require_once DOL_DOCUMENT_ROOT . '/core/class/doleditor.class.php';
 class CustomForm extends Form
 {
 	/**
-	 * @var object used to call Powererp more form functions like: color picker
+	 * @var object used to call PowerERP more form functions like: color picker
 	 */
 	public $other;
 

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=دليل
 ECMSectionManual=دليل دليل
@@ -15,7 +15,7 @@ ECMNbOfSubDir=من دون أدلة
 ECMNbOfFilesInSubDir=عدد الملفات في الدلائل الفرعية
 ECMCreationUser=مبدع
 ECMArea=DMS/ECM area
-ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in Powererp.
+ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in PowerERP.
 ECMAreaDesc2=* أدلة تلقائية تملأ تلقائيا عند إضافة الوثائق من بطاقة عنصر. <br> * دليل أدلة يمكن استخدامها لانقاذ وثائق ليست مرتبطة بشكل خاص عنصر.
 ECMSectionWasRemoved=دليل <b>٪ ق</b> حذفت.
 ECMSectionWasCreated=Directory <b>%s</b> has been created.

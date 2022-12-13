@@ -6,7 +6,7 @@
 # Generic
 #
 QuickNotes = Quick-Notes
-QuickNotesDescription = Allows each user to take & view their notes from any Powererp page
+QuickNotesDescription = Allows each user to take & view their notes from any PowerERP page
 Notes = Notes
 ClearAll = Clear
 SaveAndClose = Save & Close

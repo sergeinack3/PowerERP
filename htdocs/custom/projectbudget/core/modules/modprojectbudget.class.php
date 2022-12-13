@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowererpModules.class.php");
+include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowerERPModules.class.php");
 
 /**
  * 		\class	  modMyModule
  *	  \brief	  Description and activation class for module MyModule
  */
-class modprojectbudget extends PowererpModules
+class modprojectbudget extends PowerERPModules
 {
 	/**
 	 *   \brief	  Constructor. Define names, constants, directories, boxes, permissions
@@ -34,7 +34,7 @@ class modprojectbudget extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 160701;
 
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found 
@@ -52,7 +52,7 @@ class modprojectbudget extends PowererpModules
 		$this->description = $langs->trans("projectbudgetPresentation");
 		
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = $this->getLocalVersion();
 
 		// Key used in llx_const table to save module status enabled/disabled 
@@ -79,7 +79,7 @@ class modprojectbudget extends PowererpModules
 		// List of modules id that must be enabled if this module is enabled
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->phpmin = array(4,3);					// Minimum version of PHP required by module
-		$this->need_powererp_version = array(3,4);	// Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3,4);	// Minimum version of PowerERP required by module
 
 		$this->langfiles = array($this->name."@".$this->name);
 
@@ -148,7 +148,7 @@ class modprojectbudget extends PowererpModules
 
 	/**
 	 *		\brief	  Function called when module is enabled.
-	 *					The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *					The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *					It also creates data directories.
 	 *	  \return	 int			 1 if OK, 0 if KO
 	 */
@@ -165,7 +165,7 @@ class modprojectbudget extends PowererpModules
 
 	/**
 	 *		\brief		Function called when module is disabled.
-	 *			  	Remove from database constants, boxes and permissions from Powererp database.
+	 *			  	Remove from database constants, boxes and permissions from PowerERP database.
 	 *					Data directories are not deleted.
 	 *	  \return	 int			 1 if OK, 0 if KO
 	 */
@@ -214,7 +214,7 @@ class modprojectbudget extends PowererpModules
 		else {
 			$tblversionslast=$sxelast->Version;
 			$currentversion = $tblversionslast[count($tblversionslast)-1]->attributes()->Number;
-			$tblPowererp=$sxelast->Powererp;
+			$tblPowererp=$sxelast->PowerERP;
 			$minVersionPowererp=$tblPowererp->attributes()->minVersion;
 			if ((int) DOL_VERSION < (int) $minVersionPowererp) {
 				$this->powererpminversion=$minVersionPowererp;

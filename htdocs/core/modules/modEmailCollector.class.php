@@ -23,13 +23,13 @@
  *  \ingroup    emailcollector
  *  \brief      Description and activation file for the module emailcollector
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *  Description and activation class for module emailcollector
  */
-class modEmailCollector extends PowererpModules
+class modEmailCollector extends PowerERPModules
 {
 	/**
 	 * Constructor. Define names, constants, directories, boxes, permissions
@@ -43,7 +43,7 @@ class modEmailCollector extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 50320;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'emailcollector';
@@ -63,8 +63,8 @@ class modEmailCollector extends PowererpModules
 		// Used only if file README.md and README-LL.md not found.
 		$this->descriptionlong = "EmailCollectorDescription";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp', 'powererp_deprecated' or a version string like 'x.y.z'
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'powererp_deprecated' or a version string like 'x.y.z'
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where DAV is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of image file used for this module.
@@ -92,7 +92,7 @@ class modEmailCollector extends PowererpModules
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->langfiles = array("admin");
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(7, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(7, 0); // Minimum version of PowerERP required by module
 		$this->warnings_activation = array(); // Warning to show when we activate module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		$this->warnings_activation_ext = array(); // Warning to show when we activate an external module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		//$this->automatic_activation = array('FR'=>'davWasAutomaticallyActivatedBecauseOfYourCountryChoice');
@@ -255,7 +255,7 @@ class modEmailCollector extends PowererpModules
 
 	/**
 	 *	Function called when module is enabled.
-	 *	The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *	The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *	It also creates data directories
 	 *
 	 *	@param      string	$options    Options when enabling module ('', 'noboxes')
@@ -301,7 +301,7 @@ class modEmailCollector extends PowererpModules
 		$tmpresql = $this->db->query($tmpsql);
 		if ($tmpresql) {
 			if ($this->db->num_rows($tmpresql) == 0) {
-				$descriptionA1 = 'This collector will scan your mailbox "Sent" directory to find emails that was sent as an answer of another email directly from your email software and not from Powererp. If such an email is found, the event of answer is recorded into Powererp.';
+				$descriptionA1 = 'This collector will scan your mailbox "Sent" directory to find emails that was sent as an answer of another email directly from your email software and not from PowerERP. If such an email is found, the event of answer is recorded into PowerERP.';
 
 				$sqlforexampleA1 = "INSERT INTO ".MAIN_DB_PREFIX."emailcollector_emailcollector (entity, ref, label, description, source_directory, date_creation, fk_user_creat, status)";
 				$sqlforexampleA1 .= " VALUES (".$conf->entity.", 'Collect_Responses_Out', 'Example to collect answers to emails done from your external email software', '".$this->db->escape($descriptionA1)."', 'Sent', '".$this->db->idate(dol_now())."', ".((int) $user->id).", 0)";
@@ -327,7 +327,7 @@ class modEmailCollector extends PowererpModules
 				$descriptionB1 = 'This collector will scan your mailbox to find all emails that are an answer of an email sent from your application. An event (Module Agenda must be enabled) with the email response will be recorded at the good place. For example, if your send a commercial proposal, order, invoice or message for a ticket by email from the application, and your customer answers your email, the system will automatically catch the answer and add it into your ERP.';
 
 				$sqlforexampleB1 = "INSERT INTO ".MAIN_DB_PREFIX."emailcollector_emailcollector (entity, ref, label, description, source_directory, date_creation, fk_user_creat, status)";
-				$sqlforexampleB1 .= " VALUES (".$conf->entity.", 'Collect_Responses_In', 'Example to collect any received email that is a response of an email sent from Powererp', '".$this->db->escape($descriptionB1)."', 'INBOX', '".$this->db->idate(dol_now())."', ".((int) $user->id).", 0)";
+				$sqlforexampleB1 .= " VALUES (".$conf->entity.", 'Collect_Responses_In', 'Example to collect any received email that is a response of an email sent from PowerERP', '".$this->db->escape($descriptionB1)."', 'INBOX', '".$this->db->idate(dol_now())."', ".((int) $user->id).", 0)";
 				$sqlforexampleB2 = "INSERT INTO ".MAIN_DB_PREFIX."emailcollector_emailcollectorfilter (fk_emailcollector, type, date_creation, fk_user_creat, status)";
 				$sqlforexampleB2 .= " VALUES ((SELECT rowid FROM ".MAIN_DB_PREFIX."emailcollector_emailcollector WHERE ref = 'Collect_Responses_In' and entity = ".((int) $conf->entity)."), 'isanswer', '".$this->db->idate(dol_now())."', ".((int) $user->id).", 1)";
 				$sqlforexampleB3 = "INSERT INTO ".MAIN_DB_PREFIX."emailcollector_emailcollectoraction (fk_emailcollector, type, date_creation, fk_user_creat, status)";
@@ -407,7 +407,7 @@ class modEmailCollector extends PowererpModules
 
 	/**
 	 *	Function called when module is disabled.
-	 *	Remove from database constants, boxes and permissions from Powererp database.
+	 *	Remove from database constants, boxes and permissions from PowerERP database.
 	 *	Data directories are not deleted
 	 *
 	 *	@param      string	$options    Options when enabling module ('', 'noboxes')

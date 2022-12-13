@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -428,7 +428,7 @@ class Page
 	 *                                                          array('name' => 'Column2', 'attr' => 'align="center" width="20"')
 	 *                                                      )
 	 * @param   $attr             table attributes
-	 * @param   $print_fiche_head print Powererp fiche head
+	 * @param   $print_fiche_head print PowerERP fiche head
 	 * @param   $summary          table summary
 	 * @return  $this
 	 */
@@ -439,7 +439,7 @@ class Page
 		// Close last opened table if true
 		$this->closeTable();
 
-		// Print powererp fiche head
+		// Print PowerERP fiche head
 		if ($print_fiche_head) {
 			dol_fiche_head();
 		}
@@ -469,7 +469,7 @@ class Page
 	/**
 	 * Close an opened html table
 	 *
-	 * @param   $print_fiche_end   print Powererp fiche end
+	 * @param   $print_fiche_end   print PowerERP fiche end
 	 * @return  $this
 	 */
 	public function closeTable($print_fiche_end = false)
@@ -479,7 +479,7 @@ class Page
 			// Close table
 			echo "</table></div>\n";
 
-			// Print powererp fiche end
+			// Print PowerERP fiche end
 			if ($print_fiche_end) {
 				dol_fiche_end();
 			}
@@ -647,7 +647,7 @@ class Page
 		// Stop measuring time after construct call & Start measuring time after begin
 		start_time_measure('after_begin_call', __METHOD__, 'after_construct_call');
 
-		// Load Page Header (Powererp header, menus, ...)
+		// Load Page Header (PowerERP header, menus, ...)
 		llxHeader($this->head, $langs->trans($this->title), '', '', 0, 0, $this->assets['js'], $this->assets['css']);
 
 		// Generate page

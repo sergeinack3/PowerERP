@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=Cet outil ne doit être utilisé que par des utilisateurs ou des développeurs expérimentés. Il fournit des utilitaires pour construire ou éditer votre propre module. La documentation pour le développement manuel alternatif <a href="%s" target="_blank" rel="noopener noreferrer">est ici</a> .
 EnterNameOfModuleDesc=Saisissez le nom du module/application à créer, sans espaces. Utilisez les majuscules pour identifier les mots (par exemple : MonModule, BoutiqueECommerce,...)
 EnterNameOfObjectDesc=Entrez le nom de l'objet à créer sans espaces. Utilisez les majuscules pour séparer des mots (par exemple: MyObject, Student, Teacher ...). Le fichier de classe CRUD, mais aussi le fichier API, les pages à afficher / ajouter / éditer / supprimer des objets et des fichiers SQL seront générés.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Vous pouvez supprimer votre module. ATTENTION: Tou
 EnterNameOfObjectToDeleteDesc=Vous pouvez effacer un objet. ATTENTION : Tous les fichiers (générés ou créés manuellement) en rapport avec cet objet seront définitivement effacés !
 DangerZone=Zone de danger
 BuildPackage=Construire le package
-BuildPackageDesc=Vous pouvez générer un package zip de votre application afin d'être prêt à le distribuer sur n’importe quel Powererp. Vous pouvez également le distribuer ou le vendre sur une place de marché, comme <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Vous pouvez générer un package zip de votre application afin d'être prêt à le distribuer sur n’importe quel PowerERP. Vous pouvez également le distribuer ou le vendre sur une place de marché, comme <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Générer la documentation
 ModuleIsNotActive=Le module n'est pas encore activé. Aller à %s pour l'activer ou cliquer ici
 ModuleIsLive=Ce module a été activé. Tout changement dessus pourrait casser une fonctionnalité actuellement en ligne.
@@ -101,7 +101,7 @@ HooksDefDesc=Définissez dans la propriété <b> module_parts ['hooks'] </b>, da
 TriggerDefDesc=Définissez dans le fichier trigger le code que vous souhaitez exécuter lors de l'exécution d'un événement métier externe à votre module (événements déclenchés par d'autres modules).
 SeeIDsInUse=Voir les IDs utilisés dans votre installation
 SeeReservedIDsRangeHere=Voir la plage des ID réservés
-ToolkitForDevelopers=Boîte à outils pour développeurs Powererp
+ToolkitForDevelopers=Boîte à outils pour développeurs PowerERP
 TryToUseTheModuleBuilder=Si vous connaissez SQL et PHP, vous pouvez utiliser l'assistant de création de module natif. <br> Activez le module <strong> %s </strong> et utilisez l'assistant en cliquant sur la <span class = "fa fa-bug">. </span> dans le menu en haut à droite. <br> Avertissement: Il s'agit d'une fonctionnalité avancée pour les développeurs. Ne <b> pas </b> expérimenter sur votre site de production!
 SeeTopRightMenu=Voir <span class="fa fa-bug"></span> à droite de votre barre de menu principal
 AddLanguageFile=Ajouter le fichier de langue

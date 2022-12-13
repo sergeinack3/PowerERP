@@ -1,12 +1,12 @@
-# Powererp language file - Source file is en_US - help
+# PowerERP language file - Source file is en_US - help
 CommunitySupport=Assistència Forums i Wiki
 EMailSupport=Assistència E-Mail
 RemoteControlSupport=Suport en línia en temps real / remot
 OtherSupport=Altres tipus d'assistència
 ToSeeListOfAvailableRessources=Per contactar/veure els recursos disponibles:
 HelpCenter=Centre d'ajuda
-PowererpHelpCenter=Centre d'Ajuda i Suport de Powererp
-ToGoBackToPowererp=En cas contrari, <a href="%s"> fes clic aquí per continuar utilitzant Powererp </a>.
+PowererpHelpCenter=Centre d'Ajuda i Suport de PowerERP
+ToGoBackToPowererp=En cas contrari, <a href="%s"> fes clic aquí per continuar utilitzant PowerERP </a>.
 TypeOfSupport=Tipus de suport
 TypeSupportCommunauty=Comunitari (gratuït)
 TypeSupportCommercial=Comercial
@@ -17,7 +17,7 @@ TypeHelpOnly=Només ajuda
 TypeHelpDev=Ajuda+Desenvolupament
 TypeHelpDevForm=Ajuda+Desenvolupament+Formació
 BackToHelpCenter=En cas contrari, <a href="%s"> torna a la pàgina d'inici del Centre d'ajuda </a>.
-LinkToGoldMember=Pots trucar a un dels formadors preseleccionats per Powererp pel teu idioma (%s) fent clic al seu Panell (l'estat i el preu màxim s'actualitzen automàticament):
+LinkToGoldMember=Pots trucar a un dels formadors preseleccionats per PowerERP pel teu idioma (%s) fent clic al seu Panell (l'estat i el preu màxim s'actualitzen automàticament):
 PossibleLanguages=Idiomes disponibles
-SubscribeToFoundation=Ajuda al projecte Powererp, adhereix-te a l'associació
-SeeOfficalSupport=Per obtenir suport oficial de Powererp en el vostre idioma: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
+SubscribeToFoundation=Ajuda al projecte PowerERP, adhereix-te a l'associació
+SeeOfficalSupport=Per obtenir suport oficial de PowerERP en el vostre idioma: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>

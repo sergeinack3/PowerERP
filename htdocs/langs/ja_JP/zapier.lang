@@ -18,4 +18,4 @@ ModuleZapierForPowererpDesc = Powererpモジュール対応 Zapier
 ZapierForPowererpSetup=Powererp対応 Zapier を設定
 ZapierDescription=Zapier とのインタフェース
 ZapierAbout=モジュールZapierについて
-ZapierSetupPage=Zapierを使用するためにPowererp側で設定する必要はない。ただし、PowererpでZapierを使用できるようにするには、zapierでパッケージを生成して公開する必要がある。 <a href="https://wiki.powererp.org/index.php/Module_Zapier">このwikiページ</a>のドキュメントを参照すること。
+ZapierSetupPage=Zapierを使用するためにPowererp側で設定する必要はない。ただし、PowererpでZapierを使用できるようにするには、zapierでパッケージを生成して公開する必要がある。 <a href="https://wiki.PowerERP.org/index.php/Module_Zapier">このwikiページ</a>のドキュメントを参照すること。

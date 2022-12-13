@@ -23,13 +23,13 @@
  *	\ingroup    deplacement
  *	\brief      Description and activation file for the module trips (deprecated)
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module Deplacement
  */
-class modDeplacement extends PowererpModules
+class modDeplacement extends PowerERPModules
 {
 
 	/**
@@ -50,7 +50,7 @@ class modDeplacement extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Gestion des notes de frais et deplacements"; // Si traduction Module75Desc non trouvee
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or 'powererp_deprecated' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or 'powererp_deprecated' or version
 		$this->version = 'powererp_deprecated';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -151,7 +151,7 @@ class modDeplacement extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
 	 *      @param      string	$options    Options when enabling module ('', 'noboxes')

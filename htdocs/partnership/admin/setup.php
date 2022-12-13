@@ -22,7 +22,7 @@
  * \brief   Partnership setup page.
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT."/core/lib/admin.lib.php";
 require_once '../lib/partnership.lib.php';
@@ -169,7 +169,7 @@ print '<td>';
 $backlinks = (empty($conf->global->PARTNERSHIP_BACKLINKS_TO_CHECK) ? '' : $conf->global->PARTNERSHIP_BACKLINKS_TO_CHECK);
 print '<input class="minwidth400" type="text" name="PARTNERSHIP_BACKLINKS_TO_CHECK" value="'.$backlinks.'">';
 print '</td>';
-print '<td><span class="opacitymedium">powererp.org|powererp.fr|powererp.es</span></td>';
+print '<td><span class="opacitymedium">PowerERP.org|PowerERP.fr|PowerERP.es</span></td>';
 print '</tr>';
 
 print '</table>';

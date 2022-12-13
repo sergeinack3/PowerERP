@@ -21,7 +21,7 @@
 /**
  * \file scripts/members/sync_members_ldap2powererp.php
  * \ingroup ldap member
- * \brief Script de mise a jour des adherents dans Powererp depuis LDAP
+ * \brief Script de mise a jour des adherents dans PowerERP depuis LDAP
  */
 
 if (!defined('NOSESSION')) {
@@ -125,7 +125,7 @@ if (!empty($conf->global->LDAP_MEMBER_FILTER)) {
 } else {
 	print 'Filter=('.$conf->global->LDAP_KEY_MEMBERS.'=*)'."\n";
 }
-print "----- To Powererp database:\n";
+print "----- To PowerERP database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";
@@ -138,7 +138,7 @@ print "\n";
 
 // Check parameters
 if (empty($conf->global->LDAP_MEMBER_DN)) {
-	print $langs->trans("Error").': '.$langs->trans("LDAP setup for members not defined inside Powererp")."\n";
+	print $langs->trans("Error").': '.$langs->trans("LDAP setup for members not defined inside PowerERP")."\n";
 	exit(-1);
 }
 if ($typeid <= 0) {
@@ -188,7 +188,7 @@ $result = $ldap->connect_bind();
 if ($result >= 0) {
 	$justthese = array();
 
-	// We disable synchro Powererp-LDAP
+	// We disable synchro PowerERP-LDAP
 	$conf->global->LDAP_MEMBER_ACTIVE = 0;
 
 	$ldaprecords = $ldap->getRecords('*', $conf->global->LDAP_MEMBER_DN, $conf->global->LDAP_KEY_MEMBERS, $required_fields, 'member'); // Fiter on 'member' filter param

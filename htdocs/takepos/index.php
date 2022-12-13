@@ -115,7 +115,7 @@ $result = restrictedArea($user, 'takepos', 0, '');
 $form = new Form($db);
 
 // Title
-$title = 'TakePOS - Powererp '.DOL_VERSION;
+$title = 'TakePOS - PowerERP '.DOL_VERSION;
 if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 	$title = 'TakePOS - '.$conf->global->MAIN_APPLICATION_TITLE;
 }

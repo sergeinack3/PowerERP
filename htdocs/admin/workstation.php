@@ -22,7 +22,7 @@
  * \brief   Workstation setup page.
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require "../main.inc.php";
 
 // Libraries

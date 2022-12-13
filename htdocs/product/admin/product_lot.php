@@ -103,7 +103,7 @@ print dol_get_fiche_head($head, 'settings', $langs->trans("Batch"), -1, 'lot');
 
 
 if ($conf->global->MAIN_FEATURES_LEVEL < 2) {
-	// The feature to define the numbering module of lot or serial is no enabled bcause it is not used anywhere in Powererp code: You can set it
+	// The feature to define the numbering module of lot or serial is no enabled bcause it is not used anywhere in PowerERP code: You can set it
 	// but the numbering module is not used.
 	// TODO Use it on lot creation page, when you create a lot and when the lot number is kept empty to define the lot according
 	// to the selected product.

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Voir les tâches planifiées
@@ -63,18 +63,18 @@ CronStatusInactiveBtn=Désactiver
 CronTaskInactive=Ce travail est désactivé (non planifié)
 CronId=Id
 CronClassFile=Nom de fichier intégrant la classe
-CronModuleHelp=Nom du répertoire du module Powererp (fonctionne également avec le module externe Powererp). <BR> Par exemple, pour appeler la méthode fetch de l'objet produit Powererp /htdocs/<u>product</u>/class/product.class.php, la valeur du module est <br> <i> produit </i>
+CronModuleHelp=Nom du répertoire du module PowerERP (fonctionne également avec le module externe PowerERP). <BR> Par exemple, pour appeler la méthode fetch de l'objet produit PowerERP /htdocs/<u>product</u>/class/product.class.php, la valeur du module est <br> <i> produit </i>
 CronClassFileHelp=Le chemin relatif et le nom du fichier à charger (le chemin d'accès est relatif au répertoire racine du serveur Web). <BR> Par exemple, pour appeler la méthode fetch de l'objet Product htdocs/product/class/<u> product.class.php</u>, la valeur du nom de fichier de classe est<br> <i> product/class/product.class.php</i>
-CronObjectHelp=Le nom de l'objet à charger. <BR> Par exemple pour appeler la méthode de récupération de l'objet Produut Powererp /htdocs/product/class/product.class.php, la valeur du nom de fichier de classe est <br> <i> Product </i>
-CronMethodHelp=La méthode objet à lancer. <BR> Par exemple, pour appeler la méthode fetch de l'objet Powererp Product /htdocs/product/class/product.class.php, la valeur pour la méthode est<br><i>fetch</i>
-CronArgsHelp=Les arguments de la méthode. <BR> Par exemple pour appeler la méthode fetch de l'objet Product de Powererp /htdocs/product/class/product.class.php, la valeur des arguments pourrait être<br> <i>0, RefProduit</i>
+CronObjectHelp=Le nom de l'objet à charger. <BR> Par exemple pour appeler la méthode de récupération de l'objet Produut PowerERP /htdocs/product/class/product.class.php, la valeur du nom de fichier de classe est <br> <i> Product </i>
+CronMethodHelp=La méthode objet à lancer. <BR> Par exemple, pour appeler la méthode fetch de l'objet PowerERP Product /htdocs/product/class/product.class.php, la valeur pour la méthode est<br><i>fetch</i>
+CronArgsHelp=Les arguments de la méthode. <BR> Par exemple pour appeler la méthode fetch de l'objet Product de PowerERP /htdocs/product/class/product.class.php, la valeur des arguments pourrait être<br> <i>0, RefProduit</i>
 CronCommandHelp=La commande système a exécuter.
 CronCreateJob=Créer un nouveau travail planifié
 CronFrom=A partir du
 # Info
 # Common
 CronType=Type de travail planifié
-CronType_method=Appelle d'une méthode d'une classe Powererp
+CronType_method=Appelle d'une méthode d'une classe PowerERP
 CronType_command=Commande terminal
 CronCannotLoadClass=Impossible de charger le fichier %s (pour charger l'objet %s)
 CronCannotLoadObject=Le fichier de classe %s a été chargé, mais l'objet %s n'a pas été trouvé dedans

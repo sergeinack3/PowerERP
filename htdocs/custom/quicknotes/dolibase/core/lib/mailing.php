@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -37,7 +37,7 @@ function send_mail($object = null)
 	$mode           = '';
 
 	if (! isset($_POST['receivercc'])) {
-		$_POST['receivercc'] = '-1'; // fix bug on powererp 3.9
+		$_POST['receivercc'] = '-1'; // fix bug on PowerERP 3.9
 	}
 
 	$unset_fk_thirdparty = false;
@@ -77,7 +77,7 @@ function get_mail_form($trackid, $subject, $template, $substitutions = array(), 
 	$formmail->fromtype = (GETPOST('fromtype')?GETPOST('fromtype'):(!empty($conf->global->MAIN_MAIL_DEFAULT_FROMTYPE)?$conf->global->MAIN_MAIL_DEFAULT_FROMTYPE:'user'));
 	if ($formmail->fromtype == 'user') {
 		$formmail->fromid = $user->id;
-		$formmail->frommail = $user->email; // fix for powererp 3.9
+		$formmail->frommail = $user->email; // fix for PowerERP 3.9
 	}
 	$formmail->trackid = $trackid;
 	if (! empty($conf->global->MAIN_EMAIL_ADD_TRACK_ID) && ($conf->global->MAIN_EMAIL_ADD_TRACK_ID & 2)) { // If bit 2 is set
@@ -110,7 +110,7 @@ function get_mail_form($trackid, $subject, $template, $substitutions = array(), 
 		$formmail->param[$key] = $value;
 	}
 
-	// Init list of files (for powererp <= 5.0)
+	// Init list of files (for PowerERP <= 5.0)
 	if (GETPOST('mode') == 'init') {
 		$formmail->clear_attached_files();
 		foreach ($files as $file) {

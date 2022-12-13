@@ -1,4 +1,4 @@
-# Powererp language file - English - timesheet
+# PowerERP language file - English - timesheet
 # Translators
 # (6),  (403)
 adddocs = Documentos Adjuntos
@@ -50,7 +50,7 @@ DiplayOptions = Opciones de pantalla
 draft = Borrador
 draftColorDesc = Color para las vacaciones de proyecto y parte de horas
 dropdownAjax = Desactivar dropdown Ajax
-dropdownAjaxDesc = desactivar el ajax para la lista desplegable de Powererp (en el caso en cuestión para entrar en un nuevo favoris)
+dropdownAjaxDesc = desactivar el ajax para la lista desplegable de PowerERP (en el caso en cuestión para entrar en un nuevo favoris)
 Employee = Colaboradora
 employeeSignature = Firma del empleado
 errMsgMaxHoursExceded = No puedes entrar tanto tiempo por un solo día.
@@ -151,7 +151,7 @@ RecordUpdated = Registro actualizado
 rejected = Rechazado
 rejectedColorDesc = Color de la hoja de vacaciones y horas rechazada por el aprobador
 Reminder = Recordatorio
-reminderEmailProcess = Puede activar el recordatorio a través de correos electrónicos a través del planificador de tareas de Powererp <br> Job type \= Call method of a Powererp Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
+reminderEmailProcess = Puede activar el recordatorio a través de correos electrónicos a través del planificador de tareas de PowerERP <br> Job type \= Call method of a PowerERP Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
 savedDuration = Duración guardado
 searchbox = Activar búsqueda cajas
 searchboxDesc = Reemplace las listas desplegables por cuadros de búsqueda de las Tareas. Se necesita cuando se definen cientos de tareas para mejorar el rendimiento. (Proyecto, contacto, tercera parte utilizar la configuración de la caja de búsqueda definida en otro módulo)
@@ -197,7 +197,7 @@ userReport = Informe de usuario
 wngMsgHoursExceded = Estás entrando en horas extras
 Yearweekdate = Fecha de referencia
 YouHaveApprovalPending = Hoja de tiempo para aprobar
-YouHaveApprovalPendingMsg = Dears,<br><br>Tienes una hoja de tiempo __NB_TS__ para aprobarla, por favor conecta con dolibar para aprobarla.<br><br>Saludos cordiales.<br><br>Tu administrador de Powererp.
+YouHaveApprovalPendingMsg = Dears,<br><br>Tienes una hoja de tiempo __NB_TS__ para aprobarla, por favor conecta con dolibar para aprobarla.<br><br>Saludos cordiales.<br><br>Tu administrador de PowerERP.
 YouHaveTimesheetRejected = Se rechazó uno de los tiempos enviados.
 YouHaveTimesheetRejectedMsg = Hola,<br><br>La hoja de horas de la semana %s fue rechazada.<br><br>Por favor revise sus entradas aquí:<br>%s<br><br>Saludos cordiales
 minSecondsPerEvent = Mínimo en segundos

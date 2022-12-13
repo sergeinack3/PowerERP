@@ -1,7 +1,7 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=Настройка модуля PayBox
-PayBoxDesc=Этот модуль предложить страниц, чтобы платеж по <a href="http://www.paybox.com" target="_blank">Paybox</a> клиентами. Это может быть использовано для свободного платежа или за плату по тому или иному объекту Powererp (счетов-фактур, порядка, ...)
-FollowingUrlAreAvailableToMakePayments=После URL, можно предложить страницу к клиенту сделать платеж по Powererp объектов
+PayBoxDesc=Этот модуль предложить страниц, чтобы платеж по <a href="http://www.paybox.com" target="_blank">Paybox</a> клиентами. Это может быть использовано для свободного платежа или за плату по тому или иному объекту PowerERP (счетов-фактур, порядка, ...)
+FollowingUrlAreAvailableToMakePayments=После URL, можно предложить страницу к клиенту сделать платеж по PowerERP объектов
 PaymentForm=Форма оплаты
 WelcomeOnPaymentPage=Добро пожаловать в нашу службу онлайн-платежей
 ThisScreenAllowsYouToPay=На этом экране можно сделать онлайн-платежей для %s.

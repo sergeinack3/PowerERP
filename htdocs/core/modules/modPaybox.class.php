@@ -23,13 +23,13 @@
  *  \ingroup    paybox
  *  \brief      Description and activation file for the module Paybox
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  * 	Description and activation class for module Paybox
  */
-class modPayBox extends PowererpModules
+class modPayBox extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -41,7 +41,7 @@ class modPayBox extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 50000;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'paybox';
@@ -53,8 +53,8 @@ class modPayBox extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Module to offer an online payment page by credit card with PayBox";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of image file used for this module.
@@ -74,7 +74,7 @@ class modPayBox extends PowererpModules
 		$this->requiredby = array(); // List of module ids to disable if this one is disabled
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(2, 6); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(2, 6); // Minimum version of PowerERP required by module
 		$this->langfiles = array("paybox");
 
 		// Constants

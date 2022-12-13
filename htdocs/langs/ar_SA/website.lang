@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=نص مرمز
 WebsiteSetupDesc=قم بإنشاء الموقع الالكتروني الذي ترغب باستخدامه ثم اذهب الى القائمة المواقع الإلكترونية لتعديلها
 DeleteWebsite=حذف الموقع الإلكتروني
@@ -45,7 +45,7 @@ ViewWebsiteInProduction=عرض الموقع باستخدام رابط الصفح
 SetHereVirtualHost=<u>بإستخدام اباتشي \\انجنكس\\...</u><br> على خادمك (اباتشي او انجنكس..) قم بإنشاء خادم افتراضي يدعم البي اتش بي واجعل المسار الجذر له<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=مثال إعدادات لاستخدامه مع خادم اباتشي افتراضي
 YouCanAlsoTestWithPHPS=<u>لاستخدام خادم بي اتش بي المضمن </u><br>على بيئة التطوير ربما تفضل تجربة موقعك بخادم بي اتش بي المضمن (النسخة 5.5 فما فوق) عبر تشغيل <br><strong> php -S 0.0.0.0:8080 -t %s</strong> 
-YouCanAlsoDeployToAnotherWHP=<u>انشر موقعك الإلكتروني مع مقدم إستضافة اخر</u><br>إذا كنت لا تمتلك خادم مواقع مثل اباتشي او انجنكس على الأنترنت، يمكنك تصدير وإستيراد الى نظام دوليبار اخر المقدم بواسطة مقدم استضافة دوليبار والذي يوفر تكامل مكتمل مع وحدة الموقع الإلكتروني. يمكنك ايجاد قائمة من مقدمين إستضافة دوليبار على <a href="https://saas.powererp.org" target="_blank">موقع إستضافات دوليبار</a>
+YouCanAlsoDeployToAnotherWHP=<u>انشر موقعك الإلكتروني مع مقدم إستضافة اخر</u><br>إذا كنت لا تمتلك خادم مواقع مثل اباتشي او انجنكس على الأنترنت، يمكنك تصدير وإستيراد الى نظام دوليبار اخر المقدم بواسطة مقدم استضافة دوليبار والذي يوفر تكامل مكتمل مع وحدة الموقع الإلكتروني. يمكنك ايجاد قائمة من مقدمين إستضافة دوليبار على <a href="https://saas.PowerERP.org" target="_blank">موقع إستضافات دوليبار</a>
 CheckVirtualHostPerms=ايضاً تأكد من ان مستخدم الخادم (مثلا www-data ) لديه صلاحيات <strong>%s</strong> على الملفات <br><strong>%s</strong>
 ReadPerm=قرأ
 WritePerm=التعديل والكتابة

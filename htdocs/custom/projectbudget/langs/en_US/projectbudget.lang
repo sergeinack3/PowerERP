@@ -1,4 +1,4 @@
-# Powererp language file - en_US - projectbudget
+# PowerERP language file - en_US - projectbudget
 CHARSET=UTF-8
 projectbudget=ProjectBudget
 projectbudgetPresentation=Breakdown of purchases on projects
@@ -26,7 +26,7 @@ LienDolistore=Find our other modules
 Changelog=ChangeLog you module
 SupportModuleInformation=Technical informations
 SupportModuleInformationDesc= <br/> <em>Note: This information is useful and you may be asked if you encounter a bug in the operation of the module.</em>
-PowererpVersion=Version de Powererp
+PowererpVersion=Version de PowerERP
 ModuleVersion=Module version
 PHPVersion=PHP version
 DatabaseVersion=Version of the database

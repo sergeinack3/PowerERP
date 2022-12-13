@@ -300,7 +300,7 @@ class pdf_paiement
 
 		$pdf->SetTitle($outputlangs->transnoentities("Payments"));
 		$pdf->SetSubject($outputlangs->transnoentities("Payments"));
-		$pdf->SetCreator("Powererp ".DOL_VERSION);
+		$pdf->SetCreator("PowerERP ".DOL_VERSION);
 		$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 		//$pdf->SetKeyWords();
 		if (!empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) {

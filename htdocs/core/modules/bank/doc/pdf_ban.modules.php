@@ -41,7 +41,7 @@ class pdf_ban extends ModeleBankAccountDoc
 	public $emetteur;
 
 	/**
-	 * @var string Powererp version of the loaded document
+	 * @var string PowerERP version of the loaded document
 	 */
 	public $version = 'development';
 
@@ -168,7 +168,7 @@ class pdf_ban extends ModeleBankAccountDoc
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("BAN"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("BAN"));
 				if (!empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) {

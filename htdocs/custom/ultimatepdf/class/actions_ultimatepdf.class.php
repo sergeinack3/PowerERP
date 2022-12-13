@@ -1705,7 +1705,7 @@ class ActionsUltimatepdf
 			$html.='<h3>Module for PDF models management</h3>';
 			$html.='<div>';
 			$html.='<p>';
-			$html.='This module required Powererp >=10.0.0 stable installation</br>';
+			$html.='This module required PowerERP >=10.0.0 stable installation</br>';
 			$html.='Formation en ligne sur le module Ultimatepdf : installation, configuration, trucs et astuces. <a href="https://www.youtube.com/watch?v=bw3a08poCmU" target="_blank">Voir la video:</a>';
 			$html.='</p>';
 			$html.='</div>';

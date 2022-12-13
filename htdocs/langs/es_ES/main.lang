@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Ninguna petición en error
 ErrorServiceUnavailableTryLater=Servicio no disponible actualmente. Inténtelo de nuevo más tarde.
 ErrorDuplicateField=Duplicado en un campo único
 ErrorSomeErrorWereFoundRollbackIsDone=Se encontraron algunos errores. Modificaciones deshechas.
-ErrorConfigParameterNotDefined=El parámetro <b>%s</b> no está definido en el archivo de configuración Powererp <b>conf.php</b>.
-ErrorCantLoadUserFromPowererpDatabase=Imposible encontrar el usuario <b>%s</b> en la base de datos Powererp.
+ErrorConfigParameterNotDefined=El parámetro <b>%s</b> no está definido en el archivo de configuración PowerERP <b>conf.php</b>.
+ErrorCantLoadUserFromPowererpDatabase=Imposible encontrar el usuario <b>%s</b> en la base de datos PowerERP.
 ErrorNoVATRateDefinedForSellerCountry=Error, ningún tipo de IVA definido para el país '%s'.
 ErrorNoSocialContributionForSellerCountry=Error, ningún tipo de tasa social/fiscal definida para el país '%s'.
 ErrorFailedToSaveFile=Error, el registro del archivo falló.
@@ -95,7 +95,7 @@ RecordDeleted=Registro eliminado
 RecordGenerated=Registro generado
 LevelOfFeature=Nivel de funciones
 NotDefined=No definida
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp está configurado en modo de autentificación <b>%s</b> en el archivo de configuración <b>conf.php</b>.<br> Eso significa que la base de datos de las contraseñas es externa a Powererp, por eso toda modificación de este campo puede resultar sin efecto alguno.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP está configurado en modo de autentificación <b>%s</b> en el archivo de configuración <b>conf.php</b>.<br> Eso significa que la base de datos de las contraseñas es externa a PowerERP, por eso toda modificación de este campo puede resultar sin efecto alguno.
 Administrator=Administrador
 Undefined=No definido
 PasswordForgotten=¿Olvidó su contraseña?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Tipo de gestor de base de datos
 RequestLastAccessInError=Último error en solicitud de acceso de base de datos
 ReturnCodeLastAccessInError=Código de retorno de error para la última petición de acceso a la base de datos
 InformationLastAccessInError=Información del último error de petición de acceso de base de datos
-PowererpHasDetectedError=Powererp ha detectado un error técnico
+PowererpHasDetectedError=PowerERP ha detectado un error técnico
 YouCanSetOptionPowererpMainProdToZero=Puede leer el archivo log o establecer la opción $powererp_main_prod a '0' en su archivo de configuración para obtener más información.
 InformationToHelpDiagnose=Esta información puede ser útil para fines de diagnóstico (puede establecer la opción $ powererp_main_prod en '1' para ocultar información confidencial)
 MoreInformation=Más información
@@ -122,7 +122,7 @@ TechnicalID=ID Técnica
 LineID=ID de línea
 NotePublic=Nota (pública)
 NotePrivate=Nota (privada)
-PrecisionUnitIsLimitedToXDecimals=Powererp está configurado para limitar la precisión de los precios unitarios a <b>%s</b> decimales.
+PrecisionUnitIsLimitedToXDecimals=PowerERP está configurado para limitar la precisión de los precios unitarios a <b>%s</b> decimales.
 DoTest=Probar
 ToFilter=Filtrar
 NoFilter=Sin filtro
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Miembros
 MenuAgendaGoogle=Agenda Google
 MenuTaxesAndSpecialExpenses=Impuestos | Gastos especiales
-ThisLimitIsDefinedInSetup=Límite Powererp (Menú inicio-configuración-seguridad): %s Kb, PHP limit: %s Kb
-ThisLimitIsDefinedInSetupAt=Límite Powererp (Menú %s): %s Kb, Límite PHP (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=Límite PowerERP (Menú inicio-configuración-seguridad): %s Kb, PHP limit: %s Kb
+ThisLimitIsDefinedInSetupAt=Límite PowerERP (Menú %s): %s Kb, Límite PHP (Param %s): %s Kb
 NoFileFound=No se cargaron documentos
 CurrentUserLanguage=Idioma actual
 CurrentTheme=Tema actual
@@ -909,7 +909,7 @@ ViewFlatList=Ver lista plana
 ViewAccountList=Ver libro mayor
 ViewSubAccountList=Ver libro mayor de subcuenta
 RemoveString=Eliminar cadena '%s'
-SomeTranslationAreUncomplete=Algunos de los idiomas ofrecidos pueden estar solo parcialmente traducidos o pueden contener errores. Ayude a corregir su idioma registrándose en <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/ </a> para agregar sus mejoras.
+SomeTranslationAreUncomplete=Algunos de los idiomas ofrecidos pueden estar solo parcialmente traducidos o pueden contener errores. Ayude a corregir su idioma registrándose en <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/ </a> para agregar sus mejoras.
 DirectDownloadLink=Enlace de descarga público
 PublicDownloadLinkDesc=Solo se requiere el enlace para descargar el archivo
 DirectDownloadInternalLink=Enlace de descarga privado

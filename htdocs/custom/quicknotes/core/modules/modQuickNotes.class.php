@@ -17,7 +17,7 @@ class modQuickNotes extends DolibaseModule
 	 */
 	public function loadSettings()
 	{
-		// Update picto for Powererp 12++
+		// Update picto for PowerERP 12++
 		if (function_exists('version_compare') && version_compare(DOL_VERSION, '12.0.0') >= 0) {
 			$this->picto = "quicknotes_128.png@quicknotes";
 		}

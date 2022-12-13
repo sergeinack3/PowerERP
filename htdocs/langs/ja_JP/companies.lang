@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=法人名 %s は既に存在する。別の名称を選択してください。
 ErrorSetACountryFirst=始めに国を設定する
 SelectThirdParty=取引先を選択する

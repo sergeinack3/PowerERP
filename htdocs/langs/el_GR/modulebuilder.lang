@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Εισαγάγετε το όνομα της ενότητας / εφαρμογής για να δημιουργήσετε χωρίς κενά. Χρησιμοποιήστε κεφαλαία για να διαχωρίσετε λέξεις (Για παράδειγμα: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Εισαγάγετε το όνομα του αντικειμένου που θέλετε να δημιουργήσετε χωρίς κενά. Χρησιμοποιήστε κεφαλαία για να διαχωρίσετε λέξεις (Για παράδειγμα: MyObject, Student, Teacher ...). Θα δημιουργηθεί το αρχείο κλάσης CRUD, αλλά και το αρχείο API, οι σελίδες που θα απαριθμήσουν / προσθέσουν / επεξεργαστούν / διαγράψουν το αντικείμενο και τα αρχεία SQL.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Μπορείτε να διαγράψετε την 
 EnterNameOfObjectToDeleteDesc=Μπορείτε να διαγράψετε ένα αντικείμενο. ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Όλα τα αρχεία κωδικοποίησης (που δημιουργούνται ή δημιουργούνται χειροκίνητα) που σχετίζονται με αντικείμενο θα διαγραφούν!
 DangerZone=Επικίνδυνη ζώνη
 BuildPackage=Δημιουργία πακέτου
-BuildPackageDesc=Μπορείτε να δημιουργήσετε ένα πακέτο zip της αίτησής σας έτσι ώστε να είστε έτοιμοι να το διανείμετε σε οποιοδήποτε Powererp. Μπορείτε επίσης να το διανείμετε ή να το πουλήσετε στην αγορά όπως το <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Μπορείτε να δημιουργήσετε ένα πακέτο zip της αίτησής σας έτσι ώστε να είστε έτοιμοι να το διανείμετε σε οποιοδήποτε PowerERP. Μπορείτε επίσης να το διανείμετε ή να το πουλήσετε στην αγορά όπως το <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Δημιουργία εγγράφων
 ModuleIsNotActive=This module is not activated yet. Go to %s to make it live or click here
 ModuleIsLive=Αυτή η ενότητα έχει ενεργοποιηθεί. Οποιαδήποτε αλλαγή μπορεί να σπάσει ένα τρέχον ζωντανό χαρακτηριστικό.
@@ -101,7 +101,7 @@ HooksDefDesc=Ορίστε στην <b>ιδιότητα module_parts [&#39;hooks&
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Δείτε τα αναγνωριστικά που χρησιμοποιούνται στην εγκατάσταση σας
 SeeReservedIDsRangeHere=Δείτε το φάσμα των αποκλειστικών αναγνωριστικών
-ToolkitForDevelopers=Εργαλειοθήκη για προγραμματιστές Powererp
+ToolkitForDevelopers=Εργαλειοθήκη για προγραμματιστές PowerERP
 TryToUseTheModuleBuilder=Αν έχετε γνώσεις SQL και PHP, μπορείτε να χρησιμοποιήσετε τον οδηγό εγγενών κατασκευαστών ενοτήτων. <br> Ενεργοποιήστε την ενότητα <strong>%s</strong> και χρησιμοποιήστε τον οδηγό κάνοντας κλικ στο <span class="fa fa-bug"></span> στο πάνω δεξιό μενού. <br> Προειδοποίηση: Πρόκειται για ένα προηγμένο χαρακτηριστικό προγραμματιστή, <b>μην</b> πειραματιστείτε στην τοποθεσία παραγωγής σας!
 SeeTopRightMenu=Βλέπω <span class="fa fa-bug"></span> στο πάνω δεξιό μενού
 AddLanguageFile=Προσθήκη αρχείου γλώσσας

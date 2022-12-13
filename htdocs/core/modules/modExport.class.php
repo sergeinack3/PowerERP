@@ -24,13 +24,13 @@
  *	\brief      Description and activation file for the module export
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module export
  */
-class modExport extends PowererpModules
+class modExport extends PowerERPModules
 {
 
 	/**
@@ -47,9 +47,9 @@ class modExport extends PowererpModules
 		$this->module_position = '72';
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
-		$this->description = "Outils d'exports de donnees Powererp (via un assistant)";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		$this->description = "Outils d'exports de donnees PowerERP (via un assistant)";
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'technic';
 

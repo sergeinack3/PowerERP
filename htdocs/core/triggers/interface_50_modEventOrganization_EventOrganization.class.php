@@ -42,7 +42,7 @@ class InterfaceEventOrganization extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "eventorganization";
 		$this->description = "Triggers of this module to manage event organization triggers action";
-		// 'development', 'experimental', 'powererp' or version
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = self::VERSION_DOLIBARR;
 		$this->picto = 'action';
 	}

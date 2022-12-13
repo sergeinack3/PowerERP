@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=PayPal-modul installation
-PaypalDesc=Denna modul tillåter betalning av kunder via <a href="http://www.paypal.com" target="_blank"> PayPal </a>. Detta kan användas för en ad hoc-betalning eller för en betalning relaterad till ett Powererp-objekt (faktura, order, ...)
+PaypalDesc=Denna modul tillåter betalning av kunder via <a href="http://www.paypal.com" target="_blank"> PayPal </a>. Detta kan användas för en ad hoc-betalning eller för en betalning relaterad till ett PowerERP-objekt (faktura, order, ...)
 PaypalOrCBDoPayment=Betala med PayPal (kort eler PayPal)
 PaypalDoPayment=Betala med PayPal
 PAYPAL_API_SANDBOX=Läge test / sandlåda

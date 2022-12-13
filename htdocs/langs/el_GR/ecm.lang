@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Αριθμός εγγράφων στον κατάλογο
 ECMSection=Directory
 ECMSectionManual=Manual directory
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Number of sub-directories
 ECMNbOfFilesInSubDir=Αριθμός αρχείων σε υπο-καταλόγους
 ECMCreationUser=Δημιουργός
 ECMArea=Περιοχή DMS / ECM
-ECMAreaDesc=Η περιοχή DMS / ECM (Συστήματα Διαχείρισης Εγγράφων / Ηλεκτρονική Διαχείριση Περιεχομένου) σας επιτρέπει να αποθηκεύετε, να μοιράζεστε και να αναζητάτε γρήγορα όλα τα είδη εγγράφων στο Powererp.
+ECMAreaDesc=Η περιοχή DMS / ECM (Συστήματα Διαχείρισης Εγγράφων / Ηλεκτρονική Διαχείριση Περιεχομένου) σας επιτρέπει να αποθηκεύετε, να μοιράζεστε και να αναζητάτε γρήγορα όλα τα είδη εγγράφων στο PowerERP.
 ECMAreaDesc2=* Automatic directories are filled automatically when adding documents from card of an element.<br>* Manual directories can be used to save documents not linked to a particular element.
 ECMSectionWasRemoved=Directory <b>%s</b> has been deleted.
 ECMSectionWasCreated=Ο κατάλογος <b>%s</b> έχει δημιουργηθεί.

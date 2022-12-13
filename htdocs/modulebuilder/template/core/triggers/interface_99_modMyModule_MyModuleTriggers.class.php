@@ -50,7 +50,7 @@ class InterfaceMyModuleTriggers extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "demo";
 		$this->description = "MyModule triggers.";
-		// 'development', 'experimental', 'powererp' or version
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = 'development';
 		$this->picto = 'mymodule@mymodule';
 	}
@@ -94,7 +94,7 @@ class InterfaceMyModuleTriggers extends PowererpTriggers
 			return 0; // If module is not enabled, we do nothing
 		}
 
-		// Put here code you want to execute when a Powererp business events occurs.
+		// Put here code you want to execute when a PowerERP business events occurs.
 		// Data and type of action are stored into $object and $action
 
 		// You can isolate code for each action in a separate method: this method should be named like the trigger in camelCase.

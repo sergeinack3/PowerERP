@@ -3,9 +3,9 @@
 # Script to launch LinPhone softphone.
 #
 # This script can be used to setup a ClickToDial system
-# when using LinPhone soft phone with Powererp.
+# when using LinPhone soft phone with PowerERP.
 #
-# More information on https://wiki.powererp.org/index.php/Module_ClickToDial_En
+# More information on https://wiki.PowerERP.org/index.php/Module_ClickToDial_En
 #---------------------------------------------------------
 
 # Note: Adding handler into gconf-tools seems to do nothing

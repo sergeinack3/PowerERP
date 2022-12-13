@@ -392,7 +392,7 @@ class printing_printgcp extends PrintingDriver
 			'content' => base64_encode($contents), // encode file content as base64
 			'contentType' => $contenttype,
 		);
-		// Powererp Token storage
+		// PowerERP Token storage
 		$storage = new DoliStorage($this->db, $this->conf);
 		// Setup the credentials for the requests
 		$credentials = new Credentials(

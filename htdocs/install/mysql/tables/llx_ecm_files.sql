@@ -23,7 +23,7 @@ CREATE TABLE llx_ecm_files
   label				varchar(128) NOT NULL,			-- contains hash of file content
   share				varchar(128) NULL,				-- contains hash for file sharing
   entity			integer DEFAULT 1 NOT NULL,		-- multi company id
-  filepath    		varchar(255) NOT NULL,   	    -- relative to powererp document dir. Example module/def
+  filepath    		varchar(255) NOT NULL,   	    -- relative to PowerERP document dir. Example module/def
   filename          varchar(255) NOT NULL,			-- file name only without any directory
   src_object_type   varchar(64),	         		-- Source object type ('proposal', 'invoice', ...)
   src_object_id     integer,		             	-- Source object id

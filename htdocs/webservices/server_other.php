@@ -17,7 +17,7 @@
 
 /**
  *       \file       htdocs/webservices/server_other.php
- *       \brief      File that is entry point to call Powererp WebServices
+ *       \brief      File that is entry point to call PowerERP WebServices
  */
 
 if (!defined("NOCSRFCHECK")) {
@@ -32,14 +32,14 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 
 
-dol_syslog("Call Powererp webservices interfaces");
+dol_syslog("Call PowerERP webservices interfaces");
 
 $langs->load("main");
 
 // Enable and test if module web services is enabled
 if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 	$langs->load("admin");
-	dol_syslog("Call Powererp webservices interfaces with module webservices disabled");
+	dol_syslog("Call PowerERP webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;
@@ -49,7 +49,7 @@ if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 $server = new nusoap_server();
 $server->soap_defencoding = 'UTF-8';
 $server->decode_utf8 = false;
-$ns = 'http://www.powererp.org/ns/';
+$ns = 'http://www.PowerERP.org/ns/';
 $server->configureWSDL('WebServicesPowererpOther', $ns);
 $server->wsdl->schemaTargetNamespace = $ns;
 
@@ -114,7 +114,7 @@ $server->register(
 	// Entry values
 	array('authentication'=>'tns:authentication'),
 	// Exit values
-	array('result'=>'tns:result', 'powererp'=>'xsd:string', 'os'=>'xsd:string', 'php'=>'xsd:string', 'webserver'=>'xsd:string'),
+	array('result'=>'tns:result', 'PowerERP'=>'xsd:string', 'os'=>'xsd:string', 'php'=>'xsd:string', 'webserver'=>'xsd:string'),
 	$ns,
 	$ns.'#getVersions',
 	$styledoc,
@@ -164,7 +164,7 @@ function getVersions($authentication)
 
 	if (!$error) {
 		$objectresp['result'] = array('result_code'=>'OK', 'result_label'=>'');
-		$objectresp['powererp'] = version_powererp();
+		$objectresp['PowerERP'] = version_powererp();
 		$objectresp['os'] = version_os();
 		$objectresp['php'] = version_php();
 		$objectresp['webserver'] = version_webserver();

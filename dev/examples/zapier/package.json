@@ -1,9 +1,9 @@
 {
-  "name": "powererp",
+  "name": "PowerERP",
   "version": "1.14.0",
-  "description": "An app for connecting Powererp to the Zapier platform.",
-  "repository": "Powererp/powererp",
-  "homepage": "https://www.powererp.org/",
+  "description": "An app for connecting PowerERP to the Zapier platform.",
+  "repository": "PowerERP/PowerERP",
+  "homepage": "https://www.PowerERP.org/",
   "author": "Frédéric France <frederic.france@netlogic.fr>",
   "license": "BSD-3-Clause",
   "main": "index.js",

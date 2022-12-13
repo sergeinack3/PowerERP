@@ -31,10 +31,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/facture/modules_facture.php';
 class mod_facture_terre extends ModeleNumRefFactures
 {
 	/**
-	 * Powererp version of the loaded document 'development', 'experimental', 'powererp'
+	 * PowerERP version of the loaded document 'development', 'experimental', 'PowerERP'
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	/**
 	 * Prefix for invoices

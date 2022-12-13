@@ -52,7 +52,7 @@ class DolConfigCollector extends ConfigCollector
 		$const = get_defined_constants(true);
 
 		$config = array(
-			'Powererp' => array(
+			'PowerERP' => array(
 				'const' => $const['user'],
 				'$conf' => $this->objectToArray($conf),
 				'$user' => $this->objectToArray($user)

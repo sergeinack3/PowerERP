@@ -23,7 +23,7 @@ override_dh_auto_build:
 #	dh_compress --no-act -X.png
 
 # We disable this for png file because it modify content of original file so make
-# the powererp signature not valid.
+# the PowerERP signature not valid.
 override_dh_strip_nondeterminism:
 	dh_strip_nondeterminism -X.png
 
@@ -114,15 +114,15 @@ override_dh_install:
 	rm -f  htdocs/includes/tcpdf/LICENSE.TXT
 
 	# Drop unwanted executable permissions
-	find debian/powererp/usr/share/powererp/htdocs -type f -print0 | \
+	find debian/PowerERP/usr/share/PowerERP/htdocs -type f -print0 | \
 	     xargs -0 chmod 644
 	# Add missing executable permissions
-	find debian/powererp/usr/share/powererp/scripts -type f -name '*.php' -print0 | \
+	find debian/PowerERP/usr/share/PowerERP/scripts -type f -name '*.php' -print0 | \
 	     xargs -0 chmod 755
 
 override_dh_fixperms:
 	dh_fixperms
 	# Give rights to the webserver on the upload directory
-	chown www-data:www-data debian/powererp/var/lib/powererp/documents
-	chmod 2775 debian/powererp/var/lib/powererp/documents
+	chown www-data:www-data debian/PowerERP/var/lib/PowerERP/documents
+	chmod 2775 debian/PowerERP/var/lib/PowerERP/documents
 	

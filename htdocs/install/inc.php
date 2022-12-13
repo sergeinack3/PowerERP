@@ -75,8 +75,8 @@ $conffiletoshowshort = "conf.php";
 $conffile = "../conf/conf.php";
 $conffiletoshow = "htdocs/conf/conf.php";
 // For debian/redhat like systems
-//$conffile = "/etc/powererp/conf.php";
-//$conffiletoshow = "/etc/powererp/conf.php";
+//$conffile = "/etc/PowerERP/conf.php";
+//$conffiletoshow = "/etc/PowerERP/conf.php";
 
 
 // Load conf file if it is already defined
@@ -155,7 +155,7 @@ $suburi = strstr($uri, '/'); // $suburi contains url without domain
 if ($suburi == '/') {
 	$suburi = ''; // If $suburi is /, it is now ''
 }
-define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/powererp', ...)
+define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/PowerERP', ...)
 
 
 if (empty($conf->file->character_set_client)) {
@@ -286,7 +286,7 @@ if (GETPOST('lang', 'aZ09')) {
 /**
  * Load conf file (file must exists)
  *
- * @param	string		$powererp_main_document_root		Root directory of Powererp bin files
+ * @param	string		$powererp_main_document_root		Root directory of PowerERP bin files
  * @return	int												<0 if KO, >0 if OK
  */
 function conf($powererp_main_document_root)
@@ -425,7 +425,7 @@ function pHeader($subtitle, $next, $action = 'set', $param = '', $forcejqueryurl
 	print '<head>'."\n";
 	print '<meta charset="'.$conf->file->character_set_client.'">'."\n";
 	print '<meta name="viewport" content="width=device-width, initial-scale=1.0">'."\n";
-	print '<meta name="generator" content="Powererp installer">'."\n";
+	print '<meta name="generator" content="PowerERP installer">'."\n";
 	print '<link rel="stylesheet" type="text/css" href="default.css">'."\n";
 
 	print '<!-- Includes CSS for JQuery -->'."\n";
@@ -453,7 +453,7 @@ function pHeader($subtitle, $next, $action = 'set', $param = '', $forcejqueryurl
 	print '<body>'."\n";
 
 	print '<div class="divlogoinstall" style="text-align:center">';
-	print '<img class="imglogoinstall" src="../theme/powererp_logo.svg" alt="Powererp logo" width="300px"><br>';
+	print '<img class="imglogoinstall" src="../theme/powererp_logo.svg" alt="PowerERP logo" width="300px"><br>';
 	print DOL_VERSION;
 	print '</div><br>';
 
@@ -556,7 +556,7 @@ function powererp_install_syslog($message, $level = LOG_DEBUG)
 }
 
 /**
- * Automatically detect Powererp's main document root
+ * Automatically detect PowerERP's main document root
  *
  * @return string
  */
@@ -567,8 +567,8 @@ function detect_powererp_main_document_root()
 	if ($_SERVER["SCRIPT_FILENAME"] == 'php' || preg_match('/[\\/]php$/i', $_SERVER["SCRIPT_FILENAME"]) || preg_match('/php\.exe$/i', $_SERVER["SCRIPT_FILENAME"])) {
 		$powererp_main_document_root = $_SERVER["DOCUMENT_ROOT"];
 
-		if (!preg_match('/[\\/]powererp[\\/]htdocs$/i', $powererp_main_document_root)) {
-			$powererp_main_document_root .= "/powererp/htdocs";
+		if (!preg_match('/[\\/]PowerERP[\\/]htdocs$/i', $powererp_main_document_root)) {
+			$powererp_main_document_root .= "/PowerERP/htdocs";
 		}
 	} else {
 		// We assume /install to be under /htdocs, so we get the parent directory of the current directory
@@ -579,7 +579,7 @@ function detect_powererp_main_document_root()
 }
 
 /**
- * Automatically detect Powererp's main data root
+ * Automatically detect PowerERP's main data root
  *
  * @param string $powererp_main_document_root Current main document root
  * @return string
@@ -592,7 +592,7 @@ function detect_powererp_main_data_root($powererp_main_document_root)
 }
 
 /**
- * Automatically detect Powererp's main URL root
+ * Automatically detect PowerERP's main URL root
  *
  * @return string
  */

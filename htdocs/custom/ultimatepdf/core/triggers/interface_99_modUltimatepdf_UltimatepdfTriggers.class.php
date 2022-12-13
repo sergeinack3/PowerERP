@@ -57,8 +57,8 @@ class InterfaceUltimatepdfTriggers extends PowererpTriggers
         $this->name = preg_replace('/^Interface/i', '', get_class($this));
         $this->family = "ultimatepdf";
         $this->description = "Ultimatepdf triggers.";
-        // 'development', 'experimental', 'powererp' or version
-        $this->version = 'powererp';
+        // 'development', 'experimental', 'PowerERP' or version
+        $this->version = 'PowerERP';
         $this->picto = 'ultimatepdf@ultimatepdf';
     }
 
@@ -99,7 +99,7 @@ class InterfaceUltimatepdfTriggers extends PowererpTriggers
     {
         if (empty($conf->ultimatepdf->enabled)) return 0;     // Module not active, we do nothing
 
-        // Put here code you want to execute when a Powererp business events occurs.
+        // Put here code you want to execute when a PowerERP business events occurs.
         // Data and type of action are stored into $object and $action
 		/*if ($object->statut == Propal::STATUS_VALIDATED) {
 

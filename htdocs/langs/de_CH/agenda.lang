@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID Veranstaltung
 Agenda=Terminplanung
 Agendas=Tagesordnungen
@@ -21,7 +21,7 @@ MemberModifiedInPowererp=Mitglied %s bearbeitet
 MemberResiliatedInPowererp=Mitlglied %s geschlossen.
 MemberSubscriptionAddedInPowererp=Abonnement %s für Mitlglied %s hinzugefügt
 MemberSubscriptionModifiedInPowererp=Abonnement %s für Mitglied %s bearbeitet
-ShipmentValidatedInPowererp=Versand %s in Powererp geprüft
+ShipmentValidatedInPowererp=Versand %s in PowerERP geprüft
 ShipmentClassifyClosedInPowererp=Lieferung %s auf verrechnet gesetzt
 ShipmentUnClassifyCloseddInPowererp=Lieferung %s auf wiedereröffnet gesetzt
 ShipmentBackToDraftInPowererp=Lieferung %s ist wieder im Entwurfsstatus.

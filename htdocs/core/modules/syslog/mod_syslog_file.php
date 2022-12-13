@@ -23,13 +23,13 @@ class mod_syslog_file extends LogHandler implements LogHandlerInterface
 	}
 
 	/**
-	 * Version of the module ('x.y.z' or 'powererp' or 'experimental' or 'development')
+	 * Version of the module ('x.y.z' or 'PowerERP' or 'experimental' or 'development')
 	 *
 	 * @return string
 	 */
 	public function getVersion()
 	{
-		return 'powererp';
+		return 'PowerERP';
 	}
 
 	/**
@@ -68,7 +68,7 @@ class mod_syslog_file extends LogHandler implements LogHandlerInterface
 			array(
 				'name' => $langs->trans('SyslogFilename'),
 				'constant' => 'SYSLOG_FILE',
-				'default' => 'DOL_DATA_ROOT/powererp.log',
+				'default' => 'DOL_DATA_ROOT/PowerERP.log',
 				'attr' => 'size="60"'
 			)
 		);
@@ -107,7 +107,7 @@ class mod_syslog_file extends LogHandler implements LogHandlerInterface
 		global $conf;
 
 		if (empty($conf->global->SYSLOG_FILE)) {
-			$tmp = DOL_DATA_ROOT.'/powererp.log';
+			$tmp = DOL_DATA_ROOT.'/PowerERP.log';
 		} else {
 			$tmp = str_replace('DOL_DATA_ROOT', DOL_DATA_ROOT, $conf->global->SYSLOG_FILE);
 		}
@@ -150,7 +150,7 @@ class mod_syslog_file extends LogHandler implements LogHandlerInterface
 
 		if (!$filefd) {
 			if (!defined('SYSLOG_FILE_NO_ERROR') || !constant('SYSLOG_FILE_NO_ERROR')) {
-				// Do not break powererp usage if log fails
+				// Do not break PowerERP usage if log fails
 				//throw new Exception('Failed to open log file '.basename($logfile));
 				print 'Failed to open log file '.($powererp_main_prod ?basename($logfile) : $logfile);
 			}

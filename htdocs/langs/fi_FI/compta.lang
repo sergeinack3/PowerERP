@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - compta
+# PowerERP language file - Source file is en_US - compta
 MenuFinancial=Laskutus | maksu
 TaxModuleSetupToModifyRules=Määritä laskentasäännöt <a href="%s"> Verojen moduulin määrittämiseen </a>
 TaxModuleSetupToModifyRulesLT=Go to <a href="%s">Company setup</a> to modify rules for calculation

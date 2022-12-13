@@ -24,13 +24,13 @@
  *  \ingroup    asset
  *  \brief      Description and activation file for the module assets
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *  Description and activation class for module FixedAssets
  */
-class modAsset extends PowererpModules
+class modAsset extends PowerERPModules
 {
 	/**
 	 * Constructor. Define names, constants, directories, boxes, permissions
@@ -44,8 +44,8 @@ class modAsset extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
-		$this->numero = 51000; // TODO Go on page https://wiki.powererp.org/index.php/List_of_modules_id to reserve id number for your module
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
+		$this->numero = 51000; // TODO Go on page https://wiki.PowerERP.org/index.php/List_of_modules_id to reserve id number for your module
 
 		// Family can be 'crm','financial','hr','projects','products','ecm','technic','interface','other'
 		// It is used to group modules by family in module setup page
@@ -60,9 +60,9 @@ class modAsset extends PowererpModules
 		// Module description, used if translation string 'ModuleAssetsDesc' not found (MyModue is name of module).
 		$this->description = "Assets module";
 		// Used only if file README.md and README-LL.md not found.
-		$this->descriptionlong = "Assets module to manage assets module and depreciation charge on Powererp";
+		$this->descriptionlong = "Assets module to manage assets module and depreciation charge on PowerERP";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp', 'powererp_deprecated' or a version string like 'x.y.z'
+		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'powererp_deprecated' or a version string like 'x.y.z'
 		$this->version = 'development';
 		// Key used in llx_const table to save module status enabled/disabled (where ASSETS is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -91,7 +91,7 @@ class modAsset extends PowererpModules
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->langfiles = array("assets");
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(7, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(7, 0); // Minimum version of PowerERP required by module
 		$this->warnings_activation = array(); // Warning to show when we activate module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		$this->warnings_activation_ext = array(); // Warning to show when we activate an external module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		//$this->automatic_activation = array('FR'=>'AssetsWasAutomaticallyActivatedBecauseOfYourCountryChoice');
@@ -207,7 +207,7 @@ class modAsset extends PowererpModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *  It also creates data directories
 	 *
 	 *  @param      string	$options    Options when enabling module ('', 'noboxes')

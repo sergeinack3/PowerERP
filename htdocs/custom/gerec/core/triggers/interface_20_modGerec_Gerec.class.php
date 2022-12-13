@@ -52,7 +52,7 @@ class InterfaceGerec extends PowererpTriggers
      */
     public function runTrigger($action, $object, User $user, Translate $langs, Conf $conf)
     {
-		// Put here code you want to execute when a Powererp business events occurs.
+		// Put here code you want to execute when a PowerERP business events occurs.
         // Data and type of action are stored into $object and $action
 	    # dol_syslog("Trigger '".$this->name."' for action '$action' launched by ".__FILE__.". id=".$object->id,  LOG_DEBUG);
 	    switch ($action) {

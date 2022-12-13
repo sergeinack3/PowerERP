@@ -35,14 +35,14 @@
 
 /**
  *	\file			htdocs/core/lib/functions.lib.php
- *	\brief			A set of functions for Powererp
+ *	\brief			A set of functions for PowerERP
  *					This file contains all frequently used functions.
  */
 
 include_once DOL_DOCUMENT_ROOT.'/core/lib/json.lib.php';
 
 /**
- * Return powererp global constant string value
+ * Return PowerERP global constant string value
  * @param string $key key to return value, return '' if not set
  * @param string $default value to return
  * @return string
@@ -55,7 +55,7 @@ function getDolGlobalString($key, $default = '')
 }
 
 /**
- * Return powererp global constant int value
+ * Return PowerERP global constant int value
  * @param string $key key to return value, return 0 if not set
  * @param int $default value to return
  * @return int
@@ -862,7 +862,7 @@ function checkVal($out = '', $check = 'alphanohtml', $filter = null, $options = 
 
 if (!function_exists('dol_getprefix')) {
 	/**
-	 *  Return a prefix to use for this Powererp instance, for session/cookie names or email id.
+	 *  Return a prefix to use for this PowerERP instance, for session/cookie names or email id.
 	 *  The prefix is unique for instance and avoid conflict between multi-instances, even when having two instances with same root dir
 	 *  or two instances in same virtual servers.
 	 *
@@ -1456,7 +1456,7 @@ function dol_ucwords($string, $encoding = "UTF-8")
  *
  * 	@param  string		$message				Line to log. ''=Show nothing
  *  @param  int			$level					Log level
- *												On Windows LOG_ERR=4, LOG_WARNING=5, LOG_NOTICE=LOG_INFO=6, LOG_DEBUG=6 si define_syslog_variables ou PHP 5.3+, 7 si powererp
+ *												On Windows LOG_ERR=4, LOG_WARNING=5, LOG_NOTICE=LOG_INFO=6, LOG_DEBUG=6 si define_syslog_variables ou PHP 5.3+, 7 si PowerERP
  *												On Linux   LOG_ERR=3, LOG_WARNING=4, LOG_NOTICE=5, LOG_INFO=6, LOG_DEBUG=7
  *  @param	int			$ident					1=Increase ident of 1, -1=Decrease ident of 1
  *  @param	string		$suffixinfilename		When output is a file, append this suffix into default log filename.
@@ -3436,7 +3436,7 @@ function isValidEmail($address, $acceptsupervisorkey = 0)
  *	Return if the domain name has a valid MX record.
  *  WARNING: This need function idn_to_ascii, checkdnsrr and getmxrr
  *
- *	@param	    string		$domain	    			Domain name (Ex: "yahoo.com", "yhaoo.com", "powererp.fr")
+ *	@param	    string		$domain	    			Domain name (Ex: "yahoo.com", "yhaoo.com", "PowerERP.fr")
  *	@return     int     							-1 if error (function not available), 0=Not valid, 1=Valid
  *  @see isValidEmail()
  */
@@ -4559,7 +4559,7 @@ function dol_print_error($db = '', $error = '', $errors = null)
 		$out .= $langs->trans("InformationToHelpDiagnose").":<br>\n";
 
 		$out .= "<b>".$langs->trans("Date").":</b> ".dol_print_date(time(), 'dayhourlog')."<br>\n";
-		$out .= "<b>".$langs->trans("Powererp").":</b> ".DOL_VERSION." - https://www.powererp.org<br>\n";
+		$out .= "<b>".$langs->trans("PowerERP").":</b> ".DOL_VERSION." - https://www.PowerERP.org<br>\n";
 		if (isset($conf->global->MAIN_FEATURES_LEVEL)) {
 			$out .= "<b>".$langs->trans("LevelOfFeature").":</b> ".getDolGlobalInt('MAIN_FEATURES_LEVEL')."<br>\n";
 		}
@@ -5380,9 +5380,9 @@ function price2num($amount, $rounding = '', $option = 0)
 			$amount = str_replace($thousand, '', $amount);
 		}
 
-		// Convert amount to format with powererp dec and thousand (this is because PHP convert a number
-		// to format defined by LC_NUMERIC after a calculation and we want source format to be like defined by Powererp setup.
-		// So if number was already a good number, it is converted into local Powererp setup.
+		// Convert amount to format with PowerERP dec and thousand (this is because PHP convert a number
+		// to format defined by LC_NUMERIC after a calculation and we want source format to be like defined by PowerERP setup.
+		// So if number was already a good number, it is converted into local PowerERP setup.
 		if (is_numeric($amount)) {
 			// We put in temps value of decimal ("0.00001"). Works with 0 and 2.0E-5 and 9999.10
 			$temps = sprintf("%0.10F", $amount - intval($amount)); // temps=0.0000000000 or 0.0000200000 or 9999.1000000000
@@ -5430,14 +5430,14 @@ function price2num($amount, $rounding = '', $option = 0)
 		}
 		//print ' SS'.$amount.' - '.$nbofdec.' - '.$dec.' - '.$thousand.' - '.$nbofdectoround.'<br>';
 
-		// Convert amount to format with powererp dec and thousand (this is because PHP convert a number
-		// to format defined by LC_NUMERIC after a calculation and we want source format to be defined by Powererp setup.
+		// Convert amount to format with PowerERP dec and thousand (this is because PHP convert a number
+		// to format defined by LC_NUMERIC after a calculation and we want source format to be defined by PowerERP setup.
 		if (is_numeric($amount)) {
 			// We put in temps value of decimal ("0.00001"). Works with 0 and 2.0E-5 and 9999.10
 			$temps = sprintf("%0.10F", $amount - intval($amount)); // temps=0.0000000000 or 0.0000200000 or 9999.1000000000
 			$temps = preg_replace('/([\.1-9])0+$/', '\\1', $temps); // temps=0. or 0.00002 or 9999.1
 			$nbofdec = max(0, dol_strlen($temps) - 2); // -2 to remove "0."
-			$amount = number_format($amount, min($nbofdec, $nbofdectoround), $dec, $thousand); // Convert amount to format with powererp dec and thousand
+			$amount = number_format($amount, min($nbofdec, $nbofdectoround), $dec, $thousand); // Convert amount to format with PowerERP dec and thousand
 		}
 		//print "TT".$amount.'<br>';
 
@@ -10435,7 +10435,7 @@ function currentToken()
  * Start a table with headers and a optinal clickable number (don't forget to use "finishSimpleTable()" after the last table row)
  *
  * @param string	$header		The first left header of the table (automatic translated)
- * @param string	$link		(optional) The link to a internal powererp page, when click on the number (without the first "/")
+ * @param string	$link		(optional) The link to a internal PowerERP page, when click on the number (without the first "/")
  * @param string	$arguments	(optional) Additional arguments for the link (e.g. "search_status=0")
  * @param integer	$emptyRows	(optional) The count of empty rows after the first header
  * @param integer	$number		(optional) The number that is shown right after the first header, when not set the link is shown on the right side of the header as "FullList"

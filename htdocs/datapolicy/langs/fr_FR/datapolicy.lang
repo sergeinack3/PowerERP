@@ -69,7 +69,7 @@ DATAPOLICY_opposition_prospection = S’oppose au traitement de ses données à 
 # Popup
 #
 DATAPOLICY_POPUP_ANONYME_TITLE = Anonymiser un tiers
-DATAPOLICY_POPUP_ANONYME_TEXTE = Vous ne pouvez pas supprimer ce contact de Powererp car des éléments y sont liés. Conformément au DATAPOLICY, vous allez rendre toutes ces données anonymes afin de respecter vos obligations. Souhaitez-vous continuer ?
+DATAPOLICY_POPUP_ANONYME_TEXTE = Vous ne pouvez pas supprimer ce contact de PowerERP car des éléments y sont liés. Conformément au DATAPOLICY, vous allez rendre toutes ces données anonymes afin de respecter vos obligations. Souhaitez-vous continuer ?
 
 #
 # Bouton portabilité

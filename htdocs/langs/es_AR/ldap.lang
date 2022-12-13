@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ldap
+# PowerERP language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=La contraseña para el usuario <b>%s</b> en el dominio <b>%s</b> debe ser modificada.
 UserMustChangePassNextLogon=El usuario deberá cambiar la contraseña en el dominio %s
 LDAPInformationsForThisContact=Información en base LDAP para este contacto

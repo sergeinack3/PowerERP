@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Kód
 WebsiteSetupDesc=Vytvořte zde webové stránky, které chcete používat. Poté přejděte do nabídky Webové stránky a upravte je.
 DeleteWebsite=Odstranit web
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Pohled webové stránky s použitím domácí adresy URL
 SetHereVirtualHost= <u> Použit  Apache / Nginx / ... </u> <br> vytvořit na svůj webový server (Apache, Nginx, ...) a vyhrazený virtuálního hostitele s PHP povoleno a Kořenový adresář na <br> <strong> %s </strong>
 ExampleToUseInApacheVirtualHostConfig=Příklad použití v nastavení virtuálního hostitele Apache:
 YouCanAlsoTestWithPHPS= <u> Použití s vloženým serverem PHP </u> <br> Při vývoji prostředí můžete upřednostňovat testování webu pomocí integrovaného webového serveru PHP (PHP 5.5 vyžadováno) spuštěním <br> <strong> php -S 0.0.0.0:8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP= <u> Provozujte svůj web s jiným poskytovatelem hostingu Powererp </u> <br> Pokud nemáte webový server jako Apache nebo NGinx dostupný na internetu, můžete exportovat a importovat webový server na jinou instanci Powererp poskytovanou jiným poskytovatelem hostingu Powererp. integrace s modulem webových stránek. Seznam některých poskytovatelů hostingu Powererp najdete na <a href="https://saas.powererp.org" target="_blank"> https://saas.powererp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Provozujte svůj web s jiným poskytovatelem hostingu PowerERP </u> <br> Pokud nemáte webový server jako Apache nebo NGinx dostupný na internetu, můžete exportovat a importovat webový server na jinou instanci PowerERP poskytovanou jiným poskytovatelem hostingu PowerERP. integrace s modulem webových stránek. Seznam některých poskytovatelů hostingu PowerERP najdete na <a href="https://saas.PowerERP.org" target="_blank"> https://saas.PowerERP.org </a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Číst
 WritePerm=Zápis
 TestDeployOnWeb=Testování / nasazení na webu
 PreviewSiteServedByWebServer= <u> Náhled %s na nové kartě. </u> <br> <br> %s bude sloužit externímu webovém serveru (jako Apache, Nginx, IIS). Musíte nainstalovat a nastavit tento server předtím, než přejdete k adresáři: <br> <strong> %s </strong> <br> Adresa URL obsluhovaná externím serverem: <br> <strong> %s </strong>
-PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Powererp server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Powererp.<br>URL served by Powererp:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
+PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by PowerERP server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your PowerERP.<br>URL served by PowerERP:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
 VirtualHostUrlNotDefined=Adresa URL virtuálního hostitele obsluhovaného externím webovým serverem není definována
 NoPageYet=Zatím žádné stránky
 YouCanCreatePageOrImportTemplate=Můžete vytvořit novou stránku nebo importovat úplnou šablonu webových stránek

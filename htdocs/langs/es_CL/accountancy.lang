@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - accountancy
+# PowerERP language file - Source file is en_US - accountancy
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columna para archivo exportación
 ACCOUNTING_EXPORT_DATE=Formato de fecha en archivo exportado
 ACCOUNTING_EXPORT_PIECE=Número de pieza exportada

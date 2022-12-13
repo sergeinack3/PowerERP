@@ -19,7 +19,7 @@ Description of the module...
 Other external modules are available on [Dolistore.com](https://www.dolistore.com).
 
 Contact
-This module is developped by PowerERP (https://powererp.site)
+This module is developped by PowerERP (https://PowerERP.site)
 
 Website: https://ipowerworld.net
 

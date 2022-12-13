@@ -1,8 +1,8 @@
-# Powererp language file - Source file is en_US - stripe
+# PowerERP language file - Source file is en_US - stripe
 StripeSetup=Stripe module setup
-StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular Powererp object (invoice, order, ...)
+StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular PowerERP object (invoice, order, ...)
 StripeOrCBDoPayment=Pay with credit card or Stripe
-FollowingUrlAreAvailableToMakePayments=فيما يلي عناوين المواقع المتاحة لعرض هذه الصفحة زبون لتسديد دفعة Powererp على الأجسام
+FollowingUrlAreAvailableToMakePayments=فيما يلي عناوين المواقع المتاحة لعرض هذه الصفحة زبون لتسديد دفعة PowerERP على الأجسام
 PaymentForm=شكل الدفع
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=تتيح لك هذه الشاشة إجراء الدفع الإلكتروني إلى ٪ s.

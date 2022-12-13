@@ -23,7 +23,7 @@
  */
 
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';

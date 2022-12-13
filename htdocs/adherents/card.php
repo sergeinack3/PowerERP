@@ -72,7 +72,7 @@ $extrafields->fetch_name_optionals_label($object->table_element);
 
 $socialnetworks = getArrayOfSocialNetworks();
 
-// Get object canvas (By default, this is not defined, so standard usage of powererp)
+// Get object canvas (By default, this is not defined, so standard usage of PowerERP)
 $object->getCanvas($id);
 $canvas = $object->canvas ? $object->canvas : GETPOST("canvas");
 $objcanvas = null;
@@ -684,7 +684,7 @@ if (empty($reshook)) {
 					$subjecttosend = make_substitutions($subject, $substitutionarray, $outputlangs);
 					$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnValid()), $substitutionarray, $outputlangs);
 
-					$moreinheader = 'X-Powererp-Info: send_an_email by adherents/card.php'."\r\n";
+					$moreinheader = 'X-PowerERP-Info: send_an_email by adherents/card.php'."\r\n";
 
 					$result = $object->send_an_email($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 					if ($result < 0) {
@@ -755,7 +755,7 @@ if (empty($reshook)) {
 						$subjecttosend = make_substitutions($subject, $substitutionarray, $outputlangs);
 						$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnResiliate()), $substitutionarray, $outputlangs);
 
-						$moreinheader = 'X-Powererp-Info: send_an_email by adherents/card.php'."\r\n";
+						$moreinheader = 'X-PowerERP-Info: send_an_email by adherents/card.php'."\r\n";
 
 						$result = $object->send_an_email($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 						if ($result < 0) {
@@ -826,7 +826,7 @@ if (empty($reshook)) {
 						$subjecttosend = make_substitutions($subject, $substitutionarray, $outputlangs);
 						$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnExclude()), $substitutionarray, $outputlangs);
 
-						$moreinheader = 'X-Powererp-Info: send_an_email by adherents/card.php'."\r\n";
+						$moreinheader = 'X-PowerERP-Info: send_an_email by adherents/card.php'."\r\n";
 
 						$result = $object->send_an_email($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 						if ($result < 0) {
@@ -1370,7 +1370,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 			print "</td></tr>";
 		}
 
-		// Third party Powererp
+		// Third party PowerERP
 		if (!empty($conf->societe->enabled)) {
 			print '<tr><td>'.$langs->trans("LinkedToPowererpThirdParty").'</td><td colspan="2" class="valeur">';
 			if ($object->socid) {
@@ -1383,7 +1383,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 			print '</td></tr>';
 		}
 
-		// Login Powererp
+		// Login PowerERP
 		print '<tr><td>'.$langs->trans("LinkedToPowererpUser").'</td><td colspan="2" class="valeur">';
 		if ($object->user_id) {
 			$form->form_users($_SERVER['PHP_SELF'].'?rowid='.$object->id, $object->user_id, 'none');
@@ -1794,7 +1794,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 		// Other attributes
 		include DOL_DOCUMENT_ROOT.'/core/tpl/extrafields_view.tpl.php';
 
-		// Third party Powererp
+		// Third party PowerERP
 		if (!empty($conf->societe->enabled)) {
 			print '<tr><td>';
 			$editenable = $user->rights->adherent->creer;
@@ -1832,7 +1832,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 			print '</td></tr>';
 		}
 
-		// Login Powererp - Link to user
+		// Login PowerERP - Link to user
 		print '<tr><td>';
 		$editenable = $user->rights->adherent->creer && $user->rights->user->user->creer;
 		print $form->editfieldkey('LinkedToPowererpUser', 'login', '', $object, $editenable);

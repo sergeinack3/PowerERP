@@ -26,12 +26,12 @@
  *  \ingroup    mrp
  *  \brief      Description and activation file for the module Mrp
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 /**
  *  Description and activation class for module Mrp
  */
-class modMrp extends PowererpModules
+class modMrp extends PowerERPModules
 {
 	/**
 	 * Constructor. Define names, constants, directories, boxes, permissions
@@ -44,7 +44,7 @@ class modMrp extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 660;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'mrp';
@@ -61,8 +61,8 @@ class modMrp extends PowererpModules
 		$this->description = "Module to Manage Manufacturing Orders (MO)";
 		// Used only if file README.md and README-LL.md not found.
 		$this->descriptionlong = "Module to Manage Manufacturing Orders (MO)";
-		// Possible values for version are: 'development', 'experimental', 'powererp', 'powererp_deprecated' or a version string like 'x.y.z'
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'powererp_deprecated' or a version string like 'x.y.z'
+		$this->version = 'PowerERP';
 		// Url to the file with your last numberversion of this module
 		//$this->url_last_version = 'http://www.example.com/versionmodule.txt';
 
@@ -123,7 +123,7 @@ class modMrp extends PowererpModules
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with. Example: array('modModuleToDisable1', ...)
 		$this->langfiles = array("mrp");
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(8, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(8, 0); // Minimum version of PowerERP required by module
 		$this->warnings_activation = array(); // Warning to show when we activate module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		$this->warnings_activation_ext = array(); // Warning to show when we activate an external module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		//$this->automatic_activation = array('FR'=>'MrpWasAutomaticallyActivatedBecauseOfYourCountryChoice');
@@ -436,7 +436,7 @@ class modMrp extends PowererpModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *  It also creates data directories
 	 *
 	 *  @param      string  $options    Options when enabling module ('', 'noboxes')
@@ -486,7 +486,7 @@ class modMrp extends PowererpModules
 
 	/**
 	 *  Function called when module is disabled.
-	 *  Remove from database constants, boxes and permissions from Powererp database.
+	 *  Remove from database constants, boxes and permissions from PowerERP database.
 	 *  Data directories are not deleted
 	 *
 	 *  @param      string	$options    Options when enabling module ('', 'noboxes')

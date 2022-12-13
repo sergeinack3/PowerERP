@@ -25,8 +25,8 @@ create table llx_delivery
   entity                integer DEFAULT 1 NOT NULL,		-- multi company id
   fk_soc                integer      NOT NULL,
   
-  ref_ext               varchar(255),					-- reference into an external system (not used by powererp)
-  ref_int				varchar(255),					-- reference into an internal system (used by powererp to store extern id like paypal info)
+  ref_ext               varchar(255),					-- reference into an external system (not used by PowerERP)
+  ref_int				varchar(255),					-- reference into an internal system (used by PowerERP to store extern id like paypal info)
   ref_customer          varchar(255),					-- customer number
   
   date_creation         datetime,						-- date de creation

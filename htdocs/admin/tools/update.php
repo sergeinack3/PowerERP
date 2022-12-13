@@ -19,7 +19,7 @@
 
 /**
  *		\file 		htdocs/admin/tools/update.php
- *		\brief      Page to make a Powererp online upgrade
+ *		\brief      Page to make a PowerERP online upgrade
  */
 
 if (! defined('CSRFCHECK_WITH_TOKEN')) {
@@ -45,7 +45,7 @@ if (GETPOST('msg', 'alpha')) {
 }
 
 
-$urlpowererp = 'https://www.powererp.org/downloads/';
+$urlpowererp = 'https://www.PowerERP.org/downloads/';
 $powererproot = preg_replace('/([\\/]+)$/i', '', DOL_DOCUMENT_ROOT);
 $powererproot = preg_replace('/([^\\/]+)$/i', '', $powererproot);
 $powererpdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
@@ -59,7 +59,7 @@ $version = '0.0';
  */
 
 if ($action == 'getlastversion') {
-	$result = getURLContent('https://sourceforge.net/projects/powererp/rss');
+	$result = getURLContent('https://sourceforge.net/projects/PowerERP/rss');
 	//var_dump($result['content']);
 	$sfurl = simplexml_load_string($result['content'], 'SimpleXMLElement', LIBXML_NOCDATA|LIBXML_NONET);
 }

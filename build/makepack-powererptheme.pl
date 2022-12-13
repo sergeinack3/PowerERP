@@ -1,13 +1,13 @@
 #!/usr/bin/perl
 #-----------------------------------------------------------------------------
 # \file         build/makepack-powererptheme.pl
-# \brief        Script to build a theme Package for Powererp
+# \brief        Script to build a theme Package for PowerERP
 # \author       (c)2005-2009 Laurent Destailleur  <eldy@users.sourceforge.net>
 #-----------------------------------------------------------------------------
 
 use Cwd;
 
-$PROJECT="powererp";
+$PROJECT="PowerERP";
 
 @LISTETARGET=("TGZ");   # Possible packages
 %REQUIREMENTTARGET=(    # Tool requirement for each package
@@ -67,7 +67,7 @@ if (! $TEMP || ! -d $TEMP) {
     sleep 2;
     exit 2;
 } 
-$BUILDROOT="$TEMP/powererp-buildroot";
+$BUILDROOT="$TEMP/PowerERP-buildroot";
 
 
 my $copyalreadydone=0;

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Compte comptable utilitzat per usuaris tercers
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=El compte comptable dedicat definit a la fitxa d'usuari només s’utilitzarà per a la comptabilitat auxiliar. Aquest s'utilitzarà per al llibre major i com a valor per defecte de la comptabilitat auxiliar si no es defineix un compte comptable d'usuari dedicat.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Compte comptable per defecte per als pagaments salarials

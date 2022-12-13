@@ -816,7 +816,7 @@ class AdherentType extends CommonObject
 		}
 		if (!empty($conf->global->LDAP_MEMBER_TYPE_FIELD_GROUPMEMBERS)) {
 			$valueofldapfield = array();
-			foreach ($this->members as $key => $val) {    // This is array of users for group into powererp database.
+			foreach ($this->members as $key => $val) {    // This is array of users for group into PowerERP database.
 				$member = new Adherent($this->db);
 				$member->fetch($val->id, '', '', '', false, false);
 				$info2 = $member->_load_ldap_info();

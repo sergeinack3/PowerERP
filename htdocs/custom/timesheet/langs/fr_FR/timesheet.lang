@@ -1,4 +1,4 @@
-# Powererp language file - English - timesheet
+# PowerERP language file - English - timesheet
 # Translators
 # (6),  (403)
 adddocs = Documents joints
@@ -50,7 +50,7 @@ DiplayOptions = options d'affichage
 draft = Brouillon
 draftColorDesc = Couleur des brouillons de congés
 dropdownAjax = Désactiver l'Ajax des dropdown
-dropdownAjaxDesc = Désactiver l'ajax pour les listes déroulantes Powererp (en cas de problème pour entrer un nouveau favori)
+dropdownAjaxDesc = Désactiver l'ajax pour les listes déroulantes PowerERP (en cas de problème pour entrer un nouveau favori)
 Employee = Collaborateur
 employeeSignature = Signature salarié(e)
 errMsgMaxHoursExceded = Vous ne pouvez pas faire autant d'heures supplémentaires par jour
@@ -151,7 +151,7 @@ RecordUpdated = Mis à  jour avec succès
 rejected = Rejeté
 rejectedColorDesc = Couleur des congés et feuilles de temps rejetées
 Reminder = Rappel
-reminderEmailProcess = Vous pouvez activer un envoie d'email de rappel aux approbateurs en utilisant la fonction planificateur de tâche de powererp<br>Job type \= Call method of a Powererp Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
+reminderEmailProcess = Vous pouvez activer un envoie d'email de rappel aux approbateurs en utilisant la fonction planificateur de tâche de PowerERP<br>Job type \= Call method of a PowerERP Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
 savedDuration = Durée enregistrée
 searchbox = Activer les boîtes de recherche
 searchboxDesc = Remplacez les listes déroulantes par des champs de recherche pour les Tâches. Nécessaire lorsque des centaines de tâches sont définies afin d'améliorer les performances. (Projet, contact, tiers, utilise la configuration définie dans un autre module)
@@ -197,7 +197,7 @@ userReport = Rapport d'utilisateur
 wngMsgHoursExceded = Vous entrez des heures supplémentaires
 Yearweekdate = Date de référence
 YouHaveApprovalPending = Feuilles de temps en attente de votre approbation
-YouHaveApprovalPendingMsg = Bonjour,<br><br>Vous avez __NB_TS__ feuilles de temps à approuver, veuillez vous connecter à Powererp pour les approuver.<br><br>Cordialement.<br><br>Votre administrateur Powererp.
+YouHaveApprovalPendingMsg = Bonjour,<br><br>Vous avez __NB_TS__ feuilles de temps à approuver, veuillez vous connecter à PowerERP pour les approuver.<br><br>Cordialement.<br><br>Votre administrateur PowerERP.
 YouHaveTimesheetRejected = L'une de vos feuilles de temps soumises a été rejetée.
 YouHaveTimesheetRejectedMsg = Bonjour,<br><br>la feuille de temps de la semaine %s a été rejetée.<br><br>Veuillez vérifier vos entrées ici: <br>%s<br><br>Cordialement
 minSecondsPerEvent = Minimun en secondes

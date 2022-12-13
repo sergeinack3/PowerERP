@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=Diretoria
 ECMSectionManual=Diretoria manual
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Número de sub-pastas
 ECMNbOfFilesInSubDir=Número de ficheiros em sub-pastas
 ECMCreationUser=Criador
 ECMArea=A área de SGD/GCE
-ECMAreaDesc=A área de SGD/GCE (Sistema de Gestão de Documentos/Gestão de Conteúdo Eletrónico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no Powererp.
+ECMAreaDesc=A área de SGD/GCE (Sistema de Gestão de Documentos/Gestão de Conteúdo Eletrónico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no PowerERP.
 ECMAreaDesc2=* As diretorias automáticas são preenchidas automaticamente ao adicionar documentos a partir de uma ficha de um elemento. <br> * As diretorias manuais podem ser utlizadas para guardar documentos não associados a um elemento específico.
 ECMSectionWasRemoved=A pasta <b>%s</b> foi eliminada.
 ECMSectionWasCreated=O diretório <b> %s </b> foi criado.

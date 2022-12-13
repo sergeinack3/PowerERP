@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - modulebuilder
+# PowerERP language file - Source file is en_US - modulebuilder
 ModuleBuilderDescdescription=Insérez ici toute l'information générale qui décrit votre module
 ModuleBuilderDescmenus=Cet onglet est dédié à définir les entrées de menu fournies par votre module.
 ModuleBuilderDescpermissions=Cet onglet est dédié à définir les nouvelles autorisations que vous souhaitez fournir à votre module.

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Kod
 WebsiteSetupDesc=Tu utwórz witryny, które chcesz użyć. Następnie, przejdź do menu Witryny, aby je edytować.
 DeleteWebsite=Skasuj stronę
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Zobacz stronę używając linków ze strony głównej
 SetHereVirtualHost= <u> Użyj z Apache / NGinx / ... </u> <br> Utwórz na swoim serwerze internetowym (Apache, Nginx, ...) dedykowany wirtualny host z włączoną obsługą PHP i katalog główny na <br> <strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Przykład do użycia w konfiguracji hosta wirtualnego Apache:
 YouCanAlsoTestWithPHPS=<u> Używaj z wbudowanym serwerem PHP </u> <br>Gdy w środowisku rozwojowym preferujesz testowanie web strony z web serwerem wbudowanym w PHP (wymagane PHP 5.5 lub nowsze), to uruchamiaj<br> <strong> php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP=<u>Uruchom swoją witrynę u innego dostawcy wystąpień Powererp</u><br>Jeśli nie masz dostępnego w internecie web serwera, takiego jak Apache lub NGinx, to możesz eksportować i importować swoją witrynę do innego wystąpienia Powererp u kogoś oferującego wystąpienia Powererp mające moduł Website w pełni zintegrowany z web serwerem. Listę niektórych dostawców wystąpień Powererp znajdziesz w <a href="https://saas.powererp.org" target="_blank">https://saas.powererp.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Uruchom swoją witrynę u innego dostawcy wystąpień PowerERP</u><br>Jeśli nie masz dostępnego w internecie web serwera, takiego jak Apache lub NGinx, to możesz eksportować i importować swoją witrynę do innego wystąpienia PowerERP u kogoś oferującego wystąpienia PowerERP mające moduł Website w pełni zintegrowany z web serwerem. Listę niektórych dostawców wystąpień PowerERP znajdziesz w <a href="https://saas.PowerERP.org" target="_blank">https://saas.PowerERP.org</a>
 CheckVirtualHostPerms=Sprawdź również, czy użytkownik wirtualnego hosta (na przykład dane www) ma <strong> %s </strong> uprawnienia do plików w <br> <strong> %s</strong>
 ReadPerm=Czytanie
 WritePerm=Zapis
 TestDeployOnWeb=Testuj/wdróż na web serwerze
 PreviewSiteServedByWebServer=<u>Podgląd %s w nowej zakładce.</u><br><br>%s będzie obsługiwana przez zewnętrzny web serwer (np. Apache, Nginx, IIS). Musisz zainstalować i skonfigurować taki web serwer, zanim wskazanie do katalogu:<br><strong>%s</strong><br>URL obsługiwany przez zewnętrzny web serwer:<br><strong>%s</strong>
-PreviewSiteServedByPowererp= <u> Podgląd %s w nowej karcie. </u> <br> <br> Serwer %s będzie obsługiwany przez serwer Powererp, więc nie jest potrzebny żaden dodatkowy serwer WWW (taki jak Apache, Nginx, IIS) do zainstalowania. <br> Niedogodnością jest to, że adresy URL stron nie są przyjazne dla użytkownika i zaczynają się od ścieżki do Twojego Powererpa. <br> URL podawane przez Powererp: <br> <strong> %s </strong> <br> <br> Aby korzystać z własnego serwera zewnętrznego internetowej, aby służyć tej strony internetowej, stworzenie wirtualnego hosta na serwerze WWW, które punkty na katalogu <br> <strong> %s </strong> <br> następnie wprowadź nazwę tego serwera wirtualnego we właściwościach tej witryny i kliknij łącze „Przetestuj / Wdróż w sieci”.
+PreviewSiteServedByPowererp= <u> Podgląd %s w nowej karcie. </u> <br> <br> Serwer %s będzie obsługiwany przez serwer PowerERP, więc nie jest potrzebny żaden dodatkowy serwer WWW (taki jak Apache, Nginx, IIS) do zainstalowania. <br> Niedogodnością jest to, że adresy URL stron nie są przyjazne dla użytkownika i zaczynają się od ścieżki do Twojego Powererpa. <br> URL podawane przez PowerERP: <br> <strong> %s </strong> <br> <br> Aby korzystać z własnego serwera zewnętrznego internetowej, aby służyć tej strony internetowej, stworzenie wirtualnego hosta na serwerze WWW, które punkty na katalogu <br> <strong> %s </strong> <br> następnie wprowadź nazwę tego serwera wirtualnego we właściwościach tej witryny i kliknij łącze „Przetestuj / Wdróż w sieci”.
 VirtualHostUrlNotDefined=Adres URL wirtualnego hosta obsługiwanego przez zewnętrzny web serwer nie został zdefiniowany
 NoPageYet=Brak stron
 YouCanCreatePageOrImportTemplate=Możesz utworzyć nową stronę albo załadować pełny szablon witryny

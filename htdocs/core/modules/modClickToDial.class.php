@@ -24,13 +24,13 @@
  *	\brief      Description and activation file for the module Click to Dial
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module Click to Dial
  */
-class modClickToDial extends PowererpModules
+class modClickToDial extends PowerERPModules
 {
 
 	/**
@@ -49,7 +49,7 @@ class modClickToDial extends PowererpModules
 		$this->description = "Integration of a ClickToDial system (Asterisk, ...)";
 		$this->descriptionlong = "Support a Click To Dial feature with a SIP system. When clicking on a phone number, your phone system automatically call the callee.";
 
-		$this->version = 'powererp'; // 'development' or 'experimental' or 'powererp' or version
+		$this->version = 'PowerERP'; // 'development' or 'experimental' or 'PowerERP' or version
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'phoning';

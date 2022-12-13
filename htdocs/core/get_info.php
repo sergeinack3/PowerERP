@@ -166,7 +166,7 @@ if (empty($conf->global->MAIN_PRINT_DISABLELINK) && empty($conf->global->MAIN_OP
 }
 */
 
-// Link to Powererp wiki pages
+// Link to PowerERP wiki pages
 /*
 if (empty($conf->global->MAIN_HELP_DISABLELINK) && empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER))
 {

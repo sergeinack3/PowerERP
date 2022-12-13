@@ -24,12 +24,12 @@
  *	\brief      Description and activation file for the module syslog
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 /**
  *	Class to enable/disable module Logs
  */
-class modSyslog extends PowererpModules
+class modSyslog extends PowerERPModules
 {
 
 	/**
@@ -53,8 +53,8 @@ class modSyslog extends PowererpModules
 		$this->description = "Activate debug logs (syslog)";
 		// Can be enabled / disabled only in the main company
 		$this->core_enabled = 1;
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of image file used for this module.

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Código seguridad
 NumberingShort=Nº
 Tools=Utilidades
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nNos ponemos en contacto con us
 PredefinedMailContentLink=Puede hacer clic en el siguiente enlace para realizar su pago, si aún no lo ha hecho.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hola)__\n\n\n__(Sinceramente)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Recordatorio de evento "__EVENT_LABEL__" el __EVENT_DATE__ a las __EVENT_TIME__ <br> <br> Este es un mensaje automático, no responda.
-DemoDesc=Powererp es un ERP/CRM para la gestión de negocios (profesionales o asociaciones), compuesto de módulos funcionales independientes y opcionales. Una demostración que incluya todos estos módulos no tiene sentido porque no utilizará todos los módulos. Además, tiene disponibles varios tipos de perfiles de demostración.
+DemoDesc=PowerERP es un ERP/CRM para la gestión de negocios (profesionales o asociaciones), compuesto de módulos funcionales independientes y opcionales. Una demostración que incluya todos estos módulos no tiene sentido porque no utilizará todos los módulos. Además, tiene disponibles varios tipos de perfiles de demostración.
 ChooseYourDemoProfil=Elija el perfil de demostración que mejor se adapte a sus necesidades ...
 ChooseYourDemoProfilMore=... o construya su perfil<br>(modo de selección manual)
 DemoFundation=Gestión de miembros de una asociación
@@ -182,10 +182,10 @@ SizeUnitpoint=punto
 BugTracker=Incidencias
 SendNewPasswordDesc=Este formulario le permite obtener una nueva contraseña. Le será enviada a su e-mail.<br>El cambio será efectivo una vez haga clic en el enlace de confirmación del e-mail.<br>Revise su e-mail.
 BackToLoginPage=Volver a la página de conexión
-AuthenticationDoesNotAllowSendNewPassword=El modo de autentificación de Powererp está configurado como "<b>%s</b>".<br>En este modo Powererp no puede conocer ni modificar su contraseña<br>Contacte con su administrador para conocer las modalidades de cambio.
+AuthenticationDoesNotAllowSendNewPassword=El modo de autentificación de PowerERP está configurado como "<b>%s</b>".<br>En este modo PowerERP no puede conocer ni modificar su contraseña<br>Contacte con su administrador para conocer las modalidades de cambio.
 EnableGDLibraryDesc=Instale o active la libreria GD en su PHP para poder usar esta opción
 ProfIdShortDesc=<b>Prof Id %s</b> es una información dependiente del país del tercero.<br>Por ejemplo, para el país  <b>%s</b>, és el código <b>%s</b>.
-PowererpDemo=Demo de Powererp ERP/CRM
+PowererpDemo=Demo de PowerERP ERP/CRM
 StatsByNumberOfUnits=Estadísticas en número de unidades de producto/servicio
 StatsByNumberOfEntities=Estadísticas por número de entidades referentes (no. De facturas, o pedidos ...)
 NumberOfProposals=Número de pedidos
@@ -244,7 +244,7 @@ FileIsTooBig=El archivo es demasiado grande
 PleaseBePatient=Rogamos espere unos instantes...
 NewPassword=Nueva contraseña
 ResetPassword=Reiniciar contraseña
-RequestToResetPasswordReceived=Se ha recibido una solicitud para cambiar tu contraseña de Powererp
+RequestToResetPasswordReceived=Se ha recibido una solicitud para cambiar tu contraseña de PowerERP
 NewKeyIs=Esta es su nueva contraseña para iniciar sesión
 NewKeyWillBe=Su nueva contraseña para iniciar sesión en el software será
 ClickHereToGoTo=Haga click aquí para ir a %s

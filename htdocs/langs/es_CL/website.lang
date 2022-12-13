@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 WebsiteSetupDesc=Crea aquí los sitios web que deseas utilizar. Luego entra en el menú de sitios web para editarlos.
 ConfirmDeleteWebsite=¿Estás seguro de que deseas eliminar este sitio web? Todas sus páginas y contenido también serán eliminados. Los archivos cargados (como en el directorio de medios, el módulo ECM, ...) permanecerán.
 WEBSITE_PAGENAME=Nombre / alias de la página

@@ -4,7 +4,7 @@ Le format du fichier est basé sur [Tenez un ChangeLog](http://keepachangelog.co
 ## [Non Distribué]
 
 ## [7.0.7] - 18-08-2021
-- Compatibilité v14 (A partir de la version 14 de Powererp, il n'est plus nécessaire de déployer un patch core)
+- Compatibilité v14 (A partir de la version 14 de PowerERP, il n'est plus nécessaire de déployer un patch core)
 - Compatibilité v13 (Mise à jour Patch Core 13.0.4)
 - Compatibilité v12 (Mise à jour Patch Core 12.0.5)
 
@@ -27,18 +27,18 @@ Le format du fichier est basé sur [Tenez un ChangeLog](http://keepachangelog.co
 
 ## [7.0.1] - 26-11-2019
 - Compatibilité PHP7.2
-- Compatibilité Powererp v11.0
+- Compatibilité PowerERP v11.0
 - Correction problème nom de compte & nom de journal non enregistré ou mal traduit dans la table bookkeeping (Format FEC)
 
 ## [7.0.0] - 08-10-2019
 - Version initiale.
 
-[Non Distribué]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/compare/v7.0.7...HEAD
-[7.0.7]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.6
-[7.0.6]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.6
-[7.0.5]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.5
-[7.0.4]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.4
-[7.0.3]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.3
-[7.0.2]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.2
-[7.0.1]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.1
-[7.0.0]: https://git.open-dsi.fr/powererp-extension/dolibarr_module_treasuryaccounting/commits/v7.0.0
+[Non Distribué]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/compare/v7.0.7...HEAD
+[7.0.7]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.6
+[7.0.6]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.6
+[7.0.5]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.5
+[7.0.4]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.4
+[7.0.3]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.3
+[7.0.2]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.2
+[7.0.1]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.1
+[7.0.0]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.0

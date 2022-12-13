@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Zadejte název modulu/aplikace pro vytvoření bez mezer. Použijte velká slova k oddělení slov (například: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Zadejte název objektu, který chcete vytvořit, bez mezer. Použijte velká písmena pro oddělení slov (například: MyObject, Student, Teacher ...). Bude vygenerován soubor třídy CRUD, ale také soubor API, stránky pro zápis / přidání / úpravy / odstranění objektů a souborů SQL.
@@ -101,7 +101,7 @@ HooksDefDesc=Definujte v <b> module_parts ['hooks'] </b> vlastnost, v deskriptor
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Viz ID používané ve vaší instalaci
 SeeReservedIDsRangeHere=Viz rozsah vyhrazených ID
-ToolkitForDevelopers=Toolkit pro vývojáře Powererp
+ToolkitForDevelopers=Toolkit pro vývojáře PowerERP
 TryToUseTheModuleBuilder=Pokud máte znalosti o SQL a PHP, můžete použít průvodce nativní modul builder. <br> Povolte modul <strong> %s </strong> a pomocí průvodce klikněte na <span class="fa fa-bug"> </span> v pravé horní nabídce. <br> Upozornění: Jedná se o pokročilou funkci vývojáře, <b>nestačí </b>experiment   na vaší produkční stránce!
 SeeTopRightMenu=Viz <span class="fa fa-bug"> </span> v pravé horní nabídce
 AddLanguageFile=Přidat jazyk

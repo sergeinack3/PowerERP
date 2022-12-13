@@ -219,7 +219,7 @@ create table llx_user_employment
   rowid             integer AUTO_INCREMENT PRIMARY KEY,
   entity            integer DEFAULT 1 NOT NULL, -- multi company id
   ref				varchar(50),				-- reference
-  ref_ext			varchar(50),				-- reference into an external system (not used by powererp)
+  ref_ext			varchar(50),				-- reference into an external system (not used by PowerERP)
   fk_user			integer,
   datec             datetime,
   tms               timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,

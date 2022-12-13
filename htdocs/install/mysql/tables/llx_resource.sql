@@ -1,4 +1,4 @@
--- Module to manage resources into Powererp ERP/CRM
+-- Module to manage resources into PowerERP ERP/CRM
 -- Copyright (C) 2013       Jean-François Ferry   <jfefe@aternatik.fr>
 -- Copyright (C) 2016		    Gilles Poirier		    <glgpoirier@gmail.com>
 --

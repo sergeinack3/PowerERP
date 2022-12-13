@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID gebeurtenis
 Actions=Acties
 Agenda=Agenda
@@ -31,10 +31,10 @@ ViewWeek=Weekweergave
 ViewPerUser=Per gebruiker weergave
 ViewPerType=Weergave per type
 AutoActions= Automatisch invullen van de agenda
-AgendaAutoActionDesc= Hier kunt u gebeurtenissen definiëren die u Powererp automatisch in Agenda wilt laten maken. Als niets is aangevinkt, worden alleen handmatige acties opgenomen in logboeken en weergegeven in Agenda. Het automatisch volgen van zakelijke acties op objecten (validatie, statusverandering) zal niet plaatsvinden.
-AgendaSetupOtherDesc= Deze pagina biedt opties voor het exporteren van uw Powererp-evenementen naar een externe agenda (Thunderbird, Google Agenda, enz ...)
+AgendaAutoActionDesc= Hier kunt u gebeurtenissen definiëren die u PowerERP automatisch in Agenda wilt laten maken. Als niets is aangevinkt, worden alleen handmatige acties opgenomen in logboeken en weergegeven in Agenda. Het automatisch volgen van zakelijke acties op objecten (validatie, statusverandering) zal niet plaatsvinden.
+AgendaSetupOtherDesc= Deze pagina biedt opties voor het exporteren van uw PowerERP-evenementen naar een externe agenda (Thunderbird, Google Agenda, enz ...)
 AgendaExtSitesDesc=Op deze pagina kunt configureren externe agenda.
-ActionsEvents=Gebeurtenissen waarvoor Powererp automatisch een item zal maken in de agenda
+ActionsEvents=Gebeurtenissen waarvoor PowerERP automatisch een item zal maken in de agenda
 EventRemindersByEmailNotEnabled=Gebeurtenisherinneringen per e-mail zijn niet ingeschakeld in %s-module setup.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Relatie %s aangemaakt

@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForPowererpName = Zapier ສຳ ລັບ Powererp
-ModuleZapierForPowererpDesc = Zapier ສຳ ລັບໂມດູນ Powererp
-ZapierForPowererpSetup=ການຕິດຕັ້ງ Zapier ສໍາລັບ Powererp
+ModuleZapierForPowererpName = Zapier ສຳ ລັບ PowerERP
+ModuleZapierForPowererpDesc = Zapier ສຳ ລັບໂມດູນ PowerERP
+ZapierForPowererpSetup=ການຕິດຕັ້ງ Zapier ສໍາລັບ PowerERP
 ZapierDescription=ການໂຕ້ຕອບກັບ Zapier
 ZapierAbout=ກ່ຽວກັບໂມດູນ Zapier
-ZapierSetupPage=ບໍ່ ຈຳ ເປັນຕ້ອງມີການຕິດຕັ້ງຢູ່ດ້ານ Powererp ເພື່ອໃຊ້ Zapier. ແນວໃດກໍ່ຕາມ, ເຈົ້າຕ້ອງສ້າງແລະເຜີຍແຜ່ແພັກເກດໃນ zapier ເພື່ອຈະສາມາດໃຊ້ Zapier ກັບ Powererp. ເບິ່ງເອກະສານຢູ່ໃນ <a href="https://wiki.powererp.org/index.php/Module_Zapier"> ໜ້າ wiki ນີ້ </a>.
+ZapierSetupPage=ບໍ່ ຈຳ ເປັນຕ້ອງມີການຕິດຕັ້ງຢູ່ດ້ານ PowerERP ເພື່ອໃຊ້ Zapier. ແນວໃດກໍ່ຕາມ, ເຈົ້າຕ້ອງສ້າງແລະເຜີຍແຜ່ແພັກເກດໃນ zapier ເພື່ອຈະສາມາດໃຊ້ Zapier ກັບ PowerERP. ເບິ່ງເອກະສານຢູ່ໃນ <a href="https://wiki.PowerERP.org/index.php/Module_Zapier"> ໜ້າ wiki ນີ້ </a>.

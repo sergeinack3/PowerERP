@@ -21,7 +21,7 @@
 /**
  * \file scripts/company/sync_contacts_powererp2ldap.php
  * \ingroup ldap company
- * \brief Script to update all contacts from Powererp into a LDAP database
+ * \brief Script to update all contacts from PowerERP into a LDAP database
  */
 
 if (!defined('NOSESSION')) {
@@ -77,7 +77,7 @@ if (!empty($powererp_main_db_readonly)) {
 print "Mails sending disabled (useless in batch mode)\n";
 $conf->global->MAIN_DISABLE_ALL_MAILS = 1; // On bloque les mails
 print "\n";
-print "----- Synchronize all records from Powererp database:\n";
+print "----- Synchronize all records from PowerERP database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - bills
+# PowerERP language file - Source file is en_US - bills
 InvoiceDeposit=Deposit invoice
 InvoiceDepositAsk=Deposit invoice
 InvoiceDepositDesc=This kind of invoice is raised when a deposit has been received.

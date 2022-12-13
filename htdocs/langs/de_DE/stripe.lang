@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - stripe
+# PowerERP language file - Source file is en_US - stripe
 StripeSetup=Kreditkarten Moduleinstellungen
-StripeDesc=Bieten Sie Ihren Kunden eine Online-Zahlungsseite für Kredit/Debit-Kartenzahlungen via<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> an. Kunden können sowohl allgemeine Zahlungen als auch Zahlungen für ein spezifisches Powererp-Objekt  (Rechnung, Auftrag, ...)  vornehmen.
+StripeDesc=Bieten Sie Ihren Kunden eine Online-Zahlungsseite für Kredit/Debit-Kartenzahlungen via<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> an. Kunden können sowohl allgemeine Zahlungen als auch Zahlungen für ein spezifisches PowerERP-Objekt  (Rechnung, Auftrag, ...)  vornehmen.
 StripeOrCBDoPayment=Zahlen mit Kreditkarte oder Stripe
 FollowingUrlAreAvailableToMakePayments=Für Kundenzahlungen stehen Ihnen die folgenden URLs zur Verfügung:
 PaymentForm=Zahlungsformular

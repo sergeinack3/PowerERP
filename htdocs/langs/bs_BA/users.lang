@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=Područje upravljanja LJR
 UserCard=Korisnička kartica
 GroupCard=Grupna kartica
@@ -37,7 +37,7 @@ SuperAdministratorDesc=Globalni administrator
 AdministratorDesc=Administrator
 DefaultRights=Default Permissions
 DefaultRightsDesc=Define here the <u>default</u> permissions that are automatically granted to a <u>new</u> user (to modify permissions for existing users, go to the user card).
-PowererpUsers=Powererp korisnici
+PowererpUsers=PowerERP korisnici
 LastName=Prezime
 FirstName=Ime
 ListOfGroups=Lista grupa
@@ -72,7 +72,7 @@ InternalUser=Interni korisnik
 ExportDataset_user_1=Users and their properties
 DomainUser=Korisnik domene %s
 Reactivate=Reaktivirati
-CreateInternalUserDesc=This form allows you to create an internal user in your company/organization. To create an external user (customer, vendor etc.  ..), use the button 'Create Powererp User' from that third-party's contact card.
+CreateInternalUserDesc=This form allows you to create an internal user in your company/organization. To create an external user (customer, vendor etc.  ..), use the button 'Create PowerERP User' from that third-party's contact card.
 InternalExternalDesc=An <b>internal</b> user is a user that is part of your company/organization, or is a partner user outside of your organization that may need to see more data  than data related to his company (the permission system will define what he can or can't see or do).<br>An <b>external</b> user is a customer, vendor or other that must view ONLY data related to himself (Creating an external user for a third-party can be done from the contact record of the third-party).<br><br>In both cases, you must grant permissions on the features that the user need.
 PermissionInheritedFromAGroup=Dozvola je prenesena od jedne korisničke grupe.
 Inherited=Preneseno
@@ -90,8 +90,8 @@ UserDeleted=Korisnik %s uklonjen
 NewGroupCreated=Grupa %s kreirana
 GroupModified=Grupa %s izmijenjena
 GroupDeleted=Grupa %s uklonjena
-ConfirmCreateContact=Da li ste sigurni da želite napraviti Powererp račun za ovaj kontakt?
-ConfirmCreateLogin=Da li ste sigurni da želite napraviti Powererp račun za ovog člana?
+ConfirmCreateContact=Da li ste sigurni da želite napraviti PowerERP račun za ovaj kontakt?
+ConfirmCreateLogin=Da li ste sigurni da želite napraviti PowerERP račun za ovog člana?
 ConfirmCreateThirdParty=Da li ste sigurni da želite napraviti subjekt za ovog člana?
 LoginToCreate=Kreirati login
 NameToCreate=Naziv subjekta za kreiranje

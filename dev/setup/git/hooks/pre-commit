@@ -4,7 +4,7 @@
 # If phpcs check fail and AUTOFIX is set to 1, then it run phpcbf to fix automaticaly the syntax, and git commit is canceled.
 # If you have a multiprocessor computer, you can add to the option --parallel=xx
 # When running git commit, it first execute this file checking only modified files, so it is faster than running on all files
-# To run the fix manually: cd ~/git/powererp; phpcbf -s -p -d memory_limit=-1 --extensions=php --colors --tab-width=4 --standard=dev/setup/codesniffer/ruleset.xml --encoding=utf-8 --runtime-set ignore_warnings_on_exit true "fileordir"
+# To run the fix manually: cd ~/git/PowerERP; phpcbf -s -p -d memory_limit=-1 --extensions=php --colors --tab-width=4 --standard=dev/setup/codesniffer/ruleset.xml --encoding=utf-8 --runtime-set ignore_warnings_on_exit true "fileordir"
 
 PROJECT=`php -r "echo dirname(dirname(dirname(realpath('$0'))));"`
 STAGED_FILES_CMD=`git diff --cached --name-only --diff-filter=ACMR HEAD | grep \\\\.php`
@@ -47,7 +47,7 @@ then
 
     #~/vendor/bin/phpcs --version
     #phpcs --standard=PSR2 --encoding=utf-8 -n -p $FILES
-    # Check Powererp standard
+    # Check PowerERP standard
     ${DIRPHPCS}phpcs -s -p -d memory_limit=-1 --parallel=2 --extensions=php --colors --tab-width=4 --standard=dev/setup/codesniffer/ruleset.xml --encoding=utf-8 --runtime-set ignore_warnings_on_exit true $FILES
     # Check your own standard
     #${DIRPHPCS}phpcs -s -p -d memory_limit=-1 --parallel=2 --extensions=php --colors --tab-width=4 --standard=htdocs/custom/codesniffer/ruleset.xml --encoding=utf-8 --runtime-set ignore_warnings_on_exit true $FILES

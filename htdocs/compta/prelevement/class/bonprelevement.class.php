@@ -728,8 +728,8 @@ class BonPrelevement extends CommonObject
 	 *	Create a direct debit order or a credit transfer order
 	 *  TODO delete params banque and agence when not necessary
 	 *
-	 *	@param 	int		$banque			powererp mysoc bank
-	 *	@param	int		$agence			powererp mysoc bank office (guichet)
+	 *	@param 	int		$banque			PowerERP mysoc bank
+	 *	@param	int		$agence			PowerERP mysoc bank office (guichet)
 	 *	@param	string	$mode			real=do action, simu=test only
 	 *  @param	string	$format			FRST, RCUR or ALL
 	 *  @param  string  $executiondate	Date to execute the transfer

@@ -25,13 +25,13 @@
  *  \ingroup    productbatch
  *  \brief      Description and activation file for the module productbatch
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *  Description and activation class for module productdluo
  */
-class modProductBatch extends PowererpModules
+class modProductBatch extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -52,8 +52,8 @@ class modProductBatch extends PowererpModules
 		$this->description = "Batch number, eat-by and sell-by date management module";
 
 		$this->rights_class = 'productbatch';
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where dluo is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 
@@ -73,7 +73,7 @@ class modProductBatch extends PowererpModules
 		$this->requiredby = array(); // List of module ids to disable if this one is disabled
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(3, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3, 0); // Minimum version of PowerERP required by module
 		$this->langfiles = array("productbatch");
 
 		// Constants
@@ -123,7 +123,7 @@ class modProductBatch extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
 	 *      @param      string	$options    Options when enabling module ('', 'noboxes')

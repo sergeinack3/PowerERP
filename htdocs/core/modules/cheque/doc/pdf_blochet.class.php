@@ -152,7 +152,7 @@ class BordereauChequeBlochet extends ModeleChequeReceipts
 
 		$pdf->SetTitle($outputlangs->transnoentities("CheckReceipt")." ".$number);
 		$pdf->SetSubject($outputlangs->transnoentities("CheckReceipt"));
-		$pdf->SetCreator("Powererp ".DOL_VERSION);
+		$pdf->SetCreator("PowerERP ".DOL_VERSION);
 		$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 		$pdf->SetKeyWords($outputlangs->transnoentities("CheckReceipt")." ".$number);
 		if (!empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) {

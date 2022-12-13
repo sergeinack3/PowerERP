@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Baca pekerjaan terjadwal
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Nonaktifkan
 CronTaskInactive=Pekerjaan ini dinonaktifkan (tidak dijadwalkan)
 CronId=Indo
 CronClassFile=Nama file dengan kelas
-CronModuleHelp=Nama direktori modul Powererp (juga berfungsi dengan modul Powererp eksternal). <BR> Sebagai contoh untuk memanggil metode pengambilan objek Produk Powererp/htdocs/<u> produk </u> /class/product.class.php, nilai untuk modul adalah a0342fccfda19b00c04808
-CronClassFileHelp=Path relatif dan nama file yang akan dimuat (path relatif ke direktori root server web). <BR> Sebagai contoh untuk memanggil metode mengambil dari Powererp objek Produk htdocs/produk/kelas/<u> product.class.php </u>, nilai untuk nama file kelas adalah a0342fccfda19b0c08produk08produk0b008p08p03p03b003b003b008
-CronObjectHelp=Nama objek untuk memuat. <BR> Misalnya untuk memanggil metode pengambilan objek Produk Powererp /htdocs/product/class/product.class.php, nilai untuk nama file kelas adalah <br> <i> Produk a0ae64758bacz0
-CronMethodHelp=Metode objek untuk memulai. <BR> Misalnya untuk memanggil metode pengambilan objek Produk Powererp /htdocs/product/class/product.class.php, nilai untuk metode adalah <br> <i> fetch a0ae64758bac330
-CronArgsHelp=Argumen metode. <BR> Sebagai contoh untuk memanggil metode pengambilan objek Produk Powererp /htdocs/product/class/product.class.php, nilai untuk parameter dapat<br>a049271e8181f0800, ProductRef a0ae0808758758b08
+CronModuleHelp=Nama direktori modul PowerERP (juga berfungsi dengan modul PowerERP eksternal). <BR> Sebagai contoh untuk memanggil metode pengambilan objek Produk PowerERP/htdocs/<u> produk </u> /class/product.class.php, nilai untuk modul adalah a0342fccfda19b00c04808
+CronClassFileHelp=Path relatif dan nama file yang akan dimuat (path relatif ke direktori root server web). <BR> Sebagai contoh untuk memanggil metode mengambil dari PowerERP objek Produk htdocs/produk/kelas/<u> product.class.php </u>, nilai untuk nama file kelas adalah a0342fccfda19b0c08produk08produk0b008p08p03p03b003b003b008
+CronObjectHelp=Nama objek untuk memuat. <BR> Misalnya untuk memanggil metode pengambilan objek Produk PowerERP /htdocs/product/class/product.class.php, nilai untuk nama file kelas adalah <br> <i> Produk a0ae64758bacz0
+CronMethodHelp=Metode objek untuk memulai. <BR> Misalnya untuk memanggil metode pengambilan objek Produk PowerERP /htdocs/product/class/product.class.php, nilai untuk metode adalah <br> <i> fetch a0ae64758bac330
+CronArgsHelp=Argumen metode. <BR> Sebagai contoh untuk memanggil metode pengambilan objek Produk PowerERP /htdocs/product/class/product.class.php, nilai untuk parameter dapat<br>a049271e8181f0800, ProductRef a0ae0808758758b08
 CronCommandHelp=Baris perintah sistem untuk mengeksekusi.
 CronCreateJob=Buat Pekerjaan Terjadwal baru
 CronFrom=Dari

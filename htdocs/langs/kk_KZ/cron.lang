@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Жоспарланған жұмысты оқу
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Өшіру
 CronTaskInactive=Бұл жұмыс өшірілген (жоспарланбаған)
 CronId=Id
 CronClassFile=Файл атауы сыныппен
-CronModuleHelp=Powererp модуль каталогының атауы (сонымен қатар сыртқы Powererp модулімен жұмыс). <BR> Мысалы, Powererp Product объектісін алу әдісін шақыру үшін /htdocs /<u> product </u> /class/product.class.php, модульдің мәні a0342fccfda19be8 a0494e9bz8 өнім
-CronClassFileHelp=Жүктелетін салыстырмалы жол мен файл атауы (жол веб -сервердің каталогына қатысты). <BR> Мысалы, Powererp Өнім объектісінің алу әдісін шақыру үшін htdocs/product/class/<u> product.class.php </u>, сынып файлының атауының мәні a0342fccfda19bz8 өнім болып табылады a049271
-CronObjectHelp=Жүктелетін объект атауы. <BR> Мысалы, Powererp Product объектісінің алу әдісін шақыру үшін /htdocs/product/class/product.class.php, сынып файл атауының мәні <br> <i> Өнім </i>
-CronMethodHelp=Іске қосылатын объект әдісі. <BR> Мысалы, Powererp Product объектісінің алу әдісін шақыру үшін /htdocs/product/class/product.class.php, әдіс мәні <br> <i> </i> алу
-CronArgsHelp=Әдіс аргументтері. <BR> Мысалы, Powererp Product объектісін алу әдісін шақыру үшін /htdocs/product/class/product.class.php, параметрлердің мәні <br> <i> 0, ProductRef a0az064758b болуы мүмкін.
+CronModuleHelp=PowerERP модуль каталогының атауы (сонымен қатар сыртқы PowerERP модулімен жұмыс). <BR> Мысалы, PowerERP Product объектісін алу әдісін шақыру үшін /htdocs /<u> product </u> /class/product.class.php, модульдің мәні a0342fccfda19be8 a0494e9bz8 өнім
+CronClassFileHelp=Жүктелетін салыстырмалы жол мен файл атауы (жол веб -сервердің каталогына қатысты). <BR> Мысалы, PowerERP Өнім объектісінің алу әдісін шақыру үшін htdocs/product/class/<u> product.class.php </u>, сынып файлының атауының мәні a0342fccfda19bz8 өнім болып табылады a049271
+CronObjectHelp=Жүктелетін объект атауы. <BR> Мысалы, PowerERP Product объектісінің алу әдісін шақыру үшін /htdocs/product/class/product.class.php, сынып файл атауының мәні <br> <i> Өнім </i>
+CronMethodHelp=Іске қосылатын объект әдісі. <BR> Мысалы, PowerERP Product объектісінің алу әдісін шақыру үшін /htdocs/product/class/product.class.php, әдіс мәні <br> <i> </i> алу
+CronArgsHelp=Әдіс аргументтері. <BR> Мысалы, PowerERP Product объектісін алу әдісін шақыру үшін /htdocs/product/class/product.class.php, параметрлердің мәні <br> <i> 0, ProductRef a0az064758b болуы мүмкін.
 CronCommandHelp=Орындалатын жүйелік пәрмен жолы.
 CronCreateJob=Жаңа жоспарланған жұмысты құру
 CronFrom=Қайдан

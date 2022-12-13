@@ -19,7 +19,7 @@
 
 /**
  *  \file       htdocs/admin/system/browser.php
- *  \brief      Page to show Powererp informations
+ *  \brief      Page to show PowerERP informations
  */
 
 require '../../main.inc.php';

@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -36,7 +36,7 @@ if (! function_exists('compare_version'))
 			dolibase_error('Wrong sign='.$sign.' provided to '.__FUNCTION__, true);
 		}
 
-		// 1st - try using built-in powererp function
+		// 1st - try using built-in PowerERP function
 		else if (function_exists('versioncompare'))
 		{
 			$result = versioncompare($version_digits, $version_to_digits);

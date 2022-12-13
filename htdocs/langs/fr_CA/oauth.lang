@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - oauth
+# PowerERP language file - Source file is en_US - oauth
 ManualTokenGeneration=Génération de jetons manuels
 IsTokenGenerated=Le jeton est-il généré?
 NoAccessToken=Pas de jeton d'accès enregistré dans la base de données locale

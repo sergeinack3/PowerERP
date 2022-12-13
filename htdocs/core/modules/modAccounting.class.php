@@ -25,12 +25,12 @@
  * \ingroup		Double entry accounting
  * \brief		Module to activate the double entry accounting module
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 /**
  * Class to describe and enable double entry accounting module
  */
-class modAccounting extends PowererpModules
+class modAccounting extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -50,8 +50,8 @@ class modAccounting extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Double entry accounting management";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or 'powererp_deprecated' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or 'powererp_deprecated' or version
+		$this->version = 'PowerERP';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'accountancy';
@@ -67,7 +67,7 @@ class modAccounting extends PowererpModules
 		$this->requiredby = array(); // List of modules id to disable if this one is disabled
 		$this->conflictwith = array("modComptabilite"); // List of modules are in conflict with this module
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(3, 9); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3, 9); // Minimum version of PowerERP required by module
 		$this->langfiles = array("accountancy", "compta");
 
 		// Constants

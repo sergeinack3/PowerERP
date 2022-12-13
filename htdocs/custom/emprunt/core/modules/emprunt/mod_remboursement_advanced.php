@@ -35,10 +35,10 @@ dol_include_once('/emprunt/core/modules/emprunt/modules_remboursement.php');
 class mod_remboursement_advanced extends ModeleNumRefRemboursement
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	/**
 	 * @var string Error message

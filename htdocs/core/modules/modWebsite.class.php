@@ -22,13 +22,13 @@
  *  \ingroup    websites
  *  \brief      Description and activation file for the module Website
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe Websites module
  */
-class modWebsite extends PowererpModules
+class modWebsite extends PowerERPModules
 {
 
 	/**
@@ -50,8 +50,8 @@ class modWebsite extends PowererpModules
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Enable to build and serve public web sites with CMS features";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of image file used for this module.
@@ -154,7 +154,7 @@ class modWebsite extends PowererpModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *  It also creates data directories
 	 *
 	 *  @param      string	$options    Options when enabling module ('', 'noboxes')

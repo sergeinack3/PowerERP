@@ -31,7 +31,7 @@
 require_once DOL_DOCUMENT_ROOT.'/core/db/DoliDB.class.php';
 
 /**
- *	Class to drive a Postgresql database for Powererp
+ *	Class to drive a Postgresql database for PowerERP
  */
 class DoliDBPgsql extends DoliDB
 {
@@ -748,7 +748,7 @@ class DoliDBPgsql extends DoliDB
 			// Si il y a eu echec de connexion, $this->db n'est pas valide.
 			return 'DB_ERROR_FAILED_TO_CONNECT';
 		} else {
-			// Constants to convert error code to a generic Powererp error code
+			// Constants to convert error code to a generic PowerERP error code
 			$errorcode_map = array(
 			1004 => 'DB_ERROR_CANNOT_CREATE',
 			1005 => 'DB_ERROR_CANNOT_CREATE',

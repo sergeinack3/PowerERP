@@ -610,7 +610,7 @@ if ($mode == 'common' || $mode == 'commonkanban') {
 
 		$modName = $filename[$key];
 
-		/** @var PowererpModules $objMod */
+		/** @var PowerERPModules $objMod */
 		$objMod = $modules[$modName];
 
 		//print $objMod->name." - ".$key." - ".$objMod->version."<br>";
@@ -746,7 +746,7 @@ if ($mode == 'common' || $mode == 'commonkanban') {
 			&& (
 				$action == 'checklastversion'
 				// This is a bad practice to activate a synch external access during building of a page. 1 external module can hang the application.
-				// Adding a cron job could be a good idea see PowererpModules::checkForUpdate()
+				// Adding a cron job could be a good idea see PowerERPModules::checkForUpdate()
 				|| 	!empty($conf->global->CHECKLASTVERSION_EXTERNALMODULE)
 			)
 		) {
@@ -910,7 +910,7 @@ if ($mode == 'common' || $mode == 'commonkanban') {
 			// Picto + Name of module
 			print '  <td class="tdoverflowmax300" title="'.dol_escape_htmltag($objMod->getName()).'">';
 			$alttext = '';
-			//if (is_array($objMod->need_powererp_version)) $alttext.=($alttext?' - ':'').'Powererp >= '.join('.',$objMod->need_powererp_version);
+			//if (is_array($objMod->need_powererp_version)) $alttext.=($alttext?' - ':'').'PowerERP >= '.join('.',$objMod->need_powererp_version);
 			//if (is_array($objMod->phpmin)) $alttext.=($alttext?' - ':'').'PHP >= '.join('.',$objMod->phpmin);
 			if (!empty($objMod->picto)) {
 				if (preg_match('/^\//i', $objMod->picto)) {
@@ -1284,7 +1284,7 @@ if ($mode == 'develop') {
 	print '</tr>';
 
 	print '<tr class="oddeven" height="80">'."\n";
-	$url = 'https://partners.powererp.org';
+	$url = 'https://partners.PowerERP.org';
 	print '<td class="left">';
 	print'<a href="'.$url.'" target="_blank" rel="noopener noreferrer external"><img border="0" class="imgautosize imgmaxwidth180" src="'.DOL_URL_ROOT.'/theme/powererp_preferred_partner.png"></a>';
 	print '</td>';

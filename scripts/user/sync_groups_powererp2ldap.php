@@ -21,7 +21,7 @@
 /**
  * \file scripts/user/sync_groups_powererp2ldap.php
  * \ingroup ldap core
- * \brief Script de mise a jour des groupes dans LDAP depuis base Powererp
+ * \brief Script de mise a jour des groupes dans LDAP depuis base PowerERP
  */
 
 if (!defined('NOSESSION')) {

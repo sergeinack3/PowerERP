@@ -201,7 +201,7 @@ function check_user_password_ldap($usertotest, $passwordtotest, $entitytotest)
 						print "DEBUG: badPasswordTime = ".dol_print_date($ldap->badpwdtime, 'day')."<br>\n";
 					}
 
-					// On recherche le user powererp en fonction de son SID ldap (only for Active Directory)
+					// On recherche le user PowerERP en fonction de son SID ldap (only for Active Directory)
 					$sid = null;
 					if ($conf->global->LDAP_SERVER_TYPE == "activedirectory") {
 						$sid = $ldap->getObjectSid($login);
@@ -214,7 +214,7 @@ function check_user_password_ldap($usertotest, $passwordtotest, $entitytotest)
 					$resultFetchUser = $usertmp->fetch('', $login, $sid, 1, ($entitytotest > 0 ? $entitytotest : -1));
 					if ($resultFetchUser > 0) {
 						dol_syslog("functions_ldap::check_user_password_ldap Sync user found user id=".$usertmp->id);
-						// On verifie si le login a change et on met a jour les attributs powererp
+						// On verifie si le login a change et on met a jour les attributs PowerERP
 
 						if ($usertmp->login != $ldap->login && $ldap->login) {
 							$usertmp->login = $ldap->login;

@@ -245,7 +245,7 @@ class Setup extends PowererpApi
 	 *
 	 * The names of the states will be translated to the given language if
 	 * the $lang parameter is provided. The value of $lang must be a language
-	 * code supported by Powererp, for example 'en_US' or 'fr_FR'.
+	 * code supported by PowerERP, for example 'en_US' or 'fr_FR'.
 	 * The returned list is sorted by state ID.
 	 *
 	 * @param string    $sortfield  Sort field
@@ -345,7 +345,7 @@ class Setup extends PowererpApi
 	 *
 	 * The names of the countries will be translated to the given language if
 	 * the $lang parameter is provided. The value of $lang must be a language
-	 * code supported by Powererp, for example 'en_US' or 'fr_FR'.
+	 * code supported by PowerERP, for example 'en_US' or 'fr_FR'.
 	 * The returned list is sorted by country ID.
 	 *
 	 * @param string    $sortfield  Sort field
@@ -1817,7 +1817,7 @@ class Setup extends PowererpApi
 	/**
 	 * Do a test of integrity for files and setup.
 	 *
-	 * @param string	$target			Can be 'local' or 'default' or Url of the signatures file to use for the test. Must be reachable by the tested Powererp.
+	 * @param string	$target			Can be 'local' or 'default' or Url of the signatures file to use for the test. Must be reachable by the tested PowerERP.
 	 * @return array					Result of file and setup integrity check
 	 *
 	 * @url     GET checkintegrity
@@ -1860,7 +1860,7 @@ class Setup extends PowererpApi
 			$xmlremote = $conf->global->$param;
 		}
 		if (empty($xmlremote)) {
-			$xmlremote = 'https://www.powererp.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
+			$xmlremote = 'https://www.PowerERP.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
 		}
 		if ($xmlremote && !preg_match('/^https?:\/\//i', $xmlremote)) {
 			$langs->load("errors");

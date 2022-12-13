@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Redovisningskonto som används för tredje part
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Det dedikerade bokföringskontot som definieras på användarkortet kommer endast att användas för Subledger-bokföring. Den här kommer att användas för huvudboken och som standardvärde för Subledger-bokföring om ett dedikerat användarkonto på användare inte är definierat.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Redovisningskonto som standard för lönebetalningar

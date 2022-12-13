@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Sicherheitsschlüssel
 NumberingShort=Nr.
 Tools=Tools
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nIm Anhang finden Sie den Servi
 PredefinedMailContentLink=Sie können den folgenden Link anklicken um die Zahlung auszuführen, falls sie noch nicht getätigt wurde.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Ereigniserinnerung "__EVENT_LABEL__" am __EVENT_DATE__ um __EVENT_TIME__ <br> <br> Dies ist eine automatische Nachricht. Bitte antworten Sie nicht.
-DemoDesc=Powererp ist eine Management-Software die mehrere Business-Module anbietet. Eine Demo, die alle Module beinhaltet ist nicht sinnvoll , weil der Fall nie existiert (Hunderte von verfügbaren Module). Es stehen auch einige Demo-Profile Typen zur Verfügung.
+DemoDesc=PowerERP ist eine Management-Software die mehrere Business-Module anbietet. Eine Demo, die alle Module beinhaltet ist nicht sinnvoll , weil der Fall nie existiert (Hunderte von verfügbaren Module). Es stehen auch einige Demo-Profile Typen zur Verfügung.
 ChooseYourDemoProfil=Bitte wählen Sie das Demo-Profil das Ihrem Anwendgsfall am ehesten entspricht
 ChooseYourDemoProfilMore=...oder bauen Sie Ihr eigenes Profil <br> (manuelle Auswahl der Module)
 DemoFundation=Verwalten Sie die Mitglieder einer Stiftung
@@ -185,7 +185,7 @@ BackToLoginPage=Zurück zur Anmeldeseite
 AuthenticationDoesNotAllowSendNewPassword=Im derzeit gewählten Authentifizierungsmodus <b>(%s)</b> kann das System nicht auf Ihre Passwortdaten zugreifen und diese auch nicht ändern.<br> Wenden Sie sich hierzu bitte an den Systemadministrator.
 EnableGDLibraryDesc=Installiere oder aktiviere die GD Bibliothek in der PHP Installtion um dieses Option zu verwenden.
 ProfIdShortDesc=<b>Prof ID %s</b> dient zur Speicherung landesabhängiger Partnerdaten. <br> Für das Land <b>%s</b> ist dies beispielsweise Code <b>%s</b>.
-PowererpDemo=Powererp ERP/CRM-Demo
+PowererpDemo=PowerERP ERP/CRM-Demo
 StatsByNumberOfUnits=Statistik zu den Totalstückzahlen Produkte/Dienstleistungen
 StatsByNumberOfEntities=Statistik über die Anzahl der verweisenden Entitäten (Anzahl der Rechnungen, Bestellungen etc.)
 NumberOfProposals=Anzahl Angebote

@@ -47,10 +47,10 @@ class ExportExcel2007 extends ModeleExports
 	public $extension;
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	public $label_lib;
 
@@ -207,7 +207,7 @@ class ExportExcel2007 extends ModeleExports
 
 		$this->workbook = new Spreadsheet();
 		$this->workbook->getProperties()->setCreator($user->getFullName($outputlangs).' - '.DOL_APPLICATION_TITLE.' '.DOL_VERSION);
-		//$this->workbook->getProperties()->setLastModifiedBy('Powererp '.DOL_VERSION);
+		//$this->workbook->getProperties()->setLastModifiedBy('PowerERP '.DOL_VERSION);
 		$this->workbook->getProperties()->setTitle(basename($file));
 		$this->workbook->getProperties()->setSubject(basename($file));
 		$this->workbook->getProperties()->setDescription(DOL_APPLICATION_TITLE.' '.DOL_VERSION);
@@ -399,7 +399,7 @@ class ExportExcel2007 extends ModeleExports
 	public function excel_clean($newvalue)
 	{
 		// phpcs:enable
-		// Rule Powererp: No HTML
+		// Rule PowerERP: No HTML
 		$newvalue = dol_string_nohtmltag($newvalue);
 
 		return $newvalue;

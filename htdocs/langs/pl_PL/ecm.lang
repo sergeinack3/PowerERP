@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Liczba dokumentów w katalogu
 ECMSection=Katalog
 ECMSectionManual=Katalog manualny
@@ -15,7 +15,7 @@ ECMNbOfSubDir=ilość podkatalogów
 ECMNbOfFilesInSubDir=Liczba plików w podkatalogach
 ECMCreationUser=Kreator
 ECMArea=Obszar DMS / ECM
-ECMAreaDesc=Obszar DMS / ECM (system zarządzania dokumentami / elektroniczne zarządzanie treścią) umożliwia szybkie zapisywanie, udostępnianie i wyszukiwanie wszelkiego rodzaju dokumentów w Powererp.
+ECMAreaDesc=Obszar DMS / ECM (system zarządzania dokumentami / elektroniczne zarządzanie treścią) umożliwia szybkie zapisywanie, udostępnianie i wyszukiwanie wszelkiego rodzaju dokumentów w PowerERP.
 ECMAreaDesc2=* Automatyczne katalogi wypelniane sa automatycznie podczas dodawania dokumentów z karty elementu <br> * Manualne katalogi mogą być używane do zapisywania dokumentów nie powiązanych z żadnym konkretnym elementem.
 ECMSectionWasRemoved=Katalog <b>%s</b> został usunięty.
 ECMSectionWasCreated=Utworzono katalog <b> %s </b>.

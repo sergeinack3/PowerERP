@@ -41,13 +41,13 @@ $res=@include '../../main.inc.php';					// For "root" directory
 if (! $res && file_exists($_SERVER['DOCUMENT_ROOT']."/main.inc.php"))
 	$res=@include($_SERVER['DOCUMENT_ROOT']."/main.inc.php"); // Use on dev env only
 if (! $res) $res=@include '../../../main.inc.php';	// For "custom" directory
-if (! $res) @include("../../../../../powererp/htdocs/main.inc.php");	// Used on dev env only
+if (! $res) @include("../../../../../PowerERP/htdocs/main.inc.php");	// Used on dev env only
 
 
 // Define css type
 header('Content-type: text/css');
 // Important: Following code is to avoid page request by browser and PHP CPU at
-// each Powererp page access.
+// each PowerERP page access.
 if (empty($powererp_nocache)) header('Cache-Control: max-age=3600, public, must-revalidate');
 else header('Cache-Control: no-cache');
 

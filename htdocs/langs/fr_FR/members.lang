@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Espace adhérents
 MemberCard=Fiche adhérent
 SubscriptionCard=Fiche cotisation
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Liste des adhérents publics validés
 ErrorThisMemberIsNotPublic=Cet adhérent n'est pas public
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Un autre adhérent (nom: <b>%s</b>, identifiant : <b>%s</b>) est déjà lié au tiers <b>%s</b>. Supprimer le lien existant d'abord car un tiers ne peut être lié qu'à un seul adhérent (et vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Pour des raisons de sécurité, il faut posséder les droits de modification de tous les utilisateurs pour pouvoir lier un adhérent à un utilisateur autre que vous même.
-SetLinkToUser=Lier à un utilisateur Powererp
-SetLinkToThirdParty=Lier à un tiers Powererp
+SetLinkToUser=Lier à un utilisateur PowerERP
+SetLinkToThirdParty=Lier à un tiers PowerERP
 MembersCards=Carte de visite pour les adhérents
 MembersList=Liste des adhérents
 MembersListToValid=Liste des adhérents brouillons (à valider)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Êtes-vous sûr de vouloir effacer cette adhésion ?
 Filehtpasswd=Fichier htpasswd
 ValidateMember=Valider un adhérent
 ConfirmValidateMember=Êtes-vous sûr de vouloir valider cet adhérent ?
-FollowingLinksArePublic=Les liens suivants sont des pages accessibles à tous et non protégées par aucune habilitation Powererp. Ces pages n'ont aucun formatage et sont fournies à titre d'exemple pour les associations qui veulent des scripts publics de consultation.
+FollowingLinksArePublic=Les liens suivants sont des pages accessibles à tous et non protégées par aucune habilitation PowerERP. Ces pages n'ont aucun formatage et sont fournies à titre d'exemple pour les associations qui veulent des scripts publics de consultation.
 PublicMemberList=Liste des membres publics
 BlankSubscriptionForm=Formulaire d'auto-inscription publique
-BlankSubscriptionFormDesc=Powererp peut vous fournir un URL/site web public afin de permettre aux visiteurs externes de faire une demande d'inscription à la fondation. Si un module de paiement est actif, un formulaire de paiement sera également fourni automatiquement.
+BlankSubscriptionFormDesc=PowerERP peut vous fournir un URL/site web public afin de permettre aux visiteurs externes de faire une demande d'inscription à la fondation. Si un module de paiement est actif, un formulaire de paiement sera également fourni automatiquement.
 EnablePublicSubscriptionForm=Activer le formulaire public d'auto-inscription
 ForceMemberType=Forcer le type d'adhérent
 ExportDataset_member_1=Adhérents et cotisations

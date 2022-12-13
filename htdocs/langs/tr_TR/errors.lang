@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Hata yok, taahüt ediyoruz
@@ -48,10 +48,10 @@ ErrorBadDateFormat=%s değeri yanlış tarih biçiminde
 ErrorWrongDate=Tarih doğru değil!
 ErrorFailedToWriteInDir=%s dizinine yazılamadı
 ErrorFoundBadEmailInFile=Dosyadaki %s satırları için hatalı e-posta sözdizimi bulundu (örneğin e-posta=%s ile satır %s)
-ErrorUserCannotBeDelete=Kullanıcı silinemiyor. Powererp varlıklarıyla ilişkili olabilir.
+ErrorUserCannotBeDelete=Kullanıcı silinemiyor. PowerERP varlıklarıyla ilişkili olabilir.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
-ErrorFailedToCreateDir=Dizin oluşturulamadı. Web sunucusu kullanıcısının Powererp belgeleri dizinine yazma izinlerini denetleyin. Eğer bu parametre <b>guvenli_mod</b> bu PHP üzerinde etkinleştirilmişse, Powererp php dosyalarının web sunucusu kullanıcısına (ya da grubuna) sahip olduğunu denetleyin.
+ErrorFailedToCreateDir=Dizin oluşturulamadı. Web sunucusu kullanıcısının PowerERP belgeleri dizinine yazma izinlerini denetleyin. Eğer bu parametre <b>guvenli_mod</b> bu PHP üzerinde etkinleştirilmişse, PowerERP php dosyalarının web sunucusu kullanıcısına (ya da grubuna) sahip olduğunu denetleyin.
 ErrorNoMailDefinedForThisUser=Bu kullanıcı için tanımlı posta yok
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=Bu özelliğin çalışması için JavaScriptin etkinleştirilmesi gerekir. Bunu Kurulum - Ekran menüsünden değiştirebilirsiniz.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=The field <b>%s</b> must have at least %s characters.
 ErrorNoAccountancyModuleLoaded=Etkinleştirilmiş muhasebe modülü yok
 ErrorExportDuplicateProfil=Bu profil adı, bu dışa aktarma grubu için zaten mevcut.
-ErrorLDAPSetupNotComplete=Powererp-LDAP eşleşmesi tamamlanmamış.
+ErrorLDAPSetupNotComplete=PowerERP-LDAP eşleşmesi tamamlanmamış.
 ErrorLDAPMakeManualTest=A. Ldif dosyası %s dizininde oluşturuldu. Hatalar hakkında daha fazla bilgi almak için komut satırından elle yüklemeyi deneyin.
 ErrorCantSaveADoneUserWithZeroPercentage=Can't save an action with "status not started" if field "done by" is also filled.
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s diğer bir üçüncüye görevlendirilmiş
 ErrorFailedToSendPassword=Parola gönderilemedi
 ErrorFailedToLoadRSSFile=RSS beslemesi alınamıyor. Eğer hata mesajları yeterli bilgi sağlamıyorsa MAIN_SIMPLEXMLLOAD_DEBUG değişmezini eklemeyi deneyin.
 ErrorForbidden=Erişim reddedildi. <br>Devre dışı bir modül alanına ya da özelliğine veya kimlik doğrulaması yapmadan ya da kullanıcınızın izini olmadan bir sayfaya erişmek istediniz.
-ErrorForbidden2=Bu oturum açma için izin Powererp yöneticiniz tarafından %s->%s menüsünden tanımlanabilir.
-ErrorForbidden3=Powererp bir kimlik doğrulama oturumu üzerinden kullanılmamış gibi görünüyor. Kimlik doğrulama nasıl yönetileceğini öğrenmek Powererp kurulum belgelerine bir göz atın (htaccess, mod_auth veya diğer ...).
+ErrorForbidden2=Bu oturum açma için izin PowerERP yöneticiniz tarafından %s->%s menüsünden tanımlanabilir.
+ErrorForbidden3=PowerERP bir kimlik doğrulama oturumu üzerinden kullanılmamış gibi görünüyor. Kimlik doğrulama nasıl yönetileceğini öğrenmek PowerERP kurulum belgelerine bir göz atın (htaccess, mod_auth veya diğer ...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Bu PHP Class Imagick yok. Önizleme kullanılır olmayabilir. Yöneticiler Kurulum - Ekran menüsünde bu sekmeyi devre dışı bırakabilir.
 ErrorRecordAlreadyExists=Kayıt zaten var
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Web sunucusunu çalıştırmak için kullanı
 ErrorNoActivatedBarcode=Etkinleştirilmiş barkod türü yok
 ErrUnzipFails=% ZipArchive ile sıkıştırılamıyor
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
-ErrorFileMustBeAPowererpPackage=Bu %s dosyası bir Powererp zip paketi olmalıdır
-ErrorModuleFileRequired=Bir Powererp modül paket dosyası seçmelisiniz
+ErrorFileMustBeAPowererpPackage=Bu %s dosyası bir PowerERP zip paketi olmalıdır
+ErrorModuleFileRequired=Bir PowerERP modül paket dosyası seçmelisiniz
 ErrorPhpCurlNotInstalled=PHP CURL kurulu değil, Bu PayPal ile iletişim kurmak için gereklidir
 ErrorFailedToAddToMailmanList=Mailman listesine ya da SPIP tabanına kayıt eklenemiyor
 ErrorFailedToRemoveToMailmanList=%s kaydının Mailman %s listesine ya da SPIP tabanına taşınmasında hata
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=The date must be lower than today
 ErrorDateMustBeInFuture=The date must be greater than today
 ErrorPaymentModeDefinedToWithoutSetup=Bir ödeme biçimi %s türüne ayarlanmış, ancak fatura modülü kurulumu bu ödeme biçimi için tanımlanan bilgiyi gösterecek tamamlanmamış.
 ErrorPHPNeedModule=Hata, bu özelliği kulanmak için PHP nizde <b>%s</b> modülü kurulu olmalıdır.
-ErrorOpenIDSetupNotComplete=Powererp yapılandırma dosyasını OpenID kimlik doğrulamaya izin verecek şekilde ayarladınız, ancak OpenID hizmetine ait URL, %s değişmezine tanımlanmamıştır
+ErrorOpenIDSetupNotComplete=PowerERP yapılandırma dosyasını OpenID kimlik doğrulamaya izin verecek şekilde ayarladınız, ancak OpenID hizmetine ait URL, %s değişmezine tanımlanmamıştır
 ErrorWarehouseMustDiffers=Kaynak ve hedef depo farklı olmalıdır
 ErrorBadFormat=Hatalı biçim!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Hata, bu üye henüz henüz hiç bir üçüncü tarafa bağlantılanmamış. Üyeyi mevcut olan bir üçüncü tarafa bağlantılayın veya bu faturayla yeni bir abonelik oluşturmadan önce yeni bir üçüncü taraf oluşturun.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, request too large
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=PHP'nizdeki upload_max_filesize (%s) parametresi, post_max_size (%s) PHP parametresinden daha yüksek. Bu tutarlı bir kurulum değil.
-WarningPasswordSetWithNoAccount=Bu üye için bir parola ayarlıdır. Ancak, hiçbir kullanıcı hesabı oluşturulmamıştır. Yani bu şifre saklanır ama Powererp'a giriş için kullanılamaz. Dış bir modül/arayüz tarafından kullanılıyor olabilir, ama bir üye için ne bir kullanıcı adı ne de parola tanımlamanız gerekmiyorsa "Her üye için bir kullanıcı adı yönet" seçeneğini devre dışı bırakabilirsiniz. Bir kullanıcı adı yönetmeniz gerekiyorsa ama herhangi bir parolaya gereksinim duymuyorsanız bu uyarıyı engellemek için bu alanı boş bırakabilirsiniz. Not: Eğer bir üye bir kullanıcıya bağlıysa kullanıcı adı olarak e-posta adresi de kullanılabilir.
+WarningPasswordSetWithNoAccount=Bu üye için bir parola ayarlıdır. Ancak, hiçbir kullanıcı hesabı oluşturulmamıştır. Yani bu şifre saklanır ama PowerERP'a giriş için kullanılamaz. Dış bir modül/arayüz tarafından kullanılıyor olabilir, ama bir üye için ne bir kullanıcı adı ne de parola tanımlamanız gerekmiyorsa "Her üye için bir kullanıcı adı yönet" seçeneğini devre dışı bırakabilirsiniz. Bir kullanıcı adı yönetmeniz gerekiyorsa ama herhangi bir parolaya gereksinim duymuyorsanız bu uyarıyı engellemek için bu alanı boş bırakabilirsiniz. Not: Eğer bir üye bir kullanıcıya bağlıysa kullanıcı adı olarak e-posta adresi de kullanılabilir.
 WarningMandatorySetupNotComplete=Zorunlu parametreleri ayarlamak için buraya tıklayın
 WarningEnableYourModulesApplications=Click here to enable your modules and applications
 WarningSafeModeOnCheckExecDir=Uyarı, PHP seçeneği <b>güvenli_mode</b> açıktır, böylece komut php parametresi <b>güvenli_mode_exec_dir</b> tarafından bildirilen bir dizine saklanabilir.

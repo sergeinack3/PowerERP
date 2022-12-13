@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ldap
+# PowerERP language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Lykilorð fyrir <b>notandann %s  í%</b> léni <b>s</b> verður að vera breytt.
 UserMustChangePassNextLogon=Notandi verður að breyta lykilorðinu á vefnum %s
 LDAPInformationsForThisContact=Upplýsingar í LDAP gagnagrunninn fyrir þennan tengilið
@@ -22,6 +22,6 @@ GroupSynchronized=Group samstilla
 MemberSynchronized=Aðildarríkin samstilla
 MemberTypeSynchronized=Member type synchronized
 ContactSynchronized=Hafðu samstilla
-ForceSynchronize=Force synchronizing Powererp -> LDAP
+ForceSynchronize=Force synchronizing PowerERP -> LDAP
 ErrorFailedToReadLDAP=Ekki tókst að lesa LDAP gagnagrunninn. Athugaðu LDAP mát skipulag og gagnasafn aðgengi.
 PasswordOfUserInLDAP=Password of user in LDAP

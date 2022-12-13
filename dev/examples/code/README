@@ -1,8 +1,8 @@
 README (English)
 --------------------------------
 
-This directory contains samples of code to use Powererp business classes to build
-external interfaces that need to read/update data from/into Powererp.
+This directory contains samples of code to use PowerERP business classes to build
+external interfaces that need to read/update data from/into PowerERP.
 
-You can also have a look at the Powererp doxygen doc that describes all files and classes:
-http://www.powererp.org/html_doxygen/index.html
+You can also have a look at the PowerERP doxygen doc that describes all files and classes:
+http://www.PowerERP.org/html_doxygen/index.html

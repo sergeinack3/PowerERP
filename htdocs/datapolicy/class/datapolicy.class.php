@@ -167,7 +167,7 @@ class DataPolicy
 		} else {
 			$l = $langs->defaultlang;
 		}
-		// TODO Use a powererp email template
+		// TODO Use a PowerERP email template
 		$s = "DATAPOLICIESSUBJECT_".$l;
 		$ma = "DATAPOLICIESCONTENT_".$l;
 		$la = 'TXTLINKDATAPOLICIESACCEPT_'.$l;
@@ -244,7 +244,7 @@ class DataPolicy
 		} else {
 			$l = $langs->defaultlang;
 		}
-		// TODO Use a powererp email template
+		// TODO Use a PowerERP email template
 		$s = "DATAPOLICIESSUBJECT_".$l;
 		$ma = "DATAPOLICIESCONTENT_".$l;
 		$la = 'TXTLINKDATAPOLICIESACCEPT_'.$l;
@@ -317,7 +317,7 @@ class DataPolicy
 		} else {
 			$l = $langs->defaultlang;
 		}
-		// TODO Use a powererp email template
+		// TODO Use a PowerERP email template
 		$s = 'TXTLINKDATAPOLICIESSUBJECT_'.$l;
 		$ma = 'TXTLINKDATAPOLICIESMESSAGE_'.$l;
 		$la = 'TXTLINKDATAPOLICIESACCEPT_'.$l;

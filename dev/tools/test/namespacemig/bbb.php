@@ -2,10 +2,10 @@
 
 //use \Aaa as Aaa;
 
-use Powererp\Aaa as Aaa;
-use function Powererp\faaa as faaa;	// Need php 5.6+
+use PowerERP\Aaa as Aaa;
+use function PowerERP\faaa as faaa;	// Need php 5.6+
 
-//use const Powererp\AAA;
+//use const PowerERP\AAA;
 
 //use Bbb as Bbb;
 

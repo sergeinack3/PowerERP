@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Företagets namn %s finns redan. Välj en annan en.
 ErrorSetACountryFirst=Välj land först
 SelectThirdParty=Välj en tredje part
@@ -378,7 +378,7 @@ CapitalOf=Kapital %s
 EditCompany=Redigera företag
 ThisUserIsNot=Denna användare är inte en prospekt, kund eller leverantör
 VATIntraCheck=Kontrollera
-VATIntraCheckDesc=Moms-ID måste innehålla land prefix. Länken <b> %s </b> använder den europeiska mervärdesskattjänsten (VIES) som kräver internetåtkomst från Powererp-servern.
+VATIntraCheckDesc=Moms-ID måste innehålla land prefix. Länken <b> %s </b> använder den europeiska mervärdesskattjänsten (VIES) som kräver internetåtkomst från PowerERP-servern.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Kontrollera momsnumret inom gemenskapen på Europeiska kommissionens webbplats
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Möjliga kunder efter status
 NoParentCompany=Ingen
 ExportCardToFormat=Export-kort för att formatera
 ContactNotLinkedToCompany=Kontakt ej länkad till någon tredje part
-PowererpLogin=Powererp inloggning
-NoPowererpAccess=Powererp ej nåbar
+PowererpLogin=PowerERP inloggning
+NoPowererpAccess=PowerERP ej nåbar
 ExportDataset_company_1=Tredjeparter (företag / stiftelser / fysiska personer) och deras egenskaper
 ExportDataset_company_2=Kontakter och deras egenskaper
 ImportDataset_company_1=Tredjepartier och deras egenskaper

@@ -1,7 +1,7 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=راه اندازی ماژول خزانه
-PayBoxDesc=این ماژول صفحات پیشنهاد به اجازه پرداخت در <a href="http://www.paybox.com" target="_blank">خزانه</a> شده توسط مشتریان. این می تواند برای پرداخت رایگان و پرداخت در یک شیء خاص Powererp استفاده می شود (فاکتور، سفارش، ...)
-FollowingUrlAreAvailableToMakePayments=از آدرس های زیر در دسترس است به ارائه یک صفحه به مشتریان به پرداخت در اشیاء Powererp است
+PayBoxDesc=این ماژول صفحات پیشنهاد به اجازه پرداخت در <a href="http://www.paybox.com" target="_blank">خزانه</a> شده توسط مشتریان. این می تواند برای پرداخت رایگان و پرداخت در یک شیء خاص PowerERP استفاده می شود (فاکتور، سفارش، ...)
+FollowingUrlAreAvailableToMakePayments=از آدرس های زیر در دسترس است به ارائه یک صفحه به مشتریان به پرداخت در اشیاء PowerERP است
 PaymentForm=فرم پرداخت
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=این صفحه نمایش به شما اجازه ایجاد پرداخت آنلاین به٪ s.

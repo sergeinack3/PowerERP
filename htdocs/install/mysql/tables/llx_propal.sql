@@ -25,8 +25,8 @@ create table llx_propal
   ref					varchar(30) NOT NULL,			-- proposal reference number
   entity				integer DEFAULT 1 NOT NULL,		-- multi company id
 
-  ref_ext				varchar(255),					-- reference into an external system (not used by powererp)
-  ref_int				varchar(255),					-- reference into an internal system (used by powererp to store extern id like paypal info)
+  ref_ext				varchar(255),					-- reference into an external system (not used by PowerERP)
+  ref_int				varchar(255),					-- reference into an internal system (used by PowerERP to store extern id like paypal info)
   ref_client			varchar(255),					-- customer proposal number
 
   fk_soc				integer,

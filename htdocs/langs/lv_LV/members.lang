@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Dalībnieku sadaļa
 MemberCard=Dalībnieka karte
 SubscriptionCard=Abonēšanas kartiņa
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Saraksts ar apstiprinātiem dalībniekiem
 ErrorThisMemberIsNotPublic=Šis dalībnieks nav publisks
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Vēl viens dalībnieks (nosaukums: <b>%s,</b> pieteikšanās: <b>%s)</b> jau ir saistīts ar trešo personu <b>%s.</b> Noņemt šo saiti vispirms tāpēc, ka trešā persona nevar saistīt tikai loceklim (un otrādi).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Drošības apsvērumu dēļ, jums ir jāpiešķir atļaujas, lai rediģētu visi lietotāji varētu saistīt locekli, lai lietotājam, kas nav jūsu.
-SetLinkToUser=Saite uz Powererp lietotāju
-SetLinkToThirdParty=Saite uz Powererp trešo personu
+SetLinkToUser=Saite uz PowerERP lietotāju
+SetLinkToThirdParty=Saite uz PowerERP trešo personu
 MembersCards=Vizītkartes dalībniekiem
 MembersList=Dalībnieku saraksts
 MembersListToValid=Saraksts projektu dalībnieki (tiks apstiprināts)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Vai tiešām vēlaties dzēst šo ieguldījumu?
 Filehtpasswd=Htpasswd fails
 ValidateMember=Apstiprināt dalībnieku
 ConfirmValidateMember=Vai tiešām vēlaties apstiprināt šo dalībnieku?
-FollowingLinksArePublic=Šīs saites ir atvērtas lapas, kuras nav aizsargātas ar Powererp atļaujām. Tās nav formatētas lapas, kas tiek piedāvātas kā piemērs, lai parādītu, kā sarakstu dalībnieku datu bāzi.
+FollowingLinksArePublic=Šīs saites ir atvērtas lapas, kuras nav aizsargātas ar PowerERP atļaujām. Tās nav formatētas lapas, kas tiek piedāvātas kā piemērs, lai parādītu, kā sarakstu dalībnieku datu bāzi.
 PublicMemberList=Sabiedrības Biedru saraksts
 BlankSubscriptionForm=Publiska pašreģistrācijas veidlapa
-BlankSubscriptionFormDesc=Powererp var nodrošināt jums publisku URL / tīmekļa vietni, lai ļautu ārējiem apmeklētājiem lūgt parakstīties uz fondu. Ja ir iespējots tiešsaistes maksājumu modulis, maksājuma veidlapa var tikt automātiski nodrošināta.
+BlankSubscriptionFormDesc=PowerERP var nodrošināt jums publisku URL / tīmekļa vietni, lai ļautu ārējiem apmeklētājiem lūgt parakstīties uz fondu. Ja ir iespējots tiešsaistes maksājumu modulis, maksājuma veidlapa var tikt automātiski nodrošināta.
 EnablePublicSubscriptionForm=Iespējojiet publisko vietni ar pašapkalpošanās veidlapu
 ForceMemberType=Piespiediet dalībnieka tipu
 ExportDataset_member_1=Dalībnieki un ieguldījumi

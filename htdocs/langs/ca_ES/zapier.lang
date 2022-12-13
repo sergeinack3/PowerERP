@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForPowererpName = Zapier per a Powererp
-ModuleZapierForPowererpDesc = Mòdul Zapier per a Powererp
-ZapierForPowererpSetup=Configuració de Zapier per a Powererp
+ModuleZapierForPowererpName = Zapier per a PowerERP
+ModuleZapierForPowererpDesc = Mòdul Zapier per a PowerERP
+ZapierForPowererpSetup=Configuració de Zapier per a PowerERP
 ZapierDescription=Interfície amb Zapier
 ZapierAbout=Quant al mòdul Zapier
-ZapierSetupPage=No cal fer cap configuració al costat de Powererp per a utilitzar Zapier. Tot i això, heu de generar i publicar un paquet a zapier per a poder utilitzar Zapier amb Powererp. Consulteu la documentació <a href="https://wiki.powererp.org/index.php/Module_Zapier"> aquesta pàgina wiki </a>.
+ZapierSetupPage=No cal fer cap configuració al costat de PowerERP per a utilitzar Zapier. Tot i això, heu de generar i publicar un paquet a zapier per a poder utilitzar Zapier amb PowerERP. Consulteu la documentació <a href="https://wiki.PowerERP.org/index.php/Module_Zapier"> aquesta pàgina wiki </a>.

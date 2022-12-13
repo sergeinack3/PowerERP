@@ -25,13 +25,13 @@
  *	\brief      	Description and activation file for the module Generation document
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module Document
  */
-class modDocumentGeneration extends PowererpModules
+class modDocumentGeneration extends PowerERPModules
 {
 
 	/**
@@ -49,7 +49,7 @@ class modDocumentGeneration extends PowererpModules
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Direct mail document generation";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = 'development';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -97,7 +97,7 @@ class modDocumentGeneration extends PowererpModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *  It also creates data directories
 	 *
 	 *  @param      string  $options    Options when enabling module ('', 'noboxes')

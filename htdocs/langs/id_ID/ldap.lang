@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ldap
+# PowerERP language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Kata sandi untuk pengguna<b>%s</b>pada domain<b>%s</b>harus diubah.
 UserMustChangePassNextLogon=Pengguna harus mengubah kata sandi di domain %s
 LDAPInformationsForThisContact=Informasi dalam basis data LDAP untuk kontak ini
@@ -22,6 +22,6 @@ GroupSynchronized=Grup disinkronkan
 MemberSynchronized=Anggota disinkronkan
 MemberTypeSynchronized=Jenis anggota disinkronkan
 ContactSynchronized=Kontak disinkronkan
-ForceSynchronize=Paksa sinkronisasi Powererp -> LDAP
+ForceSynchronize=Paksa sinkronisasi PowerERP -> LDAP
 ErrorFailedToReadLDAP=Gagal membaca basis data LDAP. Periksa pengaturan modul LDAP dan aksesibilitas basis data.
 PasswordOfUserInLDAP=Kata sandi pengguna di LDAP

@@ -30,7 +30,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/reception/modules_reception.php';
  */
 class mod_reception_moonstone extends ModelNumRefReception
 {
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 	public $error = '';
 	public $nom = 'Moonstone';
 

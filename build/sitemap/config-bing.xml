@@ -32,7 +32,7 @@
                  file paths.  (Example: "UTF-8")
 -->
 <site
-  base_url="http://wiki.powererp.org/"
+  base_url="http://wiki.PowerERP.org/"
   store_into="sitemap-wiki-bing.xml.gz"
   verbose="1"
   >

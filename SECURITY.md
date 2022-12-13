@@ -1,6 +1,6 @@
 # Security Policy
 
-This file contains some policies about the security reports on Powererp ERP CRM project, one of the most popular Open Source ERP and CRM in the world.
+This file contains some policies about the security reports on PowerERP ERP CRM project, one of the most popular Open Source ERP and CRM in the world.
 
 ## Supported Versions for security reports
 
@@ -12,30 +12,30 @@ This file contains some policies about the security reports on Powererp ERP CRM 
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, for a private report, please use GitHub security advisory at [https://github.com/Powererp/powererp/security/advisories/new](https://github.com/Powererp/powererp/security/advisories/new) (if you have permissions).
-Alternatively send an email to security@powererp.org (for everybody)
+To report a vulnerability, for a private report, please use GitHub security advisory at [https://github.com/PowerERP/PowerERP/security/advisories/new](https://github.com/PowerERP/PowerERP/security/advisories/new) (if you have permissions).
+Alternatively send an email to security@PowerERP.org (for everybody)
 
-## Hunting vulnerabilities on Powererp
+## Hunting vulnerabilities on PowerERP
 
 We believe that future of software is online SaaS. This means software are more and more critical and no technology is perfect. Working with skilled security researchers is crucial in identifying weaknesses in our technology.
 
 If you believe you've found a security bug in our service, we are happy to work with you to resolve the issue promptly and ensure you are fairly rewarded for your discovery.
 
-Any type of denial of service attacks is strictly forbidden, as well as any interference with network equipment and Powererp infrastructure.
+Any type of denial of service attacks is strictly forbidden, as well as any interference with network equipment and PowerERP infrastructure.
 
-We recommand to install Powererp ERP CRM on your own server (as most Open Source software, download and use is free: [https://www.powererp.org/download](https://www.powererp.org/download)) to get access on every side of application.
+We recommand to install PowerERP ERP CRM on your own server (as most Open Source software, download and use is free: [https://www.PowerERP.org/download](https://www.PowerERP.org/download)) to get access on every side of application.
 
 ### User Agent
 
-If you try to find bug on Powererp, we recommend to append to your user-agent header the following value: '-securitytest-for-powererp'.
+If you try to find bug on PowerERP, we recommend to append to your user-agent header the following value: '-securitytest-for-PowerERP'.
 
 ### Account access
 
-You can install the web application yourself on your own platform/server so you get full access to application and sources. Download the zip of the files to put into your own web server virtual host from [https://www.powererp.org/download](https://www.powererp.org/download)
+You can install the web application yourself on your own platform/server so you get full access to application and sources. Download the zip of the files to put into your own web server virtual host from [https://www.PowerERP.org/download](https://www.PowerERP.org/download)
 
 ## Eligibility and Responsible Disclosure
 
-We are happy to thank everyone who submits valid reports which help us improve the security of Powererp however, only those that meet the following eligibility requirements will be "validated reports" (if not, we may close the report without any answer):
+We are happy to thank everyone who submits valid reports which help us improve the security of PowerERP however, only those that meet the following eligibility requirements will be "validated reports" (if not, we may close the report without any answer):
 
 You must be the first reporter of the vulnerability (duplicate reports are closed).
 

@@ -1,8 +1,8 @@
-Description: Enable /etc/powererp/conf.php so that we use packaged libraries
- Update some PHP include files to refer to /etc/powererp/conf.php
+Description: Enable /etc/PowerERP/conf.php so that we use packaged libraries
+ Update some PHP include files to refer to /etc/PowerERP/conf.php
  instead of the in-tree conf/conf.php.
  .
- /etc/powererp/conf.php configures Powererp to use packaged libraries
+ /etc/PowerERP/conf.php configures PowerERP to use packaged libraries
  instead of the embedded ones.
 Author: Laurent Destailleur <eldy@users.sourceforge.net>
 Forwarded: not-needed
@@ -15,10 +15,10 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  $conffile = "conf/conf.php";
  $conffiletoshow = "htdocs/conf/conf.php";
  // For debian/redhat like systems
--//$conffile = "/etc/powererp/conf.php";
--//$conffiletoshow = "/etc/powererp/conf.php";
-+$conffile = "/etc/powererp/conf.php";
-+$conffiletoshow = "/etc/powererp/conf.php";
+-//$conffile = "/etc/PowerERP/conf.php";
+-//$conffiletoshow = "/etc/PowerERP/conf.php";
++$conffile = "/etc/PowerERP/conf.php";
++$conffiletoshow = "/etc/PowerERP/conf.php";
  
  
  // Include configuration
@@ -28,10 +28,10 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  $conffile = "../conf/conf.php";
  $conffiletoshow = "htdocs/conf/conf.php";
  // For debian/redhat like systems
--//$conffile = "/etc/powererp/conf.php";
--//$conffiletoshow = "/etc/powererp/conf.php";
-+$conffile = "/etc/powererp/conf.php";
-+$conffiletoshow = "/etc/powererp/conf.php";
+-//$conffile = "/etc/PowerERP/conf.php";
+-//$conffiletoshow = "/etc/PowerERP/conf.php";
++$conffile = "/etc/PowerERP/conf.php";
++$conffiletoshow = "/etc/PowerERP/conf.php";
  
  
  // Load conf file if it is already defined

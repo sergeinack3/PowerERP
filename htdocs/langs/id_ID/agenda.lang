@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=Perihal ID
 Actions=Perihal
 Agenda=Agenda
@@ -31,10 +31,10 @@ ViewWeek=Tampilan minggu
 ViewPerUser=Per tampilan pengguna
 ViewPerType=Per tampilan jenis
 AutoActions= Otomatis mengisi
-AgendaAutoActionDesc= Di sini Anda dapat menentukan agenda yang ingin Anda buat Powererp secara otomatis di Agenda. Jika tidak ada yang diperiksa, hanya tindakan manual yang akan dimasukkan dalam log dan ditampilkan dalam Agenda. Pelacakan otomatis tindakan bisnis yang dilakukan pada objek (validasi, perubahan status) tidak akan disimpan.
-AgendaSetupOtherDesc= Halaman ini menyediakan opsi untuk memungkinkan ekspor agenda Powererp Anda ke kalender eksternal (Thunderbird, Google Calendar, dll ...)
-AgendaExtSitesDesc=Halaman ini memungkinkan untuk menyatakan sumber eksternal dari kalender untuk melihat agenda mereka ke dalam agenda Powererp.
-ActionsEvents=Perihal yang Powererp akan membuat tindakan dalam agenda otomatis
+AgendaAutoActionDesc= Di sini Anda dapat menentukan agenda yang ingin Anda buat PowerERP secara otomatis di Agenda. Jika tidak ada yang diperiksa, hanya tindakan manual yang akan dimasukkan dalam log dan ditampilkan dalam Agenda. Pelacakan otomatis tindakan bisnis yang dilakukan pada objek (validasi, perubahan status) tidak akan disimpan.
+AgendaSetupOtherDesc= Halaman ini menyediakan opsi untuk memungkinkan ekspor agenda PowerERP Anda ke kalender eksternal (Thunderbird, Google Calendar, dll ...)
+AgendaExtSitesDesc=Halaman ini memungkinkan untuk menyatakan sumber eksternal dari kalender untuk melihat agenda mereka ke dalam agenda PowerERP.
+ActionsEvents=Perihal yang PowerERP akan membuat tindakan dalam agenda otomatis
 EventRemindersByEmailNotEnabled=Pengingat agenda melalui email tidak diaktifkan ke pengaturan modul %s.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Pihak ketiga %s dibuat

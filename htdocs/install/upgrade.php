@@ -38,7 +38,7 @@
 
 include_once 'inc.php';
 if (!file_exists($conffile)) {
-	print 'Error: Powererp config file was not found. This may means that Powererp is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
+	print 'Error: PowerERP config file was not found. This may means that PowerERP is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
 }
 require_once $conffile;
 require_once $powererp_main_document_root.'/core/lib/admin.lib.php';
@@ -354,7 +354,7 @@ if (!GETPOST('action', 'aZ09') || preg_match('/upgrade/i', GETPOST('action', 'aZ
 				$listoffileprocessed[$dir.$file] = $dir.$file;
 
 
-				// Scan if there is migration scripts that depends of Powererp version
+				// Scan if there is migration scripts that depends of PowerERP version
 				// for modules htdocs/module/sql or htdocs/custom/module/sql (files called "powererp_x.y.z-a.b.c.sql")
 				$modulesfile = array();
 				foreach ($conf->file->dol_document_root as $type => $dirroot) {
@@ -383,7 +383,7 @@ if (!GETPOST('action', 'aZ09') || preg_match('/upgrade/i', GETPOST('action', 'aZ
 						print '<tr><td class="nowrap">'.$langs->trans("ChoosedMigrateScript").' (external modules)</td><td class="right">'.$modulefileshort.'</td></tr>'."\n";
 
 						// Run sql script
-						$okmodule = run_sql($modulefilelong, 0, '', 1); // Note: Result of migration of external module should not decide if we continue migration of Powererp or not.
+						$okmodule = run_sql($modulefilelong, 0, '', 1); // Note: Result of migration of external module should not decide if we continue migration of PowerERP or not.
 						$listoffileprocessed[$modulefilelong] = $modulefilelong;
 					}
 				}

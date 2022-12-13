@@ -30,10 +30,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/payment/modules_payment.php';
 class mod_payment_cicada extends ModeleNumRefPayments
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'PAY';
 

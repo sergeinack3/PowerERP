@@ -1,7 +1,7 @@
 <?php
-// File to force Powererp wizard installer choices.
+// File to force PowerERP wizard installer choices.
 //
-// This file must be present into htdocs/install or /etc/powererp directory
+// This file must be present into htdocs/install or /etc/PowerERP directory
 // during install process to be used.
 //
 //
@@ -9,8 +9,8 @@
 $force_install_packager='deb';
 $force_install_noedit=1;
 $force_install_message='KeepDefaultValuesDeb';
-#$force_install_main_data_root='/usr/share/powererp/documents';
-$force_install_main_data_root='/var/lib/powererp/documents';
+#$force_install_main_data_root='/usr/share/PowerERP/documents';
+$force_install_main_data_root='/var/lib/PowerERP/documents';
 $force_install_type='mysqli';
 $force_install_dbserver='localhost';
 $force_install_port='3306';

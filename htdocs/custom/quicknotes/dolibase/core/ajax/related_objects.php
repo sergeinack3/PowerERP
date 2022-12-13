@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -15,7 +15,7 @@
  * 
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 if (false === (@include '../../../main.inc.php')) { // From htdocs directory (dolibase is in htdocs)
 	if (false === (@include '../../../../main.inc.php')) { // From module directory (module is in htdocs)
 		require '../../../../../main.inc.php'; // From "custom" directory (module is in custom directory)

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Réf. produit
 ProductLabel=Libellé produit
 ProductLabelTranslated=Libellé produit traduit
@@ -299,7 +299,7 @@ MinSupplierPrice=Prix d'achat minimum
 MinCustomerPrice=Prix de vente minimum
 NoDynamicPrice=Pas de prix dynamique
 DynamicPriceConfiguration=Configuration du prix dynamique
-DynamicPriceDesc=L'activation de ce module ajoute au fiches des produits une fonction d'enregistrement de formules de calcul des prix sur les prix de vente et d'achat. Ces formules supportent tous les opérateurs mathématiques, quelques constantes et variables. Définissez ici les variables que que vous voulez pouvoir utiliser, et si la variable nécessite d'être actualisée, l'URL externe ou Powererp ira chercher la nouvelle valeur
+DynamicPriceDesc=L'activation de ce module ajoute au fiches des produits une fonction d'enregistrement de formules de calcul des prix sur les prix de vente et d'achat. Ces formules supportent tous les opérateurs mathématiques, quelques constantes et variables. Définissez ici les variables que que vous voulez pouvoir utiliser, et si la variable nécessite d'être actualisée, l'URL externe ou PowerERP ira chercher la nouvelle valeur
 AddVariable=Ajouter une Variable
 AddUpdater=Ajouter URL de mise à jour
 GlobalVariables=Variables globales
@@ -378,7 +378,7 @@ NewProductAttribute=Nouvel attribut
 NewProductAttributeValue=Nouvelle valeur de l'attribut
 ErrorCreatingProductAttributeValue=Une erreur s'est produits lors de la création de la valeur de cet attribut. Une valeur de la même référence est peut-être déjà enregistrée
 ProductCombinationGeneratorWarning=Si vous continuez, avant la génération des nouvelles variantes, toutes les variantes précédentes seront SUPPRIMEES. Seules les variantes existantes seront mises à jour avec les nouvelles valeurs.
-TooMuchCombinationsWarning=La génération de nombreuses variantes peut ralentir le processeur et votre mémoire. Powererp pourrait ne pas être en mesure de les créer. l'activation de cette option "%s" aide à réduire la consommation de mémoire.
+TooMuchCombinationsWarning=La génération de nombreuses variantes peut ralentir le processeur et votre mémoire. PowerERP pourrait ne pas être en mesure de les créer. l'activation de cette option "%s" aide à réduire la consommation de mémoire.
 DoNotRemovePreviousCombinations=Ne pas supprimer les variantes existantes
 UsePercentageVariations=Utiliser les pourcentages de variation
 PercentageVariation=Variation de pourcentage

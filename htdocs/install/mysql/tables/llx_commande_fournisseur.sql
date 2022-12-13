@@ -26,7 +26,7 @@ create table llx_commande_fournisseur
   ref						varchar(180) NOT NULL,         -- order number
   entity					integer DEFAULT 1 NOT NULL,    -- multi company id
 
-  ref_ext					varchar(255),                   -- reference into an external system (not used by powererp)
+  ref_ext					varchar(255),                   -- reference into an external system (not used by PowerERP)
   ref_supplier				varchar(255),
 
   fk_soc					integer NOT NULL,

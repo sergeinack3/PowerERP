@@ -21,7 +21,7 @@
  */
 
 /**
- *    Class to manage Powererp database access for an SQL database
+ *    Class to manage PowerERP database access for an SQL database
  */
 interface Database
 {

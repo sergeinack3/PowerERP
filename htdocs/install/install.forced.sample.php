@@ -22,7 +22,7 @@ $force_install_nophpinfo = true;
 $force_install_noedit = 2;
 
 /** @var string Information message */
-$force_install_message = 'Welcome to your Powererp install';
+$force_install_message = 'Welcome to your PowerERP install';
 
 /** @var string Data root absolute path (documents folder) */
 $force_install_main_data_root = null;
@@ -31,7 +31,7 @@ $force_install_main_data_root = null;
 $force_install_mainforcehttps = true;
 
 /** @var string Database name */
-$force_install_database = 'powererp';
+$force_install_database = 'PowerERP';
 
 /** @var string Database driver (mysql|mysqli|pgsql|mssql|sqlite|sqlite3) */
 $force_install_type = 'mysqli';
@@ -63,7 +63,7 @@ $force_install_databaserootlogin = 'root';
 /** @var string Database root password */
 $force_install_databaserootpass = '';
 
-/** @var string Powererp super-administrator username */
+/** @var string PowerERP super-administrator username */
 $force_install_powererplogin = 'admin';
 
 /** @var bool Force install locking */

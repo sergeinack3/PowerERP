@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - workflow
+# PowerERP language file - Source file is en_US - workflow
 WorkflowSetup=Tamaño original
 ThereIsNoWorkflowToModify=No hay modificaciones de flujo de trabajo disponibles con los módulos activados.
 descWORKFLOW_PROPAL_AUTOCREATE_ORDER=Crear automáticamente un pedido de ventas después de firmar una propuesta comercial (el nuevo pedido tendrá la misma cantidad que la propuesta)

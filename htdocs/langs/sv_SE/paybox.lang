@@ -1,7 +1,7 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=PayBox modul inställning
-PayBoxDesc=Denna modul erbjuder sidor för att möjliggöra betalning på <a href="http://www.paybox.com" target="_blank">Paybox</a> av kunder. Detta kan användas för en kostnadsfri betalning eller en betalning på en viss Powererp objekt (faktura, order, ...)
-FollowingUrlAreAvailableToMakePayments=Följande webbadresser finns att erbjuda en sida till en kund att göra en förskottsbetalning Powererp objekt
+PayBoxDesc=Denna modul erbjuder sidor för att möjliggöra betalning på <a href="http://www.paybox.com" target="_blank">Paybox</a> av kunder. Detta kan användas för en kostnadsfri betalning eller en betalning på en viss PowerERP objekt (faktura, order, ...)
+FollowingUrlAreAvailableToMakePayments=Följande webbadresser finns att erbjuda en sida till en kund att göra en förskottsbetalning PowerERP objekt
 PaymentForm=Inbetalningskort
 WelcomeOnPaymentPage=Välkommen till vår online betalningstjänst
 ThisScreenAllowsYouToPay=Denna skärm tillåter dig att göra en online-betalning till %s.

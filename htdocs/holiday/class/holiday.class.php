@@ -1674,7 +1674,7 @@ class Holiday extends CommonObject
 	 *    Get list of Users or list of vacation balance.
 	 *
 	 *    @param      boolean			$stringlist	    If true return a string list of id. If false, return an array with detail.
-	 *    @param      boolean   		$type			If true, read Powererp user list, if false, return vacation balance list.
+	 *    @param      boolean   		$type			If true, read PowerERP user list, if false, return vacation balance list.
 	 *    @param      string            $filters        Filters. Warning: This must not contains data from user input.
 	 *    @return     array|string|int      			Return an array
 	 */
@@ -1686,7 +1686,7 @@ class Holiday extends CommonObject
 
 		if ($stringlist) {
 			if ($type) {
-				// If user of Powererp
+				// If user of PowerERP
 				$sql = "SELECT";
 				if (!empty($conf->multicompany->enabled) && !empty($conf->global->MULTICOMPANY_TRANSVERSE_MODE)) {
 					$sql .= " DISTINCT";
@@ -1774,9 +1774,9 @@ class Holiday extends CommonObject
 			}
 		} else {
 			// Si faux donc return array
-			// List for Powererp users
+			// List for PowerERP users
 			if ($type) {
-				// If we need users of Powererp
+				// If we need users of PowerERP
 				$sql = "SELECT";
 				if (!empty($conf->multicompany->enabled) && !empty($conf->global->MULTICOMPANY_TRANSVERSE_MODE)) {
 					$sql .= " DISTINCT";
@@ -1920,7 +1920,7 @@ class Holiday extends CommonObject
 
 
 	/**
-	 *	Compte le nombre d'utilisateur actifs dans Powererp
+	 *	Compte le nombre d'utilisateur actifs dans PowerERP
 	 *
 	 *  @return     int      retourne le nombre d'utilisateur
 	 */
@@ -1936,7 +1936,7 @@ class Holiday extends CommonObject
 		return $objet->compteur;
 	}
 	/**
-	 *	Compte le nombre d'utilisateur actifs dans Powererp sans CP
+	 *	Compte le nombre d'utilisateur actifs dans PowerERP sans CP
 	 *
 	 *  @return     int      retourne le nombre d'utilisateur
 	 */
@@ -1954,9 +1954,9 @@ class Holiday extends CommonObject
 	}
 
 	/**
-	 *  Compare le nombre d'utilisateur actif de Powererp à celui des utilisateurs des congés payés
+	 *  Compare le nombre d'utilisateur actif de PowerERP à celui des utilisateurs des congés payés
 	 *
-	 *  @param    int	$userPowererpWithoutCP	Number of active users in Powererp without holidays
+	 *  @param    int	$userPowererpWithoutCP	Number of active users in PowerERP without holidays
 	 *  @param    int	$userCP    				Number of active users into table of holidays
 	 *  @return   int							<0 if KO, >0 if OK
 	 */

@@ -103,8 +103,8 @@ class DolLogsCollector extends MessagesCollector
 	 */
 	public function getLogsFile()
 	{
-		// default powererp log file
-		$path = DOL_DATA_ROOT.'/powererp.log';
+		// default PowerERP log file
+		$path = DOL_DATA_ROOT.'/PowerERP.log';
 		return $path;
 	}
 

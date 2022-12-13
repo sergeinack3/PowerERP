@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Čtení naplánovaných úloh
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Zakázat
 CronTaskInactive=This job is disabled (not scheduled)
 CronId=Id
 CronClassFile=Název souboru s třídou
-CronModuleHelp=Název adresáře modulu Powererp (také pracuje s externím modulem Powererp). <BR> Chcete-li volat například metodu načítání produktu Powererp Product /htdocs/<u>product</u>/class/product.class.php, je hodnota pro modul <br><i> produkt </i>
-CronClassFileHelp=Relativní cesta a název souboru k načtení (cesta je relativní k kořenovému adresáři webového serveru). <BR> Chcete-li například volat metodu načítání produktu Powererp Product htdocs / product / class / <u> product.class.php</u>, hodnota pro název souboru třídy je <br><i> product / class / product.class.php </i>
-CronObjectHelp=Název objektu, který chcete načíst. <BR> Chcete-li volat například metodu načítání produktu Powererp Product /htdocs/product/class/product.class.php, hodnota názvu souboru třídy je <br><i> Produkt </i>
-CronMethodHelp=Objektová metoda spuštění. <BR> Chcete-li například volat metodu načítání produktu Powererp Product /htdocs/product/class/product.class.php, hodnota metody je <br><i> načíst </i>
-CronArgsHelp=Argumenty metody. <BR> Chcete-li například volat metodu načítání produktu Powererp Product /htdocs/product/class/product.class.php, může být hodnota parametrů<br><i> 0, ProductRef </i>
+CronModuleHelp=Název adresáře modulu PowerERP (také pracuje s externím modulem PowerERP). <BR> Chcete-li volat například metodu načítání produktu PowerERP Product /htdocs/<u>product</u>/class/product.class.php, je hodnota pro modul <br><i> produkt </i>
+CronClassFileHelp=Relativní cesta a název souboru k načtení (cesta je relativní k kořenovému adresáři webového serveru). <BR> Chcete-li například volat metodu načítání produktu PowerERP Product htdocs / product / class / <u> product.class.php</u>, hodnota pro název souboru třídy je <br><i> product / class / product.class.php </i>
+CronObjectHelp=Název objektu, který chcete načíst. <BR> Chcete-li volat například metodu načítání produktu PowerERP Product /htdocs/product/class/product.class.php, hodnota názvu souboru třídy je <br><i> Produkt </i>
+CronMethodHelp=Objektová metoda spuštění. <BR> Chcete-li například volat metodu načítání produktu PowerERP Product /htdocs/product/class/product.class.php, hodnota metody je <br><i> načíst </i>
+CronArgsHelp=Argumenty metody. <BR> Chcete-li například volat metodu načítání produktu PowerERP Product /htdocs/product/class/product.class.php, může být hodnota parametrů<br><i> 0, ProductRef </i>
 CronCommandHelp=Spustit příkazový řádek.
 CronCreateJob=Vytvořit novou naplánovanou úlohu
 CronFrom=Z

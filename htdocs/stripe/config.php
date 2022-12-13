@@ -51,5 +51,5 @@ if (empty($conf->global->STRIPE_LIVE) || GETPOST('forcesandbox', 'alpha')) {
 }
 
 \Stripe\Stripe::setApiKey($stripearrayofkeys['secret_key']);
-\Stripe\Stripe::setAppInfo("Powererp Stripe", DOL_VERSION, "https://www.powererp.org"); // add powererp version
+\Stripe\Stripe::setAppInfo("PowerERP Stripe", DOL_VERSION, "https://www.PowerERP.org"); // add PowerERP version
 \Stripe\Stripe::setApiVersion(empty($conf->global->STRIPE_FORCE_VERSION) ? "2020-08-27" : $conf->global->STRIPE_FORCE_VERSION); // force version API

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=إعداد وحدة PayBox
 PayBoxDesc=تعرض صفحات نموذج الوحدة هذه الدفعات على <a href="http://www.paybox.com" target="_blank"> Paybox</a> من قبل العملاء. هذا يمكن استخدامها للدفع مجانا أو للدفع على عنصر دوليبار معين (الفاتورة، طلب، ...)
 FollowingUrlAreAvailableToMakePayments=تتوفر عناوين URL التالية لتقديم صفحة إلى عميل لإجراء دفعة على عناصر دوليبار

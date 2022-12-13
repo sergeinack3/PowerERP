@@ -174,7 +174,7 @@ if (empty($reshook)) {
 $dol_url_root = DOL_URL_ROOT;
 
 // Title
-$title = 'Powererp '.DOL_VERSION;
+$title = 'PowerERP '.DOL_VERSION;
 if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 	$title = $conf->global->MAIN_APPLICATION_TITLE;
 }
@@ -194,7 +194,7 @@ if (!$username) {
 
 // Send password button enabled ?
 $disabled = 'disabled';
-if (preg_match('/powererp/i', $mode)) {
+if (preg_match('/PowerERP/i', $mode)) {
 	$disabled = '';
 }
 if (!empty($conf->global->MAIN_SECURITY_ENABLE_SENDPASSWORD)) {

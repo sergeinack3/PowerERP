@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID event
 Actions=Actions
 Agenda=Dagskrá
@@ -31,10 +31,10 @@ ViewWeek=Vikuskjár
 ViewPerUser=Per user view
 ViewPerType=Per type view
 AutoActions= Sjálfvirk fyllingu dagskrá
-AgendaAutoActionDesc= Here you may define events which you want Powererp to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
-AgendaSetupOtherDesc= This page provides options to allow the export of your Powererp events into an external calendar (Thunderbird, Google Calendar etc...)
-AgendaExtSitesDesc=Þessi síða leyfir þér að lýsa ytri uppsprettur dagatal til að sjá atburði í Powererp dagskrá.
-ActionsEvents=Viðburðir sem Powererp vilja búa til aðgerða á dagskrá sjálfkrafa
+AgendaAutoActionDesc= Here you may define events which you want PowerERP to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
+AgendaSetupOtherDesc= This page provides options to allow the export of your PowerERP events into an external calendar (Thunderbird, Google Calendar etc...)
+AgendaExtSitesDesc=Þessi síða leyfir þér að lýsa ytri uppsprettur dagatal til að sjá atburði í PowerERP dagskrá.
+ActionsEvents=Viðburðir sem PowerERP vilja búa til aðgerða á dagskrá sjálfkrafa
 EventRemindersByEmailNotEnabled=Event reminders by email was not enabled into %s module setup.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Third party %s created

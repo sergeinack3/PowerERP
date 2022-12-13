@@ -22,13 +22,13 @@
  *	\ingroup	factory
  *	\brief	  Fichier de description et activation du module factory
  */
-include_once DOL_DOCUMENT_ROOT .'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT .'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Classe de description et activation du module Propale
  */
-class modRestock extends PowererpModules
+class modRestock extends PowerERPModules
 {
 
 	/**
@@ -53,7 +53,7 @@ class modRestock extends PowererpModules
 		$this->name = "restock";
 		$this->description = "Gestion du r&eacute;approvisionnement";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = $this->getLocalVersion();
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -192,7 +192,7 @@ class modRestock extends PowererpModules
 
 	/**
 	*		Function called when module is enabled.
-	*		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	*		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	*		It also creates data directories
 	*
 	*	  @param	  string	$options	Options when enabling module ('', 'noboxes')
@@ -212,7 +212,7 @@ class modRestock extends PowererpModules
 	
 	/**
 	 *		Function called when module is disabled.
-	 *	  Remove from database constants, boxes and permissions from Powererp database.
+	 *	  Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
 	 *	  @param	  string	$options	Options when enabling module ('', 'noboxes')
@@ -298,7 +298,7 @@ class modRestock extends PowererpModules
 		else {
 			$tblversionslast=$sxelast->Version;
 			$currentversion = $tblversionslast[count($tblversionslast)-1]->attributes()->Number;
-			$tblPowererp=$sxelast->Powererp;
+			$tblPowererp=$sxelast->PowerERP;
 			$minversionPowererp=$tblPowererp->attributes()->minVersion;
 			if ((int) DOL_VERSION < (int) $MinversionPowererp) {
 				$this->powererpminversion=$minversionPowererp;

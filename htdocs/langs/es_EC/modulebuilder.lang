@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - modulebuilder
+# PowerERP language file - Source file is en_US - modulebuilder
 EnterNameOfModuleDesc=Introduzca el nombre del módulo/aplicación para crear sin espacios. Utilice mayúsculas para separar palabras (Por ejemplo: MyModule, EcommerceForShop, SyncWithMySystem...)
 EnterNameOfObjectDesc=Introduzca el nombre del objeto a crear sin espacios. Use mayúsculas para separar palabras (Por ejemplo: MyObject, Student, Teacher...). Se generará el archivo de clase CRUD, pero también archivos API, páginas para listar/agregar/editar/eliminar objetos y archivos SQL.
 ModuleBuilderDesc2=Ruta donde se generan / editan los módulos (primer directorio para módulos externos definidos en %s): <strong> %s </strong>
@@ -15,7 +15,7 @@ ModuleBuilderDescbuildpackage=Puede generar aquí un archivo de paquete "listo p
 EnterNameOfModuleToDeleteDesc=Puedes borrar tu módulo. ADVERTENCIA: ¡Todos los archivos de codificación del módulo (generados o creados manualmente) Y los datos estructurados y la documentación serán eliminados!
 EnterNameOfObjectToDeleteDesc=Puedes borrar un objeto. ADVERTENCIA: ¡Se eliminarán todos los archivos de codificación (generados o creados manualmente) relacionados con el objeto!
 BuildPackage=Paquete de construcción
-BuildPackageDesc=Puede generar un paquete zip de su aplicación para que esté listo para distribuirlo en cualquier Powererp. También puede distribuirlo o venderlo en el mercado como <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Puede generar un paquete zip de su aplicación para que esté listo para distribuirlo en cualquier PowerERP. También puede distribuirlo o venderlo en el mercado como <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Crear documentación
 ModuleIsLive=Este módulo ha sido activado. Cualquier cambio puede romper una función en vivo actual.
 DescriptorFile=Archivo de descripción del módulo
@@ -65,7 +65,7 @@ PermissionsDefDescTooltip=Los permisos proporcionados por su módulo / aplicaci�
 HooksDefDesc=Defina en la propiedad <b>module_parts ['hooks'] </b>, en el descriptor de módulo, el contexto de los ganchos que desea administrar (puede encontrar una lista de contextos mediante una búsqueda en '<b>initHooks(</b>' en el código central) .<br> Edite el archivo gancho para agregar el código de sus funciones enganchadas (las funciones que se conectan se pueden encontrar mediante una búsqueda en '<b>executeHooks</b>' en el código central).
 SeeIDsInUse=Consulte ID en uso en su instalación.
 SeeReservedIDsRangeHere=Ver el rango de ID reservados
-ToolkitForDevelopers=Kit de herramientas para desarrolladores de Powererp
+ToolkitForDevelopers=Kit de herramientas para desarrolladores de PowerERP
 TryToUseTheModuleBuilder=Si tiene conocimientos de SQL y PHP, puede usar el asistente de creación de módulos nativos. <br>Habilite el módulo <strong>%s</strong> y use el asistente haciendo clic <span class="fa fa-bug"></span> en el menú superior derecho. <br>Advertencia: esta es una función avanzada para desarrolladores, <b>no</b> experimente en su sitio de producción !
 SeeTopRightMenu=Ver <span class="fa fa-bug"></span>en el menú superior derecho
 InitStructureFromExistingTable=Construya la estructura de la cadena matriz de una tabla existente

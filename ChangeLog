@@ -1,5 +1,5 @@
 --------------------------------------------------------------
-English Powererp ChangeLog
+English PowerERP ChangeLog
 --------------------------------------------------------------
 
 
@@ -270,9 +270,9 @@ NEW: Experimental feature to manage user sessions in database
 NEW: Hidden option API_DISABLE_COMPRESSION is now visible in API setup page.
 NEW: Add hook printUnderHeaderPDFline on invoice PDF templates (can be used for example to add a barcode or more information on header of invoices).
  
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * ALL EXTERNAL MODULES THAT WERE NOT CORRECTLY DEVELOPPED WILL NOT WORK ON V15 (All modules that forgot to manage the security token field 
-  into forms will be broken. The security token field is expected since Powererp v9 but a lot of external modules did not implement it).
+  into forms will be broken. The security token field is expected since PowerERP v9 but a lot of external modules did not implement it).
 * Update hook 'printOriginObjectLine', removed check on product type and special code. Need now reshook.
 * Old deprecated module "SimplePOS" has been completely removed. Use module "TakePOS" is you need a Point Of Sale.
 * The method static ActionComm::getActions($db, ...) is no more static. Use $actioncomm->getActions(...) instead (without $db param). 
@@ -781,14 +781,14 @@ NEW: add hook addSectionECMAuto method to add custom directory into ECM auto fil
 
 WARNING:
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * Module SimplePOS is deprecated. If you need a POS module, please use the module TakePOS.
 * The ICS value for direct debit or credit transfer is now stored on each bank account instead of into the global setup.
 * API /setup/shipment_methods has been replaced with API /setup/shipping_methods
 * Field "total" renamed into "total_ht"  for table llx_facture, llx_facture_rec for better field name consistency
 * Field "tva"   renamed into "total_tva" for llx_facture, table llx_propal, llx_supplier_proposal, llx_commande, llx_commande_fournisseur for better field name consistency
 * Field "total" renamed into "total_ttc" for table llx_propal, llx_supplier_proposal for better field name consistency
-* If your database is PostgreSQL, you must use version 9.1.0 or more (Powererp need the SQL function CONCAT)
+* If your database is PostgreSQL, you must use version 9.1.0 or more (PowerERP need the SQL function CONCAT)
 * If your database is MySQL or MariaDB, you need at least version 5.1
 * Function set_price_level() has been renamed into setPriceLevel() to follow camelcase rules
 * Removed deprecated substitution key  __REFCLIENT__  (replaced with __REF_CLIENT__)
@@ -1032,7 +1032,7 @@ NEW: Accountancy - add export for Gestinum (v3 & v5) #15180
 NEW: new currency rate editor
 NEW: Solve blocking feature. Can increase stock of a Kit without changing subproduct stock.
 NEW: add a widget to show the customers with outstanding limits reached
-NEW: add 2 rules for emailcollector: Message send/not sent from Powererp
+NEW: add 2 rules for emailcollector: Message send/not sent from PowerERP
 NEW: add a counter of number of words for pages in website module
 NEW: add a page to list Stock at a given date in the past
 NEW: add a start date to begin binding in accountancy
@@ -1240,7 +1240,7 @@ NEW: add hook "loginCheckSecurityAccess"
 
 WARNING:
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * The object "livraison" has been renamed into "delivery" (directory, class, keys, methods with livraison in name ...).
 * All properties ->contactid have been renamed into ->contact_id
 * All properties ->titre have been renamed into ->title
@@ -1259,7 +1259,7 @@ Following changes may create regressions for some external modules, but were nec
 * Context for hook showSocinfoOnPrint has been moved from "showsocinfoonprint" to "main"
 * Library htdocs/includes/phpoffice/phpexcel as been removed (replaced with htdocs/includes/phpoffice/PhpSpreadsheet)
 * Database transaction in your triggers must be correctly balanced (one close for one open). If not, an error will be returned by the trigger, even if trigger did return error code.
-* Powererp v13 is still compatible with any PHP version between 5.6.0 and 7.4.*; Unit tests are OK with PHP 8.0 but some warnings or troubles may appears with PHP 8.0.
+* PowerERP v13 is still compatible with any PHP version between 5.6.0 and 7.4.*; Unit tests are OK with PHP 8.0 but some warnings or troubles may appears with PHP 8.0.
 * All your Ajax services must contains such a line at begin of file:  if (!defined('NOTOKENRENEWAL')) define('NOTOKENRENEWAL', '1'); // Disables token renewal
 
 
@@ -1665,7 +1665,7 @@ NEW: "contact_civility" for ODT templates
 NEW: CUPS printing compatibility for TakePOS
 NEW: Customer command list - Add date start & date end
 NEW: display weight in shipment list
-NEW: Documentation about PHP support in Powererp
+NEW: Documentation about PHP support in PowerERP
 NEW: Donation - Update FR CERFA to 11580*04
 NEW: Easier way to setup the different types of tax. Better visibility.
 NEW: Expedition list - Add date start & date end
@@ -1766,7 +1766,7 @@ NEW: Hidden option MAIN_TEMP_DIR
 
 WARNING:
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * PHP 5.5 is no more supported. Minimum PHP is now 5.6+.
 * Default mode for GETPOST function is now 'alphanohtml' instead of 'none'. So check when you make POST or GET requests with
   HTML content that you make a GETPOST('myparam', 'restricthtml') or GETPOST('myparam', 'none') if you really need posted content without sanitizing
@@ -1786,12 +1786,12 @@ Following changes may create regressions for some external modules, but were nec
 
 WARNING FOR DOLIWAMP USERS ONLY:
 
-Only people that installed Powererp using the all-in-one auto-installer for Windows called "DoliWAMP" are concerned by the following warnings:
+Only people that installed PowerERP using the all-in-one auto-installer for Windows called "DoliWAMP" are concerned by the following warnings:
 
 * DoliWAMP auto-installer for Windows is no more available on 32 bits systems. Use standard package if you need to use such architecture.
 * It is not possible to migrate from an installation done with the old DoliWAMP auto-installer for Windows by using this new one.
   You must make a backup of your database, make a fresh installation using the new installer and reload your backup.
-  Don't forget that DoliWAMP is a good solution to make a quick test of Powererp on your local computer but is not recommended as a production
+  Don't forget that DoliWAMP is a good solution to make a quick test of PowerERP on your local computer but is not recommended as a production
   solution on a local desktop since a local desktop computer has often no backup and security policy, or not as good as on a server (when there is one).
   DoliWAMP remains a solution for fast test or demo purposes. Prefer using standard packages for production.
 
@@ -2231,7 +2231,7 @@ NEW: Add option multiselect for developers on the selector of language.
 NEW: Add a manifest.json.php file for web app.
 NEW: Support of deployement of metapackages
 NEW: Removed deprecated code that create linked object from ->origin
-NEW: experimental zapier for powererp
+NEW: experimental zapier for PowerERP
 NEW: Accountancy - Add hook bookkeepinglist on general ledger
 NEW: Can update product type with the update method.
 NEW: add API shipment mode dictionnary
@@ -2278,7 +2278,7 @@ NEW: Upgrade ACE editor to v1.4.6
 
 WARNING:
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * Properties ->libelle_incoterms were renamed into ->label_incoterms
 * Removed the method liste_array() of project class. It was not used by core code.
 * The function show_theme() hase been renamed into showSkins()
@@ -2295,7 +2295,7 @@ Following changes may create regressions for some external modules, but were nec
 * All properties 'labelstatusshort' and 'labelstatut_short' were renamed into 'labelStatusShort'.
 * All properties 'type_libelle' were renamed into 'type_label'.
 * Renamed property of thirdparty "statut_commercial" into "status_prospect_label"
-* The jquery plugin/dependency multiselect has been removed. It was not used by Powererp core.
+* The jquery plugin/dependency multiselect has been removed. It was not used by PowerERP core.
 
 
 ***** ChangeLog for 10.0.7 compared to 10.0.6 *****
@@ -2983,7 +2983,7 @@ NEW: Look and feel v10 - Add CSS 'tabBarNoTop'
 
 WARNING:
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * PHP 5.4 is no more supported. Minimum PHP is now 5.5+.
 * The PHP extension php-intl is not mandatory and must be installed to have new features working correctly.
 * Method GetUrlTrackingStatus were renamed into getUrlTrackingStatus for consistency with naming rules.
@@ -2999,9 +2999,9 @@ Following changes may create regressions for some external modules, but were nec
 * Method dolEscapeXML was moved from functions.lib.php into function2.lib.php (not used enough to be loaded by default).
 * Removed deprecated use of string in dol_print_date(). Only date allowed.
 * Deprecated property ->fk_departement is now ->state_id everywhere.
-* Removed the method 4 of GETPOST (to get $_COOKIE). It was not used and not recommanded to use in Powererp.
+* Removed the method 4 of GETPOST (to get $_COOKIE). It was not used and not recommanded to use in PowerERP.
 * Column llx_facture.facnumber change to llx_facture.ref
-* Variable $powererp_main_cookie_cryptkey is no more created at install (it was not used by Powererp). A new variable
+* Variable $powererp_main_cookie_cryptkey is no more created at install (it was not used by PowerERP). A new variable
   called $powererp_main_instance_unique_id is now generated at each installation. It will be used by some future features.
 
 
@@ -3182,7 +3182,7 @@ FIX: supplier invoice product stats total ht is line total not invoice total
 FIX: The notes was also copied on invoice
 FIX: Transaction on leave approval and decrease ko if setup not complete
 FIX: Translation not loaded by scheduled jobs
-FIX: [URGENT] broken feature, "$usercancreate" is for Powererp 9
+FIX: [URGENT] broken feature, "$usercancreate" is for PowerERP 9
 FIX: we want to be able to reopen fourn credit note
 FIX: wrong feature2 when user rights "group_advance" is used
 FIX: wrong merged conflict
@@ -3199,7 +3199,7 @@ NEW: Experimental module "TakePos"
 NEW: Experimental module "Ticket"
 NEW: Experimental module "Data Privacy"
 NEW: Experimental module "Email Collector"
-NEW: Powererp can provide information in page title when multicompany is enabled of not, making
+NEW: PowerERP can provide information in page title when multicompany is enabled of not, making
      Android application like DoliDroid able to provide native features for multicompany module.
 NEW: Compatibility with PHP 7.3 =>
 NEW: Add admin page for modulebuilder
@@ -3300,7 +3300,7 @@ NEW: hook on dispatch order fourn
 
 WARNING:
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * If you use some links like viewimages.php?modulepart=mycompany&file=... in your external modules, you must
   replace them with links like viewimages.php?modulepart=mycompany&file=logos/... (note that link change only for
   modulepart=mycompany that now works like others).
@@ -3415,7 +3415,7 @@ FIX: supplier invoice product stats total ht is line total not invoice total
 FIX: The minimum amount filter does not work in the VAT report per customer
 FIX: Total per day shows 00:00 if the total time spent is equal to 12:00
 FIX: Update/delete currency on same languages
-FIX: [URGENT] broken feature, "$usercancreate" is for Powererp 9
+FIX: [URGENT] broken feature, "$usercancreate" is for PowerERP 9
 FIX: useless join
 FIX: we need to keep originline special_code
 FIX: we want to be able to reopen fourn credit note
@@ -3809,7 +3809,7 @@ NEW: hook getnomurltooltip is replaced with hook getNomUrl more powerfull
 
 WARNING:
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * Remove old deprecated hook 'insertExtraFields'. Triggers must be used for action on CRUD events.
 * Hook 'maildao' was renamed into 'mail' into the method sendfile that send emails, and method was renamed from
   'doaction' into 'sendMail'.
@@ -4374,14 +4374,14 @@ WARNING:
 If you enabled (for test) the experimental BlockedLog module before 7.0, you must purge the table llx_blockedlog because
 way to save data for final version has changed.
 
-Following changes may create regressions for some external modules, but were necessary to make Powererp better:
+Following changes may create regressions for some external modules, but were necessary to make PowerERP better:
 * The methode "cloture" on contract were renamed into "closeAll".
 * The method "is_erasable" of invoice return a value <= 0 if not erasable (value is meaning) instead of always 0.
 * The substitution key for reference of objects is now __REF__ whatever is the object (it replaces __ORDERREF__,
   __PROPALREF__, ...)
 * The substition key __SIGNATURE__ was renamed into __USER_SIGNATURE__ to follow naming conventions.
 * Substitution keys with syntax %XXX% were renamed into __XXX__ to match others.
-* Removed old deprecated REST API (APIs found into '/root' section of the REST API explorer in Powererp v6).
+* Removed old deprecated REST API (APIs found into '/root' section of the REST API explorer in PowerERP v6).
 * Some REST API to access setup features, like dictionaries (country, town, extrafields, ...) were moved into a
   common API "/setup".
 * The REST API /documents were renamed into /documents/download and /documents/upload.
@@ -4400,10 +4400,10 @@ Following changes may create regressions for some external modules, but were nec
   keep the hard coded numbering rule of expenses report used in 6.0, just add constant
   EXPENSEREPORT_USE_OLD_NUMBERING_RULE to 1.
 * If you use the external module "multicompany", you must also upgrade the module. Multicompany module for
-  Powererp v7 is required because with Powererp v7, payment modes and payment conditions are management as data
+  PowerERP v7 is required because with PowerERP v7, payment modes and payment conditions are management as data
   that are dedicated to each company. If you keep your old version of multicompany module, mode and
   condition of payments will appears empty in all companies that are not the first one. By upgrading the
-  multicompany module to a version that support Powererp v7, everything should work as expected.
+  multicompany module to a version that support PowerERP v7, everything should work as expected.
 
 
 ***** ChangeLog for 6.0.8 compared to 6.0.7 *****
@@ -4752,7 +4752,7 @@ NEW: Upgrade jquery to 3.3.1 and jquery-ui to 1.12
 
 WARNING:
 
-Following changes may create regression for some external modules, but were necessary to make Powererp better:
+Following changes may create regression for some external modules, but were necessary to make PowerERP better:
 * The hook getNodeList has been replaced by a normalized 'addreplace' hook getDirList.
 * The trigger USER_SETINGROUP and USER_REMOVEFROMGROUP has been replaced with trigger USER_MODIFY.
 * The page societe/soc.php was renamed into societe/card.php to match page naming conventions.
@@ -4764,7 +4764,7 @@ Following changes may create regression for some external modules, but were nece
 * Removed CommonObject::displayMarginInfos (was deprecated in 3.8). Use same method into
   html.formmargin.class.php
 * Removed Societe::set_commnucation_level (was deprecated in 4.0). Was not used.
-* Removed the trigger file of PAYPAL module that stored data that was not used by Powererp. The trigger event still
+* Removed the trigger file of PAYPAL module that stored data that was not used by PowerERP. The trigger event still
   exists, but if an external module need action on it, it must provides itself its trigger file.
 * Use $conf->global->MULTICOMPANY_TRANSVERSE_MODE instead $conf->multicompany->transverse_mode. So, if you set var
   $multicompany_transverse_mode to 1 into your conf file, you must remove this line and a new key into
@@ -4993,7 +4993,7 @@ NEW: Can select fields on expense report list. Can make mass delete.
 NEW: Can select fields to show on list of bank transaction.
 NEW: Can set to paid automatically social or fiscal taxes after a payment was recorded.
 NEW: Can sort on status of recurring invoice in list of template invoices.
-NEW: Can use native php and powererp object on pages of module website.
+NEW: Can use native php and PowerERP object on pages of module website.
 NEW: Checkbox 'close order to "Everything received" automatically if all products are received' is visible on supplier orders.
 NEW: conf to allow payments on different thirdparties bills but same parent company.
 NEW: Consumption view on thirdparty total line and total HT by element.
@@ -5063,12 +5063,12 @@ NEW: More phpunit tests
 WARNING:
 
 Following changes may create regression for some external modules, but were necessary to make
-Powererp better:
+PowerERP better:
 - Function delete of class Facture (invoice) need the object $user as first parameter. Also you must
   check you make a fetch on object before calling the delete.
-- The old driver of "mysql" has been removed. Powererp use the new one (mysqli) by default.
+- The old driver of "mysql" has been removed. PowerERP use the new one (mysqli) by default.
 - Remove not used function calculate_byte(). Use dol_print_size() instead.
-- Function pdf_getTotalQty is now deprecated. Not used by Powererp core.
+- Function pdf_getTotalQty is now deprecated. Not used by PowerERP core.
 - Method commande->deleteline($lineid) has been replaced with commande->deleteline($user, $lineid).
 - Method expensereport->delete(id, user) has been replaced with ->delete(user)
   Method warehouse->delete(id) has been replace with ->delete(user)
@@ -5076,8 +5076,8 @@ Powererp better:
 - The form to add a product to a draft proposal/order/invoice, from the product card, is hidden by default.
   It was not commonly used and usage generates some problems (cost price for margin calculation not entered, vat setting).
   Set constant PRODUCT_ADD_FORM_ADD_TO to retrieve it.
-- The javascript "datatables" library was previously provided into Powererp sources, but it was not used by application.
-  So there is no reason to maintain its compatibility with other powererp components. If an external module need this
+- The javascript "datatables" library was previously provided into PowerERP sources, but it was not used by application.
+  So there is no reason to maintain its compatibility with other PowerERP components. If an external module need this
   library, this external module must embed the library in his own sources/packages.
 - Trigger name SUPPLIER_PROPOSAL_CREATE has been renamed into PROPOSAL_SUPPLIER_CREATE.
 - A new paramater sqlfilters was introduced to allow filter on any fields int the REST API. Few old parameters,
@@ -5085,7 +5085,7 @@ Powererp better:
 - The trigger that activate or close a contract line is run on a contract line, not on contract.
 - Method commande->set_availability(user, availability_id) removed from commande class, use method commande->availability(availability_id, notrigger).
 
-Powererp 5.0 was frozen before PHP 7.1 was released. Unit tests are successful on PHP 7.1 but we don't have enough
+PowerERP 5.0 was frozen before PHP 7.1 was released. Unit tests are successful on PHP 7.1 but we don't have enough
 feedback to confirm whole application is compatible. Current officiel supported PHP versions are PHP 5.3 to 7.0.
 
 
@@ -5248,7 +5248,7 @@ FIX: #5748 Bug: Error updating to 4.0.1 with Postgresql. Field must be varchar.
 FIX: #5750 Bug: CmailFile::server_parse enters an infinite loop if $server_response is false
 FIX: #5752 Bug VAT NPR not propagated during proposal cloning
 FIX: #5763 Bug: Cannot Create Supplier Price Request
-FIX: #5770 Powererp doesn't modify correctly the hour of a task
+FIX: #5770 PowerERP doesn't modify correctly the hour of a task
 FIX: #5776
 FIX: #5802 Incoterms not set
 FIX: #5813 Bug: Incoterms not being read correctly
@@ -5402,10 +5402,10 @@ NEW: Move Expense report menu from module to menu files.
 
 WARNING:
 
-Powererp 4.0 should be compatible with PHP 7 but more feedbacks are still expected to confirm that.
+PowerERP 4.0 should be compatible with PHP 7 but more feedbacks are still expected to confirm that.
 
 Following changes may create regression for some external modules, but were necessary to make
-Powererp better:
+PowerERP better:
 - Function log() of class CommandeFournisseur has been removed. Using it is no more required.
 - Class Resource was renamed into DolResource to avoid conflict with a reserved PHP word.
 - Method commonobject->add_thumb() has been renamed into commonobject->addThumbs().
@@ -5672,7 +5672,7 @@ NEW: A new and more modern look for "eldy" theme.
 NEW: Introduce a new theme called "Material Design".
 NEW: #3767 Allow changing multiple prices of a product at once
 NEW: Add a button to purge criteria in user list
-NEW: Add a filter field to restrict list of member when doing a LDAP list request. Use also this filter into ldap command line script making sync from ldap to powererp.
+NEW: Add a filter field to restrict list of member when doing a LDAP list request. Use also this filter into ldap command line script making sync from ldap to PowerERP.
 NEW: Add all assigned users and all extrafields data in new event when we createFromClone
 NEW: Add hidden option to use standard position address in crabe model For electronic sending solutions
 NEW: Add a refresh button on page list of direct print jobs.
@@ -5786,8 +5786,8 @@ NEW: Introduce function dolGetFirstLineOfText
 NEW: Introduce a method getDefaultCreateValueForField for developers to get a default value to use for a form in create mode. Implement it for public and private notes.
 NEW: A module can add its entries into cron module.
 NEW: Framework feature. To have a page being loaded at same scrollbar level after a click on a href link, just add the class "reposition" on this link.
-NEW: Add exemple of setup for multitail to render powererp log files
-NEW: Add restler framework. First step to build REST API into Powererp.
+NEW: Add exemple of setup for multitail to render PowerERP log files
+NEW: Add restler framework. First step to build REST API into PowerERP.
 NEW: Add css class and ids on column of detail lines to allow module to easily manipulate fields.
 NEW: Add hook in send mail
 NEW: Add hooks on list of members to allow an external module to add more fields into list view.
@@ -5804,12 +5804,12 @@ NEW: Prepare database to have agenda able to store more detailed emails events.
 
 WARNING:
 
-Powererp 3.9 is not yet fully compatible with PHP 7 even if most features seems to work.
+PowerERP 3.9 is not yet fully compatible with PHP 7 even if most features seems to work.
 
 Mysql minimum version is now 5.0.3
 
 Following changes may create regression for some external modules, but were necessary to make
-Powererp better:
+PowerERP better:
 - Deprecated Product::setPriceExpression. Use Product::update instead
 - Deprecated hidden option MAIN_USE_CUSTOM_TRANSLATION has been removed. Use table llx_overwrite_trans instead.
 - Trigger LINECONTRACT_INSERT has been renamed into LINECONTRACT_CREATE to match common denomination.
@@ -5960,7 +5960,7 @@ FIX: no database structure change is allowed into minor versions
 FIX: no transaction in this place
 FIX: Noway to validate a leave request for some uer even if they have permission for.
 FIX: Option to disable meteo was not set correctly in edit mode
-FIX: $outputlangs is not defined (powererp 3.7, 3.8, 3.9)
+FIX: $outputlangs is not defined (PowerERP 3.7, 3.8, 3.9)
 FIX: path to copyrighted files
 FIX: php unit to work both with old and new setup
 FIX: Purge of temp files was broken
@@ -6205,7 +6205,7 @@ FIX: #2983 Load gravatar avatar images securely over HTTPS
 FIX: #2987: removed dead function moneyMeter()
 FIX: #3009: Better filtering to prevent SQL injection
 FIX: #3009: Better filtering to prevent SQL injection
-FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of Powererp
+FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of PowerERP
 FIX: #3138 - Too much visible thing when access is denied on public pages
 FIX: #3173 Overlapping of shipment ref
 FIX: Adding 5 more choice link into survey module was not working with chrome
@@ -6287,7 +6287,7 @@ NEW: Add close date and user for projects.
 NEW: Add company information into  category contact export
 NEW: Add current salary on list of payment
 NEW: add date value filter on account records list
-NEW: Add exemple of setup for multitail to render powererp log files
+NEW: Add exemple of setup for multitail to render PowerERP log files
 NEW: Add filter on status on invoice list
 NEW: Add filter on task ref and task label into list of tasks
 NEW: Add filter on user contact or user task into task list
@@ -6356,7 +6356,7 @@ NEW: Show photo of logged user into login top right block. NEW: If no photo is a
 NEW: [T1758] Merge bank card & account card
 NEW: [ task 1191 ] AJAX selector for projects
 NEW: [ task #851 ] Add a new field: Commercial name
-NEW: [ task #977 ] New option to manage product unit Migrated code from GPCSolutions/powererp:3.2-units branch and adapted for 3.8 with some improvements
+NEW: [ task #977 ] New option to manage product unit Migrated code from GPCSolutions/PowerERP:3.2-units branch and adapted for 3.8 with some improvements
 NEW: The line where mouse is over can be highlight with option THEME_ELDY_USE_HOVER (on by default)
 NEW: The notification module accept keyword __SUPERVISOR__ to send notification to supervisor of user.
 NEW: Thumbs for statistics on main page are fully clicable (not only link inside the thumb)
@@ -6382,7 +6382,7 @@ NEW: Add module batch management.
 For translators:
 NEW: Update language files.
 NEW: When a translation is not available we always jump to en_US and only en_US.
-NEW: All language tranlsations (except source en_US) is now managed on https://www.transifex.com/projects/p/powererp/.
+NEW: All language tranlsations (except source en_US) is now managed on https://www.transifex.com/projects/p/PowerERP/.
 FIX: Typo errors in translation.
 
 For developers:
@@ -6390,14 +6390,14 @@ NEW: Function yn can show a visual checkbox.
 NEW: Introduced select2 jquery plugin.
 NEW: Possibility to add javascript in main login page with "getLoginPageOptions" hook.
 NEW: possibility to defined a tab for all entities in module descriptor.
-NEW: add restler framework First step to build REST API into Powererp.
+NEW: add restler framework First step to build REST API into PowerERP.
 NEW: add an explorer for REST API consultation & documentation.
 NEW: script to build API class from existing class.
 NEW: Add function dolCopyDir to copy directory with recursive content.
 NEW: Introduce function dolGetFirstLineOfText.
 
 WARNING: Following changes may create regression for some external modules, but were necessary to make
-Powererp better:
+PowerERP better:
 - Removed hook supplierorderdao into supplier order creation. This is a business event, so we must use the
   trigger ORDER_SUPPLIER_CREATE instead.
 - Hooks 'printLeftBlock' and 'formConfirm' are now compliant with hook development rules. They are
@@ -6424,7 +6424,7 @@ FIX: CVE CVE-2015-8685
 FIX: Email templates not compatible with Multicompany
 Fix: for avoid division by 0
 FIX: ISSUE #4506 : make working the PROPAL_CLONE_ON_CREATE_PAGE hidden constant
-FIX: $outputlangs is not defined (powererp 3.7, 3.8, 3.9)
+FIX: $outputlangs is not defined (PowerERP 3.7, 3.8, 3.9)
 FIX: sql injection even when code is on several lines
 FIX: The third dashboard don't consider user permissions
 
@@ -6451,7 +6451,7 @@ FIX: Use "WHERE true" instead of "WHERE 1" #4132
 FIX: #2957 : missing $langs object for trigger
 FIX: #2983 Load gravatar avatar images securely over HTTPS
 FIX: #3009: Better filtering to prevent SQL injection
-FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of Powererp
+FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of PowerERP
 FIX: #3262 Webservice getProductsForCategory()
 FIX: #3318
 FIX: [ #3460 ] Selected bank account was not saved when an error happened when trying to create a customer invoice
@@ -6473,7 +6473,7 @@ FIX: Bad visualization of suppliers name on Incomes-Expenses mode
 FIX: Better management error into the color conversion functions
 FIX: [ bug 1634 ] Error deleting a project when it had many linked objects
 FIX: [ bug 1925 ] "Link to order" option in supplier invoices is not working properly
-FIX: [ bug #2893 ] Powererp error when viewing an invoice after changing invoice mask
+FIX: [ bug #2893 ] PowerERP error when viewing an invoice after changing invoice mask
 FIX: [ bug #3211 ] Error about sold to pay (Montant encours)
 FIX: [ bug #3321 ] Users with certain permissions were shown a "forbidden access" page even if they had the rights
 FIX: [ bug #3358 ] Tasks box does not work with PostgreSQL
@@ -6568,11 +6568,11 @@ to restore old path and get back working links without having to resubmit images
 
 WARNING:
 
-Do not try to make any Powererp upgrade if you are running Mysql version 5.5.40.
+Do not try to make any PowerERP upgrade if you are running Mysql version 5.5.40.
 Mysql version 5.5.40 has a very critical bug making your data beeing definitely lost.
 You may also experience troubles with Mysql 5.5.41 with error "Lost connection" during migration.
 Upgrading to any other version or database system is abolutely required BEFORE trying to
-make a Powererp upgrade.
+make a PowerERP upgrade.
 
 ***** ChangeLog for 3.7 compared to 3.6.* *****
 For users:
@@ -6614,7 +6614,7 @@ For users:
 - New: Onto event summary of elements, end date and status are visible.
 - New: Split Agenda view (month, week, day) into different tabs.
 - New: Add a view "per user" of agenda events (with different colors according to type of event).
-- New: Each user can include its own external ics calendar into powererp agenda view.
+- New: Each user can include its own external ics calendar into PowerERP agenda view.
 - New: Add event FICHINTER_CLASSIFY_BILLED into list of possible events to
        create an automatic event into agenda.
 - New: Add new type of event (when type of events are used, not by default).
@@ -6731,16 +6731,16 @@ For developers:
 
 WARNING:
 
-Do not try to make any Powererp upgrade if you are running Mysql version 5.5.40.
+Do not try to make any PowerERP upgrade if you are running Mysql version 5.5.40.
 Mysql version 5.5.40 has a very critical bug making your data beeing definitely lost.
 You may also experience troubles with Mysql 5.5.41 with error "Lost connection" during migration.
 Upgrading to any other version or database system is abolutely required BEFORE trying to
-make a Powererp upgrade.
+make a PowerERP upgrade.
 
 WARNING:
 
 Following changes may create regression for some external modules, but was necessary to make
-Powererp better:
+PowerERP better:
 
 - Path to save photos of products was moved to match path of other attached files. If you had loose your photo
   on the photo tab of products, you can set the constant "PRODUCT_USE_OLD_PATH_FOR_PHOTO" to 1 (home - setup - other)
@@ -6786,7 +6786,7 @@ FIX: #3928 Creating a Customer order and a Customer invoice from a project, does
 FIX: bad calculation for stock value
 FIX: bad stock valo
 FIX: bad stock valorisation
-FIX: [ bug #2893 ] Powererp error when viewing an invoice after changing invoice mask
+FIX: [ bug #2893 ] PowerERP error when viewing an invoice after changing invoice mask
 FIX: button create payment hide if tax amount is less than 1
 FIX: change object statut on close shipping and remove erratic db commit
 FIX: change order date on clone (as everywhere else)
@@ -6814,7 +6814,7 @@ FIX: total amount in tpl linked object are not reset
 FIX: when multicompany was enabled, this function didn't check just on the good entity (problem when both company use same mask)
 
 ***** ChangeLog for 3.6.4 compared to 3.6.3 *****
-- Fix: [ bug #2893 ] Powererp error when viewing an invoice after changing invoice mask
+- Fix: [ bug #2893 ] PowerERP error when viewing an invoice after changing invoice mask
 
 ***** ChangeLog for 3.6.3 compared to 3.6.2 *****
 - Fix: ref_ext was not saved when recording a customer order from web service
@@ -6953,7 +6953,7 @@ For users:
 - New: Add categories translation.
 - New: Enable option "clone target emailing".
 - New: Improved tax module: Add specific page for salaries payment
-- New: Add composer.json file so Powererp can be publish onto packagist.org.
+- New: Add composer.json file so PowerERP can be publish onto packagist.org.
 - New: The combo list of juridical status is now sorted
 - New: [ task #926 ] Add extrafield feature on order lines.
 - New: [ task #927 ] Add extrafield feature on Proposal lines.
@@ -7002,7 +7002,7 @@ For developers:
 $result = $this->call_trigger($trigger_name, $user)
 
 WARNING: Following change may create regression for some external modules, but was necessary to make
-Powererp better:
+PowerERP better:
 
 - The deprecated way (with 4 parameters) to declare a new tab into a module descriptor file has been
 removed. You must now use the 6 parameters way. See file modMyModule.class.php for example.
@@ -7076,7 +7076,7 @@ Fix: Unpaid invoice launch fusion PDF action even if it is only search (with ent
 Fix: Pb when showing log list of holiday module with some mysql versions.
 Fix: Error with bad timezone pushed by some browsers.
 Fix: shipping list SQL request was not filtering on shipping element
-Fix: debian package provided by powererp team must use embedded libraries.
+Fix: debian package provided by PowerERP team must use embedded libraries.
 Fix: [ bug #1528 ] Leopard Services numeration module description is not translated.
 Fix: [ bug #1523 ] suite bug #1334 : filtre et ordre de tri conjoints ne s'appliquent pas.
 Fix: [ bug #1534 ] Unknown error when deleting a product photo under special circumstances.
@@ -7198,7 +7198,7 @@ Fix: fields into group by of sql requests for module margins must be
 Fix: When select_date is called with '' as preselected date,
      automatic user date was not correctly et (We must set a date into PHP
      server timezone area)
-Fix: First param of select_date must always be forged with a powererp
+Fix: First param of select_date must always be forged with a PowerERP
      date function and not time().
 Fix: fix can't add line with product in supplier order
 Fix: [bug #1309]
@@ -7349,7 +7349,7 @@ For developers:
 - New: DolGraph accept a parameter to cache data of graph getNbByMonthWithPrevYear.
 - New: Can enable tuning info with option MAIN_SHOW_TUNING_INFO.
 - New: Show version of client lib used by mysql drivers.
-- New: Add function to get content of an url (using all powererp setup like timeout, proxies...)
+- New: Add function to get content of an url (using all PowerERP setup like timeout, proxies...)
 - New: Upgrade lib of TCPDF to 6.0
 - New: Upgrade jquery flot library to 0.8.1
 - New: Add property "hidden" into module descriptors to allow to hide a module according to
@@ -7361,7 +7361,7 @@ For developers:
 - Qual: All nowrap properties are now using CSS class nowrap.
 - Qual: Move hard coded code of module mailmanspip into trigger.
 - New: Into POST forms, if you can add a parameter DOL_AUTOSET_COOKIE with a value that is list name,
-  separated by a coma, of other POST parameters, Powererp will automatically save this parameters
+  separated by a coma, of other POST parameters, PowerERP will automatically save this parameters
   into user cookies.
 - New: Add hook addHomeSetup.
 - New: Add trigger CATEGORY_LINK and CATEGORY_UNLINK.
@@ -7371,16 +7371,16 @@ For developers:
 - Fix also several bugs with old code.
 
 WARNING: Following change may create regression for some external modules, but was necessary to make
-Powererp better:
+PowerERP better:
 
 1) We started to clean hooks code.
-If your hook want to modify value of $actions, it's role of your hook to modify it. Powererp
+If your hook want to modify value of $actions, it's role of your hook to modify it. PowerERP
 hook code will no more decide this for your module. If your action class for hook was returning
 a string or an array, instead your module must set $actionclassinstance->results (to return array)
 or $actionclassinstance->resprints (to return string) to return same thing. The return value must
 be replaced by a "return 0";
 Goal is to fix old compatibility code that does not match hook specifications:
- http://wiki.powererp.org/index.php/Hooks_system
+ http://wiki.PowerERP.org/index.php/Hooks_system
 
 2) If you implemented hook printTopRightMenu, check that output does not include '<td>' tags any more.
 All content added must be tagged by a '<div>' with css class="login_block_elem"
@@ -7488,7 +7488,7 @@ For users:
   subscription" (foundation module).
 - New: Add link to check professional id for India.
 - New: [ task #731 ] Uniformize ref generation
-- New: [ task #748 ] Add a link "Powererp" into left menu
+- New: [ task #748 ] Add a link "PowerERP" into left menu
 - New: Script email_unpaid_invoices_to_representative accepts now a parameter "test"
   and a "late delay".
 - New: Can define different clicktodial setups for each user.
@@ -7541,7 +7541,7 @@ For developers:
 - New: dol_syslog method accept a suffix to use different log files for log.
 - New: Type of fields are received by export format handlers.
 - New: when adding an action, we can define a free code to tag it for a specific need.
-- New: Enhance Powererp migration process to include migration script of external
+- New: Enhance PowerERP migration process to include migration script of external
   modules.
 - New: [ task #811 ] Uniformanize note field.
 
@@ -7600,7 +7600,7 @@ backport commit 384e3812eb73a15adafb472cacfb93397a54459b to fix W3C/edit contrac
 - Fix: [ bug #857 ] Invoice created from shipment does not have the order discount
 - Fix: [ bug #861 ] Impossible to create a new event in agenda
 - Fix: [ bug #827 ] AJAX search does not respect multiprice level
-- Fix: [ bug #865 ] Powererp navigation array in project/task do not work
+- Fix: [ bug #865 ] PowerERP navigation array in project/task do not work
 - Fix: [ bug #866 ] Standing order from an invoice suggests invoice total amount instead of remaining to pay
 - Fix: [ bug #788 ] Date of linked interventions are not shown
 - Fix: external users should not see costprice and margin infos
@@ -7731,7 +7731,7 @@ For translators:
 - New: Added bg_BG autotranslated language.
 - New: Translate the donation receipt.
 
-Powererp license has also been updated from GPLv2+ to GPLv3+.
+PowerERP license has also been updated from GPLv2+ to GPLv3+.
 
 
 
@@ -7777,7 +7777,7 @@ Powererp license has also been updated from GPLv2+ to GPLv3+.
 - Fix: Allows to use a comma decimal separator in supplier invoices payments.
 - Fix: Translation for tr_TR, es_ES, pt_BR.
 - Fix: Products with no prices not visible.
-- Fix: Access to product card created with very old version of Powererp.
+- Fix: Access to product card created with very old version of PowerERP.
 - Fix: Delete temporary files after validating an invoice.
 - Fix: preview of supplier order and invoice template.
 - Fix: [ bug #485 ] Configurated amount for public auto-subscription form is not taken into account
@@ -7985,7 +7985,7 @@ For users:
 - New: Can filter on date and bank account when building check receipts.
 - New: task #10958 : Add link to cheque receipts into bank transaction
        line if exists
-- New: Can import external ical url into powererp agenda view.
+- New: Can import external ical url into PowerERP agenda view.
 - New: Can add a logo on third parties card.
 - New: task #11194 : Can delete uploaded photos
 - New: task #9744 : Add the barcode to select products on Point of Sale module
@@ -8042,7 +8042,7 @@ For users:
 - New: A lot of enhancements into ECM module:
        Directories can contains special characters,
        Speed enhancements,
-       Directories can be created outside of Powererp, refresh button will
+       Directories can be created outside of PowerERP, refresh button will
        update database,
        Can rename a file.
 - New: Reordering lines in invoice, orders, commercial proposal is faster (use Ajax
@@ -8138,7 +8138,7 @@ For users:
 - New: Add statistics on trips and expenses module.
 - New: Can reopen a closed customer order.
 - New: Add module externalsite to add a web site/tools inside
-       menu and a Powererp frame.
+       menu and a PowerERP frame.
 - New: Can link trips and fees to a project.
 - New: Add civility title in foundation module.
 - New: Can set accountancy code for product (buy and sell).
@@ -8170,16 +8170,16 @@ For users:
 - New: Can filter on category on third parties, products and members listings.
 - New: A flag is visible before country labels.
 - New: When activating a new module, permissions for admin user are set. This save
-       time when configuring Powererp.
-- New: Powererp 2.9 is faster than 2.8.
+       time when configuring PowerERP.
+- New: PowerERP 2.9 is faster than 2.8.
 - New: A lot of more predefined VAT values, states, regions for
        miscelaneous contries.
 - New: Enhance skin engine to make themes easier.
 - New: Add images into menu "eldy".
 - New: Auguria theme is now more modern.
-- New: Update tools refers to www.powererp.org but also www.dolistore.com web site.
+- New: Update tools refers to www.PowerERP.org but also www.dolistore.com web site.
 - New: Postgresql experimental support seems to work completely.
-- New: Changes in Powererp core to allow to use cache servers (see Memcached module on
+- New: Changes in PowerERP core to allow to use cache servers (see Memcached module on
        dolistore.com).
 - New: Default choice for interactive confirm box is yes by default, and no only for
        delete actions. This reduce number of clicks required to validate actions and
@@ -8213,7 +8213,7 @@ For developers:
 - Delete all useless pre.inc.php files (this also increase speed).
 - Fix W3C errors in page forging.
 - Qual: Mutualize code of menu managers.
-- Better isolation of modules files and powererp core files.
+- Better isolation of modules files and PowerERP core files.
 - Task #8682 : Remove functions unix_timestamp.
 - The makepack tool now make pack with UID 500.
 - More css class and div to output menu to allow more skins.
@@ -8222,13 +8222,13 @@ For developers:
 
 WARNING:
 - A lot of class files (*.class.php) has moved into subdirectories. So If you use
-  or develop non official modules that includes Powererp classes, you will have to rename
+  or develop non official modules that includes PowerERP classes, you will have to rename
   path to thoose classes into the include function.
 - Also, parameters of the "fetch()" method for class "User" has changed to reflect
   other fetch methods.
 - If you build a personalised themes, you must rename the style sheet into style.css.php.
 - This version is also the last one to support PHP 4.*, Mysql 3.1, IE6.
-  Powererp 3.* will be supported with PHP 5+ and MySql 4.1+ only.
+  PowerERP 3.* will be supported with PHP 5+ and MySql 4.1+ only.
 
 
 ***** ChangeLog for 2.8.1 compared to 2.8 *****
@@ -8329,7 +8329,7 @@ For users:
 - New: Added estimated value for stocks.
 - New: Added module Gravatar to found photo of users or members
        from their email on gravatar.com.
-- New: Include Powererp version in suggested dump filename.
+- New: Include PowerERP version in suggested dump filename.
 - New: Enhancement in project module.
 - New: Add log tab on emailing module.
 - New: Minor enhancements in look themes.
@@ -8403,7 +8403,7 @@ For developers:
 
 ***** ChangeLog for 2.6 compared to 2.5.* *****
 For users:
-- New: Add filter on status in emailing selector for Powererp users.
+- New: Add filter on status in emailing selector for PowerERP users.
 - New: Can add bookmarks on all pages.
 - New: Enhance bank transactions reporting.
 - New: When creating a contact from a third party, informations from third
@@ -8429,7 +8429,7 @@ For users:
 - New: Can create a third party from a member of foundation module.
 - New: Can set a limit for stock alert to 0.
 - New: Support SMTPS.
-- New: Added a page /support to provide a help center service on Powererp.
+- New: Added a page /support to provide a help center service on PowerERP.
 - New: Distinct status "running not expired" from "running expired" in lines
   contract status.
 - New: Add a first version of a module for Paybox.
@@ -8520,7 +8520,7 @@ For users:
 - Show greyed lines for not allowed export filters.
 - Add nature in product fields (manufactured product or not).
 - Add export filters for category module and trip and expenses module.
-- Can choose login of powererp account created when create from contact
+- Can choose login of PowerERP account created when create from contact
 
 For translators:
 - The errors language file contains only error or warning messages with
@@ -8541,7 +8541,7 @@ For developers:
 - Add more integrity check on database
 - Can disable modules on logon page. This make possible to
   have several profiles of demo with only one demo. Also added a new
-  Powererp demo front page (in htdocs/public/demo).
+  PowerERP demo front page (in htdocs/public/demo).
 - Allow modules to add new tabs.
 
 
@@ -8556,10 +8556,10 @@ For users:
 - Reduce memory usage.
 - Now triggers are enabled/disabled according to module they refers to.
 - Fix infinite loop on popup calendar.
-- Change in tanslation to make Powererp easier to understand.
+- Change in tanslation to make PowerERP easier to understand.
 - Add a warning when sending a mail from a user with no email defined.
 - Added clicktodial module.
-- Add a property private/public in contact. This allows to user Powererp
+- Add a property private/public in contact. This allows to user PowerERP
   for a personnal address book.
 - French NAF code can accept 5 chars.
 - Supplier prices can be input with or without taxe.
@@ -8594,7 +8594,7 @@ For developers:
 - Update code skeletons examples.
 - Several enhancements to make addon development easier.
 - Add a tool to generate PHP classes completely mapped to a table.
-- Added a check to enable external modules only if powererp version is
+- Added a check to enable external modules only if PowerERP version is
   high enough.
 - Changes in wizard installer to allow building autoexe installer for
   Windows with Apache and Mysql included.
@@ -8616,7 +8616,7 @@ For developers:
   to jump several versions to upgrade.
 - Support for webcalendar 1.1 in webcalendar module.
 - Support for menu in database.
-- Better support for using Powererp on more WHP.
+- Better support for using PowerERP on more WHP.
 - Removed some deprecated files and clean code.
 - New theme: Auguria
 - Removed PHP warnings.
@@ -8638,9 +8638,9 @@ For developers:
 - Support user and groups permissions.
 - Translation in english and support for several languages.
 - New enhanced look and several new themes.
-- Small search boxes for each Powererp elements (invoices, contracts,
+- Small search boxes for each PowerERP elements (invoices, contracts,
   orders, proposals...)
-- Added an export assistant module to export main powererp data.
+- Added an export assistant module to export main PowerERP data.
 - Added backup tool to backup database via mysqldump.
 - Added product categories management with a categorie tree.
 - Management of companies' discounts (relative or absolute).
@@ -8652,7 +8652,7 @@ For developers:
   to elements of its companies only).
 - Little enhancements to OSCommerce module.
 - Added a second OSCommerce module working through web services.
-- Added a Mantis module to have a Mantis application in Powererp menu.
+- Added a Mantis module to have a Mantis application in PowerERP menu.
 - Building a PDF document for invoices works like other modules. You
   can change model just before generating the PDF.
 - Can generate documents (PDF) for customer orders. Can send them by mail.
@@ -8661,9 +8661,9 @@ For developers:
 - Rule to suggests passwords when creating a user are in modules
   allowing to add easily other rules.
 - Option to encrypt passwords in database (MD5).
-- Add Powererp triggers support on users creation/change.
-- Add Powererp triggers support on payments.
-- Add Powererp triggers on supplier and customers orders.
+- Add PowerERP triggers support on users creation/change.
+- Add PowerERP triggers support on payments.
+- Add PowerERP triggers on supplier and customers orders.
 - Webcalendar triggers for actions on Member module.
 - Support optional new javascript popup selector for date fields.
 - Support for several RSS boxes in external RSS module. Setup easier.
@@ -8703,5 +8703,5 @@ Minor bug fixes
 
 
 ***** ChangeLog for 2.0 compared to 1.0.* *****
-ChangeLog file size is so important, that it is not included inside Powererp
-package. You can find it at www.powererp.org
+ChangeLog file size is so important, that it is not included inside PowerERP
+package. You can find it at www.PowerERP.org

@@ -22,7 +22,7 @@
  * \brief   About page of module Partnership.
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';

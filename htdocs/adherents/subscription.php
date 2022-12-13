@@ -400,7 +400,7 @@ if ($user->rights->adherent->cotisation->creer && $action == 'subscription' && !
 						$listofmimes = array(dol_mimetype($file));
 					}
 
-					$moreinheader = 'X-Powererp-Info: send_an_email by adherents/subscription.php'."\r\n";
+					$moreinheader = 'X-PowerERP-Info: send_an_email by adherents/subscription.php'."\r\n";
 
 					$result = $object->send_an_email($texttosend, $subjecttosend, $listofpaths, $listofmimes, $listofnames, "", "", 0, -1, '', $moreinheader);
 					if ($result < 0) {
@@ -586,7 +586,7 @@ if ($rowid > 0) {
 	$cols = 2;
 	include DOL_DOCUMENT_ROOT.'/core/tpl/extrafields_view.tpl.php';
 
-	// Third party Powererp
+	// Third party PowerERP
 	if (!empty($conf->societe->enabled)) {
 		print '<tr><td>';
 		print '<table class="nobordernopadding" width="100%"><tr><td>';
@@ -629,7 +629,7 @@ if ($rowid > 0) {
 		print '</td></tr>';
 	}
 
-	// Login Powererp - Link to user
+	// Login PowerERP - Link to user
 	print '<tr><td>';
 	print '<table class="nobordernopadding" width="100%"><tr><td>';
 	print $langs->trans("LinkedToPowererpUser");

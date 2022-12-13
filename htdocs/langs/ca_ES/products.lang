@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Ref. producte
 ProductLabel=Etiqueta producte
 ProductLabelTranslated=Etiqueta de producte traduïda
@@ -299,7 +299,7 @@ MinSupplierPrice=Preu mínim de compra
 MinCustomerPrice=Preu mínim de venda
 NoDynamicPrice=Sense preu dinàmic
 DynamicPriceConfiguration=Configuració de preu dinàmic
-DynamicPriceDesc=Podeu definir fórmules matemàtiques per a calcular els preus del client o del proveïdor. Aquestes fórmules poden utilitzar tots els operadors matemàtics, algunes constants i variables. Aquí podeu definir les variables que voleu utilitzar. Si la variable necessita una actualització automàtica, podeu definir l'URL extern per a permetre que Powererp actualitzi el valor automàticament.
+DynamicPriceDesc=Podeu definir fórmules matemàtiques per a calcular els preus del client o del proveïdor. Aquestes fórmules poden utilitzar tots els operadors matemàtics, algunes constants i variables. Aquí podeu definir les variables que voleu utilitzar. Si la variable necessita una actualització automàtica, podeu definir l'URL extern per a permetre que PowerERP actualitzi el valor automàticament.
 AddVariable=Afegeix variable
 AddUpdater=Afegeix actualitzador
 GlobalVariables=Variables globals
@@ -378,7 +378,7 @@ NewProductAttribute=Atribut nou
 NewProductAttributeValue=Valor d'atribut nou
 ErrorCreatingProductAttributeValue=S'ha produït un error en crear el valor de l'atribut. Podria ser perquè ja hi ha un valor existent amb aquesta referència
 ProductCombinationGeneratorWarning=Si continua, abans de generar noves variants, totes les anteriors seran ELIMINADES. Les ja existents s'actualitzaran amb els nous valors
-TooMuchCombinationsWarning=La generació de moltes variants pot provocar un elevat consum de la CPU i ús de memòria i Powererp no les podrà crear. Habilitant l'opció "%s" pot ajudar a reduir l'ús de memòria.
+TooMuchCombinationsWarning=La generació de moltes variants pot provocar un elevat consum de la CPU i ús de memòria i PowerERP no les podrà crear. Habilitant l'opció "%s" pot ajudar a reduir l'ús de memòria.
 DoNotRemovePreviousCombinations=No elimineu les variants anteriors
 UsePercentageVariations=Utilitzar variants percentuals
 PercentageVariation=Variant percentual

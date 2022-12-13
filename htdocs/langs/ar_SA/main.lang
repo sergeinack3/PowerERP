@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=rtl
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=لا يوجد طلب عن طريق الخطأ
 ErrorServiceUnavailableTryLater=الخدمة غير متوفرة في الوقت الحالي. حاول مرة أخرى في وقت لاحق.
 ErrorDuplicateField=قيمة مكررة في حقل فريد
 ErrorSomeErrorWereFoundRollbackIsDone=تم العثور على بعض الأخطاء. تم التراجع عن التغييرات.
-ErrorConfigParameterNotDefined=لم يتم تعريف المعامل <b> %s </b> في ملف تكوين <b>Powererp </b> conf.php .
-ErrorCantLoadUserFromPowererpDatabase=فشل العثور على المستخدم <b> %s </b> في قاعدة بيانات Powererp.
+ErrorConfigParameterNotDefined=لم يتم تعريف المعامل <b> %s </b> في ملف تكوين <b>PowerERP </b> conf.php .
+ErrorCantLoadUserFromPowererpDatabase=فشل العثور على المستخدم <b> %s </b> في قاعدة بيانات PowerERP.
 ErrorNoVATRateDefinedForSellerCountry=خطأ ، لم يتم تحديد معدلات ضريبة القيمة المضافة للبلد "%s".
 ErrorNoSocialContributionForSellerCountry=خطأ ، لم يتم تحديد نوع الضرائب الاجتماعية | المالية للبلد "%s".
 ErrorFailedToSaveFile=خطأ، فشل في حفظ الملف.
@@ -95,7 +95,7 @@ RecordDeleted=سجل محذوف
 RecordGenerated=تم إنشاء سجل
 LevelOfFeature=مستوى الميزات
 NotDefined=غير معرف
-PowererpInHttpAuthenticationSoPasswordUseless=تم ضبط وضع مصادقة Powererp على <b> %s </b> في ملف التكوين <b> conf.php </b>. <br> هذا يعني أن قاعدة بيانات كلمة المرور خارجية لـ Powererp ، لذلك قد لا يكون لتغيير هذا الحقل أي تأثير.
+PowererpInHttpAuthenticationSoPasswordUseless=تم ضبط وضع مصادقة PowerERP على <b> %s </b> في ملف التكوين <b> conf.php </b>. <br> هذا يعني أن قاعدة بيانات كلمة المرور خارجية لـ PowerERP ، لذلك قد لا يكون لتغيير هذا الحقل أي تأثير.
 Administrator=مدير
 Undefined=غير محدد
 PasswordForgotten=هل نسيت كلمة المرور؟
@@ -113,7 +113,7 @@ DatabaseTypeManager=مدير نوع قاعدة البيانات
 RequestLastAccessInError=أحدث خطأ في طلب الوصول إلى قاعدة البيانات
 ReturnCodeLastAccessInError=إرجاع الكود لأحدث خطأ في طلب الوصول إلى قاعدة البيانات
 InformationLastAccessInError=معلومات عن خطأ طلب الوصول إلى قاعدة البيانات الأخيرة
-PowererpHasDetectedError=Powererp اكتشف خطأ تقني
+PowererpHasDetectedError=PowerERP اكتشف خطأ تقني
 YouCanSetOptionPowererpMainProdToZero=يمكنك قراءة ملف السجل أو تعيين الخيار $ powererp_main_prod إلى "0" في (config file) للحصول على مزيد من المعلومات.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=المزيد من المعلومات
@@ -122,7 +122,7 @@ TechnicalID=ID الفني
 LineID=معرف البند
 NotePublic=ملاحظة (عامة)
 NotePrivate=ملاحظة (خاصة)
-PrecisionUnitIsLimitedToXDecimals=تم إعداد Powererp للحد من دقة أسعار الوحدات إلى <b> %s </b> العشرية.
+PrecisionUnitIsLimitedToXDecimals=تم إعداد PowerERP للحد من دقة أسعار الوحدات إلى <b> %s </b> العشرية.
 DoTest=اختبار
 ToFilter=فلتر
 NoFilter=بدون فلتر
@@ -733,7 +733,7 @@ MenuMembers=أعضاء
 MenuAgendaGoogle=أجندة غوغل
 MenuTaxesAndSpecialExpenses=الضرائب | مصاريف خاصة
 ThisLimitIsDefinedInSetup=حدود دوليبار (Menu home-setup-security): %s كيلوبايت ، حد PHP: %s كيلوبايت
-ThisLimitIsDefinedInSetupAt=Powererp limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
 NoFileFound=لم يتم رفع مستند
 CurrentUserLanguage=اللغة الحالية
 CurrentTheme=الواجهة الحالية
@@ -909,7 +909,7 @@ ViewFlatList=عرض قائمة مسطحة
 ViewAccountList=عرض دفتر الأستاذ
 ViewSubAccountList=عرض دفتر الأستاذ الفرعي
 RemoveString=Remove string '%s'
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=رابط التحميل العام
 PublicDownloadLinkDesc=فقط مطلوب الرابط لتنزيل الملف
 DirectDownloadInternalLink=رابط التحميل الخاص

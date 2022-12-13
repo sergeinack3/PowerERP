@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - workflow
+# PowerERP language file - Source file is en_US - workflow
 WorkflowSetup=Nastavení workflow modulu
 WorkflowDesc=Tento modul poskytuje několik automatických akcí. Ve výchozím nastavení je pracovní postup otevřený (můžete dělat věci v pořadí, které chcete), ale zde můžete aktivovat některé automatické akce.
 ThereIsNoWorkflowToModify=Workflow zde není nastaven, můžete upravit modul pokud ho chcete aktivovat.

@@ -1114,7 +1114,7 @@ if (empty($reshook)) {
 			}
 		}
 
-		// if VAT is not used in Powererp, set VAT rate to 0 because VAT rate is necessary.
+		// if VAT is not used in PowerERP, set VAT rate to 0 because VAT rate is necessary.
 		if (empty($vatrate)) {
 			$vatrate = "0.000";
 		}
@@ -1278,7 +1278,7 @@ if (empty($reshook)) {
 		$qty = price2num(GETPOST('qty', 'alpha'));
 		$vatrate = GETPOST('vatrate', 'alpha');
 
-		// if VAT is not used in Powererp, set VAT rate to 0 because VAT rate is necessary.
+		// if VAT is not used in PowerERP, set VAT rate to 0 because VAT rate is necessary.
 		if (empty($vatrate)) {
 			$vatrate = "0.000";
 		}

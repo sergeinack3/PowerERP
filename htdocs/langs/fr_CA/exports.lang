@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ImportableDatas=Ensemble de données Importable
 SelectExportDataSet=Choisissez l'ensemble de données que vous souhaitez exporter ...
 SelectImportDataSet=Choisissez l'ensemble de données que vous souhaitez importer ...
@@ -23,7 +23,7 @@ LineTotalVAT=Montant de la TVA pour ligne
 TypeOfLineServiceOrProduct=Type de ligne (0 = produit, 1 = service)
 FileWithDataToImport=Fichier avec données à importer
 SourceFileFormat=Format de fichier source
-FieldsInTargetDatabase=Champs cibles dans la base de données Powererp (gras = obligatoire)
+FieldsInTargetDatabase=Champs cibles dans la base de données PowerERP (gras = obligatoire)
 NoFields=Pas de champs
 MoveField=Déplacer le numéro de colonne du champ %s
 SaveImportProfile=Enregistrer ce profil d'importation

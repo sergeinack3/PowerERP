@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - accountancy
+# PowerERP language file - Source file is en_US - accountancy
 Accountancy=Rechnungswesen
 ACCOUNTING_EXPORT_DATE=Datumsformat für Exportdatei
 ACCOUNTING_EXPORT_PIECE=Exportiere die Anzahl Teile
@@ -65,7 +65,7 @@ AccountancyAreaDescMisc=Schritt %s: Erzeuge Standard Buchhaltungskonten für son
 AccountancyAreaDescLoan=Schritt %s: Erzeuge Buchaltungskonten für Darlehen im Menu %s.
 AccountancyAreaDescBank=Schritt %s: Erzeuge und Verwalte deine Bank- und Finanzkonten im Menu %s und weise entsprechende Journale zu.
 AccountancyAreaDescProd=Schritt %s: Weise im Menu %s deinen Produkten und Leistungen entsprechende Buchhaltungskonten zu.
-AccountancyAreaDescBind=Schritt %s: Prüfe die Verknüpfungen von %s mit passenden Buchhaltungskonten, damit Powererp Sie automatisch im Hauptbuch journalisieren kann. Wenn nötig, füge die Verknüpfungen im Menu %s manuell hinzu.
+AccountancyAreaDescBind=Schritt %s: Prüfe die Verknüpfungen von %s mit passenden Buchhaltungskonten, damit PowerERP Sie automatisch im Hauptbuch journalisieren kann. Wenn nötig, füge die Verknüpfungen im Menu %s manuell hinzu.
 AccountancyAreaDescWriteRecords=Schritt %s: Lass alle Transaktionen ins Hauptbuch übertragen. Wechsle dazu in das Menu <strong>%s</strong>, und Klicke auf <strong>%s</strong>.
 AccountancyAreaDescAnalyze=Schritt %s: Erzeuge oder ergänze Transaktionen für Berichte und Exporte.
 AccountancyAreaDescClosePeriod=Schritt %s: Schliesse eine Geschäftsperiode ab, damit Sie nicht mehr abgeändert werden kann.

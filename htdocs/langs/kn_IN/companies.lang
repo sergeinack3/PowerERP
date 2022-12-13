@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=ಸಂಸ್ಥೆ ಹೆಸರು %s ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ಮತ್ತೊಂದನ್ನು ಆಯ್ದುಕೊಳ್ಳಿರಿ.
 ErrorSetACountryFirst=ಮೊದಲು ದೇಶವನ್ನು ಹೊಂದಿಸಿ.
 SelectThirdParty=ಮೂರನೇ ವ್ಯಕ್ತಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿರಿ.
@@ -378,7 +378,7 @@ CapitalOf=%s ಕ್ಯಾಪಿಟಲ್
 EditCompany=ಸಂಸ್ಥೆಯನ್ನು ತಿದ್ದಿ
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=ಪರಿಶೀಲಿಸಿ
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Powererp server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the PowerERP server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>

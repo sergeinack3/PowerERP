@@ -37,10 +37,10 @@
 
 // Change this following line to use the correct relative path (../, ../../, etc)
 $res=0;
-if (! $res && file_exists("../main.inc.php")) $res=@include '../main.inc.php';					// to work if your module directory is into powererp root htdocs directory
+if (! $res && file_exists("../main.inc.php")) $res=@include '../main.inc.php';					// to work if your module directory is into PowerERP root htdocs directory
 if (! $res && file_exists("../../main.inc.php")) $res=@include '../../main.inc.php';			// to work if your module directory is into a subdir of root htdocs directory
-if (! $res && file_exists("../../../powererp/htdocs/main.inc.php")) $res=@include '../../../powererp/htdocs/main.inc.php';     // Used on dev env only
-if (! $res && file_exists("../../../../powererp/htdocs/main.inc.php")) $res=@include '../../../../powererp/htdocs/main.inc.php';   // Used on dev env only
+if (! $res && file_exists("../../../PowerERP/htdocs/main.inc.php")) $res=@include '../../../PowerERP/htdocs/main.inc.php';     // Used on dev env only
+if (! $res && file_exists("../../../../PowerERP/htdocs/main.inc.php")) $res=@include '../../../../PowerERP/htdocs/main.inc.php';   // Used on dev env only
 if (! $res) die("Include of main fails");
 // Change this following line to use the correct relative path from htdocs
 include_once(DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php');

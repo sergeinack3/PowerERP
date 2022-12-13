@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=오류 요청이 없음
 ErrorServiceUnavailableTryLater=Service not available at the moment. Try again later.
 ErrorDuplicateField=고유한 필드에 중복된 값
 ErrorSomeErrorWereFoundRollbackIsDone=Some errors were found. Changes have been rolled back.
-ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the Powererp config file <b>conf.php</b>.
-ErrorCantLoadUserFromPowererpDatabase=Powererp 데이타베이스에서 <b>%s</b>유저를 찾을 수 없습니다.
+ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the PowerERP config file <b>conf.php</b>.
+ErrorCantLoadUserFromPowererpDatabase=PowerERP 데이타베이스에서 <b>%s</b>유저를 찾을 수 없습니다.
 ErrorNoVATRateDefinedForSellerCountry=오류, '%s' 국가의 부가세율이 정의되지 않았습니다.
 ErrorNoSocialContributionForSellerCountry=오류, 국가 '%s'에 대해 정의 된 사회 / 재정 세금 유형이 없습니다.
 ErrorFailedToSaveFile=오류, 파일을 저장할 수 없습니다.
@@ -95,7 +95,7 @@ RecordDeleted=삭제 레코드
 RecordGenerated=Record generated
 LevelOfFeature=기능 수준
 NotDefined=지정하지 않음
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp 인증 모드는 <b>conf.php</b>구성파일에 <b>%s</b> 로 설정됩니다 .<br>즉, 비밀번호 데이터베이스가 Powererp 외부에 있으므로이 필드를 변경해도 아무런 효과가 없을 수 있습니다 .
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP 인증 모드는 <b>conf.php</b>구성파일에 <b>%s</b> 로 설정됩니다 .<br>즉, 비밀번호 데이터베이스가 PowerERP 외부에 있으므로이 필드를 변경해도 아무런 효과가 없을 수 있습니다 .
 Administrator=관리자
 Undefined=정의되지 않음
 PasswordForgotten=암호를 잊어 버리셨습니까?
@@ -733,7 +733,7 @@ MenuMembers=회원
 MenuAgendaGoogle=구글 의제
 MenuTaxesAndSpecialExpenses=Taxes | Special expenses
 ThisLimitIsDefinedInSetup=Powererp한계 (메뉴 홈-설정-보안): %s Kb, PHP 한계: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
 NoFileFound=No documents uploaded
 CurrentUserLanguage=현재 언어
 CurrentTheme=현재 테마
@@ -909,7 +909,7 @@ ViewFlatList=평면 목록보기
 ViewAccountList=View ledger
 ViewSubAccountList=View subaccount ledger
 RemoveString='%s'문자열을 제거하십시오.
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Public download link
 PublicDownloadLinkDesc=Only the link is required to download the file
 DirectDownloadInternalLink=Private download link

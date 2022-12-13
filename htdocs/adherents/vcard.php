@@ -83,7 +83,7 @@ if ($object->socid) {
 
 // We create VCard
 $v = new vCard();
-$v->setProdId('Powererp '.DOL_VERSION);
+$v->setProdId('PowerERP '.DOL_VERSION);
 
 $v->setUid('DOLIBARR-ADHERENTID-'.$object->id);
 $v->setName($object->lastname, $object->firstname, "", $object->civility, "");

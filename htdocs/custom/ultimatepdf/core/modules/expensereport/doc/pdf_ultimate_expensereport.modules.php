@@ -1,6 +1,6 @@
 <?php
 /* Copyright (C) 2015 Laurent Destailleur    <eldy@users.sourceforge.net>
- * Copyright (C) 2015 Alexandre Spangaro     <aspangaro.powererp@gmail.com>
+ * Copyright (C) 2015 Alexandre Spangaro     <aspangaro.PowerERP@gmail.com>
  * Copyright (C) 2017-2020 Philippe Grand	 <philippe.grand@atoo-net.com>
  *
  * This program is free software; you can redistribute it and/or modify
@@ -66,10 +66,10 @@ class pdf_ultimate_expensereport extends ModeleExpenseReport
 	public $phpmin = array(5, 5); 
 	
 	/**
-     * Powererp version of the loaded document
+     * PowerERP version of the loaded document
      * @public string
      */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
     /**
      * @var int page_largeur
@@ -336,7 +336,7 @@ class pdf_ultimate_expensereport extends ModeleExpenseReport
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref_number));
 				$pdf->SetSubject($outputlangs->transnoentities("Trips"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("Trips"));
 				if (! empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) $pdf->SetCompression(false);

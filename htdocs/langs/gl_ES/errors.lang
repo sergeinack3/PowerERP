@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Sen erro,  é válido
@@ -48,10 +48,10 @@ ErrorBadDateFormat=O valor '%s' ten un formato de data erroneo
 ErrorWrongDate=A data non correcta!
 ErrorFailedToWriteInDir=Erro ao escribir no directorio %s
 ErrorFoundBadEmailInFile=Atopouse unha sintaxe de correo electrónico incorrecta para  %s liñas no ficheiro (exemplo liña %s con correo electrónico=%s)
-ErrorUserCannotBeDelete=Non pode eliminarse o usuario. É posible que esté asociado a entidades do Powererp
+ErrorUserCannotBeDelete=Non pode eliminarse o usuario. É posible que esté asociado a entidades do PowerERP
 ErrorFieldsRequired=Algúns campos obrigatorios están baleiros
 ErrorSubjectIsRequired=O asunto do correo electrónico é obrigatorio
-ErrorFailedToCreateDir=Fallou a creación dun directorio. Comprobe que o usuario do servidor web ten permisos para escribir no directorio de documentos Powererp. Se o parámetro <b>safe_mode</b> está activado neste PHP, comprobe que os ficheiros php Powererp son propiedade do usuario (ou grupo) do servidor web.
+ErrorFailedToCreateDir=Fallou a creación dun directorio. Comprobe que o usuario do servidor web ten permisos para escribir no directorio de documentos PowerERP. Se o parámetro <b>safe_mode</b> está activado neste PHP, comprobe que os ficheiros php PowerERP son propiedade do usuario (ou grupo) do servidor web.
 ErrorNoMailDefinedForThisUser=Non existe enderezo de correo electrónico asignado a este usuario
 ErrorSetupOfEmailsNotComplete=A configuración do correo electrónico non está rematada
 ErrorFeatureNeedJavascript=Esta característica precisa que javascript estexa activado para funcionar. Cambie isto na configuración-visualización.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=O campo <b>%s</b> non debe cont
 ErrorFieldMustHaveXChar=O campo <b>%s</b> debe ter polo menos %s caracteres.
 ErrorNoAccountancyModuleLoaded=Non hai ningún módulo de contabilidade activado
 ErrorExportDuplicateProfil=Este nome de perfil xa existe para este conxunto de exportacións.
-ErrorLDAPSetupNotComplete=A concordancia Powererp-LDAP non está completada.
+ErrorLDAPSetupNotComplete=A concordancia PowerERP-LDAP non está completada.
 ErrorLDAPMakeManualTest=Xerouse un ficheiro .ldif no directorio %s. Tente cargalo manualmente desde a liña de comandos para ter máis información sobre erros.
 ErrorCantSaveADoneUserWithZeroPercentage=Non se pode gardar unha acción con "estado non iniciado" se o campo "feito por" tamén está cuberto.
 ErrorRefAlreadyExists=A referencia <b>%s</b> xa existe
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s está asignado a outro terceiro
 ErrorFailedToSendPassword=Erro ao enviar o contrasinal
 ErrorFailedToLoadRSSFile=Non alcanza a fonte RSS. Tente engadir a constante MAIN_SIMPLEXMLLOAD_DEBUG se as mensaxes de erro non proporcionan información suficiente.
 ErrorForbidden=Acceso denegado.<br> Intenta acceder a unha páxina, área ou función dun módulo desactivado ou sen estar nunha sesión autenticada ou que non está permitida ao seu usuario.
-ErrorForbidden2=O seu administrador Powererp pode definir o permiso para este inicio de sesión no menú %s->%s.
-ErrorForbidden3=Parece que Powererp non se usa a través dunha sesión autenticada. Bote unha ollada á documentación de configuración de Powererp para saber como xestionar as autenticacións (htaccess, mod_auth ou outro ...).
+ErrorForbidden2=O seu administrador PowerERP pode definir o permiso para este inicio de sesión no menú %s->%s.
+ErrorForbidden3=Parece que PowerERP non se usa a través dunha sesión autenticada. Bote unha ollada á documentación de configuración de PowerERP para saber como xestionar as autenticacións (htaccess, mod_auth ou outro ...).
 ErrorForbidden4=Nota: borre as cookies do seu navegador para destruír as sesións existentes neste inicio de sesión. 
 ErrorNoImagickReadimage=A clase Imagick non se atopa neste PHP. Non pode estar dispoñible ningunha vista previa. Os administradores poden desactivar esta pestana no menú Configuración-Amosar
 ErrorRecordAlreadyExists=Rexistro xa existente
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=A conta de usuario <b>%s </b>usada para execu
 ErrorNoActivatedBarcode=Non hai ningún tipo de código de barras activado
 ErrUnzipFails=Fallou ao descomprimir %s con ZipArchive
 ErrNoZipEngine=Non hai motor neste PHP para comprimir/descomprimir o ficheiro %s
-ErrorFileMustBeAPowererpPackage=O ficheiro %s debe ser un paquete zip Powererp
-ErrorModuleFileRequired=Debe seleccionar un ficheiro de paquete do módulo Powererp
+ErrorFileMustBeAPowererpPackage=O ficheiro %s debe ser un paquete zip PowerERP
+ErrorModuleFileRequired=Debe seleccionar un ficheiro de paquete do módulo PowerERP
 ErrorPhpCurlNotInstalled=O PHP CURL non está instalado, isto é esencial para comunicarse con Paypal
 ErrorFailedToAddToMailmanList=Erro ao engadir o rexistro %s á listaxe de Mailman %s ou á base de SPIP
 ErrorFailedToRemoveToMailmanList=Erro ao eliminar o rexistro %s da listaxe de Mailman %s ou a base de SPIP
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=A data debe ser inferior á de hoxe
 ErrorDateMustBeInFuture=A data debe ser maior que a de hoxe
 ErrorPaymentModeDefinedToWithoutSetup=Estableceuse un modo de pago para escribir %s pero a configuración da factura do módulo non se completou para definir a información que se amosará para este modo de pago.
 ErrorPHPNeedModule=Erro, o seu PHP debe ter instalado o módulo <b>%s</b> para usar esta funcionalidade.
-ErrorOpenIDSetupNotComplete=Estableceu a configuración do ficheiro Powererp para permitir a autenticación OpenID, pero a URL do servizo OpenID non está definida na constante %s
+ErrorOpenIDSetupNotComplete=Estableceu a configuración do ficheiro PowerERP para permitir a autenticación OpenID, pero a URL do servizo OpenID non está definida na constante %s
 ErrorWarehouseMustDiffers=O almacén de orixe e destino deben de ser diferentes
 ErrorBadFormat=O formato contén erros!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Erro, este membro aínda non está ligado a ningún terceiro. Ligue o membro a un terceiro existente ou cree un novo terceiro antes de crear a subscrición con factura.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Erro, a solicitude é longa de mais
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=O seu parámetro PHP upload_max_filesize (%s) é superior ao parámetro PHP post_max_size (%s). Esta non é unha configuración consistente.
-WarningPasswordSetWithNoAccount=Estableceuse un contrasinal para este membro. En calquera caso, non se creou ningunha conta de usuario. Polo tanto, este contrasinal está almacenado pero non se pode usar para iniciar sesión en Powererp. Pode ser usado por un módulo/interface externo, pero se non precisa definir ningún login ou contrasinal para un membro, pode desactivar a opción "Xestionar un inicio de sesión para cada membro" desde a configuración do módulo Membros. Se precisa xestionar un inicio de sesión pero non precisa ningún contrasinal, pode manter este campo baleiro para evitar este aviso. Nota: o correo electrónico tamén pode ser usado como inicio de sesión se o membro está ligado a un usuario.
+WarningPasswordSetWithNoAccount=Estableceuse un contrasinal para este membro. En calquera caso, non se creou ningunha conta de usuario. Polo tanto, este contrasinal está almacenado pero non se pode usar para iniciar sesión en PowerERP. Pode ser usado por un módulo/interface externo, pero se non precisa definir ningún login ou contrasinal para un membro, pode desactivar a opción "Xestionar un inicio de sesión para cada membro" desde a configuración do módulo Membros. Se precisa xestionar un inicio de sesión pero non precisa ningún contrasinal, pode manter este campo baleiro para evitar este aviso. Nota: o correo electrónico tamén pode ser usado como inicio de sesión se o membro está ligado a un usuario.
 WarningMandatorySetupNotComplete=Faga clic aquí para configurar os parámetros obrigatorios
 WarningEnableYourModulesApplications=Faga clic aquí para habilitar os seus módulos e aplicacións
 WarningSafeModeOnCheckExecDir=Aviso, a opción PHP <b>safe_mode</b> está activada polo que o comando debe almacenarse dentro dun directorio declarado polo parámetro php <b>safe_mode_exec_dir</b>.

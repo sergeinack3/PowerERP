@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ExportsArea=Секция с експортирания
 ImportArea=Секция с импортирания
 NewExport=Ново експортиране
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Изберете формата на файла, ко
 ChooseFileToImport=Прикачете файл, след това кликнете върху иконата %s, за да изберете файла като източник при импортиране...
 SourceFileFormat=Формат на входния файл
 FieldsInSourceFile=Полета във входния файл
-FieldsInTargetDatabase=Целеви полета в базата данни на Powererp (удебелен шрифт = задължително)
+FieldsInTargetDatabase=Целеви полета в базата данни на PowerERP (удебелен шрифт = задължително)
 Field=Поле
 NoFields=Няма полета
 MoveField=Преместете номер на колоната на полето %s

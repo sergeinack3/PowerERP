@@ -3,7 +3,7 @@ README (English)
 DEB Package tools
 ##################################################
 
-This directory contains files used by makepack-powererp.pl
+This directory contains files used by makepack-PowerERP.pl
 script to build a package, ready to be distributed,
 with format .DEB (for Debian, Ubuntu, ...).
 
@@ -102,7 +102,7 @@ export QUILT_PATCHES=debian/patches
 See page https://www.debian.org/devel/wnpp/#l1 for example of ITP requests contents.
 
 - Wait until you received bug number.
-  For first ITP submission of Powererp, bug id was 634783.
+  For first ITP submission of PowerERP, bug id was 634783.
 
 - Check bug is into database by searching with id on 
   https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=634783
@@ -186,15 +186,15 @@ To test a package
 > cp ../build-area/* /srv/chroot/unstable/tmp
 > sudo schroot -c name_of_chroot
 > cd /tmp
-> lintian --no-tag-display-limit --pedantic -E -I powererp*.deb
-> lintian --no-tag-display-limit --pedantic -E -I powererp*.dsc
-> dpkg -i powererp*.deb  ou   pour avoir des traces: dpkg -D77777 -i powererp*.deb
+> lintian --no-tag-display-limit --pedantic -E -I PowerERP*.deb
+> lintian --no-tag-display-limit --pedantic -E -I PowerERP*.dsc
+> dpkg -i PowerERP*.deb  ou   pour avoir des traces: dpkg -D77777 -i PowerERP*.deb
 > apt-get install -f
 
 If there is a problem launching apache, because port is already used, change it into your chroot install with
 > vi /etc/apache2/ports.conf
 Then restart.
-Then you can call/test powererp with http://localhost:port/powererp/ . It can be also called FROM HOST (port must be a not used port on host).
+Then you can call/test PowerERP with http://localhost:port/PowerERP/ . It can be also called FROM HOST (port must be a not used port on host).
 
 
 
@@ -277,17 +277,17 @@ http://packages.qa.debian.org/t/tcpdf.html
 * Package will be into release when test will be moved as stable.
 
 
-##### Create/Maintain powererp package
+##### Create/Maintain PowerERP package
 
-To update powererp debian package when upstream (official version of external project) has changed:
+To update PowerERP debian package when upstream (official version of external project) has changed:
 
 * You can git clone debian git repo
-> git clone git.debian.org:/git/collab-maint/powererp.git [powererp-debian]
+> git clone git.debian.org:/git/collab-maint/PowerERP.git [PowerERP-debian]
 or better
 > cd ~; mkdir git-debian; cd git-debian
-> gbp-clone git.debian.org:/git/collab-maint/powererp.git
+> gbp-clone git.debian.org:/git/collab-maint/PowerERP.git
 
-* You can then create a PHP project from Eclipse called powererp-debian
+* You can then create a PHP project from Eclipse called PowerERP-debian
 from git clone dir and make link to git.
 
 * If local branch upstream and pristine-tar does not exists, create it
@@ -312,11 +312,11 @@ If script fails with error Bad certificate, you can set "export PERL_LWP_SSL_VER
 - htdocs/includes/swiftmailer
 - htdocs/includes/tcpdf or htdocs/includes/tecnickcom
 And rename file into 
-powererp-x.y.z+dfsgw.tgz
+PowerERP-x.y.z+dfsgw.tgz
 (x.y.z = version, w start from 1 and is increased for each new git-import-orig already done)
 
 * Staying into projet gitted root directory, run
-> git-import-orig -vv ../powererp-x.y.z+dfsgw.tgz --debian-branch=[master|jessie] --upstream-branch=[upstream|upstream-3.5.x]
+> git-import-orig -vv ../PowerERP-x.y.z+dfsgw.tgz --debian-branch=[master|jessie] --upstream-branch=[upstream|upstream-3.5.x]
 and enter version when requested with format
 x.y.z+dfsgw
 (x.y.z = version, w start from 1 and is increased for each new import)
@@ -333,7 +333,7 @@ Then check/modify also the user/date signature:
 - Name and email must match value into debian/control file (Entry added here is used by next step).
 
 
-To update powererp debian package when only files into debian has changed:
+To update PowerERP debian package when only files into debian has changed:
 
 * Change files and commit.
 * Add a line into changelog for version debian/x.y.z+dfsgw-v (increase the last v into 2, 3...)
@@ -341,7 +341,7 @@ To update powererp debian package when only files into debian has changed:
 * git tag will be added when package is pushed.
 
 
-To update powererp debian package when only files not into debian has changed:
+To update PowerERP debian package when only files not into debian has changed:
 
 * Checkout the branch you want to work on: master of debian/...  
 * Manually, add patches into debian/patches and update the file debian/series, or do the 2 steps with "quilt import filepatch.patch"
@@ -397,9 +397,9 @@ Use this to move from unstable to testing.
 reportbug -B debian --smtphost=smtp.gmail.com:587 --smtpuser=xxxx --smtppasswd=yyyy --tls
 Choose package "release.debian.org"
 Then usertag "unblock"
-Then name of package "powererp"
+Then name of package "PowerERP"
 Fill message, for example:
-"Please unblock package powererp
+"Please unblock package PowerERP
 A security error CVE-2015-3935 was reported and is fixed into package 3.5.7.
 Note that package 3.5.7 contains not only fixed for bugs reported to debian. It includes other fixes, but they are all related to stability or security,
 so it is a better solution to validate this maintenance release than applying a patch of the only CVE-2015-3935. 
@@ -411,12 +411,12 @@ Use this to request an full update of a stable package
 reportbug -B debian --smtphost=smtp.gmail.com:587 --smtpuser=xxxx --smtppasswd=yyyy --tls
 Choose package "release.debian.org"
 Then usertag "unblock"
-Then name of package "powererp"
+Then name of package "PowerERP"
 Fill message, for example:
 "
-A security error CVE-2015-3935 was reported for Powererp ERP CRM package. This bug is fixed into official package 3.5.7 of Powererp.
+A security error CVE-2015-3935 was reported for PowerERP ERP CRM package. This bug is fixed into official package 3.5.7 of PowerERP.
 Package 3.5.7 is a maintenance release compared to 3.5.5 and contains only fixes. But not only bugs reported to debian, it includes also other fixes (but they are all related to stability or security).
-I think it is a better solution to validate this maintenance release based on the new upstream version of Powererp than applying a patch of the only CVE-2015-3935.
+I think it is a better solution to validate this maintenance release based on the new upstream version of PowerERP than applying a patch of the only CVE-2015-3935.
 Pro are:
 - It fixes all debian reported bugs (including security one)
 - It fixes also stability bugs
@@ -437,9 +437,9 @@ Use this to ask to apply patches on a stable version.
 reportbug -B debian --smtphost=smtp.gmail.com:587 --smtpuser=xxxx --smtppasswd=yyyy --tls
 Choose package "release.debian.org"
 Then usertag "jessie-pu" (if tags is not available in list, choose another one, and change it later into email content text)
-Then name of package "powererp"
+Then name of package "PowerERP"
 Fill message, for example:
-"Please unblock package powererp
+"Please unblock package PowerERP
 A security error CVE-2015-3935 was reported and is fixed into package 3.5.7.
 Note that package 3.5.7 contains not only fixed for bugs reported to debian. It includes other fixes, but they are all related to stability or security,
 so it is a better solution to validate this maintenance release than applying a patch of the only CVE-2015-3935. 

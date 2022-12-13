@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=%s компаниясының атауы бұрыннан бар. Басқа біреуін таңдаңыз.
 ErrorSetACountryFirst=Алдымен елді белгілеңіз
 SelectThirdParty=Үшінші тарапты таңдаңыз
@@ -378,7 +378,7 @@ CapitalOf=%s астанасы
 EditCompany=Компанияны өңдеу
 ThisUserIsNot=Бұл пайдаланушы потенциалды, тұтынушы немесе сатушы емес
 VATIntraCheck=Тексеру
-VATIntraCheckDesc=ҚҚС идентификаторы ел префиксін қамтуы тиіс. <b> %s </b> сілтемесі Powererp серверінен Интернетке қосылуды қажет ететін Еуропалық ҚҚС тексеру қызметін (VIES) қолданады.
+VATIntraCheckDesc=ҚҚС идентификаторы ел префиксін қамтуы тиіс. <b> %s </b> сілтемесі PowerERP серверінен Интернетке қосылуды қажет ететін Еуропалық ҚҚС тексеру қызметін (VIES) қолданады.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Еуропалық комиссияның веб-сайтынан ҚҚС бойынша Қауымдастық ішіндегі идентификаторды тексеріңіз
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Статус бойынша перспективалар
 NoParentCompany=Ешқайсысы
 ExportCardToFormat=Пішімдеу үшін картаны экспорттаңыз
 ContactNotLinkedToCompany=Байланыс үшінші тараппен байланысты емес
-PowererpLogin=Powererp логині
-NoPowererpAccess=Powererp қатынасы жоқ
+PowererpLogin=PowerERP логині
+NoPowererpAccess=PowerERP қатынасы жоқ
 ExportDataset_company_1=Үшінші тұлғалар (компаниялар/қорлар/жеке адамдар) және олардың қасиеттері
 ExportDataset_company_2=Байланыс және олардың қасиеттері
 ImportDataset_company_1=Үшінші тұлғалар және олардың қасиеттері

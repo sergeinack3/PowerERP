@@ -60,7 +60,7 @@ require_once __DIR__.'/../../main.inc.php';
 
 
 top_httphead('text/json');
-// Important: Following code is to avoid page request by browser and PHP CPU at each Powererp page access.
+// Important: Following code is to avoid page request by browser and PHP CPU at each PowerERP page access.
 if (empty($powererp_nocache)) {
 	header('Cache-Control: max-age=10800, public, must-revalidate');
 	// For a text/json, we must set an Expires to avoid to have it forced to an expired value by the web server
@@ -142,7 +142,7 @@ if (!empty($conf->global->MAIN_MANIFEST_APPLI_LOGO_URL)) {
 	}
 }
 
-// Add Powererp std icon
+// Add PowerERP std icon
 if (empty($manifest->icons)) {
 	$icon = new stdClass();
 	$icon->src = DOL_URL_ROOT.'/theme/powererp_256x256_color.png';

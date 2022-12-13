@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=Adresár
 ECMSectionManual=Ručné Directory
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Počet podadresárov
 ECMNbOfFilesInSubDir=Počet súborov v podadresároch
 ECMCreationUser=Tvorca
 ECMArea=DMS/ECM area
-ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in Powererp.
+ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in PowerERP.
 ECMAreaDesc2=* Automatické adresáre sú vyplnené automaticky pri pridávaní dokumentov z karty prvku. <br> * Manuálne adresára možno použiť na uloženie dokladov, ktoré nie sú spojené s konkrétnou prvok.
 ECMSectionWasRemoved=Register <b>%s</b> bol vymazaný.
 ECMSectionWasCreated=Directory <b>%s</b> has been created.

@@ -23,7 +23,7 @@
 
 /**
  * Class to parse language files and translate them
- * This is a language automatic translator parser for Powererp
+ * This is a language automatic translator parser for PowerERP
  */
 class autoTranslator
 {

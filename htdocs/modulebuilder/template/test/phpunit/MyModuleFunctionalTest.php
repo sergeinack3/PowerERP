@@ -47,16 +47,16 @@ class MyModuleFunctionalTest extends \PHPUnit_Extensions_Selenium2TestCase
 	/** @var string Base URL of the webserver under test */
 	protected static $base_url = 'http://dev.zenfusion.fr';
 	/**
-	 * @var string Powererp admin username
+	 * @var string PowerERP admin username
 	 * @see authenticate
 	 */
 	protected static $dol_admin_user = 'admin';
 	/**
-	 * @var string Powererp admin password
+	 * @var string PowerERP admin password
 	 * @see authenticate
 	 */
 	protected static $dol_admin_pass = 'admin';
-	/** @var int Powererp module ID */
+	/** @var int PowerERP module ID */
 	private static $module_id = 500000; // TODO: autodetect?
 
 	/** @var array Browsers to test with */
@@ -124,7 +124,7 @@ class MyModuleFunctionalTest extends \PHPUnit_Extensions_Selenium2TestCase
 	}
 
 	/**
-	 * Handle Powererp authentication
+	 * Handle PowerERP authentication
 	 * @return void
 	 */
 	private function authenticate()
@@ -225,7 +225,7 @@ class MyModuleFunctionalTest extends \PHPUnit_Extensions_Selenium2TestCase
 		$this->url('/custom/mymodule/admin/about.php');
 		$this->authenticate();
 		return $this->assertEquals(
-			'Powererp Module Template (aka My Module)',
+			'PowerERP Module Template (aka My Module)',
 			$this->byTag('h1')->text(),
 			"Readme title"
 		);

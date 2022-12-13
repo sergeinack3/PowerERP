@@ -20,19 +20,19 @@
  *      \ingroup    multicompany
  *      \brief      Description and activation file for module MultiCompany
  */
-include_once DOL_DOCUMENT_ROOT . '/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT . '/core/modules/PowerERPModules.class.php';
 
 
 /**
  *      \class      modMultiCompany
  *      \brief      Description and activation class for module MultiCompany
  */
-class modMultiCompany extends PowererpModules
+class modMultiCompany extends PowerERPModules
 {
 	/**
 	 *  Constructor.
 	 *
-	 *  @param	PowererpModules	$db		Database handler
+	 *  @param	PowerERPModules	$db		Database handler
 	 */
 	function __construct($db)
 	{
@@ -69,7 +69,7 @@ class modMultiCompany extends PowererpModules
 		$this->editor_url = 'https://www.inodbox.com';
 		// Can be enabled / disabled only in the main company with superadmin account
 		$this->core_enabled = 0;
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = '8.0.5.1';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);

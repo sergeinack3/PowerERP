@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Въведете име на модул / приложение за създаване, без интервали. Използвайте главни букви за отделяне на думи (Например: MyModule, EcommerceForShop, SyncWithMySystem ...).
 EnterNameOfObjectDesc=Въведете име на обект, който да създадете, без интервали. Използвайте главни букви за отделяне на думи (Например: MyObject, Student, Teacher ...). CRUD class файл, API файл, страници за листване / добавяне / променяне / изтриване на обект и SQL файлове ще бъдат генерирани.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Може да изтриете модула си. 
 EnterNameOfObjectToDeleteDesc=Може да изтриете обект. ВНИМАНИЕ: Всички файлове с код (генерирани или създадени ръчно), свързани с обекта, ще бъдат изтрити!
 DangerZone=Опасна зона
 BuildPackage=Създаване на пакет
-BuildPackageDesc=Може да генерирате zip пакет, така че да сте готови да го разпространите към всеки Powererp. Може също така да го разпространите или да го продадете в онлайн магазина <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Може да генерирате zip пакет, така че да сте готови да го разпространите към всеки PowerERP. Може също така да го разпространите или да го продадете в онлайн магазина <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Създаване на документация
 ModuleIsNotActive=This module is not activated yet. Go to %s to make it live or click here
 ModuleIsLive=Този модул е активиран. Всяка промяна може да прекъсне текуща функция.
@@ -101,8 +101,8 @@ HooksDefDesc=Определете в свойството <b>module_parts['hooks
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Вижте идентификаторите, които се използват във вашата инсталация.
 SeeReservedIDsRangeHere=Вижте обхвата от запазени идентификатори
-ToolkitForDevelopers=Инструментариум за разработчици на Powererp
-TryToUseTheModuleBuilder=Ако имате познания за SQL и PHP може да използвате съветника за създаване на Powererp модул.<br>Активирайте модула <strong>%s</strong> и използвайте съветника като кликнете върху <span class="fa fa-bug"></span> в десния край на горното меню.<br>ВНИМАНИЕ: Това е функция за опитни разработчици, <b>не</b> правете експеримент на вашата работна система!
+ToolkitForDevelopers=Инструментариум за разработчици на PowerERP
+TryToUseTheModuleBuilder=Ако имате познания за SQL и PHP може да използвате съветника за създаване на PowerERP модул.<br>Активирайте модула <strong>%s</strong> и използвайте съветника като кликнете върху <span class="fa fa-bug"></span> в десния край на горното меню.<br>ВНИМАНИЕ: Това е функция за опитни разработчици, <b>не</b> правете експеримент на вашата работна система!
 SeeTopRightMenu=Вижте <span class="fa fa-bug"></span> в десния край на горното меню
 AddLanguageFile=Добавяне на езиков файл
 YouCanUseTranslationKey=Може да използвате тук ключ, който е ключ за превод от езиков файл (вижте раздел 'Езици').

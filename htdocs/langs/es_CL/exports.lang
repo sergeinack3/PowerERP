@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ImportableDatas=Conjunto de datos importable
 SelectExportDataSet=Elija el conjunto de datos que quiera exportar ...
 SelectImportDataSet=Elija el conjunto de datos que desea importar ...
@@ -39,7 +39,7 @@ FileMustHaveOneOfFollowingFormat=El archivo a importar debe tener uno de los sig
 ChooseFormatOfFileToImport=Elija el formato de archivo que se usará como formato de archivo de importación haciendo clic en el icono %s para seleccionarlo ...
 SourceFileFormat=Formato de archivo fuente
 FieldsInSourceFile=Campos en el archivo fuente
-FieldsInTargetDatabase=Campos de destino en la base de datos Powererp (negrita = obligatorio)
+FieldsInTargetDatabase=Campos de destino en la base de datos PowerERP (negrita = obligatorio)
 NoFields=Sin campos
 MoveField=Mover el número de columna de campo %s
 SaveImportProfile=Guarde este perfil de importación

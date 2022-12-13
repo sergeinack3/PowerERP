@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - workflow
+# PowerERP language file - Source file is en_US - workflow
 WorkflowSetup=Configuración del módulo de flujo de trabajo
 WorkflowDesc=Este módulo proporciona algunas acciones automáticas. De manera predeterminada, el flujo de trabajo está abierto (puede hacer las cosas en el orden que desee) pero aquí puede activar algunas acciones automáticas.
 ThereIsNoWorkflowToModify=No hay modificaciones de flujo de trabajo disponibles con los módulos activados.

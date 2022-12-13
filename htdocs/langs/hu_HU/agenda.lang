@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID event
 Actions=Cselekvések
 Agenda=Napirend
@@ -31,10 +31,10 @@ ViewWeek=Hét nézet
 ViewPerUser=Felhasználókénti nézet
 ViewPerType=Típusonként
 AutoActions= Napirend automatikus kitöltése
-AgendaAutoActionDesc= Itt adhatja meg azokat az eseményeket, amelyeket a Powererp automatikusan szeretne létrehozni az Agenda programban. Ha semmi nincs bejelölve, akkor csak a kézi műveletek kerülnek be a naplókba, és megjelennek az Agenda programban. Az objektumokon végrehajtott üzleti műveletek (érvényesítés, állapotváltozás) automatikus követése nem kerül mentésre.
-AgendaSetupOtherDesc= Ez az oldal lehetőséget kínál a Powererp -események exportálására külső naptárba (Thunderbird, Google Calendar stb.).
-AgendaExtSitesDesc=Ez az oldal lehetővé teszi, hogy nyilvánítsa külső forrásokat naptárak látják eseményeket Powererp napirenden.
-ActionsEvents=Events for which Powererp will create an action in agenda automatically
+AgendaAutoActionDesc= Itt adhatja meg azokat az eseményeket, amelyeket a PowerERP automatikusan szeretne létrehozni az Agenda programban. Ha semmi nincs bejelölve, akkor csak a kézi műveletek kerülnek be a naplókba, és megjelennek az Agenda programban. Az objektumokon végrehajtott üzleti műveletek (érvényesítés, állapotváltozás) automatikus követése nem kerül mentésre.
+AgendaSetupOtherDesc= Ez az oldal lehetőséget kínál a PowerERP -események exportálására külső naptárba (Thunderbird, Google Calendar stb.).
+AgendaExtSitesDesc=Ez az oldal lehetővé teszi, hogy nyilvánítsa külső forrásokat naptárak látják eseményeket PowerERP napirenden.
+ActionsEvents=Events for which PowerERP will create an action in agenda automatically
 EventRemindersByEmailNotEnabled=Az e -mailben küldött esemény -emlékeztetők nem lettek engedélyezve a %s modul beállításában.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Harmadik fél %s létrehozta

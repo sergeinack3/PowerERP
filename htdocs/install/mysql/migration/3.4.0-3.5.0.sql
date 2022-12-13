@@ -115,7 +115,7 @@ create table llx_links
   datea             DATETIME NOT NULL,              -- date start
   url               VARCHAR(255) NOT NULL,          -- link url
   label             VARCHAR(255) NOT NULL,          -- link label
-  objecttype        VARCHAR(255) NOT NULL,          -- object type in Powererp
+  objecttype        VARCHAR(255) NOT NULL,          -- object type in PowerERP
   objectid          INTEGER NOT NULL
 )ENGINE=innodb;
 

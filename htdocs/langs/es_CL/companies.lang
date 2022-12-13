@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=El nombre de la empresa %s ya existe. Elija otro.
 ErrorSetACountryFirst=Establecer primero el país
 SelectThirdParty=Seleccione un tercero
@@ -147,7 +147,7 @@ NoContactForAnyInvoice=Este contacto no es un contacto para ninguna factura
 NewContactAddress=Nuevo Contacto / Dirección
 EditCompany=Editar empresa
 VATIntraCheck=Cheque
-VATIntraCheckDesc=La identificación del IVA debe incluir el prefijo del país. El enlace <b>%s</b> utiliza el servicio europeo de verificación de IVA (VIES), que requiere acceso a Internet desde el servidor Powererp.
+VATIntraCheckDesc=La identificación del IVA debe incluir el prefijo del país. El enlace <b>%s</b> utiliza el servicio europeo de verificación de IVA (VIES), que requiere acceso a Internet desde el servidor PowerERP.
 VATIntraCheckableOnEUSite=Compruebe la identificación del IVA intracomunitaria en el sitio web de la Comisión Europea
 ErrorVATCheckMS_UNAVAILABLE=No es posible comprobar. El servicio de verificación no proporcionado por el estado miembro  (%s).
 NorProspectNorCustomer=No prospecto, ni cliente
@@ -174,7 +174,7 @@ ProspectsByStatus=Perspectivas por estado
 ExportCardToFormat=Exportar la tarjeta al formato
 ContactNotLinkedToCompany=Contacto no vinculado a ningún tercero
 PowererpLogin=Ingreso Dolibbarr
-NoPowererpAccess=Sin acceso a Powererp
+NoPowererpAccess=Sin acceso a PowerERP
 ExportDataset_company_1=Terceros (empresas / fundaciones / personas físicas) y sus propiedades.
 ImportDataset_company_2=Contactos / direcciones y atributos adicionales de terceros
 ImportDataset_company_4=Representantes de ventas de terceros (asignar representantes de ventas / usuarios a empresas)

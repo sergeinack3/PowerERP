@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Rum för medlemmar
 MemberCard=Medlemskort
 SubscriptionCard=Abonnemangskort
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Förteckning över bekräftades, offentliga medlemm
 ErrorThisMemberIsNotPublic=Denna medlem är inte offentlig
 ErrorMemberIsAlreadyLinkedToThisThirdParty=En annan ledamot (namn: <b>%s,</b> login: <b>%s)</b> är redan kopplad till en tredje part <b>%s.</b> Ta bort denna länk först, eftersom en tredje part inte kan kopplas till endast en ledamot (och vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Av säkerhetsskäl måste du beviljas behörighet att redigera alla användare att kunna koppla en medlem till en användare som inte är din.
-SetLinkToUser=Koppla till en Powererp användare
-SetLinkToThirdParty=Koppla till en Powererp tredje part
+SetLinkToUser=Koppla till en PowerERP användare
+SetLinkToThirdParty=Koppla till en PowerERP tredje part
 MembersCards=Visitkort för medlemmar
 MembersList=Förteckning över medlemmar
 MembersListToValid=Förteckning över förslag till medlemmar (att bekräftas)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=htpasswd fil
 ValidateMember=Bekräfta en medlem
 ConfirmValidateMember=Är du säker på att du vill bekräfta den här medlemmen?
-FollowingLinksArePublic=Följande länkar är öppna sidor som inte skyddas av något Powererp-tillstånd. De är inte formaterade sidor, som ett exempel som visar hur man listar medlemmarnas databas.
+FollowingLinksArePublic=Följande länkar är öppna sidor som inte skyddas av något PowerERP-tillstånd. De är inte formaterade sidor, som ett exempel som visar hur man listar medlemmarnas databas.
 PublicMemberList=Offentliga medlemslista
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Powererp kan ge dig en allmän webbadress / hemsida för att tillåta externa besökare att be om att prenumerera på stiftelsen. Om en online betalningsmodul är aktiverad kan en betalningsblankett också automatiskt tillhandahållas.
+BlankSubscriptionFormDesc=PowerERP kan ge dig en allmän webbadress / hemsida för att tillåta externa besökare att be om att prenumerera på stiftelsen. Om en online betalningsmodul är aktiverad kan en betalningsblankett också automatiskt tillhandahållas.
 EnablePublicSubscriptionForm=Aktivera den offentliga webbplatsen med självformulär
 ForceMemberType=Tvinga medlemstypen
 ExportDataset_member_1=Members and contributions

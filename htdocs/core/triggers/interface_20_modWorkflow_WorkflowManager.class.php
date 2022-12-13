@@ -44,7 +44,7 @@ class InterfaceWorkflowManager extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "core";
 		$this->description = "Triggers of this module allows to manage workflows";
-		// 'development', 'experimental', 'powererp' or version
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = self::VERSION_DOLIBARR;
 		$this->picto = 'technic';
 	}
@@ -428,7 +428,7 @@ class InterfaceWorkflowManager extends PowererpTriggers
 	}
 
 	/**
-	 * @param Object $conf                  Powererp settings object
+	 * @param Object $conf                  PowerERP settings object
 	 * @param float $totalonlinkedelements  Sum of total amounts (excl VAT) of
 	 *                                      invoices linked to $object
 	 * @param float $object_total_ht        The total amount (excl VAT) of the object

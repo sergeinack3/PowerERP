@@ -28,13 +28,13 @@
  *    \ingroup    holiday
  *    \brief      Description and activation file for the module holiday
  */
-include_once DOL_DOCUMENT_ROOT."/core/modules/PowererpModules.class.php";
+include_once DOL_DOCUMENT_ROOT."/core/modules/PowerERPModules.class.php";
 
 
 /**
  *		Description and activation class for module holiday
  */
-class modHoliday extends PowererpModules
+class modHoliday extends PowerERPModules
 {
 	/**
 	 *  Constructor. Define names, constants, directories, boxes, permissions
@@ -48,7 +48,7 @@ class modHoliday extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 20000;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'holiday';
@@ -61,8 +61,8 @@ class modHoliday extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Leave requests";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of image file used for this module.
@@ -88,7 +88,7 @@ class modHoliday extends PowererpModules
 		$this->requiredby = array(); // List of module ids to disable if this one is disabled
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(3, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3, 0); // Minimum version of PowerERP required by module
 		$this->langfiles = array("holiday");
 
 		// Constants
@@ -303,7 +303,7 @@ class modHoliday extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
 	 *      @param      string	$options    Options when enabling module ('', 'newboxdefonly', 'noboxes')

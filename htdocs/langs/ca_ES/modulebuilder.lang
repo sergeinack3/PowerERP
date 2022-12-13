@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=Aquesta eina només l'han d'utilitzar usuaris o desenvolupadors experimentats. Proporciona utilitats per construir o editar el vostre propi mòdul. La documentació per al desenvolupament manual alternatiu <a href="%s" target="_blank" rel="noopener noreferrer"> és aquí </a>.
 EnterNameOfModuleDesc=Introduïu el nom del mòdul/aplicació per a crear sense espais. Utilitzeu majúscules per separar paraules (per exemple: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Introduïu el nom de l'objecte que voleu crear sense espais. Utilitzeu majúscules per separar paraules (Per exemple: MyObject, Estudiant, Professor...). El fitxer de classes CRUD, però també el fitxer API, pàgines per a llistar/afegir/editar/eliminar objectes i els fitxers SQL es generaran.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Podeu suprimir el vostre mòdul. AVÍS: se suprimi
 EnterNameOfObjectToDeleteDesc=Podeu suprimir un objecte. AVÍS: Tots els fitxers de codificació (generats o creats manualment) relacionats amb l'objecte s'eliminaran.
 DangerZone=Zona perillosa
 BuildPackage=Construeix el paquet
-BuildPackageDesc=Podeu generar un paquet zip de la vostra aplicació de manera que estigueu a punt per distribuir-lo a qualsevol Powererp. També podeu distribuir-lo o vendre-lo al mercat com <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Podeu generar un paquet zip de la vostra aplicació de manera que estigueu a punt per distribuir-lo a qualsevol PowerERP. També podeu distribuir-lo o vendre-lo al mercat com <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Construeix documentació
 ModuleIsNotActive=Aquest mòdul encara no està activat. Aneu a %s per a publicar-lo o feu clic aquí
 ModuleIsLive=Aquest mòdul ha estat activat. Qualsevol canvi pot trencar la funció actual en viu.
@@ -97,11 +97,11 @@ PermissionsDefDesc=Definiu aquí els nous permisos proporcionats pel vostre mòd
 MenusDefDescTooltip=Els menús proporcionats pel vostre mòdul / aplicació es defineixen a la matriu <strong>$ this-> menús</strong> al fitxer descriptor del mòdul. Podeu editar manualment aquest fitxer o utilitzar l’editor incrustat. <br><br> Nota: un cop definits (i el mòdul es reactiven), els menús també es visualitzen a l'editor de menús disponible per als usuaris administradors de %s.
 DictionariesDefDescTooltip=Els diccionaris subministrats pel vostre mòdul/aplicació es defineixen a la matriu <strong>$this->dictionaries</strong> del fitxer descriptor del mòdul. Podeu editar manualment aquest fitxer o utilitzar l’editor incrustat. <br><br> Nota: un cop definit (i reactivat el mòdul), els diccionaris també són visibles a la zona de configuració per als usuaris administradors a %s.
 PermissionsDefDescTooltip=Els permisos proporcionats pel vostre mòdul / aplicació es defineixen a la matriu <strong>$ this-> rights</strong> al fitxer descriptor del mòdul. Podeu editar manualment aquest fitxer o utilitzar l’editor incrustat. <br><br> Nota: un cop definits (i el mòdul reactivat), els permisos es visualitzen a la configuració de permisos per defecte %s.
-HooksDefDesc=Definiu a la propietat <b>module_parts['hooks']</b>, en el descriptor del mòdul, el context dels "hooks" que voleu gestionar (una llista de contextos es pot trobar si cerqueu '<b>initHooks</b>' (en el codi del nucli de Powererp. <br> Editeu el fitxer del "hook" per afegir el codi de les vostres funcions "hookables" (les quals es poden trobar cercant "<b>executeHooks</b>" en el codi del nucli de Powererp).
+HooksDefDesc=Definiu a la propietat <b>module_parts['hooks']</b>, en el descriptor del mòdul, el context dels "hooks" que voleu gestionar (una llista de contextos es pot trobar si cerqueu '<b>initHooks</b>' (en el codi del nucli de PowerERP. <br> Editeu el fitxer del "hook" per afegir el codi de les vostres funcions "hookables" (les quals es poden trobar cercant "<b>executeHooks</b>" en el codi del nucli de PowerERP).
 TriggerDefDesc=Definiu al fitxer disparador el codi que voleu executar quan s'executi un esdeveniment empresarial extern al vostre mòdul (esdeveniments desencadenats per altres mòduls).
 SeeIDsInUse=Consulteu els identificadors que s’utilitzen a la instal·lació
 SeeReservedIDsRangeHere=Consultar l'interval d'identificadors reservats
-ToolkitForDevelopers=Kit d'eines per als desenvolupadors de Powererp
+ToolkitForDevelopers=Kit d'eines per als desenvolupadors de PowerERP
 TryToUseTheModuleBuilder=Si teniu coneixements de SQL i PHP, podeu utilitzar l'assistent de generador de mòduls natiu. <br> Activeu el mòdul <strong> %s </strong> i utilitzeu l'assistent fent clic al <span class="fa fa-bug"> </span> al menú superior dret. <br> Advertència: aquesta és una característica de desenvolupador avançada, feu <b> no </b> en el vostre lloc de producció!
 SeeTopRightMenu=Vegeu <span class="fa fa-bug"></span> al menú superior dret
 AddLanguageFile=Afegir un fitxer d'idioma

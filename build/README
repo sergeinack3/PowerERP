@@ -1,21 +1,21 @@
 README (English)
 
-Path: /powererp/build/README
+Path: /PowerERP/build/README
 
 ##################################################
 Building packages
 ##################################################
 
-All sub-directories of "build" directory contains files (setup or binary tools) required to build automatically Powererp packages.
-The build directory and all its contents is absolutely not required to make Powererp working. 
-It is here only to build Powererp packages, and those generated packages will not contains this "build" directory.
+All sub-directories of "build" directory contains files (setup or binary tools) required to build automatically PowerERP packages.
+The build directory and all its contents is absolutely not required to make PowerERP working. 
+It is here only to build PowerERP packages, and those generated packages will not contains this "build" directory.
 
 
 There are several tools:
 
 
-- To build full Powererp packages, launch the script
-> Launch command perl makepack-powererp.pl
+- To build full PowerERP packages, launch the script
+> Launch command perl makepack-PowerERP.pl
 
 --------------------------------------------------------------------------------------------------
 
@@ -36,7 +36,7 @@ Prerequisites to build autoexe DoliWamp package:
    See file build/exe/doliwamp.iss to know the doliwamp version currently setup.
 > Add path to ISCC into PATH windows var:
   Launch wine cmd, then regedit and add entry int HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment\PATH
-> To build manually the .exe from Windows (running from makepack-powererp.pl script is however recommanded), 
+> To build manually the .exe from Windows (running from makepack-PowerERP.pl script is however recommanded), 
   open file build/exe/doliwamp.iss and click on button "Compile".
   The .exe file will be build into directory build.
 
@@ -55,7 +55,7 @@ Prerequisites to build autoexe DoliWamp package:
 --------------------------------------------------------------------------------------------------
 
 - To build developper documentation, launch the script
-> perl powererp-doxygen-build.pl
+> perl PowerERP-doxygen-build.pl
 
 
 --------------------------------------------------------------------------------------------------
@@ -73,16 +73,16 @@ To build Debian package.
 To build Mac OS package (not ready yet).
 
 * doap:
-To build Doap descriptor to promote/describe Powererp releases.
+To build Doap descriptor to promote/describe PowerERP releases.
 
 * docker:
-To deploy Powererp with docker.
+To deploy PowerERP with docker.
 
 * doxygen:
 Dir with config file to build doxygen documentation.
 
 * exe:
-To build exe package for Windows that distribute Powererp sources or
+To build exe package for Windows that distribute PowerERP sources or
 to build the complete DoliWamp package.
 
 * gource:
@@ -95,13 +95,13 @@ Doc file to explain how to use launchpad.
 Doc file to explain how to push release onto OBS.
 
 * pad:
-To build a PAD file descriptor to promote/describe Powererp releases.
+To build a PAD file descriptor to promote/describe PowerERP releases.
 
 * patch:
-Script file to generate a patch file to distribute a Powererp mod.
+Script file to generate a patch file to distribute a PowerERP mod.
 
 * perl:
-Tool to install powererp when using virtualmin pro
+Tool to install PowerERP when using virtualmin pro
 
 * rpm:
 To build Redhat, Opensuse or Mandriva package.

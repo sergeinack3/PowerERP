@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Nombre de documents al directori
 ECMSection=Carpeta
 ECMSectionManual=Carpeta manual
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Nombre de subcarpetes
 ECMNbOfFilesInSubDir=Nombre d'arxius en les subcarpetes
 ECMCreationUser=Creador
 ECMArea=Àrea SGD/GCE
-ECMAreaDesc=L’àrea SGD/GED (Sistema de Gestió de Documents / Gestió de Continguts Electrònics) us permet desar, compartir i cercar ràpidament tota mena de documents a Powererp.
+ECMAreaDesc=L’àrea SGD/GED (Sistema de Gestió de Documents / Gestió de Continguts Electrònics) us permet desar, compartir i cercar ràpidament tota mena de documents a PowerERP.
 ECMAreaDesc2=Podeu crear carpetes manuals i adjuntar els documents<br>Les carpetes automàtiques són emplenades automàticament en l'addició d'un document en una fitxa.
 ECMSectionWasRemoved=La carpeta <b>%s</b> ha estat eliminada
 ECMSectionWasCreated=S'ha creat el directori <b>%s</b>.

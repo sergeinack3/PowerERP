@@ -25,7 +25,7 @@
  *  \brief      Tab for notes on Evaluation
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT . '/hrm/class/evaluation.class.php';

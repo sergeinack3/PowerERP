@@ -1,4 +1,4 @@
-# Powererp language file - tr_TR - Üretim
+# PowerERP language file - tr_TR - Üretim
 CHARSET=UTF-8
 NewOrderBuild=Yeni Üretim Emri
 OrderBuild=Üretim Emri (ÜE) 
@@ -105,7 +105,7 @@ NumberVersion=versiyon
 MonthVersion=Yayin ayi
 ChangesVersion=Ana degisiklikler yapildi
 About=yaklasik È At
-Slogan=Powererp i in gelisi
+Slogan=PowerERP i in gelisi
 LienModules=Biz mod lleri
 LienServices=Biz hizmet
 LienDoc=Bizim belgeler
@@ -113,7 +113,7 @@ LienDolistore=Diger mod llerimizi bulun
 Changelog=ChangeLog siz mod l
 SupportModuleInformation=Teknik bilgi
 SupportModuleInformationDesc=<br/> <em>Not: Bu bilgi yararlidir ve mod l n  alismasinda bir hatayla karsilasirsaniz size sorulabilir.</em>
-PowererpVersion=S r m de Powererp
+PowererpVersion=S r m de PowerERP
 ModuleVersion=Mod l s r m 
 PHPVersion=PHP s r m 
 DatabaseVersion=Veritabaninin s r m 

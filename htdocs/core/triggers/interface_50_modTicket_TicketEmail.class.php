@@ -42,7 +42,7 @@ class InterfaceTicketEmail extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "ticket";
 		$this->description = "Triggers of the module ticket to send notifications to internal users and to third-parties";
-		$this->version = self::VERSION_DOLIBARR; // 'development', 'experimental', 'powererp' or version
+		$this->version = self::VERSION_DOLIBARR; // 'development', 'experimental', 'PowerERP' or version
 		$this->picto = 'ticket';
 	}
 

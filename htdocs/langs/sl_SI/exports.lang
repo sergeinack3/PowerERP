@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ExportsArea=Izvoz
 ImportArea=Import
 NewExport=New Export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Choose the file format to use as import file format b
 ChooseFileToImport=Upload file then click on the %s icon to select file as source import file...
 SourceFileFormat=Format izvorne datoteke
 FieldsInSourceFile=Polja v izvorni datoteki
-FieldsInTargetDatabase=Ciljna polja v Powererp bazi podatkov (krepko=obvezno)
+FieldsInTargetDatabase=Ciljna polja v PowerERP bazi podatkov (krepko=obvezno)
 Field=Polje
 NoFields=Ni polj
 MoveField=Premaknite kolono s polji številka %s

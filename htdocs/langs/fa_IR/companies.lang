@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=نام شرکت %s از قبل، وجود داشته است. لطفا نام دیگری برگزینید.
 ErrorSetACountryFirst=ابتدا کشور را تعیین کنید
 SelectThirdParty=انتخاب شخص‌سوم
@@ -378,7 +378,7 @@ CapitalOf=سرمایۀ %s
 EditCompany=ویرایش شرکت
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=چک
-VATIntraCheckDesc=شناسۀ م‌.ب.ا.ا. باید با پیش‌وند کشور بیاید. پیوند <b>%s</b> از خدمات European VAT checker service (VIES) استفاده می‌کند که نیاز به اتصال اینترنتی از سرور Powererp دارد
+VATIntraCheckDesc=شناسۀ م‌.ب.ا.ا. باید با پیش‌وند کشور بیاید. پیوند <b>%s</b> از خدمات European VAT checker service (VIES) استفاده می‌کند که نیاز به اتصال اینترنتی از سرور PowerERP دارد
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=بررسی شناسۀ م.ب.ا.ا. داخل جامعه‌ای روی وبگاه کمیسیون اروپا
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=وضعیت مشتریان احتمالی
 NoParentCompany=هیچ‌یک
 ExportCardToFormat=صادرکردن کارت به حالت
 ContactNotLinkedToCompany=طرف‌تماس به هیچ شخص‌سومی متصل نیست
-PowererpLogin=ورود Powererp
-NoPowererpAccess=دسترسی Powererp مقدور نیست
+PowererpLogin=ورود PowerERP
+NoPowererpAccess=دسترسی PowerERP مقدور نیست
 ExportDataset_company_1=شخص‌سوم‌ها (شرکت‌ها/سازمان‌ها/مردم فیزیکی) و مشخصات آن‌ها
 ExportDataset_company_2=طرف‌های تماس و مشخصات آن‌ها
 ImportDataset_company_1=شخص‌سوم‌ها و مشخصات آن‌ها

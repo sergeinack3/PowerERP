@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ldap
+# PowerERP language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Lozinka za korisnika <b>%s</b> na domeni <b>%s</b> mora se promjeniti.
 UserMustChangePassNextLogon=Korisnik mora promjeniti lozinku na domeni %s
 LDAPInformationsForThisContact=Podaci u LDAP bazi za kontakt
@@ -22,6 +22,6 @@ GroupSynchronized=Grupa sinhronizirana
 MemberSynchronized=Član sinhroniziran
 MemberTypeSynchronized=Member type synchronized
 ContactSynchronized=Kontakt sinhroniziran
-ForceSynchronize=Forsiraj sinhronizaciju Powererp -> LDAP
+ForceSynchronize=Forsiraj sinhronizaciju PowerERP -> LDAP
 ErrorFailedToReadLDAP=Neuspješno čitanje LDAP baze. Provjerite postavke LDAP modula i pristupnost bazi.
 PasswordOfUserInLDAP=Password of user in LDAP

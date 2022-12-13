@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Code de sécurité
 NumberingShort=N °
 BirthdayAlertOn=Alerte d'anniversaire active
@@ -31,7 +31,7 @@ Notify_MEMBER_DELETE=Membre supprimé
 NbOfAttachedFiles=Nombre de fichiers / documents attachés
 TotalSizeOfAttachedFiles=Taille totale des fichiers / documents attachés
 AttachANewFile=Joindre un nouveau fichier / document
-DemoDesc=Powererp est un ERP / CRM compact prenant en charge plusieurs modules métier. Une démonstration montrant tous les modules n'a aucun sens car ce scénario ne se produit jamais (plusieurs centaines disponibles). Ainsi, plusieurs profils de démonstration sont disponibles.
+DemoDesc=PowerERP est un ERP / CRM compact prenant en charge plusieurs modules métier. Une démonstration montrant tous les modules n'a aucun sens car ce scénario ne se produit jamais (plusieurs centaines disponibles). Ainsi, plusieurs profils de démonstration sont disponibles.
 ChooseYourDemoProfil=Choisissez le profil de démonstration qui correspond le mieux à vos besoins ...
 ChooseYourDemoProfilMore=... ou créez votre propre profil <br> (sélection du module manuel)
 DemoFundation=Gérer les membres d'une fondation
@@ -79,7 +79,7 @@ SizeUnitmm=Mm
 BackToLoginPage=Retour à la page de connexion
 EnableGDLibraryDesc=Installez ou activez la bibliothèque GD sur votre installation PHP pour utiliser cette option.
 ProfIdShortDesc=<b>Prof ID%s</b> est une information en fonction d'un pays tiers. <br> Par exemple, pour le pays <b>%s</b>, c'est le code<b>%s</b>.
-PowererpDemo=Démo Powererp ERP / CRM
+PowererpDemo=Démo PowerERP ERP / CRM
 StatsByNumberOfUnits=Statistiques pour la somme des produits / services
 NumberOfProposals=Nombre de propositions
 NumberOfCustomerInvoices=Nombre de factures des clients

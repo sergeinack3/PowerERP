@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=N: o pyynnöstä virhe
 ErrorServiceUnavailableTryLater=Palvelu ei käytettävissä tällä hetkellä. Yritä myöhemmin uudestaan.
 ErrorDuplicateField=Päällekkäinen arvo ainutlaatuisella alalla
 ErrorSomeErrorWereFoundRollbackIsDone=Virhe havaittu. Muutetut tiedot palautettu alkuperäisiksi
-ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the Powererp config file <b>conf.php</b>.
-ErrorCantLoadUserFromPowererpDatabase=Ei onnistunut löytämään <b>käyttäjän %s</b> Powererp tietokantaan.
+ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the PowerERP config file <b>conf.php</b>.
+ErrorCantLoadUserFromPowererpDatabase=Ei onnistunut löytämään <b>käyttäjän %s</b> PowerERP tietokantaan.
 ErrorNoVATRateDefinedForSellerCountry=Virhe ei alv määritellään maa ' %s'.
 ErrorNoSocialContributionForSellerCountry=Virhe, ei sosiaalisia tai fiskaalisia verotyyppejä, jotka on määritelty maata "%s" varten.
 ErrorFailedToSaveFile=Virhe, ei tallenna tiedosto.
@@ -113,7 +113,7 @@ DatabaseTypeManager=Database Type Manager
 RequestLastAccessInError=Virhe viimeisimmästä tietokannan pääsypyynnöstä
 ReturnCodeLastAccessInError=Viimeisin tietokannan käyttöoikeuspyyntövirheen palautekoodi
 InformationLastAccessInError=Tiedot viimeisimmän tietokannan käyttöoikeuspyynnön virheestä
-PowererpHasDetectedError=Powererp on havaittu tekninen virhe
+PowererpHasDetectedError=PowerERP on havaittu tekninen virhe
 YouCanSetOptionPowererpMainProdToZero=Voit lukea lokitiedoston tai asettaa asetustiedoston $ powererp_main_prod arvoksi '0' saadaksesi lisätietoja.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Lisätietoa
@@ -122,7 +122,7 @@ TechnicalID=Tekninen tunniste
 LineID=Line ID
 NotePublic=Huomautus (julkinen)
 NotePrivate=Huomautus (yksityinen)
-PrecisionUnitIsLimitedToXDecimals=Powererp oli asetettu raja tarkkuus <b>yksikköhinnat %s</b> desimaalit.
+PrecisionUnitIsLimitedToXDecimals=PowerERP oli asetettu raja tarkkuus <b>yksikköhinnat %s</b> desimaalit.
 DoTest=Testi
 ToFilter=Suodata
 NoFilter=Ei suodatinta
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Jäsenet
 MenuAgendaGoogle=Google agenda
 MenuTaxesAndSpecialExpenses=Taxes | Special expenses
-ThisLimitIsDefinedInSetup=Powererp raja (Valikko koti-setup-turvallisuus): %s Kb, PHP raja: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP raja (Valikko koti-setup-turvallisuus): %s Kb, PHP raja: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
 NoFileFound=No documents uploaded
 CurrentUserLanguage=Nykyinen kieli
 CurrentTheme=Nykyinen teema
@@ -909,7 +909,7 @@ ViewFlatList=View flat list
 ViewAccountList=View ledger
 ViewSubAccountList=View subaccount ledger
 RemoveString=Remove string '%s'
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Public download link
 PublicDownloadLinkDesc=Only the link is required to download the file
 DirectDownloadInternalLink=Private download link

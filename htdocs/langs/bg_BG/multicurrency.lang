@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - multicurrency
+# PowerERP language file - Source file is en_US - multicurrency
 MultiCurrency=Валути
 ErrorAddRateFail=Грешка в добавения курс
 ErrorAddCurrencyFail=Грешка в добавената валута

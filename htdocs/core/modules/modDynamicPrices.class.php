@@ -22,13 +22,13 @@
  *  \ingroup    produit
  *  \brief      Description and activation file for the module to manage dynamic prices in products
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *  Class descriptor of DynamicPrices module
  */
-class modDynamicPrices extends PowererpModules
+class modDynamicPrices extends PowerERPModules
 {
 
 	/**
@@ -46,7 +46,7 @@ class modDynamicPrices extends PowererpModules
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Enable the usage of math expressions for prices";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = 'experimental';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -23,7 +23,7 @@ ErrorNoVATRateDefinedForSellerCountry=Error, no VAT rates defined for country '%
 NotAuthorized=You are not authorised to do that.
 BackgroundColorByDefault=Default background colour
 FileWasNotUploaded=A file is selected for attachment but has not yet been uploaded. Click on "Attach file" for this.
-PrecisionUnitIsLimitedToXDecimals=Powererp was setup to limit precision of unit prices to <b>%s</b> decimal places.
+PrecisionUnitIsLimitedToXDecimals=PowerERP was setup to limit precision of unit prices to <b>%s</b> decimal places.
 Resiliate=Deactivate
 SaveAs=Save as
 Disapprove=Reject

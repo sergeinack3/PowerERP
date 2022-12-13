@@ -18,7 +18,7 @@
 
 /**
  *	\file			htdocs/core/modules/substitutions/functions_numberwords.lib.php
- *	\brief			A set of functions for Powererp
+ *	\brief			A set of functions for PowerERP
  *					This file contains functions for plugin numberwords.
  */
 

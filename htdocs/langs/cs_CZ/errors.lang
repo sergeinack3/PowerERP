@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Žádná chyba, jsme se nedopustili
@@ -48,10 +48,10 @@ ErrorBadDateFormat=Hodnota '%s' má nesprávný formát data
 ErrorWrongDate=Datum není správné!
 ErrorFailedToWriteInDir=Nepodařilo se zapsat do adresáře %s
 ErrorFoundBadEmailInFile=Byla nalezena nesprávná syntaxe e-mailu pro řádky %s v souboru (příkladový řádek %s s e-mailem = %s)
-ErrorUserCannotBeDelete=Uživatele nelze smazat. Možná je spojen s entitami Powererp. 
+ErrorUserCannotBeDelete=Uživatele nelze smazat. Možná je spojen s entitami PowerERP. 
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
-ErrorFailedToCreateDir=Nepodařilo se vytvořit adresář. Zkontrolujte, zda má uživatel webového serveru oprávnění zapisovat do adresáře dokumentů Powererp. Pokud je v tomto PHP aktivován parametr <b> safe_mode</b>, zkontrolujte, zda jsou soubory Powererp php vlastní uživateli (nebo skupinou) webového serveru.
+ErrorFailedToCreateDir=Nepodařilo se vytvořit adresář. Zkontrolujte, zda má uživatel webového serveru oprávnění zapisovat do adresáře dokumentů PowerERP. Pokud je v tomto PHP aktivován parametr <b> safe_mode</b>, zkontrolujte, zda jsou soubory PowerERP php vlastní uživateli (nebo skupinou) webového serveru.
 ErrorNoMailDefinedForThisUser=Pro tohoto uživatele není definován žádný e-mail
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=Tato funkce vyžaduje zapnutí javascriptu pro práci. Změňte nastavení v zobrazení nastavení.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Pole <b> %s</b> nesmí obsahova
 ErrorFieldMustHaveXChar=Pole <b> %s</b> musí mít nejméně %s znaků.
 ErrorNoAccountancyModuleLoaded=Nebyl aktivován žádný účetní modul
 ErrorExportDuplicateProfil=Toto jméno profilu již existuje pro tuto exportní množinu.
-ErrorLDAPSetupNotComplete=Powererp-LDAP shoda není dokončena.
+ErrorLDAPSetupNotComplete=PowerERP-LDAP shoda není dokončena.
 ErrorLDAPMakeManualTest=Soubor .ldif byl vygenerován v adresáři %s. Pokuste se jej z příkazového řádku ručně načíst a získat další informace o chybách.
 ErrorCantSaveADoneUserWithZeroPercentage=Nelze uložit akci s "stav nebyl spuštěn", pokud je vyplněn také pole "provedeno".
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s je přiřazena další třetině
 ErrorFailedToSendPassword=Nepodařilo se odeslat heslo
 ErrorFailedToLoadRSSFile=Nepodařilo se získat RSS kanál. Zkuste přidat neustálé MAIN_SIMPLEXMLLOAD_DEBUG, pokud chybové zprávy neposkytují dostatek informací.
 ErrorForbidden=Přístup byl odepřen. <br> Pokoušíte se získat přístup k stránce, oblasti nebo funkci modulu zakázání, aniž byste byli v autentizované relaci nebo která není uživateli povolena.
-ErrorForbidden2=Povolení pro toto přihlášení může být definováno administrátorem Powererp z menu %s-> %s.
-ErrorForbidden3=Zdá se, že Powererp není používán prostřednictvím autentizované relace. Podívejte se na instalační dokumentaci programu Powererp, abyste věděli, jak spravovat ověřování (htaccess, mod_auth nebo jiné ...). 
+ErrorForbidden2=Povolení pro toto přihlášení může být definováno administrátorem PowerERP z menu %s-> %s.
+ErrorForbidden3=Zdá se, že PowerERP není používán prostřednictvím autentizované relace. Podívejte se na instalační dokumentaci programu PowerERP, abyste věděli, jak spravovat ověřování (htaccess, mod_auth nebo jiné ...). 
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Třída Imagick se v tomto PHP nenachází. Není k dispozici náhled. Administrátoři mohou zakázat tuto kartu v nabídce Nastavení - Zobrazení.
 ErrorRecordAlreadyExists=Záznam již existuje
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Uživatelský účet <b> %s </b>, který byl 
 ErrorNoActivatedBarcode=Žádný typ čárového kódu není aktivován
 ErrUnzipFails=Nepodařilo se rozbalit %s s ZipArchive
 ErrNoZipEngine=Žádný modul zip / unzip soubor %s v tomto PHP
-ErrorFileMustBeAPowererpPackage=Soubor %s musí být balíček zip Powererp
-ErrorModuleFileRequired=Musíte vybrat soubor balíčku modulu Powererp
+ErrorFileMustBeAPowererpPackage=Soubor %s musí být balíček zip PowerERP
+ErrorModuleFileRequired=Musíte vybrat soubor balíčku modulu PowerERP
 ErrorPhpCurlNotInstalled=PHP CURL není nainstalován, je to nezbytné pro komunikaci s PayPal
 ErrorFailedToAddToMailmanList=Nepodařilo se přidat záznam %s do seznamu Mailman %s nebo SPIP base
 ErrorFailedToRemoveToMailmanList=Nepodařilo se odstranit záznam %s do seznamu Mailman %s nebo SPIP base
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=Datum musí být nižší než dnes
 ErrorDateMustBeInFuture=Datum musí být delší než dnes
 ErrorPaymentModeDefinedToWithoutSetup=Platební režim byl nastaven na typ %s, ale nastavení modulu Faktura nebylo dokončeno pro definování informací, které se mají zobrazit v tomto režimu platby.
 ErrorPHPNeedModule=Chyba, váš PHP musí mít nainstalovaný modul <b> %s </b> pro použití této funkce.
-ErrorOpenIDSetupNotComplete=Nastavíte konfigurační soubor Powererp, abyste povolili ověřování OpenID, ale URL služby OpenID není definována do konstantního %s
+ErrorOpenIDSetupNotComplete=Nastavíte konfigurační soubor PowerERP, abyste povolili ověřování OpenID, ale URL služby OpenID není definována do konstantního %s
 ErrorWarehouseMustDiffers=Zdrojové a cílové sklady se musí lišit
 ErrorBadFormat=Špatný formát!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Chyba, tento člen ještě není propojen s žádným subjektem. Propojte člena s existujícím subjektem nebo vytvořte nový subjekt předtím, než vytvoříte předplatné s fakturou.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, request too large
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Váš parametr PHP upload_max_filesize (%s) je vyšší než parametr PHP post_max_size (%s). Toto není konzistentní nastavení.
-WarningPasswordSetWithNoAccount=Pro tohoto člena bylo nastaveno heslo. Nebyl však vytvořen žádný uživatelský účet. Toto heslo je uloženo, ale nemůže být použito pro přihlášení k Powererp. Může být použito externím modulem / rozhraním, ale pokud nemáte pro člena definováno žádné přihlašovací jméno ani heslo, můžete vypnout možnost "Správa přihlášení pro každého člena" z nastavení modulu člena. Pokud potřebujete spravovat přihlašovací údaje, ale nepotřebujete žádné heslo, můžete toto pole ponechat prázdné, abyste se tomuto varování vyhnuli. Poznámka: E-mail může být také použit jako přihlašovací jméno, pokud je člen připojen k uživateli.
+WarningPasswordSetWithNoAccount=Pro tohoto člena bylo nastaveno heslo. Nebyl však vytvořen žádný uživatelský účet. Toto heslo je uloženo, ale nemůže být použito pro přihlášení k PowerERP. Může být použito externím modulem / rozhraním, ale pokud nemáte pro člena definováno žádné přihlašovací jméno ani heslo, můžete vypnout možnost "Správa přihlášení pro každého člena" z nastavení modulu člena. Pokud potřebujete spravovat přihlašovací údaje, ale nepotřebujete žádné heslo, můžete toto pole ponechat prázdné, abyste se tomuto varování vyhnuli. Poznámka: E-mail může být také použit jako přihlašovací jméno, pokud je člen připojen k uživateli.
 WarningMandatorySetupNotComplete=Klikněte zde pro nastavení povinných parametrů
 WarningEnableYourModulesApplications=Kliknutím zde povolíte moduly a aplikace
 WarningSafeModeOnCheckExecDir=Upozornění: volba PHP <b> safe_mode </b> je taková, že příkaz musí být uložen uvnitř adresáře deklarovaného parametrem php <b> safe_mode_exec_dir </b>.

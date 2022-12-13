@@ -2,23 +2,23 @@
 Copyright and license
 ----------------------
 
-The Powererp software as a whole is distributed under the GNU General Public License as published by the Free Software Foundation;
+The PowerERP software as a whole is distributed under the GNU General Public License as published by the Free Software Foundation;
 either version 3 of the License, or (at your option) any later version (GPL-3+). More information: https://www.gnu.org/licenses/gpl-3.0.txt.
 A copy of this license is available in the COPYING file.
-Powererp depends on third-party components and code snippets released under their own license (obviously, all compatible with the one of Powererp).
+PowerERP depends on third-party components and code snippets released under their own license (obviously, all compatible with the one of PowerERP).
 These dependencies are listed in the bottom of this file.
 
 
-The Powererp images resources (available in the doc directory) is distributed under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
+The PowerERP images resources (available in the doc directory) is distributed under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
 
 
-The name Powererp is a trademark initially registered by Laurent Destailleur and ceased to the Powererp foundation. You can use the name Powererp
-for your own need as long as you follow the rules defined on the page https://wiki.powererp.org/index.php/Rules_to_use_the_brand_name_%22Powererp%22   
-The use of the name DoliStore is also restricted to the same rules defined on https://wiki.powererp.org/index.php/Rules_to_use_the_brand_name_%22Powererp%22
+The name PowerERP is a trademark initially registered by Laurent Destailleur and ceased to the PowerERP foundation. You can use the name PowerERP
+for your own need as long as you follow the rules defined on the page https://wiki.PowerERP.org/index.php/Rules_to_use_the_brand_name_%22Powererp%22   
+The use of the name DoliStore is also restricted to the same rules defined on https://wiki.PowerERP.org/index.php/Rules_to_use_the_brand_name_%22Powererp%22
 
 
 
-Licence of dependencies of third-party components used by Powererp (all compatible with the Licence of Powererp):
+Licence of dependencies of third-party components used by PowerERP (all compatible with the Licence of PowerERP):
 
 Component              Version       License                     GPL Compatible  Usage
 -------------------------------------------------------------------------------------
@@ -80,4 +80,4 @@ For more licenses compatibility informations: https://www.gnu.org/licenses/licen
 Authors
 -------------------
 
-See page https://github.com/Powererp/powererp/graphs/contributors
+See page https://github.com/PowerERP/PowerERP/graphs/contributors

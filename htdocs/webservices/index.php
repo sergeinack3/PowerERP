@@ -18,10 +18,10 @@
 
 /**
  *       \file       htdocs/webservices/server_invoice.php
- *       \brief      File that is entry point to call Powererp WebServices
+ *       \brief      File that is entry point to call PowerERP WebServices
  */
 
-// This is to make Powererp working with Plesk
+// This is to make PowerERP working with Plesk
 set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 
 require_once '../master.inc.php';
@@ -35,12 +35,12 @@ $langs->load("admin");
  * View
  */
 
-dol_syslog("Call Powererp webservices interfaces");
+dol_syslog("Call PowerERP webservices interfaces");
 
 // Enable and test if module web services is enabled
 if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 	$langs->load("admin");
-	dol_syslog("Call Powererp webservices interfaces with module webservices disabled");
+	dol_syslog("Call PowerERP webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;

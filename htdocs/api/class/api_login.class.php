@@ -95,7 +95,7 @@ class Login
 
 		// Authentication mode
 		if (empty($powererp_main_authentication)) {
-			$powererp_main_authentication = 'powererp';
+			$powererp_main_authentication = 'PowerERP';
 		}
 
 		// Authentication mode: forceuser
@@ -167,7 +167,7 @@ class Login
 				'code' => 200,
 				'token' => $token,
 				'entity' => $tmpuser->entity,
-				'message' => 'Welcome '.$login.($reset ? ' - Token is new' : ' - This is your token (recorded for your user). You can use it to make any REST API call, or enter it into the DOLAPIKEY field to use the Powererp API explorer.')
+				'message' => 'Welcome '.$login.($reset ? ' - Token is new' : ' - This is your token (recorded for your user). You can use it to make any REST API call, or enter it into the DOLAPIKEY field to use the PowerERP API explorer.')
 			)
 		);
 	}

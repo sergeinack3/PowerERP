@@ -19,19 +19,19 @@
 
 /**
  * \defgroup   externalsite     Module externalsite
- * \brief      Module to include an external web site/tools into Powererp menu and into a frame page.
+ * \brief      Module to include an external web site/tools into PowerERP menu and into a frame page.
  * \file       htdocs/core/modules/modExternalSite.class.php
  * \ingroup    externalsite
  * \brief      Description and activation file for the module ExternalSite
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  * 	Description and activation class for module ExternalSite
  */
-class modExternalSite extends PowererpModules
+class modExternalSite extends PowerERPModules
 {
 
 	/**
@@ -53,9 +53,9 @@ class modExternalSite extends PowererpModules
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		// Module description used if translation string 'ModuleXXXDesc' not found (XXX is id value)
-		$this->description = "This module include an external web site or page into Powererp menus and view it into a Powererp frame.";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		$this->description = "This module include an external web site or page into PowerERP menus and view it into a PowerERP frame.";
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled (XXX is id value)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of png file (without png) used for this module

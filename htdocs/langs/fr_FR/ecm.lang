@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Nb. de documents du répertoire
 ECMSection=Répertoire
 ECMSectionManual=Répertoire manuel
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Nombre de sous-répertoires
 ECMNbOfFilesInSubDir=Nombre de fichiers dans les sous-répertoires
 ECMCreationUser=Créateur
 ECMArea=Espace GED
-ECMAreaDesc=L'espace GED (Gestion Électronique de Documents) vous permet de stocker, partager et chercher rapidement tout type de documents dans Powererp.
+ECMAreaDesc=L'espace GED (Gestion Électronique de Documents) vous permet de stocker, partager et chercher rapidement tout type de documents dans PowerERP.
 ECMAreaDesc2=* Les répertoires automatiques sont alimentés automatiquement lors de l'ajout d'un document depuis une fiche objet (proposition commerciale, facture...).<br>* Les répertoires manuels peuvent être utilisés pour stocker des documents divers, non liés à un objet particulier.
 ECMSectionWasRemoved=Le répertoire <b>%s</b> a été effacé.
 ECMSectionWasCreated=Le répertoire <b>%s</b> a été créé.

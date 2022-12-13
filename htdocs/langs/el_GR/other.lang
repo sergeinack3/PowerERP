@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Κωδικός ασφαλείας
 NumberingShort=N°
 Tools=Εργαλεία
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__ (Γεια σας) __ Βρείτε την �
 PredefinedMailContentLink=Μπορείτε να κάνετε κλικ στον παρακάτω σύνδεσμο για να πραγματοποιήσετε την πληρωμή σας, αν δεν έχει γίνει ήδη. %s
 PredefinedMailContentGeneric=__ (Γεια σας) __ __ (ειλικρινά) __ __USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=Το Powererp είναι ένα συμπαγές ERP / CRM που υποστηρίζει διάφορες λειτουργικές μονάδες. Ένα demo που παρουσιάζει όλες τις μονάδες δεν έχει νόημα καθώς το σενάριο αυτό δεν εμφανίζεται ποτέ (αρκετές εκατοντάδες διαθέσιμες). Έτσι, πολλά προφίλ επίδειξης είναι διαθέσιμα.
+DemoDesc=Το PowerERP είναι ένα συμπαγές ERP / CRM που υποστηρίζει διάφορες λειτουργικές μονάδες. Ένα demo που παρουσιάζει όλες τις μονάδες δεν έχει νόημα καθώς το σενάριο αυτό δεν εμφανίζεται ποτέ (αρκετές εκατοντάδες διαθέσιμες). Έτσι, πολλά προφίλ επίδειξης είναι διαθέσιμα.
 ChooseYourDemoProfil=Επιλέξτε το προφίλ επίδειξης που ταιριάζει καλύτερα στις ανάγκες σας ...
 ChooseYourDemoProfilMore=... ή να δημιουργήσετε το δικό σας προφίλ <br> (επιλογή χειροκίνητης μονάδας)
 DemoFundation=Διαχειριστείτε τα μέλη του ιδρύματος
@@ -182,10 +182,10 @@ SizeUnitpoint=σημείο
 BugTracker=Tracker Bug
 SendNewPasswordDesc=Αυτή η φόρμα σάς επιτρέπει να ζητήσετε νέο κωδικό πρόσβασης. Θα σταλεί στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας. <br> Η αλλαγή θα τεθεί σε ισχύ μόλις κάνετε κλικ στον σύνδεσμο επιβεβαίωσης στο μήνυμα ηλεκτρονικού ταχυδρομείου. <br> Ελέγξτε τα εισερχόμενά σας.
 BackToLoginPage=Επιστροφή στην σελίδα εισόδου
-AuthenticationDoesNotAllowSendNewPassword=Λειτουργία ελέγχου ταυτότητας είναι <b>%s.</b> <br> Σε αυτή τη λειτουργία, Powererp δεν μπορεί να γνωρίζει ούτε αλλαγή του κωδικού πρόσβασής σας. <br> Επικοινωνήστε με το διαχειριστή του συστήματός σας, εάν θέλετε να αλλάξετε τον κωδικό πρόσβασής σας.
+AuthenticationDoesNotAllowSendNewPassword=Λειτουργία ελέγχου ταυτότητας είναι <b>%s.</b> <br> Σε αυτή τη λειτουργία, PowerERP δεν μπορεί να γνωρίζει ούτε αλλαγή του κωδικού πρόσβασής σας. <br> Επικοινωνήστε με το διαχειριστή του συστήματός σας, εάν θέλετε να αλλάξετε τον κωδικό πρόσβασής σας.
 EnableGDLibraryDesc=Εγκαταστήστε ή ενεργοποιήστε τη βιβλιοθήκη GD στην εγκατάσταση της PHP για να χρησιμοποιήσετε αυτήν την επιλογή.
 ProfIdShortDesc=<b>Καθ %s ταυτότητα</b> είναι μια ενημερωτική ανάλογα με τρίτη χώρα μέρος. <br> Για παράδειγμα, για <b>%s</b> χώρα, είναι <b>%s</b> κώδικα.
-PowererpDemo=Powererp ERP / CRM demo
+PowererpDemo=PowerERP ERP / CRM demo
 StatsByNumberOfUnits=Στατιστικά στοιχεία για το σύνολο των ποσοτήτων προϊόντων / υπηρεσιών
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Αριθμός προτάσεων

@@ -257,7 +257,7 @@ if (is_array($qualifiedjobs) && (count($qualifiedjobs) > 0)) {
 			if ($result < 0) {
 				echo "Error cronjobid: ".$line->id." cronjob->run_job: ".$cronjob->error."\n";
 				echo "At least one job failed. Go on menu Home-Setup-Admin tools to see result for each job.\n";
-				echo "You can also enable module Log if not yet enabled, run again and take a look into powererp.log file\n";
+				echo "You can also enable module Log if not yet enabled, run again and take a look into PowerERP.log file\n";
 				dol_syslog("cron_run_jobs.php::run_jobs Error ".$cronjob->error, LOG_ERR);
 				$nbofjobslaunchedko++;
 				$resultstring = 'KO';
@@ -272,7 +272,7 @@ if (is_array($qualifiedjobs) && (count($qualifiedjobs) > 0)) {
 			$result = $cronjob->reprogram_jobs($userlogin, $now);
 			if ($result < 0) {
 				echo "Error cronjobid: ".$line->id." cronjob->reprogram_job: ".$cronjob->error."\n";
-				echo "Enable module Log if not yet enabled, run again and take a look into powererp.log file\n";
+				echo "Enable module Log if not yet enabled, run again and take a look into PowerERP.log file\n";
 				dol_syslog("cron_run_jobs.php::reprogram_jobs Error ".$cronjob->error, LOG_ERR);
 				exit(-1);
 			}

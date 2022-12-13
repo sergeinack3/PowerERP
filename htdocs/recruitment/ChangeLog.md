@@ -1,4 +1,4 @@
-# CHANGELOG RECRUITMENT FOR [DOLIBARR ERP CRM](https://www.powererp.org)
+# CHANGELOG RECRUITMENT FOR [DOLIBARR ERP CRM](https://www.PowerERP.org)
 
 ## 1.0
 

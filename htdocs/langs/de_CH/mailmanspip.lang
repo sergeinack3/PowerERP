@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - mailmanspip
+# PowerERP language file - Source file is en_US - mailmanspip
 MailmanCreationSuccess=Anmeldung Test wurde erfolgreich durchgeführt
 MailmanDeletionSuccess=Abmeldung Test wurde erfolgreich durchgeführt
 SuccessToAddToMailmanList=Hinzufügen von %s, in mailman-Liste %s oder SPIP-Datenbank erfolgreich

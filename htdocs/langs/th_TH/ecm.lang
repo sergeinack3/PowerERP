@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=สารบบ
 ECMSectionManual=สมุดคู่มือ
@@ -15,7 +15,7 @@ ECMNbOfSubDir=จำนวนไดเรกทอรีย่อย
 ECMNbOfFilesInSubDir=จำนวนของไฟล์ในไดเรกทอรีย่อย
 ECMCreationUser=ผู้สร้าง
 ECMArea=DMS/ECM area
-ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in Powererp.
+ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in PowerERP.
 ECMAreaDesc2=* ไดเรกทอรีอัตโนมัติจะเต็มไปโดยอัตโนมัติเมื่อมีการเพิ่มเอกสารจากบัตรขององค์ประกอบ <br> * ไดเรกทอรีคู่มือการใช้งานสามารถใช้ในการบันทึกเอกสารไม่เชื่อมโยงกับองค์ประกอบโดยเฉพาะอย่างยิ่ง
 ECMSectionWasRemoved=<b>สารบบ% s</b> ได้ถูกลบออก
 ECMSectionWasCreated=Directory <b>%s</b> has been created.

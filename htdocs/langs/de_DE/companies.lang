@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Firmenname %s bereits vorhanden. Bitte wählen Sie einen anderen.
 ErrorSetACountryFirst=Wählen Sie zuerst das Land
 SelectThirdParty=Wähle einen Partner
@@ -378,7 +378,7 @@ CapitalOf=Stammkapital: %s
 EditCompany=Unternehmen bearbeiten
 ThisUserIsNot=Dieser Benutzer ist weder ein Interessent, noch ein Kunde oder Lieferant
 VATIntraCheck=Prüfen
-VATIntraCheckDesc=Die Umsatzsteuer-ID muss das Länderpräfix enthalten. Der Link <b> %s </b> startet eine Anfrage am MwSt-Informationsaustauschsystem (MIAS) der Europäischen Kommission. Hierfür ist ein ein Internetzugang vom Powererp-Server erforderlich.
+VATIntraCheckDesc=Die Umsatzsteuer-ID muss das Länderpräfix enthalten. Der Link <b> %s </b> startet eine Anfrage am MwSt-Informationsaustauschsystem (MIAS) der Europäischen Kommission. Hierfür ist ein ein Internetzugang vom PowerERP-Server erforderlich.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Überprüfungsergebnis des MwSt-Informationsaustauschsystems (MIAS)
 VATIntraManualCheck=Sie können die Überprüfung auch manuell auf der Internetseite der Europäische Kommission durchführen: <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,7 +424,7 @@ ProspectsByStatus=Interessenten nach Status
 NoParentCompany=keine Muttergesellschaft
 ExportCardToFormat=Karte in Format exportieren
 ContactNotLinkedToCompany=Kontakt keinem Partner zugeordnet
-PowererpLogin=Powererp-Benutzername
+PowererpLogin=PowerERP-Benutzername
 NoPowererpAccess=Kein Zugang
 ExportDataset_company_1=Partner (Firmen/Stiftungen/Natürliche Personen) und ihre Eigenschaften
 ExportDataset_company_2=Kontakte und ihre Eigenschaften

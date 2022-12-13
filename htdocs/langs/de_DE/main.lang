@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -62,7 +62,7 @@ ErrorServiceUnavailableTryLater=Dienst derzeit nicht verfügbar. Später erneut 
 ErrorDuplicateField=Dieser Wert ist schon vorhanden (Das Feld erfordert einen einzigartigen Wert)
 ErrorSomeErrorWereFoundRollbackIsDone=Einige Fehler wurden gefunden. Änderungen wurden rückgängig gemacht.
 ErrorConfigParameterNotDefined=Parameter <b>%s</b> ist innerhalb der Konfigurationsdatei <b>conf.php.</b> nicht definiert.
-ErrorCantLoadUserFromPowererpDatabase=Benutzer <b>%s</b> in der Powererp-Datenbank nicht gefunden
+ErrorCantLoadUserFromPowererpDatabase=Benutzer <b>%s</b> in der PowerERP-Datenbank nicht gefunden
 ErrorNoVATRateDefinedForSellerCountry=Fehler, keine MwSt.-Sätze für Land  '%s' definiert.
 ErrorNoSocialContributionForSellerCountry=Fehler, Sozialabgaben/Steuerwerte für Staat '%s' nicht definiert.
 ErrorFailedToSaveFile=Fehler, konnte Datei nicht speichern.
@@ -95,7 +95,7 @@ RecordDeleted=Eintrag gelöscht
 RecordGenerated=Eintrag erzeugt
 LevelOfFeature=Funktionslevel
 NotDefined=Nicht definiert
-PowererpInHttpAuthenticationSoPasswordUseless=Der Powererp Authentifizierungsmodus wurde mit dem Wert <b>%s</b> in der Konfigurationsdatei <b>conf.php.</b> definiert\n<br> Das bedeutet, dass die Powererp Passwörter extern gespeichert werden, und somit Änderungen dieser Felder unwirksam sein können.
+PowererpInHttpAuthenticationSoPasswordUseless=Der PowerERP Authentifizierungsmodus wurde mit dem Wert <b>%s</b> in der Konfigurationsdatei <b>conf.php.</b> definiert\n<br> Das bedeutet, dass die PowerERP Passwörter extern gespeichert werden, und somit Änderungen dieser Felder unwirksam sein können.
 Administrator=Administrator
 Undefined=Nicht definiert
 PasswordForgotten=Passwort vergessen?
@@ -732,8 +732,8 @@ MenuAWStats=Statistiken
 MenuMembers=Mitglieder
 MenuAgendaGoogle=Google-Agenda
 MenuTaxesAndSpecialExpenses=Steuern | Sonderausgaben
-ThisLimitIsDefinedInSetup=Gesetzte Powererp-Limits (Menü Start-Einstellungen-Sicherheit): %s Kb, PHP Limit: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp-Limit (Menü %s): %s Kb, PHP-Limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=Gesetzte PowerERP-Limits (Menü Start-Einstellungen-Sicherheit): %s Kb, PHP Limit: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP-Limit (Menü %s): %s Kb, PHP-Limit (Param %s): %s Kb
 NoFileFound=Keine Dokumente hochgeladen
 CurrentUserLanguage=Aktuelle Benutzersprache
 CurrentTheme=Aktuelles Design
@@ -909,7 +909,7 @@ ViewFlatList=Listenansicht zeigen
 ViewAccountList=Hauptbuch anzeigen
 ViewSubAccountList=Unterkonten-Buch anzeigen
 RemoveString=Entfernen Sie die Zeichenfolge '%s'
-SomeTranslationAreUncomplete=Einige der angebotenen Sprachen sind möglicherweise nur teilweise übersetzt oder können Fehler enthalten. Bitte helfen Sie mit, Ihre Sprache zu korrigieren, indem Sie sich unter <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/ </a> registrieren, um Ihre Verbesserungen hinzuzufügen.
+SomeTranslationAreUncomplete=Einige der angebotenen Sprachen sind möglicherweise nur teilweise übersetzt oder können Fehler enthalten. Bitte helfen Sie mit, Ihre Sprache zu korrigieren, indem Sie sich unter <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/ </a> registrieren, um Ihre Verbesserungen hinzuzufügen.
 DirectDownloadLink=Öffentlicher Download-Link
 PublicDownloadLinkDesc=Zum Herunterladen der Datei ist nur der Link erforderlich
 DirectDownloadInternalLink=Privater Download-Link

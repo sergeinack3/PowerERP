@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -55,6 +55,6 @@ class MailObject extends CommonObject
 	 */
 	public function fetch($id)
 	{
-		return 1; // fix mail bug on powererp 3.9
+		return 1; // fix mail bug on PowerERP 3.9
 	}
 }

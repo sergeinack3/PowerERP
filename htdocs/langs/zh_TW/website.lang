@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=代碼
 WebsiteSetupDesc=在此處建立您要使用的網站。然後進入選單網站進行編輯。
 DeleteWebsite=刪除網站
@@ -45,7 +45,7 @@ ViewWebsiteInProduction=使用家庭網址檢視網站
 SetHereVirtualHost=<u>使用Apache/NGinx/...</u><br>建立您的網頁伺服器 (Apache, Nginx, ...) 啟用了含有PHP的專用虛擬主機並且根目錄資料夾位於<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=在Apache虛擬主機設定中使用的範例：
 YouCanAlsoTestWithPHPS=在開發環境中<u>使用嵌入式PHP伺服器</u><br>, 您也許想要使用<br><strong>php -S 0.0.0.0:8080 -t %s</strong> 來測試此嵌入式PHP伺服器 (需要PHP 5.5) 的網站
-YouCanAlsoDeployToAnotherWHP=<u>在其他Powererp網站託管供應商執行您的網站</u> <br>如果您在網路上沒有Apache或NGinx之類的Web伺服器，則可以將網站匯出並匯入到另一個由Powererp網站託管供應商提供且有完整整合網站模組。您可以在<a href="https://saas.powererp.org" target="_blank" rel="noopener noreferrer external"> https://saas.powererp.org </a>上找到一些Powererp網站託管服務供應商的清單。
+YouCanAlsoDeployToAnotherWHP=<u>在其他Powererp網站託管供應商執行您的網站</u> <br>如果您在網路上沒有Apache或NGinx之類的Web伺服器，則可以將網站匯出並匯入到另一個由Powererp網站託管供應商提供且有完整整合網站模組。您可以在<a href="https://saas.PowerERP.org" target="_blank" rel="noopener noreferrer external"> https://saas.PowerERP.org </a>上找到一些Powererp網站託管服務供應商的清單。
 CheckVirtualHostPerms=同時請確認虛擬主機使用者(例如www-data)擁有檔案<br><strong>%s</strong>的<strong>%s</strong>權限
 ReadPerm=閱讀
 WritePerm=寫入

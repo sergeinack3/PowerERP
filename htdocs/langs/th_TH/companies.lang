@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=ชื่อบริษัท %sมีอยู่แล้ว ให้เลือกอันอื่น
 ErrorSetACountryFirst=ตั้งประเทศไว้ก่อน
 SelectThirdParty=เลือกบุคคลที่สาม
@@ -378,7 +378,7 @@ CapitalOf=เมืองหลวงของ% s
 EditCompany=แก้ไข บริษัท
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=ตรวจสอบ
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Powererp server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the PowerERP server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=ลูกค้าเป้าหมายตามสถา�
 NoParentCompany=ไม่
 ExportCardToFormat=การ์ดส่งออกไปยังรูปแบบ
 ContactNotLinkedToCompany=ติดต่อไม่ได้เชื่อมโยงกับบุคคลที่สาม
-PowererpLogin=เข้าสู่ระบบ Powererp
-NoPowererpAccess=ไม่สามารถเข้าถึง Powererp
+PowererpLogin=เข้าสู่ระบบ PowerERP
+NoPowererpAccess=ไม่สามารถเข้าถึง PowerERP
 ExportDataset_company_1=Third-parties (companies/foundations/physical people) and their properties
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Third-parties and their properties

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Fundarstaður
 MemberCard=Aðildarríkin kort
 SubscriptionCard=Áskrift kort
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Listi yfir viðurkennd opinber meðlimir
 ErrorThisMemberIsNotPublic=Þessi aðili er ekki opinber
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Annar aðili <b>(nafn: %s , tenging: %s )</b> er nú þegar tengdur til þriðja <b>aðila %s .</b> Fjarlægja þennan tengil í fyrsta lagi vegna þriðja aðila má ekki vera bundin einungis meðlimur (og öfugt).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Af öryggisástæðum verður þú að vera veitt leyfi til að breyta öllum notendum að vera fær um að tengja félagi til notanda sem er ekki þinn.
-SetLinkToUser=Tengill á Powererp notanda
-SetLinkToThirdParty=Tengill á Powererp þriðja aðila
+SetLinkToUser=Tengill á PowerERP notanda
+SetLinkToThirdParty=Tengill á PowerERP þriðja aðila
 MembersCards=Business cards for members
 MembersList=Listi yfir meðlimi
 MembersListToValid=Listi yfir meðlimi drög (verður staðfest)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=htpasswd skrá
 ValidateMember=Staðfesta meðlimur
 ConfirmValidateMember=Are you sure you want to validate this member?
-FollowingLinksArePublic=The following links are open pages not protected by any Powererp permission. They are not formatted pages, provided as example to show how to list members database.
+FollowingLinksArePublic=The following links are open pages not protected by any PowerERP permission. They are not formatted pages, provided as example to show how to list members database.
 PublicMemberList=Almenn listann yfir meðlimi
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Powererp can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
+BlankSubscriptionFormDesc=PowerERP can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
 EnablePublicSubscriptionForm=Enable the public website with self-subscription form
 ForceMemberType=Force the member type
 ExportDataset_member_1=Members and contributions

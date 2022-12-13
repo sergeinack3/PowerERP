@@ -29,10 +29,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/expedition/modules_expedition.php'
 class mod_expedition_safor extends ModelNumRefExpedition
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	public $prefix = 'SH';
 

@@ -52,10 +52,10 @@ class doc_generic_invoice_odt extends ModelePDFFactures
 	public $phpmin = array(5, 6);
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 
 	/**

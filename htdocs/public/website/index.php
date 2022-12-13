@@ -27,7 +27,7 @@
 /**
  *     	\file       htdocs/public/website/index.php
  *		\ingroup    website
- *		\brief      Wrapper to output pages when website is powered by Powererp instead of a native web server
+ *		\brief      Wrapper to output pages when website is powered by PowerERP instead of a native web server
  */
 
 if (!defined('NOTOKENRENEWAL')) {
@@ -165,7 +165,7 @@ global $powererp_main_data_root;
 
 if ($pageid == 'css') {   // No more used ?
 	header('Content-type: text/css');
-	// Important: Following code is to avoid page request by browser and PHP CPU at each Powererp page access.
+	// Important: Following code is to avoid page request by browser and PHP CPU at each PowerERP page access.
 	//if (empty($powererp_nocache)) header('Cache-Control: max-age=3600, public, must-revalidate');
 	//else
 	header('Cache-Control: no-cache');

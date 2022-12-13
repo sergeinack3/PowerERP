@@ -184,7 +184,7 @@ abstract class ActionsAdherentCardCommon
 				$this->tpl['nb_emailing'] = $this->object->getNbOfEMailings();
 			}
 
-			// Powererp user
+			// PowerERP user
 			if ($this->object->user_id) {
 				$powererp_user = new User($this->db);
 				$result = $powererp_user->fetch($this->object->user_id);

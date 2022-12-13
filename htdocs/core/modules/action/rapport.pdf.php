@@ -167,7 +167,7 @@ class CommActionRapport
 
 			$pdf->SetTitle($outputlangs->convToOutputCharset($this->title));
 			$pdf->SetSubject($outputlangs->convToOutputCharset($this->subject));
-			$pdf->SetCreator("Powererp ".DOL_VERSION);
+			$pdf->SetCreator("PowerERP ".DOL_VERSION);
 			$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 			$pdf->SetKeywords($outputlangs->convToOutputCharset($this->title." ".$this->subject));
 

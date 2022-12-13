@@ -67,8 +67,8 @@ $success = 0;
 
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/powererp/conf.php") {
-	$forcedfile = "/etc/powererp/install.forced.php";
+if ($conffile == "/etc/PowerERP/conf.php") {
+	$forcedfile = "/etc/PowerERP/install.forced.php";
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;
@@ -239,7 +239,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i', $action)) {
 				// Insert MAIN_VERSION_FIRST_INSTALL in a dedicated transaction. So if it fails (when first install was already done), we can do other following requests.
 				$db->begin();
 				powererp_install_syslog('step5: set MAIN_VERSION_FIRST_INSTALL const to '.$targetversion, LOG_DEBUG);
-				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) values(".$db->encrypt('MAIN_VERSION_FIRST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'Powererp version when first install', 0)");
+				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) values(".$db->encrypt('MAIN_VERSION_FIRST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'PowerERP version when first install', 0)");
 				if ($resql) {
 					$conf->global->MAIN_VERSION_FIRST_INSTALL = $targetversion;
 					$db->commit();
@@ -255,7 +255,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i', $action)) {
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
-				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) values(".$db->encrypt('MAIN_VERSION_LAST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'Powererp version when last install', 0)");
+				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) values(".$db->encrypt('MAIN_VERSION_LAST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'PowerERP version when last install', 0)");
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
@@ -335,7 +335,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i', $action)) {
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
-				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) VALUES (".$db->encrypt('MAIN_VERSION_LAST_UPGRADE').", ".$db->encrypt($targetversion).", 'chaine', 0, 'Powererp version for last upgrade', 0)");
+				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) VALUES (".$db->encrypt('MAIN_VERSION_LAST_UPGRADE').", ".$db->encrypt($targetversion).", 'chaine', 0, 'PowerERP version for last upgrade', 0)");
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
@@ -462,7 +462,7 @@ if ($error && isset($argv[1])) {
 }
 powererp_install_syslog("Exit ".$ret);
 
-powererp_install_syslog("- step5: Powererp setup finished");
+powererp_install_syslog("- step5: PowerERP setup finished");
 
 pFooter(1, $setuplang, '', 0, $morehtml);
 

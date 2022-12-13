@@ -406,7 +406,7 @@ class EcmFiles extends CommonObject
 		$sql .= " t.src_object_id";
 		$sql .= ' FROM '.MAIN_DB_PREFIX.$this->table_element.' as t';
 		$sql .= ' WHERE 1 = 1';
-		/* Fetching this table depends on filepath+filename, it must not depends on entity because filesystem on disk does not know what is Powererp entities
+		/* Fetching this table depends on filepath+filename, it must not depends on entity because filesystem on disk does not know what is PowerERP entities
 		 if (! empty($conf->multicompany->enabled)) {
 		 $sql .= " AND entity IN (" . getEntity('ecmfiles') . ")";
 		 }*/

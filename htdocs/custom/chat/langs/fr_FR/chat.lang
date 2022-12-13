@@ -23,7 +23,7 @@
 Module452000Name = Chat
 # Module description 'ModuleXXXDesc'
 # (where XXX is value of numeric property 'numero' of module)
-Module452000Desc = Module de chat confectionné pour powererp
+Module452000Desc = Module de chat confectionné pour PowerERP
 # Permissions
 Permission452002 = Lire les messages et télécharger les pièces jointes du chat
 Permission452003 = Supprimer ses messages du chat

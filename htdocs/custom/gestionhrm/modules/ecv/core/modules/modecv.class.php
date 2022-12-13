@@ -25,12 +25,12 @@
  *  \ingroup    ecv
  *  \brief      Description and activation file for module ecv
  */
-include_once DOL_DOCUMENT_ROOT .'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT .'/core/modules/PowerERPModules.class.php';
 
 /**
  *  Description and activation class for module ecv
  */
-class modecv extends PowererpModules
+class modecv extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -47,7 +47,7 @@ class modecv extends PowererpModules
 		// $this->editor_url = 'https://www.site.ma';
 		
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 190961110; 
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'ecv';
@@ -59,7 +59,7 @@ class modecv extends PowererpModules
 		$this->name = preg_replace('/^mod/i','',get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "ModuleDesc190961110ecv";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		// $this->version = '9.5';
 		$this->version = '12.0';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
@@ -117,7 +117,7 @@ class modecv extends PowererpModules
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->conflictwith = array();	// List of modules id this module is in conflict with
 		$this->phpmin = array(5,0);					// Minimum version of PHP required by module
-		$this->need_powererp_version = array(3,0);	// Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3,0);	// Minimum version of PowerERP required by module
 		$this->langfiles = array("ecv@ecv");
 
 		// Constants
@@ -556,7 +556,7 @@ class modecv extends PowererpModules
 
 	/**
 	 *		Function called when module is disabled.
-	 *      Remove from database constants, boxes and permissions from Powererp database.
+	 *      Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

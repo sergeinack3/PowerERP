@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Area de miembros
 MemberCard=Ficha de miembro
 SubscriptionCard=Ficha de la suscripción
@@ -7,7 +7,7 @@ ThirdpartyNotLinkedToMember=Tercero no vinculado a un miembro
 FundationMembers=Miembros de la fundación
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Otro miembro (nombre: <b>%s</b>, usuario: <b>%s</b>) está vinculado al tercero <b>%s</b>. Debes quitar primero este vínculo pues un tercero no puede estar vinculado a más de un miembro (y viceversa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Por motivos de seguridad, debe tener permisos para editar todos los usuarios para poder vincular a un miembro a un usuario que no sea suyo.
-SetLinkToThirdParty=Vincular a un tercedo de Powererp
+SetLinkToThirdParty=Vincular a un tercedo de PowerERP
 MembersList=Lista de miembros
 MembersListToValid=Lista de miembros en estado borrador (a ser validados)
 MembersListValid=Lista de miembros válidos
@@ -47,7 +47,7 @@ DeleteSubscription=Eliminar una suscripción
 Filehtpasswd=archivo htpasswd
 ConfirmValidateMember=¿Estás seguro que quieres validar a este miembro?
 PublicMemberList=Lista pública de miembros
-BlankSubscriptionFormDesc=Powererp puede proporcionarte una URL/sitio web público para permitir que los visitantes externos puedan solicitar suscribirse a la fundación. Si se habilita un módulo de pago en línea, también se puede proporcionar automáticamente un formulario para este fin.
+BlankSubscriptionFormDesc=PowerERP puede proporcionarte una URL/sitio web público para permitir que los visitantes externos puedan solicitar suscribirse a la fundación. Si se habilita un módulo de pago en línea, también se puede proporcionar automáticamente un formulario para este fin.
 EnablePublicSubscriptionForm=Habilite el sitio público con el formulario de auto suscripción
 LastMembersModified=Últimos %smiembros modificados
 Text=Texto

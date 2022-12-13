@@ -22,7 +22,7 @@
  *  \brief      Tab for notes on KnowledgeRecord
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/knowledgemanagement/class/knowledgerecord.class.php';

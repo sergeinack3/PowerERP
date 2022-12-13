@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Produkt čj.
 ProductLabel=Štítek produktu
 ProductLabelTranslated=Přeložený štítek produktu
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimální nákupní cena
 MinCustomerPrice=Minimální prodejní cena
 NoDynamicPrice=No dynamic price
 DynamicPriceConfiguration=Dynamická konfigurace cen
-DynamicPriceDesc=Můžete definovat matematické vzorce pro výpočet cen zákazníků nebo prodejců. Takové vzorce mohou používat všechny matematické operátory, některé konstanty a proměnné. Zde můžete definovat proměnné, které chcete použít. Pokud proměnná potřebuje automatickou aktualizaci, můžete definovat externí URL, aby Powererp umožnil automatickou aktualizaci hodnoty.
+DynamicPriceDesc=Můžete definovat matematické vzorce pro výpočet cen zákazníků nebo prodejců. Takové vzorce mohou používat všechny matematické operátory, některé konstanty a proměnné. Zde můžete definovat proměnné, které chcete použít. Pokud proměnná potřebuje automatickou aktualizaci, můžete definovat externí URL, aby PowerERP umožnil automatickou aktualizaci hodnoty.
 AddVariable=Přidat proměnnou
 AddUpdater=Přidat Update
 GlobalVariables=Globální proměnné
@@ -378,7 +378,7 @@ NewProductAttribute=Nový atribut
 NewProductAttributeValue=Nová hodnota atributu
 ErrorCreatingProductAttributeValue=Při vytváření hodnoty atributu došlo k chybě. Mohlo by to být proto, že existuje již existující hodnota s tímto odkazem
 ProductCombinationGeneratorWarning=Pokud budete pokračovat, předtím, než vygenerujete nové varianty, budou všechny předchozí DELETED. Již existující budou aktualizovány s novými hodnotami
-TooMuchCombinationsWarning=Generování mnoha variant může mít za následek vysoký CPU, využití paměti a Powererp, které je nemohou vytvořit. Povolení možnosti "%s" může pomoci snížit využití paměti.
+TooMuchCombinationsWarning=Generování mnoha variant může mít za následek vysoký CPU, využití paměti a PowerERP, které je nemohou vytvořit. Povolení možnosti "%s" může pomoci snížit využití paměti.
 DoNotRemovePreviousCombinations=Neodstraňujte předchozí varianty
 UsePercentageVariations=Použijte procentuální variace
 PercentageVariation=Procentní variace

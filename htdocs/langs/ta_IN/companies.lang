@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=நிறுவனத்தின் பெயர் %s ஏற்கனவே உள்ளது. இன்னொன்றைத் தேர்ந்தெடுங்கள்.
 ErrorSetACountryFirst=முதலில் நாட்டை அமைக்கவும்
 SelectThirdParty=மூன்றாம் தரப்பினரைத் தேர்ந்தெடுக்கவும்
@@ -378,7 +378,7 @@ CapitalOf=%s இன் மூலதனம்
 EditCompany=நிறுவனத்தைத் திருத்தவும்
 ThisUserIsNot=இந்த பயனர் ஒரு வாய்ப்பு, வாடிக்கையாளர் அல்லது விற்பனையாளர் அல்ல
 VATIntraCheck=காசோலை
-VATIntraCheckDesc=VAT ஐடியில் நாட்டின் முன்னொட்டு இருக்க வேண்டும். <b> %s </b> என்ற இணைப்பு ஐரோப்பிய VAT சரிபார்ப்பு சேவையைப் (VIES) பயன்படுத்துகிறது, இதற்கு Powererp சேவையகத்திலிருந்து இணைய அணுகல் தேவைப்படுகிறது.
+VATIntraCheckDesc=VAT ஐடியில் நாட்டின் முன்னொட்டு இருக்க வேண்டும். <b> %s </b> என்ற இணைப்பு ஐரோப்பிய VAT சரிபார்ப்பு சேவையைப் (VIES) பயன்படுத்துகிறது, இதற்கு PowerERP சேவையகத்திலிருந்து இணைய அணுகல் தேவைப்படுகிறது.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=ஐரோப்பிய ஆணைய இணையதளத்தில் உள்ள சமூக VAT ஐடியைப் பார்க்கவும்
 VATIntraManualCheck=ஐரோப்பிய ஆணைய இணையதளமான <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> இல் நீங்கள் கைமுறையாகச் சரிபார்க்கலாம்.

@@ -27,14 +27,14 @@
  *  \ingroup    partnership
  *  \brief      Description and activation file for module Partnership
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 /**
  *  Description and activation class for module Partnership
  *  This module is base on this specification :
- *  https://wiki.powererp.org/index.php?title=Draft:Module_Partnership_management#Note
+ *  https://wiki.PowerERP.org/index.php?title=Draft:Module_Partnership_management#Note
  */
-class modPartnership extends PowererpModules
+class modPartnership extends PowerERPModules
 {
 	/**
 	 * Constructor. Define names, constants, directories, boxes, permissions
@@ -47,7 +47,7 @@ class modPartnership extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 58000;
 
 		// Key text used to identify module (for permissions, menus, etc...)
@@ -74,7 +74,7 @@ class modPartnership extends PowererpModules
 		// $this->editor_name = 'Editor name';
 		// $this->editor_url = 'https://www.example.com';
 
-		// Possible values for version are: 'development', 'experimental', 'powererp', 'powererp_deprecated' or a version string like 'x.y.z'
+		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'powererp_deprecated' or a version string like 'x.y.z'
 		$this->version = 'development';
 		// Url to the file with your last numberversion of this module
 		//$this->url_last_version = 'http://www.example.com/versionmodule.txt';
@@ -148,7 +148,7 @@ class modPartnership extends PowererpModules
 
 		// Prerequisites
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(11, -3); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(11, -3); // Minimum version of PowerERP required by module
 
 		// Messages at activation
 		$this->warnings_activation = array(); // Warning to show when we activate module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
@@ -253,7 +253,7 @@ class modPartnership extends PowererpModules
 
 		$this->cronjobs = array(
 			0	=> array('priority'=>60, 'label'=>'CancelPartnershipForExpiredMembers', 'jobtype'=>'method', 'class'=>'/partnership/class/partnershiputils.class.php', 'objectname'=>'PartnershipUtils', 'method'=>'doCancelStatusOfMemberPartnership', 'parameters'=>'',      'comment'=>'Cancel status of partnership when subscription is expired + x days.', 'frequency'=>1, 'unitfrequency'=>86400, 'status'=>1, 'test'=>'$conf->partnership->enabled', 'datestart'=>$datestart),
-			1	=> array('priority'=>61, 'label'=>'PartnershipCheckBacklink', 'jobtype'=>'method', 'class'=>'/partnership/class/partnershiputils.class.php', 'objectname'=>'PartnershipUtils', 'method'=>'doWarningOfPartnershipIfPowererpBacklinkNotfound', 'parameters'=>'',      'comment'=>'Warning of partnership if Powererp backlink not found on partner website.', 'frequency'=>1, 'unitfrequency'=>86400, 'status'=>0, 'test'=>'$conf->partnership->enabled', 'datestart'=>$datestart),
+			1	=> array('priority'=>61, 'label'=>'PartnershipCheckBacklink', 'jobtype'=>'method', 'class'=>'/partnership/class/partnershiputils.class.php', 'objectname'=>'PartnershipUtils', 'method'=>'doWarningOfPartnershipIfPowererpBacklinkNotfound', 'parameters'=>'',      'comment'=>'Warning of partnership if PowerERP backlink not found on partner website.', 'frequency'=>1, 'unitfrequency'=>86400, 'status'=>0, 'test'=>'$conf->partnership->enabled', 'datestart'=>$datestart),
 		);
 
 		// Permissions provided by this module
@@ -398,7 +398,7 @@ class modPartnership extends PowererpModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *  It also creates data directories
 	 *
 	 *  @param      string  $options    Options when enabling module ('', 'noboxes')
@@ -461,7 +461,7 @@ class modPartnership extends PowererpModules
 
 	/**
 	 *  Function called when module is disabled.
-	 *  Remove from database constants, boxes and permissions from Powererp database.
+	 *  Remove from database constants, boxes and permissions from PowerERP database.
 	 *  Data directories are not deleted
 	 *
 	 *  @param      string	$options    Options when enabling module ('', 'noboxes')

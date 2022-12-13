@@ -200,7 +200,7 @@ if ($mode == 'setup' && $user->admin) {
 				print '<td>'.$langs->trans("Token").'</td>';
 				print '<td colspan="2">';
 				$tokenobj = null;
-				// Powererp storage
+				// PowerERP storage
 				$storage = new DoliStorage($db, $conf);
 				try {
 					$tokenobj = $storage->retrieveAccessToken($OAUTH_SERVICENAME_GOOGLE);

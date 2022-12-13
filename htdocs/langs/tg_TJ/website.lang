@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Рамз
 WebsiteSetupDesc=Дар ин ҷо вебсайтҳое, ки мехоҳед истифода баред, эҷод кунед. Сипас ба менюи Вебсайтҳо ворид шавед, то онҳоро таҳрир кунед.
 DeleteWebsite=Вебсайтро нест кунед
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Дидани вебсайт бо истифода аз U
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Намуна барои истифода дар танзими мизбони виртуалии Apache:
 YouCanAlsoTestWithPHPS=<u>Use with PHP embedded server</u><br>On develop environment, you may prefer to test the site with the PHP embedded web server (PHP 5.5 required) by running<br><strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP= <u> Вебсайти худро бо провайдери дигари хостинги Powererp идора кунед </u> <br> Агар шумо веб -сервери монанди Apache ё NGinx дар интернет дастрас набошед, шумо метавонед вебсайти худро ба як мисоли дигари Powererp, ки аз ҷониби провайдери дигари хостинги Powererp пешниҳод шудааст, содир ва ворид кунед. ҳамгироӣ бо модули вебсайт. Шумо метавонед рӯйхати баъзе провайдерҳои хостинги Powererp -ро дар <a href="https://saas.powererp.org" target="_blank"> пайдо кунед https://saas.powererp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Вебсайти худро бо провайдери дигари хостинги PowerERP идора кунед </u> <br> Агар шумо веб -сервери монанди Apache ё NGinx дар интернет дастрас набошед, шумо метавонед вебсайти худро ба як мисоли дигари PowerERP, ки аз ҷониби провайдери дигари хостинги PowerERP пешниҳод шудааст, содир ва ворид кунед. ҳамгироӣ бо модули вебсайт. Шумо метавонед рӯйхати баъзе провайдерҳои хостинги PowerERP -ро дар <a href="https://saas.PowerERP.org" target="_blank"> пайдо кунед https://saas.PowerERP.org </a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Хондан
 WritePerm=Нависед
 TestDeployOnWeb=Санҷиш/густариш дар веб
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByPowererp= <u> Пешнамоиши %s дар ҷадвали нав. </u> <br> <br> %s аз ҷониби сервери Powererp хидмат карда мешавад, аз ин рӯ барои насб кардан ягон сервери иловагии веб (ба монанди Apache, Nginx, IIS) лозим нест. <br> Хеле нороҳаткунанда дар он аст, ки URL -и саҳифаҳо барои корбарон қулай нестанд ва аз роҳи Powererp -и худ оғоз мекунанд. <br> URL хизмат аз тарафи Powererp: <br> <strong> %s </strong> <br> <br> Барои истифодаи худ веб беруна сервери Шумо ба хизмат дар ин сомона, эҷод мизбон виртуалӣ дар веб-сервер аз шумо, ки нуқтаҳои оид ба феҳрист <br> <strong> %s </strong> <br> он гоҳ номи ин сервер виртуалӣ дохил дар хосиятҳои ин вебсайт ва истиноди "Санҷиш/Ҷойгиркунӣ дар веб" -ро клик кунед.
+PreviewSiteServedByPowererp= <u> Пешнамоиши %s дар ҷадвали нав. </u> <br> <br> %s аз ҷониби сервери PowerERP хидмат карда мешавад, аз ин рӯ барои насб кардан ягон сервери иловагии веб (ба монанди Apache, Nginx, IIS) лозим нест. <br> Хеле нороҳаткунанда дар он аст, ки URL -и саҳифаҳо барои корбарон қулай нестанд ва аз роҳи PowerERP -и худ оғоз мекунанд. <br> URL хизмат аз тарафи PowerERP: <br> <strong> %s </strong> <br> <br> Барои истифодаи худ веб беруна сервери Шумо ба хизмат дар ин сомона, эҷод мизбон виртуалӣ дар веб-сервер аз шумо, ки нуқтаҳои оид ба феҳрист <br> <strong> %s </strong> <br> он гоҳ номи ин сервер виртуалӣ дохил дар хосиятҳои ин вебсайт ва истиноди "Санҷиш/Ҷойгиркунӣ дар веб" -ро клик кунед.
 VirtualHostUrlNotDefined=URL -и мизбони маҷозӣ, ки аз ҷониби веб -сервери беруна хидмат мекунад, муайян нашудааст
 NoPageYet=Ҳоло ягон саҳифа нест
 YouCanCreatePageOrImportTemplate=Шумо метавонед як саҳифаи нав эҷод кунед ё як қолаби пурраи вебсайтро ворид кунед

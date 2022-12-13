@@ -1,12 +1,12 @@
 #!/usr/bin/perl
 #----------------------------------------------------------------------------
-# \file         build/makepack-powererp.pl
-# \brief        Powererp package builder (tgz, zip, rpm, deb, exe, aps)
+# \file         build/makepack-PowerERP.pl
+# \brief        PowerERP package builder (tgz, zip, rpm, deb, exe, aps)
 # \author       (c)2004-2020 Laurent Destailleur  <eldy@users.sourceforge.net>
 #
 # This is list of constant you can set to have generated packages moved into a specific dir: 
-#DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/Powererp/powererp.org/files/lastbuild'
-#DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/Powererp/powererp.org/files/stable'
+#DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/PowerERP/PowerERP.org/files/lastbuild'
+#DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/PowerERP/PowerERP.org/files/stable'
 #DESTIMODULES='/media/HDDATA1_LD/Mes Sites/Web/Admin1/wwwroot/files/modules'
 #DESTIDOLIMEDBETARC='/media/HDDATA1_LD/Mes Sites/Web/DoliCloud/dolimed.com/htdocs/files/lastbuild'
 #DESTIDOLIMEDMODULES='/media/HDDATA1_LD/Mes Sites/Web/DoliCloud/dolimed.com/htdocs/files/modules'
@@ -17,9 +17,9 @@ use Cwd;
 use Term::ANSIColor;
 
 # Change this to defined target for option 98 and 99
-$PROJECT="powererp";
-$PUBLISHSTABLE="eldy,powererp\@frs.sourceforge.net:/home/frs/project/powererp";
-$PUBLISHBETARC="powererp\@vmprod1.powererp.org:/home/powererp/asso.powererp.org/powererp_documents/website/www.powererp.org/files";
+$PROJECT="PowerERP";
+$PUBLISHSTABLE="eldy,PowerERP\@frs.sourceforge.net:/home/frs/project/PowerERP";
+$PUBLISHBETARC="PowerERP\@vmprod1.PowerERP.org:/home/PowerERP/asso.PowerERP.org/powererp_documents/website/www.PowerERP.org/files";
 
 
 #@LISTETARGET=("TGZ","ZIP","RPM_GENERIC","RPM_FEDORA","RPM_MANDRIVA","RPM_OPENSUSE","DEB","EXEDOLIWAMP","SNAPSHOT");   # Possible packages
@@ -76,8 +76,8 @@ if (! $ENV{"DESTIBETARC"} || ! $ENV{"DESTISTABLE"})
 {
 	print "Error: Missing environment variables.\n";
 	print "You must define the environment variable DESTIBETARC and DESTISTABLE to point to the\ndirectories where you want to save the generated packages.\n";
-	print "Example: DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/Powererp/powererp.org/files/lastbuild'\n";
-	print "Example: DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/Powererp/powererp.org/files/stable'\n";
+	print "Example: DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/PowerERP/PowerERP.org/files/lastbuild'\n";
+	print "Example: DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/PowerERP/PowerERP.org/files/stable'\n";
 	print "$PROG.$Extension aborted.\n";
 	sleep 2;
 	exit 1;
@@ -487,14 +487,14 @@ if ($nboftargetok) {
 		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp_*.dsc`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp_*.tar.gz`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp_*.tar.xz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.deb`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.rpm`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.tar`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.tar.gz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.tar.xz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.tgz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.xz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/build/powererp-*.zip`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.deb`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.rpm`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.tar`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.tar.gz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.tar.xz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.tgz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.xz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/build/PowerERP-*.zip`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/build/doxygen/doxygen_warnings.log`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/htdocs/cache.manifest`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/htdocs/conf/conf.php`;
@@ -840,8 +840,8 @@ if ($nboftargetok) {
 			close SPECTO;
 	
 			print "Copy patch file to $RPMDIR/SOURCES\n";
-			$ret=`cp "$SOURCE/build/rpm/powererp-forrpm.patch" "$RPMDIR/SOURCES"`;
-			$ret=`chmod 644 $RPMDIR/SOURCES/powererp-forrpm.patch`;
+			$ret=`cp "$SOURCE/build/rpm/PowerERP-forrpm.patch" "$RPMDIR/SOURCES"`;
+			$ret=`chmod 644 $RPMDIR/SOURCES/PowerERP-forrpm.patch`;
 
 			print "Launch RPM build (rpmbuild --clean -ba $BUILDROOT/${BUILDFIC})\n";
 			#$ret=`rpmbuild -vvvv --clean -ba $BUILDROOT/${BUILDFIC}`;
@@ -910,15 +910,15 @@ if ($nboftargetok) {
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/compat`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/control*`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/copyright`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.config`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.desktop`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.docs`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.install`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.lintian-overrides`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.postrm`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.postinst`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.templates`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/powererp.templates.futur`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.config`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.desktop`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.docs`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.install`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.lintian-overrides`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.postrm`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.postinst`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.templates`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/PowerERP.templates.futur`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/rules`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/README.Debian`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/build/debian/README.howto`;
@@ -973,11 +973,11 @@ if ($nboftargetok) {
 			$ret=`cp -f  "$SOURCE/build/debian/compat"         "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/build/debian/control"        "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/build/debian/copyright"      "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.desktop"        	"$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.docs"        		"$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.install" 	        "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.lintian-overrides"  "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.xpm"  		      	"$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.desktop"        	"$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.docs"        		"$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.install" 	        "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.lintian-overrides"  "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.xpm"  		      	"$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/build/debian/rules"          "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/build/debian/watch"          "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -fr "$SOURCE/build/debian/patches"        "$BUILDROOT/$PROJECT.tmp/debian"`;
@@ -987,10 +987,10 @@ if ($nboftargetok) {
 			$ret=`cp -f  "$SOURCE/build/debian/apache/.htaccess" "$BUILDROOT/$PROJECT.tmp/debian/apache"`;
 			$ret=`cp -fr "$SOURCE/build/debian/lighttpd"       "$BUILDROOT/$PROJECT.tmp/debian/lighttpd"`;
 			# Add files also required to build binary package
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.config"         "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.postinst"       "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.postrm"         "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/build/debian/powererp.templates"      "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.config"         "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.postinst"       "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.postrm"         "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/build/debian/PowerERP.templates"      "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/build/debian/install.forced.php.install"      "$BUILDROOT/$PROJECT.tmp/debian"`;
 			
 			# Set owners and permissions
@@ -1111,16 +1111,16 @@ if ($nboftargetok) {
 		print "\nList of files to publish (BUILD=$BUILD)\n";
 		%filestoscansf=(
 			"$DESTI/signatures/filelist-$MAJOR.$MINOR.$BUILD.xml"=>'none',				# none means it won't be published on SF
-			"$DESTI/package_rpm_generic/$FILENAMERPM"=>'Powererp installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
+			"$DESTI/package_rpm_generic/$FILENAMERPM"=>'PowerERP installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
 			"$DESTI/package_rpm_generic/$FILENAMERPMSRC"=>'none',						# none means it won't be published on SF
-			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_all.deb"=>'Powererp installer for Debian-Ubuntu (DoliDeb)',
+			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_all.deb"=>'PowerERP installer for Debian-Ubuntu (DoliDeb)',
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_amd64.changes"=>'none',		# none means it won't be published on SF
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}.dsc"=>'none',					# none means it won't be published on SF
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}.debian.tar.xz"=>'none',		# none means it won't be published on SF
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEBSHORT}.orig.tar.gz"=>'none',		# none means it won't be published on SF
-			"$DESTI/package_windows/$FILENAMEEXEDOLIWAMP.exe"=>'Powererp installer for Windows (DoliWamp)',
-			"$DESTI/standard/$FILENAMETGZ.tgz"=>'Powererp ERP-CRM',
-			"$DESTI/standard/$FILENAMETGZ.zip"=>'Powererp ERP-CRM'
+			"$DESTI/package_windows/$FILENAMEEXEDOLIWAMP.exe"=>'PowerERP installer for Windows (DoliWamp)',
+			"$DESTI/standard/$FILENAMETGZ.tgz"=>'PowerERP ERP-CRM',
+			"$DESTI/standard/$FILENAMETGZ.zip"=>'PowerERP ERP-CRM'
 		);
 		%filestoscanstableasso=(
 			"$DESTI/signatures/filelist-$MAJOR.$MINOR.$BUILD.xml"=>'signatures',
@@ -1137,11 +1137,11 @@ if ($nboftargetok) {
 		);
 		if ($target eq 'ASSO' && $BUILD =~ /[a-z]/i)   { 	# Not stable
 			%filestoscansf=(
-				"$DESTI/$FILENAMERPM"=>'Powererp installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
-				"$DESTI/${FILENAMEDEB}_all.deb"=>'Powererp installer for Debian-Ubuntu (DoliDeb)',
-				"$DESTI/$FILENAMEEXEDOLIWAMP.exe"=>'Powererp installer for Windows (DoliWamp)',
-				"$DESTI/$FILENAMETGZ.tgz"=>'Powererp ERP-CRM',
-				"$DESTI/$FILENAMETGZ.zip"=>'Powererp ERP-CRM'
+				"$DESTI/$FILENAMERPM"=>'PowerERP installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
+				"$DESTI/${FILENAMEDEB}_all.deb"=>'PowerERP installer for Debian-Ubuntu (DoliDeb)',
+				"$DESTI/$FILENAMEEXEDOLIWAMP.exe"=>'PowerERP installer for Windows (DoliWamp)',
+				"$DESTI/$FILENAMETGZ.tgz"=>'PowerERP ERP-CRM',
+				"$DESTI/$FILENAMETGZ.zip"=>'PowerERP ERP-CRM'
 			);
 			%filestoscanstableasso=(
 				"$DESTI/$FILENAMERPM"=>'',
@@ -1224,7 +1224,7 @@ if ($nboftargetok) {
 				#my $sftp = Net::SFTP::Foreign->new($ip, user => $user, password => $pass, autodie => 1);
 				#$sftp->mkdir($destFolder)
 
-				#$command="ssh eldy,powererp\@frs.sourceforge.net mkdir -p \"$destFolder\"";
+				#$command="ssh eldy,PowerERP\@frs.sourceforge.net mkdir -p \"$destFolder\"";
 				#print "$command\n";	
 				#my $ret=`$command 2>&1`;
 

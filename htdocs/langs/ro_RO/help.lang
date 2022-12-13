@@ -1,12 +1,12 @@
-# Powererp language file - Source file is en_US - help
+# PowerERP language file - Source file is en_US - help
 CommunitySupport=Forum/Wiki suport
 EMailSupport=E-mail-uri suport
 RemoteControlSupport=Suport în timp real / remote
 OtherSupport=Alte tipuri de suport
 ToSeeListOfAvailableRessources=Pentru a contacta / vezi resurse disponibile:
 HelpCenter=Centrul de Ajutor
-PowererpHelpCenter=Powererp Help and Support Center
-ToGoBackToPowererp=Otherwise, <a href="%s">click here to continue to use Powererp</a>.
+PowererpHelpCenter=PowerERP Help and Support Center
+ToGoBackToPowererp=Otherwise, <a href="%s">click here to continue to use PowerERP</a>.
 TypeOfSupport=Type of support
 TypeSupportCommunauty=Comunitate (gratuit)
 TypeSupportCommercial=Comercial
@@ -17,7 +17,7 @@ TypeHelpOnly=Numai Ajutor
 TypeHelpDev=Ajutor + Dezvoltare
 TypeHelpDevForm=Help+Development+Training
 BackToHelpCenter=Otherwise, <a href="%s">go back to Help center home page</a>.
-LinkToGoldMember=You can call one of the trainers preselected by Powererp for your language (%s) by clicking their Widget (status and maximum price are automatically updated):
+LinkToGoldMember=You can call one of the trainers preselected by PowerERP for your language (%s) by clicking their Widget (status and maximum price are automatically updated):
 PossibleLanguages=Limbi suportate
-SubscribeToFoundation=Help the Powererp project, subscribe to the foundation
-SeeOfficalSupport=Pentru suport oficial Powererp în limba dvs:  <br><b><a href="%s" target="_blank">%s</a></b>
+SubscribeToFoundation=Help the PowerERP project, subscribe to the foundation
+SeeOfficalSupport=Pentru suport oficial PowerERP în limba dvs:  <br><b><a href="%s" target="_blank">%s</a></b>

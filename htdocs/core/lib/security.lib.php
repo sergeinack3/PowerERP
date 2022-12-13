@@ -21,7 +21,7 @@
 /**
  *  \file		htdocs/core/lib/security.lib.php
  *  \ingroup    core
- *  \brief		Set of function used for powererp security (common function included into filefunc.inc.php)
+ *  \brief		Set of function used for PowerERP security (common function included into filefunc.inc.php)
  *  			Warning, this file must not depends on other library files, except function.lib.php
  *  			because it is used at low code level.
  */
@@ -185,7 +185,7 @@ function dolGetLdapPasswordHash($password, $type = 'md5')
 	if ($type === 'md5') {
 		return '{MD5}' . base64_encode(hash("md5", $password, true)); //For OpenLdap with md5 (based on an unencrypted password in base)
 	} elseif ($type === 'md5frommd5') {
-		return '{MD5}' . base64_encode(hex2bin($password)); // Create OpenLDAP MD5 password from Powererp MD5 password
+		return '{MD5}' . base64_encode(hex2bin($password)); // Create OpenLDAP MD5 password from PowerERP MD5 password
 	} elseif ($type === 'smd5') {
 		return "{SMD5}" . base64_encode(hash("md5", $password . $salt, true) . $salt);
 	} elseif ($type === 'sha') {

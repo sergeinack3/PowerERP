@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - compta
+# PowerERP language file - Source file is en_US - compta
 MenuFinancial=Fakturace | Platba
 TaxModuleSetupToModifyRules=Přejít na <a href="%s">Nastavení daní</a> pro změnu výpočtu daní
 TaxModuleSetupToModifyRulesLT=Jděte na <a href="%s">Nastavení firmy</a> pro úpravu podmínek pro kalkulaci

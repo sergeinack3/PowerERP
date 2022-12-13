@@ -1,4 +1,4 @@
-# Powererp language file - fr_FR - factory
+# PowerERP language file - fr_FR - factory
 CHARSET=UTF-8
 Restock=reStock
 InOrder=In order
@@ -92,7 +92,7 @@ ReassortModeWithoutAll=Do not take anything into account
 InfoReassortMode=Allows to modify the calculation method of the reassortment taking into account or not the inventory and the orders in progress
 BillsUnpaid=Unpaid
 CreateCustomerOrderfromOtherDB=Creating Sales Orders from Another Database
-InfoCreateCustomerOrderfromOtherDB=This feature allows you to create a customer order in your Powererp from the provider command of another database
+InfoCreateCustomerOrderfromOtherDB=This feature allows you to create a customer order in your PowerERP from the provider command of another database
 DatabaseNameFourn=Database name
 PrefixTableFourn=Supplier table prefix
 CustomIdFourn=Suppli"er Id
@@ -117,7 +117,7 @@ LienDolistore=Find our other modules
 Changelog=ChangeLog du module
 SupportModuleInformation=Technical informations
 SupportModuleInformationDesc=<br/> <em>Note: This information is useful and may be requested if you encounter a bug in module operation.</em>
-PowererpVersion=Version de Powererp
+PowererpVersion=Version de PowerERP
 ModuleVersion=Module version
 PHPVersion=PHP Version
 DatabaseVersion=Version of the database

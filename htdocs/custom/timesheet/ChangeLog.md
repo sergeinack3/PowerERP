@@ -67,7 +67,7 @@
  - fix: approver saved properly in the bd
  - fix: pgSQL compatibility issue
  - fix: no from-to date showed on invoice
- - fix: main menu icon display in powererp 8
+ - fix: main menu icon display in PowerERP 8
 
 
 3.2 change log from 3.1.7
@@ -127,7 +127,7 @@
 2.2.6 Change log from 2.2.3
  - new: support PostGreSQL database
  - new/fix: support custom project roles
- - new/fix: support Powererp 7.0.0
+ - new/fix: support PowerERP 7.0.0
  - fix: behaviour of notes in the timesheet pages with favourites
  - fix: "not defied" showing instead of project name
  - fix: correction of the message when a favourite was added
@@ -169,7 +169,7 @@
 - fix:javascript error that prevented to color change upon time entry
 - fix: progress not showing up
 - fix: weeks with a 8th day
-- fix: powererp 6.0 compatibility
+- fix: PowerERP 6.0 compatibility
 - change:"New" button removed from the admin page,
 - change: end date showed on the admin card page
 
@@ -196,7 +196,7 @@
 Change log from 1.4.3:
 
  - Timesheet approval by N+1,
- - Reminder (email) for to be approved timesheet possible through powererp planned tasks
+ - Reminder (email) for to be approved timesheet possible through PowerERP planned tasks
  - admin wiew for the Approval (change a approval status outside the normal approval flow)
  - Home box with the pending timesheet to be approved
  - Blocking some weekdays (e.g week ends)
@@ -207,7 +207,7 @@ Change log from 1.4.3:
 Change log from 1.4.1:
 
  - correction of the Spanish language (thanks to vinclar)
- - possible to deactivate the powererp Ajax for the dropdown list for the setup page (in case of issue to add whitelist)
+ - possible to deactivate the PowerERP Ajax for the dropdown list for the setup page (in case of issue to add whitelist)
  - keep the whitlistmode after submit / go to date / next / previsous week
 
 
@@ -231,7 +231,7 @@ Change log from 1.3.7:
 
 Change log from 1.3.6:
 
-- compatible avec powererp 3.7
+- compatible avec PowerERP 3.7
 
 
 Change log from 1.3.3:

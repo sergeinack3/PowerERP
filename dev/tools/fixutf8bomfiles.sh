@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Checks of fix files contains UTF-8 BOM in powererp source tree,
+# Checks of fix files contains UTF-8 BOM in PowerERP source tree,
 # excluding git repository, custom modules and included libraries.
 #
 # Raphaël Doursenaud - rdoursenaud@gpcsolutions.fr

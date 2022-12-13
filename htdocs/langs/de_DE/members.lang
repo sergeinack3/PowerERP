@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Mitgliederbereich
 MemberCard=Mitgliedskarte
 SubscriptionCard=Mitgliedschafts-Karte
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Möchten Sie diese Beitragszahlung wirklich löschen?
 Filehtpasswd=htpasswd Datei
 ValidateMember=Mitglied freigeben
 ConfirmValidateMember=Möchten Sie dieses Mitglied wirklich aktivieren?
-FollowingLinksArePublic=Die folgenden Links sind öffentlich zugängliche Seiten und als solche nicht durch die Powererp-Zugriffskontrolle geschützt. Es handelt sich dabei zudem um unformatierte Seiten, die beispielsweise eine Liste aller in der Datenbank eingetragenen Mitglieder anzeigen. 
+FollowingLinksArePublic=Die folgenden Links sind öffentlich zugängliche Seiten und als solche nicht durch die PowerERP-Zugriffskontrolle geschützt. Es handelt sich dabei zudem um unformatierte Seiten, die beispielsweise eine Liste aller in der Datenbank eingetragenen Mitglieder anzeigen. 
 PublicMemberList=Liste öffentlicher Mitglieder
 BlankSubscriptionForm=Öffentliches Formular für die Registrierung von Mitgliedern
-BlankSubscriptionFormDesc=Powererp kann ihnen eine öffentliche URL/Website zur Verfügung stellen, die es externen Besuchern erlaubt, einen Beitrag zu entrichten. Wenn ein Online-Zahlungsmodul aktiviert ist, kann auch automatisch ein Zahlungsformular bereitgestellt werden.
+BlankSubscriptionFormDesc=PowerERP kann ihnen eine öffentliche URL/Website zur Verfügung stellen, die es externen Besuchern erlaubt, einen Beitrag zu entrichten. Wenn ein Online-Zahlungsmodul aktiviert ist, kann auch automatisch ein Zahlungsformular bereitgestellt werden.
 EnablePublicSubscriptionForm=Aktivieren der öffentlichen Webseite mit dem Formular für die Beitragshöhenerklärung (Mitgliedsantrag).
 ForceMemberType=Mitgliedsart erzwingen
 ExportDataset_member_1=Mitglieder und Beitragszahlungen

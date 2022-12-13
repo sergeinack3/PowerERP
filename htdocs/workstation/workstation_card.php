@@ -21,7 +21,7 @@
  *		\brief      Page to create/edit/view workstation
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
 require_once DOL_DOCUMENT_ROOT.'/resource/class/html.formresource.class.php';
@@ -394,11 +394,11 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 		$g = new UserGroup($db);
 		foreach ($object->usergroups as $id_group) {
 			$g->fetch($id_group);
-			$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb">' . $g->getNomUrl(1, '', 0, 'categtextwhite') . '</li>';
+			$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb">' . $g->getNomUrl(1, '', 0, 'categtextwhite') . '</li>';
 		}
 
 		print '<tr><td>' . $langs->trans('Groups') . '</td><td>';
-		print '<div class="select2-container-multi-powererp"><ul class="select2-choices-powererp">' . implode(' ', $toprint) . '</ul></div>';
+		print '<div class="select2-container-multi-PowerERP"><ul class="select2-choices-PowerERP">' . implode(' ', $toprint) . '</ul></div>';
 		print '</td></tr>';
 	}
 
@@ -408,11 +408,11 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 		$r = new Dolresource($db);
 		foreach ($object->resources as $id_resource) {
 			$r->fetch($id_resource);
-			$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb">' . $r->getNomUrl(1, '', '', 0, 'categtextwhite') . '</li>';
+			$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb">' . $r->getNomUrl(1, '', '', 0, 'categtextwhite') . '</li>';
 		}
 
 		print '<tr><td>' . $langs->trans('Machines') . '</td><td>';
-		print '<div class="select2-container-multi-powererp"><ul class="select2-choices-powererp">' . implode(' ', $toprint) . '</ul></div>';
+		print '<div class="select2-container-multi-PowerERP"><ul class="select2-choices-PowerERP">' . implode(' ', $toprint) . '</ul></div>';
 		print '</td></tr>';
 	}
 

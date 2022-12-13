@@ -22,7 +22,7 @@
  * \brief   MyModule setup page.
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 $res = 0;
 // Try main.inc.php into web root known defined into CONTEXT_DOCUMENT_ROOT (not always defined)
 if (!$res && !empty($_SERVER["CONTEXT_DOCUMENT_ROOT"])) {
@@ -416,9 +416,9 @@ if ($action == 'edit') {
 							$ways = $c->print_all_ways(' &gt;&gt; ', 'none', 0, 1); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formated text
 							$toprint = array();
 							foreach ($ways as $way) {
-								$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #bbb"') . '>' . $way . '</li>';
+								$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #bbb"') . '>' . $way . '</li>';
 							}
-							print '<div class="select2-container-multi-powererp" style="width: 90%;"><ul class="select2-choices-powererp">' . implode(' ', $toprint) . '</ul></div>';
+							print '<div class="select2-container-multi-PowerERP" style="width: 90%;"><ul class="select2-choices-PowerERP">' . implode(' ', $toprint) . '</ul></div>';
 						}
 					} elseif (preg_match('/thirdparty_type/', $val['type'])) {
 						if ($conf->global->{$constname}==2) {

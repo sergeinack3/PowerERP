@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -25,7 +25,7 @@ dolibase_include_once('core/class/num_model.php');
 
 class NumModelMarbre extends NumModel
 {
-	public $version       = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version       = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 	public $nom           = 'Marbre';
 	protected $const_name = '';
 	protected $table_name = '';

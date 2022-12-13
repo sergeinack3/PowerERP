@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID sự kiện
 Actions=Sự kiện
 Agenda=Lịch làm việc
@@ -31,10 +31,10 @@ ViewWeek=Xem tuần
 ViewPerUser=Trung bình mỗi người dùng xem
 ViewPerType=Mỗi kiểu xem
 AutoActions= Tự động điền
-AgendaAutoActionDesc= Tại đây, bạn có thể xác định các sự kiện mà bạn muốn Powererp tự động tạo trong Chương trình nghị sự. Nếu không có gì được kiểm tra, chỉ các hành động thủ công sẽ được đưa vào nhật ký và được hiển thị trong Chương trình nghị sự. Theo dõi tự động các hành động kinh doanh được thực hiện trên các đối tượng (xác nhận, thay đổi trạng thái) sẽ không được lưu.
-AgendaSetupOtherDesc= Trang này cung cấp các tùy chọn để cho phép xuất các sự kiện Powererp của bạn sang lịch bên ngoài (Thunderbird, Lịch Google, v.v.)
-AgendaExtSitesDesc=Trang này cho phép khai báo các nguồn bên ngoài lịch để xem các sự kiện của họ vào chương trình nghị sự Powererp.
-ActionsEvents=Sự kiện mà Powererp sẽ tạo ra một hành động trong chương trình nghị sự tự động
+AgendaAutoActionDesc= Tại đây, bạn có thể xác định các sự kiện mà bạn muốn PowerERP tự động tạo trong Chương trình nghị sự. Nếu không có gì được kiểm tra, chỉ các hành động thủ công sẽ được đưa vào nhật ký và được hiển thị trong Chương trình nghị sự. Theo dõi tự động các hành động kinh doanh được thực hiện trên các đối tượng (xác nhận, thay đổi trạng thái) sẽ không được lưu.
+AgendaSetupOtherDesc= Trang này cung cấp các tùy chọn để cho phép xuất các sự kiện PowerERP của bạn sang lịch bên ngoài (Thunderbird, Lịch Google, v.v.)
+AgendaExtSitesDesc=Trang này cho phép khai báo các nguồn bên ngoài lịch để xem các sự kiện của họ vào chương trình nghị sự PowerERP.
+ActionsEvents=Sự kiện mà PowerERP sẽ tạo ra một hành động trong chương trình nghị sự tự động
 EventRemindersByEmailNotEnabled=Lời nhắc sự kiện qua email không được bật vào thiết lập mô-đun %s.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Đã tạo bên thứ ba %s

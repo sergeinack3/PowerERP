@@ -1,8 +1,8 @@
-# Powererp language file - Source file is en_US - stripe
+# PowerERP language file - Source file is en_US - stripe
 StripeSetup=Configuració del mòdul Stripe
-StripeDesc=Oferiu als vostres clients una pàgina de pagament en línia per als pagaments amb targetes de crèdit/dèbit mitjançant <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Això es pot utilitzar per permetre als vostres clients fer pagaments ad hoc o per a pagaments relacionats amb un objecte Powererp concret (factura, comanda, ...)
+StripeDesc=Oferiu als vostres clients una pàgina de pagament en línia per als pagaments amb targetes de crèdit/dèbit mitjançant <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Això es pot utilitzar per permetre als vostres clients fer pagaments ad hoc o per a pagaments relacionats amb un objecte PowerERP concret (factura, comanda, ...)
 StripeOrCBDoPayment=Pagar amb targeta de crèdit o Stripe
-FollowingUrlAreAvailableToMakePayments=Les següents URL estan disponibles per a permetre a un client fer un cobrament en objectes de Powererp
+FollowingUrlAreAvailableToMakePayments=Les següents URL estan disponibles per a permetre a un client fer un cobrament en objectes de PowerERP
 PaymentForm=Formulari de pagament
 WelcomeOnPaymentPage=Benvingut als nostres serveis de pagament en línia
 ThisScreenAllowsYouToPay=Aquesta pantalla li permet fer el seu pagament en línia destinat a %s.

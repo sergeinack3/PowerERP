@@ -536,7 +536,7 @@ abstract class CommonDocGenerator
 			}
 
 			// Calculate total up and total discount percentage
-			// Note that this added fields does not match a field into database in Powererp (Powererp manage discount on lines not as a global property of object)
+			// Note that this added fields does not match a field into database in PowerERP (PowerERP manage discount on lines not as a global property of object)
 			$resarray['object_total_up'] = $totalUp;
 			$resarray['object_total_up_locale'] = price($resarray['object_total_up'], 0, $outputlangs);
 			if (method_exists($object, 'getTotalDiscount') && in_array(get_class($object), array('Propal', 'Proposal', 'Commande', 'Facture', 'SupplierProposal', 'CommandeFournisseur', 'FactureFournisseur'))) {
@@ -805,7 +805,7 @@ abstract class CommonDocGenerator
 	/**
 	 * Define array with couple substitution key => substitution value
 	 *
-	 * @param   Object		$object    		Powererp Object
+	 * @param   Object		$object    		PowerERP Object
 	 * @param   Translate	$outputlangs    Language object for output
 	 * @param   boolean		$recursive    	Want to fetch child array or child object
 	 * @return	array						Array of substitution key->code

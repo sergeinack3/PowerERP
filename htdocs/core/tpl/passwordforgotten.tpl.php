@@ -99,7 +99,7 @@ $(document).ready(function () {
 <div class="login_table_title center" title="<?php echo dol_escape_htmltag($title); ?>">
 <?php
 if (!empty($disablenofollow)) {
-	echo '<a class="login_table_title" href="https://www.powererp.org" target="_blank" rel="noopener noreferrer external">';
+	echo '<a class="login_table_title" href="https://www.PowerERP.org" target="_blank" rel="noopener noreferrer external">';
 }
 echo dol_escape_htmltag($title);
 if (!empty($disablenofollow)) {
@@ -217,7 +217,7 @@ if (!empty($morelogincontent)) {
 
 
 <div class="center login_main_home divpasswordmessagedesc paddingtopbottom<?php echo empty($conf->global->MAIN_LOGIN_BACKGROUND) ? '' : ' backgroundsemitransparent boxshadow'; ?>" style="max-width: 70%">
-<?php if ($mode == 'powererp' || !$disabled) { ?>
+<?php if ($mode == 'PowerERP' || !$disabled) { ?>
 	<span class="passwordmessagedesc">
 	<?php echo $langs->trans('SendNewPasswordDesc'); ?>
 	</span>

@@ -852,7 +852,7 @@ class UserGroup extends CommonObject
 		}
 		if (!empty($conf->global->LDAP_GROUP_FIELD_GROUPMEMBERS)) {
 			$valueofldapfield = array();
-			foreach ($this->members as $key => $val) {    // This is array of users for group into powererp database.
+			foreach ($this->members as $key => $val) {    // This is array of users for group into PowerERP database.
 				$muser = new User($this->db);
 				$muser->fetch($val->id);
 				$info2 = $muser->_load_ldap_info();

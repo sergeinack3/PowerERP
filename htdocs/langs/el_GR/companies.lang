@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Το όνομα τις εταιρίας %s υπάρχει ήδη. Επιλέξτε κάποιο άλλο.
 ErrorSetACountryFirst=Πρώτα πρέπει να οριστεί η χώρα
 SelectThirdParty=Επιλέξτε ένα Πελ./Προμ.
@@ -378,7 +378,7 @@ CapitalOf=Capital of %s
 EditCompany=Επεξεργασία Εταιρίας
 ThisUserIsNot=Αυτός ο χρήστης δεν είναι προοπτική, πελάτης ή πωλητής
 VATIntraCheck=Έλεγχος
-VATIntraCheckDesc=Το αναγνωριστικό ΦΠΑ πρέπει να περιλαμβάνει το πρόθεμα χώρας. Ο σύνδεσμος <b>%s</b> χρησιμοποιεί την ευρωπαϊκή υπηρεσία ελέγχου ΦΠΑ (VIES), η οποία απαιτεί πρόσβαση στο Διαδίκτυο από το διακομιστή Powererp.
+VATIntraCheckDesc=Το αναγνωριστικό ΦΠΑ πρέπει να περιλαμβάνει το πρόθεμα χώρας. Ο σύνδεσμος <b>%s</b> χρησιμοποιεί την ευρωπαϊκή υπηρεσία ελέγχου ΦΠΑ (VIES), η οποία απαιτεί πρόσβαση στο Διαδίκτυο από το διακομιστή PowerERP.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Ελέγξτε το ενδοκοινοτικό αναγνωριστικό ΦΠΑ στον δικτυακό τόπο της Ευρωπαϊκής Επιτροπής
 VATIntraManualCheck=Μπορείτε επίσης να ελέγξετε με μη αυτόματο τρόπο στον ιστότοπο της Ευρωπαϊκής Επιτροπής <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Προοπτικές ανά κατάσταση
 NoParentCompany=Τίποτα
 ExportCardToFormat=Export card to format
 ContactNotLinkedToCompany=Ο αντιπρόσωπος δεν αντιστοιχεί σε κάποιο στοιχείο
-PowererpLogin=Είσοδος Powererp
-NoPowererpAccess=Χωρίς πρόσβαση στο Powererp
+PowererpLogin=Είσοδος PowerERP
+NoPowererpAccess=Χωρίς πρόσβαση στο PowerERP
 ExportDataset_company_1=Τρίτα μέρη (εταιρείες / ιδρύματα / φυσικοί) και οι ιδιότητές τους
 ExportDataset_company_2=Οι επαφές και οι ιδιότητές τους
 ImportDataset_company_1=Τρίτα μέρη και τις ιδιότητές τους

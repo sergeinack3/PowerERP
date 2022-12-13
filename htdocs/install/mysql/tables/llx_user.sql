@@ -22,7 +22,7 @@ create table llx_user
   rowid             integer AUTO_INCREMENT PRIMARY KEY,
   entity            integer DEFAULT 1 NOT NULL, -- multi company id
 
-  ref_ext			varchar(50),				-- reference into an external system (not used by powererp)
+  ref_ext			varchar(50),				-- reference into an external system (not used by PowerERP)
   ref_int			varchar(50),				-- reference into an internal system (deprecated)
 
   admin             smallint DEFAULT 0,			-- user has admin profile

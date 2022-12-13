@@ -5,12 +5,12 @@
 # \author	Laurent Destailleur
 #--------------------------------------------------------------------
 
-# Usage: powererp-doxygen-filter.pl pathtofilefrompowererproot
+# Usage: PowerERP-doxygen-filter.pl pathtofilefrompowererproot
 
 $file=$ARGV[0];
 if (! $file)
 {
-	print "Usage: powererp-doxygen-filter.pl pathtofilefrompowererproot\n";
+	print "Usage: PowerERP-doxygen-filter.pl pathtofilefrompowererproot\n";
 	exit;
 }
 

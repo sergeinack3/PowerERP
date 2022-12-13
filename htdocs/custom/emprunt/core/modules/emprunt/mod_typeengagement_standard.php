@@ -31,10 +31,10 @@ dol_include_once('/emprunt/core/modules/emprunt/modules_typeengagement.php');
 class mod_typeengagement_standard extends ModeleNumRefTypeEngagement
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'TYPEENGAGEMENT';
 

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -61,7 +61,7 @@ FilesDeleted=Daten erfolgreich gelöscht
 NbOfEntries=Anz. Einträge
 GoToWikiHelpPage=Onlinehilfe (Internetzugang notwendig)
 RecordGenerated=Datensatz erzeugt
-PowererpInHttpAuthenticationSoPasswordUseless=Der Powererp Authentifizierungsmodus steht auf <b>%s</b> in der Konfigurationsdatei. Das heisst, dass Änderungen in diesem Feld keine Auswirkung haben werden, weil die Passwort - Datenbank ausserhalb der Powererp - Umgebung liegt.
+PowererpInHttpAuthenticationSoPasswordUseless=Der PowerERP Authentifizierungsmodus steht auf <b>%s</b> in der Konfigurationsdatei. Das heisst, dass Änderungen in diesem Feld keine Auswirkung haben werden, weil die Passwort - Datenbank ausserhalb der PowerERP - Umgebung liegt.
 PasswordForgotten=Hast du dein Passwort vergessen?
 NoAccount=Ich habe kein Benutzerkonto
 LastConnexion=Zuletzt gesehen am:
@@ -239,7 +239,7 @@ RootOfMedias=Stammverzeichnis für öffentliche Bilder (/medias)
 FreeLineOfType=Freitext vom Typ
 ReGeneratePDF=PDF erneut erzeugen
 DocumentModelStandardPDF=Standardvorlage (PDF)
-WarningYouAreInMaintenanceMode=Obacht, wir sind im Wartungsmodus. Nur der Benutzer "<b>%s</b>" kann Powererp im Moment nutzen.
+WarningYouAreInMaintenanceMode=Obacht, wir sind im Wartungsmodus. Nur der Benutzer "<b>%s</b>" kann PowerERP im Moment nutzen.
 CoreErrorMessage=Hoppla, es ist ein Fehler aufgetreten. Dein Administrator kann mehr herausfinden, indem er die Logdateien durchgeht (oder in der Systemkonfiguration $powererp_main_prod auf '0' setzen)
 CreditOrDebitCard=Kredit- oder Debitkarte
 FieldsWithIsForPublic=Alle Felder mit "<b>%s</b>" sind in der öffentlichen Mitgliederliste sichtbar. Das kannst du durch Anwählen der Checkbox "Öffentlich" unterbinden.
@@ -286,7 +286,7 @@ ClassifyBilled=Verrechnet
 ClassifyUnbilled=Auf "Nicht verrechnet" setzen
 Progress=Fortschritt
 ProgressShort=Fortschr.
-BackOffice=Powererp
+BackOffice=PowerERP
 ExportFilteredList=Exportiere gefilterte Positionen
 ExportList=Exportiere Positionen
 IncludeDocsAlreadyExported=Beziehe bereits exportierte Dokumente mit ein

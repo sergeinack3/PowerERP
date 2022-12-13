@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=ບັນຊີບັນຊີທີ່ໃຊ້ສໍາລັບຜູ້ໃຊ້ພາກສ່ວນທີສາມ
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=ບັນຊີການບັນຊີສະເພາະທີ່ໄດ້ກໍານົດໄວ້ໃນບັດຜູ້ໃຊ້ຈະຖືກນໍາໃຊ້ສໍາລັບບັນຊີ Subledger ເທົ່ານັ້ນ. ອັນນີ້ຈະຖືກໃຊ້ສໍາລັບບັນຊີແຍກປະເພດທົ່ວໄປແລະເປັນຄ່າເລີ່ມຕົ້ນຂອງບັນຊີ Subledger ຖ້າບັນຊີບັນຊີຜູ້ໃຊ້ສະເພາະຢູ່ໃນຜູ້ໃຊ້ບໍ່ໄດ້ກໍານົດໄວ້.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=ບັນຊີບັນຊີໂດຍຄ່າເລີ່ມຕົ້ນສໍາລັບການຈ່າຍເງິນຄ່າຈ້າງ

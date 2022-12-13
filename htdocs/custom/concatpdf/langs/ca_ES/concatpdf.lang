@@ -1,4 +1,4 @@
-# Powererp language file - ca_ES - concatpdf 
+# PowerERP language file - ca_ES - concatpdf 
 CHARSET= UTF-8
 ConcatPdfSetup=Configuració del mòdul concatPDF
 ConcatPDfTakeFileFrom=El mòdul ConcatPDF permet concatenar:

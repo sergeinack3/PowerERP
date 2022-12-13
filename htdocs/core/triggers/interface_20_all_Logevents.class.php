@@ -42,8 +42,8 @@ class InterfaceLogevents extends PowererpTriggers
 
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "core";
-		$this->description = "Triggers of this module allows to add security event records inside Powererp.";
-		// 'development', 'experimental', 'powererp' or version
+		$this->description = "Triggers of this module allows to add security event records inside PowerERP.";
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = self::VERSION_DOLIBARR;
 		$this->picto = 'technic';
 	}

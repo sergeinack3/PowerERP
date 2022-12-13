@@ -25,7 +25,7 @@ create table llx_commande
   ref						varchar(30)       NOT NULL,		-- order reference number
   entity					integer DEFAULT 1 NOT NULL,		-- multi company id
 
-  ref_ext					varchar(255),					-- reference into an external system (not used by powererp)
+  ref_ext					varchar(255),					-- reference into an external system (not used by PowerERP)
   ref_int					varchar(255),					-- reference into an internal system (deprecated)
   ref_client				varchar(255),					-- reference for customer
 

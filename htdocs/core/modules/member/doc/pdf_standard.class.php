@@ -34,10 +34,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/commonstickergenerator.class.php';
 class pdf_standard extends CommonStickerGenerator
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 
 	/**
@@ -409,7 +409,7 @@ class pdf_standard extends CommonStickerGenerator
 
 		$pdf->SetTitle($title);
 		$pdf->SetSubject($title);
-		$pdf->SetCreator("Powererp ".DOL_VERSION);
+		$pdf->SetCreator("PowerERP ".DOL_VERSION);
 		$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 		$pdf->SetKeyWords($keywords);
 		if (!empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) {

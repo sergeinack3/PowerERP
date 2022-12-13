@@ -28,7 +28,7 @@ dol_include_once("/factory/core/modules/factory/modules_factory.php");
  */
 class mod_babouin extends ModeleNumRefFactory
 {
-	var $version='powererp';		// 'development', 'experimental', 'powererp'
+	var $version='PowerERP';		// 'development', 'experimental', 'PowerERP'
 	var $error = '';
 	var $nom = 'babouin';
 

@@ -19,7 +19,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions.lib.php';
 
 
 /**
- * API that gives the status of the Powererp instance.
+ * API that gives the status of the PowerERP instance.
  *
  * @access protected
  * @class  PowererpApiAccess {@requires user,external}
@@ -27,7 +27,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions.lib.php';
 class Status
 {
 	/**
-	 * Get status (Powererp version)
+	 * Get status (PowerERP version)
 	 *
 	 * @return array
 	 */

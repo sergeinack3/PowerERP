@@ -20,17 +20,17 @@
 /**
  *	    \file       htdocs/core/doxygen.php
  *      \ingroup    core
- *		\mainpage	Powererp project
+ *		\mainpage	PowerERP project
  *
- *	    This is source documentation for Powererp ERP/CRM.<br>
- *      This documentation can be built or updated running the script <b>powererp-doxygen-build.pl</b> or from Eclipse with Doxygen plugin.<br>
+ *	    This is source documentation for PowerERP ERP/CRM.<br>
+ *      This documentation can be built or updated running the script <b>PowerERP-doxygen-build.pl</b> or from Eclipse with Doxygen plugin.<br>
  *      <br>
- *      Powererp official web site: <a href="https://www.powererp.org">www.powererp.org</a><br>
+ *      PowerERP official web site: <a href="https://www.PowerERP.org">www.PowerERP.org</a><br>
  *      <br>
- *      Powererp french portal: <a href="https://www.powererp.fr">www.powererp.fr</a><br>
- *      Powererp spanish portal: <a href="https://www.powererp.es">www.powererp.es</a><br>
- *      Powererp italian portal: <a href="https://www.powererp.it">www.powererp.it</a><br>
- *      Powererp greek portal: <a href="https://www.powererp.gr">www.powererp.gr</a><br>
- *      Powererp german portal: <a href="https://www.powererp.de">www.powererp.de</a><br>
+ *      PowerERP french portal: <a href="https://www.PowerERP.fr">www.PowerERP.fr</a><br>
+ *      PowerERP spanish portal: <a href="https://www.PowerERP.es">www.PowerERP.es</a><br>
+ *      PowerERP italian portal: <a href="https://www.PowerERP.it">www.PowerERP.it</a><br>
+ *      PowerERP greek portal: <a href="https://www.PowerERP.gr">www.PowerERP.gr</a><br>
+ *      PowerERP german portal: <a href="https://www.PowerERP.de">www.PowerERP.de</a><br>
  *      <br>
  */

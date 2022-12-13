@@ -19,7 +19,7 @@
  * or see https://www.gnu.org/
  */
 
-// Powererp environment
+// PowerERP environment
 $res = @include("../../main.inc.php"); // From htdocs directory
 if (! $res) {
     $res = @include("../../../main.inc.php"); // From "custom" directory

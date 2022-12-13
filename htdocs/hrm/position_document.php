@@ -25,7 +25,7 @@
  *  \brief      Tab for documents linked to Position
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';

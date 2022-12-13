@@ -21,7 +21,7 @@
 /**
  *      \file       htdocs/core/login/functions_powererp.php
  *      \ingroup    core
- *      \brief      Authentication functions for Powererp mode (check user on login or email and check pass)
+ *      \brief      Authentication functions for PowerERP mode (check user on login or email and check pass)
  */
 
 

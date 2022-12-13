@@ -63,10 +63,10 @@ class ImportCsv extends ModeleImports
 	public $extension; // Extension of files imported by driver
 
 	/**
-	 * Powererp version of driver
+	 * PowerERP version of driver
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	public $label_lib; // Label of external lib used by driver
 
@@ -110,7 +110,7 @@ class ImportCsv extends ModeleImports
 		$this->version = '1.34'; // Driver version
 
 		// If driver use an external library, put its name here
-		$this->label_lib = 'Powererp';
+		$this->label_lib = 'PowerERP';
 		$this->version_lib = DOL_VERSION;
 
 		$this->datatoimport = $datatoimport;
@@ -895,7 +895,7 @@ class ImportCsv extends ModeleImports
 							if ($sql) {
 								$resql = $this->db->query($sql);
 								if ($resql) {
-									$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in Powererp).
+									$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in PowerERP).
 									$insertdone = true;
 								} else {
 									//print 'E';

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Area anggota
 MemberCard=Kartu anggota
 SubscriptionCard=Kartu berlangganan
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Daftar anggota publik yang divalidasi
 ErrorThisMemberIsNotPublic=Anggota ini bukan publik
 ErrorMemberIsAlreadyLinkedToThisThirdParty=anggota lain (nama:<b>%s </b>, login:<b>%s </b>) sudah terkait dengan pihak ketiga<b>%s </b>. Hapus tautan ini terlebih dahulu karena pihak ketiga tidak dapat ditautkan dengan hanya anggota (dan sebaliknya).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Demi alasan keamanan, Anda harus diberikan izin untuk mengedit semua pengguna agar dapat menautkan anggota ke pengguna yang bukan milik Anda.
-SetLinkToUser=Tautan ke pengguna Powererp
-SetLinkToThirdParty=Tautan ke pihak ketiga Powererp
+SetLinkToUser=Tautan ke pengguna PowerERP
+SetLinkToThirdParty=Tautan ke pihak ketiga PowerERP
 MembersCards=Kartu nama untuk anggota
 MembersList=Daftar anggota
 MembersListToValid=Daftar anggota konsep (akan divalidasi)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Anda yakin ingin menghapus kontribusi ini?
 Filehtpasswd=file htpasswd
 ValidateMember=Validasi anggota
 ConfirmValidateMember=Apakah Anda yakin ingin memvalidasi anggota ini?
-FollowingLinksArePublic=Tautan berikut adalah halaman terbuka yang tidak dilindungi oleh izin Powererp. Itu bukan halaman yang diformat, disediakan sebagai contoh untuk menunjukkan bagaimana mendaftar basis data anggota.
+FollowingLinksArePublic=Tautan berikut adalah halaman terbuka yang tidak dilindungi oleh izin PowerERP. Itu bukan halaman yang diformat, disediakan sebagai contoh untuk menunjukkan bagaimana mendaftar basis data anggota.
 PublicMemberList=Daftar anggota publik
 BlankSubscriptionForm=Formulir pendaftaran mandiri publik
-BlankSubscriptionFormDesc=Powererp dapat memberi Anda URL / situs web publik untuk memungkinkan pengunjung eksternal meminta berlangganan ke yayasan. Jika modul pembayaran online diaktifkan, formulir pembayaran juga dapat secara otomatis disediakan.
+BlankSubscriptionFormDesc=PowerERP dapat memberi Anda URL / situs web publik untuk memungkinkan pengunjung eksternal meminta berlangganan ke yayasan. Jika modul pembayaran online diaktifkan, formulir pembayaran juga dapat secara otomatis disediakan.
 EnablePublicSubscriptionForm=Aktifkan situs web publik dengan formulir berlangganan sendiri
 ForceMemberType=Paksa tipe anggota
 ExportDataset_member_1=Anggota dan kontribusi

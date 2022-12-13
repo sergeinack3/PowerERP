@@ -21,7 +21,7 @@
 /**
  *	\file       htdocs/core/boxes/box_powererp_state_board.php
  *	\ingroup
- *	\brief      Module Powererp state base
+ *	\brief      Module PowerERP state base
  */
 
 include_once DOL_DOCUMENT_ROOT . '/core/boxes/modules_boxes.php';

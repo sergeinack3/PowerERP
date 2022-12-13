@@ -162,7 +162,7 @@ class pdf_capucin extends ModeleFactory
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("FactoryCard"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("FactoryCard"));
 				if ($conf->global->MAIN_DISABLE_PDF_COMPRESSION) 

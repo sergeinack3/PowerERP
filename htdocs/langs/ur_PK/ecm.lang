@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=ڈائریکٹری میں دستاویزات کی تعداد
 ECMSection=ڈائرکٹری
 ECMSectionManual=دستی ڈائریکٹری
@@ -15,7 +15,7 @@ ECMNbOfSubDir=ذیلی ڈائریکٹریوں کی تعداد
 ECMNbOfFilesInSubDir=ذیلی ڈائریکٹریوں میں فائلوں کی تعداد
 ECMCreationUser=خالق
 ECMArea=DMS/ECM ایریا
-ECMAreaDesc=DMS/ECM (دستاویزی انتظامی نظام/الیکٹرانک مواد کا انتظام) کا علاقہ آپ کو Powererp میں تمام قسم کے دستاویزات کو تیزی سے محفوظ کرنے، شیئر کرنے اور تلاش کرنے کی اجازت دیتا ہے۔
+ECMAreaDesc=DMS/ECM (دستاویزی انتظامی نظام/الیکٹرانک مواد کا انتظام) کا علاقہ آپ کو PowerERP میں تمام قسم کے دستاویزات کو تیزی سے محفوظ کرنے، شیئر کرنے اور تلاش کرنے کی اجازت دیتا ہے۔
 ECMAreaDesc2=* کسی عنصر کے کارڈ سے دستاویزات شامل کرتے وقت خودکار ڈائریکٹریز خود بخود بھر جاتی ہیں۔ <br> * دستی ڈائریکٹریز کو کسی خاص عنصر سے منسلک نہ ہونے والی دستاویزات کو محفوظ کرنے کے لیے استعمال کیا جا سکتا ہے۔
 ECMSectionWasRemoved=ڈائریکٹری <b> %s </b> حذف کر دی گئی ہے۔
 ECMSectionWasCreated=ڈائرکٹری <b> %s </b> بنائی گئی ہے۔

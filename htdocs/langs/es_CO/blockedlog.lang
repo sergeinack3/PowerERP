@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - blockedlog
+# PowerERP language file - Source file is en_US - blockedlog
 Fingerprints=Huellas digitales y eventos archivados
 FingerprintsDesc=Esta es la herramienta para buscar o extraer los registros inalterables. Los registros inalterables se generan y archivan localmente en una tabla dedicada, en tiempo real cuando registra un evento empresarial. Puedes utilizar esta herramienta para exportar este archivo y guardarlo en un soporte externo (algunos países, como Francia, te piden que lo hagas todos los años). Tenga en cuenta que no existe una función para depurar este registro y cada cambio que se intente realizar directamente en este registro (por ejemplo, por un pirata informático) se informará con una huella dactilar no válida. Si realmente necesita purgar esta tabla porque usó su aplicación con un propósito de demostración / prueba y desea limpiar sus datos para comenzar su producción, puede pedirle a su revendedor o integrador que restablezca su base de datos (se eliminarán todos sus datos).
 CompanyInitialKey=Clave inicial de la empresa (hash del bloque génesis)

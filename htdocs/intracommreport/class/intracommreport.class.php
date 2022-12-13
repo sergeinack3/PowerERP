@@ -146,7 +146,7 @@ class IntracommReport extends CommonObject
 		$party->addAttribute('partyRole', $conf->global->INTRACOMMREPORT_ROLE_ACTEUR);
 		$party->addChild('partyId', $party_id);
 		$party->addChild('partyName', $declarant);
-		$enveloppe->addChild('softwareUsed', 'Powererp');
+		$enveloppe->addChild('softwareUsed', 'PowerERP');
 		$declaration = $enveloppe->addChild('Declaration');
 		$declaration->addChild('declarationId', $id_declaration);
 		$declaration->addChild('referencePeriod', $period_reference);

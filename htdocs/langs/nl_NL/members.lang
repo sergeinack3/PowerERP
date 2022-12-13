@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Ledenoverzicht
 MemberCard=Lidmaatschapskaart
 SubscriptionCard=Inschrijvingskaart
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Lijst van gevalideerde openbare leden
 ErrorThisMemberIsNotPublic=Dit lid is niet openbaar
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Een ander lid <b>(naam: %s, login: %s)</b> is al gekoppeld aan een derde partij <b>%s</b>. Verwijder deze link eerst omdat een derde partij niet kan worden gekoppeld aan slechts een lid (en vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Om veiligheidsredenen, moeten aan u rechten worden verleend voor het bewerken van alle gebruikers om in staat te zijn een lid te koppelen aan een gebruiker die niet van u is.
-SetLinkToUser=Link naar een Powererp gebruiker
-SetLinkToThirdParty=Link naar een derde partij in Powererp
+SetLinkToUser=Link naar een PowerERP gebruiker
+SetLinkToThirdParty=Link naar een derde partij in PowerERP
 MembersCards=Visitekaartjes voor leden
 MembersList=Ledenlijst
 MembersListToValid=Lijst van conceptleden (te valideren)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=htpasswd bestand
 ValidateMember=Valideer een lid
 ConfirmValidateMember=Weet u zeker dat u dit lid wilt valideren?
-FollowingLinksArePublic=De volgende links zijn open pagina&#39;s die niet worden beschermd door enige Powererp-toestemming. Het zijn geen opgemaakte pagina&#39;s, die als voorbeeld worden gegeven om te laten zien hoe de ledendatabase moet worden weergegeven.
+FollowingLinksArePublic=De volgende links zijn open pagina&#39;s die niet worden beschermd door enige PowerERP-toestemming. Het zijn geen opgemaakte pagina&#39;s, die als voorbeeld worden gegeven om te laten zien hoe de ledendatabase moet worden weergegeven.
 PublicMemberList=Publieke ledenlijst
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Powererp kan u een openbare URL / website bieden waarmee externe bezoekers kunnen vragen zich te abonneren op de stichting. Als een online betaalmodule is ingeschakeld, kan ook automatisch een betaalformulier worden verstrekt.
+BlankSubscriptionFormDesc=PowerERP kan u een openbare URL / website bieden waarmee externe bezoekers kunnen vragen zich te abonneren op de stichting. Als een online betaalmodule is ingeschakeld, kan ook automatisch een betaalformulier worden verstrekt.
 EnablePublicSubscriptionForm=Schakel de openbare website in met het zelfinschrijvingsformulier
 ForceMemberType=Forceer het lidtype
 ExportDataset_member_1=Members and contributions

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID event
 Actions=Toimet
 Agenda=Agenda
@@ -31,10 +31,10 @@ ViewWeek=Viikkonäkymä
 ViewPerUser=Per user view
 ViewPerType=Per type view
 AutoActions= Automaattinen täyttö Esityslistan
-AgendaAutoActionDesc= Here you may define events which you want Powererp to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
-AgendaSetupOtherDesc= This page provides options to allow the export of your Powererp events into an external calendar (Thunderbird, Google Calendar etc...)
-AgendaExtSitesDesc=Tällä sivulla voit ilmoittaa ulkoisten kalenterien näkemään tapahtumiin otetaan Powererp asialistalle.
-ActionsEvents=Tapahtumat, joista Powererp luo toimia esityslistan automaattisesti
+AgendaAutoActionDesc= Here you may define events which you want PowerERP to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
+AgendaSetupOtherDesc= This page provides options to allow the export of your PowerERP events into an external calendar (Thunderbird, Google Calendar etc...)
+AgendaExtSitesDesc=Tällä sivulla voit ilmoittaa ulkoisten kalenterien näkemään tapahtumiin otetaan PowerERP asialistalle.
+ActionsEvents=Tapahtumat, joista PowerERP luo toimia esityslistan automaattisesti
 EventRemindersByEmailNotEnabled=Event reminders by email was not enabled into %s module setup.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Third party %s created

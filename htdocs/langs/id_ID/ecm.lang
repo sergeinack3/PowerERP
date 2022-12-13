@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Jumlah dokumen dalam direktori
 ECMSection=Direktori
 ECMSectionManual=Direktori manual
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Jumlah sub-direktori
 ECMNbOfFilesInSubDir=Jumlah file dalam sub-direktori
 ECMCreationUser=Pencipta
 ECMArea=Area DMS / ECM
-ECMAreaDesc=Area DMS / ECM (Sistem Manajemen Dokumen / Manajemen Konten Elektronik) memungkinkan Anda untuk menyimpan, berbagi, dan mencari dengan cepat semua jenis dokumen di Powererp.
+ECMAreaDesc=Area DMS / ECM (Sistem Manajemen Dokumen / Manajemen Konten Elektronik) memungkinkan Anda untuk menyimpan, berbagi, dan mencari dengan cepat semua jenis dokumen di PowerERP.
 ECMAreaDesc2=* Direktori otomatis diisi secara otomatis saat menambahkan dokumen dari kartu suatu elemen. <br> * Direktori manual dapat digunakan untuk menyimpan dokumen yang tidak ditautkan ke elemen tertentu.
 ECMSectionWasRemoved=Direktori<b>%s</b>telah dihapus.
 ECMSectionWasCreated=Direktori<b>%s</b>telah dibuat.

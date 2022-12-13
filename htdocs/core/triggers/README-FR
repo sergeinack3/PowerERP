@@ -1,6 +1,6 @@
 Contenu du répertoire
 --------------------------------------------------------
-Ce répertoire contient tous les triggers Powererp.
+Ce répertoire contient tous les triggers PowerERP.
 
 La syntaxe d'un fichier Trigger est:
 > interface_modModule_Mytrigger.php[-NORUN]

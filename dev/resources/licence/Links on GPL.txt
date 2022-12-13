@@ -5,5 +5,5 @@
 * FAQ on GPL license
 https://www.fsf.org/licensing/licenses/gpl-faq.html
 
-* Questions/Answers on Fork for using Powererp as a SaaS
+* Questions/Answers on Fork for using PowerERP as a SaaS
 https://stackoverflow.com/questions/539291/rebranding-a-gpld-app-as-saas

@@ -1,4 +1,4 @@
-# CRMENHANCED FOR <a href="https://www.powererp.org">POWERERP ERP CRM</a>
+# CRMENHANCED FOR <a href="https://www.PowerERP.org">POWERERP ERP CRM</a>
 
 ## Features
 It provides simple but complete functionality of CRM (Customer Relationship Management).
@@ -38,27 +38,27 @@ menu ```Home - Setup - Modules - Deploy external module``` and upload the zip fi
 
 Note: If this screen tell you there is no custom directory, check your setup is correct: 
 
-- In your Powererp installation directory, edit the ```htdocs/conf/conf.php``` file and check that following lines are not commented:
+- In your PowerERP installation directory, edit the ```htdocs/conf/conf.php``` file and check that following lines are not commented:
 
     ```php
     //$powererp_main_url_root_alt ...
     //$powererp_main_document_root_alt ...
     ```
 
-- Uncomment them if necessary (delete the leading ```//```) and assign a sensible value according to your Powererp installation
+- Uncomment them if necessary (delete the leading ```//```) and assign a sensible value according to your PowerERP installation
 
     For example :
 
     - UNIX:
         ```php
         $powererp_main_url_root_alt = '/custom';
-        $powererp_main_document_root_alt = '/var/www/Powererp/htdocs/custom';
+        $powererp_main_document_root_alt = '/var/www/PowerERP/htdocs/custom';
         ```
 
     - Windows:
         ```php
         $powererp_main_url_root_alt = '/custom';
-        $powererp_main_document_root_alt = 'C:/My Web Sites/Powererp/htdocs/custom';
+        $powererp_main_document_root_alt = 'C:/My Web Sites/PowerERP/htdocs/custom';
         ```
         
 ### From a GIT repository
@@ -74,7 +74,7 @@ git clone git@github.com:gitlogin/crmenhanced.git crmenhanced
 
 From your browser:
 
-  - Log into Powererp as a super-administrator
+  - Log into PowerERP as a super-administrator
   - Go to "Setup" -> "Modules"
   - You should now be able to find and enable the module
 

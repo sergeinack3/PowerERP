@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -576,7 +576,7 @@ abstract class CrudObject extends CommonObject
 	}
 
 	/**
-	 * Run Powererp triggers (from other modules)
+	 * Run PowerERP triggers (from other modules)
 	 *
 	 * @param      $action_suffix      action suffix
 	 * @return     int                 errors number

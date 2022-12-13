@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Biz xato qilamiz
@@ -48,10 +48,10 @@ ErrorBadDateFormat="%s" qiymati noto'g'ri sana formatiga ega
 ErrorWrongDate=Sana to'g'ri emas!
 ErrorFailedToWriteInDir=%s katalogiga yozib bo'lmadi
 ErrorFoundBadEmailInFile=Faylda %s satrlari uchun noto'g'ri elektron pochta sintaksisini topdi (masalan, %s qatori elektron pochta bilan = %s)
-ErrorUserCannotBeDelete=Foydalanuvchini o'chirib bo'lmaydi. Ehtimol, bu Powererp sub'ektlari bilan bog'liq.
+ErrorUserCannotBeDelete=Foydalanuvchini o'chirib bo'lmaydi. Ehtimol, bu PowerERP sub'ektlari bilan bog'liq.
 ErrorFieldsRequired=Ba'zi majburiy maydonlar bo'sh qoldirildi.
 ErrorSubjectIsRequired=Elektron pochta mavzusi talab qilinadi
-ErrorFailedToCreateDir=Katalog yaratilmadi. Veb-server foydalanuvchisida Powererp hujjatlar katalogiga yozish uchun ruxsat borligini tekshiring. Agar ushbu PHP-da <b> safe_mode </b> parametri yoqilgan bo'lsa, Powererp php fayllari veb-server foydalanuvchisiga (yoki guruhiga) tegishli ekanligini tekshiring.
+ErrorFailedToCreateDir=Katalog yaratilmadi. Veb-server foydalanuvchisida PowerERP hujjatlar katalogiga yozish uchun ruxsat borligini tekshiring. Agar ushbu PHP-da <b> safe_mode </b> parametri yoqilgan bo'lsa, PowerERP php fayllari veb-server foydalanuvchisiga (yoki guruhiga) tegishli ekanligini tekshiring.
 ErrorNoMailDefinedForThisUser=Ushbu foydalanuvchi uchun hech qanday pochta belgilanmagan
 ErrorSetupOfEmailsNotComplete=Elektron pochta xabarlarini sozlash tugallanmagan
 ErrorFeatureNeedJavascript=Ushbu xususiyatni ishga tushirish uchun javascript kerak. Buni sozlash - displeyda o'zgartiring.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=<b> %s </b> maydonida maxsus be
 ErrorFieldMustHaveXChar=<b> %s </b> maydonida kamida %s belgilar bo'lishi kerak.
 ErrorNoAccountancyModuleLoaded=Buxgalteriya moduli faollashtirilmagan
 ErrorExportDuplicateProfil=Ushbu eksport to'plami uchun ushbu profil nomi allaqachon mavjud.
-ErrorLDAPSetupNotComplete=Powererp-LDAP mos kelmadi.
+ErrorLDAPSetupNotComplete=PowerERP-LDAP mos kelmadi.
 ErrorLDAPMakeManualTest=%s katalogida .ldif fayli yaratilgan. Xatolar haqida ko'proq ma'lumotga ega bo'lish uchun uni buyruq satridan qo'lda yuklashga harakat qiling.
 ErrorCantSaveADoneUserWithZeroPercentage=Agar "bajarilgan" maydoni ham to'ldirilgan bo'lsa, "holat boshlanmadi" bilan amalni saqlab bo'lmaydi.
 ErrorRefAlreadyExists=<b> %s </b> ma'lumotnomasi allaqachon mavjud.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s yana uchdan biriga tayinlangan
 ErrorFailedToSendPassword=Parolni yuborib bo'lmadi
 ErrorFailedToLoadRSSFile=RSS tasmasini ololmadi. Xato xabarlari etarli ma'lumot bermasa, doimiy ravishda MAIN_SIMPLEXMLLOAD_DEBUG qo'shishga harakat qiling.
 ErrorForbidden=Ruxsat yo'q. <br> Siz o'chirib qo'yilgan modulning sahifasiga, maydoniga yoki xususiyatiga yoki autentifikatsiya qilingan sessiyada bo'lmasdan yoki foydalanuvchingizga ruxsat berilmagan holda kirishga harakat qilasiz.
-ErrorForbidden2=Ushbu kirish uchun ruxsat sizning Powererp administratoringiz tomonidan %s-> %s menyusidan aniqlanishi mumkin.
-ErrorForbidden3=Powererp autentifikatsiya qilingan seans orqali ishlatilmaydi. Autentifikatsiyani qanday boshqarishni bilish uchun Powererpni sozlash bo'yicha hujjatlarni ko'rib chiqing (htaccess, mod_auth yoki boshqa ...).
+ErrorForbidden2=Ushbu kirish uchun ruxsat sizning PowerERP administratoringiz tomonidan %s-> %s menyusidan aniqlanishi mumkin.
+ErrorForbidden3=PowerERP autentifikatsiya qilingan seans orqali ishlatilmaydi. Autentifikatsiyani qanday boshqarishni bilish uchun Powererpni sozlash bo'yicha hujjatlarni ko'rib chiqing (htaccess, mod_auth yoki boshqa ...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Imagick sinfi ushbu PHP-da mavjud emas. Hech qanday oldindan ko'rish mumkin emas. Administrator ushbu yorliqni O'rnatish - Displey menyusidan o'chirib qo'yishi mumkin.
 ErrorRecordAlreadyExists=Yozuv allaqachon mavjud
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Veb-serverni amalga oshirish uchun foydalanil
 ErrorNoActivatedBarcode=Shtrixli kod yoqilmagan
 ErrUnzipFails=%s ni ZipArchive bilan ochib bo'lmadi
 ErrNoZipEngine=Ushbu PHP-da %s faylini ziplash / ochish uchun vosita yo'q
-ErrorFileMustBeAPowererpPackage=%s fayli Powererp zip to'plami bo'lishi kerak
-ErrorModuleFileRequired=Powererp moduli to'plami faylini tanlashingiz kerak
+ErrorFileMustBeAPowererpPackage=%s fayli PowerERP zip to'plami bo'lishi kerak
+ErrorModuleFileRequired=PowerERP moduli to'plami faylini tanlashingiz kerak
 ErrorPhpCurlNotInstalled=PHP CURL o'rnatilmagan, bu Paypal bilan suhbatlashish uchun juda muhimdir
 ErrorFailedToAddToMailmanList=%s yoki MailIP ro'yxatiga %s yozuvini yoki SPIP bazasini qo'shib bo'lmadi
 ErrorFailedToRemoveToMailmanList=%s yozuvini %s yoki SPIP bazasini pochtachilar ro'yxatiga o'chirib bo'lmadi
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=Sana bugundan pastroq bo'lishi kerak
 ErrorDateMustBeInFuture=Sana bugundan kattaroq bo'lishi kerak
 ErrorPaymentModeDefinedToWithoutSetup=%s yozish uchun to'lov rejimi o'rnatildi, ammo ushbu to'lov rejimi uchun ma'lumotni aniqlash uchun fakturani moduli o'rnatilmagan.
 ErrorPHPNeedModule=Xato, PHP-da ushbu funktsiyadan foydalanish uchun <b> %s </b> moduli o'rnatilgan bo'lishi kerak.
-ErrorOpenIDSetupNotComplete=OpenID autentifikatsiyasiga ruxsat berish uchun Powererp konfiguratsiya faylini o'rnatdingiz, ammo OpenID xizmatining URL manzili doimiy ravishda %s shaklida aniqlanmagan
+ErrorOpenIDSetupNotComplete=OpenID autentifikatsiyasiga ruxsat berish uchun PowerERP konfiguratsiya faylini o'rnatdingiz, ammo OpenID xizmatining URL manzili doimiy ravishda %s shaklida aniqlanmagan
 ErrorWarehouseMustDiffers=Manba va maqsadli omborlar farq qilishi kerak
 ErrorBadFormat=Noto'g'ri format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Xato, bu a'zo hali hech qanday uchinchi tomon bilan bog'lanmagan. Hisob-faktura bilan obuna yaratishdan oldin a'zoni mavjud bo'lgan uchinchi tomon bilan bog'lang yoki yangi uchinchi tomonni yarating.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, request too large
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=PHP parametringiz upload_max_filesize (%s) PHP post_max_size (%s) parametridan yuqori. Bu izchil o'rnatish emas.
-WarningPasswordSetWithNoAccount=Ushbu a'zo uchun parol o'rnatildi. Biroq, foydalanuvchi hisobi yaratilmagan. Shunday qilib, ushbu parol saqlanadi, ammo Powererp-ga kirish uchun foydalanib bo'lmaydi. U tashqi modul / interfeys tomonidan ishlatilishi mumkin, ammo agar siz a'zo uchun hech qanday login va parolni belgilashga hojat bo'lmasa, siz "har bir a'zo uchun kirishni boshqarish" parametrini a'zo modulidan o'chirib qo'yishingiz mumkin. Agar sizga loginni boshqarish kerak bo'lsa, lekin hech qanday parol kerak bo'lmasa, ushbu ogohlantirishni oldini olish uchun ushbu maydonni bo'sh qoldirishingiz mumkin. Izoh: Agar foydalanuvchi bilan bog'langan bo'lsa, elektron pochta orqali kirish sifatida ham foydalanish mumkin.
+WarningPasswordSetWithNoAccount=Ushbu a'zo uchun parol o'rnatildi. Biroq, foydalanuvchi hisobi yaratilmagan. Shunday qilib, ushbu parol saqlanadi, ammo PowerERP-ga kirish uchun foydalanib bo'lmaydi. U tashqi modul / interfeys tomonidan ishlatilishi mumkin, ammo agar siz a'zo uchun hech qanday login va parolni belgilashga hojat bo'lmasa, siz "har bir a'zo uchun kirishni boshqarish" parametrini a'zo modulidan o'chirib qo'yishingiz mumkin. Agar sizga loginni boshqarish kerak bo'lsa, lekin hech qanday parol kerak bo'lmasa, ushbu ogohlantirishni oldini olish uchun ushbu maydonni bo'sh qoldirishingiz mumkin. Izoh: Agar foydalanuvchi bilan bog'langan bo'lsa, elektron pochta orqali kirish sifatida ham foydalanish mumkin.
 WarningMandatorySetupNotComplete=Majburiy parametrlarni o'rnatish uchun shu erni bosing
 WarningEnableYourModulesApplications=Modul va dasturlarni yoqish uchun shu erni bosing
 WarningSafeModeOnCheckExecDir=Ogohlantirish, PHP opsiyasi <b> </b> yoniq, shuning uchun buyruq php parametri <b> safe_mode_exec_dir </b> php parametri bilan e'lon qilingan katalog ichida saqlanishi kerak.

@@ -49,7 +49,7 @@ $langs->load('compta');
 $invoice_type = GETPOST('invoice_type', 'int');
 $amountPayment = $_POST['amountPayment'];
 $amounts = $_POST['amounts']; // from text inputs : invoice amount payment (check required)
-$remains = $_POST['remains']; // from powererp's object (no need to check)
+$remains = $_POST['remains']; // from PowerERP's object (no need to check)
 $currentInvId = $_POST['imgClicked']; // from DOM elements : imgId (equals invoice id)
 
 // Getting the posted keys=>values, sanitize the ones who are from text inputs

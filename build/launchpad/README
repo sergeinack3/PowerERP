@@ -38,33 +38,33 @@ If you want to build/test package locally:
     sudo pbuilder create [--distribution sid|squeeze]
 
 
-# Push/declare Powererp sources to Launchpad
+# Push/declare PowerERP sources to Launchpad
 #----------------------------------
-- From Launchpad project (https://launchpad.net/powererp), register a series: 
+- From Launchpad project (https://launchpad.net/PowerERP), register a series: 
     Call it 'trunk' or 'stable'
     Use branch (dev):
-    https://launchpad.net/~eldy/powererp/develop
-    https://launchpad.net/~eldy/powererp/stable
+    https://launchpad.net/~eldy/PowerERP/develop
+    https://launchpad.net/~eldy/PowerERP/stable
     or 
     Use URL pattern (stable):
-    For stable: http://www.powererp.org/files/lastbuild/package_debian-ubuntu/powererp_x.z.*.tar.gz
+    For stable: http://www.PowerERP.org/files/lastbuild/package_debian-ubuntu/powererp_x.z.*.tar.gz
     
 - For Dev, you can also add link serie to GIT HEAD.
 - For stable, you can init from command line
-	cd bzr/powererp-stable
+	cd bzr/PowerERP-stable
     bzr init
     bzr add
     bzr commit -m "Init"
-    bzr push lp:~yourlogin/powererp/stable
+    bzr push lp:~yourlogin/PowerERP/stable
 
-- List of series are visible here: https://launchpad.net/powererp/+series
+- List of series are visible here: https://launchpad.net/PowerERP/+series
 
-# To update Powererp into launchpad (when remote repository for sources already exists)
+# To update PowerERP into launchpad (when remote repository for sources already exists)
 #----------------------------------
 	# create local repository
 	cd bzr
-	bzr branch lp:~yourlogin/powererp/[develop|stable] powererp-[dev|stable]
-    cd powererp-[dev|stable]
+	bzr branch lp:~yourlogin/PowerERP/[develop|stable] PowerERP-[dev|stable]
+    cd PowerERP-[dev|stable]
     # Update
     bzr update
 	-- Update files here: Remove all (except .bzr dir) and overwrite --
@@ -109,27 +109,27 @@ If you want to build/test package locally:
 
 # Define a recipe into launchpad (a rule to build packages into a PPA)
 #----------------------------------
-- Create a file powererp-[beta|stable].recipe with content
+- Create a file PowerERP-[beta|stable].recipe with content
     cd bzr
-    vi powererp-[beta|stable].recipe
+    vi PowerERP-[beta|stable].recipe
     	For beta/dev:
 	    # bzr-builder format 0.3 deb-version {debupstream}-0~{revno}
-		lp:powererp
+		lp:PowerERP
 		merge packaging lp:~yourlogin/+junk/debian-dev
     	For stable:
 	    # bzr-builder format 0.3 deb-version {debupstream}-2~{revno}
-		lp:powererp/stable
+		lp:PowerERP/stable
 		merge packaging lp:~yourlogin/+junk/debian-stable
 - Run command
     cd bzr
-    bzr dailydeb powererp-[beta|stable].recipe working-dir
-  This will create a directory "working-dir" with powererp sources and will add sources from ~yourlogin/+junk/debian-[dev|stable]
+    bzr dailydeb PowerERP-[beta|stable].recipe working-dir
+  This will create a directory "working-dir" with PowerERP sources and will add sources from ~yourlogin/+junk/debian-[dev|stable]
 - Test package sources
     sudo pbuilder build <working-dir>/<project>_<version>.dsc
 
 List of recipes created
-https://code.launchpad.net/~eldy/+recipe/powererp-dev
-https://code.launchpad.net/~eldy/+recipe/powererp-stable
+https://code.launchpad.net/~eldy/+recipe/PowerERP-dev
+https://code.launchpad.net/~eldy/+recipe/PowerERP-stable
 
     
 # To get/download package from PPA:
@@ -139,18 +139,18 @@ https://code.launchpad.net/~eldy/+recipe/powererp-stable
 > gpg --keyserver keyserver.ubuntu.com --recv-key A38BF8FD
 > sudo apt-key add ~/.gnupg/pubring.gpg
 
-- Add Powererp Launchpad repository to your system setup by adding the two lines to /etc/apt/sources.list
+- Add PowerERP Launchpad repository to your system setup by adding the two lines to /etc/apt/sources.list
 For the development snapshot version: 
-deb http://ppa.launchpad.net/yourlogin/powererp-dev/ubuntu precise main 
-deb-src http://ppa.launchpad.net/yourlogin/powererp-dev/ubuntu precise main 
+deb http://ppa.launchpad.net/yourlogin/PowerERP-dev/ubuntu precise main 
+deb-src http://ppa.launchpad.net/yourlogin/PowerERP-dev/ubuntu precise main 
 For the stable version:
-deb http://ppa.launchpad.net/yourlogin/powererp-stable/ubuntu precise main 
-deb-src http://ppa.launchpad.net/yourlogin/powererp-stable/ubuntu precise main 
+deb http://ppa.launchpad.net/yourlogin/PowerERP-stable/ubuntu precise main 
+deb-src http://ppa.launchpad.net/yourlogin/PowerERP-stable/ubuntu precise main 
 
 - Update your package cache:
 > apt-get update
 
-- Install Powererp: 
-> apt-get install powererp
+- Install PowerERP: 
+> apt-get install PowerERP
 
    

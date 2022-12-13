@@ -28,7 +28,7 @@ dol_include_once("/factory/core/modules/factory/modules_factory.php");
  */
 class mod_mandrill extends ModeleNumRefFactory
 {
-	var $version='powererp';		// 'development', 'experimental', 'powererp'
+	var $version='PowerERP';		// 'development', 'experimental', 'PowerERP'
 	var $prefix='OF';
 	var $error='';
 	var $nom = 'mandrill';

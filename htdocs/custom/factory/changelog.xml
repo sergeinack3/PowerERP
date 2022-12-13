@@ -127,7 +127,7 @@
 	</Version>
 
 	<Version Number="3.9.+1.4.3" MonthVersion="2016-07">
-		<change type='add'>xml min version of powererp feature</change>
+		<change type='add'>xml min version of PowerERP feature</change>
 		<change type='fix'>add description on project movement</change>
 	</Version>
 
@@ -241,6 +241,6 @@
 		<change type='chg'>10.0 compatibility </change>
 		<change type='add'>BatchLot stock management</change>
 	</Version>
-	<Powererp minVersion="5.0.0"/>
+	<PowerERP minVersion="5.0.0"/>
 	<!-- Remplir le undocumented.xml ? -->
 </changelog>

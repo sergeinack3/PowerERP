@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=De bedrijfsnaam %s bestaat al. kies een andere.
 ErrorSetACountryFirst=Stel eerst het land in
 SelectThirdParty=Selecteer een derde
@@ -378,7 +378,7 @@ CapitalOf=Kapitaal van %s
 EditCompany=Bedrijf bewerken
 ThisUserIsNot=Deze gebruiker is geen prospect, klant of leverancier
 VATIntraCheck=Controleren
-VATIntraCheckDesc=Het btw-nummer moet het landnummer bevatten. De link <b>%s</b> maakt gebruik van de European VAT checker service (VIES) die internettoegang vanaf de Powererp-server vereist.
+VATIntraCheckDesc=Het btw-nummer moet het landnummer bevatten. De link <b>%s</b> maakt gebruik van de European VAT checker service (VIES) die internettoegang vanaf de PowerERP-server vereist.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Controleer het intracommunautaire btw-nummer op de website van de Europese Commissie
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Prospecten per status
 NoParentCompany=Geen
 ExportCardToFormat=Export details naar formaat
 ContactNotLinkedToCompany=Contact niet gekoppeld aan enige Klant
-PowererpLogin=Powererp login
-NoPowererpAccess=Geen Powererp toegang
+PowererpLogin=PowerERP login
+NoPowererpAccess=Geen PowerERP toegang
 ExportDataset_company_1=Derden (bedrijven / stichtingen / fysieke mensen) en hun eigenschappen
 ExportDataset_company_2=Contacten en hun eigenschappen
 ImportDataset_company_1=Relaties en hun eigenschappen

@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
- * Module to manage resources into Powererp ERP/CRM
+ * Module to manage resources into PowerERP ERP/CRM
  */
 
 /**
@@ -25,12 +25,12 @@
  * 	\ingroup	resource
  * 	\brief		Description and activation file for the module Resource
  */
-include_once DOL_DOCUMENT_ROOT."/core/modules/PowererpModules.class.php";
+include_once DOL_DOCUMENT_ROOT."/core/modules/PowerERPModules.class.php";
 
 /**
  * Description and activation class for module Resource
  */
-class modResource extends PowererpModules
+class modResource extends PowerERPModules
 {
 
 	/**
@@ -46,7 +46,7 @@ class modResource extends PowererpModules
 
 		// Id for module (must be unique).
 		// Use a free id here
-		// (See in Home -> System information -> Powererp for list of used modules id).
+		// (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 63000;
 
 		// Key text used to identify module (for permissions, menus, etc...)
@@ -65,7 +65,7 @@ class modResource extends PowererpModules
 		// (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Manage resources (printers, cars, room, ...) you can then share into events";
 		// Possible values for version are: 'development', 'experimental' or version
-		$this->version = 'powererp';
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled
 		// (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -291,7 +291,7 @@ class modResource extends PowererpModules
 	/**
 	 * Function called when module is enabled.
 	 * The init function add constants, boxes, permissions and menus
-	 * (defined in constructor) into Powererp database.
+	 * (defined in constructor) into PowerERP database.
 	 * It also creates data directories
 	 *
 	 * 	@param		string	$options	Options when enabling module ('', 'noboxes')

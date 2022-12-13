@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Členská oblast
 MemberCard=Členské karty
 SubscriptionCard=Vstupní karta
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Seznam ověřených veřejných členů
 ErrorThisMemberIsNotPublic=Tento člen je neveřejný
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Další člen (jméno: <b> %s</b>, přihlašovací jméno: <b> %s </b>) je již propojen se subjektem <b> %s</b>. Nejprve odeberte tento odkaz, protože subjekt nemůže být propojen pouze s členem (a naopak).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Z bezpečnostních důvodů musíte mít oprávnění k úpravě všech uživatelů, abyste mohli člena propojit s uživatelem, který není vaším.
-SetLinkToUser=Odkaz na uživateli Powererp
-SetLinkToThirdParty=Odkaz na Powererp subjektu
+SetLinkToUser=Odkaz na uživateli PowerERP
+SetLinkToThirdParty=Odkaz na PowerERP subjektu
 MembersCards=Business cards for members
 MembersList=Seznam členů
 MembersListToValid=Seznam členů návrhu (bude ověřeno)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=htpasswd souboru
 ValidateMember=Ověření člena
 ConfirmValidateMember=Jste si jisti, že chcete ověřit tohoto člena?
-FollowingLinksArePublic=Následující odkazy jsou otevřené stránky, které nejsou chráněny žádným povolením společnosti Powererp. Nejedná se o formátované stránky, které jsou uvedeny jako příklad k zobrazení seznamu členů databáze.
+FollowingLinksArePublic=Následující odkazy jsou otevřené stránky, které nejsou chráněny žádným povolením společnosti PowerERP. Nejedná se o formátované stránky, které jsou uvedeny jako příklad k zobrazení seznamu členů databáze.
 PublicMemberList=Veřejný seznam členů
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Powererp vám může poskytnout veřejnou adresu URL / webovou stránku, která umožní externím návštěvníkům požádat o přihlášení k nadaci. Je-li zapnutý online platební modul, může být také automaticky poskytnut formulář platby.
+BlankSubscriptionFormDesc=PowerERP vám může poskytnout veřejnou adresu URL / webovou stránku, která umožní externím návštěvníkům požádat o přihlášení k nadaci. Je-li zapnutý online platební modul, může být také automaticky poskytnut formulář platby.
 EnablePublicSubscriptionForm=Povolte veřejnou webovou stránku s formulářem pro předplatné
 ForceMemberType=Vynutit typ uživatele
 ExportDataset_member_1=Members and contributions

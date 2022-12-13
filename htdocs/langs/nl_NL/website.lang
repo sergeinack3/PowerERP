@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Code
 WebsiteSetupDesc=Maak hier de websites die u wilt gebruiken. Ga vervolgens naar het menu Websites om ze te bewerken.
 DeleteWebsite=Website verwijderen
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Bekijk website met behulp van eigen URL's
 SetHereVirtualHost=<u> Gebruik met Apache / NGinx / ... </u> <br> Creëer op uw webserver (Apache, Nginx, ...) een speciale virtuele host met PHP ingeschakeld en een root-directory op <br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Voorbeeld om te gebruiken in Apache virtual host setup:
 YouCanAlsoTestWithPHPS=<u>Gebruik met PHP embedded server</u> <br> In een ontwikkelomgeving kunt u de site het liefst testen met de ingebouwde PHP-webserver (PHP 5.5 vereist) <br> <strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP=<u>Beheer uw website met een andere Powererp Hosting-provider</u> <br> Als u geen webserver zoals Apache of NGinx beschikbaar heeft op internet, kunt u uw website exporteren en importeren in een ander Powererp-exemplaar van een andere Powererp-hostingprovider die volledige integratie met de websitemodule biedt. U kunt een lijst met sommige Powererp-hostingproviders vinden op <a href="https://saas.powererp.org" target="_blank">https://saas.powererp.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Beheer uw website met een andere PowerERP Hosting-provider</u> <br> Als u geen webserver zoals Apache of NGinx beschikbaar heeft op internet, kunt u uw website exporteren en importeren in een ander PowerERP-exemplaar van een andere PowerERP-hostingprovider die volledige integratie met de websitemodule biedt. U kunt een lijst met sommige PowerERP-hostingproviders vinden op <a href="https://saas.PowerERP.org" target="_blank">https://saas.PowerERP.org</a>
 CheckVirtualHostPerms=Controleer ook of de virtuele hostgebruiker (bijvoorbeeld www-data) <strong>%s</strong> permissies heeft voor bestanden in <br><strong>%s</strong>
 ReadPerm=Lezen
 WritePerm=Schrijven
 TestDeployOnWeb=Testen / implementeren op internet
 PreviewSiteServedByWebServer=<u>Voorbeeld %s op een nieuw tabblad.</u> <br><br> De %s wordt bediend door een externe webserver (zoals Apache, Nginx, IIS). U moet deze server installeren en instellen voordat u naar de map verwijst: <br> <strong>%s</strong> <br> URL aangeboden door externe server: <br> <strong>%s</strong>
-PreviewSiteServedByPowererp= <u> Bekijk een voorbeeld van %s op een nieuw tabblad. </u> <br> <br> De %s wordt bediend door de Powererp-server, dus er is geen extra webserver (zoals Apache, Nginx, IIS) nodig om te worden geïnstalleerd. <br> Het vervelende is dat de URL's van pagina's niet gebruiksvriendelijk zijn en beginnen met het pad van uw Powererp. <br> URL geserveerd door Powererp: <br> <strong> %s </strong> <br> <br> Om uw eigen externe webserver gebruiken om deze website te dienen, maakt u een virtuele host op uw webserver die punten op directory <br> <strong> %s </strong> <br> voer vervolgens de naam van deze virtuele server in de eigenschappen van deze website en klik op de link "Test/Deploy on the web".
+PreviewSiteServedByPowererp= <u> Bekijk een voorbeeld van %s op een nieuw tabblad. </u> <br> <br> De %s wordt bediend door de PowerERP-server, dus er is geen extra webserver (zoals Apache, Nginx, IIS) nodig om te worden geïnstalleerd. <br> Het vervelende is dat de URL's van pagina's niet gebruiksvriendelijk zijn en beginnen met het pad van uw PowerERP. <br> URL geserveerd door PowerERP: <br> <strong> %s </strong> <br> <br> Om uw eigen externe webserver gebruiken om deze website te dienen, maakt u een virtuele host op uw webserver die punten op directory <br> <strong> %s </strong> <br> voer vervolgens de naam van deze virtuele server in de eigenschappen van deze website en klik op de link "Test/Deploy on the web".
 VirtualHostUrlNotDefined=URL van de virtuele host bediend door externe webserver niet gedefinieerd
 NoPageYet=Nog geen pagina's
 YouCanCreatePageOrImportTemplate=U kunt een nieuwe pagina maken of een volledige websitesjabloon importeren

@@ -21,7 +21,7 @@
  *		\brief      List page for inventory
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';

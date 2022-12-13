@@ -19,9 +19,9 @@
  * 	\file       htdocs/public/agenda/agendaexport.php
  * 	\ingroup    agenda
  * 	\brief      Page to export agenda
- * 				http://127.0.0.1/powererp/public/agenda/agendaexport.php?format=vcal&exportkey=cle
- * 				http://127.0.0.1/powererp/public/agenda/agendaexport.php?format=ical&type=event&exportkey=cle
- * 				http://127.0.0.1/powererp/public/agenda/agendaexport.php?format=rss&exportkey=cle
+ * 				http://127.0.0.1/PowerERP/public/agenda/agendaexport.php?format=vcal&exportkey=cle
+ * 				http://127.0.0.1/PowerERP/public/agenda/agendaexport.php?format=ical&type=event&exportkey=cle
+ * 				http://127.0.0.1/PowerERP/public/agenda/agendaexport.php?format=rss&exportkey=cle
  *              Other parameters into url are:
  *              &notolderthan=99
  *              &year=2015

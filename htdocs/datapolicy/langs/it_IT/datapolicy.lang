@@ -50,7 +50,7 @@ DATAPOLICY_opposition_prospection = Consenso negato al trattamento dei dati pers
 # Popup
 #
 DATAPOLICY_POPUP_ANONYME_TITLE = Anonimizza un soggetto terzo
-DATAPOLICY_POPUP_ANONYME_TEXTE = Impossibile eliminare questo contatto da Powererp perchè vi sono elementi collegati. In conformità con il GDPR, renderai tutti questi dati anonimi per rispettare i tuoi obblighi. Vuoi continuare?
+DATAPOLICY_POPUP_ANONYME_TEXTE = Impossibile eliminare questo contatto da PowerERP perchè vi sono elementi collegati. In conformità con il GDPR, renderai tutti questi dati anonimi per rispettare i tuoi obblighi. Vuoi continuare?
 
 
 #

@@ -30,7 +30,7 @@ Author, Date, Version
 
 [NOTE]
 ==============
-This document was generated using Powererp ERP CRM process
+This document was generated using PowerERP ERP CRM process
 ==============
 
 

@@ -24,14 +24,14 @@
  *  \ingroup    Treasury accounting
  *  \brief      Description and activation file for module Treasuryaccounting
  */
-include_once DOL_DOCUMENT_ROOT .'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT .'/core/modules/PowerERPModules.class.php';
 dol_include_once('/treasuryaccounting/lib/treasuryaccounting.lib.php');
 
 
 /**
  *  Description and activation class for module treasury accounting
  */
-class modTreasuryaccounting extends PowererpModules
+class modTreasuryaccounting extends PowerERPModules
 {
 	/**
 	 * Constructor. Define names, constants, directories, boxes, permissions
@@ -46,7 +46,7 @@ class modTreasuryaccounting extends PowererpModules
         $langs->load('opendsi@treasuryaccounting');
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 163029;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'treasuryaccounting';
@@ -70,7 +70,7 @@ class modTreasuryaccounting extends PowererpModules
         $this->editor_name = 'Open-DSI';
         $this->editor_url = 'http://www.open-dsi.fr';
 		
-		// Possible values for version are: 'development', 'experimental', 'powererp', 'dolibarr_deprecated' or a version string like 'x.y.z'
+		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'dolibarr_deprecated' or a version string like 'x.y.z'
 		$this->version = '7.0.7';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -119,7 +119,7 @@ class modTreasuryaccounting extends PowererpModules
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->conflictwith = array();	// List of modules id this module is in conflict with
 		$this->phpmin = array(5,4);					// Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(7,0);	// Minimum version of Powererp required by module
+		$this->need_dolibarr_version = array(7,0);	// Minimum version of PowerERP required by module
 		$this->langfiles = array("treasuryaccounting@treasuryaccounting", "opendsi@treasuryaccounting");
         $langs->load('treasuryaccounting@treasuryaccounting');
 
@@ -294,7 +294,7 @@ class modTreasuryaccounting extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -319,7 +319,7 @@ class modTreasuryaccounting extends PowererpModules
 
 	/**
 	 * Function called when module is disabled.
-	 * Remove from database constants, boxes and permissions from Powererp database.
+	 * Remove from database constants, boxes and permissions from PowerERP database.
 	 * Data directories are not deleted
 	 *
 	 * @param      string	$options    Options when enabling module ('', 'noboxes')

@@ -113,7 +113,7 @@ module.exports = {
     noun: 'Ticket',
     display: {
         label: 'New Ticket',
-        description: 'Triggers when a new ticket action is done in Powererp.'
+        description: 'Triggers when a new ticket action is done in PowerERP.'
     },
 
     // `operation` is where the business logic goes.

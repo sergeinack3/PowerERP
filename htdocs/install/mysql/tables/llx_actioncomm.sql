@@ -18,14 +18,14 @@
 --
 --
 -- Table of events and actions (past and to do). 
--- This is also the table to track events on other Powererp objects.
+-- This is also the table to track events on other PowerERP objects.
 -- ========================================================================
 
 create table llx_actioncomm
 (
   id				integer AUTO_INCREMENT PRIMARY KEY,
   ref               varchar(30) NOT NULL,
-  ref_ext			varchar(255),					-- reference into an external system (not used by powererp). Example: An id coming from google calendar has length between 5 and 1024 chars. An event id must follow rule: chars used in base32hex encoding (i.e. lowercase letters a-v and digits 0-9, see section 3.1.2 in RFC2938)
+  ref_ext			varchar(255),					-- reference into an external system (not used by PowerERP). Example: An id coming from google calendar has length between 5 and 1024 chars. An event id must follow rule: chars used in base32hex encoding (i.e. lowercase letters a-v and digits 0-9, see section 3.1.2 in RFC2938)
   entity			integer DEFAULT 1 NOT NULL,		-- multi company id
   datep				datetime,						-- date start
   datep2			datetime,						-- date end

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID de Evento
 ActionsOwnedBy=Evento propiedad de
 Event=Acción
@@ -13,10 +13,10 @@ ViewDay=Vista del día
 ViewWeek=Vista de semana
 ViewPerUser=Por vista de usuario
 AutoActions=Llenado automático
-AgendaAutoActionDesc=Aquí puede definir los eventos que desea que Powererp cree automáticamente en la Agenda. Si no se marca nada, solo las acciones manuales se incluirán en los registros y se mostrarán en la Agenda. El seguimiento automático de las acciones comerciales realizadas en los objetos (validación, cambio de estado) no se guardará.
-AgendaSetupOtherDesc=Esta página proporciona opciones para permitir la exportación de sus eventos Powererp a un calendario externo (Thunderbird, Google Calendar, etc.)
-AgendaExtSitesDesc=Esta página permite declarar fuentes externas de calendarios para ver sus eventos en la agenda de Powererp.
-ActionsEvents=Eventos para los que Powererp creará una acción en agenda automáticamente
+AgendaAutoActionDesc=Aquí puede definir los eventos que desea que PowerERP cree automáticamente en la Agenda. Si no se marca nada, solo las acciones manuales se incluirán en los registros y se mostrarán en la Agenda. El seguimiento automático de las acciones comerciales realizadas en los objetos (validación, cambio de estado) no se guardará.
+AgendaSetupOtherDesc=Esta página proporciona opciones para permitir la exportación de sus eventos PowerERP a un calendario externo (Thunderbird, Google Calendar, etc.)
+AgendaExtSitesDesc=Esta página permite declarar fuentes externas de calendarios para ver sus eventos en la agenda de PowerERP.
+ActionsEvents=Eventos para los que PowerERP creará una acción en agenda automáticamente
 EventRemindersByEmailNotEnabled=Los recordatorios de eventos por correo electrónico no se habilitaron en la configuración del módulo %s.
 NewCompanyToPowererp=Se creó un tercero %s
 PropalClosedSignedInPowererp=Propuesta %s firmada

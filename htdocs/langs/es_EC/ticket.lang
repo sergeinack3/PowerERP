@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ticket
+# PowerERP language file - Source file is en_US - ticket
 Module56000Desc=Sistema de tickets para gestión de problemas o solicitudes
 Permission56005=Vea los tickets de todos los cliente/proveedor (no es efectivo para usuarios externos, siempre se limita al cliente/proveedor del que dependen)
 TicketDictType=Tipos - Tickets

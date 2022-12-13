@@ -1,4 +1,4 @@
-﻿# Powererp language file - pt_BR - factory
+﻿# PowerERP language file - pt_BR - factory
 CHARSET=UTF-8
 NewOrderBuild=Nova ordem de produção
 OrderBuild=Ordem de produção (PO)
@@ -192,7 +192,7 @@ QtyOfWarehouse=Qtd no armazém
 RealStock=Estoque real
 UseCostPriceInsteadPMP=Use o preço do fornecedor ao invés do preço médio ponderado
 InfoUseCostPriceInsteadPMP=Use o preço do fornecedor se definido em vez do preço médio ponderado
-ThisFeatureNeedPowererp39=Esse recurso precisa do Powererp 3.9 ou superior
+ThisFeatureNeedPowererp39=Esse recurso precisa do PowerERP 3.9 ou superior
 ComponentsBuyingPrice=Recuperar o preço do fornecedor dos componentes
 InfoComponentsBuyingPrice=Selecione o preço base dos componentes de:
 UsePMPPrice=preço médio ponderado
@@ -244,7 +244,7 @@ QtyOfWarehouse=Quantidade no armazém
 RealStock=Estoque real
 UseCostPriceInsteadPMP=Use o preço do fornecedor em vez do preço médio ponderado
 InfoUseCostPriceInsteadPMP=Use o preço do fornecedor definido como o preço médio ponderado
-ThisFeatureNeedPowererp39=Esse recurso precisa do Powererp 3.9.0 ou superior
+ThisFeatureNeedPowererp39=Esse recurso precisa do PowerERP 3.9.0 ou superior
 ComponentsBuyingPrice=Recuperação do preço do fornecedor do componente
 InfoComponentsBuyingPrice=Selecione o preço base dos componentes na composição
 UsePMPPrice=Preço médio ponderado
@@ -308,7 +308,7 @@ LienDolistore=Encontre nossos outros módulos
 Changelog=ChangeLog seu módulo
 SupportModuleInformation=Informação técnica
 SupportModuleInformationDesc= <br/> <em>Nota: Esta informação é útil e você pode ser perguntado se você encontrar um bug na operação do módulo.</em>
-PowererpVersion=Versão de Powererp
+PowererpVersion=Versão de PowerERP
 ModuleVersion=Versão do módulo
 PHPVersion=Versão do PHP
 DatabaseVersion=Versão do banco de dados

@@ -18,7 +18,7 @@
 
 /**
  *	\file			htdocs/core/lib/functions_ch.lib.php
- *	\brief			A set of swiss functions for Powererp
+ *	\brief			A set of swiss functions for PowerERP
  *					This file contains rare functions.
  */
 

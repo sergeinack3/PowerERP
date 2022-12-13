@@ -26,13 +26,13 @@
  *		\ingroup    fournisseur
  *		\brief      Description and activation file for the module Supplier
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Description and activation class for module Fournisseur
  */
-class modFournisseur extends PowererpModules
+class modFournisseur extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -54,8 +54,8 @@ class modFournisseur extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Gestion des fournisseurs";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'company';
@@ -833,7 +833,7 @@ class modFournisseur extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
 	 *      @param      string	$options    Options when enabling module ('', 'noboxes')

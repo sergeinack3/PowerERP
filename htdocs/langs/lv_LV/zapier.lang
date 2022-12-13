@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForPowererpName = Zapier priekš Powererp
-ModuleZapierForPowererpDesc = Par zapier Powererp moduli
-ZapierForPowererpSetup=Zapier iestatīšana Powererp
+ModuleZapierForPowererpName = Zapier priekš PowerERP
+ModuleZapierForPowererpDesc = Par zapier PowerERP moduli
+ZapierForPowererpSetup=Zapier iestatīšana PowerERP
 ZapierDescription=Saskarne ar Zapier
 ZapierAbout=Par moduli Zapier
-ZapierSetupPage=Lai izmantotu Zapier, Powererp pusē nav nepieciešama iestatīšana. Tomēr, lai varētu izmantot Zapier ar Powererp, jums ir jāizveido un jāpublicē pakete zapier. Skatiet šīs wiki lapas <a href="https://wiki.powererp.org/index.php/Module_Zapier"> dokumentāciju </a>.
+ZapierSetupPage=Lai izmantotu Zapier, PowerERP pusē nav nepieciešama iestatīšana. Tomēr, lai varētu izmantot Zapier ar PowerERP, jums ir jāizveido un jāpublicē pakete zapier. Skatiet šīs wiki lapas <a href="https://wiki.PowerERP.org/index.php/Module_Zapier"> dokumentāciju </a>.

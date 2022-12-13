@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorSetACountryFirst=Wähle zuerst das Land
 SelectThirdParty=Wähle einen Geschäftspartner
 MenuNewThirdParty=Erzeuge Geschäftspartner
@@ -153,7 +153,7 @@ ChangeContactDone=Ändern Sie den Status auf 'Erfolgreich kontaktiert'
 ProspectsByStatus=Leads nach Status
 NoParentCompany=Keine Mutterfirma
 ContactNotLinkedToCompany=Kontakt keinem Geschäftspartner zugeordnet
-PowererpLogin=Powererp Benutzername
+PowererpLogin=PowerERP Benutzername
 ExportDataset_company_1=Geschäftspartner und ihre Eigenschaften
 ExportDataset_company_2=Kontakte und deren Eigenschaften
 ImportDataset_company_1=Geschäftspartner und deren Eigenschaften

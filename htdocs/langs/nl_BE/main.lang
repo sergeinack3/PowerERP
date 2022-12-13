@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -38,7 +38,7 @@ GoToWikiHelpPage=Online Help lezen (internettoegang vereist)
 GoToHelpPage=Contacteer helpdesk
 RecordSaved=Tabelregel opgeslagen
 RecordDeleted=Record verwijderd
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp-authenticatiemodus is ingesteld op <b>%s</b> in configuratiebestand <b>conf.php</b>. <br> Dit betekent dat de wachtwoorddatabase extern is van Powererp, dus het wijzigen van dit veld heeft mogelijk geen effect.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP-authenticatiemodus is ingesteld op <b>%s</b> in configuratiebestand <b>conf.php</b>. <br> Dit betekent dat de wachtwoorddatabase extern is van PowerERP, dus het wijzigen van dit veld heeft mogelijk geen effect.
 LastConnexion=Laatste login
 AuthenticationMode=Verificatiemodus
 RequestedUrl=Gevraagde URL

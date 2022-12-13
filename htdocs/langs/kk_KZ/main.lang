@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Қателік жоқ
 ErrorServiceUnavailableTryLater=Қызмет қазіргі уақытта қол жетімді емес. Кейінірек қайталап көріңіз.
 ErrorDuplicateField=Бірегей өрістегі қайталанатын мән
 ErrorSomeErrorWereFoundRollbackIsDone=Кейбір қателер табылды. Өзгерістер кері қайтарылды.
-ErrorConfigParameterNotDefined=<b> %s </b> параметрі Powererp конфигурация файлында <b> conf.php </b> анықталмаған.
-ErrorCantLoadUserFromPowererpDatabase=<b> %s </b> пайдаланушысын Powererp дерекқорынан табу мүмкін болмады.
+ErrorConfigParameterNotDefined=<b> %s </b> параметрі PowerERP конфигурация файлында <b> conf.php </b> анықталмаған.
+ErrorCantLoadUserFromPowererpDatabase=<b> %s </b> пайдаланушысын PowerERP дерекқорынан табу мүмкін болмады.
 ErrorNoVATRateDefinedForSellerCountry=Қате, '%s' елі үшін ҚҚС мөлшерлемесі анықталмады.
 ErrorNoSocialContributionForSellerCountry=Қате, '%s' елі үшін анықталған әлеуметтік/фискалдық салық түрі жоқ.
 ErrorFailedToSaveFile=Қате, файл сақталмады.
@@ -95,7 +95,7 @@ RecordDeleted=Жазба жойылды
 RecordGenerated=Жазба жасалды
 LevelOfFeature=Ерекшеліктер деңгейі
 NotDefined=Анықталмаған
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp аутентификация режимі <b> конф.php </b> конфигурация файлында <b> %s </b> күйіне орнатылған. <br> Бұл пароль дерекқоры Powererp -дан тыс екенін білдіреді, сондықтан бұл өрісті өзгерту әсер етпеуі мүмкін.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP аутентификация режимі <b> конф.php </b> конфигурация файлында <b> %s </b> күйіне орнатылған. <br> Бұл пароль дерекқоры PowerERP -дан тыс екенін білдіреді, сондықтан бұл өрісті өзгерту әсер етпеуі мүмкін.
 Administrator=Әкімші
 Undefined=Белгісіз
 PasswordForgotten=Құпия сөз ұмытылды ма?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Мәліметтер қорының типі менедже�
 RequestLastAccessInError=Мәліметтер қорына кіруге рұқсат сұрауының соңғы қатесі
 ReturnCodeLastAccessInError=Дерекқорға кіруге соңғы сұрау қатесі үшін кодты қайтару
 InformationLastAccessInError=Дерекқорға кіруге рұқсат сұрауының соңғы қатесі туралы ақпарат
-PowererpHasDetectedError=Powererp техникалық қатені анықтады
+PowererpHasDetectedError=PowerERP техникалық қатені анықтады
 YouCanSetOptionPowererpMainProdToZero=Қосымша ақпарат алу үшін журнал файлын оқи аласыз немесе $ powererp_main_prod параметрін конфигурация файлыңызда '0' мәніне қоя аласыз.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Көбірек ақпарат
@@ -122,7 +122,7 @@ TechnicalID=Техникалық идентификатор
 LineID=Жол идентификаторы
 NotePublic=Ескерту (жалпыға ортақ)
 NotePrivate=Ескерту (жеке)
-PrecisionUnitIsLimitedToXDecimals=Powererp бірлік бағасының дәлдігін <b> %s </b> ондықтармен шектеу үшін орнатылды.
+PrecisionUnitIsLimitedToXDecimals=PowerERP бірлік бағасының дәлдігін <b> %s </b> ондықтармен шектеу үшін орнатылды.
 DoTest=Сынақ
 ToFilter=Сүзгі
 NoFilter=Сүзгі жоқ
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Мүшелер
 MenuAgendaGoogle=Google күн тәртібі
 MenuTaxesAndSpecialExpenses=Салықтар | Арнайы шығындар
-ThisLimitIsDefinedInSetup=Powererp шегі (Home-setup-security мәзірі): %s Kb, PHP шегі: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp шегі (%s мәзірі): %s Kb, PHP шегі (%s Парам): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP шегі (Home-setup-security мәзірі): %s Kb, PHP шегі: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP шегі (%s мәзірі): %s Kb, PHP шегі (%s Парам): %s Kb
 NoFileFound=Құжаттар жүктелмеген
 CurrentUserLanguage=Қазіргі тіл
 CurrentTheme=Ағымдағы тақырып
@@ -909,7 +909,7 @@ ViewFlatList=Тізімді қарау
 ViewAccountList=Кітапты қарау
 ViewSubAccountList=Қосалқы шотты қарау
 RemoveString='%s' жолын алып тастаңыз
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Жалпыға қолжетімді жүктеу сілтемесі
 PublicDownloadLinkDesc=Файлды жүктеу үшін тек сілтеме қажет
 DirectDownloadInternalLink=Жеке жүктеу сілтемесі

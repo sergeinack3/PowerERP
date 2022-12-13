@@ -112,7 +112,7 @@ $authBackend = new \Sabre\DAV\Auth\Backend\BasicCallBack(function ($username, $p
 
 	// Authentication mode
 	if (empty($powererp_main_authentication)) {
-		$powererp_main_authentication = 'powererp';
+		$powererp_main_authentication = 'PowerERP';
 	}
 
 	// Authentication mode: forceuser
@@ -165,12 +165,12 @@ if (!empty($conf->ecm->enabled) && !empty($conf->global->DAV_ALLOW_ECM_DIR)) {
 
 
 // Principals Backend
-//$principalBackend = new \Sabre\DAVACL\PrincipalBackend\Powererp($user,$db);
+//$principalBackend = new \Sabre\DAVACL\PrincipalBackend\PowerERP($user,$db);
 // /principals
 //$nodes[] = new \Sabre\DAVACL\PrincipalCollection($principalBackend);
 // CardDav & CalDav Backend
-//$carddavBackend   = new \Sabre\CardDAV\Backend\Powererp($user,$db,$langs);
-//$caldavBackend    = new \Sabre\CalDAV\Backend\Powererp($user,$db,$langs, $cdavLib);
+//$carddavBackend   = new \Sabre\CardDAV\Backend\PowerERP($user,$db,$langs);
+//$caldavBackend    = new \Sabre\CalDAV\Backend\PowerERP($user,$db,$langs, $cdavLib);
 // /addressbook
 //$nodes[] = new \Sabre\CardDAV\AddressBookRoot($principalBackend, $carddavBackend);
 // /calendars

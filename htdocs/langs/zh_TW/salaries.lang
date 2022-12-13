@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=用戶合作方使用的會計帳戶
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=用戶卡上定義的專用會計帳戶將僅用於子帳會計。如果未定義用戶專用的用戶帳戶，則此帳戶將用於“總帳”，並作為“子帳”帳戶的默認值。
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=默認支付薪資的會計帳戶

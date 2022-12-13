@@ -19,7 +19,7 @@
 /**
  * \file scripts/website/migrate_news_joomla2powererp.php
  * \ingroup scripts
- * \brief Migrate news from a Joomla databse into a Powererp website
+ * \brief Migrate news from a Joomla databse into a PowerERP website
  */
 
 if (!defined('NOSESSION')) {
@@ -37,14 +37,14 @@ if (substr($sapi_type, 0, 3) == 'cgi') {
 }
 
 @set_time_limit(0); // No timeout for this script
-define('EVEN_IF_ONLY_LOGIN_ALLOWED', 1); // Set this define to 0 if you want to lock your script when powererp setup is "locked to admin user only".
+define('EVEN_IF_ONLY_LOGIN_ALLOWED', 1); // Set this define to 0 if you want to lock your script when PowerERP setup is "locked to admin user only".
 
 $error = 0;
 
 $mode = empty($argv[1]) ? '' : $argv[1];
 $websiteref = empty($argv[2]) ? '' : $argv[2];
 $joomlaserverinfo = empty($argv[3]) ? '' : $argv[3];
-$image = 'image/__WEBSITE_KEY__/images/stories/powererp.png';
+$image = 'image/__WEBSITE_KEY__/images/stories/PowerERP.png';
 
 $max = (!isset($argv[4]) || (empty($argv[4]) && $argv[4] !== '0')) ? '10' : $argv[4];
 $excludeid = (empty($argv[5]) ? '' : $argv[5]);
@@ -54,7 +54,7 @@ if (empty($argv[3]) || !in_array($argv[1], array('test', 'confirm')) || empty($w
 	print '***** '.$script_file.' *****'."\n";
 	print "Usage: $script_file (test|confirm) website login:pass@serverjoomla/tableprefix/databasejoomla [nbmaxrecord]\n";
 	print "\n";
-	print "Load joomla news and create them into Powererp database (if they don't alreay exist).\n";
+	print "Load joomla news and create them into PowerERP database (if they don't alreay exist).\n";
 	exit(-1);
 }
 

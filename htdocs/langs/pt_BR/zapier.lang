@@ -1,5 +1,5 @@
-# Powererp language file - Source file is en_US - zapier
-ModuleZapierForPowererpName =Zapier para Powererp
-ModuleZapierForPowererpDesc =Módulo Zapier para Powererp
-ZapierForPowererpSetup=Configurações do Zapier para Powererp
+# PowerERP language file - Source file is en_US - zapier
+ModuleZapierForPowererpName =Zapier para PowerERP
+ModuleZapierForPowererpDesc =Módulo Zapier para PowerERP
+ZapierForPowererpSetup=Configurações do Zapier para PowerERP
 ZapierDescription=Interface com Zapier

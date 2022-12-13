@@ -1,4 +1,4 @@
-# Powererp language file - ca_ES - numberwords
+# PowerERP language file - ca_ES - numberwords
 CHARSET=UTF-8
 Module101220Name=Number Words
 Module101220Desc=Afegeix la possibilitat de convertir els imports o números en un valor escrit en text alfabètic (en els idiomes suportats)

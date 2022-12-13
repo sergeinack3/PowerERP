@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Nº de documentos no directorio
 ECMSection=Directorio
 ECMSectionManual=Directorio manual
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Número de sub-directories
 ECMNbOfFilesInSubDir=Número de ficheiros en sub-directories
 ECMCreationUser=Creador
 ECMArea=Área MS/ECM
-ECMAreaDesc=O área DMS / ECM (Document Management System / Electronic Content Management) permítelle gardar, compartir e buscar rapidamente todo tipo de documentos en Powererp.
+ECMAreaDesc=O área DMS / ECM (Document Management System / Electronic Content Management) permítelle gardar, compartir e buscar rapidamente todo tipo de documentos en PowerERP.
 ECMAreaDesc2=Pode crear directorios manuais e axuntar os documentos<br>Os directorios automáticos son cobertos automáticamente ao engadir un documento nunha ficha.
 ECMSectionWasRemoved=O directorio <b>%s</b> foi eliminado
 ECMSectionWasCreated=O directorio <b> %s </b> foi creado.

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=رمز الحدث
 Actions=الأحداث
 Agenda=جدول الأعمال
@@ -31,9 +31,9 @@ ViewWeek=عرض اسبوعي
 ViewPerUser=لكل وجهة نظر المستخدم
 ViewPerType=العرض حسب النوع
 AutoActions= إكمال تلقائي
-AgendaAutoActionDesc= Here you may define events which you want Powererp to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
-AgendaSetupOtherDesc= This page provides options to allow the export of your Powererp events into an external calendar (Thunderbird, Google Calendar etc...)
-AgendaExtSitesDesc=تسمح هذه الصفحة بالإعلان عن المصادر الخارجية للتقويمات لرؤية أحداثها في جدول أعمال Powererp.
+AgendaAutoActionDesc= Here you may define events which you want PowerERP to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
+AgendaSetupOtherDesc= This page provides options to allow the export of your PowerERP events into an external calendar (Thunderbird, Google Calendar etc...)
+AgendaExtSitesDesc=تسمح هذه الصفحة بالإعلان عن المصادر الخارجية للتقويمات لرؤية أحداثها في جدول أعمال PowerERP.
 ActionsEvents=الأحداث التي سيقوم دوليبار بإنشاء أعمال في جدول الأعمال بشكل تلقائي
 EventRemindersByEmailNotEnabled=Event reminders by email was not enabled into %s module setup.
 ##### Agenda event labels #####

@@ -1,13 +1,13 @@
-Information about Powererp in Debian
+Information about PowerERP in Debian
 ------------------------------------
 
 The Debian package provides integration with apache2 and lighttpd.
-If you have one of those servers installed, then Powererp is immediately
-accessible at http://localhost/powererp/
+If you have one of those servers installed, then PowerERP is immediately
+accessible at http://localhost/PowerERP/
 
 But it won't be usable until you configure it via
-http://localhost/powererp/install/
+http://localhost/PowerERP/install/
 
 To complete the setup process you will need the MySQL root credentials
-because the Powererp installer will create the database and the dedicated user
+because the PowerERP installer will create the database and the dedicated user
 for you.

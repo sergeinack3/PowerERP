@@ -1,6 +1,6 @@
 # HOW TO BUILD
 
-Take a look at the powererp wiki page of Zapier module:
+Take a look at the PowerERP wiki page of Zapier module:
 
-https://wiki.powererp.org/index.php?title=Module_Zapier
+https://wiki.PowerERP.org/index.php?title=Module_Zapier
 

@@ -101,7 +101,7 @@ class Canvas
 	{
 		global $conf, $langs;
 
-		// Set properties with value specific to powererp core: this->targetmodule, this->card, this->canvas
+		// Set properties with value specific to PowerERP core: this->targetmodule, this->card, this->canvas
 		$this->targetmodule = $module;
 		$this->canvas = $canvas;
 		$this->card = $card;
@@ -195,7 +195,7 @@ class Canvas
 
 
 	// This functions should not be used anymore because canvas should contains only templates.
-	// https://wiki.powererp.org/index.php/Canvas_development
+	// https://wiki.PowerERP.org/index.php/Canvas_development
 
 	/**
 	 * 	Return if a canvas contains an action controller
@@ -216,7 +216,7 @@ class Canvas
 	 * 	@param		string		$action	Action string
 	 * 	@param		int			$id			Object id
 	 * 	@return		mixed					Return return code of doActions of canvas
-	 * 	@see		https://wiki.powererp.org/index.php/Canvas_development
+	 * 	@see		https://wiki.PowerERP.org/index.php/Canvas_development
 	 */
 	public function doActions(&$action = 'view', $id = 0)
 	{

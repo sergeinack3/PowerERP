@@ -55,7 +55,7 @@ class Interfaces
 
 	// phpcs:disable PEAR.NamingConventions.ValidFunctionName.ScopeNotCamelCaps
 	/**
-	 *   Function called when a Powererp business event occurs
+	 *   Function called when a PowerERP business event occurs
 	 *   This function call all qualified triggers.
 	 *
 	 *   @param		string		$action     Trigger event code

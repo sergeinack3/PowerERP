@@ -17,7 +17,7 @@
 
 /**
  * \file 	dev/tools/spider.php
- * \brief 	Script to spider Powererp app.
+ * \brief 	Script to spider PowerERP app.
  *
  * To use it:
  * - Disable module "bookmark"

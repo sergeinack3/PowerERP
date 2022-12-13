@@ -1,4 +1,4 @@
-# Powererp language file - English - timesheet
+# PowerERP language file - English - timesheet
 # Translators
 # (6),  (403)
 adddocs = attached documents
@@ -50,7 +50,7 @@ DiplayOptions = display options
 draft = Draft
 draftColorDesc = Color for the draft holiday & timesheet
 dropdownAjax = Disable dropdown Ajax
-dropdownAjaxDesc = disable the ajax for the Powererp dropdown list (in case on issue to enter a new favoris)
+dropdownAjaxDesc = disable the ajax for the PowerERP dropdown list (in case on issue to enter a new favoris)
 Employee = Collaborator
 employeeSignature = employee's signature
 errMsgMaxHoursExceded = you can't enter that much time for a single day.
@@ -151,7 +151,7 @@ RecordUpdated = Record updated
 rejected = Rejected
 rejectedColorDesc = Color for the holiday & timesheet rejected by the approver
 Reminder = Reminder
-reminderEmailProcess = You can activate reminder via emails through the task planner of Powererp<br>Job type \= Call method of a Powererp Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
+reminderEmailProcess = You can activate reminder via emails through the task planner of PowerERP<br>Job type \= Call method of a PowerERP Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
 savedDuration = Saved duration
 searchbox = Activate search boxes
 searchboxDesc = Replace the drop down lists by search boxes for the Tasks. Needed when hundreds of tasks are defined in order to improve performance. (Project, contact, third partie use the search box configuration defined in other module)
@@ -197,7 +197,7 @@ userReport = User report
 wngMsgHoursExceded = you are entering overtime
 Yearweekdate = Reference date
 YouHaveApprovalPending = Timesheet to approve
-YouHaveApprovalPendingMsg = Dears,<br><br>You have __NB_TS__ timesheet to approve, please connect to dolibar to approve them.<br><br>Best regards.<br><br>Your Powererp admin.
+YouHaveApprovalPendingMsg = Dears,<br><br>You have __NB_TS__ timesheet to approve, please connect to dolibar to approve them.<br><br>Best regards.<br><br>Your PowerERP admin.
 YouHaveTimesheetRejected = One of your submitted timesheet got rejected.
 YouHaveTimesheetRejectedMsg = Hello,<br><br>The timesheet of the week %s was rejected.<br><br>Please check your entries here:<br>%s<br><br>Best regards
 minSecondsPerEvent = Minimun in seconds

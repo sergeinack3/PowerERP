@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Λογαριασμός λογιστικής που χρησιμοποιείται για τρίτους χρήστες
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Ο αποκλειστικός λογαριασμός λογιστικής που ορίζεται στην κάρτα χρήστη θα χρησιμοποιηθεί μόνο για τη λογιστική της Subledger. Αυτός θα χρησιμοποιηθεί για το γενικό βιβλίο και ως προεπιλεγμένη τιμή της λογιστικής Subledger εάν δεν έχει καθοριστεί ο λογαριασμός λογιστικής για τον χρήστη.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Λογαριασμός λογαριασμού από προεπιλογή για πληρωμές μισθών

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cashdesk
+# PowerERP language file - Source file is en_US - cashdesk
 CashdeskShowServices=Serviços de venda
 CashDeskStock=Estoque
 CashDeskOn=ligar
@@ -14,7 +14,7 @@ Change=Excesso recebido
 ShowCompany=Mostar empresa
 DeleteArticle=Clique para remover esse artigo
 FilterRefOrLabelOrBC=Procurar (Ref/Rótulo)
-PowererpReceiptPrinter=Impressão de Recibo Powererp
+PowererpReceiptPrinter=Impressão de Recibo PowerERP
 PointOfSale=Ponto de vendas
 PointOfSaleShort=PDV
 CloseBill=Fechar fatura
@@ -31,7 +31,7 @@ NbOfInvoices=Núm. de faturas
 Paymentnumpad=Tipo de Pad para inserir pagamento
 Numberspad=Números de Pad
 BillsCoinsPad=Almofada de moedas e notas
-DolistorePosCategory=Módulos TakePOS e outras soluções de PDV para Powererp
+DolistorePosCategory=Módulos TakePOS e outras soluções de PDV para PowerERP
 TakeposNeedsCategories=TakePOS precisa de pelo menos uma categoria de produto para funcionar
 TakeposNeedsAtLeastOnSubCategoryIntoParentCategory=TakePOS precisa de pelo menos 1 categoria de produto na categoria <b> %s </b> para funcionar
 CashDeskBankAccountFor=Conta padrão a ser usada para pagamentos em

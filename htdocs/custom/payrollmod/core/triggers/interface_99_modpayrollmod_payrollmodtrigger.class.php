@@ -84,7 +84,7 @@ class Interfacepayrollmodtrigger
         } elseif ($this->version == 'experimental')
 
                 return $langs->trans("Experimental");
-        elseif ($this->version == 'powererp') return DOL_VERSION;
+        elseif ($this->version == 'PowerERP') return DOL_VERSION;
         elseif ($this->version) return $this->version;
         else {
             return $langs->trans("Unknown");
@@ -129,7 +129,7 @@ class Interfacepayrollmodtrigger
 
     // public function run_trigger($action, $object, $user, $langs, $conf)
     // {
-    //     // Put here code you want to execute when a Powererp business events occurs.
+    //     // Put here code you want to execute when a PowerERP business events occurs.
     //     // Data and type of action are stored into $object and $action
     //     // Users
     //     if ($action == 'USER_LOGIN') {

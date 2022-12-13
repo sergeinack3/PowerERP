@@ -70,8 +70,8 @@ if ($powererp_main_db_type == "sqlite3") {
 // Now we load forced values from install.forced.php file.
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/powererp/conf.php") {
-	$forcedfile = "/etc/powererp/install.forced.php";
+if ($conffile == "/etc/PowerERP/conf.php") {
+	$forcedfile = "/etc/PowerERP/install.forced.php";
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;
@@ -574,7 +574,7 @@ powererp_install_syslog("- step2: end");
 // This code must be similar with the one into main.inc.php
 $conf->file->instance_unique_id = (empty($powererp_main_instance_unique_id) ? (empty($powererp_main_cookie_cryptkey) ? '' : $powererp_main_cookie_cryptkey) : $powererp_main_instance_unique_id); // Unique id of instance
 
-$hash_unique_id = md5('powererp'.$conf->file->instance_unique_id);
+$hash_unique_id = md5('PowerERP'.$conf->file->instance_unique_id);
 
 $out  = '<input type="checkbox" name="powererppingno" id="powererppingno"'.((!empty($conf->global->MAIN_FIRST_PING_OK_ID) && $conf->global->MAIN_FIRST_PING_OK_ID == 'disabled') ? '' : ' value="checked" checked="true"').'> ';
 $out .= '<label for="powererppingno">'.$langs->trans("MakeAnonymousPing").'</label>';

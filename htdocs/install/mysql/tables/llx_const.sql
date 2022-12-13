@@ -20,7 +20,7 @@
 -- ===========================================================================
 
 --
--- Table for constants used to store Powererp setup
+-- Table for constants used to store PowerERP setup
 --
 
 create table llx_const

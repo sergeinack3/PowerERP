@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Skriv inn navnet på modulen/applikasjonen du  vil opprette, uten mellomrom. Bruk stor bokstav til å skille ord (For eksempel: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Skriv inn navnet på objektet som skal opprettes, uten mellomrom. Bruk stor bokstav til å skille ord (For eksempel: MyObject, Student, Lærer ...). CRUD-klassefilen, men også API-filen, sider for å liste/legge til/redigere/slette objekt og SQL-filer blir generert .
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Du kan slette modulen din. ADVARSEL: Alle kodefile
 EnterNameOfObjectToDeleteDesc=Du kan slette et objekt. ADVARSEL: Alle kodingsfiler (generert eller opprettet manuelt) relatert til objekt blir slettet!
 DangerZone=Faresone
 BuildPackage=Bygg pakke
-BuildPackageDesc=Du kan generere en zip-pakke med applikasjonen din, slik at du er klar til å distribuere den på en hvilken som helst Powererp. Du kan også distribuere den eller selge den på enmarkedsplass som <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Du kan generere en zip-pakke med applikasjonen din, slik at du er klar til å distribuere den på en hvilken som helst PowerERP. Du kan også distribuere den eller selge den på enmarkedsplass som <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Bygg dokumentasjon
 ModuleIsNotActive=Denne modulen er ikke aktivert ennå. Gå til %s for å aktivere, eller klikk her
 ModuleIsLive=Denne modulen har blitt aktivert. Enhver endring kan ødelegge en gjeldende kjørende funksjon.
@@ -101,7 +101,7 @@ HooksDefDesc=Definer egenskapen <b> module_parts ['hooks'] </b> i modulbeskrivel
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Se IDer som brukes i installasjonen din
 SeeReservedIDsRangeHere=Se område av reserverte IDer
-ToolkitForDevelopers=Verktøy for Powererp-utviklere
+ToolkitForDevelopers=Verktøy for PowerERP-utviklere
 TryToUseTheModuleBuilder=Hvis du har kunnskap i SQL og PHP, kan du prøve å bruke veiviseren for modulbyggeren. <br>Aktiver modulen<strong>%s</strong> og bruk veiviseren ved å klikke på <span class="fa fa-bug"></span> i øverste høyre meny. <br>Advarsel: Dette er en avansert utviklerfunksjon, <b>IKKE </b>eksperimenter med en produktiv applikasjon!
 SeeTopRightMenu=Se <span class="fa fa-bug"></span> i øverste høyre meny
 AddLanguageFile=Legg til språkfil

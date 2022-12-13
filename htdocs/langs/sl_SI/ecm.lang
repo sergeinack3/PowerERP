@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=Mapa
 ECMSectionManual=Ročna mapa
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Število poddirektorijev
 ECMNbOfFilesInSubDir=Število datotek v poddirektorijih
 ECMCreationUser=Kreator
 ECMArea=DMS/ECM area
-ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in Powererp.
+ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in PowerERP.
 ECMAreaDesc2=* Avtomatske mape se polnijo avtomatsko, ko se doda dokument s kartice elementa.<br>* Ročne mape se lahko uporabijo za shranitev dokumentov, ki niso vezani na določen element.
 ECMSectionWasRemoved=Mapa <b>%s</b> je bila izbrisana.
 ECMSectionWasCreated=Directory <b>%s</b> has been created.

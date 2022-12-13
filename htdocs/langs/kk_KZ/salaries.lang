@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Бухгалтерлік есептік жазба үшінші пайдаланушыларға қолданылады
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Пайдаланушы карточкасында анықталған арнайы есеп шоты тек қосалқы есепке алу үшін қолданылады. Егер ол пайдаланушының арнайы есептік жазбасы анықталмаса, бұл Бас кітап үшін және қосалқы есепке алудың әдепкі мәні ретінде пайдаланылады.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Жалақы төлеу үшін әдепкі бойынша бухгалтерлік есеп

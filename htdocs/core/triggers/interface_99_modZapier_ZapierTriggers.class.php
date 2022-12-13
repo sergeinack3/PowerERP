@@ -41,7 +41,7 @@ class InterfaceZapierTriggers extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "technic";
 		$this->description = "Zapier triggers.";
-		// 'development', 'experimental', 'powererp' or version
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = self::VERSION_DEVELOPMENT;
 		$this->picto = 'zapier';
 	}

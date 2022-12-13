@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Geen verzoek mislukt
 ErrorServiceUnavailableTryLater=Service momenteel niet beschikbaar. Probeer het later nog eens.
 ErrorDuplicateField=Dubbele waarde in een uniek veld
 ErrorSomeErrorWereFoundRollbackIsDone=Er zijn enkele fouten gevonden. Wijzigingen zijn teruggedraaid.
-ErrorConfigParameterNotDefined=Parameter <b>%s</b> is niet gedefinieerd in het Powererp-configuratiebestand <b>conf.php</b> .
-ErrorCantLoadUserFromPowererpDatabase=Kan <b>gebruiker %s</b> niet in de Powererp database vinden.
+ErrorConfigParameterNotDefined=Parameter <b>%s</b> is niet gedefinieerd in het PowerERP-configuratiebestand <b>conf.php</b> .
+ErrorCantLoadUserFromPowererpDatabase=Kan <b>gebruiker %s</b> niet in de PowerERP database vinden.
 ErrorNoVATRateDefinedForSellerCountry=Fout, geen BTW-tarieven voor land '%s'.
 ErrorNoSocialContributionForSellerCountry=Fout, geen sociale/fiscale belastingtypen gedefinieerd voor land '%s'.
 ErrorFailedToSaveFile=Fout, bestand opslaan mislukt.
@@ -95,7 +95,7 @@ RecordDeleted=Item verwijderd
 RecordGenerated=Record gegenereerd
 LevelOfFeature=Niveau van de functionaliteiten
 NotDefined=Niet gedefinieerd
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp Authenticatie modus is ingesteld op <b>%s</b> in configuratiebestand <b>conf.php</b>. <br>Dit betekent dat de wachtwoorddatabase extern is van Powererp. Dit veld wijzigen heeft mogelijk geen effect .
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP Authenticatie modus is ingesteld op <b>%s</b> in configuratiebestand <b>conf.php</b>. <br>Dit betekent dat de wachtwoorddatabase extern is van PowerERP. Dit veld wijzigen heeft mogelijk geen effect .
 Administrator=Beheerder
 Undefined=Ongedefineerd
 PasswordForgotten=Wachtwoord vergeten?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Database Type Manager
 RequestLastAccessInError=Database fout bij laatste verzoek
 ReturnCodeLastAccessInError=Retourcode voor de meest recente fout bij het toegangsverzoek voor de database
 InformationLastAccessInError=Informatie voor de meest recente database-toegangsverzoekfout
-PowererpHasDetectedError=Powererp heeft een technische fout gedetecteerd
+PowererpHasDetectedError=PowerERP heeft een technische fout gedetecteerd
 YouCanSetOptionPowererpMainProdToZero=U kunt het logbestand lezen of de optie $powererp_main_prod instellen op '0' in uw configuratiebestand voor meer informatie.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Meer informatie
@@ -122,7 +122,7 @@ TechnicalID=Technische ID
 LineID=Lijn ID
 NotePublic=Notitie (publiek)
 NotePrivate=Notitie (privé)
-PrecisionUnitIsLimitedToXDecimals=Powererp is geconfigureerd om de precisie van de stuksprijzen op <b>%s</b> decimalen te beperken.
+PrecisionUnitIsLimitedToXDecimals=PowerERP is geconfigureerd om de precisie van de stuksprijzen op <b>%s</b> decimalen te beperken.
 DoTest=Test
 ToFilter=Filter
 NoFilter=Geen filter
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Leden
 MenuAgendaGoogle=Google-agenda
 MenuTaxesAndSpecialExpenses=Belastingen | Bijzondere kosten
-ThisLimitIsDefinedInSetup=Powererp limiet (Menu Home-Instellingen-Beveiliging): %s Kb, PHP grens: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp limiet (Menu %s): %s Kb, PHP limiet (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP limiet (Menu Home-Instellingen-Beveiliging): %s Kb, PHP grens: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limiet (Menu %s): %s Kb, PHP limiet (Param %s): %s Kb
 NoFileFound=Geen documenten geüpload
 CurrentUserLanguage=Huidige taal
 CurrentTheme=Actuele thema
@@ -909,7 +909,7 @@ ViewFlatList=Weergeven als lijst
 ViewAccountList=Grootboek bekijken
 ViewSubAccountList=Bekijk het grootboek van de subrekening
 RemoveString='%s' string verwijderen
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Openbare downloadlink
 PublicDownloadLinkDesc=Alleen de link is vereist om het bestand te downloaden
 DirectDownloadInternalLink=Privé downloadlink

@@ -1,7 +1,7 @@
 {
-	"name" : "powererp/powererp",
+	"name" : "PowerERP/PowerERP",
 	"type" : "project",
-	"description" : "Powererp ERP & CRM is a modern and easy to use web software to manage your business",
+	"description" : "PowerERP ERP & CRM is a modern and easy to use web software to manage your business",
 	"keywords" : [
 		"erp",
 		"crm",
@@ -12,13 +12,13 @@
 		"stock",
 		"agenda"
 	],
-	"homepage" : "https://www.powererp.org",
+	"homepage" : "https://www.PowerERP.org",
 	"license" : "GPL-3.0-or-later",
 	"support" : {
-		"issues" : "https://github.com/Powererp/powererp/issues",
-		"forum" : "https://www.powererp.org/forum",
-		"wiki" : "https://wiki.powererp.org",
-		"source" : "https://github.com/Powererp/powererp"
+		"issues" : "https://github.com/PowerERP/PowerERP/issues",
+		"forum" : "https://www.PowerERP.org/forum",
+		"wiki" : "https://wiki.PowerERP.org",
+		"source" : "https://github.com/PowerERP/PowerERP"
 	},
 	"config" : {
 		"vendor-dir" : "htdocs/includes"

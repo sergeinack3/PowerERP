@@ -26,7 +26,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/security/generate/modules_genpassw
 
 
 /**
- *	Class to generate a password according to a powererp standard rule (12 random chars)
+ *	Class to generate a password according to a PowerERP standard rule (12 random chars)
  */
 class modGeneratePassStandard extends ModeleGenPassword
 {

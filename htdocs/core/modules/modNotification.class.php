@@ -23,12 +23,12 @@
  *	\ingroup    notification
  *	\brief      Description and activation file for the module Notification
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 /**
  *	Class to describe and enable module Mailing
  */
-class modNotification extends PowererpModules
+class modNotification extends PowerERPModules
 {
 
 	/**
@@ -48,10 +48,10 @@ class modNotification extends PowererpModules
 		$this->module_position = '22';
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
-		$this->description = "EMail notifications (push) on business Powererp events";
+		$this->description = "EMail notifications (push) on business PowerERP events";
 		$this->descriptionlong = 'Module600Long';
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'email';
 
@@ -83,7 +83,7 @@ class modNotification extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
 	 *      @param      string	$options    Options when enabling module ('', 'noboxes')

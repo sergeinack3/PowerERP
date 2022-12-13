@@ -51,10 +51,10 @@ class doc_generic_supplier_proposal_odt extends ModelePDFSupplierProposal
 	public $phpmin = array(5, 6);
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 
 	/**

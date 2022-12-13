@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cashdesk
+# PowerERP language file - Source file is en_US - cashdesk
 CashDeskMenu=Punto de venta
 CashDesk=Punto de venta
 CashDeskBankCash=Cuenta bancaria (en efectivo)
@@ -22,7 +22,7 @@ ShowStock=Mostrar almacén
 DeleteArticle=Haga clic para eliminar este artículo
 FilterRefOrLabelOrBC=Buscar (Ref/Etiqueta)
 UserNeedPermissionToEditStockToUsePos=Solicita disminuir el stock en la creación de facturas, por lo que el usuario que usa POS debe tener permiso para editar el stock.
-PowererpReceiptPrinter=Powererp Impresora de recibos
+PowererpReceiptPrinter=PowerERP Impresora de recibos
 PointOfSale=Punto de venta
 TakeposConnectorNecesary=Se requiere 'conector TakePOS'
 Receipt=Recibo

@@ -46,7 +46,7 @@ class LogHandler
 	}
 
 	/**
-	 * Version of the module ('x.y.z' or 'powererp' or 'experimental' or 'development')
+	 * Version of the module ('x.y.z' or 'PowerERP' or 'experimental' or 'development')
 	 *
 	 * @return string
 	 */

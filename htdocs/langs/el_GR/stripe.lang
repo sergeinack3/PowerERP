@@ -1,8 +1,8 @@
-# Powererp language file - Source file is en_US - stripe
+# PowerERP language file - Source file is en_US - stripe
 StripeSetup=Ρύθμιση μονάδας ταινιών
-StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular Powererp object (invoice, order, ...)
+StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular PowerERP object (invoice, order, ...)
 StripeOrCBDoPayment=Πληρώστε με πιστωτική κάρτα ή Stripe
-FollowingUrlAreAvailableToMakePayments=Μετά από τις διευθύνσεις URL είναι διαθέσιμοι να προσφέρουν μια σελίδα σε έναν πελάτη να προβεί σε πληρωμή σε Powererp αντικείμενα
+FollowingUrlAreAvailableToMakePayments=Μετά από τις διευθύνσεις URL είναι διαθέσιμοι να προσφέρουν μια σελίδα σε έναν πελάτη να προβεί σε πληρωμή σε PowerERP αντικείμενα
 PaymentForm=Έντυπο πληρωμής
 WelcomeOnPaymentPage=Καλώς ήλθατε στην ηλεκτρονική υπηρεσία πληρωμών μας
 ThisScreenAllowsYouToPay=Αυτή η οθόνη σας επιτρέπει να κάνετε μια online πληρωμή %s.

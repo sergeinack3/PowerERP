@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=Configuración del módulo de PayPal
-PaypalDesc=Este módulo permite el pago por los clientes a través de <a href="http://www.paypal.com" target="_blank">PayPal</a> . Esto se puede utilizar para un pago ad-hoc o para un pago relacionado con un objeto Powererp (factura, pedido, ...)
+PaypalDesc=Este módulo permite el pago por los clientes a través de <a href="http://www.paypal.com" target="_blank">PayPal</a> . Esto se puede utilizar para un pago ad-hoc o para un pago relacionado con un objeto PowerERP (factura, pedido, ...)
 PaypalOrCBDoPayment=Pague con PayPal (Tarjeta o PayPal)
 PaypalDoPayment=Pagar con PayPal
 PAYPAL_API_SANDBOX=Prueba de modo / sandbox

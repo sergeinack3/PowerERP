@@ -31,10 +31,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/product_batch/modules_product_batc
 class mod_lot_standard extends ModeleNumRefBatch
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'LOT';
 

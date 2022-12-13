@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=没有错误，我们承诺
@@ -48,7 +48,7 @@ ErrorBadDateFormat=值“%s”有错误的日期格式
 ErrorWrongDate=日期不正确！
 ErrorFailedToWriteInDir=无法写在目录%s
 ErrorFoundBadEmailInFile=找到%S的语法不正确的电子邮件文件中的行（例如行%的电子邮件s =%s）的
-ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to Powererp entities.
+ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to PowerERP entities.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
 ErrorFailedToCreateDir=无法创建一个目录。检查Web服务器的用户有权限写入Powererp文件目录。如果参数<b>safe_mode设置</b>为启用这个PHP，检查Powererp php文件到Web服务器的用户拥有（或组）。
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=The field <b>%s</b> must have at least %s characters.
 ErrorNoAccountancyModuleLoaded=没有激活启用任何财务会计模块
 ErrorExportDuplicateProfil=导出设定配置名称已存在
-ErrorLDAPSetupNotComplete=Powererp - LDAP的匹配是不完整的。
+ErrorLDAPSetupNotComplete=PowerERP - LDAP的匹配是不完整的。
 ErrorLDAPMakeManualTest=甲。LDIF文件已经生成在目录%s的尝试加载命令行手动有更多的错误信息。
 ErrorCantSaveADoneUserWithZeroPercentage=Can't save an action with "status not started" if field "done by" is also filled.
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.

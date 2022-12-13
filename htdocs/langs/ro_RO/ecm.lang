@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Nr. de documente în director
 ECMSection=Director
 ECMSectionManual=Director manual
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Număr sub-directoare
 ECMNbOfFilesInSubDir=Număr fișiere în sub-directoare
 ECMCreationUser=Creator
 ECMArea=DMS/ECM
-ECMAreaDesc=DMS/ECM (Document Management System / Electronic Content Management) vă permite să salvați, să partajați și să căutați rapid toate tipurile de documente în Powererp.
+ECMAreaDesc=DMS/ECM (Document Management System / Electronic Content Management) vă permite să salvați, să partajați și să căutați rapid toate tipurile de documente în PowerERP.
 ECMAreaDesc2=* Directoarele automate sunt completate în mod automat atunci când se adaugă documentele din fişa acelui element. <br> * Directoarele manuale poate fi folosite pentru a salva documente ce nu sunt legate de un anumit element.
 ECMSectionWasRemoved=Directorul <b>%s</b> a fost şters.
 ECMSectionWasCreated=Directorul <b> %s </b> a fost creat.

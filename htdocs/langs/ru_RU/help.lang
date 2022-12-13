@@ -1,12 +1,12 @@
-# Powererp language file - Source file is en_US - help
+# PowerERP language file - Source file is en_US - help
 CommunitySupport=Поддержка через Форум/Wiki
 EMailSupport=Поддержка по email
 RemoteControlSupport=Онлайн-поддержка в реальном времени / удаленная поддержка
 OtherSupport=Другие виды поддержки
 ToSeeListOfAvailableRessources=Связаться/Смотреть имеющиеся ресурсы:
 HelpCenter=Справочный центр
-PowererpHelpCenter=Центр справки и поддержки Powererp
-ToGoBackToPowererp=В противном случае <a href="%s">щелкните здесь, чтобы продолжить использование Powererp</a>.
+PowererpHelpCenter=Центр справки и поддержки PowerERP
+ToGoBackToPowererp=В противном случае <a href="%s">щелкните здесь, чтобы продолжить использование PowerERP</a>.
 TypeOfSupport=Тип поддержки
 TypeSupportCommunauty=Сообщество (бесплатно)
 TypeSupportCommercial=Коммерческая
@@ -17,7 +17,7 @@ TypeHelpOnly=Только справка
 TypeHelpDev=Справка + Разработка
 TypeHelpDevForm=Помощь + Развитие + Обучение
 BackToHelpCenter=В противном случае <a href="%s">вернитесь на домашнюю страницу справочного центра</a>.
-LinkToGoldMember=Вы можете позвонить одному из тренеров, предварительно выбранных Powererp для вашего языка (%s), щелкнув его виджет (статус и максимальная цена обновляются автоматически):
+LinkToGoldMember=Вы можете позвонить одному из тренеров, предварительно выбранных PowerERP для вашего языка (%s), щелкнув его виджет (статус и максимальная цена обновляются автоматически):
 PossibleLanguages=Поддерживаемые языки
 SubscribeToFoundation=Помогите проекту Долибарр, подпишитесь на фонд
-SeeOfficalSupport=Для официальной поддержки Powererp на вашем языке: <br><b><a href="%s" target="_blank">%s</a></b>
+SeeOfficalSupport=Для официальной поддержки PowerERP на вашем языке: <br><b><a href="%s" target="_blank">%s</a></b>

@@ -57,7 +57,7 @@ require_once '../../main.inc.php';
 
 // Define javascript type
 top_httphead('text/javascript; charset=UTF-8');
-// Important: Following code is to avoid page request by browser and PHP CPU at each Powererp page access.
+// Important: Following code is to avoid page request by browser and PHP CPU at each PowerERP page access.
 if (empty($powererp_nocache)) {
 	header('Cache-Control: max-age=10800, public, must-revalidate');
 } else {
@@ -128,7 +128,7 @@ $langs->trans("SaturdayMin")
 );
 
 ?>
-// Javascript libraries for Powererp ERP CRM (https://www.powererp.org)
+// Javascript libraries for PowerERP ERP CRM (https://www.PowerERP.org)
 
 // For jQuery date picker
 var tradMonths = <?php echo json_encode($tradMonths) ?>;
@@ -246,7 +246,7 @@ function dpChangeDay(dateFieldID, format)
  * (2 digits) Month | MM (2 digits) Day of Month | dd (2 digits) Hour (1-12) |
  * hh (2 digits) Hour (0-23) | HH (2 digits) Minute | mm (2 digits) Second | ss
  * (2 digits) Author: Laurent Destailleur Author: Matelli (see
- * http://matelli.fr/showcases/patchs-powererp/update-date-input-in-action-form.html)
+ * http://matelli.fr/showcases/patchs-PowerERP/update-date-input-in-action-form.html)
  * Licence: GPL
  * ==================================================================
  */

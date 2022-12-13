@@ -53,9 +53,9 @@ class doc_generic_recruitmentjobposition_odt extends ModelePDFRecruitmentJobPosi
 	public $phpmin = array(5, 6);
 
 	/**
-	 * @var string Powererp version of the loaded document
+	 * @var string PowerERP version of the loaded document
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 
 	/**

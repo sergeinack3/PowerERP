@@ -53,10 +53,10 @@ class mod_contract_olive extends ModelNumRefContracts
 	public $code_null = 1; // Code facultatif
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	/**
 	 * @var int Automatic numbering

@@ -29,8 +29,8 @@ create table llx_facture
   ref				varchar(30)        NOT NULL,			-- invoice reference number
   entity				integer  DEFAULT 1 NOT NULL,			-- multi company id
 
-  ref_ext				varchar(255),							-- reference into an external system (not used by powererp)
-  ref_int				varchar(255),							-- reference into an internal system (used by powererp to store extern id like paypal info)
+  ref_ext				varchar(255),							-- reference into an external system (not used by PowerERP)
+  ref_int				varchar(255),							-- reference into an internal system (used by PowerERP to store extern id like paypal info)
   ref_client			varchar(255),							-- reference for customer
 
   type					smallint DEFAULT 0 NOT NULL,			-- type of invoice

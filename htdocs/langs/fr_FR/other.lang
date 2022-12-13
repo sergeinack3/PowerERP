@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Code sécurité
 NumberingShort=N°
 Tools=Outils
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nVeuillez trouver, ci-joint, la
 PredefinedMailContentLink=Vous pouvez cliquer sur le lien ci-dessous pour effectuer votre paiement si ce n'est déjà fait.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Rappel de l'événement "__EVENT_LABEL__" le __EVENT_DATE__ à __EVENT_TIME__<br> <br>Ceci est un message automatique. Veuillez ne pas y répondre.
-DemoDesc=Powererp est un logiciel de gestion proposant plusieurs modules métiers. Une démonstration qui inclut tous ces modules n'a pas de sens car ce cas n'existe jamais (plusieurs centaines de modules disponibles). Aussi, quelques profils type de démo sont disponibles.
+DemoDesc=PowerERP est un logiciel de gestion proposant plusieurs modules métiers. Une démonstration qui inclut tous ces modules n'a pas de sens car ce cas n'existe jamais (plusieurs centaines de modules disponibles). Aussi, quelques profils type de démo sont disponibles.
 ChooseYourDemoProfil=Veuillez choisir le profil de démonstration qui correspond le mieux à votre activité…
 ChooseYourDemoProfilMore=...ou construisez votre propre profil<br>(sélection manuelle des modules)
 DemoFundation=Gestion des adhérents d'une association
@@ -182,10 +182,10 @@ SizeUnitpoint=point
 BugTracker=Suivi de tickets
 SendNewPasswordDesc=Ce formulaire permet de faire une demande pour un nouveau mot de passe. Elle sera envoyée à votre adresse email.<br>La modification du mot de passe ne sera effective qu'après avoir cliqué sur le lien de confirmation dans cet email.<br>Surveillez votre messagerie.
 BackToLoginPage=Retour page de connexion
-AuthenticationDoesNotAllowSendNewPassword=Le mode d'authentification de Powererp est configuré à "<b>%s</b>".<br>Dans ce mode, Powererp n'a pas la possibilité de connaître ni de modifier votre mot de passe.<br>Contactez votre administrateur pour connaitre les modalités de changement.
+AuthenticationDoesNotAllowSendNewPassword=Le mode d'authentification de PowerERP est configuré à "<b>%s</b>".<br>Dans ce mode, PowerERP n'a pas la possibilité de connaître ni de modifier votre mot de passe.<br>Contactez votre administrateur pour connaitre les modalités de changement.
 EnableGDLibraryDesc=Vous devez activer ou installer la librairie GD avec votre PHP pour pouvoir activer cette option.
 ProfIdShortDesc=<b>Id prof. %s</b> est une information qui dépend du pays du tiers.<br>Par exemple, pour le pays <b>%s</b>, il s'agit du code <b>%s</b>.
-PowererpDemo=Démonstration de Powererp ERP/CRM
+PowererpDemo=Démonstration de PowerERP ERP/CRM
 StatsByNumberOfUnits=Statistiques de quantités de produits/services
 StatsByNumberOfEntities=Statistiques du nombre d'entités référentes (nb de factures, ou de commandes...)
 NumberOfProposals=Nombre de propositions commerciales

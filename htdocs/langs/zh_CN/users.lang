@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=人力资源管理
 UserCard=用户信息
 GroupCard=群组信息
@@ -72,7 +72,7 @@ InternalUser=内部用户
 ExportDataset_user_1=用户及属性
 DomainUser=域用户%s
 Reactivate=重新激活
-CreateInternalUserDesc=This form allows you to create an internal user in your company/organization. To create an external user (customer, vendor etc.  ..), use the button 'Create Powererp User' from that third-party's contact card.
+CreateInternalUserDesc=This form allows you to create an internal user in your company/organization. To create an external user (customer, vendor etc.  ..), use the button 'Create PowerERP User' from that third-party's contact card.
 InternalExternalDesc=An <b>internal</b> user is a user that is part of your company/organization, or is a partner user outside of your organization that may need to see more data  than data related to his company (the permission system will define what he can or can't see or do).<br>An <b>external</b> user is a customer, vendor or other that must view ONLY data related to himself (Creating an external user for a third-party can be done from the contact record of the third-party).<br><br>In both cases, you must grant permissions on the features that the user need.
 PermissionInheritedFromAGroup=因为从权限授予一个用户的一组继承。
 Inherited=遗传

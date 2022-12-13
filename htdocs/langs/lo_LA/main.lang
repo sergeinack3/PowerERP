@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=ບໍ່ມີການຮ້ອງຂໍຜິດພາ�
 ErrorServiceUnavailableTryLater=ບໍ່ມີບໍລິການໃນຕອນນີ້. ລອງໃagain່ພາຍຫຼັງ.
 ErrorDuplicateField=ຄ່າຊໍ້າກັນຢູ່ໃນຊ່ອງຂໍ້ມູນສະເພາະ
 ErrorSomeErrorWereFoundRollbackIsDone=ພົບບາງຂໍ້ຜິດພາດ. ການປ່ຽນແປງໄດ້ກັບຄືນມາ.
-ErrorConfigParameterNotDefined=ພາຣາມິເຕີ <b> %s </b> ບໍ່ໄດ້ຖືກກໍານົດໄວ້ໃນໄຟລ config ການຕັ້ງຄ່າ Powererp <b> conf.php </b>.
-ErrorCantLoadUserFromPowererpDatabase=ບໍ່ສາມາດຊອກຫາຜູ້ໃຊ້ <b> %s </b> ໃນຖານຂໍ້ມູນ Powererp.
+ErrorConfigParameterNotDefined=ພາຣາມິເຕີ <b> %s </b> ບໍ່ໄດ້ຖືກກໍານົດໄວ້ໃນໄຟລ config ການຕັ້ງຄ່າ PowerERP <b> conf.php </b>.
+ErrorCantLoadUserFromPowererpDatabase=ບໍ່ສາມາດຊອກຫາຜູ້ໃຊ້ <b> %s </b> ໃນຖານຂໍ້ມູນ PowerERP.
 ErrorNoVATRateDefinedForSellerCountry=ຜິດພາດ, ບໍ່ໄດ້ກໍານົດອັດຕາອາກອນສໍາລັບປະເທດ '%s'.
 ErrorNoSocialContributionForSellerCountry=ຜິດພາດ, ບໍ່ໄດ້ກໍານົດປະເພດພາສີທາງດ້ານສັງຄົມ/ງົບປະມານສໍາລັບປະເທດ '%s'.
 ErrorFailedToSaveFile=ຜິດພາດ, ບັນທຶກໄຟລ failed ບໍ່ ສຳ ເລັດ.
@@ -95,7 +95,7 @@ RecordDeleted=ບັນທຶກຖືກລຶບແລ້ວ
 RecordGenerated=ສ້າງບັນທຶກແລ້ວ
 LevelOfFeature=ລະດັບຄຸນສົມບັດ
 NotDefined=ບໍ່ໄດ້ກໍານົດ
-PowererpInHttpAuthenticationSoPasswordUseless=ໂmodeດການກວດສອບ Powererp ຖືກຕັ້ງເປັນ <b> %s </b> ໃນໄຟລ configuration ການຕັ້ງຄ່າ <b> conf.php </b>. <br> ອັນນີ້meansາຍຄວາມວ່າຖານຂໍ້ມູນລະຫັດຜ່ານແມ່ນຢູ່ນອກ Powererp, ສະນັ້ນການປ່ຽນບ່ອນໃສ່ຂໍ້ມູນນີ້ອາດຈະບໍ່ມີຜົນຫຍັງ.
+PowererpInHttpAuthenticationSoPasswordUseless=ໂmodeດການກວດສອບ PowerERP ຖືກຕັ້ງເປັນ <b> %s </b> ໃນໄຟລ configuration ການຕັ້ງຄ່າ <b> conf.php </b>. <br> ອັນນີ້meansາຍຄວາມວ່າຖານຂໍ້ມູນລະຫັດຜ່ານແມ່ນຢູ່ນອກ PowerERP, ສະນັ້ນການປ່ຽນບ່ອນໃສ່ຂໍ້ມູນນີ້ອາດຈະບໍ່ມີຜົນຫຍັງ.
 Administrator=ຜູ້​ບໍ​ລິ​ຫານ
 Undefined=ບໍ່ໄດ້ລະບຸ
 PasswordForgotten=ລືມລະຫັດຜ່ານບໍ?
@@ -113,7 +113,7 @@ DatabaseTypeManager=ຜູ້ຈັດການປະເພດຖານຂໍ້
 RequestLastAccessInError=ການຂໍເຂົ້າຫາຖານຂໍ້ມູນຫຼ້າສຸດຜິດພາດ
 ReturnCodeLastAccessInError=ຄືນລະຫັດສໍາລັບຄໍາຮ້ອງຂໍການເຂົ້າຫາຖານຂໍ້ມູນຫຼ້າສຸດຜິດພາດ
 InformationLastAccessInError=ຂໍ້ມູນສໍາລັບຄໍາຮ້ອງຂໍການເຂົ້າຫາຖານຂໍ້ມູນຫຼ້າສຸດຜິດພາດ
-PowererpHasDetectedError=Powererp ໄດ້ກວດພົບຄວາມຜິດພາດທາງເທັກນິກ
+PowererpHasDetectedError=PowerERP ໄດ້ກວດພົບຄວາມຜິດພາດທາງເທັກນິກ
 YouCanSetOptionPowererpMainProdToZero=ເຈົ້າສາມາດອ່ານໄຟລ log ບັນທຶກຫຼືຕັ້ງຕົວເລືອກ $ powererp_main_prod ເປັນ '0' ຢູ່ໃນໄຟລ config config ຂອງເຈົ້າເພື່ອເອົາຂໍ້ມູນເພີ່ມເຕີມ.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=ຂໍ້ມູນເພີ່ມເຕີມ
@@ -122,7 +122,7 @@ TechnicalID=ID ທາງເທັກນິກ
 LineID=ID ແຖວ
 NotePublic=ບັນທຶກ (ສາທາລະນະ)
 NotePrivate=ບັນທຶກ (ສ່ວນຕົວ)
-PrecisionUnitIsLimitedToXDecimals=Powererp ໄດ້ຕັ້ງຄ່າເພື່ອຈໍາກັດຄວາມແມ່ນຍໍາຂອງລາຄາຫົວ ໜ່ວຍ ເປັນອັດຕານິຍົມ <b> %s </b>.
+PrecisionUnitIsLimitedToXDecimals=PowerERP ໄດ້ຕັ້ງຄ່າເພື່ອຈໍາກັດຄວາມແມ່ນຍໍາຂອງລາຄາຫົວ ໜ່ວຍ ເປັນອັດຕານິຍົມ <b> %s </b>.
 DoTest=ທົດສອບ
 ToFilter=ກອງ
 NoFilter=ບໍ່ມີຕົວກັ່ນຕອງ
@@ -732,8 +732,8 @@ MenuAWStats=ສະຖິຕິ AW
 MenuMembers=ສະມາຊິກ
 MenuAgendaGoogle=ວາລະຂອງ Google
 MenuTaxesAndSpecialExpenses=ອາກອນ | ຄ່າໃຊ້ຈ່າຍພິເສດ
-ThisLimitIsDefinedInSetup=ການຈໍາກັດ Powererp (ເມນູ home-setup-security): %s Kb, ຈໍາກັດ PHP: %s Kb
-ThisLimitIsDefinedInSetupAt=ຈໍາກັດ Powererp (ເມນູ %s): %s Kb, ຈໍາກັດ PHP (ພາຣາມິ %s): %s Kb
+ThisLimitIsDefinedInSetup=ການຈໍາກັດ PowerERP (ເມນູ home-setup-security): %s Kb, ຈໍາກັດ PHP: %s Kb
+ThisLimitIsDefinedInSetupAt=ຈໍາກັດ PowerERP (ເມນູ %s): %s Kb, ຈໍາກັດ PHP (ພາຣາມິ %s): %s Kb
 NoFileFound=ບໍ່ໄດ້ອັບໂຫລດເອກະສານ
 CurrentUserLanguage=ພາສາປັດຈຸບັນ
 CurrentTheme=ຮູບແບບສີສັນປັດຈຸບັນ
@@ -909,7 +909,7 @@ ViewFlatList=ເບິ່ງບັນຊີລາຍຊື່
 ViewAccountList=ເບິ່ງບັນຊີ
 ViewSubAccountList=ເບິ່ງບັນຊີຍ່ອຍບັນຊີ
 RemoveString=ລຶບສະຕິງ '%s'
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=ລິ້ງດາວໂຫຼດສາທາລະນະ
 PublicDownloadLinkDesc=ພຽງແຕ່ຕ້ອງການການເຊື່ອມຕໍ່, ເພື່ອດາວໂຫລດໄຟລ
 DirectDownloadInternalLink=ລິ້ງດາວໂຫຼດສ່ວນຕົວ

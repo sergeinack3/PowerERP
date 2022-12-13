@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ExportsArea=Ekspor
 ImportArea=Impor
 NewExport=Ekspor Baru
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Pilih format file untuk digunakan sebagai format file
 ChooseFileToImport=Unggah file kemudian klik ikon %s untuk memilih file sebagai file impor sumber ...
 SourceFileFormat=Format file sumber
 FieldsInSourceFile=Bidang dalam file sumber
-FieldsInTargetDatabase=Bidang target dalam basis data Powererp (bold = wajib)
+FieldsInTargetDatabase=Bidang target dalam basis data PowerERP (bold = wajib)
 Field=Bidang
 NoFields=Tanpa bidang
 MoveField=Pindahkan nomor kolom bidang %s

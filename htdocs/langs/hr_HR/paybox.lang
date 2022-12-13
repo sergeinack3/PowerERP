@@ -1,7 +1,7 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=Podešavanje PayBox modula
-PayBoxDesc=This module offer pages to allow payment on <a href="http://www.paybox.com" target="_blank">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Powererp object (invoice, order, ...)
-FollowingUrlAreAvailableToMakePayments=Following URLs are available to offer a page to a customer to make a payment on Powererp objects
+PayBoxDesc=This module offer pages to allow payment on <a href="http://www.paybox.com" target="_blank">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular PowerERP object (invoice, order, ...)
+FollowingUrlAreAvailableToMakePayments=Following URLs are available to offer a page to a customer to make a payment on PowerERP objects
 PaymentForm=Obrazac plaćanja
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=Ova stranica vam dozvoljava da vršite online plaćanje prema %s

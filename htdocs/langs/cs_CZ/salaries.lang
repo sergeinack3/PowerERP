@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Účtovací účet používaný pro třetí strany
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Účelový účet určený na uživatelské kartě bude použit pouze pro účetnictví společnosti Subledger. Ten bude použit pro hlavní knihu a jako výchozí hodnota účtování společnosti Subledger, pokud není určen uživatelský účtovací účet pro uživatele.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Účtovací účet je výchozí pro mzdové platby

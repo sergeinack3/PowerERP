@@ -231,7 +231,7 @@ class Paiement extends CommonObject
 		global $conf, $langs;
 
 		$error = 0;
-		$way = $this->getWay();	// 'powererp' to use amount, 'customer' to use foreign multicurrency amount
+		$way = $this->getWay();	// 'PowerERP' to use amount, 'customer' to use foreign multicurrency amount
 
 		$now = dol_now();
 
@@ -240,7 +240,7 @@ class Paiement extends CommonObject
 		$totalamount_converted = 0;
 		$atleastonepaymentnotnull = 0;
 
-		if ($way == 'powererp') {	// Payments were entered into the column of main currency
+		if ($way == 'PowerERP') {	// Payments were entered into the column of main currency
 			$amounts = &$this->amounts;
 			$amounts_to_update = &$this->multicurrency_amounts;
 		} else {					// Payments were entered into the column of foreign currency
@@ -254,7 +254,7 @@ class Paiement extends CommonObject
 			if (empty($value)) {
 				continue;
 			}
-			// $key is id of invoice, $value is amount, $way is a 'powererp' if amount is in main currency, 'customer' if in foreign currency
+			// $key is id of invoice, $value is amount, $way is a 'PowerERP' if amount is in main currency, 'customer' if in foreign currency
 			$value_converted = Multicurrency::getAmountConversionFromInvoiceRate($key, $value, $way);
 			// Add controls of input validity
 			if ($value_converted === false) {
@@ -315,7 +315,7 @@ class Paiement extends CommonObject
 			$this->ref_ext = '';
 		}
 
-		if ($way == 'powererp') {
+		if ($way == 'PowerERP') {
 			$total = $totalamount;
 			$mtotal = $totalamount_converted; // Maybe use price2num with MT for the converted value
 		} else {
@@ -637,7 +637,7 @@ class Paiement extends CommonObject
 				$totalamount = $this->total; // For backward compatibility
 			}
 
-			// if powererp currency != bank currency then we received an amount in customer currency (currently I don't manage the case : my currency is USD, the customer currency is EUR and he paid me in GBP. Seems no sense for me)
+			// if PowerERP currency != bank currency then we received an amount in customer currency (currently I don't manage the case : my currency is USD, the customer currency is EUR and he paid me in GBP. Seems no sense for me)
 			if (!empty($conf->multicurrency->enabled) && $conf->currency != $acc->currency_code) {
 				$totalamount = $this->multicurrency_amount;		// We will insert into llx_bank.amount in foreign currency
 				$totalamount_main_currency = $this->amount;		// We will also save the amount in main currency into column llx_bank.amount_main_currency
@@ -1140,13 +1140,13 @@ class Paiement extends CommonObject
 	/**
 	 * 	get the right way of payment
 	 *
-	 * 	@return 	string 	'powererp' if standard comportment or paid in main currency, 'customer' if payment received from multicurrency inputs
+	 * 	@return 	string 	'PowerERP' if standard comportment or paid in main currency, 'customer' if payment received from multicurrency inputs
 	 */
 	public function getWay()
 	{
 		global $conf;
 
-		$way = 'powererp';
+		$way = 'PowerERP';
 		if (!empty($conf->multicurrency->enabled)) {
 			foreach ($this->multicurrency_amounts as $value) {
 				if (!empty($value)) { // one value found then payment is in invoice currency

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = geplante Aufgabe einsehen
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Deaktivieren
 CronTaskInactive=Dieser Job ist deaktiviert (keine Ausführung geplant)
 CronId=ID
 CronClassFile=Dateiname mit Klasse
-CronModuleHelp=Name des Powererp Modulverzeichnisses (auch für externe Powererp Module). <BR> Um zum Beispiel die Abrufmethode eines Powererp Produkt-Objektes aufzurufen /htdocs/<u>product</u>/class/product.class.php, ist der Wert für Modul<br><i>product</i>
-CronClassFileHelp=Der relative Pfad und Dateiname, der geladen werden soll (relativer Pfad zum Webserver-Stammverzeichnis). <BR> Um zum Beispiel die Fetch-Methode des Powererp-Produktobjekts aufzurufen htdocs/product/class/<u>product.class.php</u> , lautet der Wert für den Klassendateinamen<br><i>product/class/product.class.php</i>
-CronObjectHelp=Der zu ladende Objektname. <BR> Um zum Beispiel die Abrufmethode eines Powererp Produkt-Objektes aufzurufen /htdocs/product/class/product.class.php, ist als Name für die Klassen-Datei anzugeben<br><i>Product</i>
-CronMethodHelp=Die zu startende Objektmethode. <BR> Um zum Beispiel die Fetch-Methode des Powererp-Produktobjekts aufzurufen /htdocs/product/class/product.class.php, lautet der Wert für Methode<br><i>fetch</i>
-CronArgsHelp=Die Methodenargumente. <BR> Um beispielsweise die Abrufmethode des Powererp-Produktobjekts /htdocs/product/class/product.class.php aufzurufen, kann der Wert für paramters <br> <i> 0, ProductRef </i> sein
+CronModuleHelp=Name des PowerERP Modulverzeichnisses (auch für externe PowerERP Module). <BR> Um zum Beispiel die Abrufmethode eines PowerERP Produkt-Objektes aufzurufen /htdocs/<u>product</u>/class/product.class.php, ist der Wert für Modul<br><i>product</i>
+CronClassFileHelp=Der relative Pfad und Dateiname, der geladen werden soll (relativer Pfad zum Webserver-Stammverzeichnis). <BR> Um zum Beispiel die Fetch-Methode des PowerERP-Produktobjekts aufzurufen htdocs/product/class/<u>product.class.php</u> , lautet der Wert für den Klassendateinamen<br><i>product/class/product.class.php</i>
+CronObjectHelp=Der zu ladende Objektname. <BR> Um zum Beispiel die Abrufmethode eines PowerERP Produkt-Objektes aufzurufen /htdocs/product/class/product.class.php, ist als Name für die Klassen-Datei anzugeben<br><i>Product</i>
+CronMethodHelp=Die zu startende Objektmethode. <BR> Um zum Beispiel die Fetch-Methode des PowerERP-Produktobjekts aufzurufen /htdocs/product/class/product.class.php, lautet der Wert für Methode<br><i>fetch</i>
+CronArgsHelp=Die Methodenargumente. <BR> Um beispielsweise die Abrufmethode des PowerERP-Produktobjekts /htdocs/product/class/product.class.php aufzurufen, kann der Wert für paramters <br> <i> 0, ProductRef </i> sein
 CronCommandHelp=Die auszuführende System-Kommandozeile
 CronCreateJob=Erstelle neuen cronjob
 CronFrom=Von

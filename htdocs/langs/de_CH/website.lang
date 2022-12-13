@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 WebsiteSetupDesc=Binde hier die Websites ein, die du benutzen willst. Im Menu "Websites" kannst du sie später verwalten.
 DeleteWebsite=Webseite löschen
 WEBSITE_TYPE_CONTAINER=Seiten - / Containertyp

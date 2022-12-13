@@ -45,7 +45,7 @@ class pdf_muscadet_restock extends ModelePDFSuppliersOrders
 	var $type;
 
 	var $phpmin = array(4,3,0); // Minimum version of PHP required by module
-	var $version = 'powererp';
+	var $version = 'PowerERP';
 
 	var $page_largeur;
 	var $page_hauteur;
@@ -213,7 +213,7 @@ class pdf_muscadet_restock extends ModelePDFSuppliersOrders
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("Order"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("Order"));
 				if (! empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION))

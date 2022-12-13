@@ -24,13 +24,13 @@
  *	\brief      Description and activation file for the module mailmanspip
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module Click to Dial
  */
-class modMailmanSpip extends PowererpModules
+class modMailmanSpip extends PowerERPModules
 {
 
 	/**
@@ -52,8 +52,8 @@ class modMailmanSpip extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Mailman or Spip interface for member module";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or 'powererp_deprecated' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or 'powererp_deprecated' or version
+		$this->version = 'PowerERP';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'technic';

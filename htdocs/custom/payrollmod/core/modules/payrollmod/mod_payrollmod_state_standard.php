@@ -31,10 +31,10 @@ dol_include_once('/payrollmod/core/modules/payrollmod/modules_payrollmod_state.p
 class mod_payrollmod_state_standard extends ModeleNumRefPayrollmod_state
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'PAYROLLMOD_STATE';
 

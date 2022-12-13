@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Cap petició en error
 ErrorServiceUnavailableTryLater=Servei no disponible actualment. Torni a intentar més tard.
 ErrorDuplicateField=Duplicat en un camp únic
 ErrorSomeErrorWereFoundRollbackIsDone=S'han trobat alguns errors. Modificacions desfetes.
-ErrorConfigParameterNotDefined=El paràmetre <b>%s</b> no està definit en el fitxer de configuració Powererp <b>conf.php</b>.
-ErrorCantLoadUserFromPowererpDatabase=Impossible trobar l'usuari <b>%s</b> a la base de dades Powererp.
+ErrorConfigParameterNotDefined=El paràmetre <b>%s</b> no està definit en el fitxer de configuració PowerERP <b>conf.php</b>.
+ErrorCantLoadUserFromPowererpDatabase=Impossible trobar l'usuari <b>%s</b> a la base de dades PowerERP.
 ErrorNoVATRateDefinedForSellerCountry=Error, cap tipus d'IVA definit per al país '%s'.
 ErrorNoSocialContributionForSellerCountry=Error, cap tipus d'impost varis definit per al país '%s'.
 ErrorFailedToSaveFile=Error, el registre del fitxer ha fallat.
@@ -95,7 +95,7 @@ RecordDeleted=Registre eliminat
 RecordGenerated=Registre generat
 LevelOfFeature=Nivell de funcions
 NotDefined=No definida
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp està configurat en mode d'autenticació <b>%s</b> al fitxer de configuració <b>conf.php</b>.<br> Això significa que la contrasenya de la base de dades és externa a Powererp, de manera que canviar aquest camp pot no tenir cap efecte.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP està configurat en mode d'autenticació <b>%s</b> al fitxer de configuració <b>conf.php</b>.<br> Això significa que la contrasenya de la base de dades és externa a PowerERP, de manera que canviar aquest camp pot no tenir cap efecte.
 Administrator=Administrador
 Undefined=No definit
 PasswordForgotten=Heu oblidat la contrasenya?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Tipus de gestor de base de dades
 RequestLastAccessInError=Últimes peticions d'accés a la base de dades amb error
 ReturnCodeLastAccessInError=Retorna el codi per les últimes peticions d'accés a la base de dades amb error
 InformationLastAccessInError=Informació de les últimes peticions d'accés a la base de dades amb error
-PowererpHasDetectedError=Powererp ha trobat un error tècnic
+PowererpHasDetectedError=PowerERP ha trobat un error tècnic
 YouCanSetOptionPowererpMainProdToZero=Podeu llegir el fitxer de registre o establir l'opció $powererp_main_prod a '0' al fitxer de configuració per a obtenir més informació.
 InformationToHelpDiagnose=Aquesta informació pot ser útil per a finalitats de diagnòstic (podeu establir l'opció $powererp_main_prod a '1' per amagar informació sensible)
 MoreInformation=Més informació
@@ -122,7 +122,7 @@ TechnicalID=ID Tècnic
 LineID=ID de línia
 NotePublic=Nota (pública)
 NotePrivate=Nota (privada)
-PrecisionUnitIsLimitedToXDecimals=Powererp està configurat per limitar la precisió dels preus unitaris a <b>%s </b> decimals.
+PrecisionUnitIsLimitedToXDecimals=PowerERP està configurat per limitar la precisió dels preus unitaris a <b>%s </b> decimals.
 DoTest=Provar
 ToFilter=Filtre
 NoFilter=Sense filtre
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Socis
 MenuAgendaGoogle=Agenda Google
 MenuTaxesAndSpecialExpenses=Impostos | Despeses especials
-ThisLimitIsDefinedInSetup=Límit Powererp (Menú inici-configuració-seguretat): %s Kb, límit PHP: %s Kb
-ThisLimitIsDefinedInSetupAt=Límit Powererp (menú %s): %s Kb, límit PHP (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=Límit PowerERP (Menú inici-configuració-seguretat): %s Kb, límit PHP: %s Kb
+ThisLimitIsDefinedInSetupAt=Límit PowerERP (menú %s): %s Kb, límit PHP (Param %s): %s Kb
 NoFileFound=No s'ha penjat cap document
 CurrentUserLanguage=Idioma actual
 CurrentTheme=Tema actual
@@ -909,7 +909,7 @@ ViewFlatList=Veure llista plana
 ViewAccountList=Veure llibre major
 ViewSubAccountList=Vegeu el subcompte del llibre major
 RemoveString=Eliminar cadena '%s'
-SomeTranslationAreUncomplete=Alguns dels idiomes que s'ofereixen poden estar traduïts només parcialment o poden contenir errors. Si us plau, ajudeu a corregir el vostre idioma registrant-vos a <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/</a> per afegir les vostres millores.
+SomeTranslationAreUncomplete=Alguns dels idiomes que s'ofereixen poden estar traduïts només parcialment o poden contenir errors. Si us plau, ajudeu a corregir el vostre idioma registrant-vos a <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/</a> per afegir les vostres millores.
 DirectDownloadLink=Enllaç de descàrrega públic
 PublicDownloadLinkDesc=Per baixar el fitxer només es necessita l'enllaç
 DirectDownloadInternalLink=Enllaç de descàrrega privat

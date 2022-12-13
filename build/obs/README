@@ -18,7 +18,7 @@ https://build.opensuse.org
 https://en.opensuse.org/Portal:Packaging
 
 Add attributes:
-OBS:Screenshots         URL of screenshot https://www.powererp.org/images/powererp_screenshot1.png
+OBS:Screenshots         URL of screenshot https://www.PowerERP.org/images/powererp_screenshot1.png
 OBS:QualityCategory     Development|Testing|Stable|Private
 OBS:Maintained          1
 
@@ -26,9 +26,9 @@ OBS:Maintained          1
 To submit a snapshot for building, we should have a service file with content
 <services>
   <service name="download_src_package">
-    <param name="host">www.powererp.org</param>
+    <param name="host">www.PowerERP.org</param>
     <param name="protocol">http</param>
-    <param name="path">/files/stable/package_rpm_generic/powererp-x.y.z-3.src.rpm</param>
+    <param name="path">/files/stable/package_rpm_generic/PowerERP-x.y.z-3.src.rpm</param>
   </service>
 </services>
 
@@ -36,15 +36,15 @@ To submit a snapshot for building, we should have a service file with content
 # How to have such a service file created automatically ?
 ---------------------------------------------------------
 Go into project you want to update. It might be:
-- openSUSE Build Service > Projects > Application:ERP:Powererp > powererp
+- openSUSE Build Service > Projects > Application:ERP:PowerERP > PowerERP
 - or your private project
 
 Once logged, click on "Add file" in section "Source Files", then select mode "Upload From: Remote URL"
 Keep empty for "Filename", choose "Remote URL" and enter into last field, URL that should looks like this:
-https://www.powererp.org/files/stable/package_rpm_generic/powererp-x.y.v-0.4.src.rpm
+https://www.PowerERP.org/files/stable/package_rpm_generic/PowerERP-x.y.v-0.4.src.rpm
 
 Then add into Advanded - Attributes
-OBS:Screenshots       https://www.powererp.org/images/powererp_screenshot1.png
+OBS:Screenshots       https://www.PowerERP.org/images/powererp_screenshot1.png
 OBS:QualityCategory   Stable|Testing|Development|Private
 
 
@@ -54,5 +54,5 @@ OBS:QualityCategory   Stable|Testing|Development|Private
 For example: https://bugzilla.novell.com/show_bug.cgi?id=848083 to be a maintener of category
 https://build.opensuse.org/project/show/Application:ERP
 - Once done, go into project, category, subproject and enter a subproject for your application.
-Fo example: Powererp
+Fo example: PowerERP
 - Then go onto project into your home and ask a publish to the category/you project your created. 

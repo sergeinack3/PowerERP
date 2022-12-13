@@ -1,7 +1,7 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=Paybox μονάδα ρύθμισης
-PayBoxDesc=Αυτή η ενότητα παρέχει τις σελίδες για να καταστεί δυνατή πληρωμή <a href="http://www.paybox.com" target="_blank">Paybox</a> από τους πελάτες. Αυτό μπορεί να χρησιμοποιηθεί για μια ελεύθερη πληρωμής ή πληρωμή σε ένα συγκεκριμένο αντικείμενο του Powererp (τιμολόγιο, ώστε, ...)
-FollowingUrlAreAvailableToMakePayments=Μετά από τις διευθύνσεις URL είναι διαθέσιμοι να προσφέρουν μια σελίδα σε έναν πελάτη να προβεί σε πληρωμή σε Powererp αντικείμενα
+PayBoxDesc=Αυτή η ενότητα παρέχει τις σελίδες για να καταστεί δυνατή πληρωμή <a href="http://www.paybox.com" target="_blank">Paybox</a> από τους πελάτες. Αυτό μπορεί να χρησιμοποιηθεί για μια ελεύθερη πληρωμής ή πληρωμή σε ένα συγκεκριμένο αντικείμενο του PowerERP (τιμολόγιο, ώστε, ...)
+FollowingUrlAreAvailableToMakePayments=Μετά από τις διευθύνσεις URL είναι διαθέσιμοι να προσφέρουν μια σελίδα σε έναν πελάτη να προβεί σε πληρωμή σε PowerERP αντικείμενα
 PaymentForm=Έντυπο πληρωμής
 WelcomeOnPaymentPage=Καλώς ήλθατε στην ηλεκτρονική υπηρεσία πληρωμών μας
 ThisScreenAllowsYouToPay=Αυτή η οθόνη σας επιτρέπει να κάνετε μια online πληρωμή %s.

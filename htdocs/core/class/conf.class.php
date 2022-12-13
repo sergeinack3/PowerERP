@@ -684,19 +684,19 @@ class Conf
 			$this->theme = $this->global->MAIN_THEME;
 			$this->css = "/theme/".$this->theme."/style.css.php";
 
-			// conf->email_from = email pour envoi par powererp des mails automatiques
+			// conf->email_from = email pour envoi par PowerERP des mails automatiques
 			$this->email_from = "robot@example.com";
 			if (!empty($this->global->MAIN_MAIL_EMAIL_FROM)) {
 				$this->email_from = $this->global->MAIN_MAIL_EMAIL_FROM;
 			}
 
-			// conf->notification->email_from = email pour envoi par Powererp des notifications
+			// conf->notification->email_from = email pour envoi par PowerERP des notifications
 			$this->notification->email_from = $this->email_from;
 			if (!empty($this->global->NOTIFICATION_EMAIL_FROM)) {
 				$this->notification->email_from = $this->global->NOTIFICATION_EMAIL_FROM;
 			}
 
-			// conf->mailing->email_from = email pour envoi par Powererp des mailings
+			// conf->mailing->email_from = email pour envoi par PowerERP des mailings
 			$this->mailing->email_from = $this->email_from;
 			if (!empty($this->global->MAILING_EMAIL_FROM)) {
 				$this->mailing->email_from = $this->global->MAILING_EMAIL_FROM;

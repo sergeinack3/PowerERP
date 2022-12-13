@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=Секция с човешки ресурси
 UserCard=Карта
 GroupCard=Карта
@@ -90,8 +90,8 @@ UserDeleted=Потребител %s е премахнат
 NewGroupCreated=Група %s е създадена
 GroupModified=Група %s е променена
 GroupDeleted=Група %s е премахната
-ConfirmCreateContact=Сигурни ли сте, че искате да създадете Powererp профил за този контакт?
-ConfirmCreateLogin=Сигурни ли сте, че искате да създадете Powererp профил за този член?
+ConfirmCreateContact=Сигурни ли сте, че искате да създадете PowerERP профил за този контакт?
+ConfirmCreateLogin=Сигурни ли сте, че искате да създадете PowerERP профил за този член?
 ConfirmCreateThirdParty=Сигурни ли сте, че искате да създадете контрагент за този член?
 LoginToCreate=Потребителско име
 NameToCreate=Име на контрагент за създаване

@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForPowererpName = Powererp için Zapier
-ModuleZapierForPowererpDesc = Powererp modülü için Zapier
-ZapierForPowererpSetup=Powererp için Zapier ayarları
+ModuleZapierForPowererpName = PowerERP için Zapier
+ModuleZapierForPowererpDesc = PowerERP modülü için Zapier
+ZapierForPowererpSetup=PowerERP için Zapier ayarları
 ZapierDescription=Interface with Zapier
 ZapierAbout=About the module Zapier
-ZapierSetupPage=There is no need for a setup on Powererp side to use Zapier. However, you must generate and publish a package on zapier to be able to use Zapier with Powererp. See documentation on <a href="https://wiki.powererp.org/index.php/Module_Zapier">this wiki page</a>.
+ZapierSetupPage=There is no need for a setup on PowerERP side to use Zapier. However, you must generate and publish a package on zapier to be able to use Zapier with PowerERP. See documentation on <a href="https://wiki.PowerERP.org/index.php/Module_Zapier">this wiki page</a>.

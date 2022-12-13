@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -909,7 +909,7 @@ ViewFlatList=フラットリストを表示
 ViewAccountList=元帳を表示
 ViewSubAccountList=補助科目元帳を表示
 RemoveString=文字列 '%s'を削除する
-SomeTranslationAreUncomplete=提供されている言語の中には、部分的にしか翻訳されていないか、エラーが含まれているものがある。 <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/ </a>に登録して言語を修正し、改善点を追加すること。
+SomeTranslationAreUncomplete=提供されている言語の中には、部分的にしか翻訳されていないか、エラーが含まれているものがある。 <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/ </a>に登録して言語を修正し、改善点を追加すること。
 DirectDownloadLink=公開ダウンロードリンク
 PublicDownloadLinkDesc=ファイルのダウンロードにはリンクのみが必要
 DirectDownloadInternalLink=非公開ダウンロードリンク

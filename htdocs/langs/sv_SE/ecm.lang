@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Antal dokument i katalogen
 ECMSection=Katalog
 ECMSectionManual=Manuell katalog
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Antal underkataloger
 ECMNbOfFilesInSubDir=Antalet filer i underkataloger
 ECMCreationUser=Skapare
 ECMArea=DMS/ECM yta
-ECMAreaDesc=Med DMS / ECM-området (Document Management System / Electronic Content Management) kan du spara, dela och söka snabbt alla typer av dokument i Powererp.
+ECMAreaDesc=Med DMS / ECM-området (Document Management System / Electronic Content Management) kan du spara, dela och söka snabbt alla typer av dokument i PowerERP.
 ECMAreaDesc2=* Automatisk kataloger fylls automatiskt när man lägger till dokument från kort av ett element. <br> * Manuell kataloger kan användas för att spara dokument inte är knutna till ett visst element.
 ECMSectionWasRemoved=Mapp <b>%s</b> har tagits bort.
 ECMSectionWasCreated=Mapp <b>%s</b> har skapats.

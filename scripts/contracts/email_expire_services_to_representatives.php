@@ -22,7 +22,7 @@
 /**
  * \file scripts/contracts/email_expire_services_to_representatives.php
  * \ingroup contracts
- * \brief Script to send a mail to powererp users linked to companies with services to expire
+ * \brief Script to send a mail to PowerERP users linked to companies with services to expire
  */
 
 if (!defined('NOSESSION')) {
@@ -165,7 +165,7 @@ if ($resql) {
 			}
 		}
 	} else {
-		print "No services to expire (for companies linked to a particular commercial powererp user) found\n";
+		print "No services to expire (for companies linked to a particular commercial PowerERP user) found\n";
 	}
 
 	exit(0);

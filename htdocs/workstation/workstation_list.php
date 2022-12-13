@@ -22,7 +22,7 @@
  *		\brief      List page for workstation
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';
@@ -642,11 +642,11 @@ while ($i < ($limit ? min($num, $limit) : $num)) {
 		foreach ($object->usergroups as $id_group) {
 			$g = new UserGroup($db);
 			$g->fetch($id_group);
-			$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $g->getNomUrl(1, '', 0, 'categtextwhite') . '</li>';
+			$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $g->getNomUrl(1, '', 0, 'categtextwhite') . '</li>';
 		}
 
 		print '<td>';
-		print '<div class="select2-container-multi-powererp"><ul class="select2-choices-powererp">' . implode(' ', $toprint) . '</ul></div>';
+		print '<div class="select2-container-multi-PowerERP"><ul class="select2-choices-PowerERP">' . implode(' ', $toprint) . '</ul></div>';
 		print '</td>';
 	}
 
@@ -661,11 +661,11 @@ while ($i < ($limit ? min($num, $limit) : $num)) {
 		foreach ($object->resources as $id_resource) {
 			$r = new Dolresource($db);
 			$r->fetch($id_resource);
-			$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $r->getNomUrl(1, '', '', 0, 'categtextwhite') . '</li>';
+			$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $r->getNomUrl(1, '', '', 0, 'categtextwhite') . '</li>';
 		}
 
 		print '<td>';
-		print '<div class="select2-container-multi-powererp"><ul class="select2-choices-powererp">' . implode(' ', $toprint) . '</ul></div>';
+		print '<div class="select2-container-multi-PowerERP"><ul class="select2-choices-PowerERP">' . implode(' ', $toprint) . '</ul></div>';
 		print '</td>';
 	}
 

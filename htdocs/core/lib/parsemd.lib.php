@@ -54,11 +54,11 @@ function dolMd2Html($content, $parser = 'parsedown', $replaceimagepath = null)
  * Function to parse MD content into ASCIIDOC
  *
  * @param	string	  $content			    MD content
- * @param   string    $parser               'powererp'
+ * @param   string    $parser               'PowerERP'
  * @param   string    $replaceimagepath     Replace path to image with another path. Exemple: ('doc/'=>'xxx/aaa/')
  * @return	string                          Parsed content
  */
-function dolMd2Asciidoc($content, $parser = 'powererp', $replaceimagepath = null)
+function dolMd2Asciidoc($content, $parser = 'PowerERP', $replaceimagepath = null)
 {
 	if (is_array($replaceimagepath)) {
 		foreach ($replaceimagepath as $key => $val) {
@@ -67,7 +67,7 @@ function dolMd2Asciidoc($content, $parser = 'powererp', $replaceimagepath = null
 			$content = preg_replace('/'.preg_quote($keytoreplace, '/').'/m', $valafter, $content);
 		}
 	}
-	//if ($parser == 'powererp')
+	//if ($parser == 'PowerERP')
 	//{
 		$content = preg_replace('/<!--.*-->/msU', '', $content);
 	//}

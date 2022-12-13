@@ -3,7 +3,7 @@ README (English)
 RPM Package tools
 ##################################################
 
-This directory contains files used by makepack-powererp.pl script to build a package, 
+This directory contains files used by makepack-PowerERP.pl script to build a package, 
 ready to be distributed with format RPM (https://rpm.org)
 for Linux Distributions like Redhat, Fedora, CentOS, OpenSuse, OpenMandriva, Mageia ...
 
@@ -20,9 +20,9 @@ for Linux Distributions like Redhat, Fedora, CentOS, OpenSuse, OpenMandriva, Mag
 
 # On Fedora
 # =========
-# rpm -i --test powererp-...rpm                   to list dependencies of RPM 
-# yum -v install powererp-...rpm                  to install package and dependencies 
-# yum -v erase powererp                           to remove package 
+# rpm -i --test PowerERP-...rpm                   to list dependencies of RPM 
+# yum -v install PowerERP-...rpm                  to install package and dependencies 
+# yum -v erase PowerERP                           to remove package 
 # chcon -R -h -t httpd_sys_script_rw_t /file			to add temporary context rw for httpd on /file 
 # restorecon -R -v /file			                    to restore values into files (cancel chcon, validate semanage) 
 # semanage fcontext -a -t httpd_sys_script_rw_t "/dir/(.*)?" 	to add persistent context rw for httpd on /dir (this add file_contexts.local)
@@ -30,15 +30,15 @@ for Linux Distributions like Redhat, Fedora, CentOS, OpenSuse, OpenMandriva, Mag
 
 # On OpenSuse
 # ===========
-# zypper install powererp-...rpm     to install package and dependencies
-# zypper remove  powererp            to remove package
+# zypper install PowerERP-...rpm     to install package and dependencies
+# zypper remove  PowerERP            to remove package
 # zypper search  xxx                 to search a package
 
 
 # On Mageia (after su - root)
 # ===========================
-# urpmi powererp-...rpm              to install package and dependencies
-# urpme powererp                     to remove package
+# urpmi PowerERP-...rpm              to install package and dependencies
+# urpme PowerERP                     to remove package
 #
 
 
@@ -50,8 +50,8 @@ To submit a package to Fedora:
 - Create a bug with form  https://bugzilla.redhat.com/bugzilla/enter_bug.cgi?product=Fedora&format=fedora-review
 
 This is example of content of review field (used for Bug 723326 - https://bugzilla.redhat.com/show_bug.cgi?id=723326):
-SRPMS URL: https://www.powererp.org/files/fedora/powererp-x.y.z-xxx.src.rpm
-Description:  Powererp ERP & CRM is an easy to use open source/free software
+SRPMS URL: https://www.PowerERP.org/files/fedora/PowerERP-x.y.z-xxx.src.rpm
+Description:  PowerERP ERP & CRM is an easy to use open source/free software
 for small and medium companies, foundations or freelances. It includes
 different features for Enterprise Resource Planning (ERP) and Customer
 Relationship Management (CRM) but also for different other activities.

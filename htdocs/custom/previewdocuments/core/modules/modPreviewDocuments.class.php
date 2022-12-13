@@ -48,7 +48,7 @@
 
  */
 
-include_once DOL_DOCUMENT_ROOT . "/core/modules/PowererpModules.class.php";
+include_once DOL_DOCUMENT_ROOT . "/core/modules/PowerERPModules.class.php";
 
 
 
@@ -58,7 +58,7 @@ include_once DOL_DOCUMENT_ROOT . "/core/modules/PowererpModules.class.php";
 
  */
 
-class modPreviewDocuments extends PowererpModules
+class modPreviewDocuments extends PowerERPModules
 
 {
 
@@ -184,7 +184,7 @@ class modPreviewDocuments extends PowererpModules
 
         $this->phpmin = array(5, 0);
 
-        // Minimum version of Powererp required by module
+        // Minimum version of PowerERP required by module
 
         $this->need_powererp_version = array(3, 3);
 
@@ -224,7 +224,7 @@ class modPreviewDocuments extends PowererpModules
 
      * The init function add constants, boxes, permissions and menus
 
-     * (defined in constructor) into Powererp database.
+     * (defined in constructor) into PowerERP database.
 
      * It also creates data directories
 
@@ -297,7 +297,7 @@ class modPreviewDocuments extends PowererpModules
 
      * Function called when module is disabled.
 
-     * Remove from database constants, boxes and permissions from Powererp database.
+     * Remove from database constants, boxes and permissions from PowerERP database.
 
      * Data directories are not deleted
 

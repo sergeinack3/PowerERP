@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - multicurrency
+# PowerERP language file - Source file is en_US - multicurrency
 ErrorAddRateFail=Error en la velocidad agregada
 ErrorAddCurrencyFail=Error en la moneda agregada
 multicurrency_syncronize_error=Error de sincronización: %s

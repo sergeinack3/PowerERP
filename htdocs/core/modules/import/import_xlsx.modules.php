@@ -67,10 +67,10 @@ class ImportXlsx extends ModeleImports
 	public $extension; // Extension of files imported by driver
 
 	/**
-	 * Powererp version of driver
+	 * PowerERP version of driver
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	public $label_lib; // Label of external lib used by driver
 
@@ -147,7 +147,7 @@ class ImportXlsx extends ModeleImports
 		// phpcs:enable
 		global $user, $conf, $langs, $file;
 		// create a temporary object, the final output will be generated in footer
-		$this->workbook->getProperties()->setCreator($user->getFullName($outputlangs) . ' - Powererp ' . DOL_VERSION);
+		$this->workbook->getProperties()->setCreator($user->getFullName($outputlangs) . ' - PowerERP ' . DOL_VERSION);
 		$this->workbook->getProperties()->setTitle($outputlangs->trans("Import") . ' - ' . $file);
 		$this->workbook->getProperties()->setSubject($outputlangs->trans("Import") . ' - ' . $file);
 		$this->workbook->getProperties()->setDescription($outputlangs->trans("Import") . ' - ' . $file);
@@ -935,7 +935,7 @@ class ImportXlsx extends ModeleImports
 							if ($sql) {
 								$resql = $this->db->query($sql);
 								if ($resql) {
-									$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in Powererp).
+									$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in PowerERP).
 									$insertdone = true;
 								} else {
 									//print 'E';

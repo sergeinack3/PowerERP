@@ -24,7 +24,7 @@
 
 /**
  *	\file			htdocs/core/lib/functions2.lib.php
- *	\brief			A set of functions for Powererp
+ *	\brief			A set of functions for PowerERP
  *					This file contains all rare functions.
  */
 
@@ -824,7 +824,7 @@ function isValidVATID($company)
  */
 function clean_url($url, $http = 1)
 {
-	// Fixed by Matelli (see http://matelli.fr/showcases/patchs-powererp/fix-cleaning-url.html)
+	// Fixed by Matelli (see http://matelli.fr/showcases/patchs-PowerERP/fix-cleaning-url.html)
 	// To include the minus sign in a char class, we must not escape it but put it at the end of the class
 	// Also, there's no need of escape a dot sign in a class
 	$regs = array();
@@ -1884,9 +1884,9 @@ function version_php()
 }
 
 /**
- * 	Return Powererp version
+ * 	Return PowerERP version
  *
- * 	@return		string			Powererp version
+ * 	@return		string			PowerERP version
  *  @see		versionpowererparray(), versioncompare()
  */
 function version_powererp()

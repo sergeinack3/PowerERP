@@ -81,7 +81,7 @@ if ((getDolGlobalString('TAKEPOS_PHONE_BASIC_LAYOUT') == 1 && $conf->browser->la
 		}
 	}
 	$mobilepage = GETPOST('mobilepage', 'alpha');
-	$title = 'TakePOS - Powererp '.DOL_VERSION;
+	$title = 'TakePOS - PowerERP '.DOL_VERSION;
 	if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 		$title = 'TakePOS - '.$conf->global->MAIN_APPLICATION_TITLE;
 	}
@@ -1238,7 +1238,7 @@ if (!empty($conf->global->TAKEPOS_CUSTOMER_DISPLAY)) {
 // Add again js for footer because this content is injected into index.php page so all init
 // for tooltip and other js beautifiers must be reexecuted too.
 if (!empty($conf->use_javascript_ajax)) {
-	print "\n".'<!-- Includes JS Footer of Powererp -->'."\n";
+	print "\n".'<!-- Includes JS Footer of PowerERP -->'."\n";
 	print '<script src="'.DOL_URL_ROOT.'/core/js/lib_foot.js.php?lang='.$langs->defaultlang.'"></script>'."\n";
 }
 

@@ -41,7 +41,7 @@ function getChangeLog($appliname)
 	$ret.='</td>';
 	$inputstyle ="cursor:pointer; font-family: Happy Monkey; background-color: #ff6600; font-variant: small-caps;";
 	$inputstyle.="font-size: 14px; font-weight: bold; height: 30px; width: 150px;";
-	$ret.='<td align="center" ><a href="http://patas-monkey.com/index.php/fr/modules-powererp" target="_blank">';
+	$ret.='<td align="center" ><a href="http://patas-monkey.com/index.php/fr/modules-PowerERP" target="_blank">';
 	$ret.=' <input style="'.$inputstyle.'" name="readmore" type="button" value="'.$langs->trans("LienModules").'" /></a>';
 	$ret.='</td>';
 	$ret.='<td rowspan="3" align="center">';

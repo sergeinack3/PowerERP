@@ -21,7 +21,7 @@
  *	\brief	  	Page of projectbudget to the project
  */
 
-// Powererp environment
+// PowerERP environment
 $res=0;
 if (! $res && file_exists("../../main.inc.php"))
 	$res=@include("../../main.inc.php");		// For root directory

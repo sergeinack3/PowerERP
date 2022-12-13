@@ -25,12 +25,12 @@
  *  \ingroup    recrutement
  *  \brief      Description and activation file for module recrutement
  */
-include_once DOL_DOCUMENT_ROOT .'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT .'/core/modules/PowerERPModules.class.php';
 
 /**
  *  Description and activation class for module recrutement
  */
-class modrecrutement extends PowererpModules
+class modrecrutement extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -51,7 +51,7 @@ class modrecrutement extends PowererpModules
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i','',get_class($this));
 		$this->description = "ModuleDescrecrutement";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = '12.0';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -106,7 +106,7 @@ class modrecrutement extends PowererpModules
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->conflictwith = array();	// List of modules id this module is in conflict with
 		$this->phpmin = array(5,0);					// Minimum version of PHP required by module
-		$this->need_powererp_version = array(3,0);	// Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3,0);	// Minimum version of PowerERP required by module
 		$this->langfiles = array("recrutement@recrutement");
 
 		// Constants
@@ -513,7 +513,7 @@ class modrecrutement extends PowererpModules
 
 	/**
 	 *		Function called when module is disabled.
-	 *      Remove from database constants, boxes and permissions from Powererp database.
+	 *      Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

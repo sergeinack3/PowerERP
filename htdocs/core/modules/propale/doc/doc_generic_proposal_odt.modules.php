@@ -51,9 +51,9 @@ class doc_generic_proposal_odt extends ModelePDFPropales
 	public $phpmin = array(5, 6);
 
 	/**
-	 * @var string Powererp version of the loaded document
+	 * @var string PowerERP version of the loaded document
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 
 	/**

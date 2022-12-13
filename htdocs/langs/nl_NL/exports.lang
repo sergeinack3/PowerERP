@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ExportsArea=Exports
 ImportArea=Importeren
 NewExport=Nieuwe export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Kies de bestandsindeling die u als importbestandsinde
 ChooseFileToImport=Upload het bestand en klik vervolgens op het pictogram %s om het bestand te selecteren als bronimportbestand ...
 SourceFileFormat=Bestandsformaat van het bronbestand
 FieldsInSourceFile=Velden in het bronbestand
-FieldsInTargetDatabase=Doelvelden in Powererp databank (vet=verplicht)
+FieldsInTargetDatabase=Doelvelden in PowerERP databank (vet=verplicht)
 Field=veld
 NoFields=Geen velden
 MoveField=Verplaats veld kolomnummer %s

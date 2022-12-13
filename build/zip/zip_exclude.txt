@@ -14,11 +14,11 @@ Thumbs.db
 */htdocs/conf/conf.php.mysql
 */htdocs/conf/conf.php.old
 */htdocs/conf/conf.php.postgres
-powererp*.tar.gz
-powererp*.tgz
-powererp*.exe
-powererp*.rpm
-powererp*.deb
-powererp*.zip
+PowerERP*.tar.gz
+PowerERP*.tgz
+PowerERP*.exe
+PowerERP*.rpm
+PowerERP*.deb
+PowerERP*.zip
 cvschangelogbuilder_powererp*
 powererp_install.log

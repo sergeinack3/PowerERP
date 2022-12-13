@@ -42,8 +42,8 @@ class InterfaceLdapsynchro extends PowererpTriggers
 
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "ldap";
-		$this->description = "Triggers of this module allows to synchronize Powererp toward a LDAP database.";
-		// 'development', 'experimental', 'powererp' or version
+		$this->description = "Triggers of this module allows to synchronize PowerERP toward a LDAP database.";
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = self::VERSION_DOLIBARR;
 		$this->picto = 'technic';
 	}

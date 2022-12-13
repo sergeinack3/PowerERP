@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Konto rachunkowe użyte dla użytkownika kontrahentów
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Dedykowane konto księgowe zdefiniowane na karcie użytkownika będzie używane wyłącznie do księgowania Subledger. Ten zostanie użyty w General Ledger i jako wartość domyślna księgowania Subledger, jeśli dedykowane konto rachunkowe użytkownika dla użytkownika nie zostanie zdefiniowane.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Domyślne konto rachunkowe dla płatności wynagrodzenia

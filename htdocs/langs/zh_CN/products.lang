@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=产品编号
 ProductLabel=产品名称
 ProductLabelTranslated=产品标签已翻译
@@ -299,7 +299,7 @@ MinSupplierPrice=最低购买价格
 MinCustomerPrice=最低售价
 NoDynamicPrice=No dynamic price
 DynamicPriceConfiguration=动态价格配置
-DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow Powererp to update the value automatically.
+DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow PowerERP to update the value automatically.
 AddVariable=添加变量
 AddUpdater=添加更新
 GlobalVariables=全局变量

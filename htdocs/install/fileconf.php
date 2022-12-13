@@ -24,7 +24,7 @@
 /**
  *       \file       htdocs/install/fileconf.php
  *       \ingroup    install
- *       \brief      Ask all information required to build Powererp htdocs/conf/conf.php file (will be written to disk on next page step1)
+ *       \brief      Ask all information required to build PowerERP htdocs/conf/conf.php file (will be written to disk on next page step1)
  */
 
 include_once 'inc.php';
@@ -40,7 +40,7 @@ $langs->loadLangs(array("install", "errors"));
 
 powererp_install_syslog("- fileconf: entering fileconf.php page");
 
-// You can force preselected values of the config step of Powererp by adding a file
+// You can force preselected values of the config step of PowerERP by adding a file
 // install.forced.php into directory htdocs/install (This is the case with some wizard
 // installer like DoliWamp, DoliMamp or DoliBuntu).
 // We first init "forced values" to nothing.
@@ -80,8 +80,8 @@ if (!isset($force_install_databaserootpass)) {
 // Now we load forced values from install.forced.php file.
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/powererp/conf.php") {
-	$forcedfile = "/etc/powererp/install.forced.php"; // Must be after inc.php
+if ($conffile == "/etc/PowerERP/conf.php") {
+	$forcedfile = "/etc/PowerERP/install.forced.php"; // Must be after inc.php
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;
@@ -164,8 +164,8 @@ if (!empty($force_install_noedit)) {
 		print $langs->trans("Examples").":<br>";
 		?>
 		<ul>
-			<li>/var/www/powererp/htdocs</li>
-			<li>C:/wwwroot/powererp/htdocs</li>
+			<li>/var/www/PowerERP/htdocs</li>
+			<li>C:/wwwroot/PowerERP/htdocs</li>
 		</ul>
 		</td>
 	</tr>
@@ -196,8 +196,8 @@ if (!empty($force_install_noedit)) {
 		print $langs->trans("Examples").":<br>";
 		?>
 		<ul>
-			<li>/var/lib/powererp/documents</li>
-			<li>C:/My Documents/powererp/documents</li>
+			<li>/var/lib/PowerERP/documents</li>
+			<li>C:/My Documents/PowerERP/documents</li>
 		</ul>
 		</td>
 	</tr>
@@ -226,7 +226,7 @@ if (!empty($force_install_noedit)) {
 		<td class="comment"><?php print $langs->trans("Examples").":<br>"; ?>
 		<ul>
 			<li>http://localhost/</li>
-			<li>http://www.myserver.com:8180/powererp</li>
+			<li>http://www.myserver.com:8180/PowerERP</li>
 			<li>https://www.myvirtualforpowererp.com/</li>
 		</ul>
 		</td>
@@ -257,7 +257,7 @@ if (!empty($force_install_noedit)) {
 	}
 	?>
 
-	<!-- Powererp database -->
+	<!-- PowerERP database -->
 
 	<tr>
 		<td colspan="3" class="label"><br>
@@ -271,7 +271,7 @@ if (!empty($force_install_noedit)) {
 			<input type="text"
 				   id="db_name"
 				   name="db_name"
-				   value="<?php echo (!empty($powererp_main_db_name)) ? $powererp_main_db_name : ($force_install_database ? $force_install_database : 'powererp'); ?>"
+				   value="<?php echo (!empty($powererp_main_db_name)) ? $powererp_main_db_name : ($force_install_database ? $force_install_database : 'PowerERP'); ?>"
 				<?php if ($force_install_noedit == 2 && $force_install_database !== null) {
 					print ' disabled';
 				} ?>

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - compta
+# PowerERP language file - Source file is en_US - compta
 MenuFinancial=Računi | Plaćanja
 TaxModuleSetupToModifyRules=Idite na <a href="%s">Podešavanje modula poreza</a> za promjenu pravila izračuna
 TaxModuleSetupToModifyRulesLT=Idite na <a href="%s">Postavke tvrtke</a> za promjenu pravila za kalkulacije

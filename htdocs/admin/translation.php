@@ -322,7 +322,7 @@ if ($mode == 'overwrite') {
 
 	print '<div class="justify"><span class="opacitymedium">';
 	print img_info().' '.$langs->trans("SomeTranslationAreUncomplete");
-	$urlwikitranslatordoc = 'https://wiki.powererp.org/index.php/Translator_documentation';
+	$urlwikitranslatordoc = 'https://wiki.PowerERP.org/index.php/Translator_documentation';
 	print ' ('.str_replace('{s1}', '<a href="'.$urlwikitranslatordoc.'" target="_blank" rel="noopener noreferrer external">'.$langs->trans("Here").'</a>', $langs->trans("SeeAlso", '{s1}')).')<br>';
 	print $langs->trans("TranslationOverwriteDesc", $langs->transnoentitiesnoconv("Language"), $langs->transnoentitiesnoconv("Key"), $langs->transnoentitiesnoconv("NewTranslationStringToShow"))."\n";
 	print ' ('.$langs->trans("TranslationOverwriteDesc2").').'."<br>\n";
@@ -579,8 +579,8 @@ if ($mode == 'searchkey') {
 
 			if (getDolGlobalInt('MAIN_FEATURES_LEVEL')) {
 				$transifexlangfile = '$'; // $ means 'All'
-				//$transifexurl = 'https://www.transifex.com/powererp-association/powererp/translate/#'.$langcode.'/'.$transifexlangfile.'?key='.$key;
-				$transifexurl = 'https://www.transifex.com/powererp-association/powererp/translate/#'.$langcode.'/'.$transifexlangfile.'?q=key%3A'.$key;
+				//$transifexurl = 'https://www.transifex.com/PowerERP-association/PowerERP/translate/#'.$langcode.'/'.$transifexlangfile.'?key='.$key;
+				$transifexurl = 'https://www.transifex.com/PowerERP-association/PowerERP/translate/#'.$langcode.'/'.$transifexlangfile.'?q=key%3A'.$key;
 
 				print ' &nbsp; <a href="'.$transifexurl.'" target="transifex">'.img_picto($langs->trans('FixOnTransifex'), 'globe').'</a>';
 			}

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Bezpečnostní kód
 NumberingShort=N°
 Tools=Nástroje
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Ahoj)__\n\nNajděte zásah __REF__\n\n\n__
 PredefinedMailContentLink=Klepnutím na níže uvedený odkaz proveďte platbu, pokud ještě není hotovo.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Ahoj)__\n\n\n__(S pozdravem)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=Powererp je kompaktní ERP/CRM systém, který se  skládá z více funkčních modulů. Demo, které obsahuje všechny moduly vám nepředstaví všechny možnosti, protože v reálné situaci všechny moduly najednou používat nebudete.  Pro lepší a snadnější seznámení s celým systémem máte k dispozici několik demo profilů lépe vystihujících vaše požadavky. 
+DemoDesc=PowerERP je kompaktní ERP/CRM systém, který se  skládá z více funkčních modulů. Demo, které obsahuje všechny moduly vám nepředstaví všechny možnosti, protože v reálné situaci všechny moduly najednou používat nebudete.  Pro lepší a snadnější seznámení s celým systémem máte k dispozici několik demo profilů lépe vystihujících vaše požadavky. 
 ChooseYourDemoProfil=Vyberte demo profil, který nejlépe odpovídá vaší činnosti, nebo zaměření ...
 ChooseYourDemoProfilMore=... nebo vytvořit vlastní profil <br> (manuální výběr požadovaných modulů)
 DemoFundation=Spravovat nadaci, nebo neziskovou organizaci a její členy
@@ -182,10 +182,10 @@ SizeUnitpoint=bod
 BugTracker=Hlášení chyb
 SendNewPasswordDesc=Tento formulář umožňuje požádat o nové heslo. Bude zaslán na vaši e-mailovou adresu. <br> Změna se projeví až po kliknutí na potvrzovací odkaz v e-mailu. <br> Zkontrolujte doručenou poštu.
 BackToLoginPage=Zpět na přihlašovací stránku
-AuthenticationDoesNotAllowSendNewPassword=Režim ověřování je <b>%s.</b> <br> V tomto režimu Powererp nepozná, zda může změnit vaše heslo. <br> Obraťte se na správce systému, pokud chcete heslo změnit.
+AuthenticationDoesNotAllowSendNewPassword=Režim ověřování je <b>%s.</b> <br> V tomto režimu PowerERP nepozná, zda může změnit vaše heslo. <br> Obraťte se na správce systému, pokud chcete heslo změnit.
 EnableGDLibraryDesc=Nainstalujte nebo povolte GD knihovnu ve vaší PHP pro využití této možnosti
 ProfIdShortDesc=<b>Prof Id %s</b> je informace v závislosti na třetích stranách země. <br> Například pro země <b>%s,</b> je to kód <b>%s.</b>
-PowererpDemo=Powererp ERP/CRM demo
+PowererpDemo=PowerERP ERP/CRM demo
 StatsByNumberOfUnits=Statistiky součtu množství produktů / služeb
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Počet návrhů

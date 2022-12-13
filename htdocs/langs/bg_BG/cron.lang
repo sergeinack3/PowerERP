@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Преглед на планирани задачи
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Деактивиране
 CronTaskInactive=This job is disabled (not scheduled)
 CronId=Идентификатор
 CronClassFile=Име на файл с клас
-CronModuleHelp=Име на Powererp директорията с модули (работи и с външен Powererp модул).<BR>Например, за да извикате метода на извличане от Powererp продуктов обект /htdocs/<u>product</u>/class/product.class.php, стойността за модула е<br><i>product</i>
-CronClassFileHelp=Относителният път и името на файла за зареждане (пътят е относителен към основната директория на уеб сървъра).<BR>Например, за да извикате метода на извличане на Powererp продуктов обект htdocs/product/class/<u>product.class.php</u>, стойността за файлово име на класът е<br><i>product/class/product.class.php</i>
-CronObjectHelp=Името на обекта за зареждане.<BR>Например, за да извикате метода на извличане от Powererp продуктов обект /htdocs/product/class/product.class.php, стойността на файловото име на класът е<br><i>Product</i>
-CronMethodHelp=Методът на обекта за стартиране.<BR>Например, за да извикате метода на извличане от Powererp продуктов обект /htdocs/product/class/product.class.php, стойността за метода е<br><i>fetch</i>
-CronArgsHelp=Аргументите на метода.<BR>Например, за да извикате метода на извличане от Powererp продуктов обект /htdocs/product/class/product.class.php, стойността за параметрите може да бъде<br><i>0, ProductRef</i>
+CronModuleHelp=Име на PowerERP директорията с модули (работи и с външен PowerERP модул).<BR>Например, за да извикате метода на извличане от PowerERP продуктов обект /htdocs/<u>product</u>/class/product.class.php, стойността за модула е<br><i>product</i>
+CronClassFileHelp=Относителният път и името на файла за зареждане (пътят е относителен към основната директория на уеб сървъра).<BR>Например, за да извикате метода на извличане на PowerERP продуктов обект htdocs/product/class/<u>product.class.php</u>, стойността за файлово име на класът е<br><i>product/class/product.class.php</i>
+CronObjectHelp=Името на обекта за зареждане.<BR>Например, за да извикате метода на извличане от PowerERP продуктов обект /htdocs/product/class/product.class.php, стойността на файловото име на класът е<br><i>Product</i>
+CronMethodHelp=Методът на обекта за стартиране.<BR>Например, за да извикате метода на извличане от PowerERP продуктов обект /htdocs/product/class/product.class.php, стойността за метода е<br><i>fetch</i>
+CronArgsHelp=Аргументите на метода.<BR>Например, за да извикате метода на извличане от PowerERP продуктов обект /htdocs/product/class/product.class.php, стойността за параметрите може да бъде<br><i>0, ProductRef</i>
 CronCommandHelp=Системният команден ред за изпълнение.
 CronCreateJob=Създаване на нова планирана задача
 CronFrom=От

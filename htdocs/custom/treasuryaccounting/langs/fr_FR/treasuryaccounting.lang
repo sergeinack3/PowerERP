@@ -1,4 +1,4 @@
-# Powererp language file - fr_FR - Treasury accounting
+# PowerERP language file - fr_FR - Treasury accounting
 CHARSET=UTF-8
 Module163029Name=Comptabilité de trésorerie
 Module163029Desc=Module de génération d'opérations de comptabilité de trésorerie d'après la comptabilité d'engagement. (utilisation partielle ou non des autres modules)

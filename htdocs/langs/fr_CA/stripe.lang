@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - stripe
+# PowerERP language file - Source file is en_US - stripe
 StripeSetup=Configuration du module Stripe
 StripeOrCBDoPayment=Payer avec carte de crédit ou Stripe
 YouWillBeRedirectedOnStripe=Vous serez redirigé sur la page Stripe sécurisée pour vous fournir des informations sur votre carte de crédit

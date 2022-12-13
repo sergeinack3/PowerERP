@@ -341,9 +341,9 @@ function build_rssfile($format, $title, $desc, $events_array, $outputfile, $filt
 		/*
 		fwrite($fichier, "<description><![CDATA[".$desc.".]]></description>"."\n".
 				// "<language>fr</language>"."\n".
-				"<copyright>Powererp</copyright>"."\n".
+				"<copyright>PowerERP</copyright>"."\n".
 				"<lastBuildDate>".$date."</lastBuildDate>"."\n".
-				"<generator>Powererp</generator>"."\n");
+				"<generator>PowerERP</generator>"."\n");
 		*/
 
 		if (empty($url)) {
@@ -413,7 +413,7 @@ function build_rssfile($format, $title, $desc, $events_array, $outputfile, $filt
 				fwrite($fichier, "]]></description>\n");
 				fwrite($fichier, "<pubDate>".date("r", $startdate)."</pubDate>\n");
 				fwrite($fichier, "<guid isPermaLink=\"true\"><![CDATA[".$uid."]]></guid>\n");
-				fwrite($fichier, "<source><![CDATA[Powererp]]></source>\n");
+				fwrite($fichier, "<source><![CDATA[PowerERP]]></source>\n");
 				fwrite($fichier, "</item>\n");
 			}
 		}

@@ -25,13 +25,13 @@
  *  \ingroup    gestionpannes
  *  \brief      Description and activation file for module gestionpannes
  */
-include_once DOL_DOCUMENT_ROOT .'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT .'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *  Description and activation class for module gestionpannes
  */
-class modgestionpannes extends PowererpModules
+class modgestionpannes extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -48,7 +48,7 @@ class modgestionpannes extends PowererpModules
 		// $this->editor_url = 'https://www.site.ma';
 		
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 67200590; // 104000 to 104999 for ATM CONSULTING
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'gestionpannes';
@@ -60,7 +60,7 @@ class modgestionpannes extends PowererpModules
 		$this->name = preg_replace('/^mod/i','',get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "ModuleDesc";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = '9.0';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -110,7 +110,7 @@ class modgestionpannes extends PowererpModules
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->conflictwith = array();	// List of modules id this module is in conflict with
 		$this->phpmin = array(5,0);					// Minimum version of PHP required by module
-		$this->need_powererp_version = array(3,0);	// Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3,0);	// Minimum version of PowerERP required by module
 		$this->langfiles = array("gestionpannes@gestionpannes");
 
 		// Constants
@@ -382,7 +382,7 @@ class modgestionpannes extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -657,7 +657,7 @@ class modgestionpannes extends PowererpModules
 
 	/**
 	 *		Function called when module is disabled.
-	 *      Remove from database constants, boxes and permissions from Powererp database.
+	 *      Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

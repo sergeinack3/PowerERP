@@ -176,7 +176,7 @@ class FormSetup
 				$out .= '<br>'; // Todo : remove this <br/> by adding style to form-setup-button-container css class in all themes
 				$out .= '<div class="form-setup-button-container center">'; // Todo : remove .center by adding style to form-setup-button-container css class in all themes
 				$out.= $this->htmlOutputMoreButton;
-				$out .= '<input class="button button-save" type="submit" value="' . $this->langs->trans("Save") . '">'; // Todo fix powererp style for <button and use <button instead of input
+				$out .= '<input class="button button-save" type="submit" value="' . $this->langs->trans("Save") . '">'; // Todo fix PowerERP style for <button and use <button instead of input
 				$out .= '</div>';
 			}
 
@@ -940,9 +940,9 @@ class FormSetupItem
 			$ways = $c->print_all_ways(' &gt;&gt; ', 'none', 0, 1); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formated text
 			$toprint = array();
 			foreach ($ways as $way) {
-				$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #bbb"') . '>' . $way . '</li>';
+				$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #bbb"') . '>' . $way . '</li>';
 			}
-			$out.='<div class="select2-container-multi-powererp" style="width: 90%;"><ul class="select2-choices-powererp">' . implode(' ', $toprint) . '</ul></div>';
+			$out.='<div class="select2-container-multi-PowerERP" style="width: 90%;"><ul class="select2-choices-PowerERP">' . implode(' ', $toprint) . '</ul></div>';
 		} elseif (preg_match('/thirdparty_type/', $this->type)) {
 			if ($this->fieldValue==2) {
 				$out.= $this->langs->trans("Prospect");

@@ -21,7 +21,7 @@
 
 /**
  *  \file       htdocs/admin/system/filecheck.php
- *  \brief      Page to check Powererp files integrity
+ *  \brief      Page to check PowerERP files integrity
  */
 
 require '../../main.inc.php';
@@ -95,7 +95,7 @@ if (empty($xmlremote) && !empty($conf->global->$param)) {
 	$xmlremote = $conf->global->$param;
 }
 if (empty($xmlremote)) {
-	$xmlremote = 'https://www.powererp.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
+	$xmlremote = 'https://www.PowerERP.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
 }
 if ($xmlremote && !preg_match('/^https?:\/\//', $xmlremote)) {
 	$langs->load("errors");

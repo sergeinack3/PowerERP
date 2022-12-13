@@ -1,7 +1,7 @@
 README (English)
 --------------------------------
 
-This directory contains ruleset files to use to develop Powererp EPR & CRM.
+This directory contains ruleset files to use to develop PowerERP EPR & CRM.
 
 To install/upgrade phpcs:
 > sudo pear upgrade PHP_CodeSniffer

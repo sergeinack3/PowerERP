@@ -420,7 +420,7 @@ class CMailFile
 			}
 
 			$host = dol_getprefix('email');
-			$this->msgid = time().'.SMTPs-powererp-'.$this->trackid.'@'.$host;
+			$this->msgid = time().'.SMTPs-PowerERP-'.$this->trackid.'@'.$host;
 
 			$this->smtps = $smtps;
 		} elseif ($this->sendmode == 'swiftmailer') {
@@ -440,8 +440,8 @@ class CMailFile
 			//$this->message = new Swift_SignedMessage();
 			// Adding a trackid header to a message
 			$headers = $this->message->getHeaders();
-			$headers->addTextHeader('X-Powererp-TRACKID', $this->trackid.'@'.$host);
-			$this->msgid = time().'.swiftmailer-powererp-'.$this->trackid.'@'.$host;
+			$headers->addTextHeader('X-PowerERP-TRACKID', $this->trackid.'@'.$host);
+			$this->msgid = time().'.swiftmailer-PowerERP-'.$this->trackid.'@'.$host;
 			$headerID = $this->msgid;
 			$msgid = $headers->get('Message-ID');
 			$msgid->setId($headerID);
@@ -1143,10 +1143,10 @@ class CMailFile
 		$trackid = $this->trackid;
 		if ($trackid) {
 			// References is kept in response and Message-ID is returned into In-Reply-To:
-			$this->msgid = time().'.phpmail-powererp-'.$trackid.'@'.$host;
+			$this->msgid = time().'.phpmail-PowerERP-'.$trackid.'@'.$host;
 			$out .= 'Message-ID: <'.$this->msgid.">".$this->eol2; // Uppercase seems replaced by phpmail
 			$out .= 'References: <'.$this->msgid.">".$this->eol2;
-			$out .= 'X-Powererp-TRACKID: '.$trackid.'@'.$host.$this->eol2;
+			$out .= 'X-PowerERP-TRACKID: '.$trackid.'@'.$host.$this->eol2;
 		} else {
 			$this->msgid = time().'.phpmail@'.$host;
 			$out .= 'Message-ID: <'.$this->msgid.">".$this->eol2;
@@ -1155,7 +1155,7 @@ class CMailFile
 		if (!empty($_SERVER['REMOTE_ADDR'])) {
 			$out .= "X-RemoteAddr: ".$_SERVER['REMOTE_ADDR'].$this->eol2;
 		}
-		$out .= "X-Mailer: Powererp version ".DOL_VERSION." (using php mail)".$this->eol2;
+		$out .= "X-Mailer: PowerERP version ".DOL_VERSION." (using php mail)".$this->eol2;
 		$out .= "Mime-Version: 1.0".$this->eol2;
 
 		//$out.= "From: ".$this->getValidAddress($this->addr_from,3,1).$this->eol;

@@ -2,12 +2,12 @@
 --------------------------------
 
 
-* Screen captures and icons are Powererp contributions
+* Screen captures and icons are PowerERP contributions
 
 
-* Most logos were created by Powererp developers. You may find sources of them on:
+* Most logos were created by PowerERP developers. You may find sources of them on:
 
-https://github.com/Powererp/foundation
+https://github.com/PowerERP/foundation
 
 
 

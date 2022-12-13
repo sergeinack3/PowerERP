@@ -24,13 +24,13 @@
  *     \ingroup     ticket
  *     \brief       Description and activation file for the module Ticket
  */
-require_once DOL_DOCUMENT_ROOT."/core/modules/PowererpModules.class.php";
+require_once DOL_DOCUMENT_ROOT."/core/modules/PowerERPModules.class.php";
 
 
 /**
  * Description and activation class for module Ticket
  */
-class modTicket extends PowererpModules
+class modTicket extends PowerERPModules
 {
 	/**
 	 *     Constructor. Define names, constants, directories, boxes, permissions
@@ -45,7 +45,7 @@ class modTicket extends PowererpModules
 
 		// Id for module (must be unique).
 		// Use a free id here
-		// (See in Home -> System information -> Powererp for list of used modules id).
+		// (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 56000;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'ticket';
@@ -64,7 +64,7 @@ class modTicket extends PowererpModules
 		// (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Incident/support ticket management";
 		// Possible values for version are: 'development', 'experimental' or version
-		$this->version = 'powererp';
+		$this->version = 'PowerERP';
 		// Key used in llx_const table to save module status enabled/disabled
 		// (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -310,7 +310,7 @@ class modTicket extends PowererpModules
 
 	/**
 	 *	Function called when module is enabled.
-	 *	The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *	The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *	It also creates data directories
 	 *
 	 *	@param      string	$options    Options when enabling module ('', 'noboxes')

@@ -166,7 +166,7 @@ public function writeFile($object, $outputlangs)
             $pdf->SetDrawColor(128, 128, 128);
             $pdf->SetTitle($outputlangs->convToOutputCharset($object->name));
             $pdf->SetSubject($outputlangs->transnoentities("ProjectTimeReport"));
-            $pdf->SetCreator("Powererp ".DOL_VERSION);
+            $pdf->SetCreator("PowerERP ".DOL_VERSION);
             $pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
             $pdf->SetKeyWords(implode(',', $object->ref));//FIXME add all project refs
             if(! empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) $pdf->SetCompression(false);

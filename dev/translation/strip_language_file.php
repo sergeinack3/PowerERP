@@ -244,7 +244,7 @@ foreach ($filesToProcess as $fileToProcess) {
 
 		print "Read Primary File ".$lPrimaryFile." and write ".$output.":\n";
 
-		fwrite($oh, "# Powererp language file - Source file is en_US - ".(preg_replace('/\.lang$/', '', $fileToProcess))."\n");
+		fwrite($oh, "# PowerERP language file - Source file is en_US - ".(preg_replace('/\.lang$/', '', $fileToProcess))."\n");
 
 		$fileFirstFound = array();
 		$lineFirstFound = array();

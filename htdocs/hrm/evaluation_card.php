@@ -25,7 +25,7 @@
  *		\brief      Page to create/edit/view evaluation
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';

@@ -5,12 +5,12 @@
 #
 #--------------------------------------------------------------------
 
-# Usage: powererp-doxygen-getversion.pl pathtofilefrompowererproot
+# Usage: PowerERP-doxygen-getversion.pl pathtofilefrompowererproot
 
 $file=$ARGV[0];
 if (! $file) 
 {
-	print "Usage: powererp-doxygen-getversion.pl pathtofilefrompowererproot\n";
+	print "Usage: PowerERP-doxygen-getversion.pl pathtofilefrompowererproot\n";
 	exit;
 }
 

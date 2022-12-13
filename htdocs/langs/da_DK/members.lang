@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Medlemsområde
 MemberCard=Medlem kortet
 SubscriptionCard=Subscription kortet
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Liste over bekræftede offentlige medlemmer
 ErrorThisMemberIsNotPublic=Denne medlem er ikke offentligt
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Et andet medlem <b>(navn: %s, login: %s)</b> er allerede knyttet til en <b>tredjepart %s.</b> Fjern dette link første fordi en tredjepart ikke kan forbindes med kun et medlem (og omvendt).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Af sikkerhedsmæssige grunde skal du have tilladelser til at redigere alle brugere for at kunne linke en medlem til en bruger, der ikke er din.
-SetLinkToUser=Link til en Powererp bruger
-SetLinkToThirdParty=Link til en Powererp tredjepart
+SetLinkToUser=Link til en PowerERP bruger
+SetLinkToThirdParty=Link til en PowerERP tredjepart
 MembersCards=Visitkort til medlemmer
 MembersList=Liste over medlemmer
 MembersListToValid=Liste over udkast til medlemmer (der skal bekræftes)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Er du sikker på, at du vil slette dette bidrag?
 Filehtpasswd=htpasswd fil
 ValidateMember=Bekræfte et medlem
 ConfirmValidateMember=Er du sikker på, at du vil bekræfte denne medlem?
-FollowingLinksArePublic=Følgende links er åbne sider, der ikke er beskyttet af Powererp-tilladelse. De er ikke formaterede sider, der er angivet som eksempel for at vise, hvordan man kan oprette medlemmernes database.
+FollowingLinksArePublic=Følgende links er åbne sider, der ikke er beskyttet af PowerERP-tilladelse. De er ikke formaterede sider, der er angivet som eksempel for at vise, hvordan man kan oprette medlemmernes database.
 PublicMemberList=Offentlige medlem liste
 BlankSubscriptionForm=Offentlig form for selvregistrering
-BlankSubscriptionFormDesc=Powererp kan give dig en offentlig webadresse / hjemmeside for at give eksterne besøgende mulighed for at anmode om at abonnere på fundamentet. Hvis et online betalingsmodul er aktiveret, kan et betalingsformular også automatisk leveres.
+BlankSubscriptionFormDesc=PowerERP kan give dig en offentlig webadresse / hjemmeside for at give eksterne besøgende mulighed for at anmode om at abonnere på fundamentet. Hvis et online betalingsmodul er aktiveret, kan et betalingsformular også automatisk leveres.
 EnablePublicSubscriptionForm=Aktivér det offentlige websted med selv abonnementsformular
 ForceMemberType=Force medlemstypen
 ExportDataset_member_1=Medlemmer og bidrag

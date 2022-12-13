@@ -44,10 +44,10 @@ class mod_barcode_product_standard extends ModeleNumRefBarCode
 	public $code_null; // Optional code
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	/**
 	 * @var int Automatic numbering

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=பயனரின் மூன்றாம் தரப்பினருக்குப் பயன்படுத்தப்படும் கணக்கியல் கணக்கு
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=பயனர் அட்டையில் வரையறுக்கப்பட்ட பிரத்யேக கணக்கியல் கணக்கு சப்லெட்ஜர் கணக்கியலுக்கு மட்டுமே பயன்படுத்தப்படும். இது ஜெனரல் லெட்ஜருக்குப் பயன்படுத்தப்படும் மற்றும் பயனரின் பிரத்யேக பயனர் கணக்கியல் கணக்கு வரையறுக்கப்படாவிட்டால், சப்லெட்ஜர் கணக்கின் இயல்புநிலை மதிப்பாகப் பயன்படுத்தப்படும்.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=ஊதியக் கொடுப்பனவுகளுக்கு முன்னிருப்பாக கணக்கியல் கணக்கு

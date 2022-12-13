@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,7 +61,7 @@ ErrorNoRequestInError=Nie wykryto żadneog błednego zapytania.
 ErrorServiceUnavailableTryLater=Serwis w tej chwili jest niedostępny. Spróbuj później.
 ErrorDuplicateField=Zduplikuj niepowtarzalną wartość w polu
 ErrorSomeErrorWereFoundRollbackIsDone=Znaleziono błędy. Zmiany zostały wycofane.
-ErrorConfigParameterNotDefined=Parametr <b> %s </b> nie jest zdefiniowany w pliku konfiguracyjnym Powererp <b> conf.php </b>.
+ErrorConfigParameterNotDefined=Parametr <b> %s </b> nie jest zdefiniowany w pliku konfiguracyjnym PowerERP <b> conf.php </b>.
 ErrorCantLoadUserFromPowererpDatabase=Nie można znaleźć <b>użytkownika %s</b> Powererpa w bazie danych.
 ErrorNoVATRateDefinedForSellerCountry=Błąd, nie określono stawki VAT dla kraju " %s".
 ErrorNoSocialContributionForSellerCountry=Błąd, brak określonej stopy podatkowej dla kraju '%s'.
@@ -95,7 +95,7 @@ RecordDeleted=Rekord usunięty
 RecordGenerated=Rekord wygenerowany
 LevelOfFeature=możliwości funkcji
 NotDefined=Nie zdefiniowany
-PowererpInHttpAuthenticationSoPasswordUseless=Tryb uwierzytelniania Powererp jest ustawiony na <b>%s</b> w pliku konfiguracyjnym <b>conf.php</b>.<br> Oznacza to, że baza danych haseł jest na zewnątrz Powererp, więc zmiana tego pola może nie mieć wpływu.
+PowererpInHttpAuthenticationSoPasswordUseless=Tryb uwierzytelniania PowerERP jest ustawiony na <b>%s</b> w pliku konfiguracyjnym <b>conf.php</b>.<br> Oznacza to, że baza danych haseł jest na zewnątrz PowerERP, więc zmiana tego pola może nie mieć wpływu.
 Administrator=Administrator
 Undefined=Niezdefiniowano
 PasswordForgotten=Zapomniałeś hasła?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Typ managera bazy danych
 RequestLastAccessInError=Ostatni błąd zgłoszeń o dostępie do bazy danych
 ReturnCodeLastAccessInError=Kod zwrotny ostatniego błędu żądania dostępu do bazy danych
 InformationLastAccessInError=Informacje o najnowszym błędzie żądania dostępu do bazy danych
-PowererpHasDetectedError=Powererp wykrył błąd techniczny
+PowererpHasDetectedError=PowerERP wykrył błąd techniczny
 YouCanSetOptionPowererpMainProdToZero=Możesz przeczytać plik dziennika lub ustawić opcję $ powererp_main_prod na „0” w pliku konfiguracyjnym, aby uzyskać więcej informacji.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Więcej informacji
@@ -122,7 +122,7 @@ TechnicalID=Techniczne ID
 LineID=ID linii
 NotePublic=Uwaga (publiczna)
 NotePrivate=Uwaga (prywatna)
-PrecisionUnitIsLimitedToXDecimals=Powererp ustawił ograniczenia dokładności cen jednostkowych <b>do %s</b> miejsc po przecinku.
+PrecisionUnitIsLimitedToXDecimals=PowerERP ustawił ograniczenia dokładności cen jednostkowych <b>do %s</b> miejsc po przecinku.
 DoTest=Test
 ToFilter=Filtr
 NoFilter=Brak filtra
@@ -909,7 +909,7 @@ ViewFlatList=Zobacz płaską listę
 ViewAccountList=Wyświetl księgę
 ViewSubAccountList=Wyświetl księgę subkontową
 RemoveString=Usuń ciąg '%s'
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Publiczny link do pobrania
 PublicDownloadLinkDesc=Do pobrania pliku wymagane jest tylko łącze
 DirectDownloadInternalLink=Prywatny link do pobrania

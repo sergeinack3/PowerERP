@@ -478,7 +478,7 @@ function print_eldy_menu($db, $atarget, $type_user, &$tabMenu, &$menu, $noout = 
 
 		$newTabMenu[$i]['url'] = make_substitutions($newTabMenu[$i]['url'], $substitarray);
 
-		// url = url from host, shorturl = relative path into powererp sources
+		// url = url from host, shorturl = relative path into PowerERP sources
 		$url = $shorturl = $newTabMenu[$i]['url'];
 		if (!preg_match("/^(http:\/\/|https:\/\/)/i", $newTabMenu[$i]['url'])) {	// Do not change url content for external links
 			$tmp = explode('?', $newTabMenu[$i]['url'], 2);
@@ -797,7 +797,7 @@ function print_left_eldy_menu($db, $menu_array_before, $menu_array_after, &$tabM
 				// Load translation files required by the page
 				$langs->loadLangs(array('admin', 'help'));
 
-				$newmenu->add('/admin/system/powererp.php?mainmenu=home&amp;leftmenu=admintools_info', $langs->trans('InfoPowererp'), 1);
+				$newmenu->add('/admin/system/PowerERP.php?mainmenu=home&amp;leftmenu=admintools_info', $langs->trans('InfoPowererp'), 1);
 				if ($usemenuhider || empty($leftmenu) || $leftmenu == 'admintools_info') {
 					$newmenu->add('/admin/system/modules.php?mainmenu=home&amp;leftmenu=admintools_info', $langs->trans('Modules'), 2);
 					$newmenu->add('/admin/triggers.php?mainmenu=home&amp;leftmenu=admintools_info', $langs->trans('Triggers'), 2);

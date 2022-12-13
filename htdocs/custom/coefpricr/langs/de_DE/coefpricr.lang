@@ -1,4 +1,4 @@
-# Powererp language file - de_DE
+# PowerERP language file - de_DE
 CHARSET=UTF-8
 CoefPricRSetup=Konfigurieren des CoefPricR-Moduls
 CoefPricRSetup=Konfigurieren des CoefPricR-Moduls
@@ -13,7 +13,7 @@ PatasToolsNews=Hier finden Sie die Informationen von patas-monkey.com (benötigt 
 PatasTools=Patas-M-Werkzeuge
 SupportModuleInformation=Technische Informationen
 SupportModuleInformationDesc= <br/> <em> Hinweis: Diese Information ist nützlich und Sie werden möglicherweise gefrag </em>
-PowererpVersion=Version de Powererp
+PowererpVersion=Version de PowerERP
 ModuleVersion=Modulversion
 PHPVersion=PHP-Version
 DatabaseVersion=Version der Datenbank

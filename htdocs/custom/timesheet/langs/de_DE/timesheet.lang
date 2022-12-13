@@ -1,4 +1,4 @@
-# Powererp language file - English - timesheet
+# PowerERP language file - English - timesheet
 # Translators
 # (6),  (403)
 adddocs = Beigefügte Dokumente
@@ -50,7 +50,7 @@ DiplayOptions = Anzeigeoptionen
 draft = Feld-Gruppe Entwurf aktualisiert
 draftColorDesc = Farbe für den Entwurf Urlaub & Arbeitszeittabelle
 dropdownAjax = Drop-Down-Ajax deaktivieren
-dropdownAjaxDesc = Deaktivieren Sie die Ajax für Powererp Dropdown-Liste (in einem Fall in Frage, eine neue Favoris einzugeben)
+dropdownAjaxDesc = Deaktivieren Sie die Ajax für PowerERP Dropdown-Liste (in einem Fall in Frage, eine neue Favoris einzugeben)
 Employee = Mitarbeiter
 employeeSignature = Unterschrift Mitarbeiter
 errMsgMaxHoursExceded = Du kannst nicht so viel Zeit für einen Tag eintreten.
@@ -151,7 +151,7 @@ RecordUpdated = Aufzeichnung aktualisiert
 rejected = Abgelehnt
 rejectedColorDesc = Farbe für den Urlaub & Zeiterfassung von der Genehmigung abgelehnt
 Reminder = Erinnerung
-reminderEmailProcess = Sie können die Erinnerung per E-Mail über den Aufgabenplaner von Powererp aktivieren <br> Job type \= Call method of a Powererp Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
+reminderEmailProcess = Sie können die Erinnerung per E-Mail über den Aufgabenplaner von PowerERP aktivieren <br> Job type \= Call method of a PowerERP Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
 savedDuration = Gespeicherten Dauer
 searchbox = Suchfelder zu aktivieren
 searchboxDesc = Ersetzen Sie die Dropdown-Listen durch Suchfelder für die Aufgaben. Benötigt, wenn Hunderte von Aufgaben definiert sind, um die Leistung zu verbessern. (Projekt, Kontakt, Dritter Partie verwenden die in einem anderen Modul definierte Suchfeldkonfiguration)
@@ -197,7 +197,7 @@ userReport = Anwenderbericht
 wngMsgHoursExceded = Sie betreten Überstunden
 Yearweekdate = Stichtag
 YouHaveApprovalPending = Timesheet zu genehmigen
-YouHaveApprovalPendingMsg = Dears,<br><br>Du hast __NB_TS__ Stundenzettel zu genehmigen, bitte melde dich an dolibar an, um sie zu genehmigen.<br><br>Mit freundlichen Grüßen<br><br>Dein Powererp admin.
+YouHaveApprovalPendingMsg = Dears,<br><br>Du hast __NB_TS__ Stundenzettel zu genehmigen, bitte melde dich an dolibar an, um sie zu genehmigen.<br><br>Mit freundlichen Grüßen<br><br>Dein PowerERP admin.
 YouHaveTimesheetRejected = Einer Ihrer vorgelegten Arbeitszeittabelle wurde abgelehnt.
 YouHaveTimesheetRejectedMsg = Hallo, <br><br>Die Stundenzettel der Woche %s wurde abgelehnt.<br>Bitte überprüfen Sie Ihre Eingaben hier:<br>%s<br><br>Mit freundlichen Grüßen
 minSecondsPerEvent = Minimun in Sekunden

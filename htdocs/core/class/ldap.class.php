@@ -128,12 +128,12 @@ class Ldap
 	const SYNCHRO_NONE = 0;
 
 	/**
-	 * Powererp to Ldap synchronization
+	 * PowerERP to Ldap synchronization
 	 */
 	const SYNCHRO_DOLIBARR_TO_LDAP = 1;
 
 	/**
-	 * Ldap to Powererp synchronization
+	 * Ldap to PowerERP synchronization
 	 */
 	const SYNCHRO_LDAP_TO_DOLIBARR = 2;
 

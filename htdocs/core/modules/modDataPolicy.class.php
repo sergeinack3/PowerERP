@@ -25,17 +25,17 @@
  *  \ingroup    datapolicy
  *  \brief      Description and activation file for the module datapolicy
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 
-// The class name should start with a lower case mod for Powererp to pick it up
+// The class name should start with a lower case mod for PowerERP to pick it up
 // so we ignore the Squiz.Classes.ValidClassName.NotCamelCaps rule.
 // @codingStandardsIgnoreStart
 /**
  *  Description and activation class for module datapolicy
  */
-class modDataPolicy extends PowererpModules {
+class modDataPolicy extends PowerERPModules {
 
 	// @codingStandardsIgnoreEnd
 	/**
@@ -50,7 +50,7 @@ class modDataPolicy extends PowererpModules {
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 4100;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'datapolicy';
@@ -69,7 +69,7 @@ class modDataPolicy extends PowererpModules {
 		// Used only if file README.md and README-LL.md not found.
 		$this->descriptionlong = "";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp', 'powererp_deprecated' or a version string like 'x.y.z'
+		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'powererp_deprecated' or a version string like 'x.y.z'
 		$this->version = 'experimental';
 		// Key used in llx_const table to save module status enabled/disabled (where datapolicy is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -108,7 +108,7 @@ class modDataPolicy extends PowererpModules {
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->langfiles = array("datapolicy@datapolicy");
 		$this->phpmin = array(5, 3); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(4, 0); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(4, 0); // Minimum version of PowerERP required by module
 		$this->warnings_activation = array(); // Warning to show when we activate module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		$this->warnings_activation_ext = array(); // Warning to show when we activate an external module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
 		//$this->automatic_activation = array('FR'=>'datapolicyWasAutomaticallyActivatedBecauseOfYourCountryChoice');
@@ -201,7 +201,7 @@ class modDataPolicy extends PowererpModules {
 
 	/**
 	 * 	Function called when module is enabled.
-	 * 	The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 * 	The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 * 	It also creates data directories
 	 *
 	 * 	@param      string	$options    Options when enabling module ('', 'noboxes')
@@ -245,7 +245,7 @@ class modDataPolicy extends PowererpModules {
 
 	/**
 	 * 	Function called when module is disabled.
-	 * 	Remove from database constants, boxes and permissions from Powererp database.
+	 * 	Remove from database constants, boxes and permissions from PowerERP database.
 	 * 	Data directories are not deleted
 	 *
 	 * 	@param      string	$options    Options when enabling module ('', 'noboxes')

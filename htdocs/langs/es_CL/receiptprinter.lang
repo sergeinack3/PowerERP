@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - receiptprinter
+# PowerERP language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=Configuración del módulo ReceiptPrinter
 PrinterAdded=Impresora %s agregada
 TestSentToPrinter=Prueba enviada a la impresora %s

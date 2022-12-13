@@ -39,7 +39,7 @@ $confirm = GETPOST('confirm', 'alpha');
 
 $object = new Contact($db);
 
-// Get object canvas (By default, this is not defined, so standard usage of powererp)
+// Get object canvas (By default, this is not defined, so standard usage of PowerERP)
 $object->getCanvas($id);
 $objcanvas = null;
 $canvas = (!empty($object->canvas) ? $object->canvas : GETPOST("canvas"));

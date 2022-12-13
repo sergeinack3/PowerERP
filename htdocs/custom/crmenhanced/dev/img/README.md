@@ -6,7 +6,7 @@ Used to generate icons and publication assets.
 Icons
 -----
 
-### Powererp
+### PowerERP
 
 These resides in the [/img](../../img) directory.
 

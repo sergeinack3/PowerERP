@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Référence produit
 ProductLabel=Désignation du produit
 ProductLabelTranslated=Etiquette du produit traduit
@@ -159,7 +159,7 @@ PriceImpact=Impact des prix
 NewProductAttributeValue=Nouvelle valeur d'attribut
 ErrorCreatingProductAttributeValue=Une erreur s'est produite lors de la création de la valeur de l'attribut. Ce pourrait être parce qu'il existe déjà une valeur existante avec cette référence
 ProductCombinationGeneratorWarning=Si vous continuez, avant de générer de nouvelles variantes, toutes les précédentes seront supprimées. Les éléments déjà existants seront mis à jour avec les nouvelles valeurs
-TooMuchCombinationsWarning=La génération de nombreuses variantes peut entraîner une CPU élevée, une utilisation de la mémoire et Powererp pas capable de les créer. L'activation de l'option "%s" peut aider à réduire l'utilisation de la mémoire.
+TooMuchCombinationsWarning=La génération de nombreuses variantes peut entraîner une CPU élevée, une utilisation de la mémoire et PowerERP pas capable de les créer. L'activation de l'option "%s" peut aider à réduire l'utilisation de la mémoire.
 DoNotRemovePreviousCombinations=Ne supprimez pas les variantes précédentes
 UsePercentageVariations=Variations en pourcentage d'utilisation
 PercentageVariation=Variation en pourcentage

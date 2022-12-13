@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ExportsArea=Área exportación
 ImportArea=Área importación
 NewExport=Nova exportación
@@ -30,10 +30,10 @@ ExportCsvSeparator=Separador de caracteres en CSV
 ImportCsvSeparator=Separador de caracteres en CSV
 Step=Paso
 FormatedImport=Asistente de importación
-FormatedImportDesc1=Esta área permitelle realizar importacións persoalizadas de datos mediante un axudante que evita ter coñecementos técnicos de Powererp.
+FormatedImportDesc1=Esta área permitelle realizar importacións persoalizadas de datos mediante un axudante que evita ter coñecementos técnicos de PowerERP.
 FormatedImportDesc2=O primeiro paso consiste na escolla do tipo de dato que debe importarse, despois o ficheiro e a continuación escoller os campos que desexa importar.
 FormatedExport=Asistente de exportación
-FormatedExportDesc1=Esta área permitelle realizar exportacións persoalizadas dos datos mediante un axudante que evita ter coñecementos técnicos de Powererp.
+FormatedExportDesc1=Esta área permitelle realizar exportacións persoalizadas dos datos mediante un axudante que evita ter coñecementos técnicos de PowerERP.
 FormatedExportDesc2=O primeiro paso consiste na escolla dun dos conxuntos de datos predefinidos, despois escoller os campos que quere exportar ao ficheiro e en que orde.
 FormatedExportDesc3=Unha vez seleccionados os datos, é posible escoller o formato do ficheiro de exportación xerado.
 Sheet=Folla
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Escolla o formato de ficheiro que desexa importar e p
 ChooseFileToImport=Escolla o ficheiro de importación e faga clic na imaxe %s para seleccionalo como ficheiro orixe de importación...
 SourceFileFormat=Formato do ficheiro orixe
 FieldsInSourceFile=Campos no ficheiro orixe
-FieldsInTargetDatabase=Campos destino na base de datos Powererp (*=obrigatorio)
+FieldsInTargetDatabase=Campos destino na base de datos PowerERP (*=obrigatorio)
 Field=Campo
 NoFields=Ningún campo
 MoveField=Mover campo columna número %s

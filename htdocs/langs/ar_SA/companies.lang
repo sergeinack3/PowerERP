@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=اسم الشركة %s موجود بالفعل. اختر واحد اخر.
 ErrorSetACountryFirst=اضبط البلد أولاً
 SelectThirdParty=حدد طرفًا ثالثًا
@@ -378,7 +378,7 @@ CapitalOf=راس مال %s
 EditCompany=تحرير الشركة
 ThisUserIsNot=هذا المستخدم ليس فرصة أو عميل أو مورد
 VATIntraCheck=فحص
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Powererp server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the PowerERP server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=تحقق من معرف ضريبة القيمة المضافة داخل الاتجاد على موقع المفوضية الأوروبية
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>

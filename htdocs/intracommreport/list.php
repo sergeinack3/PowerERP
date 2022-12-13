@@ -90,7 +90,7 @@ if (empty($action)) {
 	$action = 'list';
 }
 
-// Get object canvas (By default, this is not defined, so standard usage of powererp)
+// Get object canvas (By default, this is not defined, so standard usage of PowerERP)
 $canvas = GETPOST("canvas");
 $objcanvas = null;
 if (!empty($canvas)) {

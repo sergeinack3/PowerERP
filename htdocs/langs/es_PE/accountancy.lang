@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - accountancy
+# PowerERP language file - Source file is en_US - accountancy
 Accounting=Contabilizando
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columna de archivo a exportar
 ACCOUNTING_EXPORT_DATE=Formato de fecha de archivo a exportar

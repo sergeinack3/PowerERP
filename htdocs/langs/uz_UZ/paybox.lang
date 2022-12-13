@@ -1,7 +1,7 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=PayBox modulini sozlash
-PayBoxDesc=Ushbu modul mijozlar tomonidan <a href="http://www.paybox.com" target="_blank"> Paybox </a> orqali to'lovlarni amalga oshirishga imkon beradigan sahifalarni taqdim etadi. Bu bepul to'lov uchun yoki ma'lum bir Powererp ob'ekti uchun to'lov uchun ishlatilishi mumkin (hisob-faktura, buyurtma, ...)
-FollowingUrlAreAvailableToMakePayments=Powererp ob'ektlarida to'lovni amalga oshirish uchun xaridorga sahifani taqdim etish uchun quyidagi URL manzillar mavjud
+PayBoxDesc=Ushbu modul mijozlar tomonidan <a href="http://www.paybox.com" target="_blank"> Paybox </a> orqali to'lovlarni amalga oshirishga imkon beradigan sahifalarni taqdim etadi. Bu bepul to'lov uchun yoki ma'lum bir PowerERP ob'ekti uchun to'lov uchun ishlatilishi mumkin (hisob-faktura, buyurtma, ...)
+FollowingUrlAreAvailableToMakePayments=PowerERP ob'ektlarida to'lovni amalga oshirish uchun xaridorga sahifani taqdim etish uchun quyidagi URL manzillar mavjud
 PaymentForm=To'lov shakli
 WelcomeOnPaymentPage=Onlayn to'lov xizmatimizga xush kelibsiz
 ThisScreenAllowsYouToPay=Ushbu ekran sizga %s raqamiga onlayn to'lovni amalga oshirishga imkon beradi.

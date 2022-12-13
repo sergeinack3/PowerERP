@@ -143,7 +143,7 @@ abstract class ModeleNumRefTicket
 			return $langs->trans("VersionExperimental");
 		}
 
-		if ($this->version == 'powererp') {
+		if ($this->version == 'PowerERP') {
 			return DOL_VERSION;
 		}
 

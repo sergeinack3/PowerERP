@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=人力資源區域
 UserCard=用戶卡
 GroupCard=集團卡
@@ -66,7 +66,7 @@ LinkedToPowererpUser=連結到用戶
 LinkedToPowererpThirdParty=連結到合作方
 CreatePowererpLogin=建立一位用戶
 CreatePowererpThirdParty=建立一位合作方(客戶/供應商)
-LoginAccountDisableInPowererp=在 Powererp 中帳戶已關閉。
+LoginAccountDisableInPowererp=在 PowerERP 中帳戶已關閉。
 UsePersonalValue=使用個人設定值
 InternalUser=內部用戶
 ExportDataset_user_1=用戶及其屬性

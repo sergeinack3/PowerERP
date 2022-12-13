@@ -28,13 +28,13 @@
  *	\ingroup    supplier_proposal
  *	\brief      Description and activation file for the module supplier proposal
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module SupplierProposal
  */
-class modSupplierProposal extends PowererpModules
+class modSupplierProposal extends PowerERPModules
 {
 
 	/**
@@ -54,7 +54,7 @@ class modSupplierProposal extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "supplier_proposalDESC";
 
-		$this->version = 'powererp';
+		$this->version = 'PowerERP';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'supplier_proposal';
@@ -149,7 +149,7 @@ class modSupplierProposal extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
 	 *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -190,7 +190,7 @@ class modSupplierProposal extends PowererpModules
 
 	/**
 	 * Function called when module is disabled.
-	 * Remove from database constants, boxes and permissions from Powererp database.
+	 * Remove from database constants, boxes and permissions from PowerERP database.
 	 * Data directories are not deleted
 	 *
 	 * @param      string	$options    Options when enabling module ('', 'noboxes')

@@ -32,10 +32,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/barcode.lib.php'; // This is to includ
 class modTcpdfbarcode extends ModeleBarCode
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	/**
 	 * @var string Error code (or message)
@@ -212,7 +212,7 @@ class modTcpdfbarcode extends ModeleBarCode
 	/**
 	 *	get available output_modes for tcpdf class wth its translated description
 	 *
-	 * @param	string $dolEncodingType powererp barcode encoding type
+	 * @param	string $dolEncodingType PowerERP barcode encoding type
 	 * @return	string tcpdf encoding type
 	 */
 	public function getTcpdfEncodingType($dolEncodingType)

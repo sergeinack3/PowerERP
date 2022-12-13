@@ -191,7 +191,7 @@ if ($mode == 'setup' && $user->admin) {
 		// Token
 		require_once DOL_DOCUMENT_ROOT.'/includes/OAuth/bootstrap.php';
 		require_once DOL_DOCUMENT_ROOT.'/includes/OAuth/bootstrap.php';
-		// Powererp storage
+		// PowerERP storage
 		$storage = new DoliStorage($db, $conf);
 		try {
 			$tokenobj = $storage->retrieveAccessToken($OAUTH_SERVICENAME);

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 MenuNewProspect=Nuevo prospecto
 NewCompany=Nueva compañía (prospecto, cliente, vendedor)
 CreatePowererpThirdPartySupplier=Crear un tercero (vendedor)
@@ -87,7 +87,7 @@ NoContactForAnyOrderOrShipments=Este contacto no es un contacto para ningún ped
 NoContactForAnyProposal=Este contacto no es contacto de ningúna cotización
 NewContactAddress=Nuevo contacto/dirección
 ThisUserIsNot=Este usuario no es un cliente potencial, cliente o proveedor.
-VATIntraCheckDesc=El número de identificación fiscal debe incluir el prefijo del país. El enlace <b> %s </b> utiliza el servicio de verificación de IVA europeo (VIES) que requiere acceso a Internet desde el servidor Powererp.
+VATIntraCheckDesc=El número de identificación fiscal debe incluir el prefijo del país. El enlace <b> %s </b> utiliza el servicio de verificación de IVA europeo (VIES) que requiere acceso a Internet desde el servidor PowerERP.
 VATIntraCheckURL=http://www.rues.org.co/RUES_Web/Consultas#tabs-3
 VATIntraCheckableOnEUSite=Verifique el ID de IVA intracomunitario en el sitio web de la Comisión Europea
 VATIntraManualCheck=También puede consultar manualmente en el sitio web de la Comisión Europea <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>

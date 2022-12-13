@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Producto ref.
 ProductLabel=Etiqueta del producto
 ProductLabelTranslated=Etiqueta traducida del producto
@@ -170,7 +170,7 @@ ComposedProduct=Productos para niños
 MinSupplierPrice=Precio de compra mínimo
 MinCustomerPrice=Precio de venta minimo
 DynamicPriceConfiguration=Configuración dinámica de precios
-DynamicPriceDesc=Puede definir fórmulas matemáticas para calcular los precios de Cliente o Proveedor. Estas fórmulas pueden utilizar todos los operadores matemáticos, algunas constantes y variables. Puede definir aquí las variables que desea utilizar. Si la variable necesita una actualización automática, puede definir la URL externa para permitir que Powererp actualice el valor automáticamente.
+DynamicPriceDesc=Puede definir fórmulas matemáticas para calcular los precios de Cliente o Proveedor. Estas fórmulas pueden utilizar todos los operadores matemáticos, algunas constantes y variables. Puede definir aquí las variables que desea utilizar. Si la variable necesita una actualización automática, puede definir la URL externa para permitir que PowerERP actualice el valor automáticamente.
 AddUpdater=Añadir actualizador
 GlobalVariableUpdaterType0=Datos JSON
 GlobalVariableUpdaterHelp0=Analiza los datos JSON de la URL especificada, VALUE especifica la ubicación del valor relevante,
@@ -222,7 +222,7 @@ PriceImpact=Impacto de precio
 WeightImpact=Impacto del peso
 ErrorCreatingProductAttributeValue=Se produjo un error al crear el valor del atributo. Podría ser porque ya existe un valor con esa referencia.
 ProductCombinationGeneratorWarning=Si continúas, antes de generar nuevas variantes, todas las anteriores serán BORRADAS. Los ya existentes serán actualizados con los nuevos valores.
-TooMuchCombinationsWarning=La generación de muchas variantes puede resultar en un alto uso de la CPU y la memoria, y Powererp no puede crearlas. Habilitar la opción "%s" puede ayudar a reducir el uso de memoria.
+TooMuchCombinationsWarning=La generación de muchas variantes puede resultar en un alto uso de la CPU y la memoria, y PowerERP no puede crearlas. Habilitar la opción "%s" puede ayudar a reducir el uso de memoria.
 DoNotRemovePreviousCombinations=No eliminar variantes anteriores.
 ErrorDeletingGeneratedProducts=Se ha producido un error al intentar eliminar las variantes de producto existentes.
 NbOfDifferentValues=No. de valores diferentes

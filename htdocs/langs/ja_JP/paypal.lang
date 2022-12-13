@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=ペイパルモジュールの設定
 PaypalDesc=このモジュールでは、<a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal</a>を介した顧客による支払いが可能。これは、アドホック支払いまたはPowererpオブジェクト（請求書、注文など）に関連する支払いに使用できる。
 PaypalOrCBDoPayment=PayPalで支払う(カードまたはPayPal)

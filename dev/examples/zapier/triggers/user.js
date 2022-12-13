@@ -109,7 +109,7 @@ module.exports = {
     noun: 'User',
     display: {
         label: 'New User',
-        description: 'Triggers when a new user action is done in Powererp.'
+        description: 'Triggers when a new user action is done in PowerERP.'
     },
 
     // `operation` is where the business logic goes.

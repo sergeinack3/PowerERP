@@ -30,10 +30,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/supplier_payment/modules_supplier_
 class mod_supplier_payment_bronan extends ModeleNumRefSupplierPayments
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'SPAY';
 

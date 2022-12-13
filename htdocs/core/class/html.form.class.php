@@ -7767,7 +7767,7 @@ class Form
 		global $conf, $langs;
 		global $delayedhtmlcontent;	// Will be used later outside of this function
 
-		// TODO Use an internal powererp component instead of select2
+		// TODO Use an internal PowerERP component instead of select2
 		if (empty($conf->global->MAIN_USE_JQUERY_MULTISELECT) && !defined('REQUIRE_JQUERY_MULTISELECT')) {
 			return '';
 		}
@@ -7871,7 +7871,7 @@ class Form
 		global $conf, $langs;
 		global $delayedhtmlcontent;	// Will be used later outside of this function
 
-		// TODO Use an internal powererp component instead of select2
+		// TODO Use an internal PowerERP component instead of select2
 		if (empty($conf->global->MAIN_USE_JQUERY_MULTISELECT) && !defined('REQUIRE_JQUERY_MULTISELECT')) {
 			return '';
 		}
@@ -8215,10 +8215,10 @@ class Form
 			foreach ($categories as $c) {
 				$ways = $c->print_all_ways(' &gt;&gt; ', ($nolink ? 'none' : ''), 0, 1); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formated text
 				foreach ($ways as $way) {
-					$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories"'.($c->color ? ' style="background: #'.$c->color.';"' : ' style="background: #bbb"').'>'.$way.'</li>';
+					$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories"'.($c->color ? ' style="background: #'.$c->color.';"' : ' style="background: #bbb"').'>'.$way.'</li>';
 				}
 			}
-			return '<div class="select2-container-multi-powererp"><ul class="select2-choices-powererp">'.implode(' ', $toprint).'</ul></div>';
+			return '<div class="select2-container-multi-PowerERP"><ul class="select2-choices-PowerERP">'.implode(' ', $toprint).'</ul></div>';
 		}
 
 		if ($rendermode == 0) {

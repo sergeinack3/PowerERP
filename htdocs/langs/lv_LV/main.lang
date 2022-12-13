@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Nav pieprasījums kļūdā
 ErrorServiceUnavailableTryLater=Pakalpojums pašlaik nav pieejams. Pamēģini vēlreiz vēlāk.
 ErrorDuplicateField=Dubulta vērtība unikālā laukā
 ErrorSomeErrorWereFoundRollbackIsDone=Dažas kļūdas tika atrastas. Atgriezām atpakaļ visu sākuma stāvoklī.
-ErrorConfigParameterNotDefined=Parametrs <b>%s</b> nav definēts Powererp konfigurācijas failā <b>conf.php</b>.
-ErrorCantLoadUserFromPowererpDatabase=Neizdevās atrast lietotāju <b>%s</b> Powererp datu bāzē.
+ErrorConfigParameterNotDefined=Parametrs <b>%s</b> nav definēts PowerERP konfigurācijas failā <b>conf.php</b>.
+ErrorCantLoadUserFromPowererpDatabase=Neizdevās atrast lietotāju <b>%s</b> PowerERP datu bāzē.
 ErrorNoVATRateDefinedForSellerCountry=Kļūda, PVN likme nav definēta sekojošai valstij '%s'.
 ErrorNoSocialContributionForSellerCountry=Kļūda, sociālā/fiskālā rakstura nodokļi nav definēti valstī “%s”.
 ErrorFailedToSaveFile=Kļūda, neizdevās saglabāt failu.
@@ -95,7 +95,7 @@ RecordDeleted=Ieraksts dzēsts
 RecordGenerated=Ieraksts izveidots
 LevelOfFeature=Līmeņa funkcijas
 NotDefined=Nav definēts
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp authentication mode is set to <b>%s</b> in configuration file <b>conf.php</b>.<br>This means that the password database is external to Powererp, so changing this field may have no effect.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP authentication mode is set to <b>%s</b> in configuration file <b>conf.php</b>.<br>This means that the password database is external to PowerERP, so changing this field may have no effect.
 Administrator=Administrators
 Undefined=Nav definēts
 PasswordForgotten=Aizmirsāt paroli?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Datu bāzes menedžeris
 RequestLastAccessInError=Jaunākās datubāzes piekļuves pieprasījuma kļūdas
 ReturnCodeLastAccessInError=Atgriešanas kods jaunākās datu bāzes piekļuves pieprasījuma kļūdai
 InformationLastAccessInError=Information for latest database access request error
-PowererpHasDetectedError=Powererp ir atklājis tehnisku kļūdu
+PowererpHasDetectedError=PowerERP ir atklājis tehnisku kļūdu
 YouCanSetOptionPowererpMainProdToZero=Jūs varat izlasīt žurnāla failu vai iestatīt opciju $ powererp_main_prod uz '0' savā konfigurācijas failā, lai iegūtu vairāk informācijas.
 InformationToHelpDiagnose=Šī informācija var būt noderīga diagnostikas nolūkos (varat iestatīt opciju $powererp_main_prod uz "1", lai paslēptu sensitīvu informāciju)
 MoreInformation=Vairāk informācijas
@@ -122,7 +122,7 @@ TechnicalID=Tehniskais ID
 LineID=Līnijas ID
 NotePublic=Piezīme (publiska)
 NotePrivate=Piezīme (privāta)
-PrecisionUnitIsLimitedToXDecimals=Powererp iestatīts, lai ierobežotu vienības cenu <b>%s</b> zīmēm aiz komata.
+PrecisionUnitIsLimitedToXDecimals=PowerERP iestatīts, lai ierobežotu vienības cenu <b>%s</b> zīmēm aiz komata.
 DoTest=Pārbaude
 ToFilter=Filtrs
 NoFilter=Bez filtra
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Dalībnieki
 MenuAgendaGoogle=Google darba kārtība
 MenuTaxesAndSpecialExpenses=Nodokļi | Īpašie izdevumi
-ThisLimitIsDefinedInSetup=Powererp robeža (Menu mājas uzstādīšana-drošība): %s Kb, PHP robeža: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp limits (izvēlne %s): %s Kb, PHP ierobežojums (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP robeža (Menu mājas uzstādīšana-drošība): %s Kb, PHP robeža: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limits (izvēlne %s): %s Kb, PHP ierobežojums (Param %s): %s Kb
 NoFileFound=Nav augšupielādēts neviens dokuments
 CurrentUserLanguage=Pašreizējā valoda
 CurrentTheme=Pašreizējā tēma
@@ -909,7 +909,7 @@ ViewFlatList=Skatīt plakanu sarakstu
 ViewAccountList=Skatīt virsgrāmatu
 ViewSubAccountList=Skatīt apakškonta virsgrāmatu
 RemoveString=Noņemt virkni '%s'
-SomeTranslationAreUncomplete=Dažas no piedāvātajām valodām var būt tikai daļēji tulkotas vai satur kļūdas. Lūdzu, palīdziet labot valodu, reģistrējoties vietnē <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/ </a>, lai pievienotu savus uzlabojumus.
+SomeTranslationAreUncomplete=Dažas no piedāvātajām valodām var būt tikai daļēji tulkotas vai satur kļūdas. Lūdzu, palīdziet labot valodu, reģistrējoties vietnē <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/ </a>, lai pievienotu savus uzlabojumus.
 DirectDownloadLink=Publiska lejupielādes saite
 PublicDownloadLinkDesc=Lai lejupielādētu failu, nepieciešama tikai saite
 DirectDownloadInternalLink=Privāta lejupielādes saite

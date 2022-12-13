@@ -67,7 +67,7 @@ $extrafields->fetch_name_optionals_label($object->table_element);
 
 $socialnetworks = getArrayOfSocialNetworks();
 
-// Get object canvas (By default, this is not defined, so standard usage of powererp)
+// Get object canvas (By default, this is not defined, so standard usage of PowerERP)
 $object->getCanvas($id);
 $objcanvas = null;
 $canvas = (!empty($object->canvas) ? $object->canvas : GETPOST("canvas"));
@@ -1220,7 +1220,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 				print '</td></tr>';
 			}
 
-			// Login Powererp
+			// Login PowerERP
 			print '<tr><td>'.$langs->trans("PowererpLogin").'</td><td colspan="3">';
 			if ($object->user_id) {
 				$powererp_user = new User($db);

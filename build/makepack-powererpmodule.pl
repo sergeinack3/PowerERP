@@ -64,7 +64,7 @@ if (! $TEMP || ! -d $TEMP) {
     sleep 2;
     exit 2;
 } 
-$BUILDROOT="$TEMP/powererp-buildroot";
+$BUILDROOT="$TEMP/PowerERP-buildroot";
 
 
 my $copyalreadydone=0;
@@ -126,7 +126,7 @@ foreach my $PROJECT (@PROJECTLIST) {
 	    print "Error: can't open conf file makepack-".$PROJECT.".conf\n";
 		print "\n";
 		print "For help on building a module package, see web page\n";
-		print "http://wiki.powererp.org/index.php/Module_development#Create_a_package_to_distribute_and_install_your_module\n";
+		print "http://wiki.PowerERP.org/index.php/Module_development#Create_a_package_to_distribute_and_install_your_module\n";
 		print "makepack-powererpmodule.pl aborted.\n";
 	    sleep 2;
 	    exit 2;
@@ -174,7 +174,7 @@ foreach my $PROJECT (@PROJECTLIST) {
 	
 	# Choose package targets
 	#-----------------------
-	$target="ZIP";    # Powererp modules are this format
+	$target="ZIP";    # PowerERP modules are this format
 	$CHOOSEDTARGET{uc($target)}=1;
 	
 	

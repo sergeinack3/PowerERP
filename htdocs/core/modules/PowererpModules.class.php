@@ -24,17 +24,17 @@
  */
 
 /**
- * \file           htdocs/core/modules/PowererpModules.class.php
+ * \file           htdocs/core/modules/PowerERPModules.class.php
  * \brief          File of parent class of module descriptor class files
  */
 
 
 /**
- * Class PowererpModules
+ * Class PowerERPModules
  *
  * Parent class for module descriptor class files
  */
-class PowererpModules // Can not be abstract, because we need to instantiate it into unActivateModule to be able to disable a module whose files were removed.
+class PowerERPModules // Can not be abstract, because we need to instantiate it into unActivateModule to be able to disable a module whose files were removed.
 {
 	/**
 	 * @var DoliDb Database handler
@@ -43,7 +43,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * @var int Module unique ID
-	 * @see https://wiki.powererp.org/index.php/List_of_modules_id
+	 * @see https://wiki.PowerERP.org/index.php/List_of_modules_id
 	 */
 	public $numero;
 
@@ -187,7 +187,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 	 * The following keywords can also be used:
 	 * 'development'
 	 * 'experimental'
-	 * 'powererp': only for core modules that share its version
+	 * 'PowerERP': only for core modules that share its version
 	 * 'powererp_deprecated': only for deprecated core modules
 	 */
 	public $version;
@@ -338,8 +338,8 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 	public $phpmin;
 
 	/**
-	 * @var array Minimum version of Powererp required by module.
-	 * e.g.: Powererp ≥ 3.6 = array(3, 6)
+	 * @var array Minimum version of PowerERP required by module.
+	 * e.g.: PowerERP ≥ 3.6 = array(3, 6)
 	 */
 	public $need_powererp_version;
 
@@ -363,7 +363,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 	{
 		$this->db = $db;
 	}
-	// We should but can't set this as abstract because this will make powererp hang
+	// We should but can't set this as abstract because this will make PowerERP hang
 	// after migration due to old module not implementing. We must wait PHP is able to make
 	// a try catch on Fatal error to manage this correctly.
 	// We need constructor into function unActivateModule into admin.lib.php
@@ -776,7 +776,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 	/**
 	 * Gives module version (translated if param $translated is on)
 	 * For 'experimental' modules, gives 'experimental' translation
-	 * For 'powererp' modules, gives Powererp version
+	 * For 'PowerERP' modules, gives PowerERP version
 	 *
 	 * @param  int $translated 1=Special version keys are translated, 0=Special version keys are not translated
 	 * @return string                  Module version
@@ -793,7 +793,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 			$ret = ($translated ? $langs->transnoentitiesnoconv("VersionExperimental") : $newversion);
 		} elseif ($newversion == 'development') {
 			$ret = ($translated ? $langs->transnoentitiesnoconv("VersionDevelopment") : $newversion);
-		} elseif ($newversion == 'powererp') {
+		} elseif ($newversion == 'PowerERP') {
 			$ret = DOL_VERSION;
 		} elseif ($newversion) {
 			$ret = $newversion;
@@ -814,7 +814,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 	 */
 	public function getModulePosition()
 	{
-		if (in_array($this->version, array('powererp', 'experimental', 'development'))) {	// core module
+		if (in_array($this->version, array('PowerERP', 'experimental', 'development'))) {	// core module
 			return $this->module_position;
 		} else {																			// external module
 			if ($this->module_position >= 100000) {
@@ -827,14 +827,14 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * Tells if module is core or external.
-	 * 'powererp' and 'powererp_deprecated' is core
+	 * 'PowerERP' and 'powererp_deprecated' is core
 	 * 'experimental' and 'development' is core
 	 *
 	 * @return string  'core', 'external' or 'unknown'
 	 */
 	public function isCoreOrExternalModule()
 	{
-		if ($this->version == 'powererp' || $this->version == 'powererp_deprecated') {
+		if ($this->version == 'PowerERP' || $this->version == 'powererp_deprecated') {
 			return 'core';
 		}
 		if (!empty($this->version) && !in_array($this->version, array('experimental', 'development'))) {
@@ -2271,7 +2271,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * Function called when module is enabled.
-	 * The init function adds tabs, constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 * The init function adds tabs, constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 * It also creates data directories
 	 *
 	 * @param  string $options Options when enabling module ('', 'newboxdefonly', 'noboxes', 'menuonly')
@@ -2285,7 +2285,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * Function called when module is disabled.
-	 * The remove function removes tabs, constants, boxes, permissions and menus from Powererp database.
+	 * The remove function removes tabs, constants, boxes, permissions and menus from PowerERP database.
 	 * Data directories are not deleted
 	 *
 	 * @param  string $options Options when enabling module ('', 'noboxes')
@@ -2338,7 +2338,7 @@ class PowererpModules // Can not be abstract, because we need to instantiate it 
 	    <div class="info-box-icon'.(empty($conf->global->$const_name) ? '' : ' info-box-icon-module-enabled'.($versiontrans ? ' info-box-icon-module-warning' : '')).'">';
 
 		$alttext = '';
-		//if (is_array($objMod->need_powererp_version)) $alttext.=($alttext?' - ':'').'Powererp >= '.join('.',$objMod->need_powererp_version);
+		//if (is_array($objMod->need_powererp_version)) $alttext.=($alttext?' - ':'').'PowerERP >= '.join('.',$objMod->need_powererp_version);
 		//if (is_array($objMod->phpmin)) $alttext.=($alttext?' - ':'').'PHP >= '.join('.',$objMod->phpmin);
 		if (!empty($this->picto)) {
 			if (preg_match('/^\//i', $this->picto)) {

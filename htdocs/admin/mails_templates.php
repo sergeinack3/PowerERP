@@ -173,7 +173,7 @@ $tabhelp[25] = array(
 
 $elementList = array();
 
-// We save list of template email Powererp can manage. This list can found by a grep into code on "->param['models']"
+// We save list of template email PowerERP can manage. This list can found by a grep into code on "->param['models']"
 $elementList = array();
 // Add all and none after the sort
 

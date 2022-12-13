@@ -62,9 +62,9 @@ $error = 0;
 
 // -------------------- START OF YOUR CODE HERE --------------------
 @set_time_limit(0); // No timeout for this script
-define('EVEN_IF_ONLY_LOGIN_ALLOWED', 1); // Set this define to 0 if you want to lock your script when powererp setup is "locked to admin user only".
+define('EVEN_IF_ONLY_LOGIN_ALLOWED', 1); // Set this define to 0 if you want to lock your script when PowerERP setup is "locked to admin user only".
 
-// Load Powererp environment
+// Load PowerERP environment
 $res = 0;
 // Try master.inc.php into web root detected using web root calculated from SCRIPT_FILENAME
 $tmp = empty($_SERVER['SCRIPT_FILENAME']) ? '' : $_SERVER['SCRIPT_FILENAME']; $tmp2 = realpath(__FILE__); $i = strlen($tmp) - 1; $j = strlen($tmp2) - 1;

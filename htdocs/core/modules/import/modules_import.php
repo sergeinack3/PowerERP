@@ -55,10 +55,10 @@ class ModeleImports
 	public $extension; // Extension of files imported by driver
 
 	/**
-	 * Powererp version of driver
+	 * PowerERP version of driver
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	public $label_lib; // Label of external lib used by driver
 

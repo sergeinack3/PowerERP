@@ -6,7 +6,7 @@
 # edit it if you need to match your rules.
 # --------------------------------------------------------
 
-Name: powererp
+Name: PowerERP
 Version: __VERSION__
 Release: __RELEASE__
 Summary: ERP and CRM software for small and medium companies or foundations 
@@ -16,10 +16,10 @@ Summary(it): Programmo gestionale per piccole imprese, fondazioni e liberi profe
 
 License: GPL-3.0+
 #Packager: Laurent Destailleur (Eldy) <eldy@users.sourceforge.net>
-Vendor: Powererp dev team
+Vendor: PowerERP dev team
 
-URL: https://www.powererp.org
-Source0: https://www.powererp.org/files/lastbuild/package_rpm_opensuse/%{name}-%{version}.tgz
+URL: https://www.PowerERP.org
+Source0: https://www.PowerERP.org/files/lastbuild/package_rpm_opensuse/%{name}-%{version}.tgz
 Patch0: %{name}-forrpm.patch
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
@@ -40,7 +40,7 @@ An easy to use CRM & ERP open source/free software package for small
 and medium companies, foundations or freelances. It includes different 
 features for Enterprise Resource Planning (ERP) and Customer Relationship 
 Management (CRM) but also for different other activities.
-Powererp was designed to provide only features you need and be easy to 
+PowerERP was designed to provide only features you need and be easy to 
 use.
 
 %description -l es
@@ -48,7 +48,7 @@ Un software ERP y CRM para pequeñas y medianas empresas, asociaciones
 o autónomos. Incluye diferentes funcionalidades para la Planificación 
 de Recursos Empresariales (ERP) y Gestión de la Relación con los
 Clientes (CRM) así como para para otras diferentes actividades. 
-Powererp ha sido diseñado para suministrarle solamente las funcionalidades
+PowerERP ha sido diseñado para suministrarle solamente las funcionalidades
 que necesita y haciendo hincapié en su facilidad de uso.
     
 %description -l fr
@@ -85,15 +85,15 @@ cui hai bisogno ed essere facile da usare.
 
 %{__mkdir} -p $RPM_BUILD_ROOT%{_sysconfdir}/%{name}
 %{__install} -m 644 build/rpm/conf.php $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/conf.php
-%{__install} -m 644 build/rpm/httpd-powererp.conf $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/apache.conf
-%{__install} -m 644 build/rpm/file_contexts.powererp $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/file_contexts.powererp
+%{__install} -m 644 build/rpm/httpd-PowerERP.conf $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/apache.conf
+%{__install} -m 644 build/rpm/file_contexts.PowerERP $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/file_contexts.PowerERP
 %{__install} -m 644 build/rpm/install.forced.php.opensuse $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/install.forced.php
 
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/pixmaps
 %{__install} -m 644 doc/images/appicon_64.png $RPM_BUILD_ROOT%{_datadir}/pixmaps/%{name}.png
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/applications
 #desktop-file-install --delete-original --dir=$RPM_BUILD_ROOT%{_datadir}/applications build/rpm/%{name}.desktop
-%{__install} -m 644 build/rpm/powererp.desktop $RPM_BUILD_ROOT%{_datadir}/applications/%{name}.desktop
+%{__install} -m 644 build/rpm/PowerERP.desktop $RPM_BUILD_ROOT%{_datadir}/applications/%{name}.desktop
 
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/%{name}/build/rpm
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/%{name}/build/tgz
@@ -125,7 +125,7 @@ done >>%{name}.lang
 %if 0%{?suse_version}
 
 # Enable this command to tag desktop file for suse
-%suse_update_desktop_file powererp
+%suse_update_desktop_file PowerERP
 
 # Enable this command to allow suse detection of duplicate files and create hardlinks instead
 %fdupes $RPM_BUILD_ROOT%{_datadir}/%{name}/htdocs
@@ -144,113 +144,113 @@ done >>%{name}.lang
 
 %defattr(0755, root, root, 0755)
 
-%dir %_datadir/powererp
+%dir %_datadir/PowerERP
 
-%dir %_datadir/powererp/scripts
-%_datadir/powererp/scripts/*
+%dir %_datadir/PowerERP/scripts
+%_datadir/PowerERP/scripts/*
 
 %defattr(-, root, root, 0755)
 %doc COPYING ChangeLog doc/index.html htdocs/langs/HOWTO-Translation.txt
 
-%_datadir/pixmaps/powererp.png
-%_datadir/applications/powererp.desktop
+%_datadir/pixmaps/PowerERP.png
+%_datadir/applications/PowerERP.desktop
 
-%dir %_datadir/powererp/build
+%dir %_datadir/PowerERP/build
 
-%dir %_datadir/powererp/build/rpm
-%_datadir/powererp/build/rpm/*
+%dir %_datadir/PowerERP/build/rpm
+%_datadir/PowerERP/build/rpm/*
 
-%dir %_datadir/powererp/build/tgz
-%_datadir/powererp/build/tgz/*
+%dir %_datadir/PowerERP/build/tgz
+%_datadir/PowerERP/build/tgz/*
 
-%dir %_datadir/powererp/htdocs
-%_datadir/powererp/htdocs/accountancy
-%_datadir/powererp/htdocs/adherents
-%_datadir/powererp/htdocs/admin
-%_datadir/powererp/htdocs/api
-%_datadir/powererp/htdocs/asset
-%_datadir/powererp/htdocs/asterisk
-%_datadir/powererp/htdocs/barcode
-%_datadir/powererp/htdocs/blockedlog
-%_datadir/powererp/htdocs/bookmarks
-%_datadir/powererp/htdocs/bom
-%_datadir/powererp/htdocs/categories
-%_datadir/powererp/htdocs/collab
-%_datadir/powererp/htdocs/comm
-%_datadir/powererp/htdocs/commande
-%_datadir/powererp/htdocs/compta
-%_datadir/powererp/htdocs/conf
-%_datadir/powererp/htdocs/contact
-%_datadir/powererp/htdocs/contrat
-%_datadir/powererp/htdocs/core
-%_datadir/powererp/htdocs/cron
-%_datadir/powererp/htdocs/custom
-%_datadir/powererp/htdocs/datapolicy
-%_datadir/powererp/htdocs/dav
-%_datadir/powererp/htdocs/debugbar
-%_datadir/powererp/htdocs/delivery
-%_datadir/powererp/htdocs/don
-%_datadir/powererp/htdocs/ecm
-%_datadir/powererp/htdocs/emailcollector
-%_datadir/powererp/htdocs/eventorganization
-%_datadir/powererp/htdocs/expedition
-%_datadir/powererp/htdocs/expensereport
-%_datadir/powererp/htdocs/exports
-%_datadir/powererp/htdocs/externalsite
-%_datadir/powererp/htdocs/fichinter
-%_datadir/powererp/htdocs/fourn
-%_datadir/powererp/htdocs/ftp
-%_datadir/powererp/htdocs/holiday
-%_datadir/powererp/htdocs/hrm
-%_datadir/powererp/htdocs/imports
-%_datadir/powererp/htdocs/includes
-%_datadir/powererp/htdocs/install
-%_datadir/powererp/htdocs/intracommreport
-%_datadir/powererp/htdocs/knowledgemanagement
-%_datadir/powererp/htdocs/langs/HOWTO-Translation.txt
-%_datadir/powererp/htdocs/loan
-%_datadir/powererp/htdocs/mailmanspip
-%_datadir/powererp/htdocs/margin
-%_datadir/powererp/htdocs/modulebuilder
-%_datadir/powererp/htdocs/mrp
-%_datadir/powererp/htdocs/multicurrency
-%_datadir/powererp/htdocs/opensurvey
-%_datadir/powererp/htdocs/partnership
-%_datadir/powererp/htdocs/paybox
-%_datadir/powererp/htdocs/paypal
-%_datadir/powererp/htdocs/printing
-%_datadir/powererp/htdocs/product
-%_datadir/powererp/htdocs/projet
-%_datadir/powererp/htdocs/public
-%_datadir/powererp/htdocs/recruitment
-%_datadir/powererp/htdocs/reception
-%_datadir/powererp/htdocs/resource
-%_datadir/powererp/htdocs/salaries
-%_datadir/powererp/htdocs/societe
-%_datadir/powererp/htdocs/stripe
-%_datadir/powererp/htdocs/supplier_proposal
-%_datadir/powererp/htdocs/support
-%_datadir/powererp/htdocs/theme
-%_datadir/powererp/htdocs/takepos
-%_datadir/powererp/htdocs/ticket
-%_datadir/powererp/htdocs/user
-%_datadir/powererp/htdocs/variants
-%_datadir/powererp/htdocs/webservices
-%_datadir/powererp/htdocs/website
-%_datadir/powererp/htdocs/workstation
-%_datadir/powererp/htdocs/zapier
-%_datadir/powererp/htdocs/*.ico
-%_datadir/powererp/htdocs/*.patch
-%_datadir/powererp/htdocs/*.php
-%_datadir/powererp/htdocs/*.txt
+%dir %_datadir/PowerERP/htdocs
+%_datadir/PowerERP/htdocs/accountancy
+%_datadir/PowerERP/htdocs/adherents
+%_datadir/PowerERP/htdocs/admin
+%_datadir/PowerERP/htdocs/api
+%_datadir/PowerERP/htdocs/asset
+%_datadir/PowerERP/htdocs/asterisk
+%_datadir/PowerERP/htdocs/barcode
+%_datadir/PowerERP/htdocs/blockedlog
+%_datadir/PowerERP/htdocs/bookmarks
+%_datadir/PowerERP/htdocs/bom
+%_datadir/PowerERP/htdocs/categories
+%_datadir/PowerERP/htdocs/collab
+%_datadir/PowerERP/htdocs/comm
+%_datadir/PowerERP/htdocs/commande
+%_datadir/PowerERP/htdocs/compta
+%_datadir/PowerERP/htdocs/conf
+%_datadir/PowerERP/htdocs/contact
+%_datadir/PowerERP/htdocs/contrat
+%_datadir/PowerERP/htdocs/core
+%_datadir/PowerERP/htdocs/cron
+%_datadir/PowerERP/htdocs/custom
+%_datadir/PowerERP/htdocs/datapolicy
+%_datadir/PowerERP/htdocs/dav
+%_datadir/PowerERP/htdocs/debugbar
+%_datadir/PowerERP/htdocs/delivery
+%_datadir/PowerERP/htdocs/don
+%_datadir/PowerERP/htdocs/ecm
+%_datadir/PowerERP/htdocs/emailcollector
+%_datadir/PowerERP/htdocs/eventorganization
+%_datadir/PowerERP/htdocs/expedition
+%_datadir/PowerERP/htdocs/expensereport
+%_datadir/PowerERP/htdocs/exports
+%_datadir/PowerERP/htdocs/externalsite
+%_datadir/PowerERP/htdocs/fichinter
+%_datadir/PowerERP/htdocs/fourn
+%_datadir/PowerERP/htdocs/ftp
+%_datadir/PowerERP/htdocs/holiday
+%_datadir/PowerERP/htdocs/hrm
+%_datadir/PowerERP/htdocs/imports
+%_datadir/PowerERP/htdocs/includes
+%_datadir/PowerERP/htdocs/install
+%_datadir/PowerERP/htdocs/intracommreport
+%_datadir/PowerERP/htdocs/knowledgemanagement
+%_datadir/PowerERP/htdocs/langs/HOWTO-Translation.txt
+%_datadir/PowerERP/htdocs/loan
+%_datadir/PowerERP/htdocs/mailmanspip
+%_datadir/PowerERP/htdocs/margin
+%_datadir/PowerERP/htdocs/modulebuilder
+%_datadir/PowerERP/htdocs/mrp
+%_datadir/PowerERP/htdocs/multicurrency
+%_datadir/PowerERP/htdocs/opensurvey
+%_datadir/PowerERP/htdocs/partnership
+%_datadir/PowerERP/htdocs/paybox
+%_datadir/PowerERP/htdocs/paypal
+%_datadir/PowerERP/htdocs/printing
+%_datadir/PowerERP/htdocs/product
+%_datadir/PowerERP/htdocs/projet
+%_datadir/PowerERP/htdocs/public
+%_datadir/PowerERP/htdocs/recruitment
+%_datadir/PowerERP/htdocs/reception
+%_datadir/PowerERP/htdocs/resource
+%_datadir/PowerERP/htdocs/salaries
+%_datadir/PowerERP/htdocs/societe
+%_datadir/PowerERP/htdocs/stripe
+%_datadir/PowerERP/htdocs/supplier_proposal
+%_datadir/PowerERP/htdocs/support
+%_datadir/PowerERP/htdocs/theme
+%_datadir/PowerERP/htdocs/takepos
+%_datadir/PowerERP/htdocs/ticket
+%_datadir/PowerERP/htdocs/user
+%_datadir/PowerERP/htdocs/variants
+%_datadir/PowerERP/htdocs/webservices
+%_datadir/PowerERP/htdocs/website
+%_datadir/PowerERP/htdocs/workstation
+%_datadir/PowerERP/htdocs/zapier
+%_datadir/PowerERP/htdocs/*.ico
+%_datadir/PowerERP/htdocs/*.patch
+%_datadir/PowerERP/htdocs/*.php
+%_datadir/PowerERP/htdocs/*.txt
 
-%dir %{_sysconfdir}/powererp
+%dir %{_sysconfdir}/PowerERP
 
 %defattr(0664, root, www)
-%config(noreplace) %{_sysconfdir}/powererp/conf.php
-%config(noreplace) %{_sysconfdir}/powererp/apache.conf
-%config(noreplace) %{_sysconfdir}/powererp/install.forced.php
-%config(noreplace) %{_sysconfdir}/powererp/file_contexts.powererp
+%config(noreplace) %{_sysconfdir}/PowerERP/conf.php
+%config(noreplace) %{_sysconfdir}/PowerERP/apache.conf
+%config(noreplace) %{_sysconfdir}/PowerERP/install.forced.php
+%config(noreplace) %{_sysconfdir}/PowerERP/file_contexts.PowerERP
 
 
 
@@ -260,12 +260,12 @@ done >>%{name}.lang
 echo Run post script of packager powererp_opensuse.spec
 
 # Define vars
-export docdir="/var/lib/powererp/documents"
-export apachelink="%{_sysconfdir}/apache2/conf.d/powererp.conf"
+export docdir="/var/lib/PowerERP/documents"
+export apachelink="%{_sysconfdir}/apache2/conf.d/PowerERP.conf"
 export apacheuser='wwwrun';
 export apachegroup='www';
 
-# Remove powererp install/upgrade lock file if it exists
+# Remove PowerERP install/upgrade lock file if it exists
 %{__rm} -f $docdir/install.lock
 
 # Create empty directory for uploaded files and generated documents 
@@ -273,10 +273,10 @@ echo Create document directory $docdir
 %{__mkdir} -p $docdir
 
 # Set correct owner on config files
-%{__chown} -R root:$apachegroup /etc/powererp/*
+%{__chown} -R root:$apachegroup /etc/PowerERP/*
 
 # If a conf already exists and its content was already completed by installer
-export config=%{_sysconfdir}/powererp/conf.php
+export config=%{_sysconfdir}/PowerERP/conf.php
 if [ -s $config ] && grep -q "File generated by" $config
 then 
   # File already exist. We add params not found.
@@ -294,20 +294,20 @@ then
   grep -q -c "powererp_font_DOL_DEFAULT_TTF_BOLD" $config || echo "<?php \$powererp_font_DOL_DEFAULT_TTF_BOLD='/usr/share/fonts/truetype/DejaVuSans-Bold.ttf'; ?>" >> $config      
 fi
 
-# Create a config link powererp.conf
+# Create a config link PowerERP.conf
 if [ ! -L $apachelink ]; then
   apachelinkdir=`dirname $apachelink`
   if [ -d $apachelinkdir ]; then
-    echo Create powererp web server config link from %{_sysconfdir}/powererp/apache.conf to $apachelink
-    ln -fs %{_sysconfdir}/powererp/apache.conf $apachelink
+    echo Create PowerERP web server config link from %{_sysconfdir}/PowerERP/apache.conf to $apachelink
+    ln -fs %{_sysconfdir}/PowerERP/apache.conf $apachelink
   else
     echo Do not create link $apachelink - web server conf dir $apachelinkdir not found. web server package may not be installed
   fi
 fi
 
-echo Set permission to $apacheuser:$apachegroup on /var/lib/powererp
-%{__chown} -R $apacheuser:$apachegroup /var/lib/powererp
-%{__chmod} -R o-w /var/lib/powererp
+echo Set permission to $apacheuser:$apachegroup on /var/lib/PowerERP
+%{__chown} -R $apacheuser:$apachegroup /var/lib/PowerERP
+%{__chmod} -R o-w /var/lib/PowerERP
 
 # Restart web server
 echo Restart web server
@@ -329,12 +329,12 @@ fi
 
 # Show result
 echo
-echo "----- Powererp %version-%release - (c) Powererp dev team -----"
-echo "Powererp files are now installed (into /usr/share/powererp)."
-echo "To finish installation and use Powererp, click on the menu" 
-echo "entry Powererp ERP-CRM or call the following page from your"
+echo "----- PowerERP %version-%release - (c) PowerERP dev team -----"
+echo "PowerERP files are now installed (into /usr/share/PowerERP)."
+echo "To finish installation and use PowerERP, click on the menu" 
+echo "entry PowerERP ERP-CRM or call the following page from your"
 echo "web browser:"  
-echo "http://localhost/powererp/"
+echo "http://localhost/PowerERP/"
 echo "-------------------------------------------------------"
 echo
 
@@ -348,12 +348,12 @@ then
   echo "Removed package"
   
   # Define vars
-  export apachelink="%{_sysconfdir}/apache2/conf.d/powererp.conf"
+  export apachelink="%{_sysconfdir}/apache2/conf.d/PowerERP.conf"
   
   # Remove apache link
   if [ -L $apachelink ] ;
   then
-    echo "Delete apache config link for Powererp ($apachelink)"
+    echo "Delete apache config link for PowerERP ($apachelink)"
     %{__rm} -f $apachelink
     status=purge
   fi

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - compta
+# PowerERP language file - Source file is en_US - compta
 MenuFinancial=Rechnung | Zahlung
 TaxModuleSetupToModifyRules=Im <a href="%s">Steuer-Modul</a> können Sie die Einstellungen für die Berechnungen vornehmen
 TaxModuleSetupToModifyRulesLT=Hier können Sie die <a href="%s">Einstellungen</a> für die Berechnungen vornehmen

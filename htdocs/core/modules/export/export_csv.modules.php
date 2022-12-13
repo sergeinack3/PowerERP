@@ -44,10 +44,10 @@ class ExportCsv extends ModeleExports
 	public $extension;
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	public $label_lib;
 
@@ -83,7 +83,7 @@ class ExportCsv extends ModeleExports
 		$this->version = '1.32'; // Driver version
 
 		// If driver use an external library, put its name here
-		$this->label_lib = 'Powererp';
+		$this->label_lib = 'PowerERP';
 		$this->version_lib = DOL_VERSION;
 	}
 
@@ -332,7 +332,7 @@ class ExportCsv extends ModeleExports
 		global $conf;
 		$addquote = 0;
 
-		// Rule Powererp: No HTML
+		// Rule PowerERP: No HTML
 		//print $charset.' '.$newvalue."\n";
 		//$newvalue=dol_string_nohtmltag($newvalue,0,$charset);
 		$newvalue = dol_htmlcleanlastbr($newvalue);

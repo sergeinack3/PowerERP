@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=Área de gestión de recursos humanos
 UserCard=Tarjeta de usuario
 GroupCard=Tarjeta de grupo
@@ -24,7 +24,7 @@ ListOfUsers=Lista de usuarios
 SuperAdministrator=Superadministrador
 DefaultRights=Permisos predeterminados
 DefaultRightsDesc=Defina aquí los permisos predeterminados <u> </u> que se otorgan automáticamente a un <u> nuevo usuario </u> (para modificar los permisos de los usuarios existentes, vaya a la tarjeta de usuario).
-PowererpUsers=Usuarios de Powererp
+PowererpUsers=Usuarios de PowerERP
 ListOfGroups=Lista de grupos
 CreateGroup=Crea un grupo
 RemoveFromGroup=Sacar del grupo
@@ -46,11 +46,11 @@ LinkToCompanyContact=Enlace a un tercero / contacto
 LinkedToPowererpMember=Enlace al miembro
 CreatePowererpLogin=Crea un usuario
 CreatePowererpThirdParty=Crea un tercero
-LoginAccountDisableInPowererp=Cuenta deshabilitada en Powererp.
+LoginAccountDisableInPowererp=Cuenta deshabilitada en PowerERP.
 UsePersonalValue=Use valor personal
 ExportDataset_user_1=Usuarios y sus propiedades
 DomainUser=Usuario de dominio %s
-CreateInternalUserDesc=Este formulario le permite crear un usuario interno en su empresa / organización. Para crear un usuario externo (cliente, proveedor, etc.), utilice el botón 'Crear usuario Powererp' de la tarjeta de contacto de ese tercero.
+CreateInternalUserDesc=Este formulario le permite crear un usuario interno en su empresa / organización. Para crear un usuario externo (cliente, proveedor, etc.), utilice el botón 'Crear usuario PowerERP' de la tarjeta de contacto de ese tercero.
 InternalExternalDesc=Un usuario interno <b> </b> es un usuario que forma parte de su empresa / organización, o es un usuario asociado fuera de su organización que puede necesitar ver más datos que datos relacionados con su empresa (el sistema de permisos definirá lo que puede o puede ver o hacer). <br> Un usuario <b> externo </b> es un cliente, proveedor u otro que debe ver ÚNICAMENTE datos relacionados con él mismo (la creación de un usuario externo para un tercero se puede realizar desde el registro de contacto del tercero). <br> <br> En ambos casos, debe otorgar permisos sobre las funciones que el usuario necesita.
 PermissionInheritedFromAGroup=Permiso concedido porque se hereda de un miembro del grupo de un usuario.
 UserWillBeInternalUser=El usuario creado será un usuario interno (porque no está vinculado a un tercero en particular)
@@ -60,7 +60,7 @@ NewUserCreated=Usuario %s creado
 NewUserPassword=Cambio de contraseña para %s
 UserDisabled=Usuario %s deshabilitado
 NewGroupCreated=Se ha creado el grupo %s
-ConfirmCreateContact=¿Está seguro de que desea crear una cuenta Powererp para este contacto?
+ConfirmCreateContact=¿Está seguro de que desea crear una cuenta PowerERP para este contacto?
 ConfirmCreateThirdParty=¿Está seguro de que desea crear un tercero para este miembro?
 LoginToCreate=Iniciar sesión para crear
 YourRole=Tus roles

@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: powererp\n"
-"Report-Msgid-Bugs-To: powererp@packages.debian.org\n"
+"Project-Id-Version: PowerERP\n"
+"Report-Msgid-Bugs-To: PowerERP@packages.debian.org\n"
 "POT-Creation-Date: 2013-04-23 12:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,29 +19,29 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#: ../powererp.templates:1001
+#: ../PowerERP.templates:1001
 msgid "Web server to reconfigure automatically:"
 msgstr ""
 
 #. Type: multiselect
 #. Description
-#: ../powererp.templates:1001
+#: ../PowerERP.templates:1001
 msgid ""
 "Please choose the web server that should be automatically configured to run "
-"powererp."
+"PowerERP."
 msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../powererp.templates:2001
+#: ../PowerERP.templates:2001
 msgid "Delete database and uploaded files ?"
 msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../powererp.templates:2001
+#: ../PowerERP.templates:2001
 msgid ""
-"Answer if you want to removed the Powererp MySQL database and all other "
-"datas (datas related to this question are the Powererp DBMS account, all "
-"Powererp tables, and all uploaded files)."
+"Answer if you want to removed the PowerERP MySQL database and all other "
+"datas (datas related to this question are the PowerERP DBMS account, all "
+"PowerERP tables, and all uploaded files)."
 msgstr ""

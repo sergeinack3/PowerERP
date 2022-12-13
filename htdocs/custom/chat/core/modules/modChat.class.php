@@ -23,13 +23,13 @@
  *	\brief      Fichier de description et activation du module chat
  */
 
-include_once DOL_DOCUMENT_ROOT .'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT .'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module Expedition
  */
-class modChat extends PowererpModules
+class modChat extends PowerERPModules
 {
 
 	/**
@@ -55,7 +55,7 @@ class modChat extends PowererpModules
 		$this->name = preg_replace('/^mod/i','',get_class($this));
 		$this->description = "Gestion de chat";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = '2.8.6';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -275,7 +275,7 @@ class modChat extends PowererpModules
 	/**
 	 * Function called when module is enabled.
 	 * The init function add constants, boxes, permissions and menus
-	 * (defined in constructor) into Powererp database.
+	 * (defined in constructor) into PowerERP database.
 	 * It also creates data directories
 	 *
 	 * @param string $options Options when enabling module ('', 'noboxes')
@@ -313,7 +313,7 @@ class modChat extends PowererpModules
 
 	/**
 	 * Function called when module is disabled.
-	 * Remove from database constants, boxes and permissions from Powererp database.
+	 * Remove from database constants, boxes and permissions from PowerERP database.
 	 * Data directories are not deleted
 	 *
 	 * @param string $options Options when enabling module ('', 'noboxes')

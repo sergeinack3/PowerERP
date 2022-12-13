@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=El nom de l'empresa %s ja existeix. Indica un altre.
 ErrorSetACountryFirst=Estableix, en primer lloc, el país
 SelectThirdParty=Seleccionar un tercer
@@ -424,7 +424,7 @@ ProspectsByStatus=Clients potencials per estat
 NoParentCompany=Cap
 ExportCardToFormat=Exporta fitxa a format
 ContactNotLinkedToCompany=Contacte no vinculat a un tercer
-PowererpLogin=Nom d'usuari de Powererp
+PowererpLogin=Nom d'usuari de PowerERP
 NoPowererpAccess=Sense accés d'usuari
 ExportDataset_company_1=Tercers (empreses/entitats/persones físiques) i propietats
 ExportDataset_company_2=Contactes i propietats

@@ -53,9 +53,9 @@ class doc_generic_myobject_odt extends ModelePDFMyObject
 	public $phpmin = array(5, 6);
 
 	/**
-	 * @var string Powererp version of the loaded document
+	 * @var string PowerERP version of the loaded document
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 
 	/**

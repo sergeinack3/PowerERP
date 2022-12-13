@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -19,8 +19,8 @@ global $dolibase_config;
 
 $__DIR__ = dirname(__FILE__);
 
-// Powererp detection
-if (! defined('DOL_VERSION')) die('DolibaseError: Powererp detection failed.');
+// PowerERP detection
+if (! defined('DOL_VERSION')) die('DolibaseError: PowerERP detection failed.');
 
 // Load Dolibase functions
 require_once $__DIR__ . '/core/lib/functions.php';

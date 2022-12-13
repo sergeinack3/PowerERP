@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Ingen anmodning ved fejl
 ErrorServiceUnavailableTryLater=Tjenesten er ikke tilgængelig i øjeblikket. Prøv igen senere.
 ErrorDuplicateField=Dobbelt værdi i et unikt område
 ErrorSomeErrorWereFoundRollbackIsDone=Nogle fejl blev fundet. Ændringer er blevet rullet tilbage.
-ErrorConfigParameterNotDefined=Parameter <b> %s </b> er ikke defineret i Powererp konfigurationsfilen <b> conf.php </b>.
-ErrorCantLoadUserFromPowererpDatabase=Kunne ikke finde <b>bruger %s</b> i Powererp database.
+ErrorConfigParameterNotDefined=Parameter <b> %s </b> er ikke defineret i PowerERP konfigurationsfilen <b> conf.php </b>.
+ErrorCantLoadUserFromPowererpDatabase=Kunne ikke finde <b>bruger %s</b> i PowerERP database.
 ErrorNoVATRateDefinedForSellerCountry=Fejl, der ikke momssatser defineret for land ' %s'.
 ErrorNoSocialContributionForSellerCountry=Fejl, ingen type af skatter/afgifter defineret for landet '%s'.
 ErrorFailedToSaveFile=Fejl, kunne ikke gemme filen.
@@ -95,7 +95,7 @@ RecordDeleted=Post slettet
 RecordGenerated=Data genereret
 LevelOfFeature=Niveau funktionsliste
 NotDefined=Ikke defineret
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp authentication mode er sat til <b>%s</b> i konfigurationsfilen <b>conf.php</b>.<br>Dette betyder, at adgangskoden databasen er ekstern i forhold til Powererp, så ændrer dette felt har ingen effekt.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP authentication mode er sat til <b>%s</b> i konfigurationsfilen <b>conf.php</b>.<br>Dette betyder, at adgangskoden databasen er ekstern i forhold til PowerERP, så ændrer dette felt har ingen effekt.
 Administrator=Administrator
 Undefined=Undefineret
 PasswordForgotten=Har du glemt dit kodeord ?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Database type opsætning
 RequestLastAccessInError=Seneste database adgang forspørelses fejl
 ReturnCodeLastAccessInError=Retur kode for seneste fejl i database forspørgelse
 InformationLastAccessInError=Information efter seneste database adgang anmodning fejl
-PowererpHasDetectedError=Powererp har opdaget en teknisk fejl
+PowererpHasDetectedError=PowerERP har opdaget en teknisk fejl
 YouCanSetOptionPowererpMainProdToZero=Du kan læse logfil eller sæt indstillingen $ powererp_main_prod til '0' i din config-fil for at få flere oplysninger.
 InformationToHelpDiagnose=Disse oplysninger kan være nyttige til diagnostiske formål (du kan indstille $powererp_main_prod til '1' for at skjule følsomme oplysninger)
 MoreInformation=Mere information
@@ -122,7 +122,7 @@ TechnicalID=Teknisk id
 LineID=Linje ID
 NotePublic=Note (offentlige)
 NotePrivate=Note (privat)
-PrecisionUnitIsLimitedToXDecimals=Powererp blev setup at begrænse præcision på enhedspriser <b>til %s</b> decimaler.
+PrecisionUnitIsLimitedToXDecimals=PowerERP blev setup at begrænse præcision på enhedspriser <b>til %s</b> decimaler.
 DoTest=Test
 ToFilter=Filter
 NoFilter=Intet filter
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Medlemmer
 MenuAgendaGoogle=Google dagsorden
 MenuTaxesAndSpecialExpenses=Skatter | Særlige udgifter
-ThisLimitIsDefinedInSetup=Powererp grænse (Menu hjemme-setup-sikkerhed): %s Kb, PHP grænse: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp-begrænnings (Menu %s): %s Kb, PHP-grænse (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP grænse (Menu hjemme-setup-sikkerhed): %s Kb, PHP grænse: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP-begrænnings (Menu %s): %s Kb, PHP-grænse (Param %s): %s Kb
 NoFileFound=Ingen dokumenter uploadet
 CurrentUserLanguage=Valgt sprog
 CurrentTheme=Nuværende tema
@@ -909,7 +909,7 @@ ViewFlatList=Se flad liste
 ViewAccountList=Vis hovedbog
 ViewSubAccountList=Se underkonto hovedbog
 RemoveString=Fjern streng '%s'
-SomeTranslationAreUncomplete=Nogle af de tilbudte sprog er muligvis kun delvist oversat eller kan indeholde fejl. Hjælp venligst med at rette dit sprog ved at registrere dig på <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/ </a> for at tilføje dine forbedringer.
+SomeTranslationAreUncomplete=Nogle af de tilbudte sprog er muligvis kun delvist oversat eller kan indeholde fejl. Hjælp venligst med at rette dit sprog ved at registrere dig på <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/ </a> for at tilføje dine forbedringer.
 DirectDownloadLink=Offentligt downloadlink
 PublicDownloadLinkDesc=Kun linket kræves for at downloade filen
 DirectDownloadInternalLink=Privat downloadlink

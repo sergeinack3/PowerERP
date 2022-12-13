@@ -16,12 +16,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  *
- * Path to WSDL is: http://localhost/powererp/webservices/server_productorservice.php?wsdl
+ * Path to WSDL is: http://localhost/PowerERP/webservices/server_productorservice.php?wsdl
  */
 
 /**
  *       \file       htdocs/webservices/server_productorservice.php
- *       \brief      File that is entry point to call Powererp WebServices
+ *       \brief      File that is entry point to call PowerERP WebServices
  */
 
 if (!defined("NOCSRFCHECK")) {
@@ -40,14 +40,14 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';
 
 
 
-dol_syslog("Call Powererp webservices interfaces");
+dol_syslog("Call PowerERP webservices interfaces");
 
 $langs->load("main");
 
 // Enable and test if module web services is enabled
 if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 	$langs->load("admin");
-	dol_syslog("Call Powererp webservices interfaces with module webservices disabled");
+	dol_syslog("Call PowerERP webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;
@@ -57,7 +57,7 @@ if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 $server = new nusoap_server();
 $server->soap_defencoding = 'UTF-8';
 $server->decode_utf8 = false;
-$ns = 'http://www.powererp.org/ns/';
+$ns = 'http://www.PowerERP.org/ns/';
 $server->configureWSDL('WebServicesPowererpProductOrService', $ns);
 $server->wsdl->schemaTargetNamespace = $ns;
 

@@ -32,7 +32,7 @@ class mailing_pomme extends MailingTargets
 {
 	public $name = 'PowererpUsers'; // Identifiant du module mailing
 	// This label is used if no translation is found for key XXX neither MailingModuleDescXXX where XXX=name is found
-	public $desc = 'Powererp users with emails'; // Libelle utilise si aucune traduction pour MailingModuleDescXXX ou XXX=name trouv�e
+	public $desc = 'PowerERP users with emails'; // Libelle utilise si aucune traduction pour MailingModuleDescXXX ou XXX=name trouv�e
 	public $require_module = array(); // Module mailing actif si modules require_module actifs
 	public $require_admin = 1; // Module mailing actif pour user admin ou non
 

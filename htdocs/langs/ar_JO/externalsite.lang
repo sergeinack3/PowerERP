@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - externalsite
+# PowerERP language file - Source file is en_US - externalsite
 ExternalSiteSetup=Setup link to external website
 ExternalSiteURL=External Site URL of HTML iframe content
 ExternalSiteModuleNotComplete=Module ExternalSite was not configured properly.

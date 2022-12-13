@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - compta
+# PowerERP language file - Source file is en_US - compta
 MenuFinancial=صورت‌حساب | پرداخت
 TaxModuleSetupToModifyRules=به <a href="%s">برپاسازی واحد مالیات‌ها</a> رفته و قواعد محاسبه را تعیین کنید
 TaxModuleSetupToModifyRulesLT=به <a href="%s">برپاسازی شرکت</a> رفته تا قواعد محاسبه را تعیین کنید

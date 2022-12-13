@@ -140,5 +140,5 @@
 	</Version>
 
 	<!-- Remplir le undocumented.xml ? -->
-	<Powererp minVersion="5.0.0"/>
+	<PowerERP minVersion="5.0.0"/>
 </changelog>

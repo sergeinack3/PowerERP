@@ -18,11 +18,11 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  *
  * This file is base on pg2mysql provided as Open source by lightbox.org.
- * It was enhanced and updated by the Powererp team.
+ * It was enhanced and updated by the PowerERP team.
  */
 
 /**
- * \file 	dev/tools/powererp-postgres2mysql.php
+ * \file 	dev/tools/PowerERP-postgres2mysql.php
  * \brief 	Script to migrate a postgresql dump into a mysql dump
  */
 

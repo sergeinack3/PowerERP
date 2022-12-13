@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ftp
+# PowerERP language file - Source file is en_US - ftp
 FTPFeatureNotSupportedByYourPHP=Su PHP no es compatible con las funciones FTP o SFTP
 FailedToConnectToFTPServerWithCredentials=No se pudo ingresar al servidor con el usuario/contraseña definidos
 FTPFailedToRemoveFile=No se pudo eliminar el archivo <b> %s </b>.

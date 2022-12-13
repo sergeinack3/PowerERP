@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID događaj
 Actions=Događaji
 Agenda=Agenda
@@ -31,10 +31,10 @@ ViewWeek=Nedeljni pregled
 ViewPerUser=Pregled po korisniku
 ViewPerType=Pregled po tipu
 AutoActions= Automatsko popunjavanje
-AgendaAutoActionDesc= Here you may define events which you want Powererp to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
-AgendaSetupOtherDesc= This page provides options to allow the export of your Powererp events into an external calendar (Thunderbird, Google Calendar etc...)
-AgendaExtSitesDesc=Ova stranica omogućava da odabereš eksterni kalendar čije događaje ćeš videti u Powererp agendi.
-ActionsEvents=Događaji za koje će Powererp da kreira akciju u agendi automatski
+AgendaAutoActionDesc= Here you may define events which you want PowerERP to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
+AgendaSetupOtherDesc= This page provides options to allow the export of your PowerERP events into an external calendar (Thunderbird, Google Calendar etc...)
+AgendaExtSitesDesc=Ova stranica omogućava da odabereš eksterni kalendar čije događaje ćeš videti u PowerERP agendi.
+ActionsEvents=Događaji za koje će PowerERP da kreira akciju u agendi automatski
 EventRemindersByEmailNotEnabled=Event reminders by email was not enabled into %s module setup.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Third party %s created

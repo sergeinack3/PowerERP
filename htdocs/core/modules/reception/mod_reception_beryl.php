@@ -28,7 +28,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/reception/modules_reception.php';
  */
 class mod_reception_beryl extends ModelNumRefReception
 {
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 	public $prefix = 'RCP';
 	public $error = '';
 	public $nom = 'Beryl';

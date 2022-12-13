@@ -940,7 +940,7 @@ class Contact extends CommonObject
 	 *
 	 *  @param      int		$id         	Id of contact
 	 *  @param      User	$user       	Load also alerts of this user (subscribing to alerts) that want alerts about this contact
-	 *  @param      string  $ref_ext    	External reference, not given by Powererp
+	 *  @param      string  $ref_ext    	External reference, not given by PowerERP
 	 *  @param		string	$email			Email
 	 *  @param		int		$loadalsoroles	Load also roles. Try to always 0 here and load roles with a separate call of fetchRoles().
 	 *  @return     int     		    	>0 if OK, <0 if KO or if two records found for same ref or idprof, 0 if not found.
@@ -1067,7 +1067,7 @@ class Contact extends CommonObject
 				// Define gender according to civility
 				$this->setGenderFromCivility();
 
-				// Search Powererp user linked to this contact
+				// Search PowerERP user linked to this contact
 				$sql = "SELECT u.rowid ";
 				$sql .= " FROM ".MAIN_DB_PREFIX."user as u";
 				$sql .= " WHERE u.fk_socpeople = ".((int) $this->id);

@@ -223,8 +223,8 @@ class Link extends CommonObject
 	 *  Loads all links from database
 	 *
 	 *  @param  array   $links      array of Link objects to fill
-	 *  @param  string  $objecttype type of the associated object in powererp
-	 *  @param  int     $objectid   id of the associated object in powererp
+	 *  @param  string  $objecttype type of the associated object in PowerERP
+	 *  @param  int     $objectid   id of the associated object in PowerERP
 	 *  @param  string  $sortfield  field used to sort
 	 *  @param  string  $sortorder  sort order
 	 *  @return int                 1 if ok, 0 if no records, -1 if error
@@ -275,8 +275,8 @@ class Link extends CommonObject
 	 *  Return nb of links
 	 *
 	 *  @param  DoliDb  $dbs         Database handler
-	 *  @param  string  $objecttype Type of the associated object in powererp
-	 *  @param  int     $objectid   Id of the associated object in powererp
+	 *  @param  string  $objecttype Type of the associated object in PowerERP
+	 *  @param  int     $objectid   Id of the associated object in PowerERP
 	 *  @return int                 Nb of links, -1 if error
 	 **/
 	public static function count($dbs, $objecttype, $objectid)

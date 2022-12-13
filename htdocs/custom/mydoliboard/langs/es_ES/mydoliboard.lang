@@ -1,4 +1,4 @@
-# Powererp language file - es_ES - marque pages
+# PowerERP language file - es_ES - marque pages
 CHARSET=UTF-8
 mydoliboard=myDoliboard
 NewPage=Nueva página
@@ -64,7 +64,7 @@ LienDolistore=Encuentra nuestros otros módulos
 Changelog=Modifica tu módulo
 SupportModuleInformation=Información técnica
 SupportModuleInformationDesc=<br/> <em>Nota: Esta información es útil y es posible que se le pregunte si encuentra un error en el funcionamiento del módulo.</em>
-PowererpVersion=Versión de Powererp
+PowererpVersion=Versión de PowerERP
 ModuleVersion=Versión del módulo
 PHPVersion=Versión de PHP
 DatabaseVersion=Versión de la base de datos

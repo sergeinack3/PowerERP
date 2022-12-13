@@ -387,7 +387,7 @@ class ActionsConcatPdf
 				        dol_syslog("Error when manipulating some PDF by concatpdf: ".$e->getMessage(), LOG_ERR);
 				        $this->error = $e->getMessage();
 				        $this->errors[] = $e->getMessage();
-				        dol_print_error('', $this->error);  // Remove this when powererp is able to report on screen errors reported by this hook.
+				        dol_print_error('', $this->error);  // Remove this when PowerERP is able to report on screen errors reported by this hook.
 				        return -1;
 				    }
 				}

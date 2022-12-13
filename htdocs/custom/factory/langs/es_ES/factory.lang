@@ -1,4 +1,4 @@
-Powererp language file - es_ES - factory
+PowerERP language file - es_ES - factory
 CHARSET=UTF-8
 Module160310Name=Factory
 Module160310Desc=Gestion de la Fabricación
@@ -154,7 +154,7 @@ QtyOfWarehouse=Cantidad en almacén
 RealStock=cantidades reales
 UseCostPriceInsteadPMP=Utilizar el precio de compra en lugar de la media ponderada
 InfoUseCostPriceInsteadPMP=Utilizar el precio de compra si se establece en lugar de la media ponderada
-ThisFeatureNeedPowererp39=Esta característica requiere una versión Powererp mayor que o igual a 3.9.0
+ThisFeatureNeedPowererp39=Esta característica requiere una versión PowerERP mayor que o igual a 3.9.0
 ComponentsBuyingPrice=La recuperación de los componentes del precio de compra
 InfoComponentsBuyingPrice=Selección del precio que se utiliza como base de los componentes del precio de fabricación
 UsePMPPrice=Usando el precio medio ponderado
@@ -254,7 +254,7 @@ LienDolistore=Encuentra nuestros otros módulos
 Changelog=Modifica tu módulo
 SupportModuleInformation=Información técnica
 SupportModuleInformationDesc=<br/> <em>Nota: Esta información es útil y es posible que se le pregunte si encuentra un error en el funcionamiento del módulo.</em>
-PowererpVersion=Versión de Powererp
+PowererpVersion=Versión de PowerERP
 ModuleVersion=Versión del módulo
 PHPVersion=Versión de PHP
 DatabaseVersion=Versión de la base de datos

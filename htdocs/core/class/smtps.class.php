@@ -1382,9 +1382,9 @@ class SMTPs
 		$trackid = $this->getTrackId();
 		if ($trackid) {
 			// References is kept in response and Message-ID is returned into In-Reply-To:
-			$_header .= 'Message-ID: <'.time().'.SMTPs-powererp-'.$trackid.'@'.$host.">\r\n";
-			$_header .= 'References: <'.time().'.SMTPs-powererp-'.$trackid.'@'.$host.">\r\n";
-			$_header .= 'X-Powererp-TRACKID: '.$trackid.'@'.$host."\r\n";
+			$_header .= 'Message-ID: <'.time().'.SMTPs-PowerERP-'.$trackid.'@'.$host.">\r\n";
+			$_header .= 'References: <'.time().'.SMTPs-PowerERP-'.$trackid.'@'.$host.">\r\n";
+			$_header .= 'X-PowerERP-TRACKID: '.$trackid.'@'.$host."\r\n";
 		} else {
 			$_header .= 'Message-ID: <'.time().'.SMTPs@'.$host.">\r\n";
 		}
@@ -1419,8 +1419,8 @@ class SMTPs
 			$_header .= "Reply-To: ".$this->getReplyTo('addr')."\r\n";
 		}
 
-		$_header .= 'X-Mailer: Powererp version '.DOL_VERSION.' (using SMTPs Mailer)'."\r\n";
-		$_header .= 'X-Powererp-Option: '.($conf->global->MAIN_MAIL_USE_MULTI_PART ? 'MAIN_MAIL_USE_MULTI_PART' : 'No MAIN_MAIL_USE_MULTI_PART')."\r\n";
+		$_header .= 'X-Mailer: PowerERP version '.DOL_VERSION.' (using SMTPs Mailer)'."\r\n";
+		$_header .= 'X-PowerERP-Option: '.($conf->global->MAIN_MAIL_USE_MULTI_PART ? 'MAIN_MAIL_USE_MULTI_PART' : 'No MAIN_MAIL_USE_MULTI_PART')."\r\n";
 		$_header .= 'Mime-Version: 1.0'."\r\n";
 
 

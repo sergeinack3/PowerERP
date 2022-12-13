@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Varnostna koda
 NumberingShort=N°
 Tools=Orodja
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=You can click on the link below to make your payment if it is not already done.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=Powererp is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
+DemoDesc=PowerERP is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
 ChooseYourDemoProfil=Choose the demo profile that best suits your needs...
 ChooseYourDemoProfilMore=...or build your own profile<br>(manual module selection)
 DemoFundation=Urejanje članov ustanove
@@ -182,10 +182,10 @@ SizeUnitpoint=točka
 BugTracker=Sledenje hrošču
 SendNewPasswordDesc=This form allows you to request a new password. It will be sent to your email address.<br>Change will become effective once you click on the confirmation link in the email.<br>Check your inbox.
 BackToLoginPage=Nazaj na stran za prijavo
-AuthenticationDoesNotAllowSendNewPassword=Preverjanje pristnosti je <b>%s</b>.<br>V tem načinu Powererp ne more vedeti, niti spremeniti vašega gesla.<br>Če želite spremeniti geslo, se obrnite na vašega sistemskega administratorja.
+AuthenticationDoesNotAllowSendNewPassword=Preverjanje pristnosti je <b>%s</b>.<br>V tem načinu PowerERP ne more vedeti, niti spremeniti vašega gesla.<br>Če želite spremeniti geslo, se obrnite na vašega sistemskega administratorja.
 EnableGDLibraryDesc=Install or enable GD library on your PHP installation to use this option.
 ProfIdShortDesc=<b>Prof Id %s</b> je informacija, odvisna od države partnerja.<br>Na primer za državo <b>%s</b>, je koda <b>%s</b>.
-PowererpDemo=Powererp ERP/CRM demo
+PowererpDemo=PowerERP ERP/CRM demo
 StatsByNumberOfUnits=Statistics for sum of qty of products/services
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Number of proposals

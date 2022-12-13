@@ -81,7 +81,7 @@ $left = ($langs->trans("DIRECTION") == 'rtl' ? 'right' : 'left');
  * View
  */
 
-// Important: Following code is to avoid page request by browser and PHP CPU at each Powererp page access.
+// Important: Following code is to avoid page request by browser and PHP CPU at each PowerERP page access.
 if (empty($powererp_nocache) && GETPOST('cache', 'int')) {
 	header('Cache-Control: max-age='.GETPOST('cache', 'int').', public, must-revalidate');
 	// For a .php, we must set an Expires to avoid to have it forced to an expired value by the web server

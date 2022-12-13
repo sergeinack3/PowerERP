@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=O nome da empresa %s já existe. Escolha outro.
 ErrorSetACountryFirst=Defina primeiro o país
 SelectThirdParty=Selecione um terceiro
@@ -378,7 +378,7 @@ CapitalOf=Capital Social de %s
 EditCompany=Modificar Empresa
 ThisUserIsNot=Este usuário não é um cliente potencial, ou fornecedor
 VATIntraCheck=Verificar
-VATIntraCheckDesc=O ID do IVA deve incluir o prefixo do país. O link <b> %s </b> usa o serviço de verificador de IVA europeu (VIES) que requer acesso à Internet do servidor Powererp.
+VATIntraCheckDesc=O ID do IVA deve incluir o prefixo do país. O link <b> %s </b> usa o serviço de verificador de IVA europeu (VIES) que requer acesso à Internet do servidor PowerERP.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Verifique o ID do IVA intracomunitário no site da Comissão Europeia
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,7 +424,7 @@ ProspectsByStatus=Clientes Potenciais por Estado
 NoParentCompany=Nenhuma
 ExportCardToFormat=Exportar ficha para o formato
 ContactNotLinkedToCompany=Contacto não vinculado a um Terceiro
-PowererpLogin=Powererp - Iniciar Sessão
+PowererpLogin=PowerERP - Iniciar Sessão
 NoPowererpAccess=Sem Acesso
 ExportDataset_company_1=Terceiros (empresas / fundações / pessoas físicas) e suas propriedades
 ExportDataset_company_2=Contatos e suas propriedades

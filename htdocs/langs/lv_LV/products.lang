@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Produkta ref.
 ProductLabel=Produkta marķējums
 ProductLabelTranslated=Tulkots produkta nosaukums
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimālā iepirkuma cena
 MinCustomerPrice=Minimālā pārdošanas cena
 NoDynamicPrice=Nav dinamiskas cenas
 DynamicPriceConfiguration=Dynamic price configuration
-DynamicPriceDesc=Jūs varat noteikt matemātiskās formulas, lai aprēķinātu Klienta vai pārdevēja cenas. Šādas formulas var izmantot visus matemātiskos operatorus, dažas konstantes un mainīgos. Šeit varat definēt mainīgos, kurus vēlaties izmantot. Ja mainīgajam nepieciešams automātisks atjauninājums, varat definēt ārējo URL, lai Powererp varētu automātiski atjaunināt vērtību.
+DynamicPriceDesc=Jūs varat noteikt matemātiskās formulas, lai aprēķinātu Klienta vai pārdevēja cenas. Šādas formulas var izmantot visus matemātiskos operatorus, dažas konstantes un mainīgos. Šeit varat definēt mainīgos, kurus vēlaties izmantot. Ja mainīgajam nepieciešams automātisks atjauninājums, varat definēt ārējo URL, lai PowerERP varētu automātiski atjaunināt vērtību.
 AddVariable=Pievienot mainīgo
 AddUpdater=Pievienot Atjaunotāju
 GlobalVariables=Globālie mainīgie
@@ -378,7 +378,7 @@ NewProductAttribute=Jauns atribūts
 NewProductAttributeValue=Jauna atribūta vērtība
 ErrorCreatingProductAttributeValue=Veidojot atribūta vērtību, radās kļūda. Tas varētu būt tādēļ, ka ar šo atsauci jau ir esoša vērtība
 ProductCombinationGeneratorWarning=Ja turpināsiet, pirms jaunu variantu ģenerēšanas visi iepriekšējie tiks izdzēsti. Jau esošie tiks atjaunināti ar jaunajām vērtībām
-TooMuchCombinationsWarning=Daudzu variantu ģenerēšana var izraisīt augstu CPU, atmiņas izmantošanu un Powererp nespēj to izveidot. Opcijas "%s" iespējošana var palīdzēt samazināt atmiņas izmantošanu.
+TooMuchCombinationsWarning=Daudzu variantu ģenerēšana var izraisīt augstu CPU, atmiņas izmantošanu un PowerERP nespēj to izveidot. Opcijas "%s" iespējošana var palīdzēt samazināt atmiņas izmantošanu.
 DoNotRemovePreviousCombinations=Nedzēst iepriekšējos variantus
 UsePercentageVariations=Izmantojiet procentuālās svārstības
 PercentageVariation=Procentu variācijas

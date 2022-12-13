@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Firma adı zaten %s var. Başka bir tane seçin.
 ErrorSetACountryFirst=Önce ülkeyi ayarla.
 SelectThirdParty=Bir üçüncü parti seç
@@ -378,7 +378,7 @@ CapitalOf=Sermaye %s
 EditCompany=Firma düzenle
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=Denetle
-VATIntraCheckDesc=Bu Vergi Numarası ülke önekini içermelidir. <b>%s</b> linki, Powererp sunucusundan internet erişimi gerektiren Avrupa KDV kontrol hizmetini (VIES) kullanır.
+VATIntraCheckDesc=Bu Vergi Numarası ülke önekini içermelidir. <b>%s</b> linki, PowerERP sunucusundan internet erişimi gerektiren Avrupa KDV kontrol hizmetini (VIES) kullanır.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Avrupa Komisyonu web sitesinden topluluk içi Vergi Numarasını kontrol edin
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Durumuna göre adaylar
 NoParentCompany=Hiçbiri
 ExportCardToFormat=Biçimlendirilecek dışa aktarma kartı
 ContactNotLinkedToCompany=Kişi herhangi bir üçüncü partiye bağlı değil
-PowererpLogin=Powererp kullanıcı adı
-NoPowererpAccess=Powererp erişimi yok
+PowererpLogin=PowerERP kullanıcı adı
+NoPowererpAccess=PowerERP erişimi yok
 ExportDataset_company_1=Üçüncü Partiler (şirketler/dernekler/şahıslar) ve özellikleri
 ExportDataset_company_2=Kişiler ve özellikleri
 ImportDataset_company_1=Üçüncü Partiler ve özellikleri

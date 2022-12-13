@@ -1,8 +1,8 @@
-# Powererp language file - Source file is en_US - stripe
+# PowerERP language file - Source file is en_US - stripe
 StripeSetup=Joslas moduļa iestatīšana
-StripeDesc=Piedāvājiet saviem klientiem tiešsaistes maksājumu lapu maksājumiem ar kredītkartēm/debetkartēm, izmantojot <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . To var izmantot, lai ļautu jūsu klientiem veikt ad hoc maksājumus vai maksājumus, kas saistīti ar konkrētu Powererp objektu (rēķins, pasūtījums, ...)
+StripeDesc=Piedāvājiet saviem klientiem tiešsaistes maksājumu lapu maksājumiem ar kredītkartēm/debetkartēm, izmantojot <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . To var izmantot, lai ļautu jūsu klientiem veikt ad hoc maksājumus vai maksājumus, kas saistīti ar konkrētu PowerERP objektu (rēķins, pasūtījums, ...)
 StripeOrCBDoPayment=Maksājiet ar kredītkarti vai Stripe
-FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par Powererp objektiem
+FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par PowerERP objektiem
 PaymentForm=Maksājuma forma
 WelcomeOnPaymentPage=Laipni lūdzam mūsu tiešsaistes maksājumu pakalpojumu
 ThisScreenAllowsYouToPay=Šis logs ļauj jums veikt tiešsaistes maksājumu %s.

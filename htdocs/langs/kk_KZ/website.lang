@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Код
 WebsiteSetupDesc=Қолданғыңыз келетін веб -сайттарды осы жерден жасаңыз. Содан кейін оларды өңдеу үшін веб -сайттар мәзіріне өтіңіз.
 DeleteWebsite=Веб -сайтты жою
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Негізгі URL мекенжайларын пайда
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache виртуалды хостын орнатуда қолданылатын мысал:
 YouCanAlsoTestWithPHPS=<u>Use with PHP embedded server</u><br>On develop environment, you may prefer to test the site with the PHP embedded web server (PHP 5.5 required) by running<br><strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP= <u> Веб -сайтыңызды басқа Powererp хостинг провайдерімен іске қосыңыз </u> <br> Егер сізде Интернетте Apache немесе NGinx сияқты веб -сервер жоқ болса, сіз өзіңіздің веб -сайтыңызды басқа Powererp хостинг провайдерімен қамтамасыз ететін басқа Powererp данасына экспорттауға және импорттауға болады. веб -сайт модулімен біріктіру. <a href="https://saas.powererp.org" target="_blank"> сайтында кейбір Powererp хостинг провайдерлерінің тізімін таба аласыз https://saas.powererp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Веб -сайтыңызды басқа PowerERP хостинг провайдерімен іске қосыңыз </u> <br> Егер сізде Интернетте Apache немесе NGinx сияқты веб -сервер жоқ болса, сіз өзіңіздің веб -сайтыңызды басқа PowerERP хостинг провайдерімен қамтамасыз ететін басқа PowerERP данасына экспорттауға және импорттауға болады. веб -сайт модулімен біріктіру. <a href="https://saas.PowerERP.org" target="_blank"> сайтында кейбір PowerERP хостинг провайдерлерінің тізімін таба аласыз https://saas.PowerERP.org </a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Оқыңыз
 WritePerm=Жазу
 TestDeployOnWeb=Вебте тестілеу/орналастыру
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByPowererp= <u> %s жаңа қойындыда алдын ала қарау. </u> <br> <br> %s Powererp серверінде қызмет етеді, сондықтан оған қосымша веб -сервер қажет емес (Apache, Nginx, IIS). <br> Қолайсыз нәрсе - беттердің URL мекенжайлары қолданушыларға ыңғайлы емес және сіздің Powererp жолынан басталады. URL мекенжайына <br> Powererp қызмет: <br> <strong> %s </strong> <br> <br> каталогына <br> <strong> %s </strong> <br> бойынша балл, содан кейін осы виртуалды сервер атауын енгізіңіз, бұл сіздің веб-серверде виртуалды хост жасау, осы веб-сайтты қызмет үшін өз сыртқы веб-серверін пайдалану үшін осы веб -сайттың қасиеттерінде «Сынақ/Интернетте орналастыру» сілтемесін нұқыңыз.
+PreviewSiteServedByPowererp= <u> %s жаңа қойындыда алдын ала қарау. </u> <br> <br> %s PowerERP серверінде қызмет етеді, сондықтан оған қосымша веб -сервер қажет емес (Apache, Nginx, IIS). <br> Қолайсыз нәрсе - беттердің URL мекенжайлары қолданушыларға ыңғайлы емес және сіздің PowerERP жолынан басталады. URL мекенжайына <br> PowerERP қызмет: <br> <strong> %s </strong> <br> <br> каталогына <br> <strong> %s </strong> <br> бойынша балл, содан кейін осы виртуалды сервер атауын енгізіңіз, бұл сіздің веб-серверде виртуалды хост жасау, осы веб-сайтты қызмет үшін өз сыртқы веб-серверін пайдалану үшін осы веб -сайттың қасиеттерінде «Сынақ/Интернетте орналастыру» сілтемесін нұқыңыз.
 VirtualHostUrlNotDefined=Сыртқы веб -сервер қызмет ететін виртуалды хосттың URL мекенжайы анықталмаған
 NoPageYet=Әлі беттер жоқ
 YouCanCreatePageOrImportTemplate=Сіз жаңа бетті жасай аласыз немесе веб -сайттың толық үлгісін импорттай аласыз

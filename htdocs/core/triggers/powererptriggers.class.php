@@ -81,9 +81,9 @@ abstract class PowererpTriggers
 	const VERSION_EXPERIMENTAL = 'experimental';
 
 	/**
-	 * @var string module is powererp ready
+	 * @var string module is PowerERP ready
 	 */
-	const VERSION_DOLIBARR = 'powererp';
+	const VERSION_DOLIBARR = 'PowerERP';
 
 	/**
 	 * Constructor

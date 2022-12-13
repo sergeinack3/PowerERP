@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=منطقة الأعضاء
 MemberCard=بطاقة عضو
 SubscriptionCard=بطاقة الاشتراك
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=قائمة الأعضاء العامة المصاد
 ErrorThisMemberIsNotPublic=ليست عضوا في هذا العام
 ErrorMemberIsAlreadyLinkedToThisThirdParty=عضو آخر (الاسم : <b>٪ ق</b> ، ادخل : <b>٪)</b> مرتبطة بالفعل الى طرف ثالث <b>٪ ق.</b> إزالة هذه الوصلة الاولى بسبب طرف ثالث لا يمكن أن يرتبط فقط عضو (والعكس بالعكس).
 ErrorUserPermissionAllowsToLinksToItselfOnly=لأسباب أمنية ، يجب أن تمنح أذونات لتحرير جميع المستخدمين لتكون قادرة على ربط عضو لمستخدم هذا ليس لك.
-SetLinkToUser=وصلة إلى مستخدم Powererp
-SetLinkToThirdParty=وصلة إلى طرف ثالث Powererp
+SetLinkToUser=وصلة إلى مستخدم PowerERP
+SetLinkToThirdParty=وصلة إلى طرف ثالث PowerERP
 MembersCards=Business cards for members
 MembersList=قائمة الأعضاء
 MembersListToValid=قائمة مشاريع أعضاء (ينبغي التأكد من صحة)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=htpasswd الملف
 ValidateMember=صحة عضوا
 ConfirmValidateMember=Are you sure you want to validate this member?
-FollowingLinksArePublic=The following links are open pages not protected by any Powererp permission. They are not formatted pages, provided as example to show how to list members database.
+FollowingLinksArePublic=The following links are open pages not protected by any PowerERP permission. They are not formatted pages, provided as example to show how to list members database.
 PublicMemberList=عضو في لائحة عامة
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Powererp can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
+BlankSubscriptionFormDesc=PowerERP can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
 EnablePublicSubscriptionForm=Enable the public website with self-subscription form
 ForceMemberType=Force the member type
 ExportDataset_member_1=Members and contributions

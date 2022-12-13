@@ -1,85 +1,85 @@
-#Template: powererp/configuration/note
+#Template: PowerERP/configuration/note
 #Type: note
 #Description: Package configuration note
-# Powererp can be and should be configured entirely via web, so, in the
+# PowerERP can be and should be configured entirely via web, so, in the
 # following configuration steps, I'm going to prompt you for the passwords that
-# Powererp uses for web configuration and some default values for the
-# application startup. Then you should point your browser to the Powererp
+# PowerERP uses for web configuration and some default values for the
+# application startup. Then you should point your browser to the PowerERP
 # setup, for example:
 # .
-# http://localhost/powererp/install.php
+# http://localhost/PowerERP/install.php
 # .
-# continue the configuration, fill the database and let Powererp be aware of
+# continue the configuration, fill the database and let PowerERP be aware of
 # the installed modules.
 
-#Template: powererp/webserver
+#Template: PowerERP/webserver
 #Type: select
 #Choices: Apache, Apache-ssl, Both, None
 #Description: Which Web Server are you running ?
-# Powererp supports any web server with PHP capabilities, but this
+# PowerERP supports any web server with PHP capabilities, but this
 # configuration process only supports Apache and Apache-SSL.
 
-#Template: powererp/db
+#Template: PowerERP/db
 #Type: text
-#Description: Powererp DB setup note
+#Description: PowerERP DB setup note
 # Now you should specify the DBMS settings. You must provide the host name on
 # which the DBMS server is installed, the type (i.e.  MySql), the DB name, the DBMS administrator user-name, etc.
 
-#Template: powererp/db/host
+#Template: PowerERP/db/host
 #Type: string
 #Default: localhost
 #Description: Please, insert your database host name:
-# This should be the host-name or IP address that powererp will use to access
+# This should be the host-name or IP address that PowerERP will use to access
 # the DB.
 
-#Template: powererp/db/port
+#Template: PowerERP/db/port
 #Type: string
 #Default: 3306
 #Description: Please, insert your database port:
-# This should be the port value that Powererp will use to access
+# This should be the port value that PowerERP will use to access
 # the DB.
 
-#Template: powererp/db/name
+#Template: PowerERP/db/name
 #Type: string
-#Default: powererp
-#Description: Please, insert Powererp database name:
-# This is the name of the database that Powererp will use.
+#Default: PowerERP
+#Description: Please, insert PowerERP database name:
+# This is the name of the database that PowerERP will use.
 
-#Template: powererp/db/user/name
+#Template: PowerERP/db/user/name
 #Type: string
-#Default: powererp
+#Default: PowerERP
 #Description: Please, insert the DBMS user-name to access the DB:
-# This is the user-name that Powererp will use to access the DB.
+# This is the user-name that PowerERP will use to access the DB.
 
-#Template: powererp/db/user/password
+#Template: PowerERP/db/user/password
 #Type: password
 #Description: Please, insert the password to access the DB:
-# This is the password that Powererp will use, along with user-name you
+# This is the password that PowerERP will use, along with user-name you
 # provided, to access the DB.
 
-#Template: powererp/db/user/password/confirm
+#Template: PowerERP/db/user/password/confirm
 #Type: password
 #Description: Please, retype the password to access the DB:
 # Please insert the DB access password again. If the password you are going to
 # retype mismatch the previous inserted one, I'll ask you to insert them again.
 
-#Template: powererp/db/user/password/mismatch
+#Template: PowerERP/db/user/password/mismatch
 #Type: text
 #Description: Passwords mismatch
 # The DB access passwords you inserted mismatch. Please, try again.
 
-#Template: powererp/db/admin/name
+#Template: PowerERP/db/admin/name
 #Type: string
 #Default: root
 #Description: Please, insert the DBMS administrator user-name:
 # This user-name will be used to access the DBMS to create (if needed):
 # .
-#  (1) The new Powererp database
-#  (2) The new database account that Powererp will use to access the DB
+#  (1) The new PowerERP database
+#  (2) The new database account that PowerERP will use to access the DB
 # .
 # It should be 'root' for MySql.
 
-#Template: powererp/db/admin/password
+#Template: PowerERP/db/admin/password
 #Type: password
 #Description: Please, insert the DBMS administrator password (if any):
 # This is the password that will be used along with the DBMS administrator
@@ -87,19 +87,19 @@
 # .
 # NOTE: This password will not be asked twice, since it's not a new password.
 
-Template: powererp/postrm
+Template: PowerERP/postrm
 Type: boolean
 Default: true
 Description: Delete database ?
- Delete the Powererp MySQL database and all its datas (datas related
- to this quetion are the Powererp DBMS account and all
- Powererp tables) ?
+ Delete the PowerERP MySQL database and all its datas (datas related
+ to this quetion are the PowerERP DBMS account and all
+ PowerERP tables) ?
 
-#Template: powererp/postrmfile
+#Template: PowerERP/postrmfile
 #Type: boolean
 #Default: true
 #Description: Delete attached files ?
 # Delete also all uploaded and generated files (datas related
-# to this quetion are all files found into /usr/share/powererp/documents,
-# uploaded or generated when using Powererp) ?
+# to this quetion are all files found into /usr/share/PowerERP/documents,
+# uploaded or generated when using PowerERP) ?
  

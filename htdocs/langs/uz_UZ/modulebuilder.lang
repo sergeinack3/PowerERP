@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Bo'sh joysiz yaratish uchun modul / dastur nomini kiriting. So'zlarni ajratish uchun katta harflardan foydalaning (Masalan: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Bo'sh joysiz yaratish uchun ob'ekt nomini kiriting. So'zlarni ajratish uchun katta harflardan foydalaning (Masalan: MyObject, Student, Teacher ...). CRUD sinf fayli, shuningdek API fayli, ro'yxat / qo'shish / tahrirlash / o'chirish sahifalari va SQL fayllari yaratiladi.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Siz modulingizni o'chirib tashlashingiz mumkin. OG
 EnterNameOfObjectToDeleteDesc=Ob'ektni o'chirishingiz mumkin. OGOHLANTIRISH: Ob'ektga tegishli bo'lgan barcha kodlash fayllari (qo'lda yaratilgan yoki yaratilgan) o'chiriladi!
 DangerZone=Xavfli hudud
 BuildPackage=Paket yaratish
-BuildPackageDesc=Siz o'zingizning arizangizning zip paketini yaratishingiz mumkin, shunda siz uni har qanday Powererp-da tarqatishga tayyor bo'lasiz. Siz uni tarqatishingiz yoki <a href="https://www.dolistore.com"> kabi bozorda sotishingiz mumkin DoliStore.com </a>.
+BuildPackageDesc=Siz o'zingizning arizangizning zip paketini yaratishingiz mumkin, shunda siz uni har qanday PowerERP-da tarqatishga tayyor bo'lasiz. Siz uni tarqatishingiz yoki <a href="https://www.dolistore.com"> kabi bozorda sotishingiz mumkin DoliStore.com </a>.
 BuildDocumentation=Hujjatlarni yaratish
 ModuleIsNotActive=Ushbu modul hali faollashtirilmagan. Uni jonli qilish uchun %s-ga o'ting yoki shu yerni bosing
 ModuleIsLive=Ushbu modul faollashtirildi. Har qanday o'zgarish joriy jonli xususiyatni buzishi mumkin.
@@ -101,7 +101,7 @@ HooksDefDesc=<b> module_parts ['ilgaklar'] </b> xususiyatida, modul identifikato
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=O'rnatishda foydalanilayotgan identifikatorlarni ko'ring
 SeeReservedIDsRangeHere=Saqlangan identifikatorlar qatorini ko'ring
-ToolkitForDevelopers=Powererp dasturchilari uchun qo'llanma
+ToolkitForDevelopers=PowerERP dasturchilari uchun qo'llanma
 TryToUseTheModuleBuilder=Agar siz SQL va PHP haqida ma'lumotga ega bo'lsangiz, mahalliy modul yaratuvchisi sehrgaridan foydalanishingiz mumkin. <br> <strong> %s </strong> modulini yoqing va ustadan <span class="fa fa-bug"> </span> o'ng menyusida bosing. <br> Ogohlantirish: Bu ishlab chiquvchining rivojlangan xususiyati, ishlab chiqarish saytida </b> emas, balki <b> tajribasini bajaring!
 SeeTopRightMenu=Yuqoridagi o'ng menyuda <span class="fa fa-bug"> </span> ga qarang.
 AddLanguageFile=Til faylini qo'shing

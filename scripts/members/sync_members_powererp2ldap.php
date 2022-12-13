@@ -21,7 +21,7 @@
 /**
  * \file scripts/members/sync_members_powererp2ldap.php
  * \ingroup ldap member
- * \brief Script de mise a jour des adherents dans LDAP depuis base Powererp
+ * \brief Script de mise a jour des adherents dans LDAP depuis base PowerERP
  */
 
 if (!defined('NOSESSION')) {
@@ -78,7 +78,7 @@ $now = $argv[1];
 print "Mails sending disabled (useless in batch mode)\n";
 $conf->global->MAIN_DISABLE_ALL_MAILS = 1; // On bloque les mails
 print "\n";
-print "----- Synchronize all records from Powererp database:\n";
+print "----- Synchronize all records from PowerERP database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";

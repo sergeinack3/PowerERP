@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Kód
 WebsiteSetupDesc=Itt hozza létre a használni kívánt webhelyeket. Ezután lépjen a Weboldalak menübe, és szerkessze őket.
 DeleteWebsite=A honlap törlése
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Tekintse meg a webhelyet otthoni URL-ek segítségével
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Example to use in Apache virtual host setup:
 YouCanAlsoTestWithPHPS=<u>Használjon beépített PHP szerverrel</u> <br> Fejlesztői környezetben a futtatással inkább tesztelheti a webhelyet a beágyazott PHP szerverrel (PHP 5.5 szükséges) <br> <strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP=<u>Futtassa weboldalát egy másik Powererp tárhely szolgáltatóval</u> <br> Ha még nem áll rendelkezésre internetes szerver, például Apache vagy NGinx, akkor exportálhatja és importálhatja webhelyét egy másik Powererp példányra, amelyet egy másik Powererp tárhely szolgáltató biztosít, és amely teljes mértékben integrálja a webhely modult. Néhány Powererp tárhely-szolgáltató felsorolását a <a href="https://saas.powererp.org" target="_blank">https://saas.powererp.org oldalon</a> találja
+YouCanAlsoDeployToAnotherWHP=<u>Futtassa weboldalát egy másik PowerERP tárhely szolgáltatóval</u> <br> Ha még nem áll rendelkezésre internetes szerver, például Apache vagy NGinx, akkor exportálhatja és importálhatja webhelyét egy másik PowerERP példányra, amelyet egy másik PowerERP tárhely szolgáltató biztosít, és amely teljes mértékben integrálja a webhely modult. Néhány PowerERP tárhely-szolgáltató felsorolását a <a href="https://saas.PowerERP.org" target="_blank">https://saas.PowerERP.org oldalon</a> találja
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Olvas
 WritePerm=Ír
 TestDeployOnWeb=Tesztelés / telepítés az interneten
 PreviewSiteServedByWebServer=<u>Előnézet %s új fülön.</u> <br><br> Az %s-et egy külső webszerver fogja kiszolgálni (például Apache, Nginx, IIS). A kiszolgáló telepítése és telepítése előtt telepítenie kell a könyvtárat: <br> <strong>%s</strong> <br> Külső szerver által kiszolgált URL: <br> <strong>%s</strong>
-PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Powererp server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Powererp.<br>URL served by Powererp:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
+PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by PowerERP server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your PowerERP.<br>URL served by PowerERP:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
 VirtualHostUrlNotDefined=A külső webszerver által kiszolgált virtuális gazdagép URL-je nincs meghatározva
 NoPageYet=Még nincs oldal
 YouCanCreatePageOrImportTemplate=Készíthet új oldalt, vagy importálhat egy teljes webhelysablont

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=事件ID号
 Actions=事件
 Agenda=待办事项
@@ -31,8 +31,8 @@ ViewWeek=周视图
 ViewPerUser=用户视图
 ViewPerType=用户视图
 AutoActions= 自动化
-AgendaAutoActionDesc= Here you may define events which you want Powererp to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
-AgendaSetupOtherDesc= This page provides options to allow the export of your Powererp events into an external calendar (Thunderbird, Google Calendar etc...)
+AgendaAutoActionDesc= Here you may define events which you want PowerERP to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
+AgendaSetupOtherDesc= This page provides options to allow the export of your PowerERP events into an external calendar (Thunderbird, Google Calendar etc...)
 AgendaExtSitesDesc=此页面允许声明日历的外部来源，从而在Powererp待办事项中可以看到他们的事件。
 ActionsEvents=Powererp将为其自动创建一个动作的事件
 EventRemindersByEmailNotEnabled=通过电子邮件发送的事件提醒未启用到%s模块设置中。

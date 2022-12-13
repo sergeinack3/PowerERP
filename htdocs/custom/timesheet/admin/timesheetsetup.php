@@ -256,7 +256,7 @@ foreach($headersT as $header) {
 /*
  *  VIEW
  *  */
-//permet d'afficher la structure powererp
+//permet d'afficher la structure PowerERP
 $morejs = array("/timesheet/core/js/timesheet.js?v2.0", "/timesheet/core/js/jscolor.js");
 llxHeader("", $langs->trans("timesheetSetup"), '', '', '', '', $morejs, '', 0, 0);
 $linkback = '<a href = "'.DOL_URL_ROOT.'/admin/modules.php">'.$langs->trans("BackToModuleList").'</a>';
@@ -622,7 +622,7 @@ echo '</div>';//taskbar
  */
 echo '<div id = "Other" class = "tabBar">';
 print '<a>'.$langs->trans("OtherTabDesc").'</a>';
-print_titre($langs->trans("Powererp"));
+print_titre($langs->trans("PowerERP"));
 echo '<table class = "noborder" width = "100%">'."\n\t\t";
 echo '<tr class = "liste_titre" width = "100%" ><th width = "200px">'.$langs->trans("Name").'</th><th>';
 echo $langs->trans("Description").'</th><th width = "100px">'.$langs->trans("Value")."</th></tr>\n\t\t";

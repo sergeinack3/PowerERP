@@ -53,7 +53,7 @@ if ($contact->socid) {
 
 // We create VCard
 $v = new vCard();
-$v->setProdId('Powererp '.DOL_VERSION);
+$v->setProdId('PowerERP '.DOL_VERSION);
 
 $v->setUid('DOLIBARR-CONTACTID-'.$contact->id);
 $v->setName($contact->lastname, $contact->firstname, "", $contact->civility, "");

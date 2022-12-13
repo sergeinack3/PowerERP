@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -91,7 +91,7 @@ abstract class NumModel
 
 		if ($this->version == 'development') return $langs->trans('VersionDevelopment');
 		if ($this->version == 'experimental') return $langs->trans('VersionExperimental');
-		if ($this->version == 'powererp') return DOL_VERSION;
+		if ($this->version == 'PowerERP') return DOL_VERSION;
 		if ($this->version) return $this->version;
 		return $langs->trans('NotAvailable');
 	}

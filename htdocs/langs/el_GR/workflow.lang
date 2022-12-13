@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - workflow
+# PowerERP language file - Source file is en_US - workflow
 WorkflowSetup=Ροής εργασίας ρύθμιση μονάδας
 WorkflowDesc=Αυτή η ενότητα παρέχει ορισμένες αυτόματες ενέργειες. Από προεπιλογή, η ροή εργασιών είναι ανοιχτή (μπορείτε να κάνετε πράγματα με τη σειρά που θέλετε), αλλά εδώ μπορείτε να ενεργοποιήσετε ορισμένες αυτόματες ενέργειες.
 ThereIsNoWorkflowToModify=Δεν υπάρχουν τροποποιήσεις ροής εργασίας με τις ενεργοποιημένες μονάδες.

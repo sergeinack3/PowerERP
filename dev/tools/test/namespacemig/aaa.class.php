@@ -1,6 +1,6 @@
 <?php
 
-namespace Powererp;
+namespace PowerERP;
 
 global $globalaaa;
 $globalaaa = 'globalaaa';

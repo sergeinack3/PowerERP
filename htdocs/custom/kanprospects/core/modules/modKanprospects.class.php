@@ -45,12 +45,12 @@ else {
 }
 
 include_once dirname(dirname(__DIR__)) . '/master.inc.php';
-require_once DOL_DOCUMENT_ROOT . '/core/modules/PowererpModules.class.php';
+require_once DOL_DOCUMENT_ROOT . '/core/modules/PowerERPModules.class.php';
 
 /**
  * Description and activation class for module Kanprospects
  */
-class modKanprospects extends PowererpModules {
+class modKanprospects extends PowerERPModules {
 
 	static $build = KANPROSPECTS_VERSION;
 
@@ -96,7 +96,7 @@ class modKanprospects extends PowererpModules {
 
 		// Key used in llx_const table to save module status enabled/disabled (where Kanprospects is value of property name of module in uppercase)
 		$this->const_name	 = 'MAIN_MODULE_KANPROSPECTS'; // 'MAIN_MODULE_' . strtoupper($this->name);
-		// Where to store the module in setup page of Powererp (0=common,1=interface,2=others,3=very specific)
+		// Where to store the module in setup page of PowerERP (0=common,1=interface,2=others,3=very specific)
 		$this->special		 = 0;
 
 		// Name of image file used for this module.
@@ -150,7 +150,7 @@ class modKanprospects extends PowererpModules {
 		// Minimum version of PHP
 		$this->phpmin								 = array(
 				5, 5);
-		// Minimum version of Powererp
+		// Minimum version of PowerERP
 		$this->need_powererp_version = array(
 				5, 0);
 
@@ -319,7 +319,7 @@ class modKanprospects extends PowererpModules {
 
 	/**
 	 * Function called when module is enabled.
-	 * The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 * The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 * It also creates data directories
 	 *
 	 * @param string $options
@@ -336,7 +336,7 @@ class modKanprospects extends PowererpModules {
 
 	/**
 	 * Function called when module is disabled.
-	 * Remove from database constants, boxes and permissions from Powererp database.
+	 * Remove from database constants, boxes and permissions from PowerERP database.
 	 * Data directories are not deleted
 	 *
 	 * @param string $options

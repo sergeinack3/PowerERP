@@ -47,7 +47,7 @@ class InterfaceStripe extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = 'stripe';
 		$this->description = "Triggers of the module Stripe";
-		$this->version = self::VERSION_DOLIBARR; // 'development', 'experimental', 'powererp' or version
+		$this->version = self::VERSION_DOLIBARR; // 'development', 'experimental', 'PowerERP' or version
 		$this->picto = 'stripe';
 	}
 
@@ -65,7 +65,7 @@ class InterfaceStripe extends PowererpTriggers
 	 */
 	public function runTrigger($action, $object, User $user, Translate $langs, Conf $conf)
 	{
-		// Put here code you want to execute when a Powererp business event occurs.
+		// Put here code you want to execute when a PowerERP business event occurs.
 		// Data and type of action are stored into $object and $action
 		global $langs, $db, $conf;
 

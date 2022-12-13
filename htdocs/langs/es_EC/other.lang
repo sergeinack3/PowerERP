@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Código de seguridad
 Tools=Herramientas
 TMenuTools=Herramientas
@@ -72,7 +72,7 @@ PredefinedMailContentSendSupplierInvoice=__(Hola)__\n\nEncuentre la factura __RE
 PredefinedMailContentSendShipping=__(Hola)__\n\nPor favor encuentre el envío __REF__ adjunto\n\n\n__(Sinceramente)__\n\n__ FIRMA DEL USUARIO__
 PredefinedMailContentSendFichInter=__(Hola)__\n\nPor favor encuentre la intervención __REF__ adjunta\n\n\n__(Sinceramente)__\n\n__ FIRMA DEL USUARIO__
 PredefinedMailContentGeneric=aa__PERSONALIZED __\n\n__SIGNATURE__
-DemoDesc=Powererp es un ERP/CRM compacto que soporta varios módulos de negocio. Una demostración que muestra todos los módulos no tiene sentido ya que este escenario nunca ocurre (varios cientos disponibles). Por lo tanto, varios perfiles de demostración están disponibles.
+DemoDesc=PowerERP es un ERP/CRM compacto que soporta varios módulos de negocio. Una demostración que muestra todos los módulos no tiene sentido ya que este escenario nunca ocurre (varios cientos disponibles). Por lo tanto, varios perfiles de demostración están disponibles.
 ChooseYourDemoProfil=Elige el perfil de demostración que mejor se adapte a tus necesidades ...
 ChooseYourDemoProfilMore=...o crear su propio perfil</b> (selección manual de módulos)
 DemoFundation=Administrar miembros de una fundación
@@ -109,10 +109,10 @@ SizeUnitm=metro
 BugTracker=Localizador de bichos
 SendNewPasswordDesc=Este formulario le permite solicitar una nueva contraseña. Se enviará a su dirección de correo electrónico. <br> El cambio se hará efectivo una vez que haga clic en el enlace de confirmación en el correo electrónico. <br> Compruebe su bandeja de entrada.
 BackToLoginPage=Volver a la página de inicio de sesión
-AuthenticationDoesNotAllowSendNewPassword=El modo de autenticación es <b>%s</b>. <br>En este modo, Powererp no puede saber ni cambiar su contraseña. <br> Póngase en contacto con el administrador del sistema si desea cambiar su contraseña.
+AuthenticationDoesNotAllowSendNewPassword=El modo de autenticación es <b>%s</b>. <br>En este modo, PowerERP no puede saber ni cambiar su contraseña. <br> Póngase en contacto con el administrador del sistema si desea cambiar su contraseña.
 EnableGDLibraryDesc=Instale o active la biblioteca GD en su instalación de PHP para usar esta opción.
 ProfIdShortDesc=</b>Prof Id%s</b> es una información que depende de un tercer país.</b> Por ejemplo, para el país <b>%s</b>, es el código <b>%s</b>.
-PowererpDemo=Demostración de ERP/CRM de Powererp
+PowererpDemo=Demostración de ERP/CRM de PowerERP
 StatsByNumberOfUnits=Estadísticas de suma de cantidad de productos/servicios
 NumberOfProposals=Número de propuestas
 NumberOfCustomerOrders=Número de pedidos de ventas

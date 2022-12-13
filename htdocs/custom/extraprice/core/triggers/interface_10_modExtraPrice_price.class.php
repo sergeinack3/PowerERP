@@ -16,7 +16,7 @@ class InterfacePrice
 		$this->name = preg_replace('/^Interface/i','',get_class($this));
 		$this->family = "interfaceprix";
 		$this->description = "Triggers pour modifier le prix de vente en fonction de valeurs saisie en extrafields sur la ligne.";
-		$this->version = '3.5.1+1.0.1';                        // 'experimental' or 'powererp' or version
+		$this->version = '3.5.1+1.0.1';                        // 'experimental' or 'PowerERP' or version
 	}
 	/**
 	 *   \brief      Renvoi nom du lot de triggers
@@ -44,12 +44,12 @@ class InterfacePrice
 		$langs->load("admin");
 
 		if ($this->version == 'experimental') return $langs->trans("Experimental");
-		elseif ($this->version == 'powererp') return DOL_VERSION;
+		elseif ($this->version == 'PowerERP') return DOL_VERSION;
 		elseif ($this->version) return $this->version;
 		else return $langs->trans("Unknown");
 	}
 	/**
-	 *      \brief      Fonction appelee lors du declenchement d'un evenement Powererp.
+	 *      \brief      Fonction appelee lors du declenchement d'un evenement PowerERP.
 	 *                  D'autres fonctions run_trigger peuvent etre presentes dans includes/triggers
 	 *      \param      action      Code de l'evenement
 	 *      \param      object      Objet concerne

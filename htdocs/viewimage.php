@@ -20,7 +20,7 @@
 
 /**
  *		\file       htdocs/viewimage.php
- *		\brief      Wrapper to show images into Powererp screens.
+ *		\brief      Wrapper to show images into PowerERP screens.
  *		\remarks    Call to wrapper is :
  *					DOL_URL_ROOT.'/viewimage.php?modulepart=diroffile&file=relativepathofofile&cache=0
  *					DOL_URL_ROOT.'/viewimage.php?hashp=sharekey
@@ -163,7 +163,7 @@ if ($modulepart == 'fckeditor') {
 
 if (GETPOST("cache", 'alpha')) {
 	// Important: Following code is to avoid page request by browser and PHP CPU at
-	// each Powererp page access.
+	// each PowerERP page access.
 	if (empty($powererp_nocache)) {
 		header('Cache-Control: max-age=3600, public, must-revalidate');
 		header('Pragma: cache'); // This is to avoid having Pragma: no-cache

@@ -70,10 +70,10 @@ class pdf_typhon extends ModelePDFDeliveryOrder
 	public $phpmin = array(5, 6);
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	/**
 	 * @var int page_largeur
@@ -282,7 +282,7 @@ class pdf_typhon extends ModelePDFDeliveryOrder
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("DeliveryOrder"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("DeliveryOrder"));
 				if (!empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) {

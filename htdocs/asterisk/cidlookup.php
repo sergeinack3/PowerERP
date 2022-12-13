@@ -23,7 +23,7 @@
  *
  *              exten => s,1,Set(CALLERID(name)=${CURL(http://IP-DOLIBARR:80/asterisk/cidlookup.php?phone=${CALLERID(num)})})
  *
- *			    Change IP-DOLIBARR to the IP address of your powererp server
+ *			    Change IP-DOLIBARR to the IP address of your PowerERP server
  */
 
 

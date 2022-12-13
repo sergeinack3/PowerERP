@@ -14,8 +14,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ModuleZapierForPowererpName = Долибар үшін Запье
-ModuleZapierForPowererpDesc = Powererp модуліне арналған Zapier
-ZapierForPowererpSetup=Powererp үшін Zapier орнату
+ModuleZapierForPowererpDesc = PowerERP модуліне арналған Zapier
+ZapierForPowererpSetup=PowerERP үшін Zapier орнату
 ZapierDescription=Zapier интерфейсі
 ZapierAbout=Zapier модулі туралы
-ZapierSetupPage=Zapier пайдалану үшін Powererp жағында орнатудың қажеті жоқ. Дегенмен, Zapier -ті Powererp -мен бірге пайдалану үшін сіз пакетті zapier -де жасауыңыз және жариялауыңыз керек. <a href="https://wiki.powererp.org/index.php/Module_Zapier"> құжаттамасын осы вики бетіндегі </a> қараңыз.
+ZapierSetupPage=Zapier пайдалану үшін PowerERP жағында орнатудың қажеті жоқ. Дегенмен, Zapier -ті PowerERP -мен бірге пайдалану үшін сіз пакетті zapier -де жасауыңыз және жариялауыңыз керек. <a href="https://wiki.PowerERP.org/index.php/Module_Zapier"> құжаттамасын осы вики бетіндегі </a> қараңыз.

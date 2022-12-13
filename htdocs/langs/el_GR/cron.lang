@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Λεπτομέρειες προγραμματισμένης εργασίας
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Απενεργοποίηση
 CronTaskInactive=This job is disabled (not scheduled)
 CronId=Id
 CronClassFile=Filename with class
-CronModuleHelp=Όνομα του καταλόγου μονάδων Powererp (επίσης λειτουργούν με εξωτερική μονάδα Powererp). <BR> Για παράδειγμα, για να καλέσουμε τη μέθοδο fetch του προϊόντος Powererp Product / htdocs / <u>product</u> / class / product.class.php, η τιμή για την ενότητα είναι <br> <i>προϊόν</i>
-CronClassFileHelp=Η σχετική διαδρομή και το όνομα του αρχείου για φόρτωση (η διαδρομή είναι σχετική με τον κεντρικό κατάλογο διακομιστή ιστού). <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος Powererp Product htdocs / product / class / <u>product.class.php</u> , η τιμή για το όνομα αρχείου κλάσης είναι <br> <i>προϊόν / κλάση / product.class.php</i>
-CronObjectHelp=Το όνομα αντικειμένου που θα φορτωθεί. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος Powererp Product /htdocs/product/class/product.class.php, η τιμή για το όνομα του αρχείου κλάσης είναι <br> <i>Προϊόν</i>
-CronMethodHelp=Η μέθοδος αντικειμένου για την εκκίνηση. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος Powererp Product /htdocs/product/class/product.class.php, η τιμή για τη μέθοδο είναι <br> <i>φέρω</i>
-CronArgsHelp=Τα επιχειρήματα της μεθόδου. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος Powererp Product /htdocs/product/class/product.class.php, η τιμή για τους paramters μπορεί να είναι <br> <i>0, ProductRef</i>
+CronModuleHelp=Όνομα του καταλόγου μονάδων PowerERP (επίσης λειτουργούν με εξωτερική μονάδα PowerERP). <BR> Για παράδειγμα, για να καλέσουμε τη μέθοδο fetch του προϊόντος PowerERP Product / htdocs / <u>product</u> / class / product.class.php, η τιμή για την ενότητα είναι <br> <i>προϊόν</i>
+CronClassFileHelp=Η σχετική διαδρομή και το όνομα του αρχείου για φόρτωση (η διαδρομή είναι σχετική με τον κεντρικό κατάλογο διακομιστή ιστού). <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος PowerERP Product htdocs / product / class / <u>product.class.php</u> , η τιμή για το όνομα αρχείου κλάσης είναι <br> <i>προϊόν / κλάση / product.class.php</i>
+CronObjectHelp=Το όνομα αντικειμένου που θα φορτωθεί. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος PowerERP Product /htdocs/product/class/product.class.php, η τιμή για το όνομα του αρχείου κλάσης είναι <br> <i>Προϊόν</i>
+CronMethodHelp=Η μέθοδος αντικειμένου για την εκκίνηση. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος PowerERP Product /htdocs/product/class/product.class.php, η τιμή για τη μέθοδο είναι <br> <i>φέρω</i>
+CronArgsHelp=Τα επιχειρήματα της μεθόδου. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο λήψης του προϊόντος PowerERP Product /htdocs/product/class/product.class.php, η τιμή για τους paramters μπορεί να είναι <br> <i>0, ProductRef</i>
 CronCommandHelp=Γραμμή εντολών του συστήματος προς εκτέλεση.
 CronCreateJob=Create new Scheduled Job
 CronFrom=Από

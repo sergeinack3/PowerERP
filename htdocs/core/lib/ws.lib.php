@@ -75,7 +75,7 @@ function check_authentication($authentication, &$error, &$errorcode, &$errorlabe
 
 			// Authentication mode
 			if (empty($powererp_main_authentication)) {
-				$powererp_main_authentication = 'http,powererp';
+				$powererp_main_authentication = 'http,PowerERP';
 			}
 			// Authentication mode: forceuser
 			if ($powererp_main_authentication == 'forceuser' && empty($powererp_auto_user)) {

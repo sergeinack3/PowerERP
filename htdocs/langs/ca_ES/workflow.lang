@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - workflow
+# PowerERP language file - Source file is en_US - workflow
 WorkflowSetup=Configuració del mòdul de flux de treball
 WorkflowDesc=Aquest mòdul ofereix algunes accions automàtiques. Per defecte, el flux de treball està obert (podeu fer les coses en l'ordre que vulgueu), però aquí podeu activar algunes accions automàtiques.
 ThereIsNoWorkflowToModify=No hi ha disponibles modificacions del flux de treball amb els mòduls activats.

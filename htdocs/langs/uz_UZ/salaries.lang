@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Foydalanuvchi uchinchi shaxslar uchun foydalaniladigan buxgalteriya hisobi
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Foydalanuvchi kartasida belgilangan buxgalteriya hisobi faqat Subledger buxgalteriyasi uchun ishlatiladi. Ushbu foydalanuvchi Bosh daftar uchun va Subledger buxgalteriyasining standart qiymati sifatida foydalanuvchida maxsus foydalanuvchi hisob qaydnomasi aniqlanmagan taqdirda foydalaniladi.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Ish haqi to'lovlari bo'yicha sukut bo'yicha buxgalteriya hisobi

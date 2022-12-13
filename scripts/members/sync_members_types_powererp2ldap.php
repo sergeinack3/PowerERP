@@ -22,7 +22,7 @@
 /**
  * \file scripts/members/sync_members_types_powererp2ldap.php
  * \ingroup ldap core
- * \brief Script de mise a jour des types de membres dans LDAP depuis base Powererp
+ * \brief Script de mise a jour des types de membres dans LDAP depuis base PowerERP
  */
 
 if (!defined('NOSESSION')) {

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - install
+# PowerERP language file - Source file is en_US - install
 InstallEasy=Doar urmaţi instrucţiunile pas cu pas.
 MiscellaneousChecks=Verificare cerinţe preliminare 
 ConfFileExists=Fişierul de configurare <b>%s</b> există.
@@ -103,7 +103,7 @@ ChooseYourSetupMode=Alegeţi modul de configurare şi faceţi clic pe "Start"...
 FreshInstall=Instalare proaspătă
 FreshInstallDesc=Utilizați acest mod dacă aceasta este prima instalare. Dacă nu, acest mod poate repara o instalare anterioară incompletă. Dacă doreşti să actualizezi versiunea ta, alege modul "Actualizare".
 Upgrade=Actualizare
-UpgradeDesc=Utilizaţi acest mod, dacă aţi înlocuit fişierele vechi Powererp cu fişiere dintr-o versiune mai nouă. Acest lucru va actualiza baza de date şi datele.
+UpgradeDesc=Utilizaţi acest mod, dacă aţi înlocuit fişierele vechi PowerERP cu fişiere dintr-o versiune mai nouă. Acest lucru va actualiza baza de date şi datele.
 Start=Începe
 InstallNotAllowed=Configurarea nu este permisă de permisiunile din <b>conf.php</b>
 YouMustCreateWithPermission=Trebuie să creaţi %s de fişiere şi setaţi permisiuni de scriere pe ele în timpul procesului de instalare.
@@ -139,10 +139,10 @@ ActivateModule=Activare modul %s
 ShowEditTechnicalParameters=Click aici pentru a vedea/edita parametrii avansaţi (mod expert)
 WarningUpgrade=Atenţie:\nAți executat mai întâi o copie de siguranță a bazei de date?\nAcest lucru este foarte recomandat. Pierderea de date (datorată, de exemplu, erorilor din versiunea mysql 5.5.40 / 41/42/43) poate fi posibilă în timpul acestui proces, deci este esențial să faceți un backup complet al bazei de date înainte de a începe orice migrare.\n\nClic pe OK pentru a începe procesul de migrare...
 ErrorDatabaseVersionForbiddenForMigration=Versiunea bazei de date este %s. Are o eroare critică, ceea ce face posibilă pierderea datelor dacă efectuați modificări structurale în baza de date, cum este cazul procesului de migrare. Din acest motiv, migrarea nu va fi permisă până când nu actualizați baza de date la o versiune cu strat (patched) (lista versiunilor defectuoase cunoscute: %s)
-KeepDefaultValuesWamp=Ați folosit expertul de configurare Powererp de la DoliWamp, deci valorile propuse aici sunt deja optimizate. Modificați-le numai dacă știți ce faceți.
-KeepDefaultValuesDeb=Ați folosit expertul de configurare Powererp dintr-un pachet Linux (Ubuntu, Debian, Fedora ...), deci valorile propuse aici sunt deja optimizate. Este necesar să introduceți numai parola proprietarului bazei de date. Modificați alți parametri numai dacă știți ce faceți.
-KeepDefaultValuesMamp=Ați folosit expertul de configurare Powererp de la DoliMamp, deci valorile propuse aici sunt deja optimizate. Modificați-le numai dacă știți ce faceți.
-KeepDefaultValuesProxmox=Ați folosit expertul de configurare Powererp pentru o maşină virtuală Proxmox, deci valorile propuse aici sunt deja optimizate. Modificați-le numai dacă știți ce faceți.
+KeepDefaultValuesWamp=Ați folosit expertul de configurare PowerERP de la DoliWamp, deci valorile propuse aici sunt deja optimizate. Modificați-le numai dacă știți ce faceți.
+KeepDefaultValuesDeb=Ați folosit expertul de configurare PowerERP dintr-un pachet Linux (Ubuntu, Debian, Fedora ...), deci valorile propuse aici sunt deja optimizate. Este necesar să introduceți numai parola proprietarului bazei de date. Modificați alți parametri numai dacă știți ce faceți.
+KeepDefaultValuesMamp=Ați folosit expertul de configurare PowerERP de la DoliMamp, deci valorile propuse aici sunt deja optimizate. Modificați-le numai dacă știți ce faceți.
+KeepDefaultValuesProxmox=Ați folosit expertul de configurare PowerERP pentru o maşină virtuală Proxmox, deci valorile propuse aici sunt deja optimizate. Modificați-le numai dacă știți ce faceți.
 UpgradeExternalModule=Rulați procesul de actualizare specializat al modulului extern
 SetAtLeastOneOptionAsUrlParameter=Setează cel puțin o opțiune ca parametru în adresa URL. De exemplu: "...repair.php?standard=confirmed"
 NothingToDelete=Nimic de curățat/șters

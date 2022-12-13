@@ -27,13 +27,13 @@
  *	\brief      Description and activation file for the module bank
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module Banque
  */
-class modBanque extends PowererpModules
+class modBanque extends PowerERPModules
 {
 
 	/**
@@ -54,8 +54,8 @@ class modBanque extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Gestion des comptes financiers de type Comptes bancaires ou postaux";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
+		$this->version = 'PowerERP';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'account';
@@ -242,7 +242,7 @@ class modBanque extends PowererpModules
 
 	/**
 	 *      Function called when module is enabled.
-	 *      The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *      The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *      It also creates data directories.
 	 *
 	 *      @param      string	$options    Options when enabling module ('', 'noboxes')

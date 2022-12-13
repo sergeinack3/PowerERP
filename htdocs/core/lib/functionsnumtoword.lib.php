@@ -18,7 +18,7 @@
  */
 /**
  *  \file			htdocs/core/lib/functionsnumtoword.lib.php
- *	\brief			A set of functions for Powererp
+ *	\brief			A set of functions for PowerERP
  *					This file contains all frequently used functions.
  */
 
@@ -185,7 +185,7 @@ function dolNumberToWord($numero, $langs, $numorcurrency = 'number')
 		}
 	}
 
-	/*In powererp 3.6.2 (my current version) doesn't have $langs->default and
+	/*In PowerERP 3.6.2 (my current version) doesn't have $langs->default and
 	in case exist why ask $lang like a parameter?*/
 	if (((is_object($langs) && $langs->default == 'es_MX') || (!is_object($langs) && $langs == 'es_MX')) && $numorcurrency == 'currency') {
 		if ($numero >= 1 && $numero < 2) {

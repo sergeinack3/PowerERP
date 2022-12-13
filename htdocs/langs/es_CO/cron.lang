@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 Permission23101 =Leer trabajo programado
 Permission23102 =Crear / actualizar trabajo programado
 Permission23103 =Eliminar trabajo programado
@@ -41,11 +41,11 @@ CronFieldMandatory=Los campos %s son obligatorios
 CronErrEndDateStartDt=La fecha de finalización no puede ser anterior a la fecha de inicio
 CronStatusInactiveBtn=Desactivar
 CronId=Identificación
-CronModuleHelp=Nombre del directorio del módulo Powererp (también funciona con el módulo Powererp externo). <BR> Por ejemplo, para llamar al método de búsqueda de Powererp Product object / htdocs /<u> product </u> /class/product.class.php, el valor del módulo es <br><i>product</i>
-CronClassFileHelp=La ruta relativa y el nombre del archivo a cargar (la ruta es relativa al directorio raíz del servidor web). <BR> Por ejemplo, para llamar al método de recuperación del objeto de producto Powererp htdocs/product/class/ <u> product.class.php </u>, el valor para el nombre del archivo de clase es <br><i>product/class/product.class.php</i>
-CronObjectHelp=El nombre del objeto a cargar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto Powererp /htdocs/product/class/product.class.php, el valor del nombre del archivo de clase es <br> <i> Producto </i>
-CronMethodHelp=El método de objeto para iniciar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto Powererp /htdocs/product/class/product.class.php, el valor del método es <br> <i> fetch </i>
-CronArgsHelp=Los argumentos del método. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto Powererp /htdocs/product/class/product.class.php, el valor de los parámetros puede ser <br> <i>0, ProductRef</i>
+CronModuleHelp=Nombre del directorio del módulo PowerERP (también funciona con el módulo PowerERP externo). <BR> Por ejemplo, para llamar al método de búsqueda de PowerERP Product object / htdocs /<u> product </u> /class/product.class.php, el valor del módulo es <br><i>product</i>
+CronClassFileHelp=La ruta relativa y el nombre del archivo a cargar (la ruta es relativa al directorio raíz del servidor web). <BR> Por ejemplo, para llamar al método de recuperación del objeto de producto PowerERP htdocs/product/class/ <u> product.class.php </u>, el valor para el nombre del archivo de clase es <br><i>product/class/product.class.php</i>
+CronObjectHelp=El nombre del objeto a cargar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto PowerERP /htdocs/product/class/product.class.php, el valor del nombre del archivo de clase es <br> <i> Producto </i>
+CronMethodHelp=El método de objeto para iniciar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto PowerERP /htdocs/product/class/product.class.php, el valor del método es <br> <i> fetch </i>
+CronArgsHelp=Los argumentos del método. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto PowerERP /htdocs/product/class/product.class.php, el valor de los parámetros puede ser <br> <i>0, ProductRef</i>
 CronCommandHelp=La línea de comando del sistema para ejecutar.
 CronCreateJob=Crear nuevo trabajo programado
 CronType=Tipo de empleo

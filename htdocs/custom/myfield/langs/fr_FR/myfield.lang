@@ -1,4 +1,4 @@
-# Powererp language file - fr_FR - myField
+# PowerERP language file - fr_FR - myField
 CHARSET=UTF-8
 ##ADMIN
 NothingToSetup=Activez le module pour accéder à la page de configuration
@@ -22,7 +22,7 @@ InfoChangeInputBackground=Permet de choisir un fond personnalisé des zones de s
 
 ##ABOUT
 About=À propos
-Slogan=Développement, support et formation pour Powererp
+Slogan=Développement, support et formation pour PowerERP
 LienModules=Nos modules
 LienServices=Nos services
 LienDoc=Nos documentations
@@ -30,7 +30,7 @@ LienDolistore=Retrouvez nos autres modules
 Changelog=ChangeLog du module
 SupportModuleInformation=Informations techniques
 SupportModuleInformationDesc=<br/><em>Note : Ces informations sont utiles et pourront vous être demandées si vous rencontrez un bug dans le fonctionnement du module.</em>
-PowererpVersion=Version de Powererp
+PowererpVersion=Version de PowerERP
 ModuleVersion=Version du module
 PHPVersion=Version de PHP
 DatabaseVersion=Version de la base de données
@@ -45,7 +45,7 @@ Module160211Desc=Personnalisation des champs, onglets et menus
 TypeOfMyField=Type de myField
 Field=Champ d'une fiche
 Tabs=Onglet d'une fiche
-Menu=Menu Powererp
+Menu=Menu PowerERP
 myfield=MyField
 replacement=Remplacer par :
 author=Auteur

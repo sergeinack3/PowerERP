@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - multicurrency
+# PowerERP language file - Source file is en_US - multicurrency
 MultiCurrency=Multi-devise
 ErrorAddRateFail=Erreur lors de l'ajout du taux
 ErrorAddCurrencyFail=Erreur lors de l'ajout de la devise

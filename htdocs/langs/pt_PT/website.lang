@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Código
 WebsiteSetupDesc=Crie aqui os sites que você deseja usar. Em seguida, vá para o menu Websites para editá-los.
 DeleteWebsite=Eliminar site da Web
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Ver site da Web utilizando URLs de início
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Example to use in Apache virtual host setup:
 YouCanAlsoTestWithPHPS=<u> Usar com servidor embutido em PHP </ u> <br> No ambiente de desenvolvimento, você pode preferir testar o site com o servidor da Web incorporado em PHP (requer PHP 5.5) executando <strong> php -S 0.0. 0,0: 8080 -t %s </ strong>
-YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another Powererp Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another Powererp instance provided by another Powererp hosting provider that provide full integration with the Website module. You can find a list of some Powererp hosting providers on <a href="https://saas.powererp.org" target="_blank">https://saas.powererp.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another PowerERP Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another PowerERP instance provided by another PowerERP hosting provider that provide full integration with the Website module. You can find a list of some PowerERP hosting providers on <a href="https://saas.PowerERP.org" target="_blank">https://saas.PowerERP.org</a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Ler
 WritePerm=Escrever
 TestDeployOnWeb=Test/deploy on web
 PreviewSiteServedByWebServer=<u> Pré-visualize %s num novo separador. </ u> <br> <br> O %s será servido por um servidor Web externo (como Apache, Nginx, IIS). Você deve instalar e configurar este servidor antes de apontar para o diretório: <br> <strong> %s </ strong> <br> URL fornecida pelo servidor externo: <br> <strong> %s </ strong>
-PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Powererp server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Powererp.<br>URL served by Powererp:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
+PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by PowerERP server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your PowerERP.<br>URL served by PowerERP:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
 VirtualHostUrlNotDefined=URL do host virtual servido pelo servidor da web externo não definido
 NoPageYet=Ainda sem páginas
 YouCanCreatePageOrImportTemplate=Você pode criar uma nova página ou importar um modelo de site completo

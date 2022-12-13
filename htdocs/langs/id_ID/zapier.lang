@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForPowererpName = Zapier untuk Powererp
-ModuleZapierForPowererpDesc = Zapier untuk modul Powererp
-ZapierForPowererpSetup=Pengaturan Zapier untuk Powererp
+ModuleZapierForPowererpName = Zapier untuk PowerERP
+ModuleZapierForPowererpDesc = Zapier untuk modul PowerERP
+ZapierForPowererpSetup=Pengaturan Zapier untuk PowerERP
 ZapierDescription=Antarmuka dengan Zapier
 ZapierAbout=Tentang modul Zapier
-ZapierSetupPage=Tidak perlu pengaturan di sisi Powererp untuk menggunakan Zapier. Namun, Anda harus membuat dan memublikasikan paket di zapier agar dapat menggunakan Zapier dengan Powererp. Lihat dokumentasi di <a href="https://wiki.powererp.org/index.php/Module_Zapier"> halaman wiki ini </a> .
+ZapierSetupPage=Tidak perlu pengaturan di sisi PowerERP untuk menggunakan Zapier. Namun, Anda harus membuat dan memublikasikan paket di zapier agar dapat menggunakan Zapier dengan PowerERP. Lihat dokumentasi di <a href="https://wiki.PowerERP.org/index.php/Module_Zapier"> halaman wiki ini </a> .

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=N°. de documentos no diretório
 ECMSection=Pasta
 ECMSectionManual=Pasta manual
@@ -11,7 +11,7 @@ ECMNbOfSubDir=Número de subpastas
 ECMNbOfFilesInSubDir=Numero de arquivos nos subpastas
 ECMCreationUser=Criado por
 ECMArea=Área DMS / ECM
-ECMAreaDesc=A área DMS / ECM (Gerenciamento de documentos / Gerenciamento de conteúdo eletrônico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no Powererp.
+ECMAreaDesc=A área DMS / ECM (Gerenciamento de documentos / Gerenciamento de conteúdo eletrônico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no PowerERP.
 ECMAreaDesc2=* As pastas automáticas são geradas automaticamente quando algum arquivo é adicionado a algum ficheiro do sistema.<br>* As pastas manuais podem ser usados ​​para guardar documentos sem ligação a um cadastro do sistema.
 ECMSectionWasRemoved=A pasta <b>%s</b> foi eliminada
 ECMSearchByKeywords=Busca usando palavras chave

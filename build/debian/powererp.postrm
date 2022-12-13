@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for powererp
+# postrm script for PowerERP
 #
 # see: dh_installdeb(1)
 
@@ -20,26 +20,26 @@ set +e
 
 
 lighttpd_remove() {
-	if [ -f /etc/lighttpd/conf-available/50-powererp.conf ] ; then
+	if [ -f /etc/lighttpd/conf-available/50-PowerERP.conf ] ; then
 		echo "postrm Remove link for Lighttpd config file"
-		rm -f /etc/lighttpd/conf-available/50-powererp.conf
+		rm -f /etc/lighttpd/conf-available/50-PowerERP.conf
 		if which lighty-enable-mod >/dev/null 2>&1 ; then
-			lighty-disable-mod powererp
+			lighty-disable-mod PowerERP
 		else
 			echo "postrm Lighttpd not installed, skipping"
 		fi
 		# See bug #448682
-		if [ -h /etc/lighttpd/conf-enabled/50-powererp.conf ] ; then
-		    echo "postrm Manually deleting lighttpd/powererp configuration link"
-		    rm /etc/lighttpd/conf-enabled/50-powererp.conf
+		if [ -h /etc/lighttpd/conf-enabled/50-PowerERP.conf ] ; then
+		    echo "postrm Manually deleting lighttpd/PowerERP configuration link"
+		    rm /etc/lighttpd/conf-enabled/50-PowerERP.conf
 		fi
 	fi
 }
 
 apache_remove() {
-	if [ -d /etc/$webserver/conf.d ] && [ -L /etc/$webserver/conf.d/powererp.conf ]; then
+	if [ -d /etc/$webserver/conf.d ] && [ -L /etc/$webserver/conf.d/PowerERP.conf ]; then
 		echo "postrm Remove link for Apache config file"
-		rm -f /etc/$webserver/conf.d/powererp.conf
+		rm -f /etc/$webserver/conf.d/PowerERP.conf
 	fi
 }
 
@@ -51,11 +51,11 @@ fi
 
 db_version 2.0
 
-echo Run the powererp postrm script
+echo Run the PowerERP postrm script
 
 
-docdir='/var/lib/powererp/documents'
-config="/etc/powererp/conf.php"
+docdir='/var/lib/PowerERP/documents'
+config="/etc/PowerERP/conf.php"
 lockfile="$docdir/install.lock"
 
 
@@ -73,7 +73,7 @@ case "$1" in
 		rm -f $lockfile
 
 		# Reconfigure web server
-		db_get powererp/reconfigure-webserver
+		db_get PowerERP/reconfigure-webserver
 
 		webservers="$RET"
 
@@ -102,14 +102,14 @@ case "$1" in
 		echo "postrm purge"
 
 		# Ask if we must delete database
-		echo "postrm db_input powererp/postrm"
-		db_input critical powererp/postrm || true
+		echo "postrm db_input PowerERP/postrm"
+		db_input critical PowerERP/postrm || true
 		db_go || true
 
-		echo "postrm db_get powererp/postrm"
+		echo "postrm db_get PowerERP/postrm"
 		# We disable set -e to avoid premature end of script if error
 		set +e
-		db_get powererp/postrm
+		db_get PowerERP/postrm
 		set -e
 	
 		if [ "$RET" = "true" ] ; then
@@ -118,7 +118,7 @@ case "$1" in
 			dbserver="localhost"
 			dbuser="powererpdebian"
 			dbname="powererpdebian"
-			#db_get "powererp/db/name"
+			#db_get "PowerERP/db/name"
 			#dbname="$RET"
 			superuserlogin=''
 			superuserpassword=''
@@ -216,15 +216,15 @@ case "$1" in
 		    rm -rf $docdir ; 
  
 		else
-			echo "postrm Delete of powererp database and uploaded files not wanted" 
+			echo "postrm Delete of PowerERP database and uploaded files not wanted" 
 		fi
 	
-		rm -rf /etc/powererp
+		rm -rf /etc/PowerERP
 
 		# We clean variable (we ignore errors because db_reset can fails if var was never set)
         set +e
-		db_reset powererp/reconfigure-webserver
-		db_reset powererp/postrm
+		db_reset PowerERP/reconfigure-webserver
+		db_reset PowerERP/postrm
         set -e
 
 		#db_purge

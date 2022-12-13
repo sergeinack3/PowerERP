@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 SendNewPasswordLink=Stuur link voor wachtwoord reset
 ConfirmDisableUser=Weet u zeker dat u de toegang voor gebruiker <b>%s</b> wilt uitschakelen?
 ConfirmDeleteUser=Weet u zeker dat u gebruiker <b>%s</b> wilt verwijderen?
@@ -11,8 +11,8 @@ ConfirmPasswordReset=Bevestig wachtwoord opnieuw instellen
 LastGroupsCreated=Nieuwste %s groepen gemaakt
 LastUsersCreated=Laatste %s gemaakte gebruikers
 CreatePowererpThirdParty=Maak Derden
-CreateInternalUserDesc=Met dit formulier kunt u een interne gebruiker in uw bedrijf / organisatie maken. Om een externe gebruiker (klant, leverancier enz.) Aan te maken, gebruikt u de knop 'Maak Powererp Gebruiker aan' van de contactkaart van die partij.
-ConfirmCreateContact=Weet u zeker dat u een Powererp account wilt maken voor deze contactpersoon?
+CreateInternalUserDesc=Met dit formulier kunt u een interne gebruiker in uw bedrijf / organisatie maken. Om een externe gebruiker (klant, leverancier enz.) Aan te maken, gebruikt u de knop 'Maak PowerERP Gebruiker aan' van de contactkaart van die partij.
+ConfirmCreateContact=Weet u zeker dat u een PowerERP account wilt maken voor deze contactpersoon?
 ConfirmCreateThirdParty=Weet u zeker dat u een 'derde' wilt maken voor dit lid?
 UserAccountancyCode=Gebruikers boekhoudingscode
 UserLogoff=Gebruiker logout

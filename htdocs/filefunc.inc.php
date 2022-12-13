@@ -31,7 +31,7 @@
  */
 
 if (!defined('DOL_APPLICATION_TITLE')) {
-	define('DOL_APPLICATION_TITLE', 'Powererp');
+	define('DOL_APPLICATION_TITLE', 'PowerERP');
 }
 if (!defined('DOL_VERSION')) {
 	define('DOL_VERSION', '15.0.2'); // a.b.c-alpha, a.b.c-beta, a.b.c-rcX or a.b.c
@@ -65,16 +65,16 @@ if (defined('DOL_INC_FOR_VERSION_ERROR')) {
 // Define vars
 $conffiletoshowshort = "conf.php";
 // Define localization of conf file
-// --- Start of part replaced by Powererp packager makepack-powererp
+// --- Start of part replaced by PowerERP packager makepack-PowerERP
 $conffile = "conf/conf.php";
 $conffiletoshow = "htdocs/conf/conf.php";
 // For debian/redhat like systems
-//$conffile = "/etc/powererp/conf.php";
-//$conffiletoshow = "/etc/powererp/conf.php";
+//$conffile = "/etc/PowerERP/conf.php";
+//$conffiletoshow = "/etc/PowerERP/conf.php";
 
 
 // Include configuration
-// --- End of part replaced by Powererp packager makepack-powererp
+// --- End of part replaced by PowerERP packager makepack-PowerERP
 
 
 // Include configuration
@@ -82,13 +82,13 @@ $result = @include_once $conffile; // Keep @ because with some error reporting t
 
 if (!$result && !empty($_SERVER["GATEWAY_INTERFACE"])) {    // If install not done and we are in a web session
 	if (!empty($_SERVER["CONTEXT_PREFIX"])) {    // CONTEXT_PREFIX and CONTEXT_DOCUMENT_ROOT are not defined on all apache versions
-		$path = $_SERVER["CONTEXT_PREFIX"]; // example '/powererp/' when using an apache alias.
+		$path = $_SERVER["CONTEXT_PREFIX"]; // example '/PowerERP/' when using an apache alias.
 		if (!preg_match('/\/$/', $path)) {
 			$path .= '/';
 		}
 	} elseif (preg_match('/index\.php/', $_SERVER['PHP_SELF'])) {
 		// When we ask index.php, we MUST BE SURE that $path is '' at the end. This is required to make install process
-		// when using apache alias like '/powererp/' that point to htdocs.
+		// when using apache alias like '/PowerERP/' that point to htdocs.
 		// Note: If calling page was an index.php not into htdocs (ie comm/index.php, ...), then this redirect will fails,
 		// but we don't want to change this because when URL is correct, we must be sure the redirect to install/index.php will be correct.
 		$path = '';
@@ -103,7 +103,7 @@ if (!$result && !empty($_SERVER["GATEWAY_INTERFACE"])) {    // If install not do
 			if (empty($TDir[$i]) || $TDir[$i] == 'htdocs') {
 				break;
 			}
-			if ($TDir[$i] == 'powererp') {
+			if ($TDir[$i] == 'PowerERP') {
 				break;
 			}
 			if (substr($TDir[$i], -4, 4) == '.php') {
@@ -118,7 +118,7 @@ if (!$result && !empty($_SERVER["GATEWAY_INTERFACE"])) {    // If install not do
 	exit;
 }
 
-// Force PHP error_reporting setup (Powererp may report warning without this)
+// Force PHP error_reporting setup (PowerERP may report warning without this)
 if (!empty($powererp_strict_mode)) {
 	error_reporting(E_ALL | E_STRICT);
 } else {
@@ -179,8 +179,8 @@ if (empty($powererp_strict_mode)) {
 define('DOL_DOCUMENT_ROOT', $powererp_main_document_root); // Filesystem core php (htdocs)
 
 if (!file_exists(DOL_DOCUMENT_ROOT."/core/lib/functions.lib.php")) {
-	print "Error: Powererp config file content seems to be not correctly defined.<br>\n";
-	print "Please run powererp setup by calling page <b>/install</b>.<br>\n";
+	print "Error: PowerERP config file content seems to be not correctly defined.<br>\n";
+	print "Please run PowerERP setup by calling page <b>/install</b>.<br>\n";
 	exit;
 }
 
@@ -192,7 +192,7 @@ include_once DOL_DOCUMENT_ROOT.'/core/lib/security.lib.php';
 
 
 // Security: CSRF protection
-// This test check if referrer ($_SERVER['HTTP_REFERER']) is same web site than Powererp ($_SERVER['HTTP_HOST'])
+// This test check if referrer ($_SERVER['HTTP_REFERER']) is same web site than PowerERP ($_SERVER['HTTP_HOST'])
 // when we post forms (we allow GET and HEAD to accept direct link from a particular page).
 // Note about $_SERVER[HTTP_HOST/SERVER_NAME]: http://shiflett.org/blog/2006/mar/server-name-versus-http-host
 // See also CSRF protections done into main.inc.php
@@ -220,13 +220,13 @@ if (!defined('NOCSRFCHECK') && empty($powererp_nocsrfcheck)) {
 	// Another test is done later on token if option MAIN_SECURITY_CSRF_WITH_TOKEN is on.
 }
 if (empty($powererp_main_db_host) && !defined('NOREQUIREDB')) {
-	print '<div class="center">Powererp setup is not yet complete.<br><br>'."\n";
-	print '<a href="install/index.php">Click here to finish Powererp install process</a> ...</div>'."\n";
+	print '<div class="center">PowerERP setup is not yet complete.<br><br>'."\n";
+	print '<a href="install/index.php">Click here to finish PowerERP install process</a> ...</div>'."\n";
 	die;
 }
 if (empty($powererp_main_url_root) && !defined('NOREQUIREVIRTUALURL')) {
 	print 'Value for parameter \'powererp_main_url_root\' is not defined in your \'htdocs\conf\conf.php\' file.<br>'."\n";
-	print 'You must add this parameter with your full Powererp root Url (Example: http://myvirtualdomain/ or http://mydomain/mypowererpurl/)'."\n";
+	print 'You must add this parameter with your full PowerERP root Url (Example: http://myvirtualdomain/ or http://mydomain/mypowererpurl/)'."\n";
 	die;
 }
 
@@ -247,13 +247,13 @@ define('DOL_DATA_ROOT', $powererp_main_data_root); // Filesystem data (documents
 // Note: autodetect works only in case 1, 2, 3 and 4 of phpunit test CoreTest.php. For case 5, 6, only setting value into conf.php will works.
 $tmp = '';
 $found = 0;
-$real_powererp_main_document_root = str_replace('\\', '/', realpath($powererp_main_document_root)); // A) Value found into config file, to say where are store htdocs files. Ex: C:/xxx/powererp, C:/xxx/powererp/htdocs
+$real_powererp_main_document_root = str_replace('\\', '/', realpath($powererp_main_document_root)); // A) Value found into config file, to say where are store htdocs files. Ex: C:/xxx/PowerERP, C:/xxx/PowerERP/htdocs
 if (!empty($_SERVER["DOCUMENT_ROOT"])) {
-	$pathroot = $_SERVER["DOCUMENT_ROOT"]; // B) Value reported by web server setup (not defined on CLI mode), to say where is root of web server instance. Ex: C:/xxx/powererp, C:/xxx/powererp/htdocs
+	$pathroot = $_SERVER["DOCUMENT_ROOT"]; // B) Value reported by web server setup (not defined on CLI mode), to say where is root of web server instance. Ex: C:/xxx/PowerERP, C:/xxx/PowerERP/htdocs
 } else {
 	$pathroot = 'NOTDEFINED';
 }
-$paths = explode('/', str_replace('\\', '/', $_SERVER["SCRIPT_NAME"])); // C) Value reported by web server, to say full path on filesystem of a file. Ex: /powererp/htdocs/admin/system/phpinfo.php
+$paths = explode('/', str_replace('\\', '/', $_SERVER["SCRIPT_NAME"])); // C) Value reported by web server, to say full path on filesystem of a file. Ex: /PowerERP/htdocs/admin/system/phpinfo.php
 // Try to detect if $_SERVER["DOCUMENT_ROOT"]+start of $_SERVER["SCRIPT_NAME"] is $powererp_main_document_root. If yes, relative url to add before dol files is this start part.
 $concatpath = '';
 foreach ($paths as $tmppath) {	// We check to find (B+start of C)=A
@@ -281,13 +281,13 @@ if (!$found) {
 if (!empty($powererp_main_force_https)) {
 	$tmp = preg_replace('/^http:/i', 'https:', $tmp);
 }
-define('DOL_MAIN_URL_ROOT', $tmp); // URL absolute root (https://sss/powererp, ...)
+define('DOL_MAIN_URL_ROOT', $tmp); // URL absolute root (https://sss/PowerERP, ...)
 $uri = preg_replace('/^http(s?):\/\//i', '', constant('DOL_MAIN_URL_ROOT')); // $uri contains url without http*
 $suburi = strstr($uri, '/'); // $suburi contains url without domain:port
 if ($suburi == '/') {
 	$suburi = ''; // If $suburi is /, it is now ''
 }
-define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/powererp', ...)
+define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/PowerERP', ...)
 
 //print DOL_MAIN_URL_ROOT.'-'.DOL_URL_ROOT."\n";
 

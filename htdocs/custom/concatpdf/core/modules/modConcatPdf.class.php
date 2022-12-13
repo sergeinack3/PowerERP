@@ -25,13 +25,13 @@
  *       \brief      Description and activation file for module concatpdf
  */
 
-include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowererpModules.class.php");
+include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowerERPModules.class.php");
 
 
 /**
  * 	Description and activation class for module concatpdf
  */
-class modConcatPdf extends PowererpModules
+class modConcatPdf extends PowerERPModules
 {
 
     /**
@@ -55,7 +55,7 @@ class modConcatPdf extends PowererpModules
 		$this->description = "Concat on or several PDFs found into a directory to the generated PDF files (proposals, orders, invoices)";
         $this->editor_name = 'NLTechno';
         $this->editor_url = 'https://www.nltechno.com';
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = '6.0.2';
 		// Key used in llx_const table to save module status enabled/disabled (XXX is id value)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -87,7 +87,7 @@ class modConcatPdf extends PowererpModules
 		$this->depends = array();		// List of modules id that must be enabled if this module is enabled
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
         $this->phpmin = array(4,3);                 // Minimum version of PHP required by module
-        $this->need_powererp_version = array(8,0,-3);  // Minimum version of Powererp required by module
+        $this->need_powererp_version = array(8,0,-3);  // Minimum version of PowerERP required by module
         $this->langfiles = array("concatpdf@concatpdf");
 
         // Constants
@@ -134,7 +134,7 @@ class modConcatPdf extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -149,7 +149,7 @@ class modConcatPdf extends PowererpModules
 
 	/**
 	 *		Function called when module is disabled.
-	 *      Remove from database constants, boxes and permissions from Powererp database.
+	 *      Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

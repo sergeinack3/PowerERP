@@ -239,7 +239,7 @@ if (GETPOST('action', 'aZ09') == 'gotodemo') {     // Action run when we click o
 
 $head = '';
 $head .= '<meta name="keywords" content="demo,online,demonstration,example,test,erp,crm,demos,web">'."\n";
-$head .= '<meta name="description" content="Powererp ERP and CRM demo. You can test here several profiles for Powererp ERP and CRM demonstration.">'."\n";
+$head .= '<meta name="description" content="PowerERP ERP and CRM demo. You can test here several profiles for PowerERP ERP and CRM demonstration.">'."\n";
 
 $head .= '
 <script type="text/javascript">
@@ -275,7 +275,7 @@ print "\n";
 
 print '<div class="demoban demobackground">';
 print '<div class="right" style="padding-right: 30px; padding-top: 30px;">';
-print '<a alt="Official portal of your ERP CRM application" targe="_blank" href="https://www.powererp.org?utm_medium=website&utm_source=demo"><img class="demologo" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" alt="Powererp logo"></a>';
+print '<a alt="Official portal of your ERP CRM application" targe="_blank" href="https://www.PowerERP.org?utm_medium=website&utm_source=demo"><img class="demologo" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" alt="PowerERP logo"></a>';
 print '</div>';
 print '</div>';
 
@@ -300,7 +300,7 @@ foreach ($demoprofiles as $profilearray) {
 
 		$url = $_SERVER["PHP_SELF"].'?action=gotodemo';
 		$urlwithmod = $url.'&amp;demochoice='.$profilearray['key'];
-		// Should work with DOL_URL_ROOT='' or DOL_URL_ROOT='/powererp'
+		// Should work with DOL_URL_ROOT='' or DOL_URL_ROOT='/PowerERP'
 		//print "xx".$_SERVER["PHP_SELF"].' '.DOL_URL_ROOT.'<br>';
 
 		$urlfrom = preg_replace('/^'.preg_quote(DOL_URL_ROOT, '/').'/i', '', $_SERVER["PHP_SELF"]);
@@ -329,7 +329,7 @@ foreach ($demoprofiles as $profilearray) {
 		print '<input type="hidden" name="dol_no_mouse_hover" value="'.$conf->dol_no_mouse_hover.'">'."\n";
 		print '<input type="hidden" name="dol_use_jmobile" value="'.$conf->dol_use_jmobile.'">'."\n";
 
-		print '<div id="div'.$profilearray['key'].'" summary="Powererp online demonstration for profile '.$profilearray['label'].'" class="center inline-block CTable CTableRow'.($i % 2 == 0 ? '1' : '0').'">'."\n";
+		print '<div id="div'.$profilearray['key'].'" summary="PowerERP online demonstration for profile '.$profilearray['label'].'" class="center inline-block CTable CTableRow'.($i % 2 == 0 ? '1' : '0').'">'."\n";
 
 
 		print '<div id="a1'.$profilearray['key'].'" class="demobox '.(empty($profilearray['url']) ? 'modulelineshow cursorpointer' : 'nomodulelines').'">';

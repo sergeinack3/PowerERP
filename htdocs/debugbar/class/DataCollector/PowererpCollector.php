@@ -18,7 +18,7 @@ class PowererpCollector extends DataCollector implements Renderable, AssetProvid
 	 */
 	public function getName()
 	{
-		return 'powererp';
+		return 'PowerERP';
 	}
 
 	/**
@@ -52,7 +52,7 @@ class PowererpCollector extends DataCollector implements Renderable, AssetProvid
 	}
 
 	/**
-	 *	Return powererp info as an HTML string
+	 *	Return PowerERP info as an HTML string
 	 *
 	 * @return string      HTML string
 	 */

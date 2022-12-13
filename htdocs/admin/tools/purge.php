@@ -97,7 +97,7 @@ if (!empty($conf->syslog->enabled)) {
 	print '<input type="radio" name="choice" id="choicelogfile" value="logfile"';
 	print ($choice && $choice == 'logfile') ? ' checked' : '';
 	$filelogparam = $filelog;
-	if ($user->admin && preg_match('/^powererp.*\.log$/', basename($filelog))) {
+	if ($user->admin && preg_match('/^PowerERP.*\.log$/', basename($filelog))) {
 		$filelogparam = '<a class="wordbreak" href="'.DOL_URL_ROOT.'/document.php?modulepart=logs&file=';
 		$filelogparam .= basename($filelog);
 		$filelogparam .= '">'.$filelog.'</a>';

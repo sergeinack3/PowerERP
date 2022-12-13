@@ -75,7 +75,7 @@ if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 } else {
 	$titleofloginpage = $langs->trans('Login');
 }
-$titleofloginpage .= ' @ '.$titletruepowererpversion; // $titletruepowererpversion is defined by dol_loginfunction in security2.lib.php. We must keep the @, some tools use it to know it is login page and find true powererp version.
+$titleofloginpage .= ' @ '.$titletruepowererpversion; // $titletruepowererpversion is defined by dol_loginfunction in security2.lib.php. We must keep the @, some tools use it to know it is login page and find true PowerERP version.
 
 $disablenofollow = 1;
 if (!preg_match('/'.constant('DOL_APPLICATION_TITLE').'/', $title)) {
@@ -147,7 +147,7 @@ $(document).ready(function () {
 <div class="login_table_title center" title="<?php echo dol_escape_htmltag($title); ?>">
 <?php
 if ($disablenofollow) {
-	echo '<a class="login_table_title" href="https://www.powererp.org" target="_blank" rel="noopener noreferrer external">';
+	echo '<a class="login_table_title" href="https://www.PowerERP.org" target="_blank" rel="noopener noreferrer external">';
 }
 echo dol_escape_htmltag($title);
 if ($disablenofollow) {

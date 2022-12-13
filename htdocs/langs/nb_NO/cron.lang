@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Les planlagt jobb
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Deaktiver
 CronTaskInactive=Denne jobben er deaktivert (ikke planlagt)
 CronId=ID
 CronClassFile=Filnavn med klasse
-CronModuleHelp=Navn på Powererp-modulkatalog (også arbeid med ekstern Powererp-modul). <BR> For eksempel å kalle hentmetoden for Powererp Produkt objektet /htdocs/<u>product</u>/class/product.class.php, er verdien for modulen <br><i> produkt </i>
-CronClassFileHelp=Den relative banen og filnavnet som skal lastes (banen er i forhold til webserverens rotkatalog). <BR> For eksempel for å kalle hentmetoden for Powererp Produkt-objekt htdocs/product/class/ <u> product.class.php </u>, er verdien for klassen filnavn <br><i> produkt/klasse/product.class.php</i>
-CronObjectHelp=Objektnavnet som skal lastes inn. <BR> For eksempel for å kalle hentmetoden for Powererp Product-objektet /htdocs/product/class/product.class.php, er verdien for klassefilenavnet <br> <i> Produkt </i>
-CronMethodHelp=Objektmetoden å kjøre. <BR> For eksempel å kalle hentmetoden for Powererp Product-objektet /htdocs/product/class/product.class.php, er verdien for metoden <br> <i> hent </i>
-CronArgsHelp=Metoden argumenter. <BR> For eksempel for å kalle hentemetoden for Powererp Product-objektet /htdocs/product/class/product.class.php, kan verdien for paramters være<br> <i> 0, ProductRef </i>
+CronModuleHelp=Navn på PowerERP-modulkatalog (også arbeid med ekstern PowerERP-modul). <BR> For eksempel å kalle hentmetoden for PowerERP Produkt objektet /htdocs/<u>product</u>/class/product.class.php, er verdien for modulen <br><i> produkt </i>
+CronClassFileHelp=Den relative banen og filnavnet som skal lastes (banen er i forhold til webserverens rotkatalog). <BR> For eksempel for å kalle hentmetoden for PowerERP Produkt-objekt htdocs/product/class/ <u> product.class.php </u>, er verdien for klassen filnavn <br><i> produkt/klasse/product.class.php</i>
+CronObjectHelp=Objektnavnet som skal lastes inn. <BR> For eksempel for å kalle hentmetoden for PowerERP Product-objektet /htdocs/product/class/product.class.php, er verdien for klassefilenavnet <br> <i> Produkt </i>
+CronMethodHelp=Objektmetoden å kjøre. <BR> For eksempel å kalle hentmetoden for PowerERP Product-objektet /htdocs/product/class/product.class.php, er verdien for metoden <br> <i> hent </i>
+CronArgsHelp=Metoden argumenter. <BR> For eksempel for å kalle hentemetoden for PowerERP Product-objektet /htdocs/product/class/product.class.php, kan verdien for paramters være<br> <i> 0, ProductRef </i>
 CronCommandHelp=System kommandolinje som skal kjøres
 CronCreateJob=Opprett ny planlagt jobb
 CronFrom=Fra

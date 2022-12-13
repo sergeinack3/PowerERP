@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Säkerhetskod
 NumberingShort=N °
 Tools=Verktyg
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hej)__\n\nVänligen hitta intervention __R
 PredefinedMailContentLink=Du kan klicka på länken nedan för att göra din betalning om den inte redan är klar.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hej)__\n\n\n__(Vänliga hälsningar)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Händelsepåminnelse "__EVENT_LABEL__" den __EVENT_DATE__ kl __EVENT_TIME__<br><br>Detta är ett automatiskt meddelande, det går inte att besvara.
-DemoDesc=Powererp är en kompakt ERP / CRM som stöder flera affärsmoduler. En demo som visar alla moduler ger ingen mening eftersom detta scenario aldrig uppstår (flera hundra tillgängliga). Det finns därför flera demoprofiler tillgängliga.
+DemoDesc=PowerERP är en kompakt ERP / CRM som stöder flera affärsmoduler. En demo som visar alla moduler ger ingen mening eftersom detta scenario aldrig uppstår (flera hundra tillgängliga). Det finns därför flera demoprofiler tillgängliga.
 ChooseYourDemoProfil=Välj den demoprofil som bäst passar dina behov ...
 ChooseYourDemoProfilMore=... eller bygg din egen profil <br> (manuellt modulval)
 DemoFundation=Hantera medlemmar av en stiftelse
@@ -182,10 +182,10 @@ SizeUnitpoint=poäng
 BugTracker=Bug tracker
 SendNewPasswordDesc=Denna blankett låter dig begära ett nytt lösenord. Den skickas till din e-postadress. <br> Ändringen kommer att träda i kraft när du klickar på länken för bekräftelse i e-postmeddelandet. <br> Kontrollera din inkorg.
 BackToLoginPage=Tillbaka till inloggningssidan
-AuthenticationDoesNotAllowSendNewPassword=Autentiseringsläge är <b>%s.</b> <br> I detta läge kan Powererp vet inte heller ändra ditt lösenord. <br> Kontakta systemadministratören om du vill ändra ditt lösenord.
+AuthenticationDoesNotAllowSendNewPassword=Autentiseringsläge är <b>%s.</b> <br> I detta läge kan PowerERP vet inte heller ändra ditt lösenord. <br> Kontakta systemadministratören om du vill ändra ditt lösenord.
 EnableGDLibraryDesc=Installera eller aktivera GD-biblioteket på din PHP-installation för att använda det här alternativet.
 ProfIdShortDesc=<b>Prof Id %s</b> är en information är beroende av tredje part land. <br> Till exempel för landets <b>%s,</b> det är kod <b>%s.</b>
-PowererpDemo=Powererp ERP / CRM-demo
+PowererpDemo=PowerERP ERP / CRM-demo
 StatsByNumberOfUnits=Statistik för summan av produkter / tjänster
 StatsByNumberOfEntities=Statistik för antalet valda typer (antal fakturor eller ordrar...)
 NumberOfProposals=Antal förslag

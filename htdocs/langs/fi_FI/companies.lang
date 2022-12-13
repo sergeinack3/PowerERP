@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Yrityksen nimi %s on jo olemassa. Valitse toinen.
 ErrorSetACountryFirst=Aseta ensin maa
 SelectThirdParty=Valitse sidosryhmä
@@ -378,7 +378,7 @@ CapitalOf=%s:n pääoma
 EditCompany=Muokkaa yritystä
 ThisUserIsNot=Tämä ei ole prospekti, asiakas tai toimittaja
 VATIntraCheck=Shekki
-VATIntraCheckDesc=ALV-tunnuksen täytyy sisältää maatunnus. Linkki <b>%s</b> käyttää European VAT checker service (VIES)  - palvelua ja tarvii internet-yhteyden Powererp-palvelimeen
+VATIntraCheckDesc=ALV-tunnuksen täytyy sisältää maatunnus. Linkki <b>%s</b> käyttää European VAT checker service (VIES)  - palvelua ja tarvii internet-yhteyden PowerERP-palvelimeen
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Tarkasta ALV-tunnus E.U: n sivuilta
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Prospektit tilan mukaan
 NoParentCompany=Ei mitään
 ExportCardToFormat=Vienti kortin muodossa
 ContactNotLinkedToCompany=Yhteystiedot eivät liity minkään kolmannen osapuolen
-PowererpLogin=Powererp sisäänkirjoittautumissivuksesi
-NoPowererpAccess=Ei Powererp pääsyä
+PowererpLogin=PowerERP sisäänkirjoittautumissivuksesi
+NoPowererpAccess=Ei PowerERP pääsyä
 ExportDataset_company_1=Sidosryhmät (yritykset, yhteisöt, ihmiset) ja niiden ominaisuudet
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Third-parties and their properties

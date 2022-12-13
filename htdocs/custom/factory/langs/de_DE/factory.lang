@@ -1,4 +1,4 @@
-# Powererp language file - de_DE - factory
+# PowerERP language file - de_DE - factory
 CHARSET=UTF-8
 NewOrderBuild=New Order Factory
 OrderBuild=Fertigungsauftrag
@@ -211,7 +211,7 @@ LienDolistore=Finden Sie unsere anderen Module
 Changelog=ChangeLog du Modul
 SupportModuleInformation=Technische Information
 SupportModuleInformationDesc=<br/> <em>Hinweis: Diese Information ist nützlich und kann angefordert werde
-PowererpVersion=Version de Powererp
+PowererpVersion=Version de PowerERP
 ModuleVersion=Modulversion
 PHPVersion=PHP-Version
 DatabaseVersion=Version der Datenbank
@@ -241,7 +241,7 @@ QtyOfWarehouse=Mengen im Lager
 RealStock=Stock Réel
 UseCostPriceInsteadPMP=Kaufpreis anstelle von PMP verwenden
 InfoUseCostPriceInsteadPMP=Verwenden Sie den Kaufprei
-ThisFeatureNeedPowererp39=Diese Funktion erfordert eine Version von powererp überlegen oder gleich der Version 3.9.0
+ThisFeatureNeedPowererp39=Diese Funktion erfordert eine Version von PowerERP überlegen oder gleich der Version 3.9.0
 ComponentsBuyingPrice=Erholung der Basiskomponentenpreise
 InfoComponentsBuyingPrice=Auswahl des Preise
 InfoServiceBuyingPrice=Auswahl des Preise

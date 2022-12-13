@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -201,7 +201,7 @@ class Widget extends ModeleBoxes
 	}
 
 	/**
-	 * Method to show box. Called by Powererp eatch time it wants to display the box.
+	 * Method to show box. Called by PowerERP eatch time it wants to display the box.
 	 *
 	 * @param   array   $head       Array with properties of box title
 	 * @param   array   $contents   Array with properties of box lines

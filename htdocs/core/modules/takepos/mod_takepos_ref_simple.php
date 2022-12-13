@@ -32,10 +32,10 @@ dol_include_once('/core/modules/takepos/modules_takepos.php');
 class mod_takepos_ref_simple extends ModeleNumRefTakepos
 {
 	/**
-	 * Powererp version of the loaded document 'development', 'experimental', 'powererp'
+	 * PowerERP version of the loaded document 'development', 'experimental', 'PowerERP'
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	/**
 	 * Prefix

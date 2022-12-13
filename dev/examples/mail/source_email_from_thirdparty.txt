@@ -3,7 +3,7 @@ Date: Thu, 12 Nov 2015 17:58:00 -0000
 From: Administrator <admin@yourcompany.example.com>
 MIME-Version: 1.0
 Message-ID: 5nLkUQEIn50FnlwxWDkh59NfLof1ode0uC5cZEgm9Y4=@mailhog.example
-Message-Id: <1447351080.369951963424683.576889035053436-powererp-7-thirdparty@PCHOME-LD>
+Message-Id: <1447351080.369951963424683.576889035053436-PowerERP-7-thirdparty@PCHOME-LD>
 Received: from pchome-ld by mailhog.example (Go-MailHog)
           id 5nLkUQEIn50FnlwxWDkh59NfLof1ode0uC5cZEgm9Y4=@mailhog.example; Thu, 12 Nov 2015 18:58:00 +0100
 Reply-To: Administrator <admin@yourcompany.example.com>

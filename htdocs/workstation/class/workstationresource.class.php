@@ -31,7 +31,7 @@ class WorkstationResource extends CommonObject
 	/** @var string $table_element Table name in SQL */
 	public $table_element = 'workstation_workstation_resource';
 
-	/** @var string $element Name of the element (tip for better integration in Powererp: this value should be the reflection of the class name with ucfirst() function) */
+	/** @var string $element Name of the element (tip for better integration in PowerERP: this value should be the reflection of the class name with ucfirst() function) */
 	public $element = 'workstationresource';
 
 	/**

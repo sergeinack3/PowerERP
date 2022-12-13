@@ -1420,9 +1420,9 @@ class EmailCollector extends CommonObject
 				$contactid = 0; $thirdpartyid = 0; $projectid = 0; $ticketid = 0;
 
 				// Analyze TrackId in field References. For example:
-				// References: <1542377954.SMTPs-powererp-thi649@8f6014fde11ec6cdec9a822234fc557e>
-				// References: <1542377954.SMTPs-powererp-tic649@8f6014fde11ec6cdec9a822234fc557e>
-				// References: <1542377954.SMTPs-powererp-abc649@8f6014fde11ec6cdec9a822234fc557e>
+				// References: <1542377954.SMTPs-PowerERP-thi649@8f6014fde11ec6cdec9a822234fc557e>
+				// References: <1542377954.SMTPs-PowerERP-tic649@8f6014fde11ec6cdec9a822234fc557e>
+				// References: <1542377954.SMTPs-PowerERP-abc649@8f6014fde11ec6cdec9a822234fc557e>
 				$trackid = '';
 				$objectid = 0;
 				$objectemail = null;
@@ -1435,8 +1435,8 @@ class EmailCollector extends CommonObject
 
 					foreach ($arrayofreferences as $reference) {
 						//print "Process mail ".$iforemailloop." email_msgid ".$msgid.", date ".dol_print_date($date, 'dayhour').", subject ".$subject.", reference ".dol_escape_htmltag($reference)."<br>\n";
-						if (preg_match('/powererp-([a-z]+)([0-9]+)@'.preg_quote($host, '/').'/', $reference, $reg)) {
-							// This is a Powererp reference
+						if (preg_match('/PowerERP-([a-z]+)([0-9]+)@'.preg_quote($host, '/').'/', $reference, $reg)) {
+							// This is a PowerERP reference
 							$trackid = $reg[1].$reg[2];
 
 							$objectid = $reg[2];
@@ -1665,7 +1665,7 @@ class EmailCollector extends CommonObject
 
 					// Make Operation
 					dol_syslog("Execute action ".$operation['type']." actionparam=".$operation['actionparam'].' thirdpartystatic->id='.$thirdpartystatic->id.' contactstatic->id='.$contactstatic->id.' projectstatic->id='.$projectstatic->id);
-					dol_syslog("Execute action fk_element_id=".$fk_element_id." fk_element_type=".$fk_element_type);	// If a Powererp tracker id is found, we should now the id of object
+					dol_syslog("Execute action fk_element_id=".$fk_element_id." fk_element_type=".$fk_element_type);	// If a PowerERP tracker id is found, we should now the id of object
 
 					$actioncode = 'EMAIL_IN';
 					// If we scan the Sent box, we use the code for out email

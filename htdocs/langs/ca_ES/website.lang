@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Codi
 WebsiteSetupDesc=Creeu aquí els llocs web que voleu utilitzar. A continuació, vagi a menú de llocs web per editar-los.
 DeleteWebsite=Elimina la pàgina web
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Mostra la pàgina web utilitzant les URLs d'inici
 SetHereVirtualHost=<u>Utilitzeu amb Apache/NGinx/...</u><br>Creeu al vostre servidor web (Apache, Nginx...) un Virtual Host dedicat amb PHP habilitat i un directori arrel a<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Exemple a utilitzar en la configuració de d'un Virtual Host d'Apache:
 YouCanAlsoTestWithPHPS=<u> Utilitzeu-lo amb el servidor incrustat de PHP </u> <br> Al desenvolupar l'entorn, és possible que preferiu provar el lloc amb el servidor web incrustat de PHP (requereix PHP 5.5) executant<br> <strong> php -S 0.0. 0.0: 8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP= <u> Executeu el vostre lloc web amb un altre proveïdor d'allotjament Powererp </u> <br> Si no teniu un servidor web com Apache o NGinx disponible a Internet, podeu exportar i importar el vostre lloc web a una altra instància d'allotjament Powererp proporcionada per una altra instància d'allotjament Powererp proporcionada per un altre servidor Dolibar complet. integració amb el mòdul del lloc web. Podeu trobar una llista d'alguns proveïdors d'allotjament de Powererp a <a href="https://saas.powererp.org" target="_blank" rel="noopener noreferrer external"> https://saas.powererp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Executeu el vostre lloc web amb un altre proveïdor d'allotjament PowerERP </u> <br> Si no teniu un servidor web com Apache o NGinx disponible a Internet, podeu exportar i importar el vostre lloc web a una altra instància d'allotjament PowerERP proporcionada per una altra instància d'allotjament PowerERP proporcionada per un altre servidor Dolibar complet. integració amb el mòdul del lloc web. Podeu trobar una llista d'alguns proveïdors d'allotjament de PowerERP a <a href="https://saas.PowerERP.org" target="_blank" rel="noopener noreferrer external"> https://saas.PowerERP.org </a>
 CheckVirtualHostPerms=Comproveu també que l'usuari del VIRTUAL HOST (per exemple www-data) té permisos <strong>%s</strong> sobre els fitxers a <br><strong>%s</strong>
 ReadPerm=Llegit
 WritePerm=Escriu
 TestDeployOnWeb=Prova / implantació a la web
 PreviewSiteServedByWebServer=<LI>Vista prèvia %s en una nova pestanya.</LI><br><br>El %s serà servit per un servidor web extern (com ara Apache, Nginx, IIS). Heu d'instal·lar i configurar aquest servidor abans d'apuntar al directori:<br><strong>%s</strong><br> URL servit per un servidor extern:<br><strong>%s</strong><br>
-PreviewSiteServedByPowererp=<u> Previsualitza %s en una nova pestanya. </u><br> <br> El %s serà servit pel servidor Powererp així que no cal instal·lar cap servidor web addicional (com ara Apache, Nginx, IIS).<br>L'inconvenient és que l'URL de les pàgines no són amigables i comencen per la ruta del vostre Powererp. <br>URL servit per Powererp:<br><strong> %s </strong> <br> <br> Per a utilitzar el vostre propi servidor web extern per a servir aquest lloc web, creeu un VIRTUALHOST al vostre servidor web que apunti al directori<br><strong> %s </strong><br>, llavors introduïu el nom d'aquest servidor virtual i feu clic a l'enllaç "Provar/Desplegar a la web".
+PreviewSiteServedByPowererp=<u> Previsualitza %s en una nova pestanya. </u><br> <br> El %s serà servit pel servidor PowerERP així que no cal instal·lar cap servidor web addicional (com ara Apache, Nginx, IIS).<br>L'inconvenient és que l'URL de les pàgines no són amigables i comencen per la ruta del vostre PowerERP. <br>URL servit per PowerERP:<br><strong> %s </strong> <br> <br> Per a utilitzar el vostre propi servidor web extern per a servir aquest lloc web, creeu un VIRTUALHOST al vostre servidor web que apunti al directori<br><strong> %s </strong><br>, llavors introduïu el nom d'aquest servidor virtual i feu clic a l'enllaç "Provar/Desplegar a la web".
 VirtualHostUrlNotDefined=No s'ha definit l'URL de l'amfitrió virtual servit per un servidor web extern
 NoPageYet=Encara sense pàgines
 YouCanCreatePageOrImportTemplate=Podeu crear una pàgina nova o importar una plantilla completa del lloc web

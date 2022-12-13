@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = خواندن وظایف زمان‌بندی‌شده
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=غیرفعال‌کردن
 CronTaskInactive=This job is disabled (not scheduled)
 CronId=شناسه
 CronClassFile=نام‌فایل حاوی کلاس
-CronModuleHelp=نام فهرست واحدهای Powererp (که همچنین با یک واحد خارجی Powererp نیز کار می‌کند). <BR> برای مثال برای فراخوان متد fetch از شیء محصولات Powererp از /htdocs/<u>product</u>/class/product.class.php استفاده می‌شود، مقدار واحد برابر است با <br><i>product</i>
-CronClassFileHelp=مسیر نسبی و نام فایل برای بارگذاری (مسیر به ریشۀ سرور وب نسبی است).<BR> برای مثال برای فراخوان متند fetch از شیء محصول Powererp از htdocs/product/class/<u>product.class.php</u>  استفاده می‌شود، مقدار مربوط به نام فایل کلاس برابر است با: <br><i> product/class/product.class.php </i>
-CronObjectHelp=نام شیء برای بارگذاری. <BR>برای مثال برای فراخوان متد fetch از شیء محصول Powererp از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>Product</i>
-CronMethodHelp=نام شیء برای بارگذاری. <BR> برای مثال برای فراخوان متد fetch از شیء محصول Powererp از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>fetch</i>
-CronArgsHelp=نشان‌وندهای-آرگومان‌های متد. <BR> برای مثال برای فراخوان یک متد از شیء محصولات Powererp از  /htdocs/product/class/product.class.php استفاده می‌شوند، مقادیر برای مؤلفه‌ها-پارامترها می‌تواند به شکل <br><i>0, ProductRef</i> باشد
+CronModuleHelp=نام فهرست واحدهای PowerERP (که همچنین با یک واحد خارجی PowerERP نیز کار می‌کند). <BR> برای مثال برای فراخوان متد fetch از شیء محصولات PowerERP از /htdocs/<u>product</u>/class/product.class.php استفاده می‌شود، مقدار واحد برابر است با <br><i>product</i>
+CronClassFileHelp=مسیر نسبی و نام فایل برای بارگذاری (مسیر به ریشۀ سرور وب نسبی است).<BR> برای مثال برای فراخوان متند fetch از شیء محصول PowerERP از htdocs/product/class/<u>product.class.php</u>  استفاده می‌شود، مقدار مربوط به نام فایل کلاس برابر است با: <br><i> product/class/product.class.php </i>
+CronObjectHelp=نام شیء برای بارگذاری. <BR>برای مثال برای فراخوان متد fetch از شیء محصول PowerERP از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>Product</i>
+CronMethodHelp=نام شیء برای بارگذاری. <BR> برای مثال برای فراخوان متد fetch از شیء محصول PowerERP از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>fetch</i>
+CronArgsHelp=نشان‌وندهای-آرگومان‌های متد. <BR> برای مثال برای فراخوان یک متد از شیء محصولات PowerERP از  /htdocs/product/class/product.class.php استفاده می‌شوند، مقادیر برای مؤلفه‌ها-پارامترها می‌تواند به شکل <br><i>0, ProductRef</i> باشد
 CronCommandHelp=خط‌فرمان سامان برای اجرا
 CronCreateJob=ساخت یک وظیفۀ برنامه ریزی شدۀ جدید
 CronFrom=از

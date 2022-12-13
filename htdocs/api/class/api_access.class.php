@@ -36,12 +36,12 @@ use \Luracast\Restler\Defaults;
 use \Luracast\Restler\RestException;
 
 /**
- * Powererp API access class
+ * PowerERP API access class
  *
  */
 class PowererpApiAccess implements iAuthenticate
 {
-	const REALM = 'Restricted Powererp API';
+	const REALM = 'Restricted PowerERP API';
 
 	/**
 	 * @var array $requires	role required by API method		user / external / admin

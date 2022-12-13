@@ -37,10 +37,10 @@ class mod_codecompta_aquarium extends ModeleAccountancyCode
 	public $name = 'Aquarium';
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefixcustomeraccountancycode;
 

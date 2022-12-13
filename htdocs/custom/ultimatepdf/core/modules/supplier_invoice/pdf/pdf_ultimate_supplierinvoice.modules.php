@@ -65,10 +65,10 @@ class pdf_ultimate_supplierinvoice extends ModelePDFSuppliersInvoices
 	public $phpmin = array(5, 5); 
 	
 	/**
-     * Powererp version of the loaded document
+     * PowerERP version of the loaded document
      * @public string
      */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
     /**
      * @var int page_largeur
@@ -382,7 +382,7 @@ class pdf_ultimate_supplierinvoice extends ModelePDFSuppliersInvoices
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("Invoice"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("Invoice"));
 				if (! empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) $pdf->SetCompression(false);

@@ -32,7 +32,7 @@
  *  MEMBER_NEWFORM_EDITAMOUNT           0 or 1 = Amount can be edited
  *  MEMBER_MIN_AMOUNT                   Minimum amount
  *  MEMBER_NEWFORM_PAYONLINE            Suggest payment with paypal, paybox or stripe
- *  MEMBER_NEWFORM_DOLIBARRTURNOVER     Show field turnover (specific for powererp foundation)
+ *  MEMBER_NEWFORM_DOLIBARRTURNOVER     Show field turnover (specific for PowerERP foundation)
  *  MEMBER_URL_REDIRECT_SUBSCRIPTION    Url to redirect once subscribe submitted
  *  MEMBER_NEWFORM_FORCETYPE            Force type of member
  *  MEMBER_NEWFORM_FORCEMORPHY          Force nature of member (mor/phy)
@@ -139,7 +139,7 @@ function llxHeaderVierge($title, $head = "", $disablejs = 0, $disablehead = 0, $
 		print '<img id="dolpaymentlogo" src="'.$urllogo.'">';
 		print '</div>';
 		if (empty($conf->global->MAIN_HIDE_POWERED_BY)) {
-			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.powererp.org?utm_medium=website&utm_source=poweredby" target="powererp" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" width="80px"></a></div>';
+			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.PowerERP.org?utm_medium=website&utm_source=poweredby" target="PowerERP" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" width="80px"></a></div>';
 		}
 		print '</div>';
 	}
@@ -328,7 +328,7 @@ if (empty($reshook) && $action == 'add') {
 				$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnValid()), $substitutionarray, $outputlangs);
 
 				if ($subjecttosend && $texttosend) {
-					$moreinheader = 'X-Powererp-Info: send_an_email by public/members/new.php'."\r\n";
+					$moreinheader = 'X-PowerERP-Info: send_an_email by public/members/new.php'."\r\n";
 
 					$result = $object->send_an_email($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 				}
@@ -628,7 +628,7 @@ print '<td class="tdtop">'.$langs->trans("Comments").'</td>';
 print '<td class="tdtop"><textarea name="note_private" id="note_private" wrap="soft" class="quatrevingtpercent" rows="'.ROWS_3.'">'.dol_escape_htmltag(GETPOST('note_private', 'restricthtml'), 0, 1).'</textarea></td>';
 print '</tr>'."\n";
 
-// Add specific fields used by Powererp foundation for example
+// Add specific fields used by PowerERP foundation for example
 // TODO Move this into generic feature.
 if (!empty($conf->global->MEMBER_NEWFORM_DOLIBARRTURNOVER)) {
 	$arraybudget = array('50'=>'<= 100 000', '100'=>'<= 200 000', '200'=>'<= 500 000', '300'=>'<= 1 500 000', '600'=>'<= 3 000 000', '1000'=>'<= 5 000 000', '2000'=>'5 000 000+');

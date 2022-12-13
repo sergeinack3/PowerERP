@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ldap
+# PowerERP language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Kasutaja <b>%s</b> salasõna domeenis <b>%s</b> peab muutma.
 UserMustChangePassNextLogon=Kasutaja peab muutma oma salasõna domeenis %s
 LDAPInformationsForThisContact=LDAPi andmebaasis selle kontakti kohta leiduv info
@@ -22,6 +22,6 @@ GroupSynchronized=Grupp sünkroniseeritud
 MemberSynchronized=Liige sünkroniseeritud
 MemberTypeSynchronized=Member type synchronized
 ContactSynchronized=Kontakt sünkroniseeritud
-ForceSynchronize=Sunni Powererp -> LDAP sünkroniseerimine
+ForceSynchronize=Sunni PowerERP -> LDAP sünkroniseerimine
 ErrorFailedToReadLDAP=LDAPi andmebaasi lugemine ebaõnnestus. Kontrolli LDAPi mooduli seadistust ja ligipääsu andmebaasile.
 PasswordOfUserInLDAP=Password of user in LDAP

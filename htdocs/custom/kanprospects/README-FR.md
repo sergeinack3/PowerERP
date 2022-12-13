@@ -1,6 +1,6 @@
 # KanProspects
 
-KanProspects est un module Powererp qui permet d'implémenter la vue Kanban pour Prospects.
+KanProspects est un module PowerERP qui permet d'implémenter la vue Kanban pour Prospects.
 
 Documentation utilisateur : https://doc.progsi.ma/fr/kanprospects
 Démo : https://kanview.progsi.ma  
@@ -15,9 +15,9 @@ KanProspects est distribué sous les termes de la licence AGPL v3 ou supérieure
 
 ## INSTALLER KanProspects
 
-KanProspects s'installe dans Powererp comme tout autre module.
+KanProspects s'installe dans PowerERP comme tout autre module.
 1- Lorsque vous aurez récupéré le .zip du module, dézippez le dans htdocs ou dans htdocs/custom, 
-htdocs étant la racine de votre Powererp (qui peut avoir un autre nom dans votre installation).
+htdocs étant la racine de votre PowerERP (qui peut avoir un autre nom dans votre installation).
 2- Allez dans Accueil > Configuration > Modules/Applications
 3- Cherchez l'entrée "Vue Kanban des Prosppects" ou "KanProspects" dans la liste des modules
 4- Activez-le

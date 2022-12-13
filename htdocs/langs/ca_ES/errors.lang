@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Sense errors, és vàlid
@@ -48,10 +48,10 @@ ErrorBadDateFormat=El valor '%s' té un format de data no reconegut
 ErrorWrongDate=La data no és correcta.
 ErrorFailedToWriteInDir=No es pot escriure a la carpeta %s
 ErrorFoundBadEmailInFile=S'ha trobat una sintaxi incorrecta del correu electrònic per a les línies %s al fitxer (exemple de la línia %s amb email=%s)
-ErrorUserCannotBeDelete=No es pot eliminar l'usuari. És possible que estigui relacionat amb entitats de Powererp.
+ErrorUserCannotBeDelete=No es pot eliminar l'usuari. És possible que estigui relacionat amb entitats de PowerERP.
 ErrorFieldsRequired=Alguns camps obligatoris s'han deixat en blanc.
 ErrorSubjectIsRequired=L'assumpte del correu electrònic és obligatori
-ErrorFailedToCreateDir=Error en la creació d'una carpeta. Comprovi que l'usuari del servidor web té drets d'escriptura en les carpetes de documents de Powererp. Si el paràmetre <b>safe_mode</b> està actiu en aquest PHP, Comproveu que els fitxers php powererp pertanyen a l'usuari del servidor web.
+ErrorFailedToCreateDir=Error en la creació d'una carpeta. Comprovi que l'usuari del servidor web té drets d'escriptura en les carpetes de documents de PowerERP. Si el paràmetre <b>safe_mode</b> està actiu en aquest PHP, Comproveu que els fitxers php PowerERP pertanyen a l'usuari del servidor web.
 ErrorNoMailDefinedForThisUser=E-Mail no definit per a aquest usuari
 ErrorSetupOfEmailsNotComplete=La configuració dels correus electrònics no s'ha completat
 ErrorFeatureNeedJavascript=Aquesta funcionalitat requereix javascript actiu per funcionar. Modifiqueu en configuració->entorn.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=El camp <b> %s </b> no pot cont
 ErrorFieldMustHaveXChar=El camp <b> %s </b> ha de tenir com a mínim %s caràcters.
 ErrorNoAccountancyModuleLoaded=Mòdul de comptabilitat no activat
 ErrorExportDuplicateProfil=El nom d'aquest perfil ja existeix per aquest conjunt d'exportació
-ErrorLDAPSetupNotComplete=La configuració Powererp-LDAP és incompleta.
+ErrorLDAPSetupNotComplete=La configuració PowerERP-LDAP és incompleta.
 ErrorLDAPMakeManualTest=S'ha generat un fitxer .ldif al directori %s. Proveu de carregar-lo manualment des de la línia d'ordres per a obtenir més informació sobre els errors.
 ErrorCantSaveADoneUserWithZeroPercentage=No es pot desar una acció amb "estat no iniciat" si el camp "fet per" també s'omple.
 ErrorRefAlreadyExists=La referència <b> %s </b> ja existeix.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s es troba assignat a altre tercer
 ErrorFailedToSendPassword=Error en l'enviament de la contrasenya
 ErrorFailedToLoadRSSFile=Error en la recuperació del flux RSS. Afegiu la constant MAIN_SIMPLEXMLLOAD_DEBUG si el missatge d'error no és molt explícit.
 ErrorForbidden=Accés denegat. <br> Intentes accedir a una pàgina, àrea o funcionalitat d'un mòdul amb desactivat o sense estar en una sessió autenticada o que no se li permet al seu usuari.
-ErrorForbidden2=Els permisos per a aquest usuari poden ser assignats per l'administrador Powererp mitjançant el menú  %s-> %s.
-ErrorForbidden3=Powererp no sembla funcionar en una sessió autentificada. Consulteu la documentació d'instal lació de Powererp per saber com administrar les autenticacions (htacces, mod_auth o altre ...).
+ErrorForbidden2=Els permisos per a aquest usuari poden ser assignats per l'administrador PowerERP mitjançant el menú  %s-> %s.
+ErrorForbidden3=PowerERP no sembla funcionar en una sessió autentificada. Consulteu la documentació d'instal lació de PowerERP per saber com administrar les autenticacions (htacces, mod_auth o altre ...).
 ErrorForbidden4=Nota: esborreu les galetes del vostre navegador per destruir les sessions existents per a aquest inici de sessió.
 ErrorNoImagickReadimage=No s'ha trobat la classe Imagick en aquesta instal lació PHP. La previsualització no està disponible. Els administradors poden deshabilitar aquesta pestanya en el menú Configuració - Entorn.
 ErrorRecordAlreadyExists=Registre ja existent
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=El compte d'execució del servidor web <b>%s<
 ErrorNoActivatedBarcode=No hi ha activat cap tipus de codi de barres
 ErrUnzipFails=No s'ha pogut descomprimir el fitxer %s amb ZipArchive
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
-ErrorFileMustBeAPowererpPackage=El fitxer %s ha de ser un paquet Powererp en format zip
-ErrorModuleFileRequired=Ha de seleccionar un arxiu del paquet del mòdul de Powererp
+ErrorFileMustBeAPowererpPackage=El fitxer %s ha de ser un paquet PowerERP en format zip
+ErrorModuleFileRequired=Ha de seleccionar un arxiu del paquet del mòdul de PowerERP
 ErrorPhpCurlNotInstalled=L'extensió PHP CURL no es troba instal·lada, és indispensable per dialogar amb Paypal.
 ErrorFailedToAddToMailmanList=S'ha produït un error en intentar afegir un registre a la llista Mailman o base de dades SPIP
 ErrorFailedToRemoveToMailmanList=Error en l'eliminació de %s de la llista Mailmain %s o base SPIP
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=La data ha de ser inferior a la d’avui
 ErrorDateMustBeInFuture=La data ha de ser major que avui
 ErrorPaymentModeDefinedToWithoutSetup=S'ha definit una forma de pagament al tipus %s, però la configuració del mòdul de factures no s'ha completat per a definir la informació que es mostrarà per a aquesta forma de pagament.
 ErrorPHPNeedModule=Error, el vostre PHP ha de tenir instal·lat el mòdul <b>%s</b> per a utilitzar aquesta funció.
-ErrorOpenIDSetupNotComplete=Heu configurat el fitxer de configuració Powererp per a permetre l'autenticació OpenID, però l'URL del servei OpenID no es defineix en constant %s
+ErrorOpenIDSetupNotComplete=Heu configurat el fitxer de configuració PowerERP per a permetre l'autenticació OpenID, però l'URL del servei OpenID no es defineix en constant %s
 ErrorWarehouseMustDiffers=El magatzem d'origen i destí han de ser diferents
 ErrorBadFormat=El format és incorrecte!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, aquest soci encara no s'ha enllaçat a un tercer. Enllaça el soci a un tercer existent o crea un tercer nou abans de crear la quota amb factura.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, sol·licitud massa gran
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=El paràmetre PHP upload_max_filesize (%s) és superior al paràmetre PHP post_max_size (%s). No es tracta d’una configuració consistent.
-WarningPasswordSetWithNoAccount=S'ha establert una contrasenya per a aquest soci. Tot i això, no s'ha creat cap compte d'usuari. Per tant, aquesta contrasenya s’emmagatzema però no es pot utilitzar per a iniciar la sessió a Powererp. Pot ser utilitzat per un mòdul/interfície extern, però si no necessiteu definir cap inici de sessió ni contrasenya per a un soci, podeu desactivar l'opció "Gestiona un inici de sessió per a cada soci" des de la configuració del mòdul Socis. Si heu de gestionar un inici de sessió però no necessiteu cap contrasenya, podeu mantenir aquest camp buit per a evitar aquesta advertència. Nota: El correu electrònic també es pot utilitzar com a inici de sessió si el soci està enllaçat amb un usuari.
+WarningPasswordSetWithNoAccount=S'ha establert una contrasenya per a aquest soci. Tot i això, no s'ha creat cap compte d'usuari. Per tant, aquesta contrasenya s’emmagatzema però no es pot utilitzar per a iniciar la sessió a PowerERP. Pot ser utilitzat per un mòdul/interfície extern, però si no necessiteu definir cap inici de sessió ni contrasenya per a un soci, podeu desactivar l'opció "Gestiona un inici de sessió per a cada soci" des de la configuració del mòdul Socis. Si heu de gestionar un inici de sessió però no necessiteu cap contrasenya, podeu mantenir aquest camp buit per a evitar aquesta advertència. Nota: El correu electrònic també es pot utilitzar com a inici de sessió si el soci està enllaçat amb un usuari.
 WarningMandatorySetupNotComplete=Feu clic aquí per a configurar els paràmetres obligatoris
 WarningEnableYourModulesApplications=Feu clic aquí per a activar els vostres mòduls i aplicacions
 WarningSafeModeOnCheckExecDir=Atenció, està activada l'opció PHP <b>safe_mode</b>, la comanda ha d'estar dins d'un directori declarat dins del paràmetre php <b>safe_mode_exec_dir</b>.

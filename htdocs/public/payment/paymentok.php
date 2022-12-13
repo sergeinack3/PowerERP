@@ -223,7 +223,7 @@ if ($urllogo) {
 	print '>';
 	print '</div>';
 	if (empty($conf->global->MAIN_HIDE_POWERED_BY)) {
-		print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.powererp.org?utm_medium=website&utm_source=poweredby" target="powererp" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" width="80px"></a></div>';
+		print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.PowerERP.org?utm_medium=website&utm_source=poweredby" target="PowerERP" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" width="80px"></a></div>';
 	}
 	print '</div>';
 }
@@ -746,7 +746,7 @@ if ($ispaymentok) {
 							$listofmimes = array(dol_mimetype($file));
 						}
 
-						$moreinheader = 'X-Powererp-Info: send_an_email by public/payment/paymentok.php'."\r\n";
+						$moreinheader = 'X-PowerERP-Info: send_an_email by public/payment/paymentok.php'."\r\n";
 
 						$result = $object->send_an_email($texttosend, $subjecttosend, $listofpaths, $listofmimes, $listofnames, "", "", 0, -1, "", $moreinheader);
 

@@ -1,7 +1,7 @@
 # Remove warning, we want to keep both standard and minified sources.
-powererp: source-contains-prebuilt-javascript-object htdocs/includes/jquery/*
-powererp: source-contains-prebuilt-javascript-object htdocs/includes/jsgantt/*
-powererp: source-contains-prebuilt-javascript-object htdocs/includes/jstz/*
+PowerERP: source-contains-prebuilt-javascript-object htdocs/includes/jquery/*
+PowerERP: source-contains-prebuilt-javascript-object htdocs/includes/jsgantt/*
+PowerERP: source-contains-prebuilt-javascript-object htdocs/includes/jstz/*
 # Those are false positives, the files are their own sources since
 # they are not minified
 source-is-missing htdocs/includes/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/*.js

@@ -84,7 +84,7 @@ if (empty($endpoint_secret)) {
 }
 
 if (!empty($conf->global->STRIPE_USER_ACCOUNT_FOR_ACTIONS)) {
-	// We set the user to use for all ipn actions in Powererp
+	// We set the user to use for all ipn actions in PowerERP
 	$user = new User($db);
 	$user->fetch($conf->global->STRIPE_USER_ACCOUNT_FOR_ACTIONS);
 	$user->getrights();

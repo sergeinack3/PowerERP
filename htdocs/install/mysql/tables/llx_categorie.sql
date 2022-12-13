@@ -25,7 +25,7 @@ create table llx_categorie
 	entity          integer DEFAULT 1 NOT NULL,			-- multi company id
 	fk_parent		integer DEFAULT 0 NOT NULL,
 	label 		    varchar(180) NOT NULL,				-- category ref/name
-	ref_ext			varchar(255),						-- reference into an external system (not used by powererp)
+	ref_ext			varchar(255),						-- reference into an external system (not used by PowerERP)
 	type	        integer DEFAULT 1 NOT NULL,			-- category type (product, supplier, customer, member)
 	description 	text,								-- description of the category
     color           varchar(8),                         -- color

@@ -4,7 +4,7 @@
 #
 # Laurent Destailleur - eldy@users.sourceforge.net
 #------------------------------------------------------
-# Usage: txpull.sh (all|xx_XX) [-r powererp.file] [-f]
+# Usage: txpull.sh (all|xx_XX) [-r PowerERP.file] [-f]
 #------------------------------------------------------
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
@@ -18,7 +18,7 @@ then
 	echo "       Using -f will overwrite local file (does not work with 'all')."
 	echo "       Using -s will force fetching of source file (avoid it, use en_US as language instead)."
 	echo "       Using en_US as language parameter will update source language from transifex (en_US is excluded from 'all')."
-	echo "Usage: ./dev/translation/txpull.sh (all|en_US|xx_XX) [-r powererp.file] [-f] [-s]"
+	echo "Usage: ./dev/translation/txpull.sh (all|en_US|xx_XX) [-r PowerERP.file] [-f] [-s]"
 	exit
 fi
 

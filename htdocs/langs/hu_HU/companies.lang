@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Cégnév %s már létezik. Válasszon egy másikat.
 ErrorSetACountryFirst=Először állítsa be az országot
 SelectThirdParty=Válasszon egy partnert
@@ -378,7 +378,7 @@ CapitalOf=%s tőkéje
 EditCompany=Cég szerkesztése
 ThisUserIsNot=Ez a felhasználó nem lehetséges partner, vevő vagy eladó
 VATIntraCheck=Csekk
-VATIntraCheckDesc=Az ÁFA-azonosítónak tartalmaznia kell az ország előtagot. Az <b> %s </b> link az Európai ÁFA-ellenőrző szolgáltatást (VIES) használja, amely internet-hozzáférést igényel a Powererp szerverről.
+VATIntraCheckDesc=Az ÁFA-azonosítónak tartalmaznia kell az ország előtagot. Az <b> %s </b> link az Európai ÁFA-ellenőrző szolgáltatást (VIES) használja, amely internet-hozzáférést igényel a PowerERP szerverről.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Ellenőrizze a Közösségen belüli ÁFA-azonosítót az Európai Bizottság weboldalán
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Jelentkezők állapot szerint
 NoParentCompany=Egyik sem
 ExportCardToFormat=Kártya exportálása formázással
 ContactNotLinkedToCompany=Kapcsolat nincs partnerhez csatolva
-PowererpLogin=Powererp bejelentkezés
-NoPowererpAccess=Nem Powererp hozzáférés
+PowererpLogin=PowerERP bejelentkezés
+NoPowererpAccess=Nem PowerERP hozzáférés
 ExportDataset_company_1=Partnerek (társaságok/alapítványok/személyek) és azok adatai
 ExportDataset_company_2=Kapcsolatok és azok adatai
 ImportDataset_company_1=Partnerek és azok adatai

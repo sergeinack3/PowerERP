@@ -12,15 +12,15 @@ fi
 cd $tmpdir
 
 # Other method to download (comment uscan if you use this)
-wget http://www.powererp.org/files/stable/standard/powererp-3.5.4.tgz
+wget http://www.PowerERP.org/files/stable/standard/PowerERP-3.5.4.tgz
 
 # Rename file to add +dfsg
 tgzfile=$(echo *.tgz)
-version=$(echo "$tgzfile" | perl -pi -e 's/^powererp-//; s/\.tgz$//; s/_/./g; s/\+nmu1//; ')
+version=$(echo "$tgzfile" | perl -pi -e 's/^PowerERP-//; s/\.tgz$//; s/_/./g; s/\+nmu1//; ')
 
 cd - >/dev/null
 
-mv $tmpdir/powererp-${version}.tgz ../
-echo "File ../powererp-${version}.tgz is ready for git-import-orig"
+mv $tmpdir/PowerERP-${version}.tgz ../
+echo "File ../PowerERP-${version}.tgz is ready for git-import-orig"
 
 rm -rf $tmpdir

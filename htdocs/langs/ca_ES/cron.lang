@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Consulta les tasques programades
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Desactivar
 CronTaskInactive=Aquest treball està desactivat (no programat)
 CronId=Id
 CronClassFile=Filename with class
-CronModuleHelp=Nom del directori del mòdul de Powererp (també funciona amb mòduls externs). <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de Powererp /htdocs/<u>product</u>/class/product.class.php, el valor pel mòdul és <br><i>product</i>
-CronClassFileHelp=La ruta relativa i el nom del fitxer a carregar (la ruta és relativa al directori arrel del servidor web). <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de Powererp /htdocs/product/class/<u>product.class.php</u>, el valor del nom del fitxer de classe és<br> <i>product/class/product.class.php</i>
-CronObjectHelp=El nom de l'objecte a carregar. <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de Powererp /htdocs/product/class/product.class.php, el valor pel nom del fitxer de classe és<br> <i>Product</i>
-CronMethodHelp=El mètode d'objecte a cridar. <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de Powererp /htdocs/product/class/product.class.php, el valor pel mètode és<br> <i>fetch</i>
-CronArgsHelp=Els arguments del mètode. <BR> Per exemple, cridar al mètode "fetch" de l'objecte Producte de Powererp /htdocs/product/class/product.class.php, el valor dels paràmetres pot ser <br> <i>0, ProductRef</i>
+CronModuleHelp=Nom del directori del mòdul de PowerERP (també funciona amb mòduls externs). <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de PowerERP /htdocs/<u>product</u>/class/product.class.php, el valor pel mòdul és <br><i>product</i>
+CronClassFileHelp=La ruta relativa i el nom del fitxer a carregar (la ruta és relativa al directori arrel del servidor web). <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de PowerERP /htdocs/product/class/<u>product.class.php</u>, el valor del nom del fitxer de classe és<br> <i>product/class/product.class.php</i>
+CronObjectHelp=El nom de l'objecte a carregar. <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de PowerERP /htdocs/product/class/product.class.php, el valor pel nom del fitxer de classe és<br> <i>Product</i>
+CronMethodHelp=El mètode d'objecte a cridar. <BR> Per exemple, per cridar al mètode "fetch" de l'objecte Producte de PowerERP /htdocs/product/class/product.class.php, el valor pel mètode és<br> <i>fetch</i>
+CronArgsHelp=Els arguments del mètode. <BR> Per exemple, cridar al mètode "fetch" de l'objecte Producte de PowerERP /htdocs/product/class/product.class.php, el valor dels paràmetres pot ser <br> <i>0, ProductRef</i>
 CronCommandHelp=La línia d'ordres del sistema a executar.
 CronCreateJob=Crear nova tasca programada
 CronFrom=De

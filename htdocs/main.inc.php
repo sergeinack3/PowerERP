@@ -33,7 +33,7 @@
 /**
  *	\file       htdocs/main.inc.php
  *	\ingroup	core
- *	\brief      File that defines environment for Powererp GUI pages only (file not required by scripts)
+ *	\brief      File that defines environment for PowerERP GUI pages only (file not required by scripts)
  */
 
 //@ini_set('memory_limit', '128M');	// This may be useless if memory is hard limited by your PHP
@@ -254,7 +254,7 @@ if (!defined('NOSCANPOSTFORINJECTION')) {
 	analyseVarsForSqlAndScriptsInjection($_POST, 0);
 }
 
-// This is to make Powererp working with Plesk
+// This is to make PowerERP working with Plesk
 if (!empty($_SERVER['DOCUMENT_ROOT']) && substr($_SERVER['DOCUMENT_ROOT'], -6) !== 'htdocs') {
 	set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 }
@@ -292,7 +292,7 @@ if (!empty($php_session_save_handler) && $php_session_save_handler == 'db') {
 	require_once 'core/lib/phpsessionin'.$php_session_save_handler.'.lib.php';
 }
 
-// Init session. Name of session is specific to Powererp instance.
+// Init session. Name of session is specific to PowerERP instance.
 // Must be done after the include of filefunc.inc.php so global variables of conf file are defined (like $powererp_main_instance_unique_id or $powererp_main_force_https).
 // Note: the function dol_getprefix is defined into functions.lib.php but may have been defined to return a different key to manage another area to protect.
 $prefix = dol_getprefix('');
@@ -388,7 +388,7 @@ if (GETPOST('textbrowser', 'int') || (!empty($conf->browser->name) && $conf->bro
 	$conf->global->MAIN_OPTIMIZEFORTEXTBROWSER = 1;
 }
 
-// Force HTTPS if required ($conf->file->main_force_https is 0/1 or 'https powererp root url')
+// Force HTTPS if required ($conf->file->main_force_https is 0/1 or 'https PowerERP root url')
 // $_SERVER["HTTPS"] is 'on' when link is https, otherwise $_SERVER["HTTPS"] is empty or 'off'
 if (!empty($conf->file->main_force_https) && (empty($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != 'on')) {
 	$newurl = '';
@@ -607,14 +607,14 @@ if (is_array($modulepart) && count($modulepart) > 0) {
 $login = '';
 if (!defined('NOLOGIN')) {
 	// $authmode lists the different method of identification to be tested in order of preference.
-	// Example: 'http', 'powererp', 'ldap', 'http,forceuser', '...'
+	// Example: 'http', 'PowerERP', 'ldap', 'http,forceuser', '...'
 
 	if (defined('MAIN_AUTHENTICATION_MODE')) {
 		$powererp_main_authentication = constant('MAIN_AUTHENTICATION_MODE');
 	} else {
 		// Authentication mode
 		if (empty($powererp_main_authentication)) {
-			$powererp_main_authentication = 'http,powererp';
+			$powererp_main_authentication = 'http,PowerERP';
 		}
 		// Authentication mode: forceuser
 		if ($powererp_main_authentication == 'forceuser' && empty($powererp_auto_user)) {
@@ -748,7 +748,7 @@ if (!defined('NOLOGIN')) {
 		// Validation of login/pass/entity
 		// If ok, the variable login will be returned
 		// If error, we will put error message in session under the name dol_loginmesg
-		if ($test && $goontestloop && (GETPOST('actionlogin', 'aZ09') == 'login' || $powererp_main_authentication != 'powererp')) {
+		if ($test && $goontestloop && (GETPOST('actionlogin', 'aZ09') == 'login' || $powererp_main_authentication != 'PowerERP')) {
 			$login = checkLoginPassEntity($usertotest, $passwordtotest, $entitytotest, $authmode);
 			if ($login === '--bad-login-validity--') {
 				$login = '';
@@ -1461,7 +1461,7 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 		print '<meta charset="utf-8">'."\n";
 		print '<meta name="robots" content="noindex'.($disablenofollow ? '' : ',nofollow').'">'."\n"; // Do not index
 		print '<meta name="viewport" content="width=device-width, initial-scale=1.0">'."\n"; // Scale for mobile device
-		print '<meta name="author" content="Powererp Development Team">'."\n";
+		print '<meta name="author" content="PowerERP Development Team">'."\n";
 		if (getDolGlobalInt('MAIN_FEATURES_LEVEL')) {
 			print '<meta name="MAIN_FEATURES_LEVEL" content="'.getDolGlobalInt('MAIN_FEATURES_LEVEL').'">'."\n";
 		}
@@ -1479,7 +1479,7 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 
 		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="top" title="'.$langs->trans("Home").'" href="'.(DOL_URL_ROOT?DOL_URL_ROOT:'/').'">'."\n";
 		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="copyright" title="GNU General Public License" href="https://www.gnu.org/copyleft/gpl.html#SEC1">'."\n";
-		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="author" title="Powererp Development Team" href="https://www.powererp.org">'."\n";
+		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="author" title="PowerERP Development Team" href="https://www.PowerERP.org">'."\n";
 
 		// Mobile appli like icon
 		$manifest = DOL_URL_ROOT.'/theme/'.$conf->theme.'/manifest.json.php';
@@ -1588,7 +1588,7 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 			print '<link rel="stylesheet" type="text/css" href="'.DOL_URL_ROOT.'/theme/common/fontawesome-5/css/v4-shims.min.css'.($ext ? '?'.$ext : '').'">'."\n";
 		}
 
-		print '<!-- Includes CSS for Powererp theme -->'."\n";
+		print '<!-- Includes CSS for PowerERP theme -->'."\n";
 		// Output style sheets (optioncss='print' or ''). Note: $conf->css looks like '/theme/eldy/style.css.php'
 		$themepath = dol_buildpath($conf->css, 1);
 		$themesubdir = '';
@@ -1746,13 +1746,13 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 					$enablebrowsernotif = false;
 				}
 				if ($enablebrowsernotif) {
-					print '<!-- Includes JS of Powererp (browser layout = '.$conf->browser->layout.')-->'."\n";
+					print '<!-- Includes JS of PowerERP (browser layout = '.$conf->browser->layout.')-->'."\n";
 					print '<script src="'.DOL_URL_ROOT.'/core/js/lib_notification.js.php'.($ext ? '?'.$ext : '').'"></script>'."\n";
 				}
 			}
 
 			// Global js function
-			print '<!-- Includes JS of Powererp -->'."\n";
+			print '<!-- Includes JS of PowerERP -->'."\n";
 			print '<script src="'.DOL_URL_ROOT.'/core/js/lib_head.js.php?lang='.$langs->defaultlang.($ext ? '&amp;'.$ext : '').'"></script>'."\n";
 
 			// JS forced by modules (relative url starting with /)
@@ -1937,7 +1937,7 @@ function top_menu($head, $title = '', $target = '', $disablejs = 0, $disablehead
 			$toprightmenu .= $form->textwithtooltip('', $langs->trans("PrintContentArea"), 2, 1, $text, 'login_block_elem', 2);
 		}
 
-		// Link to Powererp wiki pages
+		// Link to PowerERP wiki pages
 		if (empty($conf->global->MAIN_HELP_DISABLELINK) && empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) {
 			$langs->load("help");
 
@@ -2813,29 +2813,29 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 		$menumanager->menu_array_after = $menu_array_after;
 		$menumanager->showmenu('left', array('searchform'=>$searchform)); // output menu_array and menu found in database
 
-		// Powererp version + help + bug report link
+		// PowerERP version + help + bug report link
 		print "\n";
 		print "<!-- Begin Help Block-->\n";
 		print '<div id="blockvmenuhelp" class="blockvmenuhelp">'."\n";
 
 		// Version
 		if (!empty($conf->global->MAIN_SHOW_VERSION)) {    // Version is already on help picto and on login page.
-			$doliurl = 'https://www.powererp.org';
+			$doliurl = 'https://www.PowerERP.org';
 			//local communities
 			if (preg_match('/fr/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.powererp.fr';
+				$doliurl = 'https://www.PowerERP.fr';
 			}
 			if (preg_match('/es/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.powererp.es';
+				$doliurl = 'https://www.PowerERP.es';
 			}
 			if (preg_match('/de/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.powererp.de';
+				$doliurl = 'https://www.PowerERP.de';
 			}
 			if (preg_match('/it/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.powererp.it';
+				$doliurl = 'https://www.PowerERP.it';
 			}
 			if (preg_match('/gr/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.powererp.gr';
+				$doliurl = 'https://www.PowerERP.gr';
 			}
 
 			$appli = constant('DOL_APPLICATION_TITLE');
@@ -2871,7 +2871,7 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 			require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 
 			if ($conf->global->MAIN_BUGTRACK_ENABLELINK == 'github') {
-				$bugbaseurl = 'https://github.com/Powererp/powererp/issues/new?labels=Bug';
+				$bugbaseurl = 'https://github.com/PowerERP/PowerERP/issues/new?labels=Bug';
 				$bugbaseurl .= '&title=';
 				$bugbaseurl .= urlencode("Bug: ");
 				$bugbaseurl .= '&body=';
@@ -2899,7 +2899,7 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 				$bugbaseurl .= urlencode("## Steps to reproduce the behavior\n");
 				$bugbaseurl .= urlencode("[*Verbose description*]\n");
 				$bugbaseurl .= urlencode("\n");
-				$bugbaseurl .= urlencode("## [Attached files](https://help.github.com/articles/issue-attachments) (Screenshots, screencasts, powererp.log, debugging informations…)\n");
+				$bugbaseurl .= urlencode("## [Attached files](https://help.github.com/articles/issue-attachments) (Screenshots, screencasts, PowerERP.log, debugging informations…)\n");
 				$bugbaseurl .= urlencode("[*Files*]\n");
 				$bugbaseurl .= urlencode("\n");
 
@@ -3033,19 +3033,19 @@ function getHelpParamFor($helppagename, $langs)
 		// If WIKI URL
 		$reg = array();
 		if (preg_match('/^es/i', $langs->defaultlang)) {
-			$helpbaseurl = 'http://wiki.powererp.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.PowerERP.org/index.php/%s';
 			if (preg_match('/ES:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
 		}
 		if (preg_match('/^fr/i', $langs->defaultlang)) {
-			$helpbaseurl = 'http://wiki.powererp.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.PowerERP.org/index.php/%s';
 			if (preg_match('/FR:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
 		}
 		if (empty($helppage)) {	// If help page not already found
-			$helpbaseurl = 'http://wiki.powererp.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.PowerERP.org/index.php/%s';
 			if (preg_match('/EN:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
@@ -3211,7 +3211,7 @@ if (!function_exists("llxFooter")) {
 		}
 
 		if (!empty($conf->use_javascript_ajax)) {
-			print "\n".'<!-- Includes JS Footer of Powererp -->'."\n";
+			print "\n".'<!-- Includes JS Footer of PowerERP -->'."\n";
 			print '<script src="'.DOL_URL_ROOT.'/core/js/lib_foot.js.php?lang='.$langs->defaultlang.($ext ? '&'.$ext : '').'"></script>'."\n";
 		}
 
@@ -3257,7 +3257,7 @@ if (!function_exists("llxFooter")) {
 		$forceping = GETPOST('forceping', 'alpha');
 		if (($_SERVER["PHP_SELF"] == DOL_URL_ROOT.'/index.php') || $forceping) {
 			//print '<!-- instance_unique_id='.$conf->file->instance_unique_id.' MAIN_FIRST_PING_OK_ID='.$conf->global->MAIN_FIRST_PING_OK_ID.' -->';
-			$hash_unique_id = md5('powererp'.$conf->file->instance_unique_id);
+			$hash_unique_id = md5('PowerERP'.$conf->file->instance_unique_id);
 
 			if (empty($conf->global->MAIN_FIRST_PING_OK_DATE)
 				|| (!empty($conf->file->instance_unique_id) && ($hash_unique_id != $conf->global->MAIN_FIRST_PING_OK_ID) && ($conf->global->MAIN_FIRST_PING_OK_ID != 'disabled'))
@@ -3273,9 +3273,9 @@ if (!function_exists("llxFooter")) {
 					} else {
 						include_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 
-						print "\n".'<!-- Includes JS for Ping of Powererp forceping='.$forceping.' MAIN_FIRST_PING_OK_DATE='.getDolGlobalString("MAIN_FIRST_PING_OK_DATE").' MAIN_FIRST_PING_OK_ID='.getDolGlobalString("MAIN_FIRST_PING_OK_ID").' MAIN_LAST_PING_KO_DATE='.getDolGlobalString("MAIN_LAST_PING_KO_DATE").' -->'."\n";
+						print "\n".'<!-- Includes JS for Ping of PowerERP forceping='.$forceping.' MAIN_FIRST_PING_OK_DATE='.getDolGlobalString("MAIN_FIRST_PING_OK_DATE").' MAIN_FIRST_PING_OK_ID='.getDolGlobalString("MAIN_FIRST_PING_OK_ID").' MAIN_LAST_PING_KO_DATE='.getDolGlobalString("MAIN_LAST_PING_KO_DATE").' -->'."\n";
 						print "\n<!-- JS CODE TO ENABLE the anonymous Ping -->\n";
-						$url_for_ping = (empty($conf->global->MAIN_URL_FOR_PING) ? "https://ping.powererp.org/" : $conf->global->MAIN_URL_FOR_PING);
+						$url_for_ping = (empty($conf->global->MAIN_URL_FOR_PING) ? "https://ping.PowerERP.org/" : $conf->global->MAIN_URL_FOR_PING);
 						// Try to guess the distrib used
 						$distrib = 'standard';
 						if ($_SERVER["SERVER_ADMIN"] == 'doliwamp@localhost') {
@@ -3287,7 +3287,7 @@ if (!function_exists("llxFooter")) {
 						?>
 							<script>
 							jQuery(document).ready(function (tmp) {
-								console.log("Try Ping with hash_unique_id is md5('powererp'+instance_unique_id)");
+								console.log("Try Ping with hash_unique_id is md5('PowerERP'+instance_unique_id)");
 								$.ajax({
 									  method: "POST",
 									  url: "<?php echo $url_for_ping ?>",

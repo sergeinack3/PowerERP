@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nicio eroare, dăm commit
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Câmpul <b>%s</b> nu trebuie s�
 ErrorFieldMustHaveXChar=Câmpul <b>%s</b> trebuie să aibă cel puțin %scaractere.
 ErrorNoAccountancyModuleLoaded=Modulul Contabilitate nu este activat 
 ErrorExportDuplicateProfil=Acest nume de profil există deja pentru acest set de export.
-ErrorLDAPSetupNotComplete=Potrivirea Powererp-LDAP nu este finalizată.
+ErrorLDAPSetupNotComplete=Potrivirea PowerERP-LDAP nu este finalizată.
 ErrorLDAPMakeManualTest=Un fişier .ldif a fost generat în directorul %s. Încercaţi să încărcaţi manual din linia de comandă pentru a avea mai multe informatii cu privire la erori.
 ErrorCantSaveADoneUserWithZeroPercentage=Nu se poate salva o acțiune cu "starea nu a început" dacă se completează și câmpul "efectuat de".
 ErrorRefAlreadyExists=Referinţa <b>%s</b> există deja.
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Contul de utilizator <b>%s</b> folosit pentru
 ErrorNoActivatedBarcode=Niciun tip de coduri de bare activat
 ErrUnzipFails=Eşec la dezarhivarea fişierului %s cu ZipArchive
 ErrNoZipEngine=Nu există niciun motor pentru a arhiva/dezarhiva fișierul %s în această configuraţie PHP
-ErrorFileMustBeAPowererpPackage=Fșierul %s  trebuie să fie un pachet zip Powererp
-ErrorModuleFileRequired=Trebuie să selectați un fișier pachet de modul Powererp
+ErrorFileMustBeAPowererpPackage=Fșierul %s  trebuie să fie un pachet zip PowerERP
+ErrorModuleFileRequired=Trebuie să selectați un fișier pachet de modul PowerERP
 ErrorPhpCurlNotInstalled=PHP CURL nu este instalat, acest lucru este esențial pentru comunicarea cu Paypal
 ErrorFailedToAddToMailmanList=Eşec la adăugarea %s la lista de Mailman %s sau la baza SPIP
 ErrorFailedToRemoveToMailmanList=Eşec la înlăturarea %s din lista de Mailman %s sau din baza SPIP

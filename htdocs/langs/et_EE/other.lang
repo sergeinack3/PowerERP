@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Turvakood
 NumberingShort=N°
 Tools=Tööriistad
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=You can click on the link below to make your payment if it is not already done.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=Powererp is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
+DemoDesc=PowerERP is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
 ChooseYourDemoProfil=Choose the demo profile that best suits your needs...
 ChooseYourDemoProfilMore=...or build your own profile<br>(manual module selection)
 DemoFundation=Halda ühenduse liikmeid
@@ -185,7 +185,7 @@ BackToLoginPage=Tagasi sisselogimise lehele
 AuthenticationDoesNotAllowSendNewPassword=Autentimisrežiim on hetkel <b>%s</b>.<br>Selles režiimis ei tea Powererpi sinu parooli ja ei ole ka võimeline seda muutma.<br>Parooli muutmiseks võta ühendust oma süsteemiadministraatoriga.
 EnableGDLibraryDesc=Install or enable GD library on your PHP installation to use this option.
 ProfIdShortDesc=<b>Reg kood %s</b> on info, mis sõltub kolmanda isiku riigist.<br>Näiteks riigi <b>%s</b> puhul on see kood <b>%s</b>.
-PowererpDemo=Powererp ERP/CRM demo
+PowererpDemo=PowerERP ERP/CRM demo
 StatsByNumberOfUnits=Statistics for sum of qty of products/services
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Number of proposals

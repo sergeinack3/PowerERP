@@ -3,6 +3,6 @@ README (English)
 ZIP Package tools
 ##################################################
 
-This directory contains files used by makepack-powererp.pl
+This directory contains files used by makepack-PowerERP.pl
 script to build a package, ready to be distributed,
 with format .zip

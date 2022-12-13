@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Ange namnet på modulen / programmet för att skapa utan mellanslag. Använd stor bokstav för att skilja ord (till exempel: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Ange namnet på objektet som ska skapas utan mellanslag. Använd stor bokstav för att skilja ord (till exempel: MyObject, Student, Lärare ...). CRUD klassfilen, men även API-filen, kommer sidor att lista / lägga till / redigera / ta bort objekt och SQL-filer genereras.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=Du kan radera din modul. VARNING: Alla kodningsfil
 EnterNameOfObjectToDeleteDesc=Du kan radera ett objekt. VARNING: Alla kodningsfiler (genererade eller skapade manuellt) relaterade till objekt raderas!
 DangerZone=Farozon
 BuildPackage=Bygg paketet
-BuildPackageDesc=Du kan skapa ett zip-paket av din applikation så att du är redo att distribuera den på valfri Powererp. Du kan också distribuera den eller sälja den på marknadsplatsen som <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Du kan skapa ett zip-paket av din applikation så att du är redo att distribuera den på valfri PowerERP. Du kan också distribuera den eller sälja den på marknadsplatsen som <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Bygg dokumentation
 ModuleIsNotActive=Denna modul är inte aktiverad än. Gå till %s för att göra det live eller klicka här
 ModuleIsLive=Denna modul har aktiverats. Varje ändring kan bryta en aktuell live-funktion.
@@ -101,7 +101,7 @@ HooksDefDesc=Definiera i egenskapen <b> modul_parts ['krokar'] </b> i modulbeskr
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Se ID-er som används i din installation
 SeeReservedIDsRangeHere=Se utbud av reserverade ID-skivor
-ToolkitForDevelopers=Verktygssats för Powererp-utvecklare
+ToolkitForDevelopers=Verktygssats för PowerERP-utvecklare
 TryToUseTheModuleBuilder=Om du har kunskap om SQL och PHP kan du använda guiden för inbyggd modulbyggare. <br> Aktivera modulen <strong> %s </strong> och använd guiden genom att klicka på <span class="fa fa-bug"> </span> högst upp till höger. <br> Varning: Detta är en avancerad utvecklingsfunktion, gör <b> inte </b> experiment på din produktionsplats!
 SeeTopRightMenu=Se <span class="fa fa-bug"> </span> längst upp till höger
 AddLanguageFile=Lägg till språkfil

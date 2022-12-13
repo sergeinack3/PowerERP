@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for powererp
+# postinst script for PowerERP
 
 set -e
 
@@ -20,24 +20,24 @@ fi
 
 setup_empty_conf() {
 	echo Create empty file $config		
-    mkdir -p /etc/powererp
-    touch /etc/powererp/conf.php
-    chown root:www-data /etc/powererp/conf.php
-    chmod 660 /etc/powererp/conf.php
+    mkdir -p /etc/PowerERP
+    touch /etc/PowerERP/conf.php
+    chown root:www-data /etc/PowerERP/conf.php
+    chmod 660 /etc/PowerERP/conf.php
 }
 
 is_new_upstream_version() {
     # $1 can be empty (not installed) and will result in a true value
     # for the check
     old_version=$(echo "$1" | sed -e 's/-[^-]*$//' -e 's/^[0-9]*://')
-    new_version=$(dpkg-query -f '${Version}' -W powererp | \
+    new_version=$(dpkg-query -f '${Version}' -W PowerERP | \
 		  sed -e 's/-[^-]*$//' -e 's/^[0-9]*://')
     test "$old_version" != "$new_version"
 }
 
 enable_install_upgrade_wizard() {
 	echo Enable install wizard by removing install.lock file if present
-    rm -f /var/lib/powererp/documents/install.lock
+    rm -f /var/lib/PowerERP/documents/install.lock
 }
 
 
@@ -58,23 +58,23 @@ apache_install() {
 		a2enmod alias
 	fi
 	
-	# Enable powererp conf
+	# Enable PowerERP conf
 	if which a2enconf >/dev/null 2>&1 ;then
 		# a2enconf exists for ubuntu only
 		echo "Enable link for Apache config file with a2enconf"
-		a2enconf powererp
+		a2enconf PowerERP
 	else 
-		if [ -d /etc/$webserver/conf.d ] && [ ! -e /etc/$webserver/conf.d/powererp.conf ]; then
+		if [ -d /etc/$webserver/conf.d ] && [ ! -e /etc/$webserver/conf.d/PowerERP.conf ]; then
 			echo "Add link for Apache config file"
-			ln -s /etc/$webserver/conf-available/powererp.conf /etc/$webserver/conf.d/powererp.conf
+			ln -s /etc/$webserver/conf-available/PowerERP.conf /etc/$webserver/conf.d/PowerERP.conf
 		fi
 	fi
 }
 
 lighttpd_install() {
 	if which lighty-enable-mod >/dev/null 2>&1 ; then
-		echo "Enable lighttpd link for powererp config file"
-		lighty-enable-mod powererp fastcgi-php
+		echo "Enable lighttpd link for PowerERP config file"
+		lighty-enable-mod PowerERP fastcgi-php
 	else
 		echo "Lighttpd not installed, skipping"
 	fi
@@ -87,14 +87,14 @@ lighttpd_install() {
 db_version 2.0
 
 
-echo Run the powererp postinst script
+echo Run the PowerERP postinst script
 
 
 # Define vars
-docdir='/var/lib/powererp/documents'
-installfileorig="/etc/powererp/install.forced.php.install"
-installconfig="/etc/powererp/install.forced.php"
-config="/etc/powererp/conf.php"
+docdir='/var/lib/PowerERP/documents'
+installfileorig="/etc/PowerERP/install.forced.php.install"
+installconfig="/etc/PowerERP/install.forced.php"
+config="/etc/PowerERP/conf.php"
 
 
 case "$1" in
@@ -158,7 +158,7 @@ case "$1" in
 			#grep -q -c "powererp_font_DOL_DEFAULT_TTF_BOLD" $config || echo "<?php \$powererp_font_DOL_DEFAULT_TTF_BOLD='/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Bold.ttf'; ?>" >> $config			
 		fi
 	
-		db_get powererp/reconfigure-webserver
+		db_get PowerERP/reconfigure-webserver
 	
 		webservers="$RET"
 	
@@ -181,7 +181,7 @@ case "$1" in
 			echo Web user.group used is $webuser.$webgroup
 
 			# Set permissions to web server
-			chown -R $webuser:$webgroup /usr/share/powererp
+			chown -R $webuser:$webgroup /usr/share/PowerERP
             chown -R root:$webgroup $config
 		done
 
@@ -210,7 +210,7 @@ case "$1" in
 
 		
 		echo ----------
-		echo "Call Powererp page http://localhost/powererp/ to complete the setup and use Powererp."
+		echo "Call PowerERP page http://localhost/PowerERP/ to complete the setup and use PowerERP."
 		echo ----------
 	;;
 

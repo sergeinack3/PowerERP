@@ -1,4 +1,4 @@
-# NUMBERWORDS MODULE FOR <a href="https://www.powererp.org">POWERERP ERP CRM</a>
+# NUMBERWORDS MODULE FOR <a href="https://www.PowerERP.org">POWERERP ERP CRM</a>
 
 ## 5.0.2
 
@@ -16,12 +16,12 @@ NEW Can replace label of currency with the symbol ($, €, ...) or shortcode+sym
 ## 5.0
 
 Support for multicurrency.
-Need Powererp 4.0+
+Need PowerERP 4.0+
 
 
 ## 3.4.1
 
-Compatibility wit Powererp 3.4.
+Compatibility wit PowerERP 3.4.
 
 
 ## 1.0.0

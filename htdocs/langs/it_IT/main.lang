@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,7 +61,7 @@ ErrorNoRequestInError=Nessuna richiesta in errore
 ErrorServiceUnavailableTryLater=Service not available at the moment. Try again later.
 ErrorDuplicateField=Valore duplicato in un campo a chiave univoca
 ErrorSomeErrorWereFoundRollbackIsDone=Some errors were found. Changes have been rolled back.
-ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the Powererp config file <b>conf.php</b>.
+ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined in the PowerERP config file <b>conf.php</b>.
 ErrorCantLoadUserFromPowererpDatabase=Impossibile trovare l'utente <b>%s</b> nel database dell'applicazione.
 ErrorNoVATRateDefinedForSellerCountry=Errore, non sono state definite le aliquote IVA per: <b>%s</b>.
 ErrorNoSocialContributionForSellerCountry=Errore, non sono stati definiti i tipi di contributi per: '%s'.
@@ -113,7 +113,7 @@ DatabaseTypeManager=Gestore del tipo di database
 RequestLastAccessInError=Ultimo errore di accesso al database
 ReturnCodeLastAccessInError=Codice di ritorno per l'ultimo accesso errato al database
 InformationLastAccessInError=Informazioni sull'ultimo accesso errato al database
-PowererpHasDetectedError=Powererp ha rilevato un errore tecnico
+PowererpHasDetectedError=PowerERP ha rilevato un errore tecnico
 YouCanSetOptionPowererpMainProdToZero=Puoi leggere il file di registro o impostare l'opzione $powererp_main_prod su '0' nel tuo file di configurazione per ottenere maggiori informazioni.
 InformationToHelpDiagnose=Queste informazioni possono essere utili per scopi diagnostici (puoi impostare l'opzione $powererp_main_prod su '1' per nascondere le informazioni sensibili)
 MoreInformation=Maggiori informazioni
@@ -122,7 +122,7 @@ TechnicalID=ID Tecnico
 LineID=ID linea
 NotePublic=Nota (pubblica)
 NotePrivate=Nota (privata)
-PrecisionUnitIsLimitedToXDecimals=Powererp è stato configurato per limitare la precisione dei prezzi unitari a <b>%s</b> decimali.
+PrecisionUnitIsLimitedToXDecimals=PowerERP è stato configurato per limitare la precisione dei prezzi unitari a <b>%s</b> decimali.
 DoTest=Verifica
 ToFilter=Filtrare
 NoFilter=Nessun filtro
@@ -733,7 +733,7 @@ MenuMembers=Membri
 MenuAgendaGoogle=Agenda Google
 MenuTaxesAndSpecialExpenses=Tasse | Spese speciali
 ThisLimitIsDefinedInSetup=Limite applicazione (Menu home-impostazioni-sicurezza):%s Kb, limite PHP:%s Kb
-ThisLimitIsDefinedInSetupAt=Limite Powererp (Menu %s): %s Kb, Limite PHP (Param %s): %s Kb
+ThisLimitIsDefinedInSetupAt=Limite PowerERP (Menu %s): %s Kb, Limite PHP (Param %s): %s Kb
 NoFileFound=Nessun documento caricato
 CurrentUserLanguage=Lingua dell'utente
 CurrentTheme=Tema attuale
@@ -909,7 +909,7 @@ ViewFlatList=Vedi lista semplice
 ViewAccountList=Visualizza registro
 ViewSubAccountList=Visualizza il libro mastro del subaccount
 RemoveString=Rimuovi la stringa '%s'
-SomeTranslationAreUncomplete=Alcune delle lingue offerte potrebbero essere tradotte solo parzialmente o contenere errori. Aiutaci a correggere la tua lingua registrandoti a <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/</a> per aggiungere i tuoi miglioramenti.
+SomeTranslationAreUncomplete=Alcune delle lingue offerte potrebbero essere tradotte solo parzialmente o contenere errori. Aiutaci a correggere la tua lingua registrandoti a <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/</a> per aggiungere i tuoi miglioramenti.
 DirectDownloadLink=Link per il download pubblico
 PublicDownloadLinkDesc=Per scaricare il file è necessario solo il collegamento
 DirectDownloadInternalLink=Link per il download privato

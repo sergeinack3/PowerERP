@@ -21,7 +21,7 @@
  *  \brief	  Page to manage reodering
  */
 
-// Powererp environment
+// PowerERP environment
 $res=0;
 if (! $res && file_exists("../../main.inc.php")) 
 	$res=@include("../../main.inc.php");		// For root directory
@@ -46,7 +46,7 @@ $langs->load("suppliers");
 // Security check
 if ($user->societe_id) $socid=$user->societe_id;
 
-// Get object canvas (By default, this is not defined, so standard usage of powererp)
+// Get object canvas (By default, this is not defined, so standard usage of PowerERP)
 $canvas = !empty($object->canvas)?$object->canvas:GETPOST("canvas");
 $objcanvas='';
 if (! empty($canvas)) {

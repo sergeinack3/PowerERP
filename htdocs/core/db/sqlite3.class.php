@@ -22,13 +22,13 @@
 
 /**
  *	\file       htdocs/core/db/sqlite3.class.php
- *	\brief      Class file to manage Powererp database access for a SQLite database
+ *	\brief      Class file to manage PowerERP database access for a SQLite database
  */
 
 require_once DOL_DOCUMENT_ROOT.'/core/db/DoliDB.class.php';
 
 /**
- *	Class to manage Powererp database access for a SQLite database
+ *	Class to manage PowerERP database access for a SQLite database
  */
 class DoliDBSqlite3 extends DoliDB
 {
@@ -668,7 +668,7 @@ class DoliDBSqlite3 extends DoliDB
 			// Si il y a eu echec de connexion, $this->db n'est pas valide.
 			return 'DB_ERROR_FAILED_TO_CONNECT';
 		} else {
-			// Constants to convert error code to a generic Powererp error code
+			// Constants to convert error code to a generic PowerERP error code
 			/*$errorcode_map = array(
 			1004 => 'DB_ERROR_CANNOT_CREATE',
 			1005 => 'DB_ERROR_CANNOT_CREATE',

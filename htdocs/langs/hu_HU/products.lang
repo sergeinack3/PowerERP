@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Termék ref#.
 ProductLabel=Termék neve
 ProductLabelTranslated=Lefordított termékcímke
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimális vételár
 MinCustomerPrice=Minimális eladási ár
 NoDynamicPrice=Nincs dinamikus ár\n
 DynamicPriceConfiguration=Dinamikus árkonfiguráció
-DynamicPriceDesc=Megadhat matematikai képleteket a vevői vagy a szállítói árak kiszámításához. Az ilyen képletek felhasználhatják az összes matematikai operátort, néhány állandót és változót. Itt meghatározhatja azokat a változókat, amelyeket használni kíván. Ha a változónak automatikus frissítésre van szüksége, megadhatja a külső URL-t, hogy a Powererp automatikusan frissítse az értéket.
+DynamicPriceDesc=Megadhat matematikai képleteket a vevői vagy a szállítói árak kiszámításához. Az ilyen képletek felhasználhatják az összes matematikai operátort, néhány állandót és változót. Itt meghatározhatja azokat a változókat, amelyeket használni kíván. Ha a változónak automatikus frissítésre van szüksége, megadhatja a külső URL-t, hogy a PowerERP automatikusan frissítse az értéket.
 AddVariable=Változó hozzáadása
 AddUpdater=Frissítő hozzáadása
 GlobalVariables=Globális változók
@@ -378,7 +378,7 @@ NewProductAttribute=Új attribútum
 NewProductAttributeValue=Új attribútumérték
 ErrorCreatingProductAttributeValue=Hiba történt az attribútumérték létrehozása során. Lehetséges, hogy már van egy létező érték ezzel a hivatkozással
 ProductCombinationGeneratorWarning=If you continue, before generating new variants, all previous ones will be DELETED. Already existing ones will be updated with the new values
-TooMuchCombinationsWarning=Túl sok variáció létrehozása nagy processzor terhelést és memória-használatot eredményezhet és a Powererp hibára futhat. A "%s" opció bekapcsolásával csökkentheti a túlzott memória foglalást.
+TooMuchCombinationsWarning=Túl sok variáció létrehozása nagy processzor terhelést és memória-használatot eredményezhet és a PowerERP hibára futhat. A "%s" opció bekapcsolásával csökkentheti a túlzott memória foglalást.
 DoNotRemovePreviousCombinations=Ne távolítsa el a korábbi változatokat
 UsePercentageVariations=Százalékos variációk használata
 PercentageVariation=Százalékos variáció

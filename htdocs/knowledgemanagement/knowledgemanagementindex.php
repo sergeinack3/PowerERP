@@ -24,7 +24,7 @@
  *	\brief      Home page of knowledgemanagement top menu
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';

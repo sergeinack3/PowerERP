@@ -31,10 +31,10 @@ dol_include_once('/partnership/core/modules/partnership/modules_partnership.php'
 class mod_partnership_standard extends ModeleNumRefPartnership
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'PSHIP';
 

@@ -561,16 +561,16 @@ class MultiCurrency extends CommonObject
 	 *
 	 * @param	int		$fk_facture		id of facture
 	 * @param	double	$amount			amount to convert
-	 * @param	string	$way			'powererp' mean the amount is in powererp currency
+	 * @param	string	$way			'PowerERP' mean the amount is in PowerERP currency
 	 * @param	string	$table			facture or facture_fourn
 	 * @return	double					amount converted
 	 */
-	public static function getAmountConversionFromInvoiceRate($fk_facture, $amount, $way = 'powererp', $table = 'facture')
+	public static function getAmountConversionFromInvoiceRate($fk_facture, $amount, $way = 'PowerERP', $table = 'facture')
 	{
 		$multicurrency_tx = self::getInvoiceRate($fk_facture, $table);
 
 		if ($multicurrency_tx) {
-			if ($way == 'powererp') {
+			if ($way == 'PowerERP') {
 				return price2num($amount * $multicurrency_tx, 'MU');
 			} else {
 				return price2num($amount / $multicurrency_tx, 'MU');

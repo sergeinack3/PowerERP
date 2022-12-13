@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Kod
 WebsiteSetupDesc=Skapa här de webbplatser du vill använda. Gå sedan till menyn webbplatser för att redigera dem.
 DeleteWebsite=Ta bort webbplats
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Visa webbplats med hjälp av hemadresser
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Exempel att använda i Apache virtuell värdinställning:
 YouCanAlsoTestWithPHPS= <u> Använd med PHP-inbäddad server </u> <br> På utvecklingsmiljö kan du föredra att testa webbplatsen med PHP-inbäddad webbserver (PHP 5.5 krävs) genom att köra <br> <strong> php -S 0.0.0.0:8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP= <u> Kör din webbplats med en annan Powererp Hosting-leverantör </u> <br> Om du inte har en webbserver som Apache eller NGinx tillgänglig på internet kan du exportera och importera din webbplats till en annan Powererp-instans som tillhandahålls av en annan Powererp-värdleverantör integration med webbplatsmodulen. Du hittar en lista med några Powererp-värdleverantörer på <a href="https://saas.powererp.org" target="_blank"> https://saas.powererp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Kör din webbplats med en annan PowerERP Hosting-leverantör </u> <br> Om du inte har en webbserver som Apache eller NGinx tillgänglig på internet kan du exportera och importera din webbplats till en annan PowerERP-instans som tillhandahålls av en annan PowerERP-värdleverantör integration med webbplatsmodulen. Du hittar en lista med några PowerERP-värdleverantörer på <a href="https://saas.PowerERP.org" target="_blank"> https://saas.PowerERP.org </a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Läsa
 WritePerm=Skriva
 TestDeployOnWeb=Test / distribuera på webben
 PreviewSiteServedByWebServer=<u> Förhandsgranska %s i en ny flik. </u> <br> <br> %s kommer att serveras av en extern webbserver (som Apache, Nginx, IIS). Du måste installera och konfigurera den här servern innan du pekar på katalogen: <br> <strong> %s </strong> <br> URL betjänad av extern server: <br> <strong> %s </strong>
-PreviewSiteServedByPowererp= <u> Förhandsgranska %s i en ny flik. </u> <br> <br> %s kommer att serveras av Powererp-servern så det behöver inte installeras någon extra webbserver (som Apache, Nginx, IIS). <br> Det obekväma är att sidornas webbadresser inte är användarvänliga och börjar med sökvägen till din Powererp. <br> URL betjänas av Powererp: <br> <strong> %s </strong> <br> <br> Om du vill använda din egen extern webbserver för att tjäna denna webbplats, skapa en virtuell värd på din webbserver som pekar på katalogen <br> <strong> %s </strong> <br> sedan ange namnet på denna virtuella server i egenskaperna för denna webbplats och klicka på länken "Test / Distribuera på webben".
+PreviewSiteServedByPowererp= <u> Förhandsgranska %s i en ny flik. </u> <br> <br> %s kommer att serveras av PowerERP-servern så det behöver inte installeras någon extra webbserver (som Apache, Nginx, IIS). <br> Det obekväma är att sidornas webbadresser inte är användarvänliga och börjar med sökvägen till din PowerERP. <br> URL betjänas av PowerERP: <br> <strong> %s </strong> <br> <br> Om du vill använda din egen extern webbserver för att tjäna denna webbplats, skapa en virtuell värd på din webbserver som pekar på katalogen <br> <strong> %s </strong> <br> sedan ange namnet på denna virtuella server i egenskaperna för denna webbplats och klicka på länken "Test / Distribuera på webben".
 VirtualHostUrlNotDefined=URL för den virtuella värd som serveras av extern webbserver som inte definierats
 NoPageYet=Inga sidor ännu
 YouCanCreatePageOrImportTemplate=Du kan skapa en ny sida eller importera en fullständig webbplatsmall

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID hodisasi
 Actions=Tadbirlar
 Agenda=Kun tartibi
@@ -31,10 +31,10 @@ ViewWeek=Hafta ko'rinishi
 ViewPerUser=Har bir foydalanuvchi ko'rinishi uchun
 ViewPerType=Har bir ko'rinish uchun
 AutoActions= Avtomatik to'ldirish
-AgendaAutoActionDesc= Bu erda siz Powererp-ning kun tartibida avtomatik ravishda yaratishini xohlagan voqealarni belgilashingiz mumkin. Hech narsa tekshirilmasa, faqat qo'lda bajariladigan harakatlar jurnallarga kiritiladi va kun tartibida ko'rsatiladi. Ob'ektlarda amalga oshirilgan ishbilarmonlik harakatlarini avtomatik ravishda kuzatish (tasdiqlash, holatni o'zgartirish) saqlanmaydi.
-AgendaSetupOtherDesc= Ushbu sahifada Powererp tadbirlarini tashqi taqvimga (Thunderbird, Google Calendar va boshqalar) eksport qilishga ruxsat berish imkoniyatlari berilgan.
-AgendaExtSitesDesc=Ushbu sahifa o'z voqealarini Powererp kun tartibiga kiritish uchun taqvimlarning tashqi manbalarini e'lon qilishga imkon beradi.
-ActionsEvents=Powererp avtomatik ravishda kun tartibida harakat yaratadigan tadbirlar
+AgendaAutoActionDesc= Bu erda siz PowerERP-ning kun tartibida avtomatik ravishda yaratishini xohlagan voqealarni belgilashingiz mumkin. Hech narsa tekshirilmasa, faqat qo'lda bajariladigan harakatlar jurnallarga kiritiladi va kun tartibida ko'rsatiladi. Ob'ektlarda amalga oshirilgan ishbilarmonlik harakatlarini avtomatik ravishda kuzatish (tasdiqlash, holatni o'zgartirish) saqlanmaydi.
+AgendaSetupOtherDesc= Ushbu sahifada PowerERP tadbirlarini tashqi taqvimga (Thunderbird, Google Calendar va boshqalar) eksport qilishga ruxsat berish imkoniyatlari berilgan.
+AgendaExtSitesDesc=Ushbu sahifa o'z voqealarini PowerERP kun tartibiga kiritish uchun taqvimlarning tashqi manbalarini e'lon qilishga imkon beradi.
+ActionsEvents=PowerERP avtomatik ravishda kun tartibida harakat yaratadigan tadbirlar
 EventRemindersByEmailNotEnabled=%s modulini sozlashda elektron pochta orqali voqea eslatmalari yoqilmagan.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Uchinchi tomon %s yaratildi

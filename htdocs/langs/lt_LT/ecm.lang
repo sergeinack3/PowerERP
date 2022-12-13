@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=Katalogas
 ECMSectionManual=Rankinis katalogas
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Pakatalogių skaičius
 ECMNbOfFilesInSubDir=Failų skaičius pakatalogiuose
 ECMCreationUser=Kūrėjas
 ECMArea=DMS/ECM area
-ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in Powererp.
+ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in PowerERP.
 ECMAreaDesc2=* Automatiniai katalogai yra užpildomi automatiškai, pridedant dokumentus iš elemento kortelės.<br> * Rankiniai katalogai gali būti naudojama saugoti dokumentams, nesusijusiems su konkrečiu elementu.
 ECMSectionWasRemoved=Katalogas <b>%s</b> buvo ištrintas.
 ECMSectionWasCreated=Directory <b>%s</b> has been created.

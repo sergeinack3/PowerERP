@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Nama Perusahaan %s telah terdaftar. Silahkan masukan nama lain.
 ErrorSetACountryFirst=Set Negara dulu
 SelectThirdParty=Pilih Pihak Ketiga
@@ -378,7 +378,7 @@ CapitalOf=Modal %s
 EditCompany=Edit perusahaan
 ThisUserIsNot=Pengguna ini bukan prospek, pelanggan, atau vendor
 VATIntraCheck=Periksa
-VATIntraCheckDesc=ID PPN harus menyertakan awalan negara. Tautan<b>%s</b>menggunakan layanan pemeriksa PPN Eropa (VIES) yang memerlukan akses internet dari server Powererp.
+VATIntraCheckDesc=ID PPN harus menyertakan awalan negara. Tautan<b>%s</b>menggunakan layanan pemeriksa PPN Eropa (VIES) yang memerlukan akses internet dari server PowerERP.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Periksa ID PPN intra-Komunitas di situs web Komisi Eropa
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Prospek berdasarkan status
 NoParentCompany=Tidak ada
 ExportCardToFormat=Ekspor kartu ke format
 ContactNotLinkedToCompany=Kontak tidak tertaut ke pihak ketiga mana pun
-PowererpLogin=Login Powererp
-NoPowererpAccess=Tidak ada akses Powererp
+PowererpLogin=Login PowerERP
+NoPowererpAccess=Tidak ada akses PowerERP
 ExportDataset_company_1=Pihak ketiga (perusahaan/yayasan/orang fisik) dan propertinya
 ExportDataset_company_2=Kontak dan propertinya
 ImportDataset_company_1=Pihak ketiga dan propertinya

@@ -914,7 +914,7 @@ class Utils
 
 		if (empty($conf->global->SYSLOG_FILE)) {
 			$mainlogdir = DOL_DATA_ROOT;
-			$mainlog = 'powererp.log';
+			$mainlog = 'PowerERP.log';
 		} else {
 			$mainlogfull = str_replace('DOL_DATA_ROOT', DOL_DATA_ROOT, $conf->global->SYSLOG_FILE);
 			$mainlogdir = dirname($mainlogfull);
@@ -1004,7 +1004,7 @@ class Utils
 	/**	Backup the db OR just a table without mysqldump binary, with PHP only (does not require any exec permission)
 	 *	Author: David Walsh (http://davidwalsh.name/backup-mysql-database-php)
 	 *	Updated and enhanced by Stephen Larroque (lrq3000) and by the many commentators from the blog
-	 *	Note about foreign keys constraints: for Powererp, since there are a lot of constraints and when imported the tables will be inserted in the dumped order, not in constraints order, then we ABSOLUTELY need to use SET FOREIGN_KEY_CHECKS=0; when importing the sql dump.
+	 *	Note about foreign keys constraints: for PowerERP, since there are a lot of constraints and when imported the tables will be inserted in the dumped order, not in constraints order, then we ABSOLUTELY need to use SET FOREIGN_KEY_CHECKS=0; when importing the sql dump.
 	 *	Note2: db2SQL by Howard Yeend can be an alternative, by using SHOW FIELDS FROM and SHOW KEYS FROM we could generate a more precise dump (eg: by getting the type of the field and then precisely outputting the right formatting - in quotes, numeric or null - instead of trying to guess like we are doing now).
 	 *
 	 *	@param	string	$outputfile		Output file name
@@ -1048,7 +1048,7 @@ class Utils
 
 		// Print headers and global mysql config vars
 		$sqlhead = '';
-		$sqlhead .= "-- ".$db::LABEL." dump via php with Powererp ".DOL_VERSION."
+		$sqlhead .= "-- ".$db::LABEL." dump via php with PowerERP ".DOL_VERSION."
 --
 -- Host: ".$db->db->host_info."    Database: ".$db->database_name."
 -- ------------------------------------------------------

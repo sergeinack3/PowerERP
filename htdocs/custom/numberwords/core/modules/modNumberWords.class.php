@@ -14,12 +14,12 @@
  *       \ingroup    numberwords
  *       \brief      Fichier de description et activation du module agenda
  */
-include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowererpModules.class.php");
+include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowerERPModules.class.php");
 
 /**
  *	Class to describe and activate module NumberWords
  */
-class modNumberWords extends PowererpModules
+class modNumberWords extends PowerERPModules
 {
 
 	/**
@@ -32,7 +32,7 @@ class modNumberWords extends PowererpModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 101220;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'numberwords';
@@ -46,7 +46,7 @@ class modNumberWords extends PowererpModules
 		$this->description = "Add capabilities to convert amounts and numbers into value in full text (only few languages supported)";
         $this->editor_name = 'NLTechno';
         $this->editor_url = 'https://www.nltechno.com';
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = '5.0.2';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -67,7 +67,7 @@ class modNumberWords extends PowererpModules
 		$this->depends = array();		// List of modules id that must be enabled if this module is enabled
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->phpmin = array(4,3);					// Minimum version of PHP required by module
-		$this->need_powererp_version = array(4,0,-3);	// Minimum version of Powererp required by module
+		$this->need_powererp_version = array(4,0,-3);	// Minimum version of PowerERP required by module
 		$this->langfiles = array('numberwords@numberwords');
 
 		$this->module_parts = array('substitutions' => 1);
@@ -173,7 +173,7 @@ class modNumberWords extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -191,7 +191,7 @@ class modNumberWords extends PowererpModules
 
 	/**
 	 *		Function called when module is disabled.
-	 *      Remove from database constants, boxes and permissions from Powererp database.
+	 *      Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

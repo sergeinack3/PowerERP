@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Κανένα σφάλμα
@@ -48,10 +48,10 @@ ErrorBadDateFormat=Η τιμή «%s« δεν έχει σωστή μορφή ημ
 ErrorWrongDate=Η ημερομηνία δεν είναι σωστή!
 ErrorFailedToWriteInDir=Αποτυχία εγγραφής στον %s φάκελο
 ErrorFoundBadEmailInFile=Βρέθηκε εσφαλμένη σύνταξη e-mail για %s γραμμές στο αρχείο (%s γραμμή παράδειγμα με e-mail = %s)
-ErrorUserCannotBeDelete=Ο χρήστης δεν μπορεί να διαγραφεί. Ίσως σχετίζεται με οντότητες Powererp.
+ErrorUserCannotBeDelete=Ο χρήστης δεν μπορεί να διαγραφεί. Ίσως σχετίζεται με οντότητες PowerERP.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
-ErrorFailedToCreateDir=Αποτυχία δημιουργίας φακέλου. Βεβαιωθείτε ότι ο Web server χρήστης έχει δικαιώματα να γράψει στο φάκελο εγγράφων του Powererp. Αν η <b>safe_mode</b> παράμετρος είναι ενεργοποιημένη για την PHP, ελέγξτε ότι τα αρχεία php του Powererp ανήκουν στον web server χρήστη (ή ομάδα).
+ErrorFailedToCreateDir=Αποτυχία δημιουργίας φακέλου. Βεβαιωθείτε ότι ο Web server χρήστης έχει δικαιώματα να γράψει στο φάκελο εγγράφων του PowerERP. Αν η <b>safe_mode</b> παράμετρος είναι ενεργοποιημένη για την PHP, ελέγξτε ότι τα αρχεία php του PowerERP ανήκουν στον web server χρήστη (ή ομάδα).
 ErrorNoMailDefinedForThisUser=Δεν έχει οριστεί mail για αυτόν το χρήστη
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=Αυτό το χαρακτηριστικό χρειάζεται ενεργοποιημένη την javascript. Αλλάξτε την ρύθμιση στο Ρυθμίσεις - Εμφάνιση.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Το πεδίο <b>%s</b> δε�
 ErrorFieldMustHaveXChar=Το πεδίο <b>%s</b> πρέπει να έχει τουλάχιστον %s χαρακτήρες.
 ErrorNoAccountancyModuleLoaded=Δεν έχει ενεργοποιηθεί λογιστική μονάδα
 ErrorExportDuplicateProfil=Αυτό το όνομα προφίλ υπάρχει ήδη για αυτό το σύνολο των εξαγωγών.
-ErrorLDAPSetupNotComplete=Η αντιστοίχιση Powererp-LDAP δεν είναι πλήρης.
+ErrorLDAPSetupNotComplete=Η αντιστοίχιση PowerERP-LDAP δεν είναι πλήρης.
 ErrorLDAPMakeManualTest=Ένα αρχείο. Ldif έχει δημιουργηθεί στον φάκελο %s. Προσπαθήστε να το φορτώσετε χειροκίνητα από την γραμμή εντολών για να έχετε περισσότερες πληροφορίες σχετικά με τα σφάλματα.
 ErrorCantSaveADoneUserWithZeroPercentage=Δεν είναι δυνατή η αποθήκευση μιας ενέργειας με &quot;κατάσταση δεν έχει ξεκινήσει&quot; εάν συμπληρώνεται επίσης το πεδίο &quot;done by&quot;.
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s έχει ανατεθεί σε άλλη τρίτη
 ErrorFailedToSendPassword=Αποτυχία αποστολής κωδικού
 ErrorFailedToLoadRSSFile=Αποτυγχάνει να πάρει RSS feed. Προσπαθήστε να προσθέσετε σταθερή MAIN_SIMPLEXMLLOAD_DEBUG εάν τα μηνύματα λάθους δεν παρέχει αρκετές πληροφορίες.
 ErrorForbidden=Access denied.<br>You try to access to a page, area or feature of a disabled module or without being in an authenticated session or that is not allowed to your user.
-ErrorForbidden2=Η άδεια για αυτή τη σύνδεση μπορεί να οριστεί από το διαχειριστή σας Powererp από το μενού %s-> %s.
-ErrorForbidden3=Φαίνεται ότι Powererp δεν χρησιμοποιείται μέσω επικυρωμένο συνεδρία. Ρίξτε μια ματιά στην τεκμηρίωση της εγκατάστασης Powererp να ξέρει πώς να διαχειριστεί authentications (htaccess, mod_auth ή άλλα ...).
+ErrorForbidden2=Η άδεια για αυτή τη σύνδεση μπορεί να οριστεί από το διαχειριστή σας PowerERP από το μενού %s-> %s.
+ErrorForbidden3=Φαίνεται ότι PowerERP δεν χρησιμοποιείται μέσω επικυρωμένο συνεδρία. Ρίξτε μια ματιά στην τεκμηρίωση της εγκατάστασης PowerERP να ξέρει πώς να διαχειριστεί authentications (htaccess, mod_auth ή άλλα ...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Κατηγορία imagick δεν βρίσκεται σε αυτό το PHP. Δεν προεπισκόπηση μπορεί να είναι διαθέσιμες. Οι διαχειριστές μπορούν να απενεργοποιήσουν αυτή την καρτέλα από το πρόγραμμα Εγκατάστασης μενού - Οθόνη.
 ErrorRecordAlreadyExists=Εγγραφή υπάρχει ήδη
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Λογαριασμό χρήστη <b>%s</b> �
 ErrorNoActivatedBarcode=Δεν ενεργοποιείται τύπου barcode
 ErrUnzipFails=Failed to unzip %s with ZipArchive
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
-ErrorFileMustBeAPowererpPackage=The file %s must be a Powererp zip package
-ErrorModuleFileRequired=You must select a Powererp module package file
+ErrorFileMustBeAPowererpPackage=The file %s must be a PowerERP zip package
+ErrorModuleFileRequired=You must select a PowerERP module package file
 ErrorPhpCurlNotInstalled=The PHP CURL is not installed, this is essential to talk with Paypal
 ErrorFailedToAddToMailmanList=Failed to add record %s to Mailman list %s or SPIP base
 ErrorFailedToRemoveToMailmanList=Failed to remove record %s to Mailman list %s or SPIP base
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=The date must be lower than today
 ErrorDateMustBeInFuture=The date must be greater than today
 ErrorPaymentModeDefinedToWithoutSetup=A payment mode was set to type %s but setup of module Invoice was not completed to define information to show for this payment mode.
 ErrorPHPNeedModule=Σφάλμα, η PHP σας πρέπει να έχει το module <b>%s</ b> εγκατεστημένο για να χρησιμοποιήσετε αυτήν τη δυνατότητα.
-ErrorOpenIDSetupNotComplete=Μπορείτε να ρυθμίσετε το Powererp αρχείο config να επιτρέψει OpenID ταυτότητα, αλλά το URL OpenID υπηρεσίας δεν ορίζεται σε συνεχή %s
+ErrorOpenIDSetupNotComplete=Μπορείτε να ρυθμίσετε το PowerERP αρχείο config να επιτρέψει OpenID ταυτότητα, αλλά το URL OpenID υπηρεσίας δεν ορίζεται σε συνεχή %s
 ErrorWarehouseMustDiffers=Η πηγή και ο στόχος των αποθηκών πρέπει να είναι διαφορετικός.
 ErrorBadFormat=Κακή μορφή!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, this member is not yet linked to any third party. Link member to an existing third party or create a new third party before creating subscription with invoice.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, request too large
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Η παράμετρος PHP upload_max_filesize (%s) είναι υψηλότερη από την παράμετρο PHP post_max_size (%s). Αυτό δεν είναι μια σταθερή ρύθμιση.
-WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Powererp. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
+WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to PowerERP. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
 WarningMandatorySetupNotComplete=Κάντε κλικ εδώ για να ορίσετε υποχρεωτικές παραμέτρους
 WarningEnableYourModulesApplications=Κάντε κλικ εδώ για να ενεργοποιήσετε τις ενότητες και τις εφαρμογές σας
 WarningSafeModeOnCheckExecDir=Προειδοποίηση, PHP <b>safe_mode</b> επιλογή είναι τόσο εντολή αυτή πρέπει να αποθηκεύονται σε ένα κατάλογο που δηλώνονται από <b>safe_mode_exec_dir</b> παράμετρο php.

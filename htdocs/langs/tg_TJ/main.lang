@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Ҳеҷ дархосте дар иштибоҳ нест
 ErrorServiceUnavailableTryLater=Хизмат ҳоло дастрас нест. Баъдтар дубора кӯшиш кунед.
 ErrorDuplicateField=Арзиши такрорӣ дар майдони беназир
 ErrorSomeErrorWereFoundRollbackIsDone=Баъзе хатогиҳо ёфт шуданд. Тағйирот баргардонида шуданд.
-ErrorConfigParameterNotDefined=Параметри <b> %s </b> дар файли танзимоти Powererp <b> conf.php </b> муайян карда нашудааст.
-ErrorCantLoadUserFromPowererpDatabase=Дар базаи Powererp корбар <b> %s </b> ёфт нашуд.
+ErrorConfigParameterNotDefined=Параметри <b> %s </b> дар файли танзимоти PowerERP <b> conf.php </b> муайян карда нашудааст.
+ErrorCantLoadUserFromPowererpDatabase=Дар базаи PowerERP корбар <b> %s </b> ёфт нашуд.
 ErrorNoVATRateDefinedForSellerCountry=Хатогӣ, барои кишвар '%s' меъёри андоз аз арзиши иловашуда муайян карда нашудааст.
 ErrorNoSocialContributionForSellerCountry=Хато, ягон намуди андозҳои иҷтимоӣ/молиявӣ барои кишвар '%s' муайян карда нашудааст.
 ErrorFailedToSaveFile=Хатогӣ, захира кардани файл ноком шуд.
@@ -95,7 +95,7 @@ RecordDeleted=Сабт нест карда шуд
 RecordGenerated=Сабти тавлидшуда
 LevelOfFeature=Сатҳи хусусиятҳо
 NotDefined=Муайян нашудааст
-PowererpInHttpAuthenticationSoPasswordUseless=Ҳолати аутентификатсияи Powererp ба <b> %s </b> дар файли танзимоти <b> conf.php </b> муқаррар карда шудааст. <br> Ин маънои онро дорад, ки пойгоҳи додаҳои парол берун аз Powererp аст, аз ин рӯ тағир додани ин майдон метавонад таъсире надошта бошад.
+PowererpInHttpAuthenticationSoPasswordUseless=Ҳолати аутентификатсияи PowerERP ба <b> %s </b> дар файли танзимоти <b> conf.php </b> муқаррар карда шудааст. <br> Ин маънои онро дорад, ки пойгоҳи додаҳои парол берун аз PowerERP аст, аз ин рӯ тағир додани ин майдон метавонад таъсире надошта бошад.
 Administrator=Администратор
 Undefined=Муайян нашудааст
 PasswordForgotten=Парол фаромӯш шудааст?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Менеҷери навъи пойгоҳи додаҳо
 RequestLastAccessInError=Хатогии дархости дастрасӣ ба пойгоҳи додаҳо
 ReturnCodeLastAccessInError=Рамзи бозгашт барои хатои дархости дастрасӣ ба пойгоҳи додаҳо
 InformationLastAccessInError=Маълумот дар бораи хатогии дархости дастрасӣ ба пойгоҳи додаҳо
-PowererpHasDetectedError=Powererp хатои техникиро ошкор кард
+PowererpHasDetectedError=PowerERP хатои техникиро ошкор кард
 YouCanSetOptionPowererpMainProdToZero=Шумо метавонед файли гузоришро хонед ё имконоти $ powererp_main_prod -ро дар файли танзимоти худ ба '0' таъин кунед, то маълумоти бештар гиред.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Маълумоти бештар
@@ -122,7 +122,7 @@ TechnicalID=Шиносномаи техникӣ
 LineID=ID рақами
 NotePublic=Эзоҳ (оммавӣ)
 NotePrivate=Эзоҳ (хусусӣ)
-PrecisionUnitIsLimitedToXDecimals=Powererp танзим карда шуд, ки дақиқии воҳидҳоро ба <b> %s </b> маҳдуд кунад.
+PrecisionUnitIsLimitedToXDecimals=PowerERP танзим карда шуд, ки дақиқии воҳидҳоро ба <b> %s </b> маҳдуд кунад.
 DoTest=Санҷиш
 ToFilter=Филтр
 NoFilter=Филтр нест
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Аъзоён
 MenuAgendaGoogle=Барномаи Google
 MenuTaxesAndSpecialExpenses=Андозҳо | Хароҷоти махсус
-ThisLimitIsDefinedInSetup=Маҳдудияти Powererp (Менюи хона-танзим-амният): %s Kb, маҳдудияти PHP: %s Kb
-ThisLimitIsDefinedInSetupAt=Маҳдудияти Powererp (Меню %s): %s Kb, маҳдудияти PHP (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=Маҳдудияти PowerERP (Менюи хона-танзим-амният): %s Kb, маҳдудияти PHP: %s Kb
+ThisLimitIsDefinedInSetupAt=Маҳдудияти PowerERP (Меню %s): %s Kb, маҳдудияти PHP (Param %s): %s Kb
 NoFileFound=Ҳуҷҷатҳо бор карда нашудаанд
 CurrentUserLanguage=Забони ҷорӣ
 CurrentTheme=Мавзӯи ҷорӣ
@@ -909,7 +909,7 @@ ViewFlatList=Дидани рӯйхати ҳамвор
 ViewAccountList=Намоиши дафтар
 ViewSubAccountList=Дидани дафтарчаи зерсохтор
 RemoveString=Силсилаи '%s' -ро хориҷ кунед
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Истиноди зеркашии оммавӣ
 PublicDownloadLinkDesc=Барои зеркашии файл танҳо истинод лозим аст
 DirectDownloadInternalLink=Истиноди зеркашии хусусӣ

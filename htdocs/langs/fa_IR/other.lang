@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=کد حفاظتی
 NumberingShort=N°
 Tools=ابزار
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=You can click on the link below to make your payment if it is not already done.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=Powererp is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
+DemoDesc=PowerERP is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
 ChooseYourDemoProfil=Choose the demo profile that best suits your needs...
 ChooseYourDemoProfilMore=...or build your own profile<br>(manual module selection)
 DemoFundation=مدیریت اعضای پایه
@@ -182,10 +182,10 @@ SizeUnitpoint=نقطه
 BugTracker=اشکالات
 SendNewPasswordDesc=This form allows you to request a new password. It will be sent to your email address.<br>Change will become effective once you click on the confirmation link in the email.<br>Check your inbox.
 BackToLoginPage=بازگشت به صفحه ورود
-AuthenticationDoesNotAllowSendNewPassword=نحوه <b>تایید٪ s است.</b> <br> در این حالت، Powererp نمی توانند بفهمند و نه رمز عبور خود را تغییر دهید. <br> تماس با مدیر سیستم شما اگر می خواهید رمز عبور خود را تغییر دهید.
+AuthenticationDoesNotAllowSendNewPassword=نحوه <b>تایید٪ s است.</b> <br> در این حالت، PowerERP نمی توانند بفهمند و نه رمز عبور خود را تغییر دهید. <br> تماس با مدیر سیستم شما اگر می خواهید رمز عبور خود را تغییر دهید.
 EnableGDLibraryDesc=Install or enable GD library on your PHP installation to use this option.
 ProfIdShortDesc=<b>پروفسور کد از٪ s</b> اطلاعات بسته به کشور های شخص ثالث است. <br> به عنوان مثال، برای <b>کشور٪، این کد٪ بازدید کنندگان</b> است.
-PowererpDemo=Powererp ERP / CRM نسخه ی نمایشی
+PowererpDemo=PowerERP ERP / CRM نسخه ی نمایشی
 StatsByNumberOfUnits=Statistics for sum of qty of products/services
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Number of proposals

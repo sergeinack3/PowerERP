@@ -72,10 +72,10 @@ class pdf_ultimate_propal extends ModelePDFPropales
 	public $phpmin = array(5, 5);
 
 	/**
-     * Powererp version of the loaded document
+     * PowerERP version of the loaded document
      * @public string
      */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 	/**
      * @var int page width
@@ -425,7 +425,7 @@ class pdf_ultimate_propal extends ModelePDFPropales
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("PdfCommercialProposalTitle"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("PdfCommercialProposalTitle")." ".$outputlangs->convToOutputCharset($object->thirdparty->name));
 				if (! empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) $pdf->SetCompression(false);

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Mã
 WebsiteSetupDesc=Tạo ở đây các trang web bạn muốn sử dụng. Sau đó vào menu Trang web để chỉnh sửa chúng.
 DeleteWebsite=Xóa trang web
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Xem trang web bằng URL nhà
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Example to use in Apache virtual host setup:
 YouCanAlsoTestWithPHPS=<u>Sử dụng với máy chủ nhúng PHP</u> <br> Trên môi trường phát triển, bạn có thể muốn kiểm tra trang web với máy chủ web nhúng PHP (yêu cầu PHP 5.5) bằng cách chạy <br> <strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP=<u>Chạy trang web của bạn với một nhà cung cấp Powererp Hosting khác</u> <br> Nếu bạn không có máy chủ web như Apache hoặc NGinx có sẵn trên internet, bạn có thể xuất và nhập trang web của mình vào một phiên bản Powererp khác được cung cấp bởi một nhà cung cấp dịch vụ lưu trữ Powererp khác cung cấp tích hợp đầy đủ với mô-đun Trang web. Bạn có thể tìm thấy danh sách một số nhà cung cấp dịch vụ lưu trữ Powererp trên <a href="https://saas.powererp.org" target="_blank">https://saas.powererp.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Chạy trang web của bạn với một nhà cung cấp PowerERP Hosting khác</u> <br> Nếu bạn không có máy chủ web như Apache hoặc NGinx có sẵn trên internet, bạn có thể xuất và nhập trang web của mình vào một phiên bản PowerERP khác được cung cấp bởi một nhà cung cấp dịch vụ lưu trữ PowerERP khác cung cấp tích hợp đầy đủ với mô-đun Trang web. Bạn có thể tìm thấy danh sách một số nhà cung cấp dịch vụ lưu trữ PowerERP trên <a href="https://saas.PowerERP.org" target="_blank">https://saas.PowerERP.org</a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Đọc
 WritePerm=Viết
 TestDeployOnWeb=Kiểm tra / triển khai trên web
 PreviewSiteServedByWebServer=<u>Xem trước %s trong một tab mới.</u> <br><br> %s sẽ được phục vụ bởi một máy chủ web bên ngoài (như Apache, Nginx, IIS). Bạn phải cài đặt và thiết lập máy chủ này trước khi trỏ đến thư mục: <br> <strong>%s</strong> <br> URL được phục vụ bởi máy chủ bên ngoài: <br> <strong>%s</strong>
-PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Powererp server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Powererp.<br>URL served by Powererp:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
+PreviewSiteServedByPowererp=<u>Preview %s in a new tab.</u><br><br>The %s will be served by PowerERP server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your PowerERP.<br>URL served by PowerERP:<br><strong>%s</strong><br><br>To use your own external web server to serve this web site, create a virtual host on your web server that points on directory<br><strong>%s</strong><br>then enter the name of this virtual server in the properties of this website and click on the link "Test/Deploy on the web".
 VirtualHostUrlNotDefined=URL của máy chủ ảo được cung cấp bởi máy chủ web bên ngoài không được xác định
 NoPageYet=Chưa có trang nào
 YouCanCreatePageOrImportTemplate=Bạn có thể tạo một trang mới hoặc nhập một mẫu trang web đầy đủ

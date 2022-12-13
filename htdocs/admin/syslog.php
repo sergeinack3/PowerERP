@@ -178,7 +178,7 @@ if (!$defaultsyslogfacility) {
 	$defaultsyslogfacility = 'LOG_USER';
 }
 if (!$defaultsyslogfile) {
-	$defaultsyslogfile = 'powererp.log';
+	$defaultsyslogfile = 'PowerERP.log';
 }
 $optionmc = '';
 if (!empty($conf->global->MAIN_MODULE_MULTICOMPANY) && $user->entity) {

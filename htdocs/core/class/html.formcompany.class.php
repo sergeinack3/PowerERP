@@ -832,9 +832,9 @@ class FormCompany extends Form
 		if ($rendermode === 'view') {
 			$toprint = array();
 			foreach ($contact->roles as $key => $val) {
-				$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb;">'.$val['label'].'</li>';
+				$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb;">'.$val['label'].'</li>';
 			}
-			return '<div class="select2-container-multi-powererp" style="width: 90%;" id="'.$htmlname.'"><ul class="select2-choices-powererp">'.implode(' ', $toprint).'</ul></div>';
+			return '<div class="select2-container-multi-PowerERP" style="width: 90%;" id="'.$htmlname.'"><ul class="select2-choices-PowerERP">'.implode(' ', $toprint).'</ul></div>';
 		}
 
 		if ($rendermode === 'edit') {

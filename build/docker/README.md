@@ -1,8 +1,8 @@
 # How to use it ?
 
-The docker-compose.yml file is used to build and run Powererp in the current workspace.
+The docker-compose.yml file is used to build and run PowerERP in the current workspace.
 This docker image intended for developpement usage.
-For production usage you should consider other contributor reference like https://hub.docker.com/r/tuxgasy/powererp 
+For production usage you should consider other contributor reference like https://hub.docker.com/r/tuxgasy/PowerERP 
 
 Before build/run, define the variable HOST_USER_ID as following:
 
@@ -16,9 +16,9 @@ And then, you can run :
 
         docker-compose up
 
-This will run 4 containers Docker : Powererp, MariaDB, PhpMyAdmin and MailDev.
+This will run 4 containers Docker : PowerERP, MariaDB, PhpMyAdmin and MailDev.
 
-The URL to go to the Powererp is :
+The URL to go to the PowerERP is :
 
         http://0.0.0.0
 
@@ -26,7 +26,7 @@ The URL to go to PhpMyAdmin is (login/password is root/root) :
 
         http://0.0.0.0:8080
         
-In Powererp configuration Email let PHP mail function, To see all mail send by Powererp go to maildev
+In PowerERP configuration Email let PHP mail function, To see all mail send by PowerERP go to maildev
 
         http://0.0.0.0:8081
 

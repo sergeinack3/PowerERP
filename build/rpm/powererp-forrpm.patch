@@ -5,10 +5,10 @@ diff -up htdocs/filefunc.inc.php.patch htdocs/filefunc.inc.php
  $conffile = "conf/conf.php";
  $conffiletoshow = "htdocs/conf/conf.php";
  // For debian/redhat like systems
--//$conffile = "/etc/powererp/conf.php";
--//$conffiletoshow = "/etc/powererp/conf.php";
-+$conffile = "/etc/powererp/conf.php";
-+$conffiletoshow = "/etc/powererp/conf.php";
+-//$conffile = "/etc/PowerERP/conf.php";
+-//$conffiletoshow = "/etc/PowerERP/conf.php";
++$conffile = "/etc/PowerERP/conf.php";
++$conffiletoshow = "/etc/PowerERP/conf.php";
  
  
  // Include configuration
@@ -19,10 +19,10 @@ diff -up htdocs/install/inc.php.patch htdocs/install/inc.php
  $conffile = "../conf/conf.php";
  $conffiletoshow = "htdocs/conf/conf.php";
  // For debian/redhat like systems
--//$conffile = "/etc/powererp/conf.php";
--//$conffiletoshow = "/etc/powererp/conf.php";
-+$conffile = "/etc/powererp/conf.php";
-+$conffiletoshow = "/etc/powererp/conf.php";
+-//$conffile = "/etc/PowerERP/conf.php";
+-//$conffiletoshow = "/etc/PowerERP/conf.php";
++$conffile = "/etc/PowerERP/conf.php";
++$conffiletoshow = "/etc/PowerERP/conf.php";
  
  
  // Load conf file if it is already defined

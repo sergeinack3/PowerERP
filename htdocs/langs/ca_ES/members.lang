@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Àrea de socis
 MemberCard=Fitxa de soci
 SubscriptionCard=Fitxa cotització
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Llistat de socis públics validats
 ErrorThisMemberIsNotPublic=Aquest soci no és públic
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Un altre soci (nom: <b>%s</b>, nom d'usuari: <b>%s</b>) ja està vinculat al tercer <b>%s</b>. Esborreu l'enllaç existent ja que un tercer només pot estar vinculat a un sol soci (i viceversa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Per motius de seguretat, se us ha de concedir permisos per a editar tots els usuaris per a poder enllaçar un soci a un usuari que no és vostre.
-SetLinkToUser=Vincular a un usuari Powererp
-SetLinkToThirdParty=Vincular a un tercer Powererp
+SetLinkToUser=Vincular a un usuari PowerERP
+SetLinkToThirdParty=Vincular a un tercer PowerERP
 MembersCards=Targetes de visita per a socis
 MembersList=Llistat de socis
 MembersListToValid=Llistat de socis esborrany (per a validar)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Esteu segur que voleu suprimir aquesta contribució?
 Filehtpasswd=Arxiu htpasswd
 ValidateMember=Valida un soci
 ConfirmValidateMember=Vols validar aquest soci?
-FollowingLinksArePublic=Els següents enllaços són pàgines obertes que no estan protegides per cap permís de Powererp. No són pàgines amb format, són proporcionades com a exemple per a mostrar com llistar la base de dades de socis.
+FollowingLinksArePublic=Els següents enllaços són pàgines obertes que no estan protegides per cap permís de PowerERP. No són pàgines amb format, són proporcionades com a exemple per a mostrar com llistar la base de dades de socis.
 PublicMemberList=Llistat públic de socis
 BlankSubscriptionForm=Formulari públic d’autoregistre
-BlankSubscriptionFormDesc=Powererp us pot proporcionar una URL/lloc web públic per a permetre que els visitants externs sol·licitin subscriure's a la fundació. Si un mòdul de pagament en línia està habilitat, també es pot proporcionar automàticament un formulari de pagament.
+BlankSubscriptionFormDesc=PowerERP us pot proporcionar una URL/lloc web públic per a permetre que els visitants externs sol·licitin subscriure's a la fundació. Si un mòdul de pagament en línia està habilitat, també es pot proporcionar automàticament un formulari de pagament.
 EnablePublicSubscriptionForm=Activa el lloc web públic amb el formulari d'auto-subscripció
 ForceMemberType=Força el tipus de soci
 ExportDataset_member_1=Membres i contribucions

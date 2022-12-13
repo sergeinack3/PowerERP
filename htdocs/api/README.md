@@ -1,15 +1,15 @@
 API REST
 ========
 
-## Integrate your ERP with any other applications using Powererp APIs
+## Integrate your ERP with any other applications using PowerERP APIs
  
-This module provides the service to make Powererp a server of REST Web Services. It depends on external library Restler.
+This module provides the service to make PowerERP a server of REST Web Services. It depends on external library Restler.
 
 Extract any data or push insert, update or delete record using our new REST APIs. Using standard HTTP and Json format, it is compatible with any language (PHP, Java, Ruby, Python, C#, C++, JavaScript, JQuery, Basic, ...). Use the embedded APIs explorer tool to test APIs or get generated URLs to use in your own code.
 
 
 <div align="center">
-  <img class="imgdoc" src="https://www.powererp.org//images/doc_apirest.png" alt="Powererp API explorer"/>
+  <img class="imgdoc" src="https://www.PowerERP.org//images/doc_apirest.png" alt="PowerERP API explorer"/>
 </div>
 
 
@@ -17,7 +17,7 @@ Extract any data or push insert, update or delete record using our new REST APIs
 Explore the APIs
 ----------------
 
-You can explore all available APIs by using the API explorer : [**yourpowererp.tld**/api/index.php/explorer](../api/index.php/explorer) (replace **yourpowererp.tld** by real hostname of your Powererp installation)
+You can explore all available APIs by using the API explorer : [**yourpowererp.tld**/api/index.php/explorer](../api/index.php/explorer) (replace **yourpowererp.tld** by real hostname of your PowerERP installation)
 
 
 Access to an API
@@ -45,7 +45,7 @@ The API uses Lucarast Restler framework. Please check documentation https://www.
 
 Github contains also useful information : https://github.com/Luracast/Restler
 
-To implement it into Powererp, you need to create a specific class for object we want to use. A skeleton file is available into /modulebuilder/class directory : *api_mymodule_class.class.php* 
+To implement it into PowerERP, you need to create a specific class for object we want to use. A skeleton file is available into /modulebuilder/class directory : *api_mymodule_class.class.php* 
 The API class file must be put into object class directory, with specific file name. By example, API class file for '*myobject*' must be put as : /htdocs/*myobject*/class/api_*myobject*.class.php. Class must be named  **MyobjectApi**.
 
 If a module provide several object, use a different name for *'myobject'* and put the file into the same directory. 

@@ -726,7 +726,7 @@ if ($action == 'create' || $action == 'adduserldap') {
 
 
 	if (!empty($conf->ldap->enabled) && (isset($conf->global->LDAP_SYNCHRO_ACTIVE) && getDolGlobalInt('LDAP_SYNCHRO_ACTIVE') === Ldap::SYNCHRO_LDAP_TO_DOLIBARR)) {
-		// Show form to add an account from LDAP if sync LDAP -> Powererp is set
+		// Show form to add an account from LDAP if sync LDAP -> PowerERP is set
 		$ldap = new Ldap();
 		$result = $ldap->connect_bind();
 		if ($result >= 0) {
@@ -981,9 +981,9 @@ if ($action == 'create' || $action == 'adduserldap') {
 	if (preg_match('/http/', $powererp_main_authentication)) {
 		$valuetoshow .= ($valuetoshow ? ', ' : '').$langs->trans("HTTPBasicPassword");
 	}
-	if (preg_match('/powererp/', $powererp_main_authentication)) {
+	if (preg_match('/PowerERP/', $powererp_main_authentication)) {
 		if (!empty($ldap_pass)) {	// For very old system comaptibilty. Now clear password can't be viewed from LDAP read
-			$valuetoshow .= ($valuetoshow ? ', ' : '').'<input type="hidden" name="password" value="'.$ldap_pass.'">'; // Powererp password is preffiled with LDAP known password
+			$valuetoshow .= ($valuetoshow ? ', ' : '').'<input type="hidden" name="password" value="'.$ldap_pass.'">'; // PowerERP password is preffiled with LDAP known password
 			$valuetoshow .= preg_replace('/./i', '*', $ldap_pass);
 		} else {
 			// We do not use a field password but a field text to show new password to use.
@@ -1763,7 +1763,7 @@ if ($action == 'create' || $action == 'adduserldap') {
 			if (preg_match('/http/', $powererp_main_authentication)) {
 				$valuetoshow .= ($valuetoshow ? (' '.$langs->trans("or").' ') : '').$langs->trans("HTTPBasicPassword");
 			}
-			if (preg_match('/powererp/', $powererp_main_authentication)) {
+			if (preg_match('/PowerERP/', $powererp_main_authentication)) {
 				if ($object->pass) {
 					$valuetoshow .= ($valuetoshow ? (' '.$langs->trans("or").' ') : '');
 					$valuetoshow .= '<span class="opacitymedium">'.$langs->trans("Hidden").'</span>';
@@ -2301,7 +2301,7 @@ if ($action == 'create' || $action == 'adduserldap') {
 			if (preg_match('/http/', $powererp_main_authentication)) {
 				$valuetoshow .= ($valuetoshow ? (' '.$langs->trans("or").' ') : '').$form->textwithpicto($text, $langs->trans("PowererpInHttpAuthenticationSoPasswordUseless", $powererp_main_authentication), 1, 'warning');
 			}
-			if (preg_match('/powererp/', $powererp_main_authentication)) {
+			if (preg_match('/PowerERP/', $powererp_main_authentication)) {
 				if ($caneditpassword) {
 					$valuetoshow .= ($valuetoshow ? (' '.$langs->trans("or").' ') : '').'<input maxlength="128" type="password" class="flat" name="password" value="'.$object->pass.'" autocomplete="new-password">';
 				} else {

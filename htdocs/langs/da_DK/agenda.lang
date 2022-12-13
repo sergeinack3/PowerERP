@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=ID for begivenhed
 Actions=Begivenheder
 Agenda=Tidsplan
@@ -31,10 +31,10 @@ ViewWeek=Ugevisning
 ViewPerUser=Per brugervisning
 ViewPerType=Per typevisning
 AutoActions= Automatisk udfyldning
-AgendaAutoActionDesc= Her kan du definere events som du vil have Powererp til skabe automatically i Agenda. Hvis intet er valgt, vil kun manuelle handlinger blive inkluderet i logfiler and, der vises i Agenda. Automatisk sporing af forretningshandlinger udført på objekter (validation, status ændring) bliver ikke gemt.
-AgendaSetupOtherDesc= Denne side giver mulighed for at tillade eksport af dine Powererp events i en ekstern kalender (Thunderbird, Google Kalender osv. ..)
-AgendaExtSitesDesc=Denne side giver mulighed for at angive eksterne kalendere, så deres begivenheder kan ses i tidsplanen i Powererp.
-ActionsEvents=Begivenheder, for hvilke Powererp vil skabe en indsats på dagsordenen automatisk
+AgendaAutoActionDesc= Her kan du definere events som du vil have PowerERP til skabe automatically i Agenda. Hvis intet er valgt, vil kun manuelle handlinger blive inkluderet i logfiler and, der vises i Agenda. Automatisk sporing af forretningshandlinger udført på objekter (validation, status ændring) bliver ikke gemt.
+AgendaSetupOtherDesc= Denne side giver mulighed for at tillade eksport af dine PowerERP events i en ekstern kalender (Thunderbird, Google Kalender osv. ..)
+AgendaExtSitesDesc=Denne side giver mulighed for at angive eksterne kalendere, så deres begivenheder kan ses i tidsplanen i PowerERP.
+ActionsEvents=Begivenheder, for hvilke PowerERP vil skabe en indsats på dagsordenen automatisk
 EventRemindersByEmailNotEnabled=Hændelsesindkaldelser via e-mail blev ikke aktiveret til %s modulopsætning.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Tredjepart %s oprettet

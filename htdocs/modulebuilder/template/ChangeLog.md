@@ -1,4 +1,4 @@
-# CHANGELOG MYMODULE FOR [DOLIBARR ERP CRM](https://www.powererp.org)
+# CHANGELOG MYMODULE FOR [DOLIBARR ERP CRM](https://www.PowerERP.org)
 
 ## 1.0
 

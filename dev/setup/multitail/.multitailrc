@@ -1,6 +1,6 @@
-# This is an example of multitail setup file you can use to analyze powererp log files.
-# Usage: multitail -cS powererp documents/powererp.log
-colorscheme:powererp
+# This is an example of multitail setup file you can use to analyze PowerERP log files.
+# Usage: multitail -cS PowerERP documents/PowerERP.log
+colorscheme:PowerERP
 bright:1
 cs_re:yellow,red:.*EMERG.*
 cs_re:white,red:.*ALERT.*

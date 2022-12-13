@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Khu vực thành viên
 MemberCard=Thẻ thành viên
 SubscriptionCard=Thẻ đăng ký
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Danh sách thành viên công khai hợp lệ
 ErrorThisMemberIsNotPublic=Thành viên này không công khai
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Một thành viên khác (tên: <b>%s</b> , đăng nhập: <b>%s</b> ) đã được liên kết với bên thứ ba <b>%s</b> . Trước tiên, xóa liên kết này vì bên thứ ba không thể được liên kết với chỉ một thành viên (và ngược lại).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Vì lý do bảo mật, bạn phải được cấp quyền chỉnh sửa tất cả người dùng để có thể liên kết thành viên với người dùng không phải của bạn.
-SetLinkToUser=Liên kết với người dùng Powererp
-SetLinkToThirdParty=Liên kết với bên thứ ba Powererp
+SetLinkToUser=Liên kết với người dùng PowerERP
+SetLinkToThirdParty=Liên kết với bên thứ ba PowerERP
 MembersCards=Business cards for members
 MembersList=Danh sách thành viên
 MembersListToValid=Danh sách thành viên dự thảo (sẽ được xác nhận)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=tập tin htpasswd
 ValidateMember=Xác nhận một thành viên
 ConfirmValidateMember=Bạn có chắc chắn muốn xác nhận thành viên này?
-FollowingLinksArePublic=Các liên kết sau đây là các trang mở không được bảo vệ bởi bất kỳ sự cho phép của Powererp. Chúng không phải là các trang được định dạng, được cung cấp làm ví dụ để hiển thị cách liệt kê cơ sở dữ liệu thành viên.
+FollowingLinksArePublic=Các liên kết sau đây là các trang mở không được bảo vệ bởi bất kỳ sự cho phép của PowerERP. Chúng không phải là các trang được định dạng, được cung cấp làm ví dụ để hiển thị cách liệt kê cơ sở dữ liệu thành viên.
 PublicMemberList=Danh sách thành viên công khai
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Powererp có thể cung cấp cho bạn một URL / trang web công khai để cho phép khách truy cập bên ngoài yêu cầu đăng ký vào nền tảng. Nếu một mô-đun thanh toán trực tuyến được bật, một hình thức thanh toán cũng có thể được cung cấp tự động.
+BlankSubscriptionFormDesc=PowerERP có thể cung cấp cho bạn một URL / trang web công khai để cho phép khách truy cập bên ngoài yêu cầu đăng ký vào nền tảng. Nếu một mô-đun thanh toán trực tuyến được bật, một hình thức thanh toán cũng có thể được cung cấp tự động.
 EnablePublicSubscriptionForm=Cho phép trang web công cộng với biểu mẫu tự đăng ký
 ForceMemberType=Ép buộc loại thành viên
 ExportDataset_member_1=Members and contributions

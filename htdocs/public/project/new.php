@@ -127,7 +127,7 @@ function llxHeaderVierge($title, $head = "", $disablejs = 0, $disablehead = 0, $
 		print '>';
 		print '</div>';
 		if (empty($conf->global->MAIN_HIDE_POWERED_BY)) {
-			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.powererp.org?utm_medium=website&utm_source=poweredby" target="powererp" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" width="80px"></a></div>';
+			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.PowerERP.org?utm_medium=website&utm_source=poweredby" target="PowerERP" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/powererp_logo.svg" width="80px"></a></div>';
 		}
 		print '</div>';
 	}
@@ -295,7 +295,7 @@ if (empty($reshook) && $action == 'add') {
 				$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnValid()), $substitutionarray, $outputlangs);
 
 				if ($subjecttosend && $texttosend) {
-					$moreinheader = 'X-Powererp-Info: send_an_email by public/lead/new.php'."\r\n";
+					$moreinheader = 'X-PowerERP-Info: send_an_email by public/lead/new.php'."\r\n";
 
 					$result = $object->send_an_email($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 				}

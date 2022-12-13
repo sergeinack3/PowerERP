@@ -55,7 +55,7 @@ if (!defined('NOREQUIREAJAX')) {
  * \brief   JavaScript file for module MyModule.
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 $res = 0;
 // Try main.inc.php into web root known defined into CONTEXT_DOCUMENT_ROOT (not always defined)
 if (!$res && !empty($_SERVER["CONTEXT_DOCUMENT_ROOT"])) {
@@ -85,7 +85,7 @@ if (!$res) {
 
 // Define js type
 header('Content-Type: application/javascript');
-// Important: Following code is to cache this file to avoid page request by browser at each Powererp page access.
+// Important: Following code is to cache this file to avoid page request by browser at each PowerERP page access.
 // You can use CTRL+F5 to refresh your browser cache.
 if (empty($powererp_nocache)) {
 	header('Cache-Control: max-age=3600, public, must-revalidate');

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=エラーなし、コミットする
@@ -51,7 +51,7 @@ ErrorFoundBadEmailInFile=ファイル内の%s線の発見誤った電子メー�
 ErrorUserCannotBeDelete=ユーザーを削除することはできない。多分それはPowererpエンティティに関連付けられている。
 ErrorFieldsRequired=一部の必須フィールドは空白のままになっている。
 ErrorSubjectIsRequired=メールの件名が必要 
-ErrorFailedToCreateDir=ディレクトリの作成に失敗した。そのWebサーバのユーザがPowererpのドキュメントディレクトリに書き込む権限を持って確認すること。パラメータ の<b>safe_modeが</b>このPHPが有効になっている場合、Powererp PHPファイルは、Webサーバーのユーザー(またはグループ)に所有していることを確認すること。
+ErrorFailedToCreateDir=ディレクトリの作成に失敗した。そのWebサーバのユーザがPowererpのドキュメントディレクトリに書き込む権限を持って確認すること。パラメータ の<b>safe_modeが</b>このPHPが有効になっている場合、PowerERP PHPファイルは、Webサーバーのユーザー(またはグループ)に所有していることを確認すること。
 ErrorNoMailDefinedForThisUser=このユーザーに定義されたメールはない
 ErrorSetupOfEmailsNotComplete=メールの設定が完了していない
 ErrorFeatureNeedJavascript=この機能が動作するようにアクティブにするjavascriptをする必要がある。設定でこれを変更 - 表示される。
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=フィールド<b>%s </b>には
 ErrorFieldMustHaveXChar=フィールド<b>%s </b>には、少なくとも%s文字が必要だ。
 ErrorNoAccountancyModuleLoaded=全く会計モジュールが活性化しない
 ErrorExportDuplicateProfil=このプロファイル名は、このエクスポートセットにすでに存在する。
-ErrorLDAPSetupNotComplete=Powererp-LDAPのマッチングは完全ではない。
+ErrorLDAPSetupNotComplete=PowerERP-LDAPのマッチングは完全ではない。
 ErrorLDAPMakeManualTest=.ldifファイルは、ディレクトリ%sで生成された。エラーの詳細情報を持つようにコマンドラインから手動でそれをロードしようとする。
 ErrorCantSaveADoneUserWithZeroPercentage= "doneby" フィールドも入力されている場合、 "statusnotstarted" のアクションを保存できない。
 ErrorRefAlreadyExists=参照<b>%s</b>はすでに存在する。

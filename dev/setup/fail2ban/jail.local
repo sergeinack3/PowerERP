@@ -7,8 +7,8 @@
 ; rule against call of passwordforgottenpage
 enabled = true
 port    = http,https
-filter  = web-powererp-rulespassforgotten
-logpath = >> /mypath/documents/documents/powererp.log
+filter  = web-PowerERP-rulespassforgotten
+logpath = >> /mypath/documents/documents/PowerERP.log
 action  = %(action_mw)s
 bantime  = 4320000   ; 50 days
 findtime = 86400     ; 1 day
@@ -19,8 +19,8 @@ maxretry = 10
 ; rule against bruteforce hacking (login + api)
 enabled = true
 port    = http,https
-filter  = web-powererp-rulesbruteforce
-logpath = >> /mypath/documents/documents/powererp.log
+filter  = web-PowerERP-rulesbruteforce
+logpath = >> /mypath/documents/documents/PowerERP.log
 action  = %(action_mw)s
 bantime  = 86400     ; 1 day
 findtime = 3600      ; 1 hour

@@ -1502,7 +1502,7 @@ if ($action == 'presend') {
 	$contactarr=array();
 	$entrepotStatic=new Entrepot($db);
 	$entrepotStatic->fetch($factory->fk_entrepot);
-	$entrepotStatic->element='stock'; // bug powererp corrig� dans les prochaines versions
+	$entrepotStatic->element='stock'; // bug PowerERP corrig� dans les prochaines versions
 	$contactarr=$entrepotStatic->liste_contact(-1, 'external');
 	if (is_array($contactarr) && count($contactarr)>0) {
 		foreach ($contactarr as $contact) {

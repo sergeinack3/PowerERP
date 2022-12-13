@@ -31,5 +31,5 @@ Then add code inside the "validatePassword" function.
 
 ***** STEP 3 *****
 
-Once this file has been edited, you can go to the Powererp security setup,
+Once this file has been edited, you can go to the PowerERP security setup,
 choose tab "passwords", you will see a new line generator in the "Rules to generate passwords" area.

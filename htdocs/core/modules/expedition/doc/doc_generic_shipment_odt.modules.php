@@ -53,10 +53,10 @@ class doc_generic_shipment_odt extends ModelePdfExpedition
 	public $phpmin = array(5, 6);
 
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 
 
 	/**

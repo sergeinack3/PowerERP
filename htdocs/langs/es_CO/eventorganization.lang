@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - eventorganization
+# PowerERP language file - Source file is en_US - eventorganization
 ModuleEventOrganizationName =Organización del evento
 EventOrganizationDescriptionLong=Gestionar la organización de un evento (espectáculo, conferencias, asistentes o ponentes, con páginas públicas para sugerencia, voto o registro)
 Settings=Ajustes

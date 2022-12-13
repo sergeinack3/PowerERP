@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Üye alanı
 MemberCard=Üye kartı
 SubscriptionCard=Abone kartı
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Doğrulanmış genel üyelerin listesi
 ErrorThisMemberIsNotPublic=Bu üye genel değil
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Başka bir üye  (adı: <b>%s</b>, kullanıcı: <b>%s</b>) zaten bir üçüncü partiyle <b>%s</b> bağlantılı.Önce bu bağlantıyı kaldırın, çünkü bir üçüncü partı yalnızca bir üyeye bağlantılı olamaz (ya da tersi).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Güvenlik nedeniyle, bir üyenin kendinizin dışında bir kullanıcıya bağlı olabilmesi için tüm kullanıcıları düzenleme iznine sahip olmanız gerekir.
-SetLinkToUser=Bir Powererp kullanıcısına bağlantı
-SetLinkToThirdParty=Bir Powererp üçüncü partisine bağlantı
+SetLinkToUser=Bir PowerERP kullanıcısına bağlantı
+SetLinkToThirdParty=Bir PowerERP üçüncü partisine bağlantı
 MembersCards=Business cards for members
 MembersList=Üyelerin listesi
 MembersListToValid=Taslak üye listesi (doğrulanacak)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=htpasswd dosyası
 ValidateMember=Bir üye doğrula
 ConfirmValidateMember=Bu üyeyi doğrulamak istediğinizden emin misiniz?
-FollowingLinksArePublic=The following links are open pages not protected by any Powererp permission. They are not formatted pages, provided as example to show how to list members database.
+FollowingLinksArePublic=The following links are open pages not protected by any PowerERP permission. They are not formatted pages, provided as example to show how to list members database.
 PublicMemberList=Genel üye listesi
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Powererp can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
+BlankSubscriptionFormDesc=PowerERP can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
 EnablePublicSubscriptionForm=Enable the public website with self-subscription form
 ForceMemberType=Üye türünü zorla
 ExportDataset_member_1=Members and contributions

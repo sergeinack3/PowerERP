@@ -283,7 +283,7 @@ if(!is_callable("GETPOSTISSET")) {
     }
 }
 if(!is_callable("setEventMessages")) {
-    // function from /htdocs/core/lib/function.lib.php in Powererp 3.8
+    // function from /htdocs/core/lib/function.lib.php in PowerERP 3.8
     function setEventMessages($mesg, $mesgs, $style = 'mesgs')
     {
             if(! in_array((string) $style, array('mesgs', 'warnings', 'errors'))) dol_print_error('', 'Bad parameter for setEventMessage');
@@ -295,7 +295,7 @@ if(!is_callable("setEventMessages")) {
     }
 }
 /*
- * function retrive the powererp eventMessages ans send then in a XML format
+ * function retrive the PowerERP eventMessages ans send then in a XML format
  *
  *  @return     string                                         XML
  */
@@ -320,7 +320,7 @@ function getEventMessagesXML()
    return $xml;
 }
 /*
- * function convert the powererp eventMessage in a XML format
+ * function convert the PowerERP eventMessage in a XML format
  *
  *  @param    string               $message           message to show
  *  @param    string               $style            style of the message error | ok | warning
@@ -548,7 +548,7 @@ function formatTime($duration, $hoursperdays = -1)
         return strval($totalDay);
     }
 }
-    /** function to send the eventmessage to powererp
+    /** function to send the eventmessage to PowerERP
      *
      * @global type $langs
      * @param array $arraymessage array of message to be displayed

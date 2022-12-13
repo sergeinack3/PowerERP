@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - errors
+# PowerERP language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Tidak ada kesalahan, kami berkomitmen
@@ -48,10 +48,10 @@ ErrorBadDateFormat=Nilai '%s' memiliki format tanggal yang salah
 ErrorWrongDate=Tanggal tidak benar!
 ErrorFailedToWriteInDir=Gagal menulis dalam direktori %s
 ErrorFoundBadEmailInFile=Ditemukan sintaks email yang salah untuk baris %s dalam file (contoh baris %s dengan email = %s)
-ErrorUserCannotBeDelete=Pengguna tidak dapat dihapus. Mungkin itu terkait dengan entitas Powererp.
+ErrorUserCannotBeDelete=Pengguna tidak dapat dihapus. Mungkin itu terkait dengan entitas PowerERP.
 ErrorFieldsRequired=Beberapa bidang yang wajib diisi telah dikosongkan.
 ErrorSubjectIsRequired=Subjek email wajib diisi
-ErrorFailedToCreateDir=Gagal membuat direktori. Periksa apakah pengguna server Web memiliki izin untuk menulis ke direktori dokumen Powererp. Jika parameter<b>safe_mode</b>diaktifkan pada PHP ini, periksa apakah file-file Powererp php milik pengguna web server (atau grup).
+ErrorFailedToCreateDir=Gagal membuat direktori. Periksa apakah pengguna server Web memiliki izin untuk menulis ke direktori dokumen PowerERP. Jika parameter<b>safe_mode</b>diaktifkan pada PHP ini, periksa apakah file-file PowerERP php milik pengguna web server (atau grup).
 ErrorNoMailDefinedForThisUser=Tidak ada surat yang ditentukan untuk pengguna ini
 ErrorSetupOfEmailsNotComplete=Penyiapan email belum selesai
 ErrorFeatureNeedJavascript=Fitur ini perlu javascript untuk diaktifkan agar berfungsi. Ubah ini dalam pengaturan - tampilan.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Bidang<b>%s</b>tidak boleh meng
 ErrorFieldMustHaveXChar=Bidang<b>%s</b>harus memiliki setidaknya %s karakter.
 ErrorNoAccountancyModuleLoaded=Tidak ada modul akuntansi yang diaktifkan
 ErrorExportDuplicateProfil=Nama profil ini sudah ada untuk set ekspor ini.
-ErrorLDAPSetupNotComplete=Pencocokan Powererp-LDAP tidak lengkap.
+ErrorLDAPSetupNotComplete=Pencocokan PowerERP-LDAP tidak lengkap.
 ErrorLDAPMakeManualTest=File .ldif telah dibuat di direktori %s. Cobalah memuatnya secara manual dari baris perintah untuk mendapatkan informasi lebih lanjut tentang kesalahan.
 ErrorCantSaveADoneUserWithZeroPercentage=Tidak dapat menyimpan tindakan dengan "status tidak dimulai" jika bidang "dilakukan oleh" juga diisi.
 ErrorRefAlreadyExists=Referensi <b> %s </b> sudah ada.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s ditugaskan ke sepertiga lainnya
 ErrorFailedToSendPassword=Gagal mengirim kata sandi
 ErrorFailedToLoadRSSFile=Gagal mendapatkan umpan RSS. Coba tambahkan MAIN_SIMPLEXMLLOAD_DEBUG konstan jika pesan kesalahan tidak memberikan informasi yang cukup.
 ErrorForbidden=Akses ditolak. <br> Anda mencoba mengakses halaman, area atau fitur modul yang dinonaktifkan atau tanpa sesi yang diautentikasi atau yang tidak diizinkan untuk pengguna Anda.
-ErrorForbidden2=Izin untuk login ini dapat ditentukan oleh administrator Powererp Anda dari menu %s-> %s.
-ErrorForbidden3=Tampaknya Powererp tidak digunakan melalui sesi yang diautentikasi. Lihatlah dokumentasi pengaturan Powererp untuk mengetahui cara mengelola otentikasi (htaccess, mod_auth atau lainnya ...).
+ErrorForbidden2=Izin untuk login ini dapat ditentukan oleh administrator PowerERP Anda dari menu %s-> %s.
+ErrorForbidden3=Tampaknya PowerERP tidak digunakan melalui sesi yang diautentikasi. Lihatlah dokumentasi pengaturan PowerERP untuk mengetahui cara mengelola otentikasi (htaccess, mod_auth atau lainnya ...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Kelas Imagick tidak ditemukan di PHP ini. Pratinjau tidak tersedia. Administrator dapat menonaktifkan tab ini dari menu Pengaturan - Tampilan.
 ErrorRecordAlreadyExists=Rekor sudah ada
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Akun pengguna<b>%s</b>yang digunakan untuk me
 ErrorNoActivatedBarcode=Tidak ada tipe barcode yang diaktifkan
 ErrUnzipFails=Gagal unzip %s dengan ZipArchive
 ErrNoZipEngine=Tidak ada mesin untuk zip / unzip file %s dalam PHP ini
-ErrorFileMustBeAPowererpPackage=File %s harus berupa paket zip Powererp
-ErrorModuleFileRequired=Anda harus memilih file paket modul Powererp
+ErrorFileMustBeAPowererpPackage=File %s harus berupa paket zip PowerERP
+ErrorModuleFileRequired=Anda harus memilih file paket modul PowerERP
 ErrorPhpCurlNotInstalled=PHP CURL tidak diinstal, ini penting untuk berbicara dengan Paypal
 ErrorFailedToAddToMailmanList=Gagal menambahkan catatan %s ke daftar Mailman %s atau basis SPIP
 ErrorFailedToRemoveToMailmanList=Gagal menghapus catatan %s ke daftar Mailman %s atau basis SPIP
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=Tanggal harus lebih rendah dari hari ini
 ErrorDateMustBeInFuture=Tanggal harus lebih besar dari hari ini
 ErrorPaymentModeDefinedToWithoutSetup=Mode pembayaran ditetapkan untuk mengetik %s tetapi pengaturan modul Faktur tidak selesai untuk menentukan informasi yang akan ditampilkan untuk mode pembayaran ini.
 ErrorPHPNeedModule=Kesalahan, PHP Anda harus memiliki modul<b>%s</b>diinstal untuk menggunakan fitur ini.
-ErrorOpenIDSetupNotComplete=Anda menyiapkan file konfigurasi Powererp untuk mengizinkan otentikasi OpenID, tetapi URL layanan OpenID tidak didefinisikan ke dalam konstanta %s
+ErrorOpenIDSetupNotComplete=Anda menyiapkan file konfigurasi PowerERP untuk mengizinkan otentikasi OpenID, tetapi URL layanan OpenID tidak didefinisikan ke dalam konstanta %s
 ErrorWarehouseMustDiffers=Gudang sumber dan target harus berbeda
 ErrorBadFormat=Format salah!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Kesalahan, anggota ini belum tertaut ke pihak ketiga mana pun. Tautkan anggota ke pihak ketiga yang ada atau buat pihak ketiga yang baru sebelum membuat langganan dengan faktur.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, request too large
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Parameter PHP Anda upload_max_filesize (%s) lebih tinggi dari parameter PHP post_max_size (%s). Ini bukan pengaturan yang konsisten.
-WarningPasswordSetWithNoAccount=Kata sandi ditetapkan untuk anggota ini. Namun, tidak ada akun pengguna yang dibuat. Jadi kata sandi ini disimpan tetapi tidak dapat digunakan untuk masuk ke Powererp. Ini dapat digunakan oleh modul / antarmuka eksternal tetapi jika Anda tidak perlu mendefinisikan login atau kata sandi untuk anggota, Anda dapat menonaktifkan opsi "Kelola login untuk setiap anggota" dari pengaturan modul Anggota. Jika Anda perlu mengelola login tetapi tidak memerlukan kata sandi, Anda dapat mengosongkan isian ini untuk menghindari peringatan ini. Catatan: Email juga dapat digunakan sebagai login jika anggota tersebut tertaut ke pengguna.
+WarningPasswordSetWithNoAccount=Kata sandi ditetapkan untuk anggota ini. Namun, tidak ada akun pengguna yang dibuat. Jadi kata sandi ini disimpan tetapi tidak dapat digunakan untuk masuk ke PowerERP. Ini dapat digunakan oleh modul / antarmuka eksternal tetapi jika Anda tidak perlu mendefinisikan login atau kata sandi untuk anggota, Anda dapat menonaktifkan opsi "Kelola login untuk setiap anggota" dari pengaturan modul Anggota. Jika Anda perlu mengelola login tetapi tidak memerlukan kata sandi, Anda dapat mengosongkan isian ini untuk menghindari peringatan ini. Catatan: Email juga dapat digunakan sebagai login jika anggota tersebut tertaut ke pengguna.
 WarningMandatorySetupNotComplete=Klik di sini untuk mengatur parameter wajib
 WarningEnableYourModulesApplications=Klik di sini untuk mengaktifkan modul dan aplikasi Anda
 WarningSafeModeOnCheckExecDir=Peringatan, opsi PHP<b>safe_mode</b>aktif sehingga perintah harus disimpan di dalam direktori yang dideklarasikan dengan parameter php<b>safe_mode_exec_dir </b>.

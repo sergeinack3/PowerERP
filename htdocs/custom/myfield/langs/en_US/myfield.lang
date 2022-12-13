@@ -1,7 +1,7 @@
-# Powererp language file - en_US - myField
+# PowerERP language file - en_US - myField
 CHARSET=UTF-8
 Module160211Name=myField
-Module160211Desc=Fields management on powererp tab
+Module160211Desc=Fields management on PowerERP tab
 mfdatatabledict=langs/en_US/datatables.lang
 MyfieldSetup=Seput myField
 MyFieldSettingValue=Setting of myField module
@@ -36,7 +36,7 @@ author=Author
 EnableContextView=Enable context display
 InfoEnableContextView=Displays active contexts on pages
 MyFieldSetup=MyField settings
-MyFieldsDBCloseOrderingError=Powererp code error : invert "db->close" and "printCommonFooter"
+MyFieldsDBCloseOrderingError=PowerERP code error : invert "db->close" and "printCommonFooter"
 PatasToolsNews=Patas-monkeys
 PatasMonkeyTools=Patas-monkey tools area
 PatasToolsDesc=All our tools can be accessed from this page, secondary menu
@@ -62,7 +62,7 @@ LienDolistore=Find our other modules
 Changelog=ChangeLog you module
 SupportModuleInformation=Technical informations
 SupportModuleInformationDesc=<br/> <em>Note: This information is useful and you may be asked if you encounter a bug in the operation of the module.</em>
-PowererpVersion=Version de Powererp
+PowererpVersion=Version de PowerERP
 ModuleVersion=Module version
 PHPVersion=PHP version
 DatabaseVersion=Version of the database

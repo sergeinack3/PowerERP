@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=Configuration du module PayPal
 PAYPAL_API_SANDBOX=Mode test / sandbox
 PAYPAL_API_USER=Nom d'utilisateur de l'API

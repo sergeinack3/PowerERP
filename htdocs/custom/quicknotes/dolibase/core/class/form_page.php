@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -26,7 +26,7 @@ dolibase_include_once('core/class/field.php');
 class FormPage extends Page
 {
 	/**
-	 * @var object used to call Powererp form functions
+	 * @var object used to call PowerERP form functions
 	 */
 	public $form;
 	/**

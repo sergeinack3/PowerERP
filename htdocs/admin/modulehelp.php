@@ -339,15 +339,15 @@ if ($mode == 'desc') {
 			$textexternal .= ' <a href="'.DOL_URL_ROOT.'/admin/tools/export_files.php?export_type=externalmodule&what='.urlencode($moduledir).'&compression=zip&zipfilename_template=module_'.$moduledir.'-'.$version.'.notorig" target="_blank" rel="noopener">'.img_picto('', 'download').'</a>';
 		}
 
-		if ($objMod->editor_name != 'powererp') {
+		if ($objMod->editor_name != 'PowerERP') {
 			$textexternal .= '<br><span class="opacitymedium">'.$langs->trans("Publisher").':</span> '.(empty($objMod->editor_name) ? $langs->trans("Unknown") : $objMod->editor_name);
 		}
 		$editor_url = $objMod->editor_url;
 		if (!preg_match('/^http/', $editor_url)) {
 			$editor_url = 'http://'.$editor_url;
 		}
-		if (!empty($objMod->editor_url) && !preg_match('/powererp\.org/i', $objMod->editor_url)) {
-			$textexternal .= ($objMod->editor_name != 'powererp' ? ' - ' : '').img_picto('', 'globe').' <a href="'.$editor_url.'" target="_blank" rel="noopener noreferrer external">'.$objMod->editor_url.'</a>';
+		if (!empty($objMod->editor_url) && !preg_match('/PowerERP\.org/i', $objMod->editor_url)) {
+			$textexternal .= ($objMod->editor_name != 'PowerERP' ? ' - ' : '').img_picto('', 'globe').' <a href="'.$editor_url.'" target="_blank" rel="noopener noreferrer external">'.$objMod->editor_url.'</a>';
 		}
 		$text .= $textexternal;
 		$text .= '<br>';

@@ -1534,7 +1534,7 @@ if ($step == 5 && $datatoimport) {
 				print ', ';
 			}
 			$newval = $val;
-			// Link to Powererp wiki pages
+			// Link to PowerERP wiki pages
 			/*$helppagename='EN:Table_'.$newval;
 			if ($helppagename && empty($conf->global->MAIN_HELP_DISABLELINK))
 			{
@@ -1940,7 +1940,7 @@ if ($step == 6 && $datatoimport) {
 				print ', ';
 			}
 			$newval = $val;
-			// Link to Powererp wiki pages
+			// Link to PowerERP wiki pages
 			/*$helppagename='EN:Table_'.$newval;
 			if ($helppagename && empty($conf->global->MAIN_HELP_DISABLELINK))
 			{

@@ -22,7 +22,7 @@
 /**
  *	\file       htdocs/install/step4.php
  *	\ingroup	install
- *	\brief      Ask login and password of Powererp admin user
+ *	\brief      Ask login and password of PowerERP admin user
  */
 
 
@@ -40,8 +40,8 @@ $langs->loadLangs(array("admin", "install"));
 // Now we load forced value from install.forced.php file.
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/powererp/conf.php") {
-	$forcedfile = "/etc/powererp/install.forced.php";
+if ($conffile == "/etc/PowerERP/conf.php") {
+	$forcedfile = "/etc/PowerERP/install.forced.php";
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;

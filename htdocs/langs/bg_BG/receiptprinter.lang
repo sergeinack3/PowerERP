@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - receiptprinter
+# PowerERP language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=Настройка на модул касов принтер
 PrinterAdded=Принтер %s е добавен
 PrinterUpdated=Принтер %s е обновен

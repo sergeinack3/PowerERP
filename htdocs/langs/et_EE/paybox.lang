@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=PayBox mooduli seadistamine
 PayBoxDesc=See moodul võimaldab klientidel makseid sooritada <a href="http://www.paybox.com" target="_blank">Payboxi</a> lehel. Seda võib kasutada tavalise maksena või maksena teatud Powererpi objektidel (arved, tellimused jne)
 FollowingUrlAreAvailableToMakePayments=Powererpi objektide põhjal maksete sooritamiseks on klientidele pakkuda järgnevate lehtede URLid:

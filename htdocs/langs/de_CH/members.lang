@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MemberCard=Mitgliederkarte
 SubscriptionCard=Abo-Karte
 ShowMember=Mitgliederkarte anzeigen
@@ -6,8 +6,8 @@ UserNotLinkedToMember=Benutzer nicht mit einem Mitglied verknüpft
 FundationMembers=Gründungsmitglieder
 ListOfValidatedPublicMembers=Liste der verifizierten öffentlichen Mitglieder
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Ein anderes Mitglied (Name: <b>%s</b>, login: <b>%s</b>) ist schon mit Partner <b>%s</b> verknüpft. Entfernen Sie zuerst die Verknüpfung, da immer nur ein Mitglied zugewiesen sein kann (und umgekehrt).
-SetLinkToUser=Verknüpfung zu Powererp Benutzer
-SetLinkToThirdParty=Verknüpfung zu Powererp Partner
+SetLinkToUser=Verknüpfung zu PowerERP Benutzer
+SetLinkToThirdParty=Verknüpfung zu PowerERP Partner
 MembersList=Mitgliederliste
 MembersListToValid=Liste der zu verifizierenden Mitglieder
 MembersListValid=Liste der verifizierten Mitglieder
@@ -22,7 +22,7 @@ NewMemberType=Neue Mitgliederart
 WelcomeEMail=Begrüssungs-E-Mail
 VoteAllowed=Abstimmen erlaubt
 DeleteSubscription=Abonnement löschen
-BlankSubscriptionFormDesc=Powererp kann Ihnen eine öffentliche URL / Website zur Verfügung stellen, über die externe Besucher ein Abonnement der Stiftung anfragen können. Wenn ein Online-Zahlungsmodul aktiviert ist, kann auch automatisch ein Zahlungsformular bereitgestellt werden.
+BlankSubscriptionFormDesc=PowerERP kann Ihnen eine öffentliche URL / Website zur Verfügung stellen, über die externe Besucher ein Abonnement der Stiftung anfragen können. Wenn ein Online-Zahlungsmodul aktiviert ist, kann auch automatisch ein Zahlungsformular bereitgestellt werden.
 EnablePublicSubscriptionForm=Aktivieren Sie die öffentliche Website mit dem Formular zur Selbstregistrierung
 SendingEmailOnAutoSubscription=E-Mail bei automatischer Registrierung senden
 CardContent=Inhalt Ihrer Mitgliederkarte

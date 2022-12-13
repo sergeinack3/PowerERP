@@ -31,10 +31,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/member/modules_member.class.php';
 class mod_member_simple extends ModeleNumRefMembers
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'MEM';
 

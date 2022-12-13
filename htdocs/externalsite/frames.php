@@ -70,7 +70,7 @@ if (!empty($keyforcontent)) {
 			/*print "
 			<html>
 			<head>
-			<title>Powererp frame for external web site</title>
+			<title>PowerERP frame for external web site</title>
 			</head>
 
 			<frameset ".(empty($conf->global->MAIN_MENU_INVERT)?"rows":"cols")."=\"".$heightforframes.",*\" border=0 framespacing=0 frameborder=0>
@@ -109,7 +109,7 @@ if (!empty($keyforcontent)) {
 		print "
 	<html>
 	<head>
-	<title>Powererp frame for external web site</title>
+	<title>PowerERP frame for external web site</title>
 	</head>
 
 	<frameset ".(empty($conf->global->MAIN_MENU_INVERT) ? "rows" : "cols")."=\"".$heightforframes.",*\" border=0 framespacing=0 frameborder=0>

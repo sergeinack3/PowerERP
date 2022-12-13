@@ -1,6 +1,6 @@
 <?php
 /* Copyright (C) 2005-2019 Laurent Destailleur  <eldy@users.sourceforge.net>
- * Copyright (C) 2005-2009 Regis Houssin        <regis@powererp.fr>
+ * Copyright (C) 2005-2009 Regis Houssin        <regis@PowerERP.fr>
  * Copyright (C) 2007      Rodolphe Quiedeville <rodolphe@quiedeville.org>
  *
  * This program is free software; you can redistribute it and/or modify
@@ -25,7 +25,7 @@
  */
 
 
-// Load Powererp environment
+// Load PowerERP environment
 $res=0;
 // Try main.inc.php into web root known defined into CONTEXT_DOCUMENT_ROOT (not always defined)
 if (! $res && ! empty($_SERVER["CONTEXT_DOCUMENT_ROOT"])) $res=@include($_SERVER["CONTEXT_DOCUMENT_ROOT"]."/main.inc.php");

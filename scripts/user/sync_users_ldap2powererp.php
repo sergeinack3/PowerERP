@@ -21,7 +21,7 @@
 /**
  * \file scripts/user/sync_users_ldap2powererp.php
  * \ingroup ldap member
- * \brief Script to update users into Powererp from LDAP
+ * \brief Script to update users into PowerERP from LDAP
  */
 
 if (!defined('NOSESSION')) {
@@ -120,7 +120,7 @@ if (!empty($conf->global->LDAP_FILTER_CONNECTION)) {
 } else {
 	print 'Filter=('.$conf->global->LDAP_KEY_USERS.'=*)'."\n";
 }
-print "----- To Powererp database:\n";
+print "----- To PowerERP database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";
@@ -138,7 +138,7 @@ if (!$confirmed) {
 }
 
 if (empty($conf->global->LDAP_USER_DN)) {
-	print $langs->trans("Error").': '.$langs->trans("LDAP setup for users not defined inside Powererp");
+	print $langs->trans("Error").': '.$langs->trans("LDAP setup for users not defined inside PowerERP");
 	exit(-1);
 }
 
@@ -174,7 +174,7 @@ $result = $ldap->connect_bind();
 if ($result >= 0) {
 	$justthese = array();
 
-	// We disable synchro Powererp-LDAP
+	// We disable synchro PowerERP-LDAP
 	$conf->global->LDAP_SYNCHRO_ACTIVE = 0;
 
 	$ldaprecords = $ldap->getRecords('*', $conf->global->LDAP_USER_DN, $conf->global->LDAP_KEY_USERS, $required_fields, 'user'); // Fiter on 'user' filter param

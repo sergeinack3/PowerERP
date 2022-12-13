@@ -90,7 +90,7 @@ module.exports = {
     noun: 'Order',
     display: {
         label: 'New Order',
-        description: 'Triggers when a new order with action is done in Powererp.'
+        description: 'Triggers when a new order with action is done in PowerERP.'
     },
 
     // `operation` is where the business logic goes.

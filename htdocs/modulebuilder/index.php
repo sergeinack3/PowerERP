@@ -23,7 +23,7 @@
  *       \file       htdocs/modulebuilder/index.php
  *       \brief      Home page for module builder module
  *
- *       You can add parameter dirins=/home/ldestailleur/git/powererp/htdocs/mymodule to force generation of module
+ *       You can add parameter dirins=/home/ldestailleur/git/PowerERP/htdocs/mymodule to force generation of module
  *       into the dirins directory.
  */
 
@@ -180,7 +180,7 @@ foreach ($dirsrootforscan as $dirread) {
 		$newdircustom = img_warning();
 	}
 	// If dirread was forced to somewhere else, by using URL
-	// htdocs/modulebuilder/index.php?module=Inventory@/home/ldestailleur/git/powererp/htdocs/product
+	// htdocs/modulebuilder/index.php?module=Inventory@/home/ldestailleur/git/PowerERP/htdocs/product
 	if (empty($i)) {
 		$textforlistofdirs .= $langs->trans("DirScanned").' : ';
 	} else {
@@ -1751,7 +1751,7 @@ $text = $langs->trans("ModuleBuilder");
 
 print load_fiche_titre($text, '', 'title_setup');
 
-print '<span class="opacitymedium hideonsmartphone">'.$langs->trans("ModuleBuilderDesc", 'https://wiki.powererp.org/index.php/Module_development#Create_your_module').'</span><br>';
+print '<span class="opacitymedium hideonsmartphone">'.$langs->trans("ModuleBuilderDesc", 'https://wiki.PowerERP.org/index.php/Module_development#Create_your_module').'</span><br>';
 
 //print $textforlistofdirs;
 //print '<br>';
@@ -1887,7 +1887,7 @@ if (is_array($listofmodules) && count($listofmodules) > 0) {
 						$linktoenabledisable .= ' <a href="'.$urltouse.(preg_match('/\?/', $urltouse) ? '&' : '?').'save_lastsearch_values=1&backtopage='.urlencode($backtourl).'" title="'.$langs->trans("Setup").'">'.img_picto($langs->trans("Setup"), "setup", 'style="padding-right: 8px"').'</a>';
 					} else {
 						// Case standard admin page (not a page provided by the
-						// module but a page provided by powererp)
+						// module but a page provided by PowerERP)
 						$urltouse = DOL_URL_ROOT.'/admin/'.$urlpage;
 						$linktoenabledisable .= ' <a href="'.$urltouse.(preg_match('/\?/', $urltouse) ? '&' : '?').'save_lastsearch_values=1&backtopage='.urlencode($backtourl).'" title="'.$langs->trans("Setup").'">'.img_picto($langs->trans("Setup"), "setup", 'style="padding-right: 8px"').'</a>';
 					}
@@ -2097,7 +2097,7 @@ if ($module == 'initmodule') {
 					print '</td><td>';
 					print $moduleobj->numero;
 					print ' &nbsp; (<a href="'.DOL_URL_ROOT.'/admin/system/modules.php?mainmenu=home&leftmenu=admintools_info" target="_blank" rel="noopener noreferrer">'.$langs->trans("SeeIDsInUse").'</a>';
-					print ' - <a href="https://wiki.powererp.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>)';
+					print ' - <a href="https://wiki.PowerERP.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>)';
 					print '</td></tr>';
 
 					print '<tr><td>';
@@ -2727,7 +2727,7 @@ if ($module == 'initmodule') {
 							print '<table class="noborder small">';
 							print '<tr class="liste_titre">';
 							print '<th>'.$langs->trans("Property");
-							print ' (<a class="" href="https://wiki.powererp.org/index.php/Language_and_development_rules#Table_and_fields_structures" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeExamples").'</a>)';
+							print ' (<a class="" href="https://wiki.PowerERP.org/index.php/Language_and_development_rules#Table_and_fields_structures" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeExamples").'</a>)';
 							print '</th>';
 							print '<th>';
 							print $form->textwithpicto($langs->trans("Label"), $langs->trans("YouCanUseTranslationKey"));

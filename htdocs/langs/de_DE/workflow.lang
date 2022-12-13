@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - workflow
+# PowerERP language file - Source file is en_US - workflow
 WorkflowSetup=Einstellungen Modul Workflow
 WorkflowDesc=Dieses Modul liefert verschiedene, automatisierte Aktionen. Standardmäßig ist der Workflow flexibel (d.h. Sie sind frei in der Reihenfolge der Abarbeitung) aber über diesen Modul können Sie einige Aktionen automatisiert ablaufen lassen.
 ThereIsNoWorkflowToModify=Es sind keine Workflow-Änderungen möglich mit den aktivierten Modulen.

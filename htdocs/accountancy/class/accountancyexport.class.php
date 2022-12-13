@@ -519,7 +519,7 @@ class AccountancyExport
 			$Tab['libelle_ecriture'] = str_pad(self::trunc(dol_string_unaccent($data->doc_ref).dol_string_unaccent($data->label_operation), 25), 25);
 			$Tab['montant'] = str_pad(price2fec(abs($data->debit - $data->credit)), 13, ' ', STR_PAD_LEFT);
 			$Tab['type_montant'] = str_pad($data->sens, 1);
-			$Tab['vide'] = str_repeat(' ', 18); // Analytical accounting - Not managed in Powererp
+			$Tab['vide'] = str_repeat(' ', 18); // Analytical accounting - Not managed in PowerERP
 			$Tab['intitule_compte'] = str_pad(self::trunc(dol_string_unaccent($data->label_operation), 34), 34);
 			$Tab['end'] = 'O2003'; // 0 = EUR | 2003 = Format Ciel
 

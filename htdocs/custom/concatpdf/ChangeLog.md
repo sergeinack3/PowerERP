@@ -1,4 +1,4 @@
-# ChangeLog MODULE CONCATPDF FOR <a href="https://www.powererp.org">POWERERP ERP CRM</a>
+# ChangeLog MODULE CONCATPDF FOR <a href="https://www.PowerERP.org">POWERERP ERP CRM</a>
 
 
 # Unreleased
@@ -20,7 +20,7 @@ FIX: concat of file selected mut be done also without clicking generate
 
 Fix error Uncaught Error: [] operator not supported for strings in /..../custom/concatpdf/class/actions_concatpdf.class.php
 Fix option CONCATPDF_PRESELECTED_MODELS to be compatible when using multiple documents to concat.
-Compatibility with Powererp 6.0
+Compatibility with PowerERP 6.0
 
 ## 3.7.2
 

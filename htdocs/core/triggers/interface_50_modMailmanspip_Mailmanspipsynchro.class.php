@@ -41,7 +41,7 @@ class InterfaceMailmanSpipsynchro extends PowererpTriggers
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
 		$this->family = "mailmanspip";
 		$this->description = "Triggers of this module allows to synchronize Mailman an Spip.";
-		// 'development', 'experimental', 'powererp' or version
+		// 'development', 'experimental', 'PowerERP' or version
 		$this->version = self::VERSION_DOLIBARR;
 		$this->picto = 'technic';
 	}

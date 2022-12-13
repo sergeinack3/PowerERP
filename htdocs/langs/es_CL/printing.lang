@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - printing
+# PowerERP language file - Source file is en_US - printing
 PrintingDriverDesc=Variables de configuración para imprimir el controlador.
 ListDrivers=Lista de controladores
 PrintTestDesc=Lista de impresoras.

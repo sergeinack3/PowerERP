@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=Directory
 ECMSectionManual=Directory manuale
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Numero di sottodirectory
 ECMNbOfFilesInSubDir=Numero di file nelle sub-directory
 ECMCreationUser=Creatore
 ECMArea=Area DMS/ECM
-ECMAreaDesc=L'area DMS/ECM (Document Management System / Electronic Content Management) consente di salvare, condividere e cercare rapidamente tutti i tipi di documenti in Powererp.
+ECMAreaDesc=L'area DMS/ECM (Document Management System / Electronic Content Management) consente di salvare, condividere e cercare rapidamente tutti i tipi di documenti in PowerERP.
 ECMAreaDesc2=* Le directory vengono riempite automaticamente quando si aggiungono dei documenti dalla scheda di un elemento.<br/>* Per salvare documenti non legati ad un elemento si può usare l'aggiunta manuale.
 ECMSectionWasRemoved=La directory<b>%s</b> è stata eliminata.
 ECMSectionWasCreated=Cartella <b>%s</b> è stata creata.

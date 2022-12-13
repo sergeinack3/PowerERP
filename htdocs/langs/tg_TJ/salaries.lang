@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Ҳисоби баҳисобгирӣ барои корбарони сеюм истифода мешавад
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Ҳисоби баҳисобгирии муҳосибӣ, ки дар корти корбар муайян шудааст, танҳо барои баҳисобгирии зерпардохт истифода мешавад. Ин барои китоби умумӣ ва ҳамчун арзиши пешфарзии баҳисобгирии Subledger истифода мешавад, агар ҳисоби махсуси баҳисобгирии корбар дар корбар муайян карда нашуда бошад.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Ҳисоби баҳисобгирӣ бо нобаёнӣ барои пардохти музди меҳнат

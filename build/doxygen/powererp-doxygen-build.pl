@@ -11,7 +11,7 @@ $DIR =~ s/([^\/\\])[\\\/]+$/$1/;
 $OPTIONS="";
 #$OPTIONS="-d Preprocessor";
 
-$CONFFILE="powererp-doxygen.doxyfile";
+$CONFFILE="PowerERP-doxygen.doxyfile";
 
 use Cwd;
 my $dir = getcwd;
@@ -21,11 +21,11 @@ print "Running dir for doxygen must be: $DIR\n";
 
 if (! -s $CONFFILE)
 {
-    print "Error: current directory for building Powererp doxygen documentation is not correct.\n";
+    print "Error: current directory for building PowerERP doxygen documentation is not correct.\n";
     print "\n";
 	print "Change your current directory then, to launch the script, run:\n";
-	print '> perl .\powererp-doxygen-build.pl  (on Windows)'."\n";
-	print '> perl ../powererp-doxygen-build.pl  (on Linux or BSD)'."\n";
+	print '> perl .\PowerERP-doxygen-build.pl  (on Windows)'."\n";
+	print '> perl ../PowerERP-doxygen-build.pl  (on Linux or BSD)'."\n";
     sleep 4;
     exit 1;   
 }

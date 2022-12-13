@@ -95,7 +95,7 @@ foreach ($object->users as $obj)
 
 } // fin foreach
 
-// si aucun utilisateur powererp trouvé
+// si aucun utilisateur PowerERP trouvé
 //if (count($object->users) == 0)
 //{
 //    echo $langs->trans("NoUserFound");

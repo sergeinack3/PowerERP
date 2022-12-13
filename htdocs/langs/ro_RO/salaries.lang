@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Contul contabil folosit pentru terți utilizatori
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Contul contabil dedicat definit pe cardul de utilizator va fi utilizat doar pentru contabilitatea subregistru. Aceasta va fi utilizată pentru Registrul general și ca valoare implicită a contabilității suregistru dacă nu este definită contul de contabilitate dedicat pentru utilizatori.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Contul contabil implicit pentru plata salariilor

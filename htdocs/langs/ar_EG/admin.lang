@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - admin
+# PowerERP language file - Source file is en_US - admin
 Foundation=مؤسسة
 Version=إصدار
 VersionLastInstall=أول إصدار ثبت
@@ -25,7 +25,7 @@ PurgeSessions=مسح الجلسات
 ConfirmPurgeSessions=هل تريد حقًا تطهير جميع الجلسات؟ سيؤدي هذا إلى فصل كل مستخدم (باستثناء نفسك).
 NoSessionListWithThisHandler=لا يسمح معالج حفظ الجلسة الذي تم تكوينه في PHP بإدراج جميع الجلسات الجارية.
 LockNewSessions=اغلاق الدخول للمتصلين الجدد
-ConfirmLockNewSessions=هل أنت متأكد من أنك تريد تقييد أي اتصال Powererp جديد لنفسك؟ سيتمكن المستخدم <b> %s </b> فقط من الاتصال بعد ذلك.
+ConfirmLockNewSessions=هل أنت متأكد من أنك تريد تقييد أي اتصال PowerERP جديد لنفسك؟ سيتمكن المستخدم <b> %s </b> فقط من الاتصال بعد ذلك.
 UnlockNewSessions=الغاء حظر الاتصال
 YourSession=جلستك
 WebUserGroup=مستخدم\\مجموعة خادم الويب

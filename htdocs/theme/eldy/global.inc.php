@@ -6168,7 +6168,7 @@ span#select2-boxbookmark-container {
 }
 
 /* To emulate select 2 style */
-.select2-container-multi-powererp .select2-choices-powererp .select2-search-choice-powererp {
+.select2-container-multi-PowerERP .select2-choices-PowerERP .select2-search-choice-PowerERP {
   padding: 3px 5px 2px 5px;
   margin: 0 0 2px 3px;
   position: relative;
@@ -6191,14 +6191,14 @@ span#select2-boxbookmark-container {
   background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
   background-image: linear-gradient(to bottom, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
 }
-.select2-container-multi-powererp .select2-choices-powererp .select2-search-choice-powererp a {
+.select2-container-multi-PowerERP .select2-choices-PowerERP .select2-search-choice-PowerERP a {
 	font-weight: normal;
 }
-.select2-container-multi-powererp .select2-choices-powererp li {
+.select2-container-multi-PowerERP .select2-choices-PowerERP li {
   float: left;
   list-style: none;
 }
-.select2-container-multi-powererp .select2-choices-powererp {
+.select2-container-multi-PowerERP .select2-choices-PowerERP {
   height: auto !important;
   height: 1%;
   margin: 0;

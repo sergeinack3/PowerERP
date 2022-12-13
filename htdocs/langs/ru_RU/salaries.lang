@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - salaries
+# PowerERP language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Учет используется для пользователей контрагентов
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Выделенный бухгалтерский счет, указанный в карточке пользователя, будет использоваться только для учета во вспомогательной книги. Этот будет использоваться для Главной книги и в качестве значения по умолчанию для учета вспомогательной книги, если выделенная пользовательский бухгалтерский счет для пользователя не определен.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Бухгалтерский счет по умолчанию для выплат заработной платы

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Žádný chybný požadavek
 ErrorServiceUnavailableTryLater=Služba momentálně není k dispozici. Zkuste to později znovu.
 ErrorDuplicateField=Duplicitní hodnota v poli
 ErrorSomeErrorWereFoundRollbackIsDone=Byly nalezeny některé chyby. Změny byly vráceny zpět.
-ErrorConfigParameterNotDefined=Parametr <b> %s </b> není definován v konfiguračním souboru Powererp <b> conf.php </b>.
-ErrorCantLoadUserFromPowererpDatabase=Nepodařilo se najít uživatele <b>%s</b> v databázi Powererp.
+ErrorConfigParameterNotDefined=Parametr <b> %s </b> není definován v konfiguračním souboru PowerERP <b> conf.php </b>.
+ErrorCantLoadUserFromPowererpDatabase=Nepodařilo se najít uživatele <b>%s</b> v databázi PowerERP.
 ErrorNoVATRateDefinedForSellerCountry=Chyba, pro zemi '%s' nejsou definovány žádné sazby DPH.
 ErrorNoSocialContributionForSellerCountry=Chyba, žádný typ sociálních / fiskálních daní není definován pro zemi '%s'.
 ErrorFailedToSaveFile=Chyba, nepodařilo se uložit soubor.
@@ -95,7 +95,7 @@ RecordDeleted=Záznam smazán
 RecordGenerated=Záznam byl vygenerován
 LevelOfFeature=Úroveň vlastností
 NotDefined=Není definováno
-PowererpInHttpAuthenticationSoPasswordUseless=Powererp režim ověřování je nastaven na <b> %s </b> v konfiguračním souboru <b> conf.php </b>. <br> Znamená to, že databáze hesel je externí k Powererp, takže změna tohoto pole nemusí mít žádný vliv.
+PowererpInHttpAuthenticationSoPasswordUseless=PowerERP režim ověřování je nastaven na <b> %s </b> v konfiguračním souboru <b> conf.php </b>. <br> Znamená to, že databáze hesel je externí k PowerERP, takže změna tohoto pole nemusí mít žádný vliv.
 Administrator=Správce
 Undefined=Nedefinováno
 PasswordForgotten=Zapomněli jste heslo?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Správce typu databáze
 RequestLastAccessInError=Žádost o poslední přístup do databáze v případě chyby
 ReturnCodeLastAccessInError=Návratový kód pro přístup k databázi v případě chyby
 InformationLastAccessInError=Informace pro poslední přístup do databáze v případě chyby
-PowererpHasDetectedError=Powererp zjistil technickou chybu
+PowererpHasDetectedError=PowerERP zjistil technickou chybu
 YouCanSetOptionPowererpMainProdToZero=Můžete číst soubor protokolu nebo nastavit volbu $ powererp_main_prod na "0" ve vašem souboru konfigurace, abyste získali další informace.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Více informací
@@ -122,7 +122,7 @@ TechnicalID=Technické ID
 LineID=ID řádku
 NotePublic=Poznámka (veřejné)
 NotePrivate=Poznámka (soukromé)
-PrecisionUnitIsLimitedToXDecimals=Powererp byl nastaven pro limit přesnosti jednotkových cen na <b>%s</b> desetinných míst.
+PrecisionUnitIsLimitedToXDecimals=PowerERP byl nastaven pro limit přesnosti jednotkových cen na <b>%s</b> desetinných míst.
 DoTest=Test
 ToFilter=Filtr
 NoFilter=Žádný filtr
@@ -732,8 +732,8 @@ MenuAWStats=AW Statistiky
 MenuMembers=Členové
 MenuAgendaGoogle=Google agenda
 MenuTaxesAndSpecialExpenses=Daně/Zvláštní výdaje
-ThisLimitIsDefinedInSetup=Powererp limit (menu Domů-nastavení-zabezpečení): %s Kb, PHP limit: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP limit (menu Domů-nastavení-zabezpečení): %s Kb, PHP limit: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP limit (Menu %s): %s Kb, PHP limit (Param %s): %s Kb
 NoFileFound=No documents uploaded
 CurrentUserLanguage=Aktuální jazyk
 CurrentTheme=Aktuální téma
@@ -909,7 +909,7 @@ ViewFlatList=Zobrazit seznam plochý
 ViewAccountList=View ledger
 ViewSubAccountList=View subaccount ledger
 RemoveString=Odstraňte řetězec ‚%s‘
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Public download link
 PublicDownloadLinkDesc=Only the link is required to download the file
 DirectDownloadInternalLink=Private download link

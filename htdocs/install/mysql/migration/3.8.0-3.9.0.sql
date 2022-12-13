@@ -139,7 +139,7 @@ CREATE TABLE llx_ecm_files
   label				varchar(64) NOT NULL,
   entity			integer DEFAULT 1 NOT NULL,		-- multi company id
   filename          varchar(255) NOT NULL,			-- file name only without any directory
-  fullpath    		varchar(750) NOT NULL,	        -- relative to powererp document dir. example abc/def/myfile. restricted to 750 because of unique key index on it.
+  fullpath    		varchar(750) NOT NULL,	        -- relative to PowerERP document dir. example abc/def/myfile. restricted to 750 because of unique key index on it.
   fullpath_orig		varchar(2048),    	            -- full path of original filename, when file is uploaded from a local computer
   description		text,
   keywords          text,                           -- list of keywords, separated with comma

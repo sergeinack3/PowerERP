@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Produkt ref.
 ProductLabel=Produktmærke
 ProductLabelTranslated=Oversat produktmærke
@@ -299,7 +299,7 @@ MinSupplierPrice=Min købskurs
 MinCustomerPrice=Mindste salgspris
 NoDynamicPrice=Ingen dynamisk pris
 DynamicPriceConfiguration=Dynamisk priskonfiguration
-DynamicPriceDesc=Du kan definere matematiske formler til beregning af kunde- eller leverandørpriser. Sådanne formler kan bruge alle matematiske operatorer, nogle konstanter og variabler. Du kan her definere de variabler, du vil bruge. Hvis variablen har brug for en automatisk opdatering, kan du definere den eksterne URL, så Powererp kan opdatere værdien automatisk.
+DynamicPriceDesc=Du kan definere matematiske formler til beregning af kunde- eller leverandørpriser. Sådanne formler kan bruge alle matematiske operatorer, nogle konstanter og variabler. Du kan her definere de variabler, du vil bruge. Hvis variablen har brug for en automatisk opdatering, kan du definere den eksterne URL, så PowerERP kan opdatere værdien automatisk.
 AddVariable=Tilføj variabel
 AddUpdater=Tilføj opdaterer
 GlobalVariables=Globale variabler
@@ -378,7 +378,7 @@ NewProductAttribute=Ny attribut
 NewProductAttributeValue=Ny attributværdi
 ErrorCreatingProductAttributeValue=Der opstod en fejl under oprettelsen af ​​attributværdien. Det kan skyldes, at der allerede er en eksisterende værdi med denne reference
 ProductCombinationGeneratorWarning=Hvis du fortsætter, inden du genererer nye varianter, vil alle tidligere blive slettet. Allerede eksisterende vil blive opdateret med de nye værdier
-TooMuchCombinationsWarning=Generering af mange varianter kan resultere i høj CPU, hukommelsesforbrug og Powererp ikke kunne oprette dem. Aktivering af indstillingen "%s" kan medvirke til at reducere hukommelsesforbruget.
+TooMuchCombinationsWarning=Generering af mange varianter kan resultere i høj CPU, hukommelsesforbrug og PowerERP ikke kunne oprette dem. Aktivering af indstillingen "%s" kan medvirke til at reducere hukommelsesforbruget.
 DoNotRemovePreviousCombinations=Fjern ikke tidligere varianter
 UsePercentageVariations=Brug procentvise variationer
 PercentageVariation=Procentvis variation

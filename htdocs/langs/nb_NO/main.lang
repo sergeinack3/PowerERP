@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -113,7 +113,7 @@ DatabaseTypeManager=Databasetype manager
 RequestLastAccessInError=Siste database adgangsfeil
 ReturnCodeLastAccessInError=Returkode for siste database adgangsfeil
 InformationLastAccessInError=Informasjom om siste database adgangsfeil
-PowererpHasDetectedError=Powererp oppdaget en teknisk feil
+PowererpHasDetectedError=PowerERP oppdaget en teknisk feil
 YouCanSetOptionPowererpMainProdToZero=Du kan lese loggfilen eller angi alternativet $powererp_main_prod til '0' i konfigurasjonsfilen din for å få mer informasjon.
 InformationToHelpDiagnose=Denne informasjonen kan være nyttig for diagnostiske formål (du kan sette alternativet $powererp_main_prod til '1' for å skjule sensitiv informasjon)
 MoreInformation=Mer informasjon
@@ -122,7 +122,7 @@ TechnicalID=Teknisk ID
 LineID=Linje-ID
 NotePublic=Notat (offentlig)
 NotePrivate=Notat (privat)
-PrecisionUnitIsLimitedToXDecimals=Powererp er satt opp til å bruke priser med <b>%s</b> desimaler.
+PrecisionUnitIsLimitedToXDecimals=PowerERP er satt opp til å bruke priser med <b>%s</b> desimaler.
 DoTest=Test
 ToFilter=Filter
 NoFilter=Ingen filter
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Medlemmer
 MenuAgendaGoogle=Google agenda
 MenuTaxesAndSpecialExpenses=Avgifter | Spesielle utgifter
-ThisLimitIsDefinedInSetup=Powererp grense (Menu home-setup-security): %s Kb, PHP grense: %s Kb
-ThisLimitIsDefinedInSetupAt=Powererp-grense (Meny %s): %s Kb, PHP-grense (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=PowerERP grense (Menu home-setup-security): %s Kb, PHP grense: %s Kb
+ThisLimitIsDefinedInSetupAt=PowerERP-grense (Meny %s): %s Kb, PHP-grense (Param %s): %s Kb
 NoFileFound=Ingen dokumenter lastet opp
 CurrentUserLanguage=Gjeldende språk
 CurrentTheme=Gjeldende tema
@@ -909,7 +909,7 @@ ViewFlatList=Vis liste
 ViewAccountList=Vis hovedbok
 ViewSubAccountList=Vis underkonto hovedbok
 RemoveString=Fjern strengen '%s'
-SomeTranslationAreUncomplete=Noen av språkene som tilbys kan være bare delvis oversatt eller kan inneholde feil. Vennligst hjelp til å rette språket ditt ved å registrere deg på <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/powererp/ </a> for å legge til forbedringene dine.q
+SomeTranslationAreUncomplete=Noen av språkene som tilbys kan være bare delvis oversatt eller kan inneholde feil. Vennligst hjelp til å rette språket ditt ved å registrere deg på <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/PowerERP/ </a> for å legge til forbedringene dine.q
 DirectDownloadLink=Offentlig nedlastingskobling
 PublicDownloadLinkDesc=Kun koblingen kreves for å laste ned filen
 DirectDownloadInternalLink=Privat nedlastningskobling

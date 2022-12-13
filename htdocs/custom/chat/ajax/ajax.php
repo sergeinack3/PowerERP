@@ -22,7 +22,7 @@
 
 define('NOTOKENRENEWAL', 1);
 
-// Load Powererp environment
+// Load PowerERP environment
 if (false === (@include '../../main.inc.php')) {  // From htdocs directory
 	require '../../../main.inc.php'; // From "custom" directory
 }

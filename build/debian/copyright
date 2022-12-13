@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Powererp
+Upstream-Name: PowerERP
 Upstream-Contact: Laurent Destailleur <eldy@users.sourceforge.net>
-Source: https://www.powererp.org/files/stable/standard/
+Source: https://www.PowerERP.org/files/stable/standard/
 
 Files: *
 Copyright: 2002-2009, Rodolphe Quiedeville   <rodolphe@quiedeville.org>
@@ -166,7 +166,7 @@ License: other
  fonts at gnome dot org.
 Comments:
  Those files are not shipped in the binary package as we
- configure Powererp to use Dejavu fonts from "fonts-dejavu-core".
+ configure PowerERP to use Dejavu fonts from "fonts-dejavu-core".
 
 
 ------------------------------------------------------------
@@ -260,7 +260,7 @@ License: GPL-2+ or MIT
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 Comment:
- JQuery itself is not shipped in the binary package, instead Powererp is
+ JQuery itself is not shipped in the binary package, instead PowerERP is
  configured to use the packaged version from "libjs-jquery" and
  "libjs-jquery-ui". Most of the plugins are shipped though.
 
@@ -273,7 +273,7 @@ License: Public-Domain
  This work is not subject to copyright in any jurisdiction
 Comment:
  Those files are not shipped in the binary package because we configure
- Powererp to use the files provided by "libjs-flot".
+ PowerERP to use the files provided by "libjs-flot".
 
 
 ------------------------------------------------------------
@@ -324,7 +324,7 @@ License: LGPL-2.1+
  '/usr/share/common-licenses/LGPL-2.1'.
 Comment:
  Those files are not shipped in the binary package since we
- configure Powererp to use the library provided in "libnusoap-php".
+ configure PowerERP to use the library provided in "libnusoap-php".
 
 
 ------------------------------------------------------------
@@ -376,4 +376,4 @@ License: LGPL-3.0+
  Public License version 3 can be found in "/usr/share/common-licenses/LGPL-3".
 Comment:
  Those files are not shipped in the binary package since we configure
- Powererp to use the library provided by "php-tcpdf".
+ PowerERP to use the library provided by "php-tcpdf".

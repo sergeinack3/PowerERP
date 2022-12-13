@@ -1,8 +1,8 @@
-# Powererp language file - Source file is en_US - stripe
+# PowerERP language file - Source file is en_US - stripe
 StripeSetup=Настройка модуля Stripe
-StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular Powererp object (invoice, order, ...)
+StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular PowerERP object (invoice, order, ...)
 StripeOrCBDoPayment=Оплата кредитной картой или Stripe
-FollowingUrlAreAvailableToMakePayments=После URL, можно предложить страницу к клиенту сделать платеж по Powererp объектов
+FollowingUrlAreAvailableToMakePayments=После URL, можно предложить страницу к клиенту сделать платеж по PowerERP объектов
 PaymentForm=Форма оплаты
 WelcomeOnPaymentPage=Добро пожаловать в нашу службу онлайн-платежей
 ThisScreenAllowsYouToPay=На этом экране можно сделать онлайн-платежей для %s.

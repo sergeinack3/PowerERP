@@ -1,7 +1,7 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=PayBox moduulin asetukset
-PayBoxDesc=Tämä moduuli tarjota sivuja, jotta maksua <a href="http://www.paybox.com" target="_blank">Paybox</a> asiakkaat. Tätä voidaan käyttää vapaa-maksun tai maksaa tietyn Powererp objektin (lasku-, tilaus-, ...)
-FollowingUrlAreAvailableToMakePayments=Seuraavat URL-osoitteet ovat käytettävissä tarjota sivu asiakas tehdä maksua Powererp esineitä
+PayBoxDesc=Tämä moduuli tarjota sivuja, jotta maksua <a href="http://www.paybox.com" target="_blank">Paybox</a> asiakkaat. Tätä voidaan käyttää vapaa-maksun tai maksaa tietyn PowerERP objektin (lasku-, tilaus-, ...)
+FollowingUrlAreAvailableToMakePayments=Seuraavat URL-osoitteet ovat käytettävissä tarjota sivu asiakas tehdä maksua PowerERP esineitä
 PaymentForm=Maksu-muodossa
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=Tässä näytössä voit tehdä online-maksu %s.

@@ -1,4 +1,4 @@
-# Powererp language file - en_US - factory
+# PowerERP language file - en_US - factory
 CHARSET=UTF-8
 NewOrderBuild=Nuovo ordine di produzione
 OrderBuild=Ordine di produzione (PO )
@@ -204,7 +204,7 @@ LienDolistore=Trova i nostri altri moduli
 Changelog=ChangeLog tu modulo
 SupportModuleInformation=Informazioni tecniche
 SupportModuleInformationDesc=<br/> <em>Nota: questa informazione   utile e potrebbe esserti chiesto se incontri un bug nel funzionamento del modulo.</em>
-PowererpVersion=Versione di Powererp
+PowererpVersion=Versione di PowerERP
 ModuleVersion=Versione del modulo
 PHPVersion=Versione PHP
 DatabaseVersion=Versione del database
@@ -232,7 +232,7 @@ QtyOfWarehouse=Quantit  nel magazzino
 RealStock=Stock R 
 UseCostPriceInsteadPMP=Utilizzare il prezzo di acquisto anzich  il PMP
 InfoUseCostPriceInsteadPMP=Utilizzare il prezzo di acquisto se   impostato al posto del PMP
-ThisFeatureNeedPowererp39=Questa funzione richiede una versione di powererp superiore o uguale a 3.9.0
+ThisFeatureNeedPowererp39=Questa funzione richiede una versione di PowerERP superiore o uguale a 3.9.0
 ComponentsBuyingPrice=Recupero dei prezzi base dei componenti
 InfoComponentsBuyingPrice=Selezione del prezzo utilizzato come prezzo base dei prodotti che compongono le fabbricazioni
 InfoServiceBuyingPrice=Selezione del prezzo utilizzato come prezzo base dei servizi che compongono le fabbricazioni

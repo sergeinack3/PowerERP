@@ -16,8 +16,8 @@
 -- along with this program. If not, see <https://www.gnu.org/licenses/>.
 --
 -- ========================================================================
--- This table logs all powererp security events
--- Content of this table is not managed by users but by Powererp
+-- This table logs all PowerERP security events
+-- Content of this table is not managed by users but by PowerERP
 -- trigger interface_20_all_Logevents.
 -- ========================================================================
 

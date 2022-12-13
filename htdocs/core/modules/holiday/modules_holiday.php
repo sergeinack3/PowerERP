@@ -149,7 +149,7 @@ class ModelNumRefHolidays
 			return $langs->trans("VersionDevelopment");
 		} elseif ($this->version == 'experimental') {
 			return $langs->trans("VersionExperimental");
-		} elseif ($this->version == 'powererp') {
+		} elseif ($this->version == 'PowerERP') {
 			return DOL_VERSION;
 		} elseif ($this->version) {
 			return $this->version;

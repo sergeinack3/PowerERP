@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Área membros
 MemberCard=Ficha membro
 SubscriptionCard=Ficha cotización
@@ -13,8 +13,8 @@ ListOfValidatedPublicMembers=Listaxe de membros públicos validados
 ErrorThisMemberIsNotPublic=Este membro non é público
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Outro membro (nome: <b>%s</b>, login: <b>%s</b>) está ligado ao terceiro <b>%s</b>. Elimine a ligazón existente xa que un terceiro só pode estar ligado a un só membro (e viceversa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Por razóns de seguridade, debe posuir os dereitos de modificación de todos os usuarios para poder ligar un membro a un usuario que non sexa vostede mesmo mesmo.
-SetLinkToUser=Ligar a un usuario Powererp
-SetLinkToThirdParty=Ligar a un terceiro Powererp
+SetLinkToUser=Ligar a un usuario PowerERP
+SetLinkToThirdParty=Ligar a un terceiro PowerERP
 MembersCards=Tarxetas de visita para membros
 MembersList=Listaxe de membros
 MembersListToValid=Listaxe de membros borrador (a validar)
@@ -99,10 +99,10 @@ ConfirmDeleteSubscription=Está certo de querer eliminar esta achega?
 Filehtpasswd=Archivo htpasswd
 ValidateMember=Validar un membro
 ConfirmValidateMember=¿Está certo de querer validar a este membro?
-FollowingLinksArePublic=As seguintes ligazóns son páxinas abertas que non están protexidas por ningún permiso de Powererp. Non son páxinas con formato, proporcionanse como exemplo para amosar cómo enumerar a base de datos de membros.
+FollowingLinksArePublic=As seguintes ligazóns son páxinas abertas que non están protexidas por ningún permiso de PowerERP. Non son páxinas con formato, proporcionanse como exemplo para amosar cómo enumerar a base de datos de membros.
 PublicMemberList=Listaxe público de membros
 BlankSubscriptionForm=Formulario público de autoinscrición 
-BlankSubscriptionFormDesc=Powererp pode proporcionar unha páxina pública para que os visitantes externos podan solicitar afiliarse. Se atópase activo un módulo de pagamento en líña, proporá automáticamente un formulario de pagamento.
+BlankSubscriptionFormDesc=PowerERP pode proporcionar unha páxina pública para que os visitantes externos podan solicitar afiliarse. Se atópase activo un módulo de pagamento en líña, proporá automáticamente un formulario de pagamento.
 EnablePublicSubscriptionForm=Activar 0 formulario público de auto afiliación
 ForceMemberType=Forzar o tipo de membro
 ExportDataset_member_1=Membros e achegas

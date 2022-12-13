@@ -26,7 +26,7 @@
  * \brief   About page of module Zapier.
  */
 
-// Load Powererp environment
+// Load PowerERP environment
 require '../../main.inc.php';
 
 // Libraries

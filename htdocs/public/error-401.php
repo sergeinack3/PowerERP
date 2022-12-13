@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-	<title>Powererp 401 error page</title>
+	<title>PowerERP 401 error page</title>
   </head>
 
   <body>

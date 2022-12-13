@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - exports
+# PowerERP language file - Source file is en_US - exports
 ExportsArea=Export
 ImportArea=Importera
 NewExport=Ny export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Välj det filformat som ska användas som importfilfo
 ChooseFileToImport=Ladda upp filen och klicka sedan på %s ikonen för att välja fil som källa importfil ...
 SourceFileFormat=Källa filformat
 FieldsInSourceFile=Fält i källfilen
-FieldsInTargetDatabase=Target fält i Powererp databas (fetstil = obligatorisk)
+FieldsInTargetDatabase=Target fält i PowerERP databas (fetstil = obligatorisk)
 Field=Fält
 NoFields=Inga fält
 MoveField=Flytta fält %s kolumn nummer

@@ -53,7 +53,7 @@ require_once DOL_DOCUMENT_ROOT . '/core/lib/date.lib.php';
 
 $build = KANPROSPECTS_VERSION;
 
-// variables de gestion des versions Powererp
+// variables de gestion des versions PowerERP
 include_once KANPROSPECTS_DOCUMENT_ROOT . '/lib/kanprospects.lib.php';
 $compareVersionTo507 = compareVersions(DOL_VERSION, '5.0.7'); // 1 si DOL_VERSION > '5.0.7', -1 si DOL_VERSION < '5.0.7', 0 sinon
 $compareVersionTo600 = compareVersions(DOL_VERSION, '6.0.0');

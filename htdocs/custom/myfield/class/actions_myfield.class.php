@@ -235,7 +235,7 @@ function printCommonFooter($parameters, $object, $action)
 						print "{\n";
 						print $namevalue.'_value.find("select :first-child").attr("value", "");'."\n";
 						print "}\n";
-						// to match Powererp theme
+						// to match PowerERP theme
 						print $namevalue.'_value.find("input, select, textarea")
 							.closest("td").prev().wrapInner("<span class=\'fieldrequired\'></span>");'."\n";
 

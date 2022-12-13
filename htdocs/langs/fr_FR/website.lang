@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Code
 WebsiteSetupDesc=Créez ici les sites Web que vous souhaitez utiliser. Ensuite, allez dans le menu Sites Web pour les éditer.
 DeleteWebsite=Effacer site web
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Pré-visualiser le site web en utilisant l'URL de la pag
 SetHereVirtualHost=<u> Utilisation avec Apache/NGinx/...</u> <br> Créez sur votre serveur Web (Apache, Nginx, ...) un hôte virtuel dédié avec PHP activé et un répertoire racine sur <br> <strong> %s </strong>
 ExampleToUseInApacheVirtualHostConfig=Exemple à utiliser dans la configuration de l'hôte virtuel Apache:
 YouCanAlsoTestWithPHPS=<u> Utilisation avec un serveur PHP incorporé </u> <br> Sous environnement de développement, vous pouvez préférer tester le site avec le serveur Web PHP intégré (PHP 5.5 requis) en exécutant <br> <strong> php -S 0.0.0.0:8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP= <u> Exécutez votre site web avec un autre hébergeur Powererp </u> <br> Si vous n'avez pas de serveur web comme Apache ou NGinx disponible sur internet, vous pouvez exporter et importer votre site web sur une autre instance de Powererp fournie par un autre hébergeur Powererp qui offre une intégration complète du module Site Web. Vous pouvez trouver une liste de certains hébergeurs Powererp sur <a href="https://saas.powererp.org" target="_blank" rel="noopener noreferrer external"> https://saas.powererp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Exécutez votre site web avec un autre hébergeur PowerERP </u> <br> Si vous n'avez pas de serveur web comme Apache ou NGinx disponible sur internet, vous pouvez exporter et importer votre site web sur une autre instance de PowerERP fournie par un autre hébergeur PowerERP qui offre une intégration complète du module Site Web. Vous pouvez trouver une liste de certains hébergeurs PowerERP sur <a href="https://saas.PowerERP.org" target="_blank" rel="noopener noreferrer external"> https://saas.PowerERP.org </a>
 CheckVirtualHostPerms=Vérifiez également que l'utilisateur du virtual host (par exemple www-data) a la permission <strong> %s </strong> sur les fichiers dans<br><strong> %s </strong>
 ReadPerm=Lire
 WritePerm=Écrire
 TestDeployOnWeb=Tester/déployer sur le web
 PreviewSiteServedByWebServer=<u>Prévisualiser %s dans un nouvel onglet.</u><br><br>. Le %s sera servi par un serveur web externe (comme Apache, Nginx, IIS). Vous pouvez installer et configurer ce serveur auparavant pour pointer sur le répertoire : <br><strong>%s</strong><br> URL servie par un serveur externe: <br><strong>%s</strong>
-PreviewSiteServedByPowererp=<u>Aperçu %s dans un nouvel onglet.</u><br><br>Le %s sera servi par le serveur Powererp aussi aucun serveur Web supplémentaire (comme Apache, Nginx, IIS) n'est nécessaire.<br>L'inconvénient est que l'URL des pages ne sont pas sexy et commencent par un chemin de votre Powererp.<br>URL servie par Powererp:<br><strong>%s</strong><br><br>Pour utiliser votre propre serveur web externe pour servir ce site web, créez un virtual host sur votre serveur web qui pointe sur le répertoire<br><strong>%s</strong><br> ensuite entrez le nom de ce virtual host dans les propriétés de ce site web et  cliquer sur le lien "Tester/Déployer sur le web".
+PreviewSiteServedByPowererp=<u>Aperçu %s dans un nouvel onglet.</u><br><br>Le %s sera servi par le serveur PowerERP aussi aucun serveur Web supplémentaire (comme Apache, Nginx, IIS) n'est nécessaire.<br>L'inconvénient est que l'URL des pages ne sont pas sexy et commencent par un chemin de votre PowerERP.<br>URL servie par PowerERP:<br><strong>%s</strong><br><br>Pour utiliser votre propre serveur web externe pour servir ce site web, créez un virtual host sur votre serveur web qui pointe sur le répertoire<br><strong>%s</strong><br> ensuite entrez le nom de ce virtual host dans les propriétés de ce site web et  cliquer sur le lien "Tester/Déployer sur le web".
 VirtualHostUrlNotDefined=URL du virtual host servit par le serveur web externe non défini
 NoPageYet=Pas de page pour l'instant
 YouCanCreatePageOrImportTemplate=Vous pouvez créer une nouvelle page ou importer un modèle de site Web complet.

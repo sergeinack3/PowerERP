@@ -21,7 +21,7 @@
 
 /**
  *       \file       htdocs/admin/system/about.php
- *       \brief      About Powererp File page
+ *       \brief      About PowerERP File page
  */
 
 require '../../main.inc.php';
@@ -72,8 +72,8 @@ print '</li></ul>';
 
 print $langs->trans("Developpers").':';
 print '<ul>';
-print '<li>'.$langs->trans("SourcesRepository").': <a href="https://www.github.com/Powererp/powererp" target="_blank" rel="noopener noreferrer external">https://www.github.com/Powererp/powererp</a></li>';
-print '<li>'.$langs->trans("SeeWikiForAllTeam").': <a href="https://wiki.powererp.org/index.php/Powererp_Project" target="_blank" rel="noopener noreferrer external">https://wiki.powererp.org/index.php/Powererp_Project</a></li>';
+print '<li>'.$langs->trans("SourcesRepository").': <a href="https://www.github.com/PowerERP/PowerERP" target="_blank" rel="noopener noreferrer external">https://www.github.com/PowerERP/PowerERP</a></li>';
+print '<li>'.$langs->trans("SeeWikiForAllTeam").': <a href="https://wiki.PowerERP.org/index.php/Powererp_Project" target="_blank" rel="noopener noreferrer external">https://wiki.PowerERP.org/index.php/Powererp_Project</a></li>';
 print '</ul>';
 
 //print "<br>\n";
@@ -82,49 +82,49 @@ print $langs->trans("OtherInformations").':';
 
 print '<ul>';
 print '<li>';
-print '<a target="_blank" href="https://www.powererp.org/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSite").'</a>';
+print '<a target="_blank" href="https://www.PowerERP.org/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSite").'</a>';
 print '</li>';
 // Show local site
 /*
 if (preg_match('/^fr_/i', $langs->getDefaultLang()))
 {
 	print '<li>';
-	print '<a target="_blank" href="https://www.powererp.fr/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("France")).'</a>';
+	print '<a target="_blank" href="https://www.PowerERP.fr/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("France")).'</a>';
 	print '</li>';
 }
 if (preg_match('/^el_/i', $langs->getDefaultLang()))
 {
 	print '<li>';
-	print '<a target="_blank" href="https://www.powererp.gr/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Greece")).'</a>';
+	print '<a target="_blank" href="https://www.PowerERP.gr/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Greece")).'</a>';
 	print '</li>';
 }
 if (preg_match('/^es_/i', $langs->getDefaultLang()))
 {
 	print '<li>';
-	print '<a target="_blank" href="https://www.powererp.es/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Spain")).'</a>';
+	print '<a target="_blank" href="https://www.PowerERP.es/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Spain")).'</a>';
 	print '</li>';
 }
 if (preg_match('/^it_/i', $langs->getDefaultLang()))
 {
 	print '<li>';
-	print '<a target="_blank" href="https://www.powererp.it/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Italy")).'</a>';
+	print '<a target="_blank" href="https://www.PowerERP.it/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Italy")).'</a>';
 	print '</li>';
 }
 if (preg_match('/^de_/i', $langs->getDefaultLang()))
 {
 	print '<li>';
-	print '<a target="_blank" href="https://www.powererp.de/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Germany")).'</a>';
+	print '<a target="_blank" href="https://www.PowerERP.de/" rel="noopener noreferrer external">'.$langs->trans("OfficialWebSiteLocal", $langs->transnoentitiesnoconv("Germany")).'</a>';
 	print '</li>';
 }*/
 print '<li>';
-print '<a target="_blank" href="https://wiki.powererp.org/" rel="noopener noreferrer external">'.$langs->trans("OfficialWiki").'</a>';
+print '<a target="_blank" href="https://wiki.PowerERP.org/" rel="noopener noreferrer external">'.$langs->trans("OfficialWiki").'</a>';
 print '</li>';
 print '</ul>';
 
 print $langs->trans("Demo").':';
 print '<ul>';
 print '<li>';
-print '<a target="_blank" href="https://www.powererp.org/onlinedemo/" rel="noopener noreferrer external">'.$langs->trans("OfficialDemo").'</a>';
+print '<a target="_blank" href="https://www.PowerERP.org/onlinedemo/" rel="noopener noreferrer external">'.$langs->trans("OfficialDemo").'</a>';
 print '</li>';
 print '</ul>';
 
@@ -142,7 +142,7 @@ print '</div><div class="fichehalfright">';
 print $langs->trans("HelpCenter").':';
 print '<ul>';
 print '<li>';
-//print $langs->trans("SeeWikiPage",'http://wiki.powererp.org/index.php/List_of_OpenSource_Software_companies_and_freelancers');
+//print $langs->trans("SeeWikiPage",'http://wiki.PowerERP.org/index.php/List_of_OpenSource_Software_companies_and_freelancers');
 print '<a target="_blank" rel="noopener noreferrer external" href="'.DOL_URL_ROOT.'/support/index.php" data-ajax="false">'.$langs->trans("HelpCenter").'</a>';
 print '</li>';
 print '</ul>';
@@ -151,12 +151,12 @@ print '</ul>';
 print $langs->trans("Foundation").':';
 
 print '<ul>';
-$url = 'https://wiki.powererp.org/index.php/Subscribe';
+$url = 'https://wiki.PowerERP.org/index.php/Subscribe';
 if (preg_match('/^fr_/i', $langs->getDefaultLang())) {
-	$url = 'https://wiki.powererp.org/index.php/Adh%C3%A9rer';
+	$url = 'https://wiki.PowerERP.org/index.php/Adh%C3%A9rer';
 }
 if (preg_match('/^es_/i', $langs->getDefaultLang())) {
-	$url = 'https://wiki.powererp.org/index.php/Subscribirse';
+	$url = 'https://wiki.PowerERP.org/index.php/Subscribirse';
 }
 print '<li><a href="'.$url.'" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SubscribeToFoundation").'</a></li>';
 print '</ul>';
@@ -165,8 +165,8 @@ print $langs->trans("SocialNetworks").':';
 
 print '<ul>';
 
-print '<li><a href="https://facebook.com/powererp" target="_blank" rel="noopener noreferrer external">FaceBook</a></li>';
-print '<li><a href="https://twitter.com/powererp" target="_blank" rel="noopener noreferrer external">Twitter</a></li>';
+print '<li><a href="https://facebook.com/PowerERP" target="_blank" rel="noopener noreferrer external">FaceBook</a></li>';
+print '<li><a href="https://twitter.com/PowerERP" target="_blank" rel="noopener noreferrer external">Twitter</a></li>';
 
 print '</ul>';
 
@@ -174,17 +174,17 @@ print '</ul>';
 print $langs->trans("OtherResources").':';
 print '<ul>';
 
-$url = 'https://saas.powererp.org'; $title = $langs->trans("OfficialWebHostingService");
+$url = 'https://saas.PowerERP.org'; $title = $langs->trans("OfficialWebHostingService");
 if (preg_match('/^fr_/i', $langs->getDefaultLang())) {
-	$url = 'https://wiki.powererp.org/index.php/Solutions_Cloud_pour_Powererp_ERP_CRM';
+	$url = 'https://wiki.PowerERP.org/index.php/Solutions_Cloud_pour_Powererp_ERP_CRM';
 }
 if (preg_match('/^es_/i', $langs->getDefaultLang())) {
-	$url = 'https://wiki.powererp.org/index.php/Soluciones_en_la_Nube';
+	$url = 'https://wiki.PowerERP.org/index.php/Soluciones_en_la_Nube';
 }
 print '<li>';
 print '<a target="_blank" rel="noopener noreferrer external" href="'.$url.'">'.$title.'</a>';
 print '</li>';
-$url = 'https://partners.powererp.org'; $title = $langs->trans("ReferencedPreferredPartners");
+$url = 'https://partners.PowerERP.org'; $title = $langs->trans("ReferencedPreferredPartners");
 print '<li>';
 print '<a target="_blank" rel="noopener noreferrer external" href="'.$url.'">'.$title.'</a>';
 print '</li>';

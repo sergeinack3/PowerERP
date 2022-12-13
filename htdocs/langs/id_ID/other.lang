@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - other
+# PowerERP language file - Source file is en_US - other
 SecurityCode=Kode keamanan
 NumberingShort=N°
 Tools=Alat
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Halo)__\n\nSilakan temukan intervensi __RE
 PredefinedMailContentLink=Anda dapat mengklik tautan di bawah untuk melakukan pembayaran jika belum dilakukan.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Halo)__\n\n\n__(Sungguh-sungguh)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Pengingat acara "__EVENT_LABEL__" pada __EVENT_DATE__ pukul __EVENT_TIME__ <br> <br> Ini adalah pesan otomatis, mohon jangan dibalas.
-DemoDesc=Powererp adalah ERP / CRM ringkas yang mendukung beberapa modul bisnis. Demo yang menampilkan semua modul tidak masuk akal karena skenario ini tidak pernah terjadi (beberapa ratus tersedia). Jadi, beberapa profil demo tersedia.
+DemoDesc=PowerERP adalah ERP / CRM ringkas yang mendukung beberapa modul bisnis. Demo yang menampilkan semua modul tidak masuk akal karena skenario ini tidak pernah terjadi (beberapa ratus tersedia). Jadi, beberapa profil demo tersedia.
 ChooseYourDemoProfil=Pilih profil demo yang paling sesuai dengan kebutuhan Anda ...
 ChooseYourDemoProfilMore=... atau buat profil Anda sendiri <br> (pemilihan modul manual)
 DemoFundation=Kelola anggota sebuah yayasan
@@ -182,10 +182,10 @@ SizeUnitpoint=titik
 BugTracker=Pelacak bug
 SendNewPasswordDesc=Formulir ini memungkinkan Anda untuk meminta kata sandi baru. Itu akan dikirim ke alamat email Anda. <br> Perubahan akan berlaku setelah Anda mengklik tautan konfirmasi di email. <br> Periksa kotak masuk Anda.
 BackToLoginPage=Kembali ke halaman login
-AuthenticationDoesNotAllowSendNewPassword=Mode otentikasi adalah<b>%s </b>. <br> Dalam mode ini, Powererp tidak dapat mengetahui atau mengubah kata sandi Anda. <br> Hubungi administrator sistem Anda jika Anda ingin mengubah kata sandi.
+AuthenticationDoesNotAllowSendNewPassword=Mode otentikasi adalah<b>%s </b>. <br> Dalam mode ini, PowerERP tidak dapat mengetahui atau mengubah kata sandi Anda. <br> Hubungi administrator sistem Anda jika Anda ingin mengubah kata sandi.
 EnableGDLibraryDesc=Instal atau aktifkan pustaka GD pada instalasi PHP Anda untuk menggunakan opsi ini.
 ProfIdShortDesc=<b>Prof Id %s</b>adalah informasi tergantung pada negara pihak ketiga. <br> Misalnya, untuk negara<b>%s </b>, itu kode<b>%s a09a4b739f17f8z
-PowererpDemo=Demo Powererp ERP / CRM
+PowererpDemo=Demo PowerERP ERP / CRM
 StatsByNumberOfUnits=Statistik untuk jumlah jumlah produk / layanan
 StatsByNumberOfEntities=Statistik untuk jumlah entitas perujuk (jumlah faktur, atau pesanan...)
 NumberOfProposals=Jumlah proposal

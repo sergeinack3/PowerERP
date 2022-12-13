@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=Notikuma ID
 Actions=Notikumi
 Agenda=Darba kārtība
@@ -31,10 +31,10 @@ ViewWeek=Nedēļas skats
 ViewPerUser=Katra lietotāja skats
 ViewPerType=Viena veida skats
 AutoActions= Automātiskā aizpildīšana
-AgendaAutoActionDesc= Šeit jūs varat definēt notikumus, kurus vēlaties, lai programma Powererp automātiski izveidotu programmu. Ja nekas netiks pārbaudīts, žurnālos tiks iekļautas tikai manuālas darbības un tās tiks parādītas darba kārtībā. Automātiska darījumu uzraudzība, kas veikta objektos (validācija, statusa maiņa) netiks saglabāta.
-AgendaSetupOtherDesc= Šī lapa piedāvā iespējas, lai ļautu eksportēt jūsu Powererp notikumus ārējā kalendārā (Thunderbird, Google kalendārs utt.)
-AgendaExtSitesDesc=Šī lapa ļauj atzīt ārējos avotus kalendārus, lai redzētu savus notikumus uz Powererp kārtībā.
-ActionsEvents=Pasākumi, par kuriem Powererp radīs prasību kārtībā automātiski
+AgendaAutoActionDesc= Šeit jūs varat definēt notikumus, kurus vēlaties, lai programma PowerERP automātiski izveidotu programmu. Ja nekas netiks pārbaudīts, žurnālos tiks iekļautas tikai manuālas darbības un tās tiks parādītas darba kārtībā. Automātiska darījumu uzraudzība, kas veikta objektos (validācija, statusa maiņa) netiks saglabāta.
+AgendaSetupOtherDesc= Šī lapa piedāvā iespējas, lai ļautu eksportēt jūsu PowerERP notikumus ārējā kalendārā (Thunderbird, Google kalendārs utt.)
+AgendaExtSitesDesc=Šī lapa ļauj atzīt ārējos avotus kalendārus, lai redzētu savus notikumus uz PowerERP kārtībā.
+ActionsEvents=Pasākumi, par kuriem PowerERP radīs prasību kārtībā automātiski
 EventRemindersByEmailNotEnabled=Pasākumu atgādinājumi pa e-pastu netika iespējoti %s moduļa iestatījumos.
 ##### Agenda event labels #####
 NewCompanyToPowererp=Trešā puse izveidota %s

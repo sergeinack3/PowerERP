@@ -168,26 +168,26 @@ function dolWebsiteReplacementOfLinks($website, $content, $removephppart = 0, $c
 	$content = str_replace('href="/document.php', 'href="!~!~!~/document.php', $content);
 	$content = str_replace('href="'.DOL_URL_ROOT.'/document.php', 'href="!~!~!~'.DOL_URL_ROOT.'/document.php', $content);
 
-	// Replace relative link '/' with powererp URL
+	// Replace relative link '/' with PowerERP URL
 	$content = preg_replace('/(href=")\/(#[^\"<>]*)?\"/', '\1!~!~!~'.DOL_URL_ROOT.'/website/index.php?website='.$website->ref.'&pageid='.$website->fk_default_home.'\2"', $content, -1, $nbrep);
-	// Replace relative link /xxx.php#aaa or /xxx.php with powererp URL (we discard param ?...)
+	// Replace relative link /xxx.php#aaa or /xxx.php with PowerERP URL (we discard param ?...)
 	$content = preg_replace('/(href=")\/?([^:\"\!]*)\.php(#[^\"<>]*)?\"/', '\1!~!~!~'.DOL_URL_ROOT.'/website/index.php?website='.$website->ref.'&pageref=\2\3"', $content, -1, $nbrep);
-	// Replace relative link /xxx.php?a=b&c=d#aaa or /xxx.php?a=b&c=d with powererp URL
+	// Replace relative link /xxx.php?a=b&c=d#aaa or /xxx.php?a=b&c=d with PowerERP URL
 	$content = preg_replace('/(href=")\/?([^:\"\!]*)\.php\?([^#\"<>]*)(#[^\"<>]*)?\"/', '\1!~!~!~'.DOL_URL_ROOT.'/website/index.php?website='.$website->ref.'&pageref=\2&\3\4"', $content, -1, $nbrep);
 
 	// Fix relative link into medias with correct URL after the DOL_URL_ROOT: ../url("medias/
 	$content = preg_replace('/url\((["\']?)\/?medias\//', 'url(\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=', $content, -1, $nbrep);
 	$content = preg_replace('/data-slide-bg=(["\']?)\/?medias\//', 'data-slide-bg=\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=', $content, -1, $nbrep);
 
-	// <img src="medias/...image.png... => <img src="powererp/viewimage.php/modulepart=medias&file=image.png...
-	// <img src="...image.png... => <img src="powererp/viewimage.php/modulepart=medias&file=image.png...
+	// <img src="medias/...image.png... => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png...
+	// <img src="...image.png... => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png...
 	$content = preg_replace('/(<img[^>]*src=")\/?medias\//', '\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=', $content, -1, $nbrep);
-	// <img src="image.png... => <img src="powererp/viewimage.php/modulepart=medias&file=image.png...
+	// <img src="image.png... => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png...
 	$content = preg_replace('/(<img[^>]*src=")\/?([^:\"\!]+)\"/', '\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=\2"', $content, -1, $nbrep);
-	// <img src="viewimage.php/modulepart=medias&file=image.png" => <img src="powererp/viewimage.php/modulepart=medias&file=image.png"
+	// <img src="viewimage.php/modulepart=medias&file=image.png" => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png"
 	$content = preg_replace('/(<img[^>]*src=")(\/?viewimage\.php)/', '\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php', $content, -1, $nbrep);
 
-	// action="newpage.php" => action="powererp/website/index.php?website=...&pageref=newpage
+	// action="newpage.php" => action="PowerERP/website/index.php?website=...&pageref=newpage
 	$content = preg_replace('/(action=")\/?([^:\"]*)(\.php\")/', '\1!~!~!~'.DOL_URL_ROOT.'/website/index.php?website='.$website->ref.'&pageref=\2"', $content, -1, $nbrep);
 
 	// Fix relative link /document.php with correct URL after the DOL_URL_ROOT:  ...href="/document.php?modulepart="
@@ -211,7 +211,7 @@ function dolWebsiteReplacementOfLinks($website, $content, $removephppart = 0, $c
 
 /**
  * Render a string of an HTML content and output it.
- * Used to ouput the page when viewed from a server (Powererp or Apache).
+ * Used to ouput the page when viewed from a server (PowerERP or Apache).
  *
  * @param   string  $content    	Content string
  * @param	string	$contenttype	Content type
@@ -237,14 +237,14 @@ function dolWebsiteOutput($content, $contenttype = 'html', $containerid = '')
 	$urlwithroot = $urlwithouturlroot.DOL_URL_ROOT; // This is to use external domain name found into config file
 	//$urlwithroot=DOL_MAIN_URL_ROOT;					// This is to use same domain name than current
 
-	if (defined('USEPOWERERPEDITOR')) {		// REPLACEMENT OF LINKS When page called from Powererp editor
+	if (defined('USEPOWERERPEDITOR')) {		// REPLACEMENT OF LINKS When page called from PowerERP editor
 		// We remove the <head> part of content
 		if ($contenttype == 'html') {
 			$content = preg_replace('/<head>.*<\/head>/ims', '', $content);
 			$content = preg_replace('/^.*<body(\s[^>]*)*>/ims', '', $content);
 			$content = preg_replace('/<\/body(\s[^>]*)*>.*$/ims', '', $content);
 		}
-	} elseif (defined('USEPOWERERPSERVER')) {	// REPLACEMENT OF LINKS When page called from Powererp server
+	} elseif (defined('USEPOWERERPSERVER')) {	// REPLACEMENT OF LINKS When page called from PowerERP server
 		$content = str_replace('<link rel="stylesheet" href="/styles.css', '<link rel="stylesheet" href="styles.css', $content);
 
 		// Protect the link styles.css.php to any replacement that we make after.
@@ -256,22 +256,22 @@ function dolWebsiteOutput($content, $contenttype = 'html', $containerid = '')
 		$content = str_replace(array('href="document.php', 'href="/document.php'), 'href="!~!~!~/document.php', $content);
 		$content = str_replace('href="'.DOL_URL_ROOT.'/document.php', 'href="!~!~!~'.DOL_URL_ROOT.'/document.php', $content);
 
-		// Replace relative link / with powererp URL:  ...href="/"...
+		// Replace relative link / with PowerERP URL:  ...href="/"...
 		$content = preg_replace('/(href=")\/\"/', '\1!~!~!~'.DOL_URL_ROOT.'/public/website/index.php?website='.$website->ref.'"', $content, -1, $nbrep);
-		// Replace relative link /xxx.php#aaa or /xxx.php with powererp URL:  ...href="....php" (we discard param ?...)
+		// Replace relative link /xxx.php#aaa or /xxx.php with PowerERP URL:  ...href="....php" (we discard param ?...)
 		$content = preg_replace('/(href=")\/?([^:\"\!]*)\.php(#[^\"<>]*)?\"/', '\1!~!~!~'.DOL_URL_ROOT.'/public/website/index.php?website='.$website->ref.'&pageref=\2\3"', $content, -1, $nbrep);
-		// Replace relative link /xxx.php?a=b&c=d#aaa or /xxx.php?a=b&c=d with powererp URL
+		// Replace relative link /xxx.php?a=b&c=d#aaa or /xxx.php?a=b&c=d with PowerERP URL
 		// Warning: we may replace twice if href="..." was inside an include (dolWebsiteOutput called by include and the by final page), that's why
 		// at end we replace the '!~!~!~' only if we are in final parent page.
 		$content = preg_replace('/(href=")\/?([^:\"\!]*)\.php\?([^#\"<>]*)(#[^\"<>]*)?\"/', '\1!~!~!~'.DOL_URL_ROOT.'/public/website/index.php?website='.$website->ref.'&pageref=\2&\3\4"', $content, -1, $nbrep);
-		// Replace relative link without .php like /xxx#aaa or /xxx with powererp URL:  ...href="....php"
+		// Replace relative link without .php like /xxx#aaa or /xxx with PowerERP URL:  ...href="....php"
 		$content = preg_replace('/(href=")\/?([a-zA-Z0-9\-_#]+)(\"|\?)/', '\1!~!~!~'.DOL_URL_ROOT.'/public/website/index.php?website='.$website->ref.'&pageref=\2\3', $content, -1, $nbrep);
 
-		// Fix relative link /document.php with correct URL after the DOL_URL_ROOT:  href="/document.php?modulepart=" => href="/powererp/document.php?modulepart="
+		// Fix relative link /document.php with correct URL after the DOL_URL_ROOT:  href="/document.php?modulepart=" => href="/PowerERP/document.php?modulepart="
 		$content = preg_replace('/(href=")(\/?document\.php\?[^\"]*modulepart=[^\"]*)(\")/', '\1!~!~!~'.DOL_URL_ROOT.'\2\3', $content, -1, $nbrep);
 		$content = preg_replace('/(src=")(\/?document\.php\?[^\"]*modulepart=[^\"]*)(\")/', '\1!~!~!~'.DOL_URL_ROOT.'\2\3', $content, -1, $nbrep);
 
-		// Fix relative link /viewimage.php with correct URL after the DOL_URL_ROOT: href="/viewimage.php?modulepart=" => href="/powererp/viewimage.php?modulepart="
+		// Fix relative link /viewimage.php with correct URL after the DOL_URL_ROOT: href="/viewimage.php?modulepart=" => href="/PowerERP/viewimage.php?modulepart="
 		$content = preg_replace('/(href=")(\/?viewimage\.php\?[^\"]*modulepart=[^\"]*)(\")/', '\1!~!~!~'.DOL_URL_ROOT.'\2\3', $content, -1, $nbrep);
 		$content = preg_replace('/(src=")(\/?viewimage\.php\?[^\"]*modulepart=[^\"]*)(\")/', '\1!~!~!~'.DOL_URL_ROOT.'\2\3', $content, -1, $nbrep);
 		$content = preg_replace('/(url\(")(\/?viewimage\.php\?[^\"]*modulepart=[^\"]*)(\")/', '\1!~!~!~'.DOL_URL_ROOT.'\2\3', $content, -1, $nbrep);
@@ -280,15 +280,15 @@ function dolWebsiteOutput($content, $contenttype = 'html', $containerid = '')
 		$content = preg_replace('/url\((["\']?)\/?medias\//', 'url(\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=', $content, -1, $nbrep);
 		$content = preg_replace('/data-slide-bg=(["\']?)\/?medias\//', 'data-slide-bg=\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=', $content, -1, $nbrep);
 
-		// <img src="medias/...image.png... => <img src="powererp/viewimage.php/modulepart=medias&file=image.png...
-		// <img src="...image.png... => <img src="powererp/viewimage.php/modulepart=medias&file=image.png...
+		// <img src="medias/...image.png... => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png...
+		// <img src="...image.png... => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png...
 		$content = preg_replace('/(<img[^>]*src=")\/?medias\//', '\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=', $content, -1, $nbrep);
-		// <img src="image.png... => <img src="powererp/viewimage.php/modulepart=medias&file=image.png...
+		// <img src="image.png... => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png...
 		$content = preg_replace('/(<img[^>]*src=")\/?([^:\"\!]+)\"/', '\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php?modulepart=medias&file=\2"', $content, -1, $nbrep);
-		// <img src="viewimage.php/modulepart=medias&file=image.png" => <img src="powererp/viewimage.php/modulepart=medias&file=image.png"
+		// <img src="viewimage.php/modulepart=medias&file=image.png" => <img src="PowerERP/viewimage.php/modulepart=medias&file=image.png"
 		$content = preg_replace('/(<img[^>]*src=")(\/?viewimage\.php)/', '\1!~!~!~'.DOL_URL_ROOT.'/viewimage.php', $content, -1, $nbrep);
 
-		// action="newpage.php" => action="powererp/website/index.php?website=...&pageref=newpage
+		// action="newpage.php" => action="PowerERP/website/index.php?website=...&pageref=newpage
 		$content = preg_replace('/(action=")\/?([^:\"]*)(\.php\")/', '\1!~!~!~'.DOL_URL_ROOT.'/public/website/index.php?website='.$website->ref.'&pageref=\2"', $content, -1, $nbrep);
 
 		// Fix relative URL
@@ -436,7 +436,7 @@ function redirectToContainer($containerref, $containeraliasalt = '', $containeri
 		return;
 	}
 
-	if (defined('USEPOWERERPSERVER')) {	// When page called from Powererp server
+	if (defined('USEPOWERERPSERVER')) {	// When page called from PowerERP server
 		// Check new container exists
 		if (!$containeraliasalt) {	// If containeraliasalt set, we already did the test
 			include_once DOL_DOCUMENT_ROOT.'/website/class/websitepage.class.php';
@@ -848,7 +848,7 @@ function getSocialNetworkSharingLinks()
 				  var js, fjs = d.getElementsByTagName(s)[0];
 				  if (d.getElementById(id)) return;
 				  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0&amp;appId=powererp.org";
+				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0&amp;appId=PowerERP.org";
 				  fjs.parentNode.insertBefore(js, fjs);
 				}(document, \'script\', \'facebook-jssdk\'));</script>
 				        <fb:like

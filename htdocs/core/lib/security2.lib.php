@@ -20,7 +20,7 @@
 /**
  *  \file		htdocs/core/lib/security2.lib.php
  *  \ingroup    core
- *  \brief		Set of function used for powererp security (not common functions).
+ *  \brief		Set of function used for PowerERP security (not common functions).
  *  			Warning, this file must not depends on other library files, except function.lib.php
  *  			because it is used at low code level.
  */
@@ -50,7 +50,7 @@ function dol_getwebuser($mode)
  *	@param		string	$usertotest			Login value to test
  *	@param		string	$passwordtotest		Password value to test
  *	@param		string	$entitytotest		Instance of data we must check
- *	@param		array	$authmode			Array list of selected authentication mode array('http', 'powererp', 'xxx'...)
+ *	@param		array	$authmode			Array list of selected authentication mode array('http', 'PowerERP', 'xxx'...)
  *	@param		string	$context			Context checkLoginPassEntity was created for ('api', 'dav', 'ws', '')
  *  @return		string						Login or ''
  */
@@ -123,7 +123,7 @@ function checkLoginPassEntity($usertotest, $passwordtotest, $entitytotest, $auth
 
 if (!function_exists('dol_loginfunction')) {
 	/**
-	 * Show Powererp default login page.
+	 * Show PowerERP default login page.
 	 * Part of this code is also duplicated into main.inc.php::top_htmlhead
 	 *
 	 * @param       Translate   $langs      Lang object (must be initialized by a new).
@@ -153,7 +153,7 @@ if (!function_exists('dol_loginfunction')) {
 		if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 			$title = $conf->global->MAIN_APPLICATION_TITLE;
 		}
-		$titletruepowererpversion = constant('DOL_VERSION'); // $title used by login template after the @ to inform of true Powererp version
+		$titletruepowererpversion = constant('DOL_VERSION'); // $title used by login template after the @ to inform of true PowerERP version
 
 		// Note: $conf->css looks like '/theme/eldy/style.css.php'
 		/*

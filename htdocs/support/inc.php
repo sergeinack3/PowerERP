@@ -60,8 +60,8 @@ $conffile = "../conf/conf.php";
 $conffiletoshow = "htdocs/conf/conf.php";
 // For debian/redhat like systems
 if (!file_exists($conffile)) {
-	$conffile = "/etc/powererp/conf.php";
-	$conffiletoshow = "/etc/powererp/conf.php";
+	$conffile = "/etc/PowerERP/conf.php";
+	$conffiletoshow = "/etc/PowerERP/conf.php";
 }
 
 
@@ -141,7 +141,7 @@ $suburi = strstr($uri, '/'); // $suburi contains url without domain
 if ($suburi == '/') {
 	$suburi = ''; // If $suburi is /, it is now ''
 }
-define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/powererp', ...)
+define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/PowerERP', ...)
 
 if (empty($character_set_client)) {
 	$character_set_client = "UTF-8";
@@ -184,7 +184,7 @@ $bc[true] = ' class="bg2"';
 /**
  *	Load conf file (file must exists)
  *
- *	@param	string	$powererp_main_document_root		Root directory of Powererp bin files
+ *	@param	string	$powererp_main_document_root		Root directory of PowerERP bin files
  *	@return	int											<0 if KO, >0 if OK
  */
 function conf($powererp_main_document_root)
@@ -242,8 +242,8 @@ function pHeader($soutitre, $next, $action = 'none')
 	print '<meta http-equiv="content-type" content="text/html; charset='.$conf->file->character_set_client.'">'."\n";
 	print '<meta name="robots" content="index,follow">'."\n";
 	print '<meta name="viewport" content="width=device-width, initial-scale=1.0">'."\n";
-	print '<meta name="keywords" content="help, center, powererp, doliwamp">'."\n";
-	print '<meta name="description" content="Powererp help center">'."\n";
+	print '<meta name="keywords" content="help, center, PowerERP, doliwamp">'."\n";
+	print '<meta name="description" content="PowerERP help center">'."\n";
 	print '<link rel="stylesheet" type="text/css" href="../install/default.css">'."\n";
 	print '<title>'.$langs->trans("PowererpHelpCenter").'</title>'."\n";
 	print '</head>'."\n";

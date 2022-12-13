@@ -191,7 +191,7 @@ else if ($action == 'delete') {
 // Define height of file area (depends on $_SESSION["dol_screenheight"])
 $maxheightwin=(isset($_SESSION["dol_screenheight"]) && $_SESSION["dol_screenheight"] > 466)?($_SESSION["dol_screenheight"]-96):660;	// Also into index_auto.php file
 
-$morejs=array('/chat/js/jquery.min.js', '/chat/js/jquery.layout.min.js'); // fix for powererp 6.0
+$morejs=array('/chat/js/jquery.min.js', '/chat/js/jquery.layout.min.js'); // fix for PowerERP 6.0
 
 $moreheadcss="
 <!-- dol_screenheight=".$_SESSION["dol_screenheight"]." -->
@@ -208,7 +208,7 @@ $moreheadcss="
 
 $moreheadjs=empty($conf->use_javascript_ajax)?"":"
 <script type=\"text/javascript\">
-    var jQuery_1_12_0 = $.noConflict(true); // fix for powererp 6.0
+    var jQuery_1_12_0 = $.noConflict(true); // fix for PowerERP 6.0
 
     jQuery(document).ready(function () {
         var chatlayout = jQuery_1_12_0('#containerlayout').layout({

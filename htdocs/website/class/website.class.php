@@ -268,10 +268,10 @@ class Website extends CommonObject
 		}
 
 		if (!$error) {
-			$stringtopowererpfile = "# Some properties for Powererp web site CMS\n";
+			$stringtopowererpfile = "# Some properties for PowerERP web site CMS\n";
 			$stringtopowererpfile .= "param=value\n";
-			//print $conf->website->dir_output.'/'.$this->ref.'/.powererp';exit;
-			file_put_contents($conf->website->dir_output.'/'.$this->ref.'/.powererp', $stringtopowererpfile);
+			//print $conf->website->dir_output.'/'.$this->ref.'/.PowerERP';exit;
+			file_put_contents($conf->website->dir_output.'/'.$this->ref.'/.PowerERP', $stringtopowererpfile);
 		}
 
 		// Commit or rollback
@@ -1100,7 +1100,7 @@ class Website extends CommonObject
 			}
 		}
 
-		$line = "\n-- For Powererp v14+ --;\n";
+		$line = "\n-- For PowerERP v14+ --;\n";
 		$line .= "UPDATE llx_website SET lang = '".$this->db->escape($this->fk_default_lang)."' WHERE rowid = __WEBSITE_ID__;\n";
 		$line .= "UPDATE llx_website SET otherlang = '".$this->db->escape($this->otherlang)."' WHERE rowid = __WEBSITE_ID__;\n";
 		$line .= "\n";

@@ -25,8 +25,8 @@
  */
 
 
-// Use its own include to not share the include of Powererp
-// This is a standalone feature with no information from Powererp to show
+// Use its own include to not share the include of PowerERP
+// This is a standalone feature with no information from PowerERP to show
 // and no database access to do.
 include_once 'inc.php';
 $uri = preg_replace('/^http(s?):\/\//i', '', $powererp_main_url_root);
@@ -99,34 +99,34 @@ print '<td align="center" valign="middle">';
 
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';
-$urlwiki = 'https://wiki.powererp.org';
+$urlwiki = 'https://wiki.PowerERP.org';
 if (preg_match('/fr/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.powererp.org/index.php/Accueil';
+	$urlwiki = 'https://wiki.PowerERP.org/index.php/Accueil';
 }
 if (preg_match('/es/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.powererp.org/index.php/Portada';
+	$urlwiki = 'https://wiki.PowerERP.org/index.php/Portada';
 }
 if (preg_match('/de/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.powererp.org/index.php/Hauptseite';
+	$urlwiki = 'https://wiki.PowerERP.org/index.php/Hauptseite';
 }
 print '<br>'.$langs->trans("ForDocumentationSeeWiki", $urlwiki, $urlwiki);
 print '<br>';
-$urlforum = 'https://www.powererp.org/forum/';
-$urlforumlocal = 'https://www.powererp.org/forum/';
+$urlforum = 'https://www.PowerERP.org/forum/';
+$urlforumlocal = 'https://www.PowerERP.org/forum/';
 if (preg_match('/fr/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.powererp.fr/forum/';
+	$urlforumlocal = 'https://www.PowerERP.fr/forum/';
 }
 if (preg_match('/es/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.powererp.es/foro/';
+	$urlforumlocal = 'https://www.PowerERP.es/foro/';
 }
 if (preg_match('/it/i', $langs->defaultlang)) {
-	$urlforumlocal = 'http://www.powererp.it/forum/';
+	$urlforumlocal = 'http://www.PowerERP.it/forum/';
 }
 if (preg_match('/gr/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.powererp.gr/forum/';
+	$urlforumlocal = 'https://www.PowerERP.gr/forum/';
 }
 if (preg_match('/de/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.powererp.de/forum/';
+	$urlforumlocal = 'https://www.PowerERP.de/forum/';
 }
 print '<br>'.$langs->trans("ForAnswersSeeForum", $urlforumlocal, $urlforumlocal).'<br>';
 if ($urlforumlocal != $urlforum) {
@@ -158,7 +158,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-$urlwiki = 'https://partners.powererp.org';
+$urlwiki = 'https://partners.PowerERP.org';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';
@@ -194,7 +194,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-$urlwiki = 'https://partners.powererp.org';
+$urlwiki = 'https://partners.PowerERP.org';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';

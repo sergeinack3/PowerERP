@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=Nastavení modulu PayPal
-PaypalDesc=Tento modul umožňuje platby zákazníky prostřednictvím <a href="http://www.paypal.com" target="_blank"> PayPal </a>. To může být použito pro ad hoc platbu nebo pro platbu související s objektem Powererp (faktura, objednávka, ...)
+PaypalDesc=Tento modul umožňuje platby zákazníky prostřednictvím <a href="http://www.paypal.com" target="_blank"> PayPal </a>. To může být použito pro ad hoc platbu nebo pro platbu související s objektem PowerERP (faktura, objednávka, ...)
 PaypalOrCBDoPayment=Plaťte s PayPal (kartou nebo PayPal)
 PaypalDoPayment=Zaplaťte službou PayPal
 PAYPAL_API_SANDBOX=Testovací/sandbox režim

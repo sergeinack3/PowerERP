@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -62,7 +62,7 @@ ErrorServiceUnavailableTryLater=Serviciul nu este disponibil momentan. Încerca�
 ErrorDuplicateField=Valoare duplicat într-un câmp unic
 ErrorSomeErrorWereFoundRollbackIsDone=Au fost găsite unele erori. Modificările nu au fost salvate.
 ErrorConfigParameterNotDefined=Parametrul <b>%s</b> nu este definit în fișierul de configurare al sistemului <b>conf.php</b>.
-ErrorCantLoadUserFromPowererpDatabase=Utilizatorul<b>%s</b> negăsit în baza de date Powererp.
+ErrorCantLoadUserFromPowererpDatabase=Utilizatorul<b>%s</b> negăsit în baza de date PowerERP.
 ErrorNoVATRateDefinedForSellerCountry=Eroare, nici o cotă de TVA nu este definită pentru ţara '%s'.
 ErrorNoSocialContributionForSellerCountry=Eroare, niciun tip de taxă socială/fiscală nu este definită pentru ţara '%s'.
 ErrorFailedToSaveFile=Eroare, salvarea fişierului a eşuat.
@@ -95,7 +95,7 @@ RecordDeleted=Înregistrare ştearsă
 RecordGenerated=Înregistrare generată
 LevelOfFeature=Nivel funcţionalităţi
 NotDefined=Nedefinit
-PowererpInHttpAuthenticationSoPasswordUseless=Modul de autentificare în sistem este setat la <b>%s</b> în fișierul de configurare <b>conf.php</b>. <br> Aceasta înseamnă că baza de date pentru parole este externă pentru Powererp, deci schimbarea acestui câmp poate să nu aibă efect.
+PowererpInHttpAuthenticationSoPasswordUseless=Modul de autentificare în sistem este setat la <b>%s</b> în fișierul de configurare <b>conf.php</b>. <br> Aceasta înseamnă că baza de date pentru parole este externă pentru PowerERP, deci schimbarea acestui câmp poate să nu aibă efect.
 Administrator=Administrator
 Undefined=Nedefinit
 PasswordForgotten=Ai uitat parola?
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Membri
 MenuAgendaGoogle=Agendă Google
 MenuTaxesAndSpecialExpenses=Taxe | Cheltuieli speciale
-ThisLimitIsDefinedInSetup=Limită Powererp (Menu Home-setup-securitate): %s Kb, PHP limita: %s Kb
-ThisLimitIsDefinedInSetupAt=Limită Powererp (Meniu %s): %s Kb, limită PHP (Parametru %s): %s Kb
+ThisLimitIsDefinedInSetup=Limită PowerERP (Menu Home-setup-securitate): %s Kb, PHP limita: %s Kb
+ThisLimitIsDefinedInSetupAt=Limită PowerERP (Meniu %s): %s Kb, limită PHP (Parametru %s): %s Kb
 NoFileFound=Niciun document încărcat
 CurrentUserLanguage=Limba curentă
 CurrentTheme=Tema curentă
@@ -909,7 +909,7 @@ ViewFlatList=Vizualizare listă aplatizată
 ViewAccountList=Afişare registru jurnal
 ViewSubAccountList=Afişare registru analitice
 RemoveString=Eliminați șirul '%s'
-SomeTranslationAreUncomplete=Unele dintre limbile diponibile pot fi traduse doar parțial sau pot conține erori. Vă rugăm să oferiţi ajutorul pentru a corecta limba înregistrându-vă la <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> pentru a adăuga îmbunătățiri.
+SomeTranslationAreUncomplete=Unele dintre limbile diponibile pot fi traduse doar parțial sau pot conține erori. Vă rugăm să oferiţi ajutorul pentru a corecta limba înregistrându-vă la <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> pentru a adăuga îmbunătățiri.
 DirectDownloadLink=Link de descărcare public
 PublicDownloadLinkDesc=Doar linkul este necesar pentru a descărca fișierul
 DirectDownloadInternalLink=Link de descărcare privat

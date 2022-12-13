@@ -1,4 +1,4 @@
-# PAYROLLMOD FOR [DOLIBARR ERP CRM](https://www.powererp.org)
+# PAYROLLMOD FOR [DOLIBARR ERP CRM](https://www.PowerERP.org)
 
 ## Features
 
@@ -17,9 +17,9 @@ Translations can be completed manually by editing files into directories *langs*
 <!--
 This module contains also a sample configuration for Transifex, under the hidden directory [.tx](.tx), so it is possible to manage translation using this service.
 
-For more informations, see the [translator's documentation](https://wiki.powererp.org/index.php/Translator_documentation).
+For more informations, see the [translator's documentation](https://wiki.PowerERP.org/index.php/Translator_documentation).
 
-There is a [Transifex project](https://transifex.com/projects/p/powererp-module-template) for this module.
+There is a [Transifex project](https://transifex.com/projects/p/PowerERP-module-template) for this module.
 -->
 
 <!--
@@ -33,27 +33,27 @@ menu ```Home - Setup - Modules - Deploy external module``` and upload the zip fi
 
 Note: If this screen tell you there is no custom directory, check your setup is correct:
 
-- In your Powererp installation directory, edit the ```htdocs/conf/conf.php``` file and check that following lines are not commented:
+- In your PowerERP installation directory, edit the ```htdocs/conf/conf.php``` file and check that following lines are not commented:
 
     ```php
     //$dolibarr_main_url_root_alt ...
     //$dolibarr_main_document_root_alt ...
     ```
 
-- Uncomment them if necessary (delete the leading ```//```) and assign a sensible value according to your Powererp installation
+- Uncomment them if necessary (delete the leading ```//```) and assign a sensible value according to your PowerERP installation
 
     For example :
 
     - UNIX:
         ```php
         $dolibarr_main_url_root_alt = '/custom';
-        $dolibarr_main_document_root_alt = '/var/www/Powererp/htdocs/custom';
+        $dolibarr_main_document_root_alt = '/var/www/PowerERP/htdocs/custom';
         ```
 
     - Windows:
         ```php
         $dolibarr_main_url_root_alt = '/custom';
-        $dolibarr_main_document_root_alt = 'C:/My Web Sites/Powererp/htdocs/custom';
+        $dolibarr_main_document_root_alt = 'C:/My Web Sites/PowerERP/htdocs/custom';
         ```
 
 ### From a GIT repository
@@ -69,7 +69,7 @@ git clone git@github.com:gitlogin/payrollmod.git payrollmod
 
 From your browser:
 
-  - Log into Powererp as a super-administrator
+  - Log into PowerERP as a super-administrator
   - Go to "Setup" -> "Modules"
   - You should now be able to find and enable the module
 

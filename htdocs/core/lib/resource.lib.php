@@ -1,5 +1,5 @@
 <?php
-/* Module to manage locations, buildings, floors and rooms into Powererp ERP/CRM
+/* Module to manage locations, buildings, floors and rooms into PowerERP ERP/CRM
  * Copyright (C) 2013	Jean-François Ferry	<jfefe@aternatik.fr>
  * Copyright (C) 2016	Gilles Poirier		<glgpoirier@gmail.com>
  *

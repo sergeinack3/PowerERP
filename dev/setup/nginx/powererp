@@ -1,4 +1,4 @@
-# Powererp server configuration sample for NGinx
+# PowerERP server configuration sample for NGinx
 server {
         listen 80;
         listen [::]:80;

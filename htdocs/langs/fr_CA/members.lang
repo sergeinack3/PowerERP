@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - members
+# PowerERP language file - Source file is en_US - members
 MembersArea=Zone des membres
 MemberCard=Carte de membre
 SubscriptionCard=Carte de souscription
@@ -11,8 +11,8 @@ ListOfValidatedPublicMembers=Liste des membres publics validés
 ErrorThisMemberIsNotPublic=Ce membre n'est pas public
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Un autre membre (nom: <b> %s</b>, connexion: <b>%s</b>) est déjà lié à un tiers <b>%s</b>. Supprimez ce lien en premier parce qu'un tiers ne peut être lié qu'à un membre (et vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Pour des raisons de sécurité, vous devez disposer d'autorisations pour éditer tous les utilisateurs afin de pouvoir lier un membre à un utilisateur qui n'est pas le vôtre.
-SetLinkToUser=Lien vers un utilisateur Powererp
-SetLinkToThirdParty=Lien vers un tiers Powererp
+SetLinkToUser=Lien vers un utilisateur PowerERP
+SetLinkToThirdParty=Lien vers un tiers PowerERP
 MembersList=Liste des membres
 MembersListToValid=Liste des membres préliminaires (à valider)
 MembersListValid=Liste des membres valides

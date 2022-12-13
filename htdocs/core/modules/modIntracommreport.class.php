@@ -23,13 +23,13 @@
  * 	\ingroup    Intracomm report
  *	\brief      Description and activation file for the module intracomm report
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *  Description and activation class for module intracommreport
  */
-class modIntracommreport extends PowererpModules
+class modIntracommreport extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -49,7 +49,7 @@ class modIntracommreport extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Intracomm report management (Support for French DEB/DES format)";
 
-		// Possible values for version are: 'development', 'experimental', 'powererp' or 'powererp_deprecated' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or 'powererp_deprecated' or version
 		$this->version = 'experimental';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -66,7 +66,7 @@ class modIntracommreport extends PowererpModules
 		$this->requiredby = array(); // List of modules id to disable if this one is disabled
 		$this->conflictwith = array(); // List of modules id this module is in conflict with
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(13, 0, -5); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(13, 0, -5); // Minimum version of PowerERP required by module
 		$this->langfiles = array("intracommreport");
 
 		// Constants

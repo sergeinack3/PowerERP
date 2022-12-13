@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - multicurrency
+# PowerERP language file - Source file is en_US - multicurrency
 MultiCurrency=Multimoneda
 ErrorAddRateFail=Error al añadir el tipo
 ErrorAddCurrencyFail=Error al añadir la moneda

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - admin
+# PowerERP language file - Source file is en_US - admin
 BoldRefAndPeriodOnPDF=Print reference and period of product item in PDF
 BoldLabelOnPDF=Print label of product item in Bold in PDF
 Foundation=財団
@@ -222,15 +222,15 @@ DOLISTOREdescriptionLong=<a href="https://www.dolistore.com"> www.dolistore.com 
 NewModule=新規モジュール
 FreeModule=自由
 CompatibleUpTo=バージョン%sと互換性がある
-NotCompatible=このモジュールは、Powererp %s ( 最小%s-最大%s ) と互換性がないもよう。
-CompatibleAfterUpdate=このモジュールでは、Powererp %s ( 最小%s-最大%s ) を更新する必要がある。
+NotCompatible=このモジュールは、PowerERP %s ( 最小%s-最大%s ) と互換性がないもよう。
+CompatibleAfterUpdate=このモジュールでは、PowerERP %s ( 最小%s-最大%s ) を更新する必要がある。
 SeeInMarkerPlace=マーケットプレイスで見る
 SeeSetupOfModule=モジュール%sの設定を参照すること
 SetOptionTo=オプション <b> %s </b> を %s に設定
 Updated=更新した
 AchatTelechargement=購入/ダウンロード
 GoModuleSetupArea=新規モジュールを展開/インストールするには、モジュール設定領域に移動する：<a href="%s"> %s</a>。
-DoliStoreDesc=DoliStore、Powererp ERP / CRM外部モジュールのための公式の市場の場所
+DoliStoreDesc=DoliStore、PowerERP ERP / CRM外部モジュールのための公式の市場の場所
 DoliPartnersDesc=カスタム開発されたモジュールまたは機能を提供している企業のリスト。<br>注:Powererpはオープンソースアプリケーション、 <i>誰でも</i> PHPプログラミングの経験があればモジュールを開発できてよい。
 WebSiteDesc=その他のアドオン ( 非コア ) モジュールの外部Webサイト...
 DevelopYourModuleDesc=独自のモジュールを開発するためのいくつかのソリューション...
@@ -317,8 +317,8 @@ UserEmail=ユーザのメール
 CompanyEmail=法人のメール
 FeatureNotAvailableOnLinux=システムと同様にUnix上では使用できないが備わっている。ローカルでsendmailプログラムをテストする。
 FixOnTransifex=プロジェクトのオンライン翻訳プラットフォームで翻訳を修正する
-SubmitTranslation=この言語の翻訳が完了していないか、エラーが見つかった場合は、ディレクトリ<b> langs/%s </b>のファイルを編集して、変更をwww.transifex.com/powererp-association/powererp/ に提出して修正できる。
-SubmitTranslationENUS=この言語の翻訳が完了していないか、エラーが見つかった場合は、ファイルをディレクトリ<b> langs/%s </b>に編集し、変更されたファイルをpowererp.org/forumに提出するか、開発者の場合は github.com/Powererp/powererp のPRを使用して修正できる。
+SubmitTranslation=この言語の翻訳が完了していないか、エラーが見つかった場合は、ディレクトリ<b> langs/%s </b>のファイルを編集して、変更をwww.transifex.com/PowerERP-association/PowerERP/ に提出して修正できる。
+SubmitTranslationENUS=この言語の翻訳が完了していないか、エラーが見つかった場合は、ファイルをディレクトリ<b> langs/%s </b>に編集し、変更されたファイルをpowererp.org/forumに提出するか、開発者の場合は github.com/PowerERP/PowerERP のPRを使用して修正できる。
 ModuleSetup=モジュールの設定
 ModulesSetup=モジュール/アプリケーションの設定
 ModuleFamilyBase=システム
@@ -347,7 +347,7 @@ UnpackPackageInModulesRoot=外部モジュールを展開/インストールす�
 SetupIsReadyForUse=モジュールの展開が完了した。ただし、ページ設定モジュール <a href="%s"> %s </a> に移動し、アプリケーション内でモジュールを有効にして設定する必要がある。
 NotExistsDirect=代替ルートディレクトリは、既存のディレクトリに対して定義されていない。 <br>
 InfDirAlt=バージョン3以降、代替ルートディレクトリを定義することが可能。これにより、プラグインとカスタムテンプレートを専用のディレクトリに保存できる。 <br> Powererpのルートにディレクトリを作成するだけ  ( 例：カスタム ) 。 <br>
-InfDirExample=<br>次に、ファイル <strong>conf.php</strong>で宣言するのは<br> $powererp_main_url_root_alt='/custom'<br>$powererp_main_document_root_alt='/path/of/powererp/htdocs/custom'<br>もし、"#" でコメント化されている場合は、"#" 文字を削除してコメントを解除するだけ。
+InfDirExample=<br>次に、ファイル <strong>conf.php</strong>で宣言するのは<br> $powererp_main_url_root_alt='/custom'<br>$powererp_main_document_root_alt='/path/of/PowerERP/htdocs/custom'<br>もし、"#" でコメント化されている場合は、"#" 文字を削除してコメントを解除するだけ。
 YouCanSubmitFile=モジュールパッケージの.zipファイルはここからアップロードできる。
 CurrentVersion=Powererp現在のバージョン
 CallUpdatePage=データベース構造とデータを更新するページ%sを参照する。
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=OpenDocument形式のテンプレートファイ
 NumberOfModelFilesFound=これらのディレクトリで見つかったODT / ODSテンプレートファイルの数
 ExampleOfDirectoriesForModelGen=構文の例:<br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>あなたのODTドキュメントテンプレートを作成する方法を知って、それらのディレクトリに格納する前に、ウィキのドキュメントをお読みください。
-FullListOnOnlineDocumentation=http://wiki.powererp.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.PowerERP.org/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=名/姓の位置
 DescWeather=遅延アクションの数が次の値に達すると、ダッシュボードに次の画像が表示される。
 KeyForWebServicesAccess=Webサービス ( webservicesのパラメータ &quot;powererpkey&quot; ) を使用するキー
@@ -650,7 +650,7 @@ Module2600Desc=APIサービスを提供するPowererpSOAPサーバーを有効�
 Module2610Name=API / Webサービス ( RESTサーバー ) 
 Module2610Desc=APIサービスを提供するPowererpRESTサーバーを有効にする
 Module2660Name=Webサービスの呼び出し ( SOAPクライアント ) 
-Module2660Desc=Powererp Webサービスクライアントを有効にする ( データ/要求を外部サーバーにプッシュするために使用できる。現在サポートされているのは発注書のみ  ) 。
+Module2660Desc=PowerERP Webサービスクライアントを有効にする ( データ/要求を外部サーバーにプッシュするために使用できる。現在サポートされているのは発注書のみ  ) 。
 Module2700Name=グラバター
 Module2700Desc=オンラインのGravatarサービス ( www.gravatar.com ) を使用して、ユーザ/メンバーの写真を表示する ( メールに記載されている ) 。インターネットアクセスが必要
 Module2800Desc=FTPクライアント
@@ -1479,8 +1479,8 @@ LDAPMembersSynchro=メンバー
 LDAPMembersTypesSynchro=メンバーの種類
 LDAPSynchronization=LDAP同期
 LDAPFunctionsNotAvailableOnPHP=LDAP関数は、PHPで利用可能ではない
-LDAPToPowererp=LDAP  - &gt; Powererp
-PowererpToLDAP=Powererp  - &gt; LDAP
+LDAPToPowererp=LDAP  - &gt; PowerERP
+PowererpToLDAP=PowerERP  - &gt; LDAP
 LDAPNamingAttribute=LDAP内のキー
 LDAPSynchronizeUsers=LDAP内のユーザの組織
 LDAPSynchronizeGroups=LDAPのグループの組織
@@ -1616,7 +1616,7 @@ NotInstalled=インストールされていない。
 NotSlowedDownByThis=これによって遅くなることはない。
 NotRiskOfLeakWithThis=これで漏れのリスクはない。
 ApplicativeCache=適用可能なキャッシュ
-MemcachedNotAvailable=適用可能なキャッシュが見つかりません。キャッシュサーバーMemcachedと、このキャッシュサーバーを使用できるモジュールをインストールすることで、パフォーマンスを向上させることができる。 <br>詳細はこちら<a href="http://wiki.powererp.org/index.php/Module_MemCached_EN">http：//wiki.powererp.org/index.php/Module_MemCached_EN</a>。 <br>多くのウェブホスティングプロバイダーがそのようなキャッシュサーバーを提供していないことに注意すること。
+MemcachedNotAvailable=適用可能なキャッシュが見つかりません。キャッシュサーバーMemcachedと、このキャッシュサーバーを使用できるモジュールをインストールすることで、パフォーマンスを向上させることができる。 <br>詳細はこちら<a href="http://wiki.PowerERP.org/index.php/Module_MemCached_EN">http：//wiki.PowerERP.org/index.php/Module_MemCached_EN</a>。 <br>多くのウェブホスティングプロバイダーがそのようなキャッシュサーバーを提供していないことに注意すること。
 MemcachedModuleAvailableButNotSetup=適用キャッシュのモジュールmemcachedが見つかりましたが、モジュールの設定が完了していない。
 MemcachedAvailableAndSetup=memcachedサーバー専用のモジュールmemcachedが有効になっている。
 OPCodeCache=OPCodeキャッシュ
@@ -1664,7 +1664,7 @@ SyslogOutput=ログ出力
 SyslogFacility=施設
 SyslogLevel=レベル
 SyslogFilename=ファイル名とパス
-YouCanUseDOL_DATA_ROOT=あなたがPowererp &quot;ドキュメント&quot;ディレクトリ内のログ·ファイルのDOL_DATA_ROOT / powererp.logを使用することができる。このファイルを格納する別のパスを設定することができる。
+YouCanUseDOL_DATA_ROOT=あなたがPowererp &quot;ドキュメント&quot;ディレクトリ内のログ·ファイルのDOL_DATA_ROOT / PowerERP.logを使用することができる。このファイルを格納する別のパスを設定することができる。
 ErrorUnknownSyslogConstant=定数%sは知られているSyslogの定数ではない。
 OnlyWindowsLOG_USER=Windowsでは、LOG_USER機能のみがサポートされる
 CompressSyslogs=デバッグログファイルの圧縮とバックアップ ( デバッグ用にモジュールLogによって生成される ) 
@@ -1975,8 +1975,8 @@ ByDefaultInList=リストビューにデフォルトで表示
 YouUseLastStableVersion=最新の安定バージョンを使用する
 TitleExampleForMajorRelease=このメジャーリリースを発表するために使用できるメッセージの例 ( Webサイトで自由に使用すること ) 
 TitleExampleForMaintenanceRelease=このメンテナンスリリースを発表するために使用できるメッセージの例 ( Webサイトで自由に使用すること ) 
-ExampleOfNewsMessageForMajorRelease=Powererp ERP＆CRM%sが利用可能。バージョン%sは、ユーザと開発者の両方に多くの新機能を備えたメジャーリリース。 https://www.powererp.orgポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/Powererp/powererp/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
-ExampleOfNewsMessageForMaintenanceRelease=Powererp ERP＆CRM%sが利用可能。バージョン%sはメンテナンスバージョンであるため、バグ修正のみが含まれている。すべてのユーザがこのバージョンにアップグレードすることをお勧めする。メンテナンスリリースでは、データベースに新規機能や変更は導入されない。 https://www.powererp.orgポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/Powererp/powererp/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
+ExampleOfNewsMessageForMajorRelease=PowerERP ERP＆CRM%sが利用可能。バージョン%sは、ユーザと開発者の両方に多くの新機能を備えたメジャーリリース。 https://www.PowerERP.orgポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/PowerERP/PowerERP/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
+ExampleOfNewsMessageForMaintenanceRelease=PowerERP ERP＆CRM%sが利用可能。バージョン%sはメンテナンスバージョンであるため、バグ修正のみが含まれている。すべてのユーザがこのバージョンにアップグレードすることをお勧めする。メンテナンスリリースでは、データベースに新規機能や変更は導入されない。 https://www.PowerERP.orgポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/PowerERP/PowerERP/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
 MultiPriceRuleDesc=オプション「製品/サービスごとの価格のいくつかのレベル」が有効になっている場合、製品ごとに異なる価格 ( 価格レベルごとに1つ ) を定義できる。時間を節約するために、ここで、最初のレベルの価格に基づいて各レベルの価格を自動計算するルールを入力できる。したがって、各製品の最初のレベルの価格を入力するだけで済む。このページは時間を節約するように設計されているが、各レベルの価格が最初のレベルに関連している場合にのみ役立つ。ほとんどの場合、このページは無視してかまいない。
 ModelModulesProduct=製品ドキュメントのテンプレート
 WarehouseModelModules=倉庫のドキュメントのテンプレート
@@ -2138,7 +2138,7 @@ RESTRICT_ON_IP=一部のホストIPへのアクセスのみを許可する ( ワ
 IPListExample=127.0.0.1 192.168.0.2 【:: 1】
 BaseOnSabeDavVersion=ライブラリSabreDAVバージョンに基づく
 NotAPublicIp=公開IPではない
-MakeAnonymousPing=Powererp Foundationサーバーに匿名のPing「+1」を作成し ( インストール後に1回のみ実行 ) 、FoundationがPowererpのインストール数をカウントできるようにする。
+MakeAnonymousPing=PowerERP Foundationサーバーに匿名のPing「+1」を作成し ( インストール後に1回のみ実行 ) 、FoundationがPowererpのインストール数をカウントできるようにする。
 FeatureNotAvailableWithReceptionModule=モジュールの受信が有効になっている場合、この機能は使用できない
 EmailTemplate=メールのテンプレート
 EMailsWillHaveMessageID=電子メールには、この構文に一致するタグ「参照」がある

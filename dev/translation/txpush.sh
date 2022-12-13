@@ -4,10 +4,10 @@
 #
 # Laurent Destailleur (eldy) - eldy@users.sourceforge.net
 #------------------------------------------------------
-# Usage: txpush.sh (source|xx_XX) [-r powererp.file] [-f]
+# Usage: txpush.sh (source|xx_XX) [-r PowerERP.file] [-f]
 #------------------------------------------------------
 
-export project='powererp'
+export project='PowerERP'
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/../..

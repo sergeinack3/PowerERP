@@ -1,12 +1,12 @@
-# Powererp language file - Source file is en_US - help
+# PowerERP language file - Source file is en_US - help
 CommunitySupport=Asistencia Forums e Wiki
 EMailSupport=Asistencia E-Mail
 RemoteControlSupport=Asistencia por soporte externo
 OtherSupport=Outros tipos de asistencia
 ToSeeListOfAvailableRessources=Contactar/ver recursos dispoñibles:
 HelpCenter=Centro de soporte
-PowererpHelpCenter=Centro de soporte e axuda Powererp
-ToGoBackToPowererp=Do contrario, <a href="%s">faga clic aquí para continuar usando Powererp</a>.
+PowererpHelpCenter=Centro de soporte e axuda PowerERP
+ToGoBackToPowererp=Do contrario, <a href="%s">faga clic aquí para continuar usando PowerERP</a>.
 TypeOfSupport=Tipo de soporte
 TypeSupportCommunauty=Comunitario (gratuito)
 TypeSupportCommercial=Comercial
@@ -17,7 +17,7 @@ TypeHelpOnly=Só axuda
 TypeHelpDev=Axuda+Desenvolvemento
 TypeHelpDevForm=Axuda+Desenvolvemento+Formación
 BackToHelpCenter=Do contrario, <a href="%s">volte á páxina de inicio do Centro de axuda</a>.
-LinkToGoldMember=Pode chamar a un dos formadores preseleccionados por Powererp para o seu idioma (%s) facendo clic no seu Widget (o estado e o prezo máximo actualízanse automáticamente):
+LinkToGoldMember=Pode chamar a un dos formadores preseleccionados por PowerERP para o seu idioma (%s) facendo clic no seu Widget (o estado e o prezo máximo actualízanse automáticamente):
 PossibleLanguages=Idiomas dispoñibles
-SubscribeToFoundation=Axude ao proxecto Powererp, subscríbase á asociación Powererp
-SeeOfficalSupport=Para obter soporte oficial Powererp no seu idioma: <br><b><a href="%s" target="_blank">%s</a></b>
+SubscribeToFoundation=Axude ao proxecto PowerERP, subscríbase á asociación PowerERP
+SeeOfficalSupport=Para obter soporte oficial PowerERP no seu idioma: <br><b><a href="%s" target="_blank">%s</a></b>

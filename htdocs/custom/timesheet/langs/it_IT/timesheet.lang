@@ -1,4 +1,4 @@
-# Powererp language file - English - timesheet
+# PowerERP language file - English - timesheet
 # Translators
 # (6),  (403)
 adddocs = Allegati
@@ -50,7 +50,7 @@ DiplayOptions = opzioni di visualizzazione
 draft = Bozza
 draftColorDesc = Colore per il progetto di vacanze & scheda attività
 dropdownAjax = Disabilita discesa Ajax
-dropdownAjaxDesc = Disattivare il ajax per gli elenchi a discesa Powererp (nel caso in cui alla data di rilascio per inserire una nuova whitelist)
+dropdownAjaxDesc = Disattivare il ajax per gli elenchi a discesa PowerERP (nel caso in cui alla data di rilascio per inserire una nuova whitelist)
 Employee = Collaboratore
 employeeSignature = Firma del lavoratore
 errMsgMaxHoursExceded = Non è possibile inserire più di tanto tempo per un solo giorno
@@ -151,7 +151,7 @@ RecordUpdated = Oltre giorni con successo
 rejected = Respinta
 rejectedColorDesc = Colore per la festa e scheda attività respinta dal responsabile approvazioni
 Reminder = Promemoria
-reminderEmailProcess = È possibile attivare promemoria via e-mail attraverso il pianificatore compito di Powererp <br> Job type \= Call method of a Powererp Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
+reminderEmailProcess = È possibile attivare promemoria via e-mail attraverso il pianificatore compito di PowerERP <br> Job type \= Call method of a PowerERP Class<br>Module \= timesheet<br>Classes \= Task_timesheet.class.php<br>Instance/Object to create \= timesheet<br> Method \= sendApprovalReminders
 savedDuration = Durata salvato
 searchbox = Attivare le caselle di ricerca
 searchboxDesc = Sostituire le liste a discesa per le caselle di ricerca per le attività. Necessita quando vengono definite centinaia di attività per migliorare le prestazioni. (Progetto, contatto, terza parte utilizza la configurazione della casella di ricerca definita in altri moduli)
@@ -197,7 +197,7 @@ userReport = Rapporto utente
 wngMsgHoursExceded = si stanno inserendo gli straordinari
 Yearweekdate = Data di riferimento
 YouHaveApprovalPending = Timesheet di approvare
-YouHaveApprovalPendingMsg = Cari,<br><br>Devi __NB_TS__ scheda attività per l'approvazione, si prega di collegarsi al dolibar approvarle.<br><br> migliori saluti.<br><br>tuo Powererp amministratore.
+YouHaveApprovalPendingMsg = Cari,<br><br>Devi __NB_TS__ scheda attività per l'approvazione, si prega di collegarsi al dolibar approvarle.<br><br> migliori saluti.<br><br>tuo PowerERP amministratore.
 YouHaveTimesheetRejected = Una delle tue schede presentate è stata rifiutata.
 YouHaveTimesheetRejectedMsg = Ciao,<br><br>Il timeheet della settimana %s è stato rifiutato.<br><br>Controlla le voci qui:<br>%s<br><br>Cordiali saluti
 minSecondsPerEvent = Minimun in secondi

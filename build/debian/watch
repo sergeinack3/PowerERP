@@ -1,5 +1,5 @@
 # watch control file for uscan
 version=3
 
-#http://sf.net/powererp/powererp-(.+)\.tgz
-http://www.powererp.org/files/stable/package_debian-ubuntu/powererp_(.+)\.orig\.tar\.gz
+#http://sf.net/PowerERP/PowerERP-(.+)\.tgz
+http://www.PowerERP.org/files/stable/package_debian-ubuntu/powererp_(.+)\.orig\.tar\.gz

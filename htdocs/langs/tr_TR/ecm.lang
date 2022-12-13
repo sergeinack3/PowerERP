@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Dizindeki belge sayısı
 ECMSection=Dizin
 ECMSectionManual=Manuel dizin
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Alt-dizin sayısı
 ECMNbOfFilesInSubDir=Alt dizilerdeki dosya sayısı
 ECMCreationUser=Oluşturan
 ECMArea=DMS/ECM alanı
-ECMAreaDesc=DMS/ECM (Belge Yönetim Sistemi / Elektronik İçerik Yönetimi) alanı, Powererp'daki her türlü belgenin hızlı bir şekilde kaydedilmesine, paylaşılmasına ve aranmasına imkan sağlar.
+ECMAreaDesc=DMS/ECM (Belge Yönetim Sistemi / Elektronik İçerik Yönetimi) alanı, PowerERP'daki her türlü belgenin hızlı bir şekilde kaydedilmesine, paylaşılmasına ve aranmasına imkan sağlar.
 ECMAreaDesc2=* Otomatik dizinler, bir öğenin kartından belge eklenirken otomatikman doldurulur.<br> * Manuel dizinler, belirli bir öğeye bağlı olmayan belgelerin saklanması için kullanılabilir.
 ECMSectionWasRemoved=<b>%s</b>Dizini silindi.
 ECMSectionWasCreated=<b>%s</b> dizini oluşturuldu.

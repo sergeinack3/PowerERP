@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Анықтамадағы құжаттардың саны
 ECMSection=Анықтама
 ECMSectionManual=Қолмен анықтама
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Ішкі каталогтардың саны
 ECMNbOfFilesInSubDir=Ішкі каталогтардағы файлдар саны
 ECMCreationUser=Жаратушы
 ECMArea=DMS/ECM аймағы
-ECMAreaDesc=DMS / ECM (Құжаттарды басқару жүйесі / Электрондық мазмұнды басқару) аймағы сізге Powererp -да барлық құжаттарды сақтауға, бөлісуге және іздеуге мүмкіндік береді.
+ECMAreaDesc=DMS / ECM (Құжаттарды басқару жүйесі / Электрондық мазмұнды басқару) аймағы сізге PowerERP -да барлық құжаттарды сақтауға, бөлісуге және іздеуге мүмкіндік береді.
 ECMAreaDesc2=* Элемент картасынан құжаттарды қосқанда автоматты анықтамалар автоматты түрде толтырылады. <br> * Белгілі бір элементпен байланысы жоқ құжаттарды сақтау үшін қолмен каталогтарды пайдалануға болады.
 ECMSectionWasRemoved=<b> %s </b> каталогы жойылды.
 ECMSectionWasCreated=<b> %s </b> каталогы құрылды.

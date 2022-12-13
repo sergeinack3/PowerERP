@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=Área Recursos humanos
 UserCard=Ficha usuario
 GroupCard=Ficha grupo
@@ -37,7 +37,7 @@ SuperAdministratorDesc=Administrador global
 AdministratorDesc=Administrador
 DefaultRights=Permisos por defecto
 DefaultRightsDesc=Defina aquí los permisos <u>por defecto</u>, es decir: los permisos que se asignarán automáticamente a un <u>nuevo</u> usuario en el momento de su creación (Ver la ficha usuario para cambiar los permisos a un usuario existente).
-PowererpUsers=Usuarios Powererp
+PowererpUsers=Usuarios PowerERP
 LastName=Apellidos
 FirstName=Nombre
 ListOfGroups=Listado de grupos
@@ -66,7 +66,7 @@ LinkedToPowererpUser=Enlace al usuario
 LinkedToPowererpThirdParty=Enlace a un tercero
 CreatePowererpLogin=Crear una cuenta de usuario
 CreatePowererpThirdParty=Crear un tercero
-LoginAccountDisableInPowererp=La cuenta está desactivada en Powererp
+LoginAccountDisableInPowererp=La cuenta está desactivada en PowerERP
 UsePersonalValue=Utilizar valores personalizados
 InternalUser=Usuario interno
 ExportDataset_user_1=Usuarios y sus propiedades.
@@ -90,8 +90,8 @@ UserDeleted=Usuario %s eliminado
 NewGroupCreated=Grupo %s creado
 GroupModified=Grupo %s modificado
 GroupDeleted=Grupo %s eliminado
-ConfirmCreateContact=¿Está seguro de querer crear una cuenta Powererp para este contacto?
-ConfirmCreateLogin=¿Está seguro de que desea crear una cuenta Powererp para este miembro?
+ConfirmCreateContact=¿Está seguro de querer crear una cuenta PowerERP para este contacto?
+ConfirmCreateLogin=¿Está seguro de que desea crear una cuenta PowerERP para este miembro?
 ConfirmCreateThirdParty=¿Está seguro de querer crear un tercero para este miembro?
 LoginToCreate=Login a crear
 NameToCreate=Nombre del tercero a crear

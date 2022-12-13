@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=PayBoxモジュールの設定
 PayBoxDesc=このモジュールは、顧客による<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox</a>での支払いを許可するページを提供する。これは、無料の支払いまたは特定のPowererpオブジェクト（請求書、注文など）での支払いに使用できる。
 FollowingUrlAreAvailableToMakePayments=以下のURLはPowererpオブジェクト上で支払いをするために顧客にページを提供するために利用可能 

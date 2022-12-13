@@ -167,7 +167,7 @@ class PaiementFourn extends Paiement
 		$totalamount_converted = 0;
 		$atleastonepaymentnotnull = 0;
 
-		if ($way == 'powererp') {
+		if ($way == 'PowerERP') {
 			$amounts = &$this->amounts;
 			$amounts_to_update = &$this->multicurrency_amounts;
 		} else {
@@ -181,7 +181,7 @@ class PaiementFourn extends Paiement
 			if (empty($value)) {
 				continue;
 			}
-			// $key is id of invoice, $value is amount, $way is a 'powererp' if amount is in main currency, 'customer' if in foreign currency
+			// $key is id of invoice, $value is amount, $way is a 'PowerERP' if amount is in main currency, 'customer' if in foreign currency
 			$value_converted = Multicurrency::getAmountConversionFromInvoiceRate($key, $value ? $value : 0, $way, 'facture_fourn');
 			// Add controls of input validity
 			if ($value_converted === false) {
@@ -232,7 +232,7 @@ class PaiementFourn extends Paiement
 		if ($totalamount <> 0) { // On accepte les montants negatifs
 			$ref = $this->getNextNumRef(is_object($thirdparty) ? $thirdparty : '');
 
-			if ($way == 'powererp') {
+			if ($way == 'PowerERP') {
 				$total = $totalamount;
 				$mtotal = $totalamount_converted; // Maybe use price2num with MT for the converted value
 			} else {
@@ -829,13 +829,13 @@ class PaiementFourn extends Paiement
 	/**
 	 * 	get the right way of payment
 	 *
-	 * 	@return 	string 	'powererp' if standard comportment or paid in powererp currency, 'customer' if payment received from multicurrency inputs
+	 * 	@return 	string 	'PowerERP' if standard comportment or paid in PowerERP currency, 'customer' if payment received from multicurrency inputs
 	 */
 	public function getWay()
 	{
 		global $conf;
 
-		$way = 'powererp';
+		$way = 'PowerERP';
 		if (!empty($conf->multicurrency->enabled)) {
 			foreach ($this->multicurrency_amounts as $value) {
 				if (!empty($value)) { // one value found then payment is in invoice currency

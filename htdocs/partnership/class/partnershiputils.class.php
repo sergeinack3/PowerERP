@@ -209,7 +209,7 @@ class PartnershipUtils
 
 
 	/**
-	 * Action executed by scheduler to check if Powererp backlink not found on partner website. (Max number of action batch per call = $conf->global->PARTNERSHIP_MAX_WARNING_BACKLINK_PER_CALL)
+	 * Action executed by scheduler to check if PowerERP backlink not found on partner website. (Max number of action batch per call = $conf->global->PARTNERSHIP_MAX_WARNING_BACKLINK_PER_CALL)
 	 *
 	 * CAN BE A CRON TASK
 	 *
@@ -263,7 +263,7 @@ class PartnershipUtils
 		$sql .= " WHERE 1 = 1";
 		$sql .= " AND p.".$fk_partner." > 0";
 		$sql .= " AND p.status = ".((int) $partnership::STATUS_APPROVED); // Only accepted not yet canceled
-		$sql .= " AND (p.last_check_backlink IS NULL OR p.last_check_backlink <= '".$this->db->idate($now - 7 * 24 * 3600)."')"; // Every week, check that website contains a link to powererp.
+		$sql .= " AND (p.last_check_backlink IS NULL OR p.last_check_backlink <= '".$this->db->idate($now - 7 * 24 * 3600)."')"; // Every week, check that website contains a link to PowerERP.
 		$sql .= $this->db->order('p.rowid', 'ASC');
 		// Limit is managed into loop later
 
@@ -391,7 +391,7 @@ class PartnershipUtils
 	}
 
 	/**
-	 * Action to check if Powererp backlink not found on partner website
+	 * Action to check if PowerERP backlink not found on partner website
 	 *
 	 * @param  $website      Website	Partner's website
 	 * @return  int                 	0 if KO, 1 if OK

@@ -15,7 +15,7 @@
 		<change type='add'>XML changelog versionning</change>
 	</Version>
 	<Version Number="4.0.+1.1.0" MonthVersion="2016-09">
-		<change type='fix'>Powererp 4.0.0 compatibility</change>
+		<change type='fix'>PowerERP 4.0.0 compatibility</change>
 		<change type='add'>level price selection feature</change>
 		<change type='fix'>Some problems with level price </change>
 	</Version>
@@ -50,5 +50,5 @@
 	</Version>
 
 	<!-- Remplir le undocumented.xml ? -->
-<Powererp minVersion="5.0.0"/>
+<PowerERP minVersion="5.0.0"/>
 </changelog>

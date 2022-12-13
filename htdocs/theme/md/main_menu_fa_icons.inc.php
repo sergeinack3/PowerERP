@@ -154,16 +154,16 @@ div.mainmenu.generic4::before {
 	color: #555;
 }
 
-/* Define square Powererp logo in pure CSS */
+/* Define square PowerERP logo in pure CSS */
 
-.fa-powererp-css{
+.fa-PowerERP-css{
 	color: #235481;
 	background: currentColor;
 	height: 150px;
 	width: 150px;
 	position: relative;
 }
-.fa-powererp-css:before{
+.fa-PowerERP-css:before{
 	content: '';
 	position: absolute;
 	left: 19%;
@@ -173,7 +173,7 @@ div.mainmenu.generic4::before {
 	border: solid 30px white;
 	border-radius: 0% 200% 200% 0% / 0% 180% 180% 0%;
 }
-.fa-powererp-css:after{
+.fa-PowerERP-css:after{
 	content: '';
 	position: absolute;
 	left: 19%;

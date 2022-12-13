@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -231,7 +231,7 @@ class StatsPage extends FormPage
 		//$graph->SetYLabel($langs->trans('YLabel'));
 		$graph->SetShading(3);
 		$graph->SetHorizTickIncrement(1);
-		//$graph->SetPrecisionY(0); // Throws an error in Powererp 12+
+		//$graph->SetPrecisionY(0); // Throws an error in PowerERP 12+
 		$graph->mode = 'depth';
 		$graph->display($filename, $fileurl);
 

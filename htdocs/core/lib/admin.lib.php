@@ -50,7 +50,7 @@ function versiontostring($versionarray)
 
 /**
  *	Compare 2 versions (stored into 2 arrays).
- *  To check if Powererp version is lower than (x,y,z), do "if versioncompare(versionpowererparray(), array(x.y.z)) <= 0"
+ *  To check if PowerERP version is lower than (x,y,z), do "if versioncompare(versionpowererparray(), array(x.y.z)) <= 0"
  *  For example: if (versioncompare(versionpowererparray(),array(4,0,-5)) >= 0) is true if version is 4.0 alpha or higher.
  *  For example: if (versioncompare(versionpowererparray(),array(4,0,0)) >= 0) is true if version is 4.0 final or higher.
  *  For example: if (versioncompare(versionpowererparray(),array(4,0,1)) >= 0) is true if version is 4.0.1 or higher.
@@ -131,7 +131,7 @@ function versionphparray()
 }
 
 /**
- *	Return version Powererp
+ *	Return version PowerERP
  *
  *	@return     array               Tableau de version (vermajeur,vermineur,autre)
  *  @see versioncompare()
@@ -144,7 +144,7 @@ function versionpowererparray()
 
 /**
  *	Launch a sql file. Function is used by:
- *  - Migrate process (powererp-xyz-abc.sql)
+ *  - Migrate process (PowerERP-xyz-abc.sql)
  *  - Loading sql menus (auguria)
  *  - Running specific Sql by a module init
  *  - Loading sql file of website import package
@@ -929,10 +929,10 @@ function listOfSessions()
 					$sessValues = file_get_contents($fullpath); // get raw session data
 					// Example of possible value
 					//$sessValues = 'newtoken|s:32:"1239f7a0c4b899200fe9ca5ea394f307";dol_loginmesg|s:0:"";newtoken|s:32:"1236457104f7ae0f328c2928973f3cb5";dol_loginmesg|s:0:"";token|s:32:"123615ad8d650c5cc4199b9a1a76783f";
-					// dol_login|s:5:"admin";dol_authmode|s:8:"powererp";dol_tz|s:1:"1";dol_tz_string|s:13:"Europe/Berlin";dol_dst|i:0;dol_dst_observed|s:1:"1";dol_dst_first|s:0:"";dol_dst_second|s:0:"";dol_screenwidth|s:4:"1920";
+					// dol_login|s:5:"admin";dol_authmode|s:8:"PowerERP";dol_tz|s:1:"1";dol_tz_string|s:13:"Europe/Berlin";dol_dst|i:0;dol_dst_observed|s:1:"1";dol_dst_first|s:0:"";dol_dst_second|s:0:"";dol_screenwidth|s:4:"1920";
 					// dol_screenheight|s:3:"971";dol_company|s:12:"MyBigCompany";dol_entity|i:1;mainmenu|s:4:"home";leftmenuopened|s:10:"admintools";idmenu|s:0:"";leftmenu|s:10:"admintools";';
 
-					if (preg_match('/dol_login/i', $sessValues) && // limit to powererp session
+					if (preg_match('/dol_login/i', $sessValues) && // limit to PowerERP session
 						(preg_match('/dol_entity\|i:'.$conf->entity.';/i', $sessValues) || preg_match('/dol_entity\|s:([0-9]+):"'.$conf->entity.'"/i', $sessValues)) && // limit to current entity
 					preg_match('/dol_company\|s:([0-9]+):"('.getDolGlobalString('MAIN_INFO_SOCIETE_NOM').')"/i', $sessValues)) { // limit to company name
 						$tmp = explode('_', $file);
@@ -979,7 +979,7 @@ function purgeSessions($mysessionid)
 				if (!@is_dir($fullpath)) {
 					$sessValues = file_get_contents($fullpath); // get raw session data
 
-					if (preg_match('/dol_login/i', $sessValues) && // limit to powererp session
+					if (preg_match('/dol_login/i', $sessValues) && // limit to PowerERP session
 					preg_match('/dol_entity\|s:([0-9]+):"('.$conf->entity.')"/i', $sessValues) && // limit to current entity
 					preg_match('/dol_company\|s:([0-9]+):"('.$conf->global->MAIN_INFO_SOCIETE_NOM.')"/i', $sessValues)) { // limit to company name
 						$tmp = explode('_', $file);
@@ -1054,7 +1054,7 @@ function activateModule($value, $withdeps = 1)
 		return $ret;
 	}
 
-	// Test if Powererp version ok
+	// Test if PowerERP version ok
 	$verdol = versionpowererparray();
 	$vermin = isset($objMod->need_powererp_version) ? $objMod->need_powererp_version : 0;
 	//print 'version: '.versioncompare($verdol,$vermin).' - '.join(',',$verdol).' - '.join(',',$vermin);exit;
@@ -1179,9 +1179,9 @@ function unActivateModule($value, $requiredby = 1)
 	} else // We come here when we try to unactivate a module when module does not exists anymore in sources
 	{
 		//print $dir.$modFile;exit;
-		// TODO Replace this after PowererpModules is moved as abstract class with a try catch to show module we try to disable has not been found or could not be loaded
-		include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
-		$genericMod = new PowererpModules($db);
+		// TODO Replace this after PowerERPModules is moved as abstract class with a try catch to show module we try to disable has not been found or could not be loaded
+		include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
+		$genericMod = new PowerERPModules($db);
 		$genericMod->name = preg_replace('/^mod/i', '', $modName);
 		$genericMod->rights_class = strtolower(preg_replace('/^mod/i', '', $modName));
 		$genericMod->const_name = 'MAIN_MODULE_'.strtoupper(preg_replace('/^mod/i', '', $modName));

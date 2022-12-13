@@ -1652,9 +1652,9 @@ class ExtraFields
 					$c->fetch($obj->rowid);
 					$ways = $c->print_all_ways(); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formatted text
 					foreach ($ways as $way) {
-						$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories"'.($c->color ? ' style="background: #'.$c->color.';"' : ' style="background: #bbb"').'>'.img_object('', 'category').' '.$way.'</li>';
+						$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories"'.($c->color ? ' style="background: #'.$c->color.';"' : ' style="background: #bbb"').'>'.img_object('', 'category').' '.$way.'</li>';
 					}
-					$value = '<div class="select2-container-multi-powererp" style="width: 90%;"><ul class="select2-choices-powererp">'.implode(' ', $toprint).'</ul></div>';
+					$value = '<div class="select2-container-multi-PowerERP" style="width: 90%;"><ul class="select2-choices-PowerERP">'.implode(' ', $toprint).'</ul></div>';
 				}
 			} else {
 				dol_syslog(get_class($this).'::showOutputField error '.$this->db->lasterror(), LOG_WARNING);
@@ -1667,10 +1667,10 @@ class ExtraFields
 			$toprint = array();
 			if (is_array($value_arr)) {
 				foreach ($value_arr as $keyval => $valueval) {
-					$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb">'.$param['options'][$valueval].'</li>';
+					$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb">'.$param['options'][$valueval].'</li>';
 				}
 			}
-			$value = '<div class="select2-container-multi-powererp" style="width: 90%;"><ul class="select2-choices-powererp">'.implode(' ', $toprint).'</ul></div>';
+			$value = '<div class="select2-container-multi-PowerERP" style="width: 90%;"><ul class="select2-choices-PowerERP">'.implode(' ', $toprint).'</ul></div>';
 		} elseif ($type == 'chkbxlst') {
 			$value_arr = explode(',', $value);
 
@@ -1723,9 +1723,9 @@ class ExtraFields
 										$translabel = $langs->trans($obj->$field_toshow);
 									}
 									if ($translabel != $field_toshow) {
-										$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb">'.dol_trunc($translabel, 18).'</li>';
+										$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb">'.dol_trunc($translabel, 18).'</li>';
 									} else {
-										$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb">'.$obj->$field_toshow.'</li>';
+										$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb">'.$obj->$field_toshow.'</li>';
 									}
 								}
 							} else {
@@ -1734,9 +1734,9 @@ class ExtraFields
 									$translabel = $langs->trans($obj->{$InfoFieldList[1]});
 								}
 								if ($translabel != $obj->{$InfoFieldList[1]}) {
-									$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb">'.dol_trunc($translabel, 18).'</li>';
+									$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb">'.dol_trunc($translabel, 18).'</li>';
 								} else {
-									$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories" style="background: #bbb">'.$obj->{$InfoFieldList[1]}.'</li>';
+									$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories" style="background: #bbb">'.$obj->{$InfoFieldList[1]}.'</li>';
 								}
 							}
 						}
@@ -1751,12 +1751,12 @@ class ExtraFields
 							$c->fetch($obj->rowid);
 							$ways = $c->print_all_ways(); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formatted text
 							foreach ($ways as $way) {
-								$toprint[] = '<li class="select2-search-choice-powererp noborderoncategories"'.($c->color ? ' style="background: #'.$c->color.';"' : ' style="background: #bbb"').'>'.img_object('', 'category').' '.$way.'</li>';
+								$toprint[] = '<li class="select2-search-choice-PowerERP noborderoncategories"'.($c->color ? ' style="background: #'.$c->color.';"' : ' style="background: #bbb"').'>'.img_object('', 'category').' '.$way.'</li>';
 							}
 						}
 					}
 				}
-				$value = '<div class="select2-container-multi-powererp" style="width: 90%;"><ul class="select2-choices-powererp">'.implode(' ', $toprint).'</ul></div>';
+				$value = '<div class="select2-container-multi-PowerERP" style="width: 90%;"><ul class="select2-choices-PowerERP">'.implode(' ', $toprint).'</ul></div>';
 			} else {
 				dol_syslog(get_class($this).'::showOutputField error '.$this->db->lasterror(), LOG_WARNING);
 			}

@@ -2110,13 +2110,13 @@ class ActionComm extends CommonObject
 				$more = $langs->transnoentities("ActionsDoneBy").' '.$logind;
 			}
 			if ($more) {
-				$title = 'Powererp actions '.$mysoc->name.' - '.$more;
+				$title = 'PowerERP actions '.$mysoc->name.' - '.$more;
 				$desc = $more;
-				$desc .= ' ('.$mysoc->name.' - built by Powererp)';
+				$desc .= ' ('.$mysoc->name.' - built by PowerERP)';
 			} else {
-				$title = 'Powererp actions '.$mysoc->name;
+				$title = 'PowerERP actions '.$mysoc->name;
 				$desc = $langs->transnoentities('ListOfActions');
-				$desc .= ' ('.$mysoc->name.' - built by Powererp)';
+				$desc .= ' ('.$mysoc->name.' - built by PowerERP)';
 			}
 
 			// Create temp file

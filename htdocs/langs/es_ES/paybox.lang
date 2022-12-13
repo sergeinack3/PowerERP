@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - paybox
+# PowerERP language file - Source file is en_US - paybox
 PayBoxSetup=Configuración módulo PayBox
-PayBoxDesc=Este módulo ofrece páginas para permitir el pago en <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> por parte de los clientes. Esto se puede utilizar para un pago gratuito o para un pago en un objeto Powererp en particular (factura, pedido, ...)
+PayBoxDesc=Este módulo ofrece páginas para permitir el pago en <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> por parte de los clientes. Esto se puede utilizar para un pago gratuito o para un pago en un objeto PowerERP en particular (factura, pedido, ...)
 FollowingUrlAreAvailableToMakePayments=Las siguientes URL están disponibles para permitir a un cliente efectuar un pago
 PaymentForm=Formulario de pago
 WelcomeOnPaymentPage=Bienvenido a nuestros servicios de pago en línea

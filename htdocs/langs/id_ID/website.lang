@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - website
+# PowerERP language file - Source file is en_US - website
 Shortname=Kode
 WebsiteSetupDesc=Buat di sini situs web yang ingin Anda gunakan. Kemudian masuk ke menu Website untuk mengeditnya.
 DeleteWebsite=Hapus situs web
@@ -45,13 +45,13 @@ ViewWebsiteInProduction=Lihat situs web menggunakan URL beranda
 SetHereVirtualHost= <u>Gunakan dengan Apache / NGinx /...</u><br> Buat di server web Anda (Apache, Nginx, ...) Host Virtual khusus dengan PHP yang diaktifkan dan direktori Root pada <br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Contoh untuk digunakan dalam pengaturan host virtual Apache:
 YouCanAlsoTestWithPHPS= <u>Gunakan dengan server yang telah tertanam PHP</u> <br>Pada lingkungan pengembangan software, Anda dapat memilih untuk menguji situs dengan server web yang tertanam PHP (PHP 5.5 diperlukan) dengan menjalankan<br><strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP= <u> Jalankan situs web Anda dengan penyedia Hosting Powererp lain integrasi dengan modul Situs web. Anda dapat menemukan daftar beberapa penyedia hosting Powererp di <a href="https://saas.powererp.org" target="_blank"> https://saas.powererp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Jalankan situs web Anda dengan penyedia Hosting PowerERP lain integrasi dengan modul Situs web. Anda dapat menemukan daftar beberapa penyedia hosting PowerERP di <a href="https://saas.PowerERP.org" target="_blank"> https://saas.PowerERP.org </a>
 CheckVirtualHostPerms=Periksa juga bahwa pengguna host virtual (misalnya www-data) memiliki izin <strong> %s </strong> pada file ke <br> <strong> %s </strong>
 ReadPerm=Baca
 WritePerm=Menulis
 TestDeployOnWeb=Uji / gunakan di web
 PreviewSiteServedByWebServer= <u>Pratinjau %s di tab baru.</u><br><br>%s akan dilayani oleh server web eksternal (seperti Apache, Nginx, IIS). Anda harus menginstal dan mengatur server ini sebelum merujuk pada direktori:<br><strong>%s</strong><br>URL dilayani oleh server eksternal: <br><strong>%s</strong>
-PreviewSiteServedByPowererp= <u> Pratinjau %s di tab baru. </u> <br> <br> %s akan dilayani oleh server Powererp sehingga tidak memerlukan server web tambahan (seperti Apache, Nginx, IIS) untuk diinstal. <br> Yang merepotkan adalah URL halaman tidak ramah pengguna dan mulai dengan jalur Powererp Anda. <br> URL dilayani oleh Powererp: <br> <strong> %s </strong> <br> <br> Untuk menggunakan web eksternal server Anda sendiri untuk melayani situs web ini, membuat virtual host pada server web Anda yang poin pada direktori <br> <strong> %s </strong> <br> kemudian masukkan nama server virtual ini di properti situs web ini dan klik tautan "Uji/Sebarkan di web".
+PreviewSiteServedByPowererp= <u> Pratinjau %s di tab baru. </u> <br> <br> %s akan dilayani oleh server PowerERP sehingga tidak memerlukan server web tambahan (seperti Apache, Nginx, IIS) untuk diinstal. <br> Yang merepotkan adalah URL halaman tidak ramah pengguna dan mulai dengan jalur PowerERP Anda. <br> URL dilayani oleh PowerERP: <br> <strong> %s </strong> <br> <br> Untuk menggunakan web eksternal server Anda sendiri untuk melayani situs web ini, membuat virtual host pada server web Anda yang poin pada direktori <br> <strong> %s </strong> <br> kemudian masukkan nama server virtual ini di properti situs web ini dan klik tautan "Uji/Sebarkan di web".
 VirtualHostUrlNotDefined=URL dari host virtual yang dilayani oleh server web eksternal tidak ditentukan
 NoPageYet=Belum ada halaman
 YouCanCreatePageOrImportTemplate=Anda dapat membuat halaman baru atau mengimpor template situs web lengkap

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Името на фирмата %s вече съществува. Изберете друго.
 ErrorSetACountryFirst=Първо изберете държава
 SelectThirdParty=Изберете контрагент
@@ -378,7 +378,7 @@ CapitalOf=Капитал от %s
 EditCompany=Променяне на фирма
 ThisUserIsNot=Този потребител не е потенциален клиент, настоящ клиент или доставчик
 VATIntraCheck=Проверяване
-VATIntraCheckDesc=Идентификационния номер по ДДС трябва да включва префикса на държавата. Връзката <b> %s </b> използва услугата на Европейската комисия за проверка на номер по ДДС (VIES), която изисква достъп до интернет извън сървъра на Powererp.
+VATIntraCheckDesc=Идентификационния номер по ДДС трябва да включва префикса на държавата. Връзката <b> %s </b> използва услугата на Европейската комисия за проверка на номер по ДДС (VIES), която изисква достъп до интернет извън сървъра на PowerERP.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Проверяване на вътрешно-общностния идентификационен номер по ДДС в интернет страницата на Европейската Комисия
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Потенциални клиенти по статус
 NoParentCompany=Няма
 ExportCardToFormat=Карта за експортиране във формат
 ContactNotLinkedToCompany=Контактът не е свързан с нито един контрагент
-PowererpLogin=Powererp потребител
-NoPowererpAccess=Няма достъп до Powererp
+PowererpLogin=PowerERP потребител
+NoPowererpAccess=Няма достъп до PowerERP
 ExportDataset_company_1=Контрагенти (фирми / фондации / физически лица) и техните характеристики
 ExportDataset_company_2=Контакти и техните характеристики
 ImportDataset_company_1=Контрагенти и техните характеристики

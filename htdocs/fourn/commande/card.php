@@ -1406,7 +1406,7 @@ if (empty($reshook)) {
 		$ws_thirdparty  = GETPOST('ws_thirdparty', 'int');
 
 		// NS and Authentication parameters
-		$ws_ns = 'http://www.powererp.org/ns/';
+		$ws_ns = 'http://www.PowerERP.org/ns/';
 		$ws_authentication = array(
 			'powererpkey'=>$ws_key,
 			'sourceapplication'=>'PowererpWebServiceClient',
@@ -2732,7 +2732,7 @@ if ($action == 'create') {
 			$ws_password = GETPOST('ws_password', 'alpha');
 
 			// NS and Authentication parameters
-			$ws_ns = 'http://www.powererp.org/ns/';
+			$ws_ns = 'http://www.PowerERP.org/ns/';
 			$ws_authentication = array(
 			'powererpkey'=>$ws_key,
 			'sourceapplication'=>'PowererpWebServiceClient',
@@ -2846,8 +2846,8 @@ if ($action == 'create') {
 
 
 							// Ensure that price is equal and warn user if it's not
-							$supplier_price = price($result_product["product"]["price_net"]); //Price of client tab in supplier powererp
-							$local_price = null; //Price of supplier as stated in product suppliers tab on this powererp, NULL if not found
+							$supplier_price = price($result_product["product"]["price_net"]); //Price of client tab in supplier PowerERP
+							$local_price = null; //Price of supplier as stated in product suppliers tab on this PowerERP, NULL if not found
 
 							$product_fourn = new ProductFournisseur($db);
 							$product_fourn_list = $product_fourn->list_product_fournisseur_price($line->fk_product);

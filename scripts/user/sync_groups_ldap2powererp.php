@@ -22,7 +22,7 @@
 /**
  * \file scripts/user/sync_groups_ldap2powererp.php
  * \ingroup ldap member
- * \brief Script to update groups into Powererp from LDAP
+ * \brief Script to update groups into PowerERP from LDAP
  */
 
 if (!defined('NOSESSION')) {
@@ -102,7 +102,7 @@ if (!empty($conf->global->LDAP_GROUP_FILTER)) {
 } else {
 	print 'Filter=('.$conf->global->LDAP_KEY_GROUPS.'=*)'."\n";
 }
-print "----- To Powererp database:\n";
+print "----- To PowerERP database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";
@@ -119,7 +119,7 @@ if (!$confirmed) {
 }
 
 if (empty($conf->global->LDAP_GROUP_DN)) {
-	print $langs->trans("Error").': '.$langs->trans("LDAP setup for groups not defined inside Powererp");
+	print $langs->trans("Error").': '.$langs->trans("LDAP setup for groups not defined inside PowerERP");
 	exit(-1);
 }
 
@@ -128,7 +128,7 @@ $result = $ldap->connect_bind();
 if ($result >= 0) {
 	$justthese = array();
 
-	// We disable synchro Powererp-LDAP
+	// We disable synchro PowerERP-LDAP
 	$conf->global->LDAP_SYNCHRO_ACTIVE = 0;
 
 	$ldaprecords = $ldap->getRecords('*', $conf->global->LDAP_GROUP_DN, $conf->global->LDAP_KEY_GROUPS, $required_fields, 'group', array($conf->global->LDAP_GROUP_FIELD_GROUPMEMBERS));
@@ -173,7 +173,7 @@ if ($result >= 0) {
 			// print_r($group);
 
 			// Gestion des utilisateurs associés au groupe
-			// 1 - Association des utilisateurs du groupe LDAP au groupe Powererp
+			// 1 - Association des utilisateurs du groupe LDAP au groupe PowerERP
 			$userList = array();
 			$userIdList = array();
 			foreach ($ldapgroup[$conf->global->LDAP_GROUP_FIELD_GROUPMEMBERS] as $key => $userdn) {
@@ -214,7 +214,7 @@ if ($result >= 0) {
 				}
 			}
 
-			// 2 - Suppression des utilisateurs du groupe Powererp qui ne sont plus dans le groupe LDAP
+			// 2 - Suppression des utilisateurs du groupe PowerERP qui ne sont plus dans le groupe LDAP
 			foreach ($group->members as $guser) {
 				if (!in_array($guser->id, $userIdList)) {
 					$guser->RemoveFromGroup($group->id, $group->entity);

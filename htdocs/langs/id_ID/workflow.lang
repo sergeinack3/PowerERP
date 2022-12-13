@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - workflow
+# PowerERP language file - Source file is en_US - workflow
 WorkflowSetup=Pengaturan modul alur kerja
 WorkflowDesc=Modul ini menyediakan beberapa tindakan otomatis. Secara standar, alur kerja ini terbuka (Anda dapat melakukan hal-hal sesuai urutan yang Anda inginkan) tetapi di sini Anda dapat mengaktifkan beberapa tindakan otomatis.
 ThereIsNoWorkflowToModify=Tidak ada modifikasi alur kerja yang tersedia dengan modul yang diaktifkan.

@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=Pengaturan modul PayPal
-PaypalDesc=Modul ini memungkinkan pembayaran oleh pelanggan melalui <a href="http://www.paypal.com" target="_blank"> PayPal </a>. Ini dapat digunakan untuk pembayaran ad-hoc atau untuk pembayaran yang terkait dengan objek Powererp (faktur, pesanan, ...)
+PaypalDesc=Modul ini memungkinkan pembayaran oleh pelanggan melalui <a href="http://www.paypal.com" target="_blank"> PayPal </a>. Ini dapat digunakan untuk pembayaran ad-hoc atau untuk pembayaran yang terkait dengan objek PowerERP (faktur, pesanan, ...)
 PaypalOrCBDoPayment=Bayar dengan PayPal (Kartu atau PayPal)
 PaypalDoPayment=Bayar dengan PayPal
 PAYPAL_API_SANDBOX=Tes mode / kotak pasir

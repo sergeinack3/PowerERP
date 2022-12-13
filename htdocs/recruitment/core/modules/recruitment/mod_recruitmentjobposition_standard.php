@@ -31,10 +31,10 @@ dol_include_once('/recruitment/core/modules/recruitment/modules_recruitmentjobpo
 class mod_recruitmentjobposition_standard extends ModeleNumRefRecruitmentJobPosition
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'JOB';
 

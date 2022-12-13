@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ldap
+# PowerERP language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Lösenord för användare <b>%s</b> på domänen <b>%s</b> måste ändras.
 UserMustChangePassNextLogon=Användaren måste byta lösenord på domänen %s
 LDAPInformationsForThisContact=Information i LDAP-databas för denna kontakt
@@ -22,6 +22,6 @@ GroupSynchronized=Grupp synkroniseras
 MemberSynchronized=Medlem synkroniseras
 MemberTypeSynchronized=Medlemstypen synkroniserad
 ContactSynchronized=Kontakta synkroniseras
-ForceSynchronize=Tvinga synkronisering Powererp -> LDAP
+ForceSynchronize=Tvinga synkronisering PowerERP -> LDAP
 ErrorFailedToReadLDAP=Misslyckades med att läsa LDAP-databas. Kontrollera LDAP-modul setup och databas tillgänglighet.
 PasswordOfUserInLDAP=Lösenord för användare i LDAP

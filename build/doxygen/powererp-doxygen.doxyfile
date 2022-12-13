@@ -25,7 +25,7 @@ DOXYFILE_ENCODING = UTF-8
 # The PROJECT_NAME tag is a single word (or a sequence of words surrounded
 # by quotes) that should identify the project.
 
-PROJECT_NAME = powererp
+PROJECT_NAME = PowerERP
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number.
 # This could be handy for archiving the generated documentation or
@@ -510,7 +510,7 @@ SHOW_NAMESPACES = NO
 # provided by doxygen. Whatever the program writes to standard output
 # is used as the file version. See the manual for examples.
 
-#FILE_VERSION_FILTER = powererp-doxygen-getversion.pl
+#FILE_VERSION_FILTER = PowerERP-doxygen-getversion.pl
 FILE_VERSION_FILTER = 
 
 # The LAYOUT_FILE tag can be used to specify a layout file which will be parsed
@@ -671,8 +671,8 @@ IMAGE_PATH = ../../doc/images
 # ignored.
 
 # Works on Linux only
-#INPUT_FILTER           = ../powererp-doxygen-filter.pl
-#INPUT_FILTER           = "perl ../powererp-doxygen-filter.pl"
+#INPUT_FILTER           = ../PowerERP-doxygen-filter.pl
+#INPUT_FILTER           = "perl ../PowerERP-doxygen-filter.pl"
 INPUT_FILTER = 
 
 # The FILTER_PATTERNS tag can be used to specify filters on a per file pattern
@@ -891,11 +891,11 @@ DOCSET_BUNDLE_ID = org.doxygen.Project
 # the documentation publisher. This should be a reverse domain-name style
 # string, e.g. com.mycompany.MyDocSet.documentation.
 
-DOCSET_PUBLISHER_ID = org.powererp.doc
+DOCSET_PUBLISHER_ID = org.PowerERP.doc
 
 # The GENERATE_PUBLISHER_NAME tag identifies the documentation publisher.
 
-DOCSET_PUBLISHER_NAME = Powererp team
+DOCSET_PUBLISHER_NAME = PowerERP team
 
 # If the GENERATE_HTMLHELP tag is set to YES, additional index files
 # will be generated that can be used as input for tools like the

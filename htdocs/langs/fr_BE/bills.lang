@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - bills
+# PowerERP language file - Source file is en_US - bills
 BillsLate=Paiements en retard
 InvoiceStandardDesc=Ce type de facture est le type commun.
 InvoiceProFormaDesc=<b>Une facture proforma</b> est l'image d'une vraie facture mais n'a pas de valeur comptable.

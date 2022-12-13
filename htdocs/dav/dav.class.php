@@ -161,7 +161,7 @@ class CdavLib
 		$caldata = "BEGIN:VCALENDAR\n";
 		$caldata .= "VERSION:2.0\n";
 		$caldata .= "METHOD:PUBLISH\n";
-		$caldata .= "PRODID:-//Powererp CDav//FR\n";
+		$caldata .= "PRODID:-//PowerERP CDav//FR\n";
 		$caldata .= "BEGIN:".$type."\n";
 		$caldata .= "CREATED:".gmdate('Ymd\THis', strtotime($obj->datec))."Z\n";
 		$caldata .= "LAST-MODIFIED:".gmdate('Ymd\THis', strtotime($obj->lastupd))."Z\n";

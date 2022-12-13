@@ -27,7 +27,7 @@
  *  \brief      Wrapper to download data files
  *  \remarks    Call of this wrapper is made with URL:
  * 				DOL_URL_ROOT.'/document.php?modulepart=repfichierconcerne&file=relativepathoffile'
- * 				DOL_URL_ROOT.'/document.php?modulepart=logs&file=powererp.log'
+ * 				DOL_URL_ROOT.'/document.php?modulepart=logs&file=PowerERP.log'
  * 				DOL_URL_ROOT.'/document.php?hashp=sharekey'
  */
 

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - ecm
+# PowerERP language file - Source file is en_US - ecm
 ECMNbOfDocs=Antal dokumenter i mappen
 ECMSection=Directory
 ECMSectionManual=Manual bibliotek
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Antal sub-mapper
 ECMNbOfFilesInSubDir=Number of files in sub-directories
 ECMCreationUser=Creator
 ECMArea=DMS / ECM område
-ECMAreaDesc=DMS / ECM (Document Management System / Electronic Content Management) -området giver dig mulighed for at gemme, dele og søge hurtigt alle slags dokumenter i Powererp.
+ECMAreaDesc=DMS / ECM (Document Management System / Electronic Content Management) -området giver dig mulighed for at gemme, dele og søge hurtigt alle slags dokumenter i PowerERP.
 ECMAreaDesc2=* Automatisk abonnentfortegnelser fyldes automatisk, når tilføjelse af dokumenter fra kort af et element. <br> * Manual mapper kan bruges til at gemme dokumenter, der ikke er knyttet til et bestemt element.
 ECMSectionWasRemoved=<b>Directory %s</b> er blevet slettet.
 ECMSectionWasCreated=Katalog <b> %s </b> er blevet oprettet.

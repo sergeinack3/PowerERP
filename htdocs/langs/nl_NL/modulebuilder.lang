@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Voer de naam in van de module / toepassing die u wilt maken zonder spaties. Gebruik hoofdletters om woorden te scheiden (bijvoorbeeld: MyModule, EcommerceForShop, SyncWithMySystem ...)
 EnterNameOfObjectDesc=Voer de naam in van het object dat u wilt maken zonder spaties. Gebruik hoofdletters om woorden te scheiden (bijvoorbeeld: MyObject, Student, Teacher ...). Het CRUD-classfile, maar ook het API-bestand, pagina's voor het weergeven/toevoegen/bewerken/verwijderen van objecten en SQL-bestanden worden gegenereerd.
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=U kunt uw module verwijderen. WAARSCHUWING: Alle c
 EnterNameOfObjectToDeleteDesc=U kunt een object verwijderen. WAARSCHUWING: Alle coderingsbestanden (handmatig gegenereerd of gemaakt) met betrekking tot het object worden verwijderd!
 DangerZone=Gevarenzone
 BuildPackage=Bouw pakket
-BuildPackageDesc=U kunt een zip-pakket van uw applicatie genereren, zodat u klaar bent om het op elke Powererp te distribueren. U kunt het ook distribueren of verkopen op een marktplaats zoals <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=U kunt een zip-pakket van uw applicatie genereren, zodat u klaar bent om het op elke PowerERP te distribueren. U kunt het ook distribueren of verkopen op een marktplaats zoals <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Opmaken documentatie
 ModuleIsNotActive=Deze module is nog niet geactiveerd. Ga naar %s om het te activeren of klik hier
 ModuleIsLive=Deze module is geactiveerd. Elke wijziging kan een huidige live-functie onderbreken.
@@ -101,7 +101,7 @@ HooksDefDesc=Definieer in de <b>eigenschap module_parts ['hooks']</b> , in de mo
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Zie ID's die in uw installatie worden gebruikt
 SeeReservedIDsRangeHere=Zie bereik van gereserveerde ID's
-ToolkitForDevelopers=Toolkit voor Powererp-ontwikkelaars
+ToolkitForDevelopers=Toolkit voor PowerERP-ontwikkelaars
 TryToUseTheModuleBuilder=Als u kennis van SQL en PHP hebt, kunt u de wizard voor het maken van native modules gebruiken. <br> Schakel de module <strong>%s in</strong> en gebruik de wizard door op te klikken <span class="fa fa-bug"></span> in het menu rechtsboven. <br> Waarschuwing: dit is een geavanceerde ontwikkelaar, experimenteer <b>niet</b> op uw productiesite!
 SeeTopRightMenu=Zien <span class="fa fa-bug"></span> in het menu rechtsboven
 AddLanguageFile=Taalbestand toevoegen

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - products
+# PowerERP language file - Source file is en_US - products
 ProductRef=Ref. produto
 ProductLabel=Etiqueta produto
 ProductLabelTranslated=Tradución etiqueta de produto
@@ -299,7 +299,7 @@ MinSupplierPrice=Prezo mínimo de compra
 MinCustomerPrice=Prezo mínimo de venda
 NoDynamicPrice=Sen prezo dinámico 
 DynamicPriceConfiguration=Configuración de prezo dinámico
-DynamicPriceDesc=Pode definir fórmulas matemáticas para calcular os prezos do cliente ou do provedor. Tales fórmulas poden empregar todos os operadores matemáticos, algunhas constantes e variables. Pode definir aquí as variables que desexa empregar. Se a variable precisa unha actualización automática, pode definir a URL externa para permitir a Powererp actualizar o valor automaticamente.
+DynamicPriceDesc=Pode definir fórmulas matemáticas para calcular os prezos do cliente ou do provedor. Tales fórmulas poden empregar todos os operadores matemáticos, algunhas constantes e variables. Pode definir aquí as variables que desexa empregar. Se a variable precisa unha actualización automática, pode definir a URL externa para permitir a PowerERP actualizar o valor automaticamente.
 AddVariable=Engadir variable
 AddUpdater=Engadir Actualizador
 GlobalVariables=Variables globais
@@ -378,7 +378,7 @@ NewProductAttribute=Novo atributo
 NewProductAttributeValue=Novo valor de atributo
 ErrorCreatingProductAttributeValue=Ocurriu un erro ao crear o valor do atributo. Esto pode ser por que xa existía un valor con esta referencia
 ProductCombinationGeneratorWarning=Se continúa, antes de xerar novas variantes, ELIMINARÁ todas as anteriores. as xa existentes actualizaranse cos novos valores
-TooMuchCombinationsWarning=Xerar moitas variantes pode producir un alto uso da CPU, uso de memoria e Powererp será quen de crealas. Activar a opción "%s" pode axudar a reducir o uso de memoria.
+TooMuchCombinationsWarning=Xerar moitas variantes pode producir un alto uso da CPU, uso de memoria e PowerERP será quen de crealas. Activar a opción "%s" pode axudar a reducir o uso de memoria.
 DoNotRemovePreviousCombinations=Non remover variantes previas
 UsePercentageVariations=Utilizar variacións porcentuais
 PercentageVariation=Variación porcentual

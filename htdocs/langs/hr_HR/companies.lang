@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Ime tvrtke %s već postoji. Odaberite drugo.
 ErrorSetACountryFirst=Prvo odaberite državu
 SelectThirdParty=Odaberi treću osobu
@@ -378,7 +378,7 @@ CapitalOf=Temeljna vrijednost %s
 EditCompany=Uredi tvrtku
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=Ček
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Powererp server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the PowerERP server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Mogući kupci po statusu
 NoParentCompany=Ništa
 ExportCardToFormat=Izvezi karticu u formatu
 ContactNotLinkedToCompany=Kontakt nije povezan ni sa jednim komitentom
-PowererpLogin=Powererp korisničko ime
-NoPowererpAccess=Nema pristup Powererp-u
+PowererpLogin=PowerERP korisničko ime
+NoPowererpAccess=Nema pristup PowerERP-u
 ExportDataset_company_1=Treće osobe\n(tvrtke/zaklade/fizičke osobe) i njihove osobine
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Treće osobe i njihove osobine

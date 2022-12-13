@@ -100,7 +100,7 @@ module.exports = {
     noun: 'Action',
     display: {
         label: 'New Agenda',
-        description: 'Triggers when a new agenda with action is done in Powererp.'
+        description: 'Triggers when a new agenda with action is done in PowerERP.'
     },
 
     // `operation` is where the business logic goes.

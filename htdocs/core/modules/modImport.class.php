@@ -18,19 +18,19 @@
 
 /**
  *  \defgroup   import      Module import
- *  \brief      Module to make generic import of data into powererp database
+ *  \brief      Module to make generic import of data into PowerERP database
  *	\file       htdocs/core/modules/modImport.class.php
  *	\ingroup    import
  *	\brief      Description and activation file for the module Import
  */
 
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 /**
  *	Class to describe and enable module Import
  */
-class modImport extends PowererpModules
+class modImport extends PowerERPModules
 {
 
 	/**
@@ -47,9 +47,9 @@ class modImport extends PowererpModules
 		$this->module_position = '70';
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
-		$this->description = "Outils d'imports de donnees Powererp (via un assistant)";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or 'powererp_deprecated' or version
-		$this->version = 'powererp';
+		$this->description = "Outils d'imports de donnees PowerERP (via un assistant)";
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or 'powererp_deprecated' or version
+		$this->version = 'PowerERP';
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'technic';
 
@@ -66,7 +66,7 @@ class modImport extends PowererpModules
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module - Need auto_detect_line_endings php option to solve MAC pbs.
 		$this->phpmax = array();
-		$this->need_powererp_version = array(2, 7, -1); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(2, 7, -1); // Minimum version of PowerERP required by module
 		$this->need_javascript_ajax = 1;
 
 		// Constants

@@ -1215,7 +1215,7 @@ class TimesheetTask extends Task
                     $obj = $this->db->fetch_object($resql);
                     if($obj) {
                         $message = str_replace("__NB_TS__", $obj->nb, str_replace('\n', "\n", $langs->transnoentities('YouHaveApprovalPendingMsg')));
-                        //$message = "Bonjour, \n\nVous avez __NB_TS__ feuilles de temps à approuver, veuillez vous connecter à Powererp pour les approuver.\n\nCordialement.\n\nVotre administrateur Powererp.";
+                        //$message = "Bonjour, \n\nVous avez __NB_TS__ feuilles de temps à approuver, veuillez vous connecter à PowerERP pour les approuver.\n\nCordialement.\n\nVotre administrateur PowerERP.";
                         $sendto = $obj->email;
                         $replyto = $obj->email;
                         $subject = $langs->transnoentities("YouHaveApprovalPending");

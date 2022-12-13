@@ -290,7 +290,7 @@
     <md5file name="database-tables.php" size="7865">2f7aa0af7954a4500b1365617200c2f4</md5file>
     <md5file name="database.php" size="5190">5242907cf893d3fd5383bdcdd14e12df</md5file>
     <md5file name="dbtable.php" size="3724">c5f30612f13258334152f7d783f9d838</md5file>
-    <md5file name="powererp.php" size="23759">9faa3c5e0d68535e1c5fddb087f26d8b</md5file>
+    <md5file name="PowerERP.php" size="23759">9faa3c5e0d68535e1c5fddb087f26d8b</md5file>
     <md5file name="filecheck.php" size="19284">f25301f2368a46e91ce7eb193e5ea8fa</md5file>
     <md5file name="modules.php" size="14449">ea76be6ab7f0b3d96b0fbacc623f44c1</md5file>
     <md5file name="os.php" size="1687">8c4f6f7f84b462b4eaceda74f75d1edc</md5file>
@@ -1254,7 +1254,7 @@
     <md5file name="empty.php" size="18364">714c50a1ea39e237724fa250bf43c421</md5file>
   </dir>
   <dir name="/core/modules">
-    <md5file name="PowererpModules.class.php" size="72698">10f9071a2ec20d640b717a7b018a2d56</md5file>
+    <md5file name="PowerERPModules.class.php" size="72698">10f9071a2ec20d640b717a7b018a2d56</md5file>
   </dir>
   <dir name="/core/modules/action">
     <md5file name="modules_action.php" size="4638">b6b68a261b247bb9634b7ac63158d46a</md5file>
@@ -15166,7 +15166,7 @@
     <md5file name="weather-storm.png" size="7261">239467dfabd0c13e3becd83d8cc75b36</md5file>
   </dir>
   <dir name="/theme">
-    <md5file name="powererp.png" size="1451">8eb0c3292cd606933aee7246218b4224</md5file>
+    <md5file name="PowerERP.png" size="1451">8eb0c3292cd606933aee7246218b4224</md5file>
     <md5file name="powererp_256x256_color.png" size="3464">48d21fe982b0aec5bcaaa36ce86d6e34</md5file>
     <md5file name="powererp_512x512_white.png" size="9121">4c55a901b2de294eafadf980ffff3b84</md5file>
     <md5file name="powererp_logo.jpg" size="18776">4b80af898357bc27ac741ea25eca1517</md5file>

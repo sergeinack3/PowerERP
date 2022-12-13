@@ -47,7 +47,7 @@ class Translate
 	 *	Constructor
 	 *
 	 *  @param	string	$dir            Force directory that contains /langs subdirectory (value is sometimes '..' like into install/* pages or support/* pages). Use '' by default.
-	 *  @param  Conf	$conf			Object with Powererp configuration
+	 *  @param  Conf	$conf			Object with PowerERP configuration
 	 */
 	public function __construct($dir, $conf)
 	{
@@ -286,7 +286,7 @@ class Translate
 						if ($alt == 2) {
 							$fileread = 1;
 						}
-						$found = true; // Found in powererp PHP cache
+						$found = true; // Found in PowerERP PHP cache
 					}
 				}
 
@@ -474,7 +474,7 @@ class Translate
 				//print $newdomain."\n";
 				//var_dump($this->tab_translate);
 				$fileread = 1;
-				$found = true; // Found in powererp PHP cache
+				$found = true; // Found in PowerERP PHP cache
 			}
 		}
 

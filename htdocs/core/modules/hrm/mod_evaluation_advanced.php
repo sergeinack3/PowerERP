@@ -35,10 +35,10 @@ dol_include_once('/core/modules/hrm/modules_evaluation.php');
 class mod_evaluation_advanced extends ModeleNumRefEvaluation
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	/**
 	 * @var string Error message

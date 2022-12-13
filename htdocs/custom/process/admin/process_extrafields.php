@@ -56,7 +56,7 @@ if (!$user->admin) accessforbidden();
  * Actions
  */
 
-//depending on powererp version
+//depending on PowerERP version
 dol_include_once('/process/core/actions_extrafields.inc.php');
 
 

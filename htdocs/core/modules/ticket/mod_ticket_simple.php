@@ -31,10 +31,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/ticket/modules_ticket.php';
 class mod_ticket_simple extends ModeleNumRefTicket
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'TS';
 

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Nazwa firmy %s już istnieje. Wybierz inną.
 ErrorSetACountryFirst=Najpierw wybierz kraj
 SelectThirdParty=Wybierz kontrahenta
@@ -378,7 +378,7 @@ CapitalOf=Kapitał %s
 EditCompany=Edycja firmy
 ThisUserIsNot=Ten użytkownik nie jest potencjalnym klientem, klientem ani sprzedawcą
 VATIntraCheck=Sprawdź
-VATIntraCheckDesc=Identyfikator VAT musi zawierać prefiks kraju. Łącze <b> %s </b> korzysta z usługi europejskiego sprawdzania podatku VAT (VIES), która wymaga dostępu do Internetu z serwera Powererp.
+VATIntraCheckDesc=Identyfikator VAT musi zawierać prefiks kraju. Łącze <b> %s </b> korzysta z usługi europejskiego sprawdzania podatku VAT (VIES), która wymaga dostępu do Internetu z serwera PowerERP.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do?locale=pl
 VATIntraCheckableOnEUSite=Sprawdź wewnątrzwspólnotowy identyfikator VAT na stronie internetowej Komisji Europejskiej
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -424,8 +424,8 @@ ProspectsByStatus=Potencjalni klienci według statusu
 NoParentCompany=Żaden
 ExportCardToFormat=Eksport karty do formatu
 ContactNotLinkedToCompany=Kontakt nie połączony z żadnym kontrahentem
-PowererpLogin=Powererp login
-NoPowererpAccess=Brak dostępu do Powererp
+PowererpLogin=PowerERP login
+NoPowererpAccess=Brak dostępu do PowerERP
 ExportDataset_company_1=Kontrahenci (firmy/fundacje/osoby fizyczne) i ich własności
 ExportDataset_company_2=Kontakty i ich właściwości
 ImportDataset_company_1=Kontrahenci i ich właściwości

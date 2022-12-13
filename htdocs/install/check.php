@@ -44,15 +44,15 @@ $langs->load("install");
 // Now we load forced/pre-set values from install.forced.php file.
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/powererp/conf.php") {
-	$forcedfile = "/etc/powererp/install.forced.php";
+if ($conffile == "/etc/PowerERP/conf.php") {
+	$forcedfile = "/etc/PowerERP/install.forced.php";
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;
 	include_once $forcedfile;
 }
 
-powererp_install_syslog("- check: Powererp install/upgrade process started");
+powererp_install_syslog("- check: PowerERP install/upgrade process started");
 
 
 /*

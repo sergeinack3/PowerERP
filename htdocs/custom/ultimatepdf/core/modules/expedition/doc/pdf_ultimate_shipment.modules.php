@@ -68,10 +68,10 @@ Class pdf_ultimate_shipment extends ModelePdfExpedition
 	public $phpmin = array(5, 5); 
 	
 	/**
-     * Powererp version of the loaded document
+     * PowerERP version of the loaded document
      * @public string
      */
-	public $version = 'powererp';
+	public $version = 'PowerERP';
 	
 	 /**
      * @var int page_largeur
@@ -394,7 +394,7 @@ Class pdf_ultimate_shipment extends ModelePdfExpedition
 				//Generation de l entete du fichier
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("Shipment"));
-				$pdf->SetCreator("Powererp ".DOL_VERSION);
+				$pdf->SetCreator("PowerERP ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("Shipment"));
 				if (! empty($conf->global->MAIN_DISABLE_PDF_COMPRESSION)) $pdf->SetCompression(false);

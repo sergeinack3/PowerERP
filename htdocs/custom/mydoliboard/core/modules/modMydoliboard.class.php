@@ -18,19 +18,19 @@
 
 /**
  *  \defgroup   patasTools	 Module Mydoliboard
- *	\brief	  Module to Manage Powererp personalised dashboard
+ *	\brief	  Module to Manage PowerERP personalised dashboard
  *  \file	   htdocs/mydoliboard/core/modules/modMydoliboard.class.php
  *	\ingroup	patasTools
  *	\brief	  Fichier de description et activation du module Mydoliboard
  */
 
-include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowererpModules.class.php");
+include_once(DOL_DOCUMENT_ROOT ."/core/modules/PowerERPModules.class.php");
 
 /**
  *	\class	modMydoliboard
  *	\brief	Classe de description et activation du module myDoliboard
  */
-class modmydoliboard extends PowererpModules
+class modmydoliboard extends PowerERPModules
 {
 	/**
 	 *   \brief	  Constructor. Define names, constants, directories, boxes, permissions
@@ -55,7 +55,7 @@ class modmydoliboard extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = $langs->trans("myDoliboardPresentation");
 		
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = $this->getLocalVersion();
 		
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -233,7 +233,7 @@ class modmydoliboard extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
 	 *		@param	  string	$options	Options when enabling module ('', 'noboxes')
@@ -277,7 +277,7 @@ class modmydoliboard extends PowererpModules
 
 	/**
 	 *		Function called when module is disabled.
-	 *	  Remove from database constants, boxes and permissions from Powererp database.
+	 *	  Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
 	 *	  @param	  string	$options	Options when enabling module ('', 'noboxes')
@@ -385,7 +385,7 @@ class modmydoliboard extends PowererpModules
 		else {
 			$tblversionslast=$sxelast->Version;
 			$currentversion = $tblversionslast[count($tblversionslast)-1]->attributes()->Number;
-			$tblPowererp=$sxelast->Powererp;
+			$tblPowererp=$sxelast->PowerERP;
 			$minversionPowererp=$tblPowererp->attributes()->minVersion;
 			if ((int) DOL_VERSION < (int) $MinversionPowererp) {
 				$this->powererpminversion=$minversionPowererp;

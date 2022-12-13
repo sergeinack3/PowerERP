@@ -22,7 +22,7 @@
 /**
  * \file scripts/invoices/email_unpaid_invoices_to_representatives.php
  * \ingroup facture
- * \brief Script to send a mail to powererp users linked to companies with unpaid invoices
+ * \brief Script to send a mail to PowerERP users linked to companies with unpaid invoices
  */
 
 if (!defined('NOSESSION')) {
@@ -173,7 +173,7 @@ if ($resql) {
 			}
 		}
 	} else {
-		print "No unpaid invoices (for companies linked to a particular commercial powererp user) found\n";
+		print "No unpaid invoices (for companies linked to a particular commercial PowerERP user) found\n";
 	}
 
 	exit(0);

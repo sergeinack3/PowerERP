@@ -4,7 +4,7 @@
  * Copyright (C) 2004-2011 Laurent Destailleur  <eldy@users.sourceforge.net>
  * Copyright (C) 2005-2012 Regis Houssin		<regis.houssin@capnetworks.com>
  * Copyright (C) 2013	   Florian Henry		<florian.henry@open-concept.pro>
- * Copyright (C) 2015	  Alexandre Spangaro   <aspangaro.powererp@gmail.com>
+ * Copyright (C) 2015	  Alexandre Spangaro   <aspangaro.PowerERP@gmail.com>
  * Copyright (C) 2016-2017 Charlene Benke		<charlie@patas-monkey.com>
  *
  * This program is free software; you can redistribute it and/or modify

@@ -23,13 +23,13 @@
  *      \ingroup    expensereport
  *      \brief      Description and activation file for the module ExpenseReport
  */
-include_once DOL_DOCUMENT_ROOT."/core/modules/PowererpModules.class.php";
+include_once DOL_DOCUMENT_ROOT."/core/modules/PowerERPModules.class.php";
 
 
 /**
  *	Description and activation class for module ExpenseReport
  */
-class modExpenseReport extends PowererpModules
+class modExpenseReport extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -49,7 +49,7 @@ class modExpenseReport extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Manage and claim expense reports (transportation, meal, ...)";
-		$this->version = 'powererp';
+		$this->version = 'PowerERP';
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'trip';
 
@@ -66,7 +66,7 @@ class modExpenseReport extends PowererpModules
 		// $this->conflictwith = array("modDeplacement"); // Deactivate for access on old information
 		$this->requiredby = array(); // List of modules id to disable if this one is disabled
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module
-		$this->need_powererp_version = array(3, 7); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3, 7); // Minimum version of PowerERP required by module
 		$this->langfiles = array("companies", "trips");
 
 		// Constants
@@ -235,7 +235,7 @@ class modExpenseReport extends PowererpModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *  It also creates data directories.
 	 *
 	 *  @param      string  $options    Options

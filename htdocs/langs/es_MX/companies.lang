@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - companies
+# PowerERP language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=El nombre de la empresa %s ya existe. Elige uno diferente.
 ErrorSetACountryFirst=Ajusta primero el país
 SelectThirdParty=Selecciona un tercero

@@ -1,4 +1,4 @@
-# Powererp language file - en_EN - Verify Stock
+# PowerERP language file - en_EN - Verify Stock
 CHARSET=UTF-8
 Module971635Name=Verify Stock.
 Module971635Desc=Checking product stock in base against the recorde stock movments.

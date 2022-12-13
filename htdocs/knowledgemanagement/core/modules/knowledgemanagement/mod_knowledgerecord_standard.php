@@ -31,10 +31,10 @@ dol_include_once('/knowledgemanagement/core/modules/knowledgemanagement/modules_
 class mod_knowledgerecord_standard extends ModeleNumRefKnowledgeRecord
 {
 	/**
-	 * Powererp version of the loaded document
+	 * PowerERP version of the loaded document
 	 * @var string
 	 */
-	public $version = 'powererp'; // 'development', 'experimental', 'powererp'
+	public $version = 'PowerERP'; // 'development', 'experimental', 'PowerERP'
 
 	public $prefix = 'KM';
 

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - cron
+# PowerERP language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Consultar Tarea programada
@@ -63,7 +63,7 @@ CronStatusInactiveBtn=Inactivo
 CronTaskInactive=Este trabajo está desactivado (no programado)
 CronId=Id
 CronClassFile=Nombre de archivo con clase
-CronModuleHelp=Nombre del directorio del módulo Powererp (también funciona con módulos externos). <BR> Por ejemplo, para realizar un fetch del objeto Product /htdocs/<u>product</u>/class/product.class.php, el valor del módulo es <i>product</i>
+CronModuleHelp=Nombre del directorio del módulo PowerERP (también funciona con módulos externos). <BR> Por ejemplo, para realizar un fetch del objeto Product /htdocs/<u>product</u>/class/product.class.php, el valor del módulo es <i>product</i>
 CronClassFileHelp=La ruta relativa y el nombre del archivo a cargar (la ruta es relativa al directorio raíz del servidor web). <BR> Por ejemplo, para llamar al método de recuperación del objeto Product Dolidarr htdocs/product/class/ <u>product.class.php</u>, el valor para el nombre del archivo de clase es <br> <i> product/class /product.class.php </i>
 CronObjectHelp=El nombre del objeto a cargar. <BR> Por ejemplo para realizar un fetch del objeto Product /htdocs/product/class/product.class.php, el valor del nombre de la clase es <i>Product</i>
 CronMethodHelp=El método del objeto a lanzar. <BR> Por ejemplo para realizar un fetch del objeto Product /htdocs/product/class/product.class.php, el valor del método es <i>fecth</i>
@@ -74,7 +74,7 @@ CronFrom=De
 # Info
 # Common
 CronType=Tipo de tarea
-CronType_method=Llamar a un método de clase Powererp
+CronType_method=Llamar a un método de clase PowerERP
 CronType_command=Comando Shell
 CronCannotLoadClass=No se puede cargar el archivo de la clase %s (para usar la clase %s)
 CronCannotLoadObject=El archivo de la clase %s ha sido cargado, pero no se ha encontrado en ella el objeto %s

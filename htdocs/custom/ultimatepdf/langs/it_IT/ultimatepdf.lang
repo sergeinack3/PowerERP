@@ -1,4 +1,4 @@
-# Powererp language file - en_US - ultimatepdf
+# PowerERP language file - en_US - ultimatepdf
 CHARSET=UTF-8
 Module300100Name=Ultimatepdf
 Module300100Desc=Gestione dei modelli Pdf
@@ -333,7 +333,7 @@ PDFFooterAddressForging=Rules to forge footer address boxe
 SwitchToAnotherDesign=Selezionare un'altro modello
 SelectADesign=Seleziona un modello
 SelectAnOtherlogo=Scegli un nuovo logo
-OtherlogoDescription=Assegna un URL valido, esempio : http://www.powererp.fr/templates/powererp/images/bg2.png . N'oubliez pas de ré-enregistrer votre modèle (Clic sur l'icône en haut à droite, retrouvez votre modèle dans la boîte de dialogue, puis OK) sinon le changement ne serait pas pris en compte.
+OtherlogoDescription=Assegna un URL valido, esempio : http://www.PowerERP.fr/templates/PowerERP/images/bg2.png . N'oubliez pas de ré-enregistrer votre modèle (Clic sur l'icône en haut à droite, retrouvez votre modèle dans la boîte de dialogue, puis OK) sinon le changement ne serait pas pris en compte.
 MoreModules=D'autres modules du même auteur sont disponibles sur la place de marché officielle DoliStore...
 MoreModulesLink=<a target="_blank" href="https://www.dolistore.com/en/search?controller=search&orderby=position&orderway=desc&search_query=atoo.net&submit_search=">Click here to see full list</a>
 MoreModulesLink2=https://www.dolistore.com/en/search?controller=search&orderby=position&orderway=desc&search_query=atoo.net&submit_search=

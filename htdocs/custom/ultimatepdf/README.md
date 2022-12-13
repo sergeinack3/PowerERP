@@ -4,7 +4,7 @@
 Module for PDF models management 
 =========
 
-This module required Powererp >=10.0.0 stable installation
+This module required PowerERP >=10.0.0 stable installation
 
 Thank you for your contribution
 

@@ -47,9 +47,9 @@ class InterfaceVirtualStock
 		$this->db = $db;
 
 		$this->name = preg_replace('/^Interface/i', '', get_class($this));
-		$this->family = "powererp";
+		$this->family = "PowerERP";
 		$this->description = "Triggers of this module are empty functions. .";
-		$this->version = '7.0+2.3.0';			// 'development', 'experimental', 'powererp' or version
+		$this->version = '7.0+2.3.0';			// 'development', 'experimental', 'PowerERP' or version
 		$this->picto = 'technic';
 	}
 
@@ -85,13 +85,13 @@ class InterfaceVirtualStock
 
 		if ($this->version == 'development') return $langs->trans("Development");
 		elseif ($this->version == 'experimental') return $langs->trans("Experimental");
-		elseif ($this->version == 'powererp') return DOL_VERSION;
+		elseif ($this->version == 'PowerERP') return DOL_VERSION;
 		elseif ($this->version) return $this->version;
 		else return $langs->trans("Unknown");
 	}
 
 	/**
-	 *	Function called when a Powererp business event is done.
+	 *	Function called when a PowerERP business event is done.
 	 *	All functions "run_trigger" are triggered if file is inside directory htdocs/core/triggers
 	 *
 	 *	@param	string		$action		Event action code
@@ -104,7 +104,7 @@ class InterfaceVirtualStock
 	function runTrigger($action, $object, $user, $langs, $conf)
 	{
 
-		// Put here code you want to execute when a Powererp business events occurs.
+		// Put here code you want to execute when a PowerERP business events occurs.
 		// Data and type of action are stored into $object and $action
 		// Projects
 		if ($action == 'LOAD_VIRTUAL_STOCK' && $conf->global->FACTORY_AddVirtualstock) {

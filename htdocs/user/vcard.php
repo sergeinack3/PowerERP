@@ -59,7 +59,7 @@ if ($user2->socid) {
 
 // We create VCard
 $v = new vCard();
-$v->setProdId('Powererp '.DOL_VERSION);
+$v->setProdId('PowerERP '.DOL_VERSION);
 
 $v->setUid('DOLIBARR-USERID-'.$user2->id);
 $v->setName($user2->lastname, $user2->firstname, "", $user2->civility_code, "");

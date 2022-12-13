@@ -52,7 +52,7 @@ if (!$user->admin) accessforbidden();
 /*
  * Actions
  */
-//depending on powererp version
+//depending on PowerERP version
 if (file_exists($_SERVER['DOCUMENT_ROOT'].'/core/admin_extrafields.inc.php'))
 	require DOL_DOCUMENT_ROOT.'/core/admin_extrafields.inc.php';
 else

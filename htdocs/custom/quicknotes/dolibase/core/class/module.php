@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -15,7 +15,7 @@
  * 
  */
 
-require_once DOL_DOCUMENT_ROOT . '/core/modules/PowererpModules.class.php';
+require_once DOL_DOCUMENT_ROOT . '/core/modules/PowerERPModules.class.php';
 
 if (! class_exists('DolibaseModule')) {
 
@@ -23,7 +23,7 @@ if (! class_exists('DolibaseModule')) {
  * DolibaseModule class
  *
  * Known issue: When Dolibase is installed globally, DolibaseModule class will be loaded/included only once
- * on "powererp/admin/modules.php" file, but when it's installed internally (in each module) then the class
+ * on "PowerERP/admin/modules.php" file, but when it's installed internally (in each module) then the class
  * will be included from the first loaded module & in the rest of modules the inclusion will be stopped by
  * the if condition above, otherwise you will get this error: DolibaseModule class already exists.
  *
@@ -39,12 +39,12 @@ if (! class_exists('DolibaseModule')) {
  *
  * - Each time you add a function in this class/file, you need to copy & paste it into your module(s) class also.
  *
- * - Use namespaces to separate module file(s) from each others (complicated solution, may even not work on Powererp).
+ * - Use namespaces to separate module file(s) from each others (complicated solution, may even not work on PowerERP).
  *
  * P.S: This issue affects only DolibaseModule & Widget class & not the other classes of Dolibase.
  */
 
-class DolibaseModule extends PowererpModules
+class DolibaseModule extends PowerERPModules
 {
 	/**
 	 * @var array Dolibase module configuration array
@@ -191,7 +191,7 @@ class DolibaseModule extends PowererpModules
 	/**
 	 * Function called when module is enabled.
 	 * The init function add constants, boxes, permissions and menus
-	 * (defined in constructor) into Powererp database.
+	 * (defined in constructor) into PowerERP database.
 	 * It also creates data directories
 	 *
 	 * @param string $options Options when enabling module ('', 'noboxes')
@@ -304,7 +304,7 @@ class DolibaseModule extends PowererpModules
 
 	/**
 	 * Function called when module is disabled.
-	 * Remove from database constants, boxes and permissions from Powererp database.
+	 * Remove from database constants, boxes and permissions from PowerERP database.
 	 * Data directories are not deleted
 	 *
 	 * @param string $options Options when enabling module ('', 'noboxes')
@@ -578,7 +578,7 @@ class DolibaseModule extends PowererpModules
 	/**
 	 * Enable a hook
 	 *
-	 * @param     $hook      powererp hook name: 'toprightmenu', 'main', ...
+	 * @param     $hook      PowerERP hook name: 'toprightmenu', 'main', ...
 	 * @return    $this
 	 */
 	public function enableHook($hook)

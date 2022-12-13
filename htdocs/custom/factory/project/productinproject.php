@@ -112,7 +112,7 @@ if ($action=='sendtoproduct') {
 									GETPOST("qtylefted"), 0, 
 									GETPOST("movedescr"), $date);
 
-	 	// si on a une ancienne version se powererp, on sera obligé d'ajuster, 
+	 	// si on a une ancienne version se PowerERP, on sera obligé d'ajuster, 
 		// pas possible de modifier l'ancien mouvement prévue
 		// ce sera à modifier pour les prochaines versions de factory
 		if ($idmv == 1)

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - agenda
+# PowerERP language file - Source file is en_US - agenda
 IdAgenda=Ereignis-ID
 Actions=Ereignisse
 Agenda=Terminplan
@@ -31,9 +31,9 @@ ViewWeek=Wochenansicht
 ViewPerUser=Ansicht pro Benutzer
 ViewPerType=Anzeige pro Typ
 AutoActions= Automatische Befüllung der Tagesordnung
-AgendaAutoActionDesc= Hier können Sie Ereignisse definieren, die Powererp automatisch in der Agenda erstellen soll. Wenn nichts markiert ist, werden nur manuelle Aktionen in die Protokolle aufgenommen und in der Agenda angezeigt. Die automatische Verfolgung von Geschäftsaktionen an Objekten (Validierung, Statusänderung) wird nicht gespeichert.
-AgendaSetupOtherDesc= Diese Seite bietet Optionen, um den Export Ihrer Powererp-Ereignisse in einen externen Kalender (Thunderbird, Google Calendar usw.) zu ermöglichen.
-AgendaExtSitesDesc=Diese Seite erlaubt es, externe Kalenderquellen zu definieren, um deren Termine in der Powererp-Terminplanung zu sehen.
+AgendaAutoActionDesc= Hier können Sie Ereignisse definieren, die PowerERP automatisch in der Agenda erstellen soll. Wenn nichts markiert ist, werden nur manuelle Aktionen in die Protokolle aufgenommen und in der Agenda angezeigt. Die automatische Verfolgung von Geschäftsaktionen an Objekten (Validierung, Statusänderung) wird nicht gespeichert.
+AgendaSetupOtherDesc= Diese Seite bietet Optionen, um den Export Ihrer PowerERP-Ereignisse in einen externen Kalender (Thunderbird, Google Calendar usw.) zu ermöglichen.
+AgendaExtSitesDesc=Diese Seite erlaubt es, externe Kalenderquellen zu definieren, um deren Termine in der PowerERP-Terminplanung zu sehen.
 ActionsEvents=Veranstaltungen zur automatischen Übernahme in die Agenda
 EventRemindersByEmailNotEnabled=Aufgaben-/Terminerinnerungen via E-Mail sind in den Einstellungen des Moduls %s nicht aktiviert.
 ##### Agenda event labels #####

@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - loan
+# PowerERP language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=输入要创建的模块/应用的名称，不含空格。使用大写字母分隔单词（例如：MyModule，EcommerceForShop，SyncWithMySystem ......）
 EnterNameOfObjectDesc=输入要创建的对象的名称，不包含空格。使用大写字母分隔单词（例如：MyObject，Student，Teacher ...）。将会生成包含CRUD方法的类文件，同时生成API文件，同时生成"列表/添加/编辑/删除"对象的页面和SQL文件。
@@ -25,7 +25,7 @@ EnterNameOfModuleToDeleteDesc=You can delete your module. WARNING: All coding fi
 EnterNameOfObjectToDeleteDesc=You can delete an object. WARNING: All coding files (generated or created manually) related to object will be deleted!
 DangerZone=危险区
 BuildPackage=Build package
-BuildPackageDesc=You can generate a zip package of your application so your are ready to distribute it on any Powererp. You can also distribute it or sell it on marketplace like <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=You can generate a zip package of your application so your are ready to distribute it on any PowerERP. You can also distribute it or sell it on marketplace like <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=构建文档
 ModuleIsNotActive=This module is not activated yet. Go to %s to make it live or click here
 ModuleIsLive=This module has been activated. Any change may break a current live feature.

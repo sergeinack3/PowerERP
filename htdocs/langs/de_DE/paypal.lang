@@ -1,6 +1,6 @@
-# Powererp language file - Source file is en_US - paypal
+# PowerERP language file - Source file is en_US - paypal
 PaypalSetup=PayPal Moduleinstellungen
-PaypalDesc=Dieses Modul ermöglicht Zahlungen von Kunden über <a href="http://www.paypal.com" target="_blank">PayPal</a> zu tätigen. Es können ad-hoxc Zahlungen oder Zahlungen zu Vorgängen aus Powererp (Rechnungen, Bestellungen ...) erfolgen
+PaypalDesc=Dieses Modul ermöglicht Zahlungen von Kunden über <a href="http://www.paypal.com" target="_blank">PayPal</a> zu tätigen. Es können ad-hoxc Zahlungen oder Zahlungen zu Vorgängen aus PowerERP (Rechnungen, Bestellungen ...) erfolgen
 PaypalOrCBDoPayment=Bezahlen mit PayPal  (Kreditkarte oder PayPal)
 PaypalDoPayment=Zahlung mit PayPal 
 PAYPAL_API_SANDBOX=Testmodus/Sandbox

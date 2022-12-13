@@ -25,14 +25,14 @@
  *  \ingroup    oauth
  *  \brief      Description and activation file for the module Oauth
  */
-include_once DOL_DOCUMENT_ROOT.'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT.'/core/modules/PowerERPModules.class.php';
 
 
 
 /**
  *  Class to describe and activate module OAuth
  */
-class modOauth extends PowererpModules
+class modOauth extends PowerERPModules
 {
 
 	/**
@@ -52,8 +52,8 @@ class modOauth extends PowererpModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Enable OAuth authentication";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or 'powererp_deprecated' or version
-		$this->version = 'powererp';
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or 'powererp_deprecated' or version
+		$this->version = 'PowerERP';
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Name of image file used for this module.
 		// If file is in theme/yourtheme/img directory under name object_pictovalue.png, use this->picto='pictovalue'
@@ -72,7 +72,7 @@ class modOauth extends PowererpModules
 		$this->requiredby = array(); // List of module ids to disable if this one is disabled
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->phpmin = array(5, 6); // Minimum version of PHP required by module                    // Minimum version of PHP required by module
-		$this->need_powererp_version = array(3, 7, -2); // Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3, 7, -2); // Minimum version of PowerERP required by module
 		$this->conflictwith = array();
 		$this->langfiles = array("oauth");
 
@@ -124,7 +124,7 @@ class modOauth extends PowererpModules
 
 	/**
 	 *      Function called when module is enabled.
-	 *      The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *      The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *      It also creates data directories
 	 *
 	 *      @param      string  $options    Options when enabling module ('', 'noboxes')

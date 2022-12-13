@@ -2,7 +2,7 @@
 /**
  * Dolibase
  * 
- * Open source framework for Powererp ERP/CRM
+ * Open source framework for PowerERP ERP/CRM
  *
  * Copyright (c) 2018 - 2019
  *
@@ -667,7 +667,7 @@ class CardPage extends FormPage
 
 				show_related_objects($object);
 			}
-			// Powererp linked objects block
+			// PowerERP linked objects block
 			else if (isset($object->socid) || isset($object->fk_soc))
 			{
 				$permissiondellink = $this->canEdit(); // Used by the include of actions_dellink.inc.php

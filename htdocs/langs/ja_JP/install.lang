@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - install
+# PowerERP language file - Source file is en_US - install
 InstallEasy=ちょうどステップごとの手順のステップに従うこと。
 MiscellaneousChecks=前提条件チェック
 ConfFileExists=コンフィギュレーションファイル<b>%sが</b>存在し<b>ている</b> 。
@@ -82,15 +82,15 @@ SetupEnd=設定の終了
 SystemIsInstalled=インストールが完了しました。
 SystemIsUpgraded=Powererpが正常にアップグレードされました。
 YouNeedToPersonalizeSetup=Powererpをご自身のニーズに合わせて設定する必要がある（外観、機能など）。設定を実行するには以下のリンクをクリックして下さい。
-AdminLoginCreatedSuccessfuly=Powererp 管理者ログイン '<b>%s</b>' の作成が成功した。
+AdminLoginCreatedSuccessfuly=PowerERP 管理者ログイン '<b>%s</b>' の作成が成功した。
 GoToPowererp=Powererpに行く
-GoToSetupArea=Powererp(設定の領域)に移動する
+GoToSetupArea=PowerERP(設定の領域)に移動する
 MigrationNotFinished=データベースのバージョンが完全に最新ではありません。アップグレードプロセスを再実行すること。
 GoToUpgradePage=アップグレードページへ再度行く
 WithNoSlashAtTheEnd=末尾のスラッシュ"/"なし
 DirectoryRecommendation= <span class="warning">重要</span>：Webページの外部にあるディレクトリを使用する必要がある(したがって、前のパラメータのサブディレクトリは使用しないこと)。
 LoginAlreadyExists=すでに存在する
-PowererpAdminLogin=Powererp 管理者ログイン
+PowererpAdminLogin=PowerERP 管理者ログイン
 AdminLoginAlreadyExists=Powererp管理者アカウント '<b> %s</b>'は既に存在する。別のものを作成したい場合は戻ってください。
 FailedToCreateAdminLogin=Powererp管理者アカウントの作成に失敗した。
 WarningRemoveInstallDir=警告：セキュリティ上の理由から、インストールツールの不意または悪意ある再使用を防ぐため、インストールまたはアップグレードの完了後に<b> install.lock</b>というファイルをドキュメントディレクトリにアップロードしてください。

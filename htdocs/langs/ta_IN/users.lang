@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - users
+# PowerERP language file - Source file is en_US - users
 HRMArea=HRM பகுதி
 UserCard=பயனர் அட்டை
 GroupCard=குழு அட்டை
@@ -66,7 +66,7 @@ LinkedToPowererpUser=பயனருக்கான இணைப்பு
 LinkedToPowererpThirdParty=மூன்றாம் தரப்பினருக்கான இணைப்பு
 CreatePowererpLogin=ஒரு பயனரை உருவாக்கவும்
 CreatePowererpThirdParty=மூன்றாம் தரப்பை உருவாக்கவும்
-LoginAccountDisableInPowererp=Powererp இல் கணக்கு முடக்கப்பட்டது.
+LoginAccountDisableInPowererp=PowerERP இல் கணக்கு முடக்கப்பட்டது.
 UsePersonalValue=தனிப்பட்ட மதிப்பைப் பயன்படுத்தவும்
 InternalUser=உள் பயனர்
 ExportDataset_user_1=பயனர்கள் மற்றும் அவர்களின் பண்புகள்
@@ -90,8 +90,8 @@ UserDeleted=பயனர் %s அகற்றப்பட்டார்
 NewGroupCreated=குழு %s உருவாக்கப்பட்டது
 GroupModified=குழு %s மாற்றப்பட்டது
 GroupDeleted=குழு %s அகற்றப்பட்டது
-ConfirmCreateContact=இந்த தொடர்புக்கு Powererp கணக்கை நிச்சயமாக உருவாக்க விரும்புகிறீர்களா?
-ConfirmCreateLogin=இந்த உறுப்பினருக்கு நிச்சயமாக Powererp கணக்கை உருவாக்க விரும்புகிறீர்களா?
+ConfirmCreateContact=இந்த தொடர்புக்கு PowerERP கணக்கை நிச்சயமாக உருவாக்க விரும்புகிறீர்களா?
+ConfirmCreateLogin=இந்த உறுப்பினருக்கு நிச்சயமாக PowerERP கணக்கை உருவாக்க விரும்புகிறீர்களா?
 ConfirmCreateThirdParty=இந்த உறுப்பினருக்கு நிச்சயமாக மூன்றாம் தரப்பை உருவாக்க விரும்புகிறீர்களா?
 LoginToCreate=உருவாக்க உள்நுழைக
 NameToCreate=உருவாக்க வேண்டிய மூன்றாம் தரப்பினரின் பெயர்

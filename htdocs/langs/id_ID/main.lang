@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -61,8 +61,8 @@ ErrorNoRequestInError=Tidak ada permintaan yang salah
 ErrorServiceUnavailableTryLater=Layanan tidak tersedia saat ini. Coba lagi nanti.
 ErrorDuplicateField=Nilai duplikat di bidang unik
 ErrorSomeErrorWereFoundRollbackIsDone=Beberapa kesalahan ditemukan. Perubahan telah dibatalkan.
-ErrorConfigParameterNotDefined=Parameter<b>%s</b>tidak didefinisikan dalam file konfigurasi Powererp<b>conf.php </b>.
-ErrorCantLoadUserFromPowererpDatabase=Gagal menemukan pengguna<b>%s</b>di basis data Powererp.
+ErrorConfigParameterNotDefined=Parameter<b>%s</b>tidak didefinisikan dalam file konfigurasi PowerERP<b>conf.php </b>.
+ErrorCantLoadUserFromPowererpDatabase=Gagal menemukan pengguna<b>%s</b>di basis data PowerERP.
 ErrorNoVATRateDefinedForSellerCountry=Kesalahan, tidak ada tarif pajak yang ditentukan untuk negara '%s'.
 ErrorNoSocialContributionForSellerCountry=Kesalahan, tidak ada jenis pajak sosial / fiskal yang ditentukan untuk negara '%s'.
 ErrorFailedToSaveFile=Kesalahan, gagal menyimpan file.
@@ -95,7 +95,7 @@ RecordDeleted=Rekam dihapus
 RecordGenerated=Rekaman dihasilkan
 LevelOfFeature=Tingkat fitur
 NotDefined=Tidak terdefinisikan
-PowererpInHttpAuthenticationSoPasswordUseless=Mode autentikasi Powererp diatur ke<b>%s</b>dalam file konfigurasi<b>conf.php </b>. <br> Ini berarti bahwa basis data kata sandi di luar Powererp, jadi mengubah bidang ini mungkin tidak berpengaruh.
+PowererpInHttpAuthenticationSoPasswordUseless=Mode autentikasi PowerERP diatur ke<b>%s</b>dalam file konfigurasi<b>conf.php </b>. <br> Ini berarti bahwa basis data kata sandi di luar PowerERP, jadi mengubah bidang ini mungkin tidak berpengaruh.
 Administrator=Administrator
 Undefined=Tidak terdefinisi
 PasswordForgotten=Lupa kata sandi?
@@ -113,7 +113,7 @@ DatabaseTypeManager=Manajer tipe basis data
 RequestLastAccessInError=Kesalahan permintaan akses basis data terbaru
 ReturnCodeLastAccessInError=Kembalikan kode untuk kesalahan permintaan akses database terbaru
 InformationLastAccessInError=Informasi untuk kesalahan permintaan akses database terbaru
-PowererpHasDetectedError=Powererp telah mendeteksi kesalahan teknis
+PowererpHasDetectedError=PowerERP telah mendeteksi kesalahan teknis
 YouCanSetOptionPowererpMainProdToZero=Anda dapat membaca file log atau mengatur opsi $ powererp_main_prod ke '0' di file konfigurasi Anda untuk mendapatkan informasi lebih lanjut.
 InformationToHelpDiagnose=This information can be useful for diagnostic purposes (you can set option $powererp_main_prod to '1' to hide sensitive information)
 MoreInformation=Informasi lebih lanjut
@@ -122,7 +122,7 @@ TechnicalID=ID Teknis
 LineID=ID baris
 NotePublic=Catatan (publik)
 NotePrivate=Catatan (pribadi)
-PrecisionUnitIsLimitedToXDecimals=Powererp disiapkan untuk membatasi presisi harga satuan hingga desimal<b>%s </b>.
+PrecisionUnitIsLimitedToXDecimals=PowerERP disiapkan untuk membatasi presisi harga satuan hingga desimal<b>%s </b>.
 DoTest=Uji
 ToFilter=Saring
 NoFilter=Tanpa filter
@@ -732,8 +732,8 @@ MenuAWStats=AWStats
 MenuMembers=Anggota
 MenuAgendaGoogle=Agenda Google
 MenuTaxesAndSpecialExpenses=Pajak | Pengeluaran khusus
-ThisLimitIsDefinedInSetup=Batas Powererp (Menu home-setup-security): %s Kb, batas PHP: %s Kb
-ThisLimitIsDefinedInSetupAt=Batas Powererp (Menu %s): %s Kb, batas PHP (Param %s): %s Kb
+ThisLimitIsDefinedInSetup=Batas PowerERP (Menu home-setup-security): %s Kb, batas PHP: %s Kb
+ThisLimitIsDefinedInSetupAt=Batas PowerERP (Menu %s): %s Kb, batas PHP (Param %s): %s Kb
 NoFileFound=Tidak ada dokumen yang diunggah
 CurrentUserLanguage=Bahasa saat ini
 CurrentTheme=Tema saat ini
@@ -909,7 +909,7 @@ ViewFlatList=Lihat daftar datar
 ViewAccountList=Lihat buku besar
 ViewSubAccountList=Lihat buku besar sub-akun
 RemoveString=Hapus string '%s'
-SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/powererp/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/powererp/</a> to add your improvements.
+SomeTranslationAreUncomplete=Some of the languages offered may be only partially translated or may contain errors. Please help to correct your language by registering at <a href="https://transifex.com/projects/p/PowerERP/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/PowerERP/</a> to add your improvements.
 DirectDownloadLink=Tautan unduhan publik
 PublicDownloadLinkDesc=Hanya tautan yang diperlukan untuk mengunduh file
 DirectDownloadInternalLink=Tautan unduhan pribadi

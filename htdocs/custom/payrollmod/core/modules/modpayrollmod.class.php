@@ -25,12 +25,12 @@
  *  \ingroup    payrollmod
  *  \brief      Description and activation file for module payrollmod
  */
-include_once DOL_DOCUMENT_ROOT .'/core/modules/PowererpModules.class.php';
+include_once DOL_DOCUMENT_ROOT .'/core/modules/PowerERPModules.class.php';
 
 /**
  *  Description and activation class for module payrollmod
  */
-class modpayrollmod extends PowererpModules
+class modpayrollmod extends PowerERPModules
 {
 	/**
 	 *   Constructor. Define names, constants, directories, boxes, permissions
@@ -44,7 +44,7 @@ class modpayrollmod extends PowererpModules
         $this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Powererp for list of used modules id).
+		// Use here a free id (See in Home -> System information -> PowerERP for list of used modules id).
 		$this->numero = 940328081;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'payrollmod';
@@ -57,14 +57,14 @@ class modpayrollmod extends PowererpModules
 		$this->name = preg_replace('/^mod/i','',get_class($this));
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 		$this->description = "Module940328081Desc";
-		// Possible values for version are: 'development', 'experimental', 'powererp' or version
+		// Possible values for version are: 'development', 'experimental', 'PowerERP' or version
 		$this->version = '3.0';
 		// Key used in llxconst table to save module status enabled/disabled (where PAYROLLMOD is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Where to store the module in setup page (0=common,1=interface,2=others,3=very specific)
 		$this->special = 0;
 		$this->editor_name = 'PowerERP';
-		$this->editor_url = 'https://powererp.site/';
+		$this->editor_url = 'https://PowerERP.site/';
 		// Name of image file used for this module.
 		// If file is in theme/yourtheme/img directory under name object_pictovalue.png, use this->picto='pictovalue'
 		// If file is in module/img directory under name object_pictovalue.png, use this->picto='pictovalue@module'
@@ -109,7 +109,7 @@ class modpayrollmod extends PowererpModules
 		$this->requiredby = array('modEmprunt');	// List of modules id to disable if this one is disabled
 		$this->conflictwith = array();	// List of modules id this module is in conflict with
 		$this->phpmin = array(5,0);					// Minimum version of PHP required by module
-		$this->need_powererp_version = array(3,0);	// Minimum version of Powererp required by module
+		$this->need_powererp_version = array(3,0);	// Minimum version of PowerERP required by module
 		$this->langfiles = array("payrollmod@payrollmod");
 
 		// Constants
@@ -644,7 +644,7 @@ class modpayrollmod extends PowererpModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Powererp database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into PowerERP database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -978,7 +978,7 @@ class modpayrollmod extends PowererpModules
 
 	/**
 	 *		Function called when module is disabled.
-	 *      Remove from database constants, boxes and permissions from Powererp database.
+	 *      Remove from database constants, boxes and permissions from PowerERP database.
 	 *		Data directories are not deleted
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

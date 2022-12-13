@@ -1,4 +1,4 @@
-# Powererp language file - Source file is en_US - main
+# PowerERP language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -27,7 +27,7 @@ NotAuthorized=Vous n'êtes pas autorisé à le faire.
 SeeHere=Regardez ici
 ClickHere=Cliquez ici
 GoToWikiHelpPage=Lire l'aide en ligne (accès Internet nécessaire)
-PowererpInHttpAuthenticationSoPasswordUseless=Le mode d'authentification Powererp est défini sur <b>%s</b> dans le fichier de configuration <b>conf.php</b>.<br> Cela signifie que la base de données de mots de passe est externe à Powererp, donc changer ce champ peut ne pas avoir d'effet .
+PowererpInHttpAuthenticationSoPasswordUseless=Le mode d'authentification PowerERP est défini sur <b>%s</b> dans le fichier de configuration <b>conf.php</b>.<br> Cela signifie que la base de données de mots de passe est externe à PowerERP, donc changer ce champ peut ne pas avoir d'effet .
 PasswordForgotten=Mot de passe oublié?
 AuthenticationMode=Mode d'authentification
 RequestedUrl=URL requise
