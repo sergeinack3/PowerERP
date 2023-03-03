@@ -186,7 +186,7 @@ print '<tr class="liste_titre">'."\n";
 print '<td width=20%>'.$langs->trans("SupportModuleInformation").'</td>'."\n";
 print '<td>'.$langs->trans("Value").'</td>'."\n";
 print "</tr>\n";
-print '<tr '.$bc[false].'><td >'.$langs->trans("PowererpVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
+print '<tr '.$bc[false].'><td >'.$langs->trans("PowerERPVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
 print '<tr '.$bc[true].'><td >'.$langs->trans("ModuleVersion").'</td>';
 print '<td>'.$currentversion->attributes()->Number." (".$currentversion->attributes()->MonthVersion.')</td></tr>'."\n";
 print '<tr '.$bc[false].'><td >'.$langs->trans("PHPVersion").'</td><td>'.version_php().'</td></tr>'."\n";

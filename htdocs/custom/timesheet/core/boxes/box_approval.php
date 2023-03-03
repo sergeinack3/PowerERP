@@ -22,7 +22,7 @@ include_once DOL_DOCUMENT_ROOT.'/core/boxes/modules_boxes.php';
 $path = dirname(dirname(dirname(__FILE__)));
 set_include_path($path);
 require_once 'core/lib/timesheet.lib.php';
-global $dolibarr_main_url_root_alt;
+global $powererp_main_url_root_alt;
 $res = 0;
 /**
  * Class to manage the box to show last invoices

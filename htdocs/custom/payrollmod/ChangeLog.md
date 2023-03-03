@@ -1,4 +1,4 @@
-# CHANGELOG PAYROLLMOD FOR [DOLIBARR ERP CRM](https://www.PowerERP.org)
+# CHANGELOG PAYROLLMOD FOR [POWERERP ERP CRM](https://www.PowerERP.org)
 
 ## 1.0
 

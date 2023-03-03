@@ -1,0 +1,8 @@
+# PowerERP language file - en_US - notiftask 
+CHARSET=UTF-8
+
+descripcio_notiftask = Send an email to the user who is assigned the task - ADQA
+subject_notif = You have been assigned a new task
+textmail1 = You have been assigned to the task
+textmail2 = , corresponding to project:
+missatgenotif = A notification has been sent to 

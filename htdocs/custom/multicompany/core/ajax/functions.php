@@ -100,7 +100,7 @@ if (! empty($action) && is_numeric($id))
 		$direction = GETPOST('dir', 'aZ');
 		$colOrder = array('id' => $id, 'direction' => $direction);
 
-		if (dolibarr_set_const($db, 'MULTICOMPANY_COLORDER', json_encode($colOrder), 'chaine', 0, '', 0) > 0) {
+		if (powererp_set_const($db, 'MULTICOMPANY_COLORDER', json_encode($colOrder), 'chaine', 0, '', 0) > 0) {
 			$ret = json_encode(array('status' => 'success'), JSON_PRETTY_PRINT);
 		}
 		else {
@@ -122,7 +122,7 @@ if (! empty($action) && is_numeric($id))
 
 		sort($colHidden);
 
-		if (dolibarr_set_const($db, 'MULTICOMPANY_COLHIDDEN', json_encode($colHidden), 'chaine', 0, '', 0) > 0) {
+		if (powererp_set_const($db, 'MULTICOMPANY_COLHIDDEN', json_encode($colHidden), 'chaine', 0, '', 0) > 0) {
 			$ret = json_encode(array('status' => 'success'), JSON_PRETTY_PRINT);
 		}
 		else {

@@ -43,8 +43,8 @@ $optioncss = GETPOST('optioncss');
 
 header('Content-Type: text/css');
 
-$dolibarr_version = explode('.', DOL_VERSION);
-if ((int)$dolibarr_version[0] >= 11) {
+$powererp_version = explode('.', DOL_VERSION);
+if ((int)$powererp_version[0] >= 11) {
 
 ?>
 

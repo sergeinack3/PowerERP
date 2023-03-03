@@ -82,7 +82,7 @@ if (empty($conf->syslog->enabled)) {
 		<td><?php echo $langs->trans('Value'); ?></td>
 	</tr>
 	<tr>
-		<td><?php echo $langs->trans('PowererpVersion'); ?></td>
+		<td><?php echo $langs->trans('PowerERPVersion'); ?></td>
 		<td><?php echo DOL_VERSION; ?></td>
 	</tr>
 	<tr>

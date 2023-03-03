@@ -124,7 +124,7 @@ print '<link rel="stylesheet" type="text/css" href="'.dol_buildpath('/gestionhrm
 // 		print '<div class="m-portlet width50percent left tiers">';
 // 			print '<div class="box">';
 
-// 		        print '<table summary="'.dol_escape_htmltag($langs->trans("PowererpStateBoard")).'" class="noborder boxtable boxtablenobottom nohover" width="100%">';
+// 		        print '<table summary="'.dol_escape_htmltag($langs->trans("PowerERPStateBoard")).'" class="noborder boxtable boxtablenobottom nohover" width="100%">';
 // 			        print '<tr class="liste_titre">';
 // 				        print '<th class="liste_titre">';
 // 				        	print '<div class="inline-block valignmiddle">'.$langs->trans("Statebordhrm").'</div>';
@@ -228,7 +228,7 @@ print '<form method="get" action="'.$_SERVER["PHP_SELF"].'" >';
 				print '<div class="box boxdraggable" id="boxto_03">';
 				    print '<table summary="'.dol_escape_htmltag($langs->trans("Statebordpresenc")).'" class="noborder boxtable boxtablenobottom boxworkingboard" width="100%">'."\n";
 					    print '<tr class="liste_titre box_titre">';
-					    	// print '<th colspan="4" class="liste_titre"><div class="inline-block valignmiddle">'.$langs->trans("PowererpWorkBoard").'</div></th>';
+					    	// print '<th colspan="4" class="liste_titre"><div class="inline-block valignmiddle">'.$langs->trans("PowerERPWorkBoard").'</div></th>';
 
 					    	print '<td colspan="4" class="tdoverflowmax150 maxwidth150onsmartphone">';
 			                    print dol_trunc($langs->trans('Statebordpresenc'), 40);
@@ -388,7 +388,7 @@ print '<form method="get" action="'.$_SERVER["PHP_SELF"].'" >';
 				print '<div class="box boxdraggable" id="boxto_07">';
 				    print '<table summary="'.dol_escape_htmltag($langs->trans("WorkingBoard")).'" class="noborder boxtable boxtablenobottom boxworkingboard" width="100%">'."\n";
 					    print '<tr class="liste_titre box_titre">';
-					    	// print '<th colspan="4" class="liste_titre"><div class="inline-block valignmiddle">'.$langs->trans("PowererpWorkBoard").'</div></th>';
+					    	// print '<th colspan="4" class="liste_titre"><div class="inline-block valignmiddle">'.$langs->trans("PowerERPWorkBoard").'</div></th>';
 
 					    	print '<td colspan="4" class="tdoverflowmax150 maxwidth150onsmartphone">';
 			                    print dol_trunc($langs->trans('Statebordaward'), 40);
@@ -544,7 +544,7 @@ print '<form method="get" action="'.$_SERVER["PHP_SELF"].'" >';
 				print '<div class="box boxdraggable" id="boxto_11">';
 				    print '<table summary="'.dol_escape_htmltag($langs->trans("WorkingBoard")).'" class="noborder boxtable boxtablenobottom boxworkingboard" width="100%">'."\n";
 					    print '<tr class="liste_titre box_titre">';
-					    	// print '<th colspan="4" class="liste_titre"><div class="inline-block valignmiddle">'.$langs->trans("PowererpWorkBoard").'</div></th>';
+					    	// print '<th colspan="4" class="liste_titre"><div class="inline-block valignmiddle">'.$langs->trans("PowerERPWorkBoard").'</div></th>';
 
 					    	print '<td colspan="3" class="tdoverflowmax150 maxwidth150onsmartphone">';
 			                    print dol_trunc($langs->trans('Statebordvacance'), 60);
@@ -599,7 +599,7 @@ print '<form method="get" action="'.$_SERVER["PHP_SELF"].'" >';
 			print '<div class="secondcolumn fichehalfright boxhalfright" id="boxhalfright">';
 
 				print '<div class="box boxdraggable" id="boxto_02">';
-			        print '<table summary="'.dol_escape_htmltag($langs->trans("PowererpStateBoard")).'" class="noborder boxtable boxtablenobottom nohover" width="100%">';
+			        print '<table summary="'.dol_escape_htmltag($langs->trans("PowerERPStateBoard")).'" class="noborder boxtable boxtablenobottom nohover" width="100%">';
 
 				        print '<tr class="liste_titre">';
 					        print '<th class="liste_titre">';

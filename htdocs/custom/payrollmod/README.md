@@ -1,4 +1,4 @@
-# PAYROLLMOD FOR [DOLIBARR ERP CRM](https://www.PowerERP.org)
+# PAYROLLMOD FOR [POWERERP ERP CRM](https://www.PowerERP.org)
 
 ## Features
 
@@ -36,8 +36,8 @@ Note: If this screen tell you there is no custom directory, check your setup is 
 - In your PowerERP installation directory, edit the ```htdocs/conf/conf.php``` file and check that following lines are not commented:
 
     ```php
-    //$dolibarr_main_url_root_alt ...
-    //$dolibarr_main_document_root_alt ...
+    //$powererp_main_url_root_alt ...
+    //$powererp_main_document_root_alt ...
     ```
 
 - Uncomment them if necessary (delete the leading ```//```) and assign a sensible value according to your PowerERP installation
@@ -46,19 +46,19 @@ Note: If this screen tell you there is no custom directory, check your setup is 
 
     - UNIX:
         ```php
-        $dolibarr_main_url_root_alt = '/custom';
-        $dolibarr_main_document_root_alt = '/var/www/PowerERP/htdocs/custom';
+        $powererp_main_url_root_alt = '/custom';
+        $powererp_main_document_root_alt = '/var/www/PowerERP/htdocs/custom';
         ```
 
     - Windows:
         ```php
-        $dolibarr_main_url_root_alt = '/custom';
-        $dolibarr_main_document_root_alt = 'C:/My Web Sites/PowerERP/htdocs/custom';
+        $powererp_main_url_root_alt = '/custom';
+        $powererp_main_document_root_alt = 'C:/My Web Sites/PowerERP/htdocs/custom';
         ```
 
 ### From a GIT repository
 
-- Clone the repository in ```$dolibarr_main_document_root_alt/payrollmod```
+- Clone the repository in ```$powererp_main_document_root_alt/payrollmod```
 
 ```sh
 cd ....../custom

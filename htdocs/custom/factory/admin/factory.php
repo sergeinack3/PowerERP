@@ -163,9 +163,9 @@ $addvirtualstock=$conf->global->FACTORY_AddVirtualstock;
 
 if ($action == 'ChangePriceSetting') {
 	powererp_set_const($db, "ChangePriceSetting", GETPOST('value'), 'chaine', 0, '', $conf->entity);
-	// selon l'activation / désactivation on met  en place des tabs sur les catégorie de produits
+	// selon l'activation / dï¿½sactivation on met  en place des tabs sur les catï¿½gorie de produits
 	if (GETPOST('value') == 1) {
-		// on ajoute l'onglet de paramétrage des prix multiple
+		// on ajoute l'onglet de paramï¿½trage des prix multiple
 		$onglet = 'categories_0:+factory:changeprice:@factory:/factory/changeprice/categories.php?type=0&id=__ID__';
 		$sql = "INSERT INTO ".MAIN_DB_PREFIX."const (";
 		$sql.= "name";
@@ -527,9 +527,9 @@ if (! empty($conf->fournisseur->enabled)) {
 }
 
 if ($componentprice == '')
-	$componentprice ='pmpprice'; // on prend le pmp par défaut (toujours là lui...)
+	$componentprice ='pmpprice'; // on prend le pmp par dï¿½faut (toujours lï¿½ lui...)
 if ($componentpriceservice == '')
-	$componentpriceservice ='costprice'; // on prend le costprice par défaut 
+	$componentpriceservice ='costprice'; // on prend le costprice par dï¿½faut 
 
 $tblArraychoiceservice = $tblArraychoice;
 unset($tblArraychoiceservice['pmpprice']);
@@ -719,7 +719,7 @@ print '<tr class="liste_titre">'."\n";
 print '<td width=20%>'.$langs->trans("SupportModuleInformation").'</td>'."\n";
 print '<td>'.$langs->trans("Value").'</td>'."\n";
 print "</tr>\n";
-print '<tr '.$bc[false].'><td >'.$langs->trans("PowererpVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
+print '<tr '.$bc[false].'><td >'.$langs->trans("PowerERPVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
 print '<tr '.$bc[true].'><td >'.$langs->trans("ModuleVersion").'</td>';
 print '<td>'.$currentversion->attributes()->Number." (".$currentversion->attributes()->MonthVersion.')</td></tr>'."\n";
 print '<tr '.$bc[false].'><td >'.$langs->trans("PHPVersion").'</td><td>'.version_php().'</td></tr>'."\n";

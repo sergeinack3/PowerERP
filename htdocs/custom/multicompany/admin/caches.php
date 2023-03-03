@@ -44,7 +44,7 @@ $action	= GETPOST('action','alpha');
 
 if ($action == 'setvalue')
 {
-	$result=dolibarr_set_const($db, "MULTICOMPANY_MEMCACHED_SERVER",GETPOST('MULTICOMPANY_MEMCACHED_SERVER', 'alpha'),'chaine',0,'',0);
+	$result=powererp_set_const($db, "MULTICOMPANY_MEMCACHED_SERVER",GETPOST('MULTICOMPANY_MEMCACHED_SERVER', 'alpha'),'chaine',0,'',0);
 
 	if ($result >= 0)
 	{

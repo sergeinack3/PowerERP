@@ -58,7 +58,7 @@ if (preg_match('/set_(.*)/',$action,$reg))
     }
 } elseif (preg_match('/del_(.*)/',$action,$reg)) {
     $code=$reg[1];
-    if (dolibarr_del_const($db, $code, $conf->entity) > 0)
+    if (powererp_del_const($db, $code, $conf->entity) > 0)
     {
         header("Location: ".$_SERVER["PHP_SELF"]);
         exit;

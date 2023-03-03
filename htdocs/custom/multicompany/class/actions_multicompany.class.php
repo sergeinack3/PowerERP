@@ -337,20 +337,20 @@ class ActionsMulticompany
 					$country_code	= $country['code'];
 					$country_label	= $country['label'];
 
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_COUNTRY", $country_id.':'.$country_code.':'.$country_label,'chaine',0,'',$id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_NOM",$name,'chaine',0,'',$id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_ADDRESS",GETPOST('address', 'alpha'),'chaine',0,'',$id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_TOWN",GETPOST('town', 'alpha'),'chaine',0,'',$id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_ZIP",GETPOST('zipcode', 'alpha'),'chaine',0,'',$id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_STATE",GETPOST('departement_id', 'int'),'chaine',0,'',$id);
-					Dolibarr_set_const($this->db, "MAIN_MONNAIE",GETPOST('currency_code', 'alpha'),'chaine',0,'',$id);
-					Dolibarr_set_const($this->db, "MAIN_LANG_DEFAULT",GETPOST('main_lang_default', 'alpha'),'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_COUNTRY", $country_id.':'.$country_code.':'.$country_label,'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_NOM",$name,'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_ADDRESS",GETPOST('address', 'alpha'),'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_TOWN",GETPOST('town', 'alpha'),'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_ZIP",GETPOST('zipcode', 'alpha'),'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_STATE",GETPOST('departement_id', 'int'),'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_MONNAIE",GETPOST('currency_code', 'alpha'),'chaine',0,'',$id);
+					PowerERP_set_const($this->db, "MAIN_LANG_DEFAULT",GETPOST('main_lang_default', 'alpha'),'chaine',0,'',$id);
 
 					$dir	= "/multicompany/sql/";
 
 					// Load sql init_new_entity.sql file
 					$file 	= 'init_new_entity_nocrypt.sql';
-					if (! empty($conf->db->Dolibarr_main_db_encryption) && ! empty($conf->db->Dolibarr_main_db_cryptkey))
+					if (! empty($conf->db->PowerERP_main_db_encryption) && ! empty($conf->db->PowerERP_main_db_cryptkey))
 					{
 						$file = 'init_new_entity.sql';
 					}
@@ -490,14 +490,14 @@ class ActionsMulticompany
 					$country_code	= $country['code'];
 					$country_label	= $country['label'];
 
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_COUNTRY", $country_id.':'.$country_code.':'.$country_label,'chaine',0,'',$this->dao->id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_NOM",$name,'chaine',0,'',$this->dao->id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_ADDRESS",GETPOST('address', 'alpha'),'chaine',0,'',$this->dao->id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_TOWN",GETPOST('town', 'alpha'),'chaine',0,'',$this->dao->id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_ZIP",GETPOST('zipcode', 'alpha'),'chaine',0,'',$this->dao->id);
-					Dolibarr_set_const($this->db, "MAIN_INFO_SOCIETE_STATE",GETPOST('departement_id', 'int'),'chaine',0,'',$this->dao->id);
-					Dolibarr_set_const($this->db, "MAIN_MONNAIE",GETPOST('currency_code', 'alpha'),'chaine',0,'',$this->dao->id);
-					Dolibarr_set_const($this->db, "MAIN_LANG_DEFAULT",GETPOST('main_lang_default', 'alpha'),'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_COUNTRY", $country_id.':'.$country_code.':'.$country_label,'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_NOM",$name,'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_ADDRESS",GETPOST('address', 'alpha'),'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_TOWN",GETPOST('town', 'alpha'),'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_ZIP",GETPOST('zipcode', 'alpha'),'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_INFO_SOCIETE_STATE",GETPOST('departement_id', 'int'),'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_MONNAIE",GETPOST('currency_code', 'alpha'),'chaine',0,'',$this->dao->id);
+					PowerERP_set_const($this->db, "MAIN_LANG_DEFAULT",GETPOST('main_lang_default', 'alpha'),'chaine',0,'',$this->dao->id);
 
 					$this->db->commit();
 				}

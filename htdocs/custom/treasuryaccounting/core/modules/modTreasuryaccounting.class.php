@@ -70,7 +70,7 @@ class modTreasuryaccounting extends PowerERPModules
         $this->editor_name = 'Open-DSI';
         $this->editor_url = 'http://www.open-dsi.fr';
 		
-		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'dolibarr_deprecated' or a version string like 'x.y.z'
+		// Possible values for version are: 'development', 'experimental', 'PowerERP', 'powererp_deprecated' or a version string like 'x.y.z'
 		$this->version = '7.0.7';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -119,7 +119,7 @@ class modTreasuryaccounting extends PowerERPModules
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->conflictwith = array();	// List of modules id this module is in conflict with
 		$this->phpmin = array(5,4);					// Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(7,0);	// Minimum version of PowerERP required by module
+		$this->need_powererp_version = array(7,0);	// Minimum version of PowerERP required by module
 		$this->langfiles = array("treasuryaccounting@treasuryaccounting", "opendsi@treasuryaccounting");
         $langs->load('treasuryaccounting@treasuryaccounting');
 

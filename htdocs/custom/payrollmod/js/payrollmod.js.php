@@ -8,7 +8,7 @@ $(document).ready(function() {
 	srcimg='<?php echo dol_buildpath("/payrollmod/img/object_payrollmod.png",1) ?>';
 	$('.info-box-module-external .info-box-module .info-box-icon img').each(function(e) {
 	    if($(this).attr('src') == srcimg){
-	      	$(this).wrap('<a target="_blank" href="https://www.dolibarrstore.com"></a>');
+	      	$(this).wrap('<a target="_blank" href="https://www.powererpstore.com"></a>');
 	    }
 	});
 });

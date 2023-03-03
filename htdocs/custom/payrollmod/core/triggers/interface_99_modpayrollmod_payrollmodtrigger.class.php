@@ -46,7 +46,7 @@ class Interfacepayrollmodtrigger
         $this->family = "others";
         $this->description = "Triggers of this module are empty functions.";
         $this->version = 'development';
-        $this->picto = 'glpitodolibarr@glpitodolibarr';
+        $this->picto = 'glpitopowererp@glpitopowererp';
     }
 
     /**
@@ -92,7 +92,7 @@ class Interfacepayrollmodtrigger
     }
 
     /**
-     * Function called when a Dolibarrr business event is done.
+     * Function called when a PowerERPr business event is done.
      * All functions "run_trigger" are triggered if file
      * is inside directory core/triggers
      *

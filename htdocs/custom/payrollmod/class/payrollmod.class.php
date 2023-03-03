@@ -249,7 +249,7 @@ class payrollmod
     public function getDataToSend2($link, $token, $decodejsn = true){
         $ch = curl_init();
         $link = trim($link, '/');
-        curl_setopt($ch, CURLOPT_URL, $link.'/api/index.php/dolibarrmobileapi/'.$toget);
+        curl_setopt($ch, CURLOPT_URL, $link.'/api/index.php/powererpmobileapi/'.$toget);
         // print_r($result);die();
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');

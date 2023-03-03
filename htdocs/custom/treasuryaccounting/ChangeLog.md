@@ -33,12 +33,12 @@ Le format du fichier est basé sur [Tenez un ChangeLog](http://keepachangelog.co
 ## [7.0.0] - 08-10-2019
 - Version initiale.
 
-[Non Distribué]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/compare/v7.0.7...HEAD
-[7.0.7]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.6
-[7.0.6]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.6
-[7.0.5]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.5
-[7.0.4]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.4
-[7.0.3]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.3
-[7.0.2]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.2
-[7.0.1]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.1
-[7.0.0]: https://git.open-dsi.fr/PowerERP-extension/dolibarr_module_treasuryaccounting/commits/v7.0.0
+[Non Distribué]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/compare/v7.0.7...HEAD
+[7.0.7]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.6
+[7.0.6]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.6
+[7.0.5]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.5
+[7.0.4]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.4
+[7.0.3]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.3
+[7.0.2]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.2
+[7.0.1]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.1
+[7.0.0]: https://git.open-dsi.fr/PowerERP-extension/powererp_module_treasuryaccounting/commits/v7.0.0

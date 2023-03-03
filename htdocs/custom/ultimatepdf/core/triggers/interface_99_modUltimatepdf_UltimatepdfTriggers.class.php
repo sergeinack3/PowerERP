@@ -38,7 +38,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/triggers/powererptriggers.class.php';
 /**
  *  Class of triggers for MyModule module
  */
-class InterfaceUltimatepdfTriggers extends PowererpTriggers
+class InterfaceUltimatepdfTriggers extends PowerERPTriggers
 {
     /**
      * @var DoliDB Database handler
@@ -84,7 +84,7 @@ class InterfaceUltimatepdfTriggers extends PowererpTriggers
 
 
     /**
-     * Function called when a Powererpr business event is done.
+     * Function called when a PowerERPr business event is done.
      * All functions "runTrigger" are triggered if file
      * is inside directory core/triggers
      *

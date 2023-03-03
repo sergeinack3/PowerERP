@@ -1,4 +1,4 @@
-# CHANGELOG EMPRUNT FOR [DOLIBARR ERP CRM](https://powerep.site)
+# CHANGELOG EMPRUNT FOR [POWERERP ERP CRM](https://powerep.site)
 
 ## 1.3
 

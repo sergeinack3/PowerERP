@@ -25,7 +25,7 @@ dol_include_once('/multicompany/class/dao_multicompany.class.php', 'DaoMulticomp
  * @access protected
  * @class  PowerERPApiAccess {@requires user,external}
  */
-class Multicompany extends DolibarrApi
+class Multicompany extends PowerERPApi
 {
     /**
      * @var array   $FIELDS     Mandatory fields, checked when create and update object
@@ -55,13 +55,13 @@ class Multicompany extends DolibarrApi
      */
     function get($id)
     {
-        if (! DolibarrApiAccess::$user->rights->multicompany->read) {
+        if (! PowerERPApiAccess::$user->rights->multicompany->read) {
             throw new RestException(401);
         }
 
         // The DaoMulticompany::fetch() method uses the global variable $user.
         global $user;
-        $user = DolibarrApiAccess::$user;
+        $user = PowerERPApiAccess::$user;
 
         $multicompany = new DaoMulticompany($this->db);
         $result = $multicompany->fetch($id);
@@ -91,7 +91,7 @@ class Multicompany extends DolibarrApi
 
         $obj_ret = array();
 
-        if(! DolibarrApiAccess::$user->rights->multicompany->read) {
+        if(! PowerERPApiAccess::$user->rights->multicompany->read) {
             throw new RestException(401);
         }
 
@@ -102,7 +102,7 @@ class Multicompany extends DolibarrApi
         // Add sql filters
         if ($sqlfilters)
         {
-            if (! DolibarrApi::_checkFilters($sqlfilters))
+            if (! PowerERPApi::_checkFilters($sqlfilters))
             {
                 throw new RestException(503, 'Error when validating parameter sqlfilters '.$sqlfilters);
             }
@@ -126,7 +126,7 @@ class Multicompany extends DolibarrApi
         {
         	// The DaoMulticompany::fetch() method uses the global variable $user.
         	global $user;
-        	$user = DolibarrApiAccess::$user;
+        	$user = PowerERPApiAccess::$user;
 
             $i=0;
             $num = $db->num_rows($result);

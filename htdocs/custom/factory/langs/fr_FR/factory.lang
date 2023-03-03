@@ -25,7 +25,7 @@ LienDolistore=Retrouvez nos autres modules
 Changelog=ChangeLog du module
 SupportModuleInformation=Informations techniques
 SupportModuleInformationDesc=<br/><em>Note : Ces informations sont utiles et pourront vous être demandées si vous rencontrez un bug dans le fonctionnement du module.</em>
-PowererpVersion=Version de PowerERP
+PowerERPVersion=Version de PowerERP
 ModuleVersion=Version du module
 PHPVersion=Version de PHP
 DatabaseVersion=Version de la base de données
@@ -206,7 +206,7 @@ RealStock=Stock Réel
 ## ADMIN 
 UseCostPriceInsteadPMP=Utiliser le prix d'achat au lieu du PMP
 InfoUseCostPriceInsteadPMP=Utiliser le prix d'achat si il est défini à la place du PMP
-ThisFeatureNeedPowererp39=Cette fonctionnalité nécessite une version de PowerERP supérieure ou égale à la 3.9.0
+ThisFeatureNeedPowerERP39=Cette fonctionnalité nécessite une version de PowerERP supérieure ou égale à la 3.9.0
 ComponentsBuyingPrice=Récupération des prix de base des composants
 InfoComponentsBuyingPrice=Sélection du prix utilisé comme prix de base des produits composant les fabrications
 InfoServiceBuyingPrice=Sélection du prix utilisé comme prix de base des services composant les fabrications

@@ -90,7 +90,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 header('Content-type: text/css');
 // Important: Following code is to cache this file to avoid page request by browser at each PowerERP page access.
 // You can use CTRL+F5 to refresh your browser cache.
-if (empty($dolibarr_nocache)) {
+if (empty($powererp_nocache)) {
 	header('Cache-Control: max-age=10800, public, must-revalidate');
 } else {
 	header('Cache-Control: no-cache');

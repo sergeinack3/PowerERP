@@ -96,7 +96,7 @@ dol_fiche_head(
 );
 
 if(!dol_include_once('/abricot/inc.core.php')) {
-    print '<div class="error" >'. $langs->trans('AbricotNotFound'). ' <a href="http://wiki.atm-consulting.fr/index.php/Nos_modules_Powererp#Abricot" target="_blank">'. $langs->trans('AbricotWiki'). '</a></div>';
+    print '<div class="error" >'. $langs->trans('AbricotNotFound'). ' <a href="http://wiki.atm-consulting.fr/index.php/Nos_modules_PowerERP#Abricot" target="_blank">'. $langs->trans('AbricotWiki'). '</a></div>';
 }
 
 // Setup page goes here

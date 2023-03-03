@@ -214,10 +214,10 @@ class modprojectbudget extends PowerERPModules
 		else {
 			$tblversionslast=$sxelast->Version;
 			$currentversion = $tblversionslast[count($tblversionslast)-1]->attributes()->Number;
-			$tblPowererp=$sxelast->PowerERP;
-			$minVersionPowererp=$tblPowererp->attributes()->minVersion;
-			if ((int) DOL_VERSION < (int) $minVersionPowererp) {
-				$this->powererpminversion=$minVersionPowererp;
+			$tblPowerERP=$sxelast->PowerERP;
+			$minVersionPowerERP=$tblPowerERP->attributes()->minVersion;
+			if ((int) DOL_VERSION < (int) $minVersionPowerERP) {
+				$this->powererpminversion=$minVersionPowerERP;
 				$this->disabled = true;
 			}
 		}

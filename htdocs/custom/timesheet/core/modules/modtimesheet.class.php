@@ -95,7 +95,7 @@ class modTimesheet extends PowerERPModules
                 $this->requiredby = array();        // List of modules id to disable if this one is disabled
                 $this->conflictwith = array();        // List of modules id this module is in conflict with
                 $this->phpmin = array(5, 0);                                        // Minimum version of PHP required by module
-                $this->need_Powererp_version = array(3, 5);        // Minimum version of PowerERP required by module
+                $this->need_PowerERP_version = array(3, 5);        // Minimum version of PowerERP required by module
                 $this->langfiles = array("timesheet@timesheet");
                 // Constants
                 // List of particular constants to add when module is enabled(key, 'chaine', value, desc, visible, 'current' or 'allentities', deleteonunactive)
@@ -470,7 +470,7 @@ class modTimesheet extends PowerERPModules
             $sql[0].= ' WHERE status IN (1, 5)';//'DRAFT', 'REJECTED'
             $sql[1] ="DELETE FROM ".MAIN_DB_PREFIX."document_model WHERE nom = 'rat' AND type='timesheetReport' AND entity = ".$conf->entity;
             $sql[2] ="INSERT INTO ".MAIN_DB_PREFIX."document_model(nom, type, entity) VALUES('rat', 'timesheetReport', ".$conf->entity.")";
-            Powererp_set_const($db, "TIMESHEET_VERSION", $this->version, 'chaine', 0, '', $conf->entity);
+            PowerERP_set_const($db, "TIMESHEET_VERSION", $this->version, 'chaine', 0, '', $conf->entity);
             include_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';
             $extrafields = new ExtraFields($this->db);
             // add the "Default server" select list to the user

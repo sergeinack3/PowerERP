@@ -44,7 +44,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
 //dol_include_once('/core/lib/images.lib.php');
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
-// include conditionnally of the dolibarr version
+// include conditionnally of the powererp version
 
 include_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';
 $PHP_SELF = $_SERVER['PHP_SELF'];

@@ -163,7 +163,7 @@ class modfactory extends PowerERPModules
 		$this->rights[$r][4] = 'update';
 
 
-		// Réappro Feature
+		// Rï¿½appro Feature
 		$r=0;
 		$this->menu[$r]=array(	'fk_menu'=>'fk_mainmenu=products',
 					'type'=>'left',	
@@ -433,7 +433,7 @@ class modfactory extends PowerERPModules
 			return $currentversion;
 
 		if ($this->disabled) {
-			$newversion= $langs->trans("PowererpMinVersionRequiered")." : ".$this->powererpminversion;
+			$newversion= $langs->trans("PowerERPMinVersionRequiered")." : ".$this->powererpminversion;
 			$currentversion="<font color=red><b>".img_error($newversion).$currentversion."</b></font>";
 			return $currentversion;
 		}
@@ -478,10 +478,10 @@ class modfactory extends PowerERPModules
 		else {
 			$tblversionslast=$sxelast->Version;
 			$currentversion = $tblversionslast[count($tblversionslast)-1]->attributes()->Number;
-			$tblPowererp=$sxelast->PowerERP;
-			$minversionPowererp=$tblPowererp->attributes()->minVersion;
-			if ((int) DOL_VERSION < (int) $minversionPowererp) {
-				$this->powererpminversion=$minversionPowererp;
+			$tblPowerERP=$sxelast->PowerERP;
+			$minversionPowerERP=$tblPowerERP->attributes()->minVersion;
+			if ((int) DOL_VERSION < (int) $minversionPowerERP) {
+				$this->powererpminversion=$minversionPowerERP;
 				$this->disabled = true;
 			}
 		}

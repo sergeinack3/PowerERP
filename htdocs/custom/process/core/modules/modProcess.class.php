@@ -593,7 +593,7 @@ if (false) {
 			return $currentversion;
 
 		if ($this->disabled) {
-			$newversion= $langs->trans("PowererpMinVersionRequiered")." : ".$this->powererpminversion;
+			$newversion= $langs->trans("PowerERPMinVersionRequiered")." : ".$this->powererpminversion;
 			$currentversion="<font color=red><b>".img_error($newversion).$currentversion."</b></font>";
 			return $currentversion;
 		}
@@ -635,10 +635,10 @@ if (false) {
 		else {
 			$tblversionslast=$sxelast->Version;
 			$currentversion = $tblversionslast[count($tblversionslast)-1]->attributes()->Number;
-			$tblPowererp=$sxelast->PowerERP;
-			$MinversionPowererp=$tblPowererp->attributes()->minVersion;
-			if ((int) DOL_VERSION < (int) $MinversionPowererp) {
-				$this->powererpminversion=$MinversionPowererp;
+			$tblPowerERP=$sxelast->PowerERP;
+			$MinversionPowerERP=$tblPowerERP->attributes()->minVersion;
+			if ((int) DOL_VERSION < (int) $MinversionPowerERP) {
+				$this->powererpminversion=$MinversionPowerERP;
 				$this->disabled = true;
 			}
 		}

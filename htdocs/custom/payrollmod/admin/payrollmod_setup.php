@@ -190,7 +190,7 @@ if ($action == 'updateMask') {
         if (!empty($tmpobjectkey)) {
             $constforval = 'PAYROLLMOD_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
             if ($conf->global->$constforval == "$value") {
-                dolibarr_del_const($db, $constforval, $conf->entity);
+                powererp_del_const($db, $constforval, $conf->entity);
             }
         }
     }
@@ -215,7 +215,7 @@ if ($action == 'updateMask') {
     $tmpobjectkey = GETPOST('object');
     if (!empty($tmpobjectkey)) {
         $constforval = 'PAYROLLMOD_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
-        dolibarr_del_const($db, $constforval, $conf->entity);
+        powererp_del_const($db, $constforval, $conf->entity);
     }
 }
 
@@ -299,7 +299,7 @@ if ($action == 'edit') {
                 print "</textarea>\n";
             } elseif ($val['type']== 'html') {
                 require_once DOL_DOCUMENT_ROOT . '/core/class/doleditor.class.php';
-                $doleditor = new DolEditor($constname, $conf->global->{$constname}, '', 160, 'dolibarr_notes', '', false, false, $conf->fckeditor->enabled, ROWS_5, '90%');
+                $doleditor = new DolEditor($constname, $conf->global->{$constname}, '', 160, 'powererp_notes', '', false, false, $conf->fckeditor->enabled, ROWS_5, '90%');
                 $doleditor->Create();
             }   
             elseif ($val['type'] == 'yesno') {

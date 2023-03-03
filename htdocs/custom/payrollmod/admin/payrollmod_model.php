@@ -297,7 +297,7 @@ function _print_input_form_part($confkey, $title = false, $desc ='', $metas = ar
         if($type=='textarea'){
         print '<textarea style="width:99%" name="'.$confkey.'">'.$value.'</textarea>';
             // include_once DOL_DOCUMENT_ROOT.'/core/class/doleditor.class.php';
-            // $doleditor=new DolEditor($confkey, $value, '', 80, 'dolibarr_notes');
+            // $doleditor=new DolEditor($confkey, $value, '', 80, 'powererp_notes');
             // print $doleditor->Create();
         }
         else {

@@ -1,4 +1,4 @@
-# dolibarr_project_timesheet changelog
+# powererp_project_timesheet changelog
 4.0.16
 - fix favorite not wworking
 

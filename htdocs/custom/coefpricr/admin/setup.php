@@ -139,7 +139,7 @@ if ( $allowPMPMode==1) {
 print '</td></tr>';
 
 
-// uniquement supporté à partir de la 3.9
+// uniquement supportï¿½ ï¿½ partir de la 3.9
 print '<tr><td>'.$langs->trans("AllowCostPriceMode").'</td><td>';
 if ( $allowcostPriceMode==1) {
 	print '<a href="'.$_SERVER["PHP_SELF"].'?action=allowcostpricemode&value=0">';
@@ -213,7 +213,7 @@ print '<tr class="liste_titre">'."\n";
 print '<td width=20%>'.$langs->trans("SupportModuleInformation").'</td>'."\n";
 print '<td>'.$langs->trans("Value").'</td>'."\n";
 print "</tr>\n";
-print '<tr '.$bc[false].'><td >'.$langs->trans("PowererpVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
+print '<tr '.$bc[false].'><td >'.$langs->trans("PowerERPVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
 print '<tr '.$bc[true].'><td >'.$langs->trans("ModuleVersion").'</td>';
 print '<td>'.$currentversion->attributes()->Number." (".$currentversion->attributes()->MonthVersion.')</td></tr>'."\n";
 print '<tr '.$bc[false].'><td >'.$langs->trans("PHPVersion").'</td><td>'.version_php().'</td></tr>'."\n";

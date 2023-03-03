@@ -70,7 +70,7 @@ if ($action == 'setvalue') {
 	powererp_set_const($db, "RESTOCK_BILL_PARTIAL", GETPOST('select2factures', 'int'), 'chaine', 0, '', $conf->entity);
 	powererp_set_const($db, "RESTOCK_REASSORT_MODE", GETPOST('reassortMode', 'int'), 'chaine', 0, '', $conf->entity);
 
-	// gestion de la transformation après remise de la commande client en commande fournisseur
+	// gestion de la transformation aprï¿½s remise de la commande client en commande fournisseur
 	powererp_set_const(
 					$db, "RESTOCK_COEF_ORDER_CLIENT_FOURN", GETPOST('coefcmdclient2fourn', 'int'),
 					'chaine', 0, '', $conf->entity
@@ -88,13 +88,13 @@ if ($action == 'setvalue') {
 					'chaine', 0, '', $conf->entity
 	);
 
-	// select le type de produit sélectionné
+	// select le type de produit sï¿½lectionnï¿½
 	powererp_set_const(
 					$db, "RESTOCK_PRODUCT_TYPE_SELECT", GETPOST('producttypeselect', 'int'), 
 					'chaine', 0, '', $conf->entity
 	);
 
-	// Gestion de la création automatique des commandes clients
+	// Gestion de la crï¿½ation automatique des commandes clients
 	powererp_set_const($db, "RESTOCK_DBNAME_FOURNISH", GETPOST('dbnamefournish'), 'chaine', 0, '', $conf->entity);
 	powererp_set_const(
 					$db, "RESTOCK_PREFIXTABLE_FOURNISH", GETPOST('prefixtablefournish'), 
@@ -167,7 +167,7 @@ $head = restock_admin_prepare_head();
 dol_fiche_head($head, 'setup', $tab, 0, 'restock@restock');
 
 
-// la sélection des status à suivre dans le process commercial
+// la sï¿½lection des status ï¿½ suivre dans le process commercial
 print '<br>';
 print_titre($langs->trans("DisplayPonderedSetting"));
 print '<br>';
@@ -369,7 +369,7 @@ print '<tr class="liste_titre">'."\n";
 print '<td width=20%>'.$langs->trans("SupportModuleInformation").'</td>'."\n";
 print '<td>'.$langs->trans("Value").'</td>'."\n";
 print "</tr>\n";
-print '<tr '.$bc[false].'><td >'.$langs->trans("PowererpVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
+print '<tr '.$bc[false].'><td >'.$langs->trans("PowerERPVersion").'</td><td>'.DOL_VERSION.'</td></tr>'."\n";
 print '<tr '.$bc[true].'><td >'.$langs->trans("ModuleVersion").'</td>';
 print '<td>'.$currentversion->attributes()->Number." (".$currentversion->attributes()->MonthVersion.')</td></tr>'."\n";
 print '<tr '.$bc[false].'><td >'.$langs->trans("PHPVersion").'</td><td>'.version_php().'</td></tr>'."\n";

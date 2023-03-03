@@ -49,7 +49,7 @@ class modtaskgantt extends PowerERPModules
 		$this->numero = 940332081;
 		$this->rights_class = 'taskgantt';
 
-		$this->family = "PowererpStore";
+		$this->family = "PowerERPStore";
 		$this->name = preg_replace('/^mod/i','',get_class($this));
 		$this->description = "Module940332081Desc";
 		$this->version = '10.3';

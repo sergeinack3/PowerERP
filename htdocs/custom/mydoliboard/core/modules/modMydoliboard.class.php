@@ -340,7 +340,7 @@ class modmydoliboard extends PowerERPModules
 			return $currentversion;
 
 		if ($this->disabled) {
-			$newversion= $langs->trans("PowererpMinVersionRequiered")." : ".$this->powererpminversion;
+			$newversion= $langs->trans("PowerERPMinVersionRequiered")." : ".$this->powererpminversion;
 			$currentversion="<font color=red><b>".img_error($newversion).$currentversion."</b></font>";
 			return $currentversion;
 		}
@@ -385,10 +385,10 @@ class modmydoliboard extends PowerERPModules
 		else {
 			$tblversionslast=$sxelast->Version;
 			$currentversion = $tblversionslast[count($tblversionslast)-1]->attributes()->Number;
-			$tblPowererp=$sxelast->PowerERP;
-			$minversionPowererp=$tblPowererp->attributes()->minVersion;
-			if ((int) DOL_VERSION < (int) $MinversionPowererp) {
-				$this->powererpminversion=$minversionPowererp;
+			$tblPowerERP=$sxelast->PowerERP;
+			$minversionPowerERP=$tblPowerERP->attributes()->minVersion;
+			if ((int) DOL_VERSION < (int) $MinversionPowerERP) {
+				$this->powererpminversion=$minversionPowerERP;
 				$this->disabled = true;
 			}
 		}

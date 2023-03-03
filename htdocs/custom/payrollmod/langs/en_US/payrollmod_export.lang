@@ -1,5 +1,5 @@
-Module940328081Name = <a target="_blank" href="https://www.dolibarrstore.com">Payslip</a>
-Module940328081Desc = <a target="_blank" href="https://www.dolibarrstore.com">Management of employee payslips - https://www.dolibarrstore.com <i style="font-size: 12px;" class="fa fa-external-link"></i></a>
+Module940328081Name = <a target="_blank" href="https://www.powererpstore.com">Payslip</a>
+Module940328081Desc = <a target="_blank" href="https://www.powererpstore.com">Management of employee payslips - https://www.powererpstore.com <i style="font-size: 12px;" class="fa fa-external-link"></i></a>
 payrollmodSetup = Payslip module setup
 payrollmodAbout = About Payslip
 BackToModuleList = Back to the list of modules
@@ -21,7 +21,7 @@ payrollcalculdesalaire=Salary calculation
 payrollofmonth=Period
 payrollmod_employe=Employee
 payrollmod_ref=Reference
-payrollmodeditormod=dolibarrstore.com
+payrollmodeditormod=powererpstore.com
 payrollsdatepay=Payment date
 payrolllist=Employee Payslips
 payrolladd=New

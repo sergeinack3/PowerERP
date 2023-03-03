@@ -26,9 +26,9 @@
  * API class for factorys
  *
  * @access protected
- * @class  PowererpApiAccess {@requires user,external}
+ * @class  PowerERPApiAccess {@requires user,external}
  */
-class Factory extends PowererpApi
+class Factory extends PowerERPApi
 {
 
     /**
@@ -76,7 +76,7 @@ class Factory extends PowererpApi
      */
     function get($id)
     {
-    	if(! PowererpApiAccess::$user->rights->factory->lire) {
+    	if(! PowerERPApiAccess::$user->rights->factory->lire) {
     		throw new RestException(401);
     	}
 
@@ -85,8 +85,8 @@ class Factory extends PowererpApi
     		throw new RestException(404, 'FActory report not found');
     	}
 
-    	if( ! PowererpApi::_checkAccessToResource('factory',$this->factory->id)) {
-    		throw new RestException(401, 'Access not allowed for login '.PowererpApiAccess::$user->login);
+    	if( ! PowerERPApi::_checkAccessToResource('factory',$this->factory->id)) {
+    		throw new RestException(401, 'Access not allowed for login '.PowerERPApiAccess::$user->login);
     	}
 
     	$this->factory->fetchObjectLinked();
@@ -115,11 +115,11 @@ class Factory extends PowererpApi
         $obj_ret = array();
 
         // case of external user, $thirdparty_ids param is ignored and replaced by user's socid
-//        $socids = PowererpApiAccess::$user->societe_id ? PowererpApiAccess::$user->societe_id : $thirdparty_ids;
+//        $socids = PowerERPApiAccess::$user->societe_id ? PowerERPApiAccess::$user->societe_id : $thirdparty_ids;
 
         // If the internal user must only see his customers, force searching by him
 //        $search_sale = 0;
-//        if (! PowererpApiAccess::$user->rights->societe->client->voir && !$socids) $search_sale = PowererpApiAccess::$user->id;
+//        if (! PowerERPApiAccess::$user->rights->societe->client->voir && !$socids) $search_sale = PowerERPApiAccess::$user->id;
 
         $sql = "SELECT t.rowid";
 
@@ -134,12 +134,12 @@ class Factory extends PowererpApi
         // Add sql filters
         if ($sqlfilters)
         {
-            if (! PowererpApi::_checkFilters($sqlfilters))
+            if (! PowerERPApi::_checkFilters($sqlfilters))
             {
                 throw new RestException(503, 'Error when validating parameter sqlfilters '.$sqlfilters);
             }
 	        $regexstring='\(([^:\'\(\)]+:[^:\'\(\)]+:[^:\(\)]+)\)';
-            $sql.=" AND (".preg_replace_callback('/'.$regexstring.'/', 'PowererpApi::_forge_criteria_callback', $sqlfilters).")";
+            $sql.=" AND (".preg_replace_callback('/'.$regexstring.'/', 'PowerERPApi::_forge_criteria_callback', $sqlfilters).")";
         }
 
         $sql.= $db->order($sortfield, $sortorder);
@@ -188,7 +188,7 @@ class Factory extends PowererpApi
      */
     function post($request_data = null)
     {
-      if(! PowererpApiAccess::$user->rights->factory->creer) {
+      if(! PowerERPApiAccess::$user->rights->factory->creer) {
 			  throw new RestException(401, "Insuffisant rights");
 		  }
         // Check mandatory fields
@@ -197,7 +197,7 @@ class Factory extends PowererpApi
             $this->factory->$field = $value;
         }
 
-        if ($this->factory->create(PowererpApiAccess::$user) < 0) {
+        if ($this->factory->create(PowerERPApiAccess::$user) < 0) {
             throw new RestException(500, "Error creating factory", array_merge(array($this->factory->error), $this->factory->errors));
         }
 
@@ -213,7 +213,7 @@ class Factory extends PowererpApi
      */
     function delete($id)
     {
-    	if(! PowererpApiAccess::$user->rights->ficheinter->supprimer) {
+    	if(! PowerERPApiAccess::$user->rights->ficheinter->supprimer) {
     		throw new RestException(401);
     	}
     	$result = $this->factory->fetch($id);
@@ -221,11 +221,11 @@ class Factory extends PowererpApi
     		throw new RestException(404, 'Intervention not found');
     	}
 
-    	if( ! PowererpApi::_checkAccessToResource('commande',$this->factory->id)) {
-    		throw new RestException(401, 'Access not allowed for login '.PowererpApiAccess::$user->login);
+    	if( ! PowerERPApi::_checkAccessToResource('commande',$this->factory->id)) {
+    		throw new RestException(401, 'Access not allowed for login '.PowerERPApiAccess::$user->login);
     	}
 
-    	if( ! $this->factory->delete(PowererpApiAccess::$user)) {
+    	if( ! $this->factory->delete(PowerERPApiAccess::$user)) {
     		throw new RestException(500, 'Error when delete OF : '.$this->factory->error);
     	}
 
@@ -254,7 +254,7 @@ class Factory extends PowererpApi
      */
     function validate($id, $notrigger=0)
     {
-        if(! PowererpApiAccess::$user->rights->ficheinter->creer) {
+        if(! PowerERPApiAccess::$user->rights->ficheinter->creer) {
                           throw new RestException(401, "Insuffisant rights");
                   }
         $result = $this->factory->fetch($id);
@@ -262,11 +262,11 @@ class Factory extends PowererpApi
             throw new RestException(404, 'Intervention not found');
         }
 
-        if( ! PowererpApi::_checkAccessToResource('factory',$this->factory->id)) {
-            throw new RestException(401, 'Access not allowed for login '.PowererpApiAccess::$user->login);
+        if( ! PowerERPApi::_checkAccessToResource('factory',$this->factory->id)) {
+            throw new RestException(401, 'Access not allowed for login '.PowerERPApiAccess::$user->login);
         }
 
-        $result = $this->factory->setValid(PowererpApiAccess::$user, $notrigger);
+        $result = $this->factory->setValid(PowerERPApiAccess::$user, $notrigger);
         if ($result == 0) {
         	throw new RestException(304, 'Error nothing done. May be object is already validated');
         }
@@ -290,7 +290,7 @@ class Factory extends PowererpApi
      */
     function closefactory($id)
     {
-        if(! PowererpApiAccess::$user->rights->ficheinter->creer)
+        if(! PowerERPApiAccess::$user->rights->ficheinter->creer)
         {
             throw new RestException(401, "Insuffisant rights");
         }
@@ -299,8 +299,8 @@ class Factory extends PowererpApi
             throw new RestException(404, 'Intervention not found');
         }
 
-        if (! PowererpApi::_checkAccessToResource('factory',$this->factory->id)) {
-            throw new RestException(401, 'Access not allowed for login '.PowererpApiAccess::$user->login);
+        if (! PowerERPApi::_checkAccessToResource('factory',$this->factory->id)) {
+            throw new RestException(401, 'Access not allowed for login '.PowerERPApiAccess::$user->login);
         }
 
         $result = $this->factory->setStatut(3);

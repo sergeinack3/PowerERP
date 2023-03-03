@@ -32,8 +32,8 @@ class ActionsChat
 				// Chat shortcut
 				$langs->load('chat@chat');
 				$text = '<a href="'.dol_buildpath('/chat/index.php', 1).'">';
-				$dolibarr_version = explode('.', DOL_VERSION);
-				if ((int)$dolibarr_version[0] >= 6) {
+				$powererp_version = explode('.', DOL_VERSION);
+				if ((int)$powererp_version[0] >= 6) {
 					$text.= '<span class="fa fa-comment atoplogin"></span>';
 				}
 				else {

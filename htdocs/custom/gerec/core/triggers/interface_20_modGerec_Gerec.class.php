@@ -30,7 +30,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/triggers/powererptriggers.class.php';
 /**
  *  Class of triggers for demo module
  */
-class InterfaceGerec extends PowererpTriggers
+class InterfaceGerec extends PowerERPTriggers
 {
 
 	public $family = 'product';
@@ -40,7 +40,7 @@ class InterfaceGerec extends PowererpTriggers
 	public $name = "Gerec";
 
 	/**
-     * Function called when a Powererpr business event is done.
+     * Function called when a PowerERPr business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
      *
      * @param string		$action		Event action code
