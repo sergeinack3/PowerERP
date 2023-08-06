@@ -1,0 +1,10 @@
+# We want a www-data group-writable /var/lib/powererp/documents/
+powererp: non-standard-dir-perm var/lib/powererp/documents/ 2775 != 0755
+# We depend on xdg-utils providing xdg-open and we use that to open an URL
+powererp: desktop-command-not-in-package usr/share/applications/powererp.desktop xdg-open
+# We use <IfVersion> to include the correct configuration for each apache version
+powererp: apache2-deprecated-auth-config Order
+powererp: apache2-deprecated-auth-config Allow
+# Ignore warning required for a good install process
+powererp: apache2-reverse-dependency-calls-wrapper-script postinst a2enmod
+powererp: apache2-reverse-dependency-calls-wrapper-script postinst a2enconf

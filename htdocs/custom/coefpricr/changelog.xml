@@ -1,0 +1,54 @@
+<changelog>
+	<Version Number="3.9.+1.0.0" MonthVersion="2016-05"> 
+		<change type="inf">First release</change> 
+	</Version>
+	<Version Number="3.9.+1.0.1" MonthVersion="2016-06"> 
+		<change type="fix">some minor fix</change> 
+	</Version>
+	<Version Number="3.9.+1.0.2" MonthVersion="2016-07">
+		<change type='fix'>error on $user object ($user_)</change>
+		<change type='fix'>3.7 / 3.8 compatibility / category list</change>
+		<change type='chg'>change order of list fields</change>
+		<change type='fix'>Delete Query more expressiv</change>
+	</Version>
+	<Version Number="3.9.+1.0.3" MonthVersion="2016-08">
+		<change type='add'>XML changelog versionning</change>
+	</Version>
+	<Version Number="4.0.+1.1.0" MonthVersion="2016-09">
+		<change type='fix'>PowerERP 4.0.0 compatibility</change>
+		<change type='add'>level price selection feature</change>
+		<change type='fix'>Some problems with level price </change>
+	</Version>
+	<Version Number="4.0.+1.1.1" MonthVersion="2016-11">
+		<change type='add'>calculation price based on fournish price</change>
+		<change type='fix'>Price is changed only if really changed</change>
+		<change type='fix'>fournish min-max price inversion</change>
+	</Version>
+	<Version Number="5.0.+1.2.0" MonthVersion="2017-02">
+		<change type='fix'>3.7 compatibility</change>
+		<change type='chg'>5.0 compatibility</change>
+		<change type='add'>new look on admin about page</change>
+		<change type='add'>information version on admin setup page</change>
+	</Version>
+	<Version Number="5.0.+1.2.1" MonthVersion="2017-05">
+		<change type='fix'>prevent update previous price on multiprice</change>
+		<change type='add'>add hour and minuts on change price</change>
+	</Version>
+	<Version Number="6.0.+1.3.0" MonthVersion="2017-09">
+		<change type='chg'>6.0 compatibility</change>
+		<change type='add'>Changelog Tabs for V6</change>
+	</Version>
+	<Version Number="7.0.+1.4.0" MonthVersion="2018-03">
+		<change type='chg'>7.0 compatibility</change>
+		<change type='fix'>date must now between quote</change>
+	</Version>
+	<Version Number="9.0.+1.5.0" MonthVersion="2019-03">
+		<change type='chg'>8.0 and 9.0 compatibility</change>
+	</Version>
+	<Version Number="10.0.+1.6.0" MonthVersion="2019-06">
+		<change type='chg'>10.0 compatibility</change>
+	</Version>
+
+	<!-- Remplir le undocumented.xml ? -->
+<PowerERP minVersion="5.0.0"/>
+</changelog>

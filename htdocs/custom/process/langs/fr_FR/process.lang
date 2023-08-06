@@ -1,0 +1,112 @@
+# PowerERP language file - fr_FR - marque pages
+CHARSET=UTF-8
+Process=Process Commerciaux
+Proposals=Proposition commerciales
+Orders=Commandes
+Invoices=Factures
+SupplierProposals=Demandes prix Fournisseur
+SupplierOrders=Commandes Fournisseur
+SupplierBills=Factures Fournisseur
+Contracts=Echéance de contrats
+Interventions=Interventions
+FactoryOrderFabric=Factory - OF
+EquipementEvents= Equipement - Evts.
+LocaliseMove=Localise - Mouvement 
+
+ListProcess=Liste Process
+CalendarProcess=Agenda Process
+AgendaProcess=Agenda Process
+ProcessSetup=Paramètres de Process
+
+Step=Etape
+ShowAmountSelectedStatus=Affichage des montants et sélection des états à suivre
+SelectableStatus=Etats à visualiser
+NumberandColorSelectable=Nombre d'étapes et de couleurs disponibles des process commerciaux
+BusinessProcess=Process commerciaux
+NumberOfStep=Nombre d'étapes
+ProcessStep=Etapes
+SelectableColor=Couleurs Sélectionnables
+ProcessPropalTracking=Suivi du process des propositions commerciales
+ProcessOrderTracking=Suivi du process des commandes
+ProcessBillsTracking=Suivi du process des factures
+ProcessSupplierOrderTracking=Suivi du process des commandes fournisseurs
+ProcessSupplierBillsTracking=Suivi du process des factures fournisseurs
+
+AgendaDisplayMode=Affichage Agenda
+AgendaMonth=Agenda mensuel
+AgendaWeek=Agenda semaine
+AgendaDay=Agenda journalier
+ListMonth=Liste mensuel
+ListWeek=Liste semaine
+ListDay=Liste journaliere
+
+SelectCalendar=Affichage Agenda
+SelectList=Affichage Liste
+
+ProcessPropals=Process propositions commerciales
+ProcessOrders=Process commandes
+ProcessBills=Process factures
+ProcessSupplierOrders=Process Commandes Fournisseurs
+ProcessSupplierBills=Process Factures Fournisseurs
+
+Previous=Précédent
+Next=Suivant
+ShowTTC=Afficher le prix TTC
+ShowHT=Afficher le prix HT
+PriceTTC=Prix TTC
+PriceHT=Prix HT
+Extrafields=Champs personnalisés
+Referent=Détails éléments liés
+ListLineOfPropal=Détails des propositions commerciales associés
+propalLinkable=Propositions commerciales associables
+ListLineOfOrder=Détails des commandes associées
+commandeLinkable=Commandes associables
+ListLineOfInvoice=Détails des factures associées
+factureLinkable=Factures associables
+AdminRight=Droits d'accès
+StepRight=Droits sur les étapes
+RightSaved=Droits d'accès enregistrés
+ProcessProgress=Progression du process
+TemperateProgress=Température du devis
+EstimatedValue=Estimation portefeuille
+Orderby=Ordre des lignes
+
+PatasMonkeyPresent=Ce module est une création des patas-monkey, sa documentation est disponible sur notre site
+MoreModulesLink=Vous pouvez trouver tous nos autres développements sur le dolistore
+
+###PERSONNALISATION SPECIFIQUE
+
+##personnalised color
+ProcessColor0=C0C0C0
+ProcessColor1=FFC0CB
+ProcessColor2=FF0000
+ProcessColor3=FFA500
+ProcessColor4=FFFF00
+ProcessColor5=00FF00
+ProcessColor6=90EE90
+ProcessColor7=CD853F
+ProcessColor8=00FFFF
+ProcessColor9=0000FF
+
+C0C0C0=gris
+FFC0CB=rose
+FF0000=rouge
+FFA500=orange
+FFFF00=jaune
+00FF00=vert clair
+90EE90=vert
+CD853F=marron
+00FFFF=bleu clair
+0000FF=bleu
+
+##personalised tooltip of step
+Step0=Etape Initiale
+Step1=Etape 1
+Step2=Etape 2
+Step3=Etape 3
+Step4=Etape 4
+Step5=Etape 5
+Step6=Etape 6
+Step7=Etape 7
+Step8=Etape 8
+Step9=Etape 9

@@ -1,0 +1,21 @@
+# Copyright (C) 2019 Frédéric FRANCE <frederic.france@free.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ModuleZapierForPowerERPName = Zapier for PowerERP
+ModuleZapierForPowerERPDesc = Zapier for PowerERP-modul
+ZapierForPowerERPSetup=Oppsett av Zapier for PowerERP
+ZapierDescription=Grensesnitt med Zapier
+ZapierAbout=Om modulen Zapier
+ZapierSetupPage=Det er ikke behov for et oppsett på PowerERP-siden for å bruke Zapier. Du må imidlertid generere og publisere en pakke på Zapier for å kunne bruke Zapier med PowerERP. Se dokumentasjon på <a href="https://wiki.powererp.org/index.php/Module_Zapier"> denne wiki-siden </a>.

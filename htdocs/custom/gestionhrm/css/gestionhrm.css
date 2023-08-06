@@ -1,0 +1,243 @@
+
+
+div.mainmenu.gestionhrm {
+    background-image: url(../../gestionhrm/img/object_gestionhrm1.png);
+}
+
+/* Css POP UP */
+#moadl_adttend{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    /*background-color: rgba(0,0,0,0.4);  Black w/ opacity */
+    background-color: #000000a6; /* Black w/ opacity */
+}
+
+.div_request .actions {
+    margin-bottom: 15px;
+}
+
+.div_request {
+    width: 35%;
+        min-width: 500px;
+    background-color: white;
+    border-radius: 6px;
+    border: 3px solid #767579;
+}
+
+.div_request table {
+    border: none !important;
+    width: 98%;
+    margin: 10px;
+    border-collapse: collapse;
+}
+.div_request table td{
+    padding: 10px !important;
+}
+
+.title_request {
+    color: #a7a7a7;
+    padding: 0px !important;
+    padding-left: 10px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 22px;
+}
+
+#moadl_adttend .close{
+   color: #767579;
+    float: right;
+    font-size: 34px;
+    border: 0px;
+    background-color: white;
+    padding: 0px !important;
+}
+.ui_tpicker_second_label, .ui_tpicker_second{
+    display: none;
+}
+#moadl_adttend .close:hover{
+    cursor: pointer;
+}
+.timepicker{
+    max-width: 60px;
+}
+
+#moadl_adttend .employe span.select2{
+    width: 100% !important;
+}
+.td_in_time{
+    width: 50%;
+}
+
+.form_gestionhrm table.nc_table_ tr td:first-child{
+    width: 20%;
+}
+.div_request table tr:first-child{
+    border-bottom: 1px solid #ccc;
+}
+.div_request table tr:first-child td{
+    padding-top: 0px !important;
+}
+/*
+#moadl_adttend .actions input[type="submit"]{
+    border: 2px solid #8bddb0 !important;
+    color: #8bddb0;
+    border-radius: 3px;
+}
+
+#moadl_adttend .actions input[type="button"]{
+    border: 2px solid #d16b87a3 !important;
+    color: #d16b87a3;
+    border-radius: 3px;
+}
+*/
+#moadl_adttend .nopresent {
+    display: none;
+}
+#moadl_adttend .marginleftonly {
+        font-size: 1.8em !important;
+}
+#moadl_adttend .present, #moadl_adttend .nopresent {
+    vertical-align: middle !important;
+}
+.form_gestionhrm .marginleftonly {
+    vertical-align: middle !important;
+}
+
+.status_nopresent {
+    padding: 6px 10px;
+    background: #ff7f50;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.status_present {
+    padding: 6px 10px;
+    background: #46c923;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.tbl_hrm span.select2{
+    width: 95% !important;
+}
+
+/* css award */
+.tbl_hrm tr td:first-child{
+    width: 25%;
+}
+
+.tbl_hrm textarea{
+    width: 95% !important;
+}
+
+#list_gestionhrm span.select2{
+    width: 90% !important;
+}
+
+#list_gestionhrm span.fa{
+    margin-left: 12px;
+}
+
+#list_gestionhrm a:hover{
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+#moadl_adttend a:hover{
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+#list_gestionhrm .td-actions a{
+    color: rgb(10, 20, 100);
+}
+
+#moadl_adttend a.btn-edit {
+    border: 1.4px solid #a6a6a6 !important;
+    text-decoration: none !important;
+    padding: 2px 8px;
+}
+
+
+  
+span.icon_hrm_presenc {
+    background-image: url('../../gestionhrm/img/icon_hrm_presence.png');
+    padding: 8px;
+    margin-right: 5px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+  
+span.icon_hrm_award {
+    background-image: url('../../gestionhrm/img/icon_hrm_award.png');
+    padding: 8px;
+    margin-right: 5px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+  
+span.icon_hrm_complain {
+    background-image: url('../../gestionhrm/img/icon_hrm_complain.png');
+    padding: 8px;
+    margin-right: 5px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+  
+span.icon_hrm_resignation {
+    background-image: url('../../gestionhrm/img/icon_hrm_resignation.png');
+    padding: 8px;
+    margin-right: 5px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+  
+span.icon_hrm_termination {
+    background-image: url('../../gestionhrm/img/icon_hrm_termination.png');
+    padding: 8px;
+    margin-right: 5px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+  
+span.icon_hrm_holiday {
+    background-image: url('../../gestionhrm/img/icon_hrm_holiday.png');
+    padding: 8px;
+    margin-right: 5px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+  
+span.icon_hrm_warning {
+    background-image: url('../../gestionhrm/img/icon_hrm_warning.png');
+    padding: 8px;
+    margin-right: 5px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#dashbord_hrm {
+    float: left;
+    width: 100%;
+}

@@ -1,0 +1,2 @@
+ALTER TABLE llx_crm_group_recipient ADD CONSTRAINT `fk_gr_tp_crmgroup` FOREIGN KEY (`fk_group`) REFERENCES `llx_crm_groups` (`rowid`);
+ALTER TABLE llx_crm_group_recipient ADD CONSTRAINT `fk_gr_tp_societe` FOREIGN KEY (`fk_societe`) REFERENCES `llx_societe` (`rowid`);

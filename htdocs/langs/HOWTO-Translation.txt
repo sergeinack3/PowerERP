@@ -1,0 +1,10 @@
+--- Translation How to --- 
+
+An instruction guide for translating PowerERP in a new language is
+available on PowerERP wiki:
+
+English:  https://wiki.powererp.org/index.php/Translator_documentation
+French:   https://wiki.powererp.org/index.php/Documentation_traducteur
+Spanish:  https://wiki.powererp.org/index.php/Documentaci%C3%B3n_traductores
+German:   https://wiki.powererp.org/index.php/Dokumentation_Uebersetzung
+Chinese:  https://wiki.powererp.org/index.php/%E7%BF%BB%E8%AF%91%E6%96%87%E6%A1%A3

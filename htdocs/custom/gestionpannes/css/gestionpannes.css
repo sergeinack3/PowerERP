@@ -1,0 +1,209 @@
+div.mainmenu.gestionpannes{
+    background-image: url(../../gestionpannes/img/gestionpannes.png);
+    /*background-size: 24px auto;*/
+}
+div.pagination{
+	font-size: 14px !important;
+}
+
+/*  css card_gestpan  */
+
+
+    .card_gestpan div.mainvmenu.icon-SuiviProd:before {
+        content: "\e603";
+    }
+
+    .card_gestpan form>table.border tr td:first-child {
+        min-width: 200px;width: 20%;
+    }
+    .card_gestpan form>table#table-1 tbody tr td:first-child {
+        white-space:nowrap;
+    }
+    .card_gestpan form>table#table-1 tr th {
+        text-align: center;
+    }
+    .card_gestpan form>table#table-1 tr td.date_td_tab{
+        text-align: center;
+    }
+    .card_gestpan form>table.border tr:first-child td:first-child {
+        min-width: 200px;width:20%;
+    }
+    .card_gestpan form>table.border tr:nth-child(even) {
+        background: #f5f5f5;
+    }
+    .card_gestpan form>table.border tr td {
+        padding: 5px 2px 5px 6px;
+    }
+    .card_gestpan textarea{
+        padding: .5em !important;
+    }
+    .card_gestpan .card_gestpan #lightbox{
+        overflow: auto;z-index: 10;
+    }
+    .card_gestpan td #d_wrapper ul li img{
+        width:auto !important;
+    }
+
+    .card_gestpan input[type=submit]{
+        cursor: pointer;
+    }
+    .card_gestpan .all_recap .mainvmenu {
+        display: none;
+    }
+    .card_gestpan div.titre.icon-ecm:before {
+        content: "\f07c";
+        font-family:fontawesome;
+    }
+    .card_gestpan .periode_left_rowspan{
+        width: 12% !important;
+        min-width: 12% !important;
+    }
+    .card_gestpan .periode_left{
+        width: 12% !important;
+        min-width: 12% !important;
+    }
+
+	.card_gestpan .nc_filtrage_tr td input[type="text"] {
+	    width: 100% !important;
+	}
+	.card_gestpan tr.liste_titre.nc_filtrage_tr div.select2-container {
+	    width: 100% !important;
+	}
+	.card_gestpan .delete_img {float:right;}
+	.card_gestpan .mrg-btm-10 {margin-bottom: 10px;}
+	.hidden {display: none;}
+	/*#purchase_invoices {margin-left: 25px;}*/
+
+	.card_gestpan #id-left div.vmenu .mainvmenu {
+	    display: inline-block;
+	}
+	.card_gestpan div#select_products .select2-container {
+	    max-width: 600px;
+	}
+	.card_gestpan body #s2id_select_type{
+	    min-width: 240px;
+	    width: 240px !important;
+	    width: 30% !important;
+	    float: left;
+	}
+	.card_gestpan #select_products{
+	    width: 50%;
+	    min-width: 240px;
+	    /*float: left;*/
+	    padding-left: 12px;
+	    white-space: nowrap;
+	}
+
+
+     .card_gestionpans #d_wrapper ul, .card_gestpaninterv #d_wrapper ul{
+        list-style: none;
+    }
+    .card_gestionpans #d_wrapper ul li, .card_gestpaninterv #d_wrapper ul li{
+        display: inline-block;
+        padding: 5px;
+        position: relative;
+    }
+    .card_gestionpans #d_wrapper ul li img, .card_gestpaninterv #d_wrapper ul li img{
+        height: 80px;
+        background: #fff;
+    }
+   
+    .card_gestpaninterv span.name_file{
+        font-size: 12px;
+        font-weight: bold;
+        color: green;
+    }
+
+    .card_gestpaninterv span.marginleftonly{
+        margin: 0px !important;
+    }
+
+    .card_gestpaninterv .remove_guide_solution:hover{
+        cursor: pointer;
+    }
+    
+    .card_gestpaninterv .remove_guide_intervention:hover{
+        cursor: pointer;
+    }
+    
+	/*  css card_gestionpans  */
+
+
+   
+
+	.card_gestionpans  textarea{padding: .5em !important;}
+	.card_gestionpans  #lightbox{overflow: auto;z-index: 10;}
+	.card_gestionpans td #d_wrapper ul li img{width:auto !important;}
+
+	.card_gestionpans input[type=submit]{
+	    cursor: pointer;
+	}
+	.card_gestionpans .all_recap .mainvmenu {
+	    display: none;
+	}
+	.card_gestionpans .periode_left_rowspan{
+	    width: 12% !important;
+	    min-width: 12% !important;
+	}
+	.card_gestionpans .periode_left{
+	    width: 12% !important;
+	    min-width: 12% !important;
+	}
+	.card_gestionpans .nc_filtrage_tr td input[type="text"] {
+	    width: 100% !important;
+	}
+	tr.liste_titre.nc_filtrage_tr div.select2-container {
+	    width: 100% !important;
+	}
+	.card_gestionpans .delete_img {float:right;}
+	.card_gestionpans .mrg-btm-10 {margin-bottom: 10px;}
+	.card_gestionpans .hidden {display: none;}
+	/*#purchase_invoices {margin-left: 25px;}*/
+
+	.card_gestionpans #id-left div.vmenu .mainvmenu {
+	    display: inline-block;
+	}
+
+    /* css card_gestpansolution */
+   
+    .card_gestpansolution textarea{padding: .5em !important;}
+
+    .card_gestpansolution input[type=submit]{
+        cursor: pointer;
+    }
+
+    .card_gestpansolution #id-left div.vmenu .mainvmenu {
+        display: inline-block;
+    }
+
+    .card_gestpaninterv #pieces span.select2{
+        width: 100%;
+    }
+
+
+    .card_gestpaninterv ul{
+        padding-left: 0px !important;
+    }
+
+    .remove_photo:hover, .remove_photo_materiel:hover {
+        cursor: pointer;
+    }
+    .name_file{
+        color: green;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .materiel_gestpanne span.select2{
+        width: 100% !important;
+    }
+
+    .index_pannes span.select2{
+        width: 100% !important;
+    }
+
+    #gestionpannes_index span.select2{
+        width: 100% !important;
+    }
+
+

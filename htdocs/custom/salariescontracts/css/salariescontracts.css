@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.icon-salariescontracts:before {content: "\e611";}
+.icon-certificates:before {content:"\e607";font-size:1.2em}
+
+
+.edit_date{
+	display: none;
+}
+.user_date .fa-edit{
+	cursor: pointer;
+}

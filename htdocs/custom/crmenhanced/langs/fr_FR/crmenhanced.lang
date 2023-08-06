@@ -1,0 +1,93 @@
+Copyright (C) 2018 Admin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModulecrmenhancedName'
+ModulecrmenhancedName = CRM avancé
+# Module description 'ModulecrmenhancedDesc'
+ModulecrmenhancedDesc = Fonctionnalités avancées de CRM
+
+#
+# Page d'administration
+#
+crmenhancedSetup = Paramètres CRM avancés
+Settings = Réglages
+crmenhancedSetupPage = Page de configuration du module CRM avancés
+CRMENHANCED_MAIL_MODALITY = Mode d'envoi du courrier
+CRMENHANCED_MAIL_MODALITYTooltip = Indique le code utilisé dans la table "Mode d'activité" pour l'activité d'envoi de courrier
+CRMENHANCED_SMS_MODALITY = Mode d'envoi du SMS
+CRMENHANCED_SMS_MODALITYTooltip = Indique le code utilisé dans la table "Mode d'activité" pour l'activité d'envoi de SMS
+CRMENHANCED_DEFAULT_STATUS = Stato Etat par défaut
+CRMENHANCED_DEFAULT_STATUSTooltip = Indique le statut par défaut pour l'envoi de courrier et de SMS
+CRMENHANCED_DEFAULT_OBJECT = Objet par défaut
+CRMENHANCED_DEFAULT_OBJECTTooltip = Indique l'objet par défaut pour l'envoi de courrier et de messages texte
+
+#
+# Page À propos
+#
+About = À propos
+crmenhancedAbout = À propos de CRM avancés
+crmenhancedAboutPage = Page à propos de CRM avancés
+
+#
+# Permissions
+#
+Permission220810 = Accès / lecture
+Permission220811=Voir les campagnes
+Permission220812=Créer des campagnes
+Permission220813=Voir activité
+Permission220814=Créer des activités
+Permission220815=Annuler les activités
+
+#
+# Other
+#
+crmenhanced = CRM Avancés
+Campaigns=Campagnes
+NewCampaign=Nouvelle campagne
+DeleteCampaign=Annulation de campagne
+ConfirmDeleteCampaign=Confirmez-vous l'annulation de la campagne?
+CannotDeleteUsedCampaign=La campagne est utilisée dans d'autres tableaux. Annulation impossible
+Campaign=Campagne
+ActivityMode=Mode d'activité
+ActivityObject=Objet de l'activité
+ActivityStatus=États d'activité
+ActivityList=Liste d'activités
+ShowActivity=Afficher les activités
+Outcoming=Out	
+Incoming=In
+ActivitiesList=Liste d'activités
+Mode=Mode
+Object=Sujet
+NextOwner=Action suivante assignée à
+NextDate=Prochaine date d'action
+NextNote=Notes action suivante
+NewActivity=Nouvelle activité
+Activity=Activité
+DeleteActivity=Annulation d'activité
+ConfirmDeleteActivity=Vous voulez vraiment annuler l'activité
+BackToActivityList=Retour à la liste des activités
+ActivityStats=Statistiques d'activité
+ExportCSV=Exporter au format CSV
+ExportExcel=Exporter vers Excel
+ExportExcel2007=Exporter vers Excel 2007
+ExportTitle=Exportation d'activités
+CreateAgenda=Création d'événement
+CreateNextAgenda=Créer le prochain événement
+ConfirmCreateAgendaEvent=Confirmez la création de l'événement pour le
+ScheduledActivity=Activité prévue

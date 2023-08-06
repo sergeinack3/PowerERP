@@ -1,0 +1,5 @@
+# PowerERP language file - Source file is en_US - agenda
+PropalClosedSignedInPowerERP=Quotation %s signed
+PropalClosedRefusedInPowerERP=Quotation %s refused
+PropalValidatedInPowerERP=Quotation %s validated
+PropalClassifiedBilledInPowerERP=Quotation %s classified billed

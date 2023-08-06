@@ -1,0 +1,114 @@
+# <one line to give the program's name and a brief idea of what it does.>
+# Copyright (C) <year>  <name of author>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleXXXName'
+# (where XXX is value of numeric property 'numero' of module)
+Module452000Name = Chat
+# Module description 'ModuleXXXDesc'
+# (where XXX is value of numeric property 'numero' of module)
+Module452000Desc = Chat module for PowerERP
+# Permissions
+Permission452002 = Read messages & download attachments
+Permission452003 = Delete his own messages
+Permission452004 = Delete any message(s)
+Permission452005 = See online users
+
+#
+# Admin page
+#
+ChatSetup = Chat setup
+Settings = Settings
+ChatConf = Chat configuration
+ChatPopupConf = Chat popup configuration
+ChatAutoRefreshTime = Chat auto refresh time in seconds (Default: 5 seconds)
+ChatMaxMsgNumber = Maximum number of messages shown on chat (Default: 50)
+ShowImagesPreview = Show images preview on chat
+UseTheMinimumSpace = Use the minimum possible of available space (when minimized)
+ChatPopupSize = Chat popup size
+ChatPopupBackgroundColor = Chat popup background color (Default: <b>428bca</b>, Suggestions: <b>777777</b>, <b>5cb85c</b>, <b>5bc0de</b>, <b>f0ad4e</b>, <b>d9534f</b>)
+ChatPopupTextColor = Chat popup text color (Default: <b>White</b>)
+White = White
+Black = Black
+ChatPopupCounterColor = Chat popup notification label color (Default: <b>d9534f</b>)
+ChatPrivateMessageBorderColor = Private messages border color (Default: <b>f0ad4e</b>, Suggestions: <b>ffffff</b>)
+ChatPrivateMessageBackgroundColor = Private messages background color (Default: <b>fbf9fa</b>, Suggestions: <b>e4fccc</b>, <b>d6e8f4</b>)
+EnableChatPopup = Enable the chat popup
+ReplaceChatMainMenu = Replace the chat main menu with a top right shortcut
+PullLeftChatPopup = Pull left the chat popup
+UseThemeColor = Use active theme color
+AttachmentsSecurity = Add <b>.noexe</b> extension to executable attachments files (for security)
+ChatPopupNotice = The chat popup can cause slowdowns and latencies on your server, depending on the number of users connected to it and the automatic refreshing time of the chat.
+HidePrivateMessagesInOpenRoom = Hide private messages in open room (does not affect the chat popup)
+
+#
+# About page
+#
+About = About
+ChatAbout = About chat
+ChatAboutPageDesc = <a href="http://www.dolistore.com/fr/modules/829-Chat.html" target="_blank"><b>Chat</b></a> : Simple & easy to use chat module<br/><br/>Developed by <a href="https://github.com/AXeL-dev" target="_blank">AXeL</a><br/><br/>For any question or feedback, contact me on <a href="mailto:contact.axel.dev@gmail.com">contact.axel.dev@gmail.com</a><br><br>Find my other modules on <a href="http://www.dolistore.com/search.php?orderby=position&orderway=desc&search_query=axel-dev&submit_search=Rechercher" target="_blank">Dolistore</a>
+
+#
+# Sample page
+#
+ChatIndexPageName = Live Chat
+TypeAMessagePlaceHolder = Type a message...
+SearchPlaceHolder = Search...
+SendPrivateMessage = Send private message
+SendMessage = Send Message
+AddFiles = Add Files
+PrivateMessageTo = Private message to :
+PrivateMessageFrom = Private message from :
+LastLogin = Last login :
+NoMessageFound = No message found...
+Reply = Reply
+Online = Online
+NewMessage = New message
+DeleteMessage = Delete
+EnterToSend = Enter to send
+Private = Private
+SortMessagesByDate = Sort messages by date
+NewMessage = New message
+Options = Options
+SelectAll = Select all
+AllUsers = All users
+OnlineUsers = Online users
+Back = Back
+ClickToReply = Click to reply
+Me = Me
+EnableSound = Enable sound
+DisableSound = Disable sound
+
+#
+# Sample box
+#
+MyBox = My box
+MyBoxDescription = My box description
+
+#
+# Menu
+#
+ChatTopMenu = Chat
+
+#
+# Error/Warning Messages
+#
+PleaseTypeAMessage = Please type a message
+CannotSendMessageToYourself = You cannot send a message to yourself
+CannotDeleteMessage = You cannot delete this message

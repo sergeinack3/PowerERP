@@ -1,0 +1,432 @@
+﻿#--------------------------------------------------- New
+Type_Réservation=Type de réservation
+Semaine=Semaine
+Week-end=Week-end
+Category_regrouper_devis=Les catégories de produits/services à regrouper sur le futur devis
+regrouper_products=Regrouper les produits/services par catégorie sur le devis
+MaxHourBreakfast=Heure maximum de petit déjeuner
+Nbre_de_services=Nbre de services
+Prix_unitaire=Prix unitaire
+Group_Services_By_Category=Regrouper les Produits / Services par catégorie dans une réservation
+Additional_Service_Will_add_in_proposal=Service supplémentaire qui sera ajouté dans la proposition
+add_servicesupplimentaire=Ajouter le service supplémentaire dans le devis
+DefaultValue_regrouper_products=Valeur par défaut du champ <b>"Regrouper les produits/services<br> par catégorie sur le devis?"</b>
+groupe_and_observations=Groupe // Observations
+Matin=Matin
+Midi=Midi
+Soir=Soir
+repas_par_semaine=Repas par semaine
+repas_par_jours=Repas par jour
+Nbre_de=Nbre de
+BookingHotelCodeAcces=Code d'accès
+reporterDates=Reporter les dates
+
+
+
+
+#--------------------------------------------------- Repas
+
+Breakfast=Petit-déjeuners (P)
+Lunch=Repas Midi (M)
+Dinner=Repas Soir (S)
+
+P=P
+M=M
+S=S
+
+REPAS=REPAS
+nbr_repas=Nombre de repas
+
+
+Gestion_des_lieu_repas=Gestion des lieux de repas
+Lieu_des_repas=Lieux de repas
+Type_de_ressource=Type de ressource des lieux de repas
+
+liste_des_repas_par_jour=Liste des repas par jour
+Lieu_Repas=Lieu Repas
+Choisir_le_jour=Choisir le jour
+Nb_total_P=Nb total P
+Nb_total_M=Nb total M
+Nb_total_S=Nb total S
+#--------------------------------------------------- Description Module
+
+DescriptionMod1909671880=Gestion de réservation des services par catégorie avec la création des propositions commercial, l'affectation des services dans le devis, changement des états de chaque réservation automatiquement, ...
+
+#--------------------------------------------------- Menu
+
+HotelRéservation=HotelRéservation
+bookinghotel=HotelRéservation
+
+Réservations=Réservations
+Liste_des_réservations=Liste des réservations
+NewBookingHotel=Nouvelle réservation
+Gestion_des_repas=Gestion des repas
+États_de_réservation=État de réservation
+Réservation_Repas=Réservation / Repas
+
+prix_dégressifs=Prix dégressifs
+
+Services_virtuels=Services virtuels
+Utiliser_les_services_virtuels=Utiliser les services virtuels
+Gestion_des_services_virtuels=Gestion des services virtuels
+Sélectionner_un_service_virtuel=Sélectionner un service virtuel
+
+
+hrCustomers=Clients
+hrNewCustomer=Nouveau client
+ServicesToReserve=Chambres à réserver
+hrNewService=Nouveau service
+#--------------------------------------------------- Les permissions
+
+Consulter_les_réservations=Consulter les réservations
+Ajouter_Modifier_les_réservations=Ajouter / Modifier les réservations
+Supprimer_les_réservations=Supprimer les réservations
+Consulter_partie_Paramétrage=Consulter les états des réservations
+Ajouter_Modifier_Paramétrage=Ajouter / Modifier les états des réservations
+Supprimer_Paramétrage=Supprimer les états des réservations
+
+
+Consulter_repas=Consulter les repas
+Ajouter_Modifier_repas=Ajouter / Modifier les repas
+Supprimer_repas=Supprimer les repas
+#--------------------------------------------------- Liste Réservations
+
+hotelreService_s=Services
+Service_s2=Produit/Service
+#Arrivé_le=Arrivé le
+#Départ_le=Départ le
+Arrivé_le=Date/Heure début réservation
+Départ_le=Date/heure fin réservation
+État_de_réservation=État de réservation
+Devis_client=Devis client
+
+#--------------------------------------------------- Tableau de bord
+
+GO=GO
+Afficher_tout=Afficher tout
+nom_occupant=Nom de l'occupant
+Début=Début
+Fin=Fin
+
+daysavant=jours avant
+daysapres=jours après
+
+#--------------------------------------------------- Create/Edit/Delete of Reservation
+
+Nombre_de_jours=Nombre de jours
+Nombre_de_personnes=Nombre de personnes
+TO_Centrale=Source
+Réservation=Réservation
+
+#dateArriveActuel=Date d'arrivé actuelle
+#dateDepartActuel=Date de départ actuelle
+
+dateArriveActuel=Date/heure début réservation actuelle
+dateDepartActuel=Date/heure fin réservation actuelle
+
+Personnel=Personnel
+Partenaires=Partenaires
+BOOKING=En ligne
+Commanditaires=Commanditaires
+
+Devises_du_Client=Devises du client
+msgdeviseDesactivated=Les devises qui sont désactivés sont déjà Signée, Non signée ou Facturée
+
+Proposition_commercial_Devis=Devis
+Créer_un_devis=Créer un devis
+NB_client_aucundevis=NB : le client de cette réservation ne contient aucun devis
+
+dejafacturee=Devis déjà facturé
+UpdateDevis=Mettre à jour Devis
+Génerer_la_facture=Générer la facture
+#--------------------------------------------------- Parametrage
+
+BookingHotelSetup=Configuration du module HotelRéservation
+Services_Repas=Service/produit des repas
+Service_Produit=Service / Produit
+la_categorie_a_reservee=Catégorie à réserver
+categories_a_reservee=Catégories des produits/services
+tout_Category_reservee=Les catégories des produits/services qui seront réservées
+Category_reservee_nonpasafficher_tb=Les catégories qui ne seront pas affichées dans le tableau de bord
+
+produit_taxe_sejour=Produit du Taxe de séjour
+produit_taxe_sejour_enfants=Produit du Taxe de séjour (enfants)
+adultes_enfants=Gestion des personnes adultes et des enfants
+enfants=Enfants
+adultes=Adultes
+
+
+
+Gestion_services_produit_ocuppee=Services / Produits occupés
+occupés_question=Occupé?
+occupés=Occupé
+non_occupés=Non Occupé
+fleches_tableau_bord=Les flèches du tableau de bord : Avancer par
+heure_arrive_default=Heure d'arrivée par défaut
+heure_depart_default=Heure de départ par défaut
+#--------------------------------------------------- Activation Du Module
+
+Réservée=Réservée
+Confirmée=Confirmée
+Partie=Partie
+
+repas_midi_simple=repas midi simple
+repas_soir_simple=repas soir simple
+meals_M=repas du midi (M)
+meals_S=repas du soir (S)
+
+en_nuitée=en nuitée
+en_nuitée_simple=en nuitée simple
+en_demi-pension_midi=en demi-pension midi
+en_demi-pension_soir=en demi-pension soir
+en_pension_complète=en pension complète
+
+sans_repas=sans repas
+meals_P=petit-déjeuner (P)
+meals_P_M=petit-déjeuner (P) + repas du midi (M)
+meals_P_S=petit-déjeuner (P) + repas du soir (S)
+meals_P_M_S=petit-déjeuner (P) + repas du midi (M) + repas du soir (S)
+
+#--------------------------------------------------- Multiple
+
+Affichage=Affichage
+Modification=Modification
+
+Confirmation=Confirmation
+msgconfirmdelet=Êtes-vous sûr de vouloir continuer la suppression?
+
+
+#--------------------------------------------------- Prices
+# Main
+PricesProdList=Tarif dégressif
+PricesProdLists=Tarifs dégressifs
+
+# Tab product
+AddPricesProdList=Ajouter un tarif
+NewPriceOffer=Nouveau tarif
+FromQtyLong=À partir de (quantité)
+FromQty=À partir de
+AllFieldIsRequired=Tous les champs sont requis
+PriceHT=Prix HT
+AddedBy=Ajouté par
+
+PricesProdListInsert=Tarif dégressif appliqué
+
+DeletePricesProdList=Suppression de prix
+ConfirmDeletePricesProdList=Êtes-vous sûr de vouloir supprimer ce prix?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WiewReservations=Réservations
+WiewReservationsDesc=Retrouvez facilement tous vos réservations
+EALINKNAME_bookinghotel=Réservations
+Reservations=Réservations
+
+
+
+
+# DROITS
+external_access_invoices=Peut consulter les factures
+external_access_propals=Peut consulter les devis
+external_access_orders=Peut consulter les commandes
+external_access_userinfos_edit=Peut modifier ces informations personnelles
+
+# MENU
+TopMenuexternalaccess=Portail client
+
+# STATUS
+externalaccessStatusDraft=Brouillon (à valider)
+externalaccessStatusValidated=Validée (à accepter)
+externalaccessStatusRefused=Refusée (fermée)
+externalaccessStatusAccepted=Acceptée (fermée)
+
+Draft=Brouillon
+Validate=Validé
+Refused=Refusé
+Accepted=Accepté
+
+# LIST
+externalaccessList=Liste Portail client
+Noexternalaccess=(vide)
+
+# CARD
+Newexternalaccess=Création externalaccess
+externalaccessCard=Fiche externalaccess
+ErrorDetected=Erreur(s) détectée(s), veuillez vérifier le formulaire
+
+# CARD TPL
+Save=Enregistrer
+CreateDraft=Créer brouillon
+Cancel=Annuler
+Validate=Valider
+Modify=Modifier
+Reopen=Rouvrir
+ToClone=Cloner
+Delete=Supprimer
+DateFinValidite=Date de fin de validité
+EndValidDate=Fin de validité
+DateLivraison=Date prévue de livraison
+DatePayLimit=Date échéance
+
+# MENU
+EALINKNAME_gobackurl=Retour au site
+
+WiewInvoices=Factures
+WiewInvoicesDesc=Retrouvez facilement toutes vos factures
+EALINKNAME_invoices=Factures
+
+WiewPropals=Devis
+WiewPropalsDesc=Retrouvez facilement tous vos devis
+EALINKNAME_propals=Devis
+
+WiewOrders=Commandes
+WiewOrdersDesc=Retrouvez facilement toutes vos commandes
+EALINKNAME_orders=Commandes
+
+PersonalInformations=Informations personnelles
+
+# PAGE TITLE
+Welcome=Bienvenue
+WelcomeDesc=Bienvenue sur votre portail client
+
+# SETUP PAGE
+AbricotNotFound=Module Abricot non trouvé, le portail client ne peut pas fonctionner correctement sans ce module.
+AbricotWiki=Consulter la page d'information du module abricot.
+BOOKINGHOTEL_ROOT_URL=Url d'accès  public
+BOOKINGHOTEL_ROOT_URL_HELP=Si vous utilisez un virtual host
+BOOKINGHOTEL_TITLE=Titre de l'accès extérieur
+BOOKINGHOTEL_TITLE_HELP=Visible sur le menu du haut
+BOOKINGHOTEL_GOBACK_URL=Url du lien de retour
+BOOKINGHOTEL_GOBACK_URL_HELP=Si l'URL est renseignée, celà ajoute un lien "retour vers le site" dans le menu du haut
+BOOKINGHOTEL_PRIMARY_COLOR=Couleur principale du thème
+BOOKINGHOTEL_PRIMARY_COLOR_HELP=Sur les pages du portail client, pensez à appuyer sur la touche CTRL+F5 ou videz le cache de votre navigateur après avoir modifié cette valeur pour que le changement soit effectif
+BOOKINGHOTEL_PHONE=Téléphone de contact
+BOOKINGHOTEL_EMAIL=Email de contact
+BOOKINGHOTEL_EMAIL_HELP=Cet adresse email est visible dans le pied de page
+BOOKINGHOTEL_ACTIVATE_MODULES=Modules accessibles
+BOOKINGHOTEL_ACTIVATE_INVOICES=Téléchargement des Factures
+BOOKINGHOTEL_need_some_rights=Note: Des droits utilisateurs sont à paramétrer
+BOOKINGHOTEL_ACTIVATE_PROPALS=Téléchargement des Devis
+BOOKINGHOTEL_ACTIVATE_ORDERS=Téléchargement des Commandes
+BOOKINGHOTEL_HEADER_IMG=Url de l'image de fond
+BOOKINGHOTEL_HEADER_IMG_HELP=Vous pouvez utiliser une image personalisée ou utiliser une des images suivantes: <ul><li>../img/header_01.jpg</li><li>../img/header_04.jpg</li><li>../img/header_02.jpg</li><li>../img/header_03.jpg</li></ul>Sur les pages du portail client, pensez à appuyer sur la touche CTRL+F5 ou videz le cache de votre navigateur après avoir modifié cette valeur pour que le changement soit effectif
+AccessToCustomerGate=Consulter le portail client
+BOOKINGHOTEL_LOGIN_EXTRA_HTML=Text supplémentaire affiché sur la page de connexion.
+BOOKINGHOTEL_RGPD_MSG=Message RGPD sur le formulaire des informations personnelles
+BOOKINGHOTEL_RGPD_MSG_default=Vous pouvez demander la rectification des informations inexactes ou incomplètes vous concernant. En modifiant et soumettant ce formulaire, j'accepte que les données saisies soient utilisées par %s afin qu'elle puisse, lire et, si nécessaire, gérer la relation contractuelle qui pourrait en résulter.
+
+# INDEX
+Quotations=Devis
+QuotationsDesc=
+Orders=Commandes
+OrdersDesc=
+Invoices=Factures
+InvoicesDesc=
+MySpace=Consulter mon espace
+
+
+
+ForgotThePassword=Mot de passe oublié?
+ForgotPassword=Mot de passe oublié?
+Rememberme=Se souvenir de moi.
+SignIn=Connexion
+YouCanResetYourPasswordHere=Vous pouvez le renouveller ici
+Renew=Renouveller
+
+# FOOTER
+GetInTouch=Restons en contact
+GetInTouchDesc=Prêt à commencer votre prochain projet avec nous? Appelez-nous ou envoyez-nous un courriel et nous vous répondrons dans les plus brefs délais!
+
+# UserInfos
+MyPersonalInfos=Mes infos
+UserInfosDesc=Vos informations personnelles
+YourPersonnalInformations=Vos informations personnelles
+firstname=Prénom
+lastname=Nom
+address=Adresse
+addresszip=Code postal
+town=Ville
+exa_Edit=Modifier
+User_mobile=Téléphone mobile
+Office_phone=Téléphone bureau
+Office_fax=Fax
+Saved=Sauvegardé
+Company=Société
+
+# 404 tpl 
+SorryThereIsNothingHere=Désolé il n'y a rien ici
+
+BOOKINGHOTEL_Nothing=Actuellement il n'y a rien ici, patience, vos documents seront disponibles prochainement
+
+Amount_HT=Montant HT
+Amount_TTC=Montant TTC
+RemainderToPay=Reste à payer
+DocumentFileNotAvailable=Document actuellement non disponible.
+
+
+EaBack=Retour
+
+
+Confirme=Confirmé
+TypeChambr=Type de chambre
+COMPTE_CAISSE_HOTEL=Compte caisse Hôtel
+categorhotel=Catégories de produits utilisés dans l'hôtel (les Dépenses)
+depenses=Dépenses
+list_depenses=Liste des Dépenses
+depensehotel=Dépenses Hôtel
+fichecomptable=Fiche comptabilité
+Aucunreservation=Aucune réservation
+FOURNISSEUR_BOUTIQUE_HOTEL=Bourique Hôtel

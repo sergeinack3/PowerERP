@@ -1,0 +1,24 @@
+taskname=Task Name
+vue_gantt = Advanced Gantt
+DEnd = End date
+DStart = Start date
+Tache = Task
+contacts = Contact
+taskgantt = Advanced Gantt
+aucunTask = No Tasks
+More_Information = More information
+startfirsttask=Start date of tasks
+startlasttask=End date of tasks
+Print=Print
+ScreenGant=SVG Photo
+startprojet=Project start date
+endprojet=Project end date
+AvancProjet=Project progress
+GanttAvanc=Advanced Gantt
+
+
+taskgantteditormod=powererpstore.com
+taskganttnummod=940332081
+
+Module940332081Name=<a class='ds_url_module_name' target='_blank' href='https://www.powererpstore.com'>Advanced Gantt</a>
+Module940332081Desc=<a class='ds_url_module_desc' target='_blank' href='https://www.powererpstore.com'>Advanced Gantt - https://www.powererpstore.com <i style='font-size: 12px;' class='fa fa-external-link'></i></a>

@@ -1,0 +1,96 @@
+[
+    {
+        "name": "kwn/number-to-words",
+        "version": "1.6.3",
+        "version_normalized": "1.6.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kwn/number-to-words.git",
+            "reference": "9d56303530b0f91214cbecfb3d9fc59e2e2a54f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kwn/number-to-words/zipball/9d56303530b0f91214cbecfb3d9fc59e2e2a54f7",
+            "reference": "9d56303530b0f91214cbecfb3d9fc59e2e2a54f7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "^0.4.4",
+            "phpmd/phpmd": "^2.6.0",
+            "phpunit/phpunit": "^5.7.9",
+            "squizlabs/php_codesniffer": "^3.3.0"
+        },
+        "time": "2018-12-05T18:19:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "NumberToWords\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Karol Wnuk",
+                "email": "k.wnuk@ascetic.pl"
+            }
+        ],
+        "description": "Multi language standalone PHP number to words converter. Fully tested, open for extensions and new languages.",
+        "keywords": [
+            "angle",
+            "currency",
+            "money",
+            "number",
+            "string",
+            "to",
+            "words"
+        ]
+    },
+    {
+        "name": "vkr/signature-to-image",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wladislavk/signature-to-image.git",
+            "reference": "0daac8c6b3e3e1054bee07089f10e1e3089bf386"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wladislavk/signature-to-image/zipball/0daac8c6b3e3e1054bee07089f10e1e3089bf386",
+            "reference": "0daac8c6b3e3e1054bee07089f10e1e3089bf386",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "ext-json": "*",
+            "php": ">=5.6"
+        },
+        "time": "2019-01-18T10:22:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "VKR\\SignatureToImage\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas J Bradley",
+                "email": "hey@thomasjbradley.ca"
+            }
+        ],
+        "description": "Fork of Signature to Image by Thomas Bradley",
+        "homepage": "https://github.com/wladislavk/signature-to-image"
+    }
+]

@@ -1,0 +1,4 @@
+# Robot file. Generated with PowerERP
+User-agent: *
+Allow: /public/
+Disallow: /administrator/
