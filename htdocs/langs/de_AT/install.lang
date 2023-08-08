@@ -1,0 +1,5 @@
+# PowerERP language file - Source file is en_US - install
+GoToPowerERP=Zu powererp
+GoToUpgradePage=Zur Aktualisierungsseite
+DBSortingCollation=Reihenfolge der Zeichensortierung (Collation)
+MigrationActioncommElement=Update-Daten über die Maßnahmen
