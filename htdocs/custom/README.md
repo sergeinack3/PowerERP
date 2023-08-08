@@ -18,8 +18,8 @@ Then create the symbolic link
 `ln -fs ~/git/newmodule/htdocs /path_to_powererp/htdocs/custom/newmodule`
 
 WARNING !!!
-Check also that the /custom directory is active by adding into powererp `conf/conf.php` file the following
-two lines, so powererp will also scan /custom directory to find external external modules:
+Check also that the /custom directory is active by adding into PowerERP `conf/conf.php` file the following
+two lines, so PowerERP will also scan /custom directory to find external external modules:
 
 ```php
 $powererp_main_url_root_alt='/custom';
