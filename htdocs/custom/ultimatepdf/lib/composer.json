@@ -1,0 +1,6 @@
+{
+    "require": {
+        "vkr/signature-to-image": "^2.0",
+        "kwn/number-to-words": "^1.6"
+    }
+}

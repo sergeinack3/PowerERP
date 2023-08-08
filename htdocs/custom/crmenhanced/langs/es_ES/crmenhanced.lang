@@ -1,0 +1,94 @@
+# Copyright (C) 2018 Admin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModulecrmenhancedName'
+ModulecrmenhancedName = CRM avanzado
+# Module description 'ModulecrmenhancedDesc'
+ModulecrmenhancedDesc = Funciones avanzadas de CRM
+
+#
+# Admin page
+#
+crmenhancedSetup = Configuraciones avanzadas de CRM
+Settings = Ajustes
+crmenhancedSetupPage = Página de configuración de CRM avanzado
+CRMENHANCED_MAIL_MODALITY = Modo de envío de correo.
+CRMENHANCED_MAIL_MODALITYTooltip = Indica el código utilizado en la tabla "Modo de actividad" para la actividad de envío de correo
+CRMENHANCED_SMS_MODALITY = Modo de envío de SMS
+CRMENHANCED_SMS_MODALITYTooltip = Indica el código utilizado en la tabla "Modo de actividad" para la actividad de envío de SMS
+CRMENHANCED_DEFAULT_STATUS = Estado predeterminado
+CRMENHANCED_DEFAULT_STATUSTooltip = Indique le statut par défaut pour l'envoi de courrier et de SMS
+CRMENHANCED_DEFAULT_OBJECT = Objeto predeterminado
+CRMENHANCED_DEFAULT_OBJECTTooltip = Indica el objeto predeterminado para enviar correos y mensajes de texto.
+
+
+#
+# About page
+#
+About = About
+crmenhancedAbout = Acerca de CRM avanzado
+crmenhancedAboutPage = Página Sobre Advanced CRM
+
+#
+# Permissions
+#
+Permission220810 = Acceso / Lectura
+Permission220811=Ver campañas
+Permission220812=Crear campañas
+Permission220813=Ver actividades
+Permission220814=Créer des activités
+Permission220815=Cancelar actividades
+
+#
+# Other
+#
+crmenhanced = CRM avanzado
+Campaigns= Campañas
+NewCampaign=Nueva campaña
+DeleteCampaign=Cancelación de la campaña
+ConfirmDeleteCampaign=¿Confirma usted la cancelación de la campaña?
+CannotDeleteUsedCampaign=La campaña está en uso en otras tablas. Cancelación imposible
+Campaign=Campaña
+ActivityMode=Modo de actividad
+ActivityObject=Objeto de la actividad.
+ActivityStatus=Estados de actividad
+ActivityList=Lista de actividades
+ShowActivity=Mostrar actividades
+Outcoming=Out	
+Incoming=In
+ActivitiesList=Lista de actividades
+Mode=Modo
+Object=Sujeto
+NextOwner=Siguiente acción asignada a
+NextDate=Próxima fecha de acción
+NextNote=Nota de la siguiente acción
+NewActivity=Nueva actividad
+Activity=Actividad
+DeleteActivity=Cancelación de actividad
+ConfirmDeleteActivity=Realmente quieres cancelar la actividad.
+BackToActivityList=Retour à la liste des activités
+ActivityStats=Estadísticas de actividad
+ExportCSV=Exportar a CSV
+ExportExcel=Exportar a Excel
+ExportExcel2007=Exportar a Excel 2007
+ExportTitle=Exportación de Actividades
+CreateAgenda=Creación de evento
+CreateNextAgenda=Creación del proximo evento
+ConfirmCreateAgendaEvent=Confirmar la creación del evento para la
+ScheduledActivity=Actividad programada

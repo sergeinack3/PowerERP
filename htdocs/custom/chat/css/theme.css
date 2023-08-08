@@ -1,0 +1,507 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+
+body{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 100%;
+}
+
+#ie_div{
+	display: none !important;
+}
+/* A partir d'ici, je gére les proportions de la page pour une meilleure manipulation 
+|* de la taille des objets
+|* 
+*/
+.header-header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 10px;
+	margin: 0px;
+	padding: 0px;
+	background: rgba(255,255,255,0.2);
+	z-index: 99;
+	user-select: none;-o-user-select: none;-moz-user-select: none;-webkit-user-select: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.header-header.scrolled{
+	background: #ffffff !important;
+}
+.header-header .container{
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+	flex-direction: row;
+}
+.header-header .header-logo{
+	position: relative;
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: none;
+}
+.header-header .header-logo img{
+	position: relative;
+	display: block;
+	width: 64px;
+	height: 64px;
+}
+
+.header-header .header-menu{
+	display: inline-block;
+	background: none;
+	width: calc(100% - 64px);
+}
+.header-header .header-menu .menu{
+	float: right;
+	padding-top: 10px;
+}
+.header-header .header-menu .menu li{
+	display: inline-block;
+	margin: 10px 10px 0px 5px;
+}
+.header-header .header-menu .menu li a{
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 16px;
+}
+.header-header .header-menu .menu li:hover a{
+	background-color: #5594c7;
+	color: #ffffff;
+}
+.header-header .header-menu .menu li.active a{
+	background-color: #5594c7;
+	color: #c7c7c7;
+}
+
+label[for="header_menu_btn"]{
+	position: relative;
+	display: none;
+	float: right;
+}
+label[for="header_menu_btn"] span{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition-property: opacity;
+	transition-duration: 0.5s;
+}
+label[for="header_menu_btn"] span.glyphicon.glyphicon-option-horizontal{
+	opacity: 0;
+	display: block;
+}
+
+#header_menu_btn:checked ~ label[for="header_menu_btn"] span.glyphicon.glyphicon-option-horizontal{
+	opacity: 1;
+	display: block;
+}
+#header_menu_btn:checked ~ label[for="header_menu_btn"] span.glyphicon.glyphicon-menu-hamburger{
+	opacity: 0;
+	display: block;
+}
+
+@media screen and (max-width: 750px){
+	.header-header .container{
+		width: 92%;
+		left: 1%;
+	}
+	.header-header{
+		background: #ffffff;
+	}
+	label[for="header_menu_btn"]{
+		display: block;
+		float: right;
+		width: 45px;
+		height: 45px;
+		margin-top: 15px;
+		cursor: pointer;
+	}
+	.header-header .header-menu .menu{
+		display: none;
+	}
+	#header_menu_btn:checked ~ .menu{
+		display: block;
+	}
+	.header-header .header-menu{
+		display: block;
+		background: none;
+		width: calc(100% + 64px);
+		position: relative;
+		left: -32px;
+	}
+	.header-header .header-menu .menu{
+		background: none;
+		width: calc(100%);
+	}
+	.header-header .header-menu .menu li{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.header-header .header-menu .menu li:nth-child(2n){
+		border-top: #5594c7 solid 1px;
+		border-bottom: #5594c7 solid 1px;
+	}
+	.header-header .header-menu .menu li a{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+
+
+.footer-footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+	padding: 0px;
+	background: linear-gradient(#46464b 30%,#3b3b3b 70%);background: -o-linear-gradient(#46464b 30%,#3b3b3b 70%);background: -moz-linear-gradient(#46464b 30%,#3b3b3b 70%);background: -webkit-linear-gradient(#46464b 30%,#3b3b3b 70%);
+	color: #fff;
+	z-index: 2;
+}
+
+
+.page_content{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: calc(100%);
+	padding-top: 0px; /* la marge haute pour le header */
+	padding-bottom: 0px;
+}
+
+
+.lbl{
+	display: inline-block;
+	width: 100%;
+}
+
+.inputBox{
+	position: relative;
+}
+.inputBox > input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #349600;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #349600;
+	border-radius: 0px;
+	outline: none;
+	background: transparent;
+}
+.inputBox > select{
+	width: 100%;
+	padding: 0px 0;
+	font-size: 16px;
+	margin-bottom: 0px;
+	border: none;
+	border-bottom: 1px solid #349600;
+	outline: none;
+	background: transparent;
+}
+.inputBox > input:invalid{
+	border: none;
+	border-bottom: 1px solid #349600;
+	outline: none;
+}
+.inputBox > label{
+	position: absolute;
+	transition-property: top;
+	transition-duration: 0.5s;
+	top: 15px;
+	left: 0px;
+	font-size: 16px;
+	color: #349600;
+	pointer-events: none;
+}
+.inputBox > input:focus ~ label,.inputBox > input:valid ~ label{
+	top: -17px;
+	font-size: 12px;
+}
+
+select.form-control{
+	padding: 0px 5px 0px 5px;
+	line-height: 14px;
+}
+select,optgroup label,option{
+	font-size: 12px;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+optgroup label{
+	font-size: 10px;
+}
+
+#scroller{
+	position: fixed;
+	float: right;
+	width: 45px;
+	height: 45px;
+	bottom: 45px;
+	right: 45px;
+	z-index: 99;
+	border-radius: 45px;
+	box-shadow: 0px 0px 5px #319a06;
+	visibility: hidden;
+	background: none;
+	cursor: pointer;
+}
+
+#scroller.scrolled:hover{
+	background: #319a06;
+}
+
+#scroller.scrolled{
+	visibility: visible;
+	animation: secou 0.5s 2;
+}
+
+
+
+@keyframes secou{
+	0%{
+		bottom: 45px;
+		right: 45px;
+	}
+
+	20%{
+		bottom: 45px;
+		right: 25px;
+	}
+	40%{
+		bottom: 45px;
+		right: 65px;
+	}
+	60%{
+		bottom: 65px;
+		right: 25px;
+	}
+	80%{
+		bottom: 45px;
+		right: 25px;
+	}
+	100%{
+		bottom: 45px;
+		right: 45px;
+	}
+}
+
+
+.vertic-divider{
+	display: block;
+	min-width: 1px;
+	height: calc(100%);
+	background: #918f8f;
+	color: #aaa;
+	margin: 5px 0px 5px 0px;
+}
+.Horiz-divider{
+	display: block;
+	width: calc(100%);
+	min-height: 1px;
+	background: #918f8f;
+	color: #aaa;
+	margin: 5px 0px 5px 0px;
+}
+
+#modal_windows{
+	display: none;
+}
+#modal_windows.visible{
+	display: block;
+	position: fixed;
+	width: calc(95%);
+	left: 2.5%;
+	top: 60px;
+	height: calc(100% - 160px);
+	background: rgba(0,0,0,0.4);
+	z-index: 100;
+}
+#modal_blur{
+	/*div qui sert de gros bouton en arriere plan*/
+	display: block;
+	position: absolute;
+	height: calc(100%);
+	width: calc(100%);
+	z-index: 1;
+}
+#modal_content{
+	display: block;
+	position: absolute;
+	max-width: 600px;
+	width: calc(90%);
+	margin-left: 5%;
+	height: calc(100% - 40px);
+	top: 20px;
+	background: none;
+	z-index: 2;
+	overflow: hidden;
+	border-radius: 5px;
+}
+@media screen and (min-width: 800px){
+	#modal_content{
+		margin-left: calc(50% - 300px);
+	}
+}
+
+
+#modal_content_body{
+	display: block;
+	position: absolute;
+	top: 32px;
+	background: #ffffff;
+	width: calc(100%);
+	height: calc(100% - 33px);
+	overflow: auto;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#modal_content_head{
+	display: block;
+	width: calc(100%);
+	height: 32px;
+	border-bottom: 1px solid #000;
+	overflow: hidden;
+	background: #ffffff;
+
+}
+#modal_head_title{
+	font-size: 24px;
+	line-height: 32px;
+	width: calc(100% - 33px);
+	padding-left: 5px;
+}
+#modal_head_btnClose{
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 32px;line-height: 32px;width: 32px;text-align: center;
+	cursor: pointer;
+	color: #FFFFFF;
+	background: #d77775;
+	user-select: none;-o-user-select: none;-moz-user-select: none;-webkit-user-select: none;
+}
+#modal_head_btnClose:hover{
+	color: #DDDDDD;
+	background: #ff0000;
+}
+#modal_head_btnClose:active{
+	color: #DDDDDD;
+	background: #dc4b3e;
+}
+
+.cycle_loader{
+	position: relative;
+	display: none;
+	width: 32px;
+	height: 32px;
+	border: 5px solid  #80bfff;
+	border-top: 5px solid #3399ff;
+	border-bottom: 5px solid #3399ff;
+	border-radius: 32px;
+	margin-left: calc(50% - 16px);
+}
+
+@keyframes rotate_loader{
+	100%{transform: rotateZ(360deg);}
+}
+
+.cycle_loader.visible{display: inline-block;animation: rotate_loader 1s linear infinite;}
+
+
+
+
+.user-glyph{
+	position: relative;
+	padding: 0px;
+	border-radius: 100%;
+	cursor: pointer;
+	overflow: hidden;
+	transition-property: background;
+	transition-duration: 0.5s;
+	background: #555;
+}
+.user-glyph .tete{
+	position: absolute;
+	margin: 0px;
+	display: block;
+	border-radius: 100%;
+	width: calc(40%);
+	height: calc(40%);
+	top: calc(12%);
+	left: calc(30%);
+	transition-property: border;
+	transition-duration: 0.5s;
+	border: 5px #ffffff solid;
+	cursor: pointer;
+}
+.user-glyph .corp{
+	position: absolute;
+	margin: 0px;
+	display: block;
+	border-radius: 100%;
+	width: calc(70%);
+	height: calc(70%);
+	top: calc(50%);
+	left: calc(15%);
+	transition-property: border;
+	transition-duration: 0.5s;
+	border: 5px #ffffff solid;
+	cursor: pointer;
+}
+.user-glyph:hover{
+	background: #d7d7d7;
+}
+.user-glyph:hover .corp,.user-glyph:hover .tete{
+	border: 5px #555555 solid;
+}
+
+.user-glyph.employee-glyph .tete{
+	top: calc(12% + 2px);
+	border: 2px #ffffff solid;
+	cursor: pointer;
+}
+.user-glyph.employee-glyph .corp{
+	border: 2px #ffffff solid;
+	cursor: pointer;
+}
+
+
+.fade-in{
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	opacity: 1;
+}
+.fade-out{
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	opacity: 0.3;
+}

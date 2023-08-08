@@ -1,0 +1,20 @@
+CREATE TABLE `llx_crm_messages` (
+  `rowid` int(11) NOT NULL AUTO_INCREMENT,
+  `entity` int(11) DEFAULT '1',
+  `fk_campaign` int(11) DEFAULT NULL,
+  `type` varchar(1) DEFAULT NULL,
+  `title` varchar(128) DEFAULT NULL,
+  `status` smallint(6) DEFAULT '0',
+  `date` datetime DEFAULT NULL,
+  `date_send` datetime DEFAULT NULL,
+  `subject` varchar(128) DEFAULT NULL,
+  `body` mediumtext,
+  `from` varchar(160) DEFAULT NULL,
+  `to` varchar(160) DEFAULT NULL,
+  `reply_to` varchar(160) DEFAULT NULL,
+  `cc` text,
+  `bcc` text,
+  `external_key` decimal(23,11) DEFAULT NULL,
+  PRIMARY KEY (`rowid`),
+  KEY `fk_message_fk_campaign` (`fk_campaign`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

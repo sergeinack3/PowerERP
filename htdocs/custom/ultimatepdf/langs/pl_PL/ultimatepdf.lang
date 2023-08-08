@@ -1,0 +1,436 @@
+# PowerERP language file - en_US - ultimatepdf
+CHARSET=UTF-8
+Module300100Name=Ultimatepdf
+Module300100Desc=Menadżer szablonów PDF
+Module300100DescLong=<img src="https://www.dolistore.com/2663-large_default/ultimatepdf-4-0.jpg"><br>Oryginalny Szwajcarski Scyzork do dostosowywania dokumentów (zamówienia, wysyłka, faktury, wyjazdy, projekty, oferty, zamówienia i faktury doststawców, kontrakty...). Panel administracyjny modułu pozwoli Ci na stworzenie osobistego szablonu oraz dostosowanie wielu innych przydatnych ustawień.
+
+
+##### Module #####
+PdfDesignsManagement=Menadżer szablonów PDF
+UseTopMenuAccessForUltimatepdfSetup=Use top menu access for ultimatepdf setup.
+PDFUltimate_propal1Description=Kompletny szablon oferty (logo...)
+PDFUltimate_propal2Description=Kompletny szablon oferty (kolumny: Rabat, Cena produktu po rabacie…)
+PDFUltimate_weightPropal1Description=Kompletny szablon oferty (kolumna z wagą produktu)
+PDFUltimate_order1Description=Kompletny szablon zamówienia (logo...)
+PDFUltimate_order2Description=Kompletny szablon zamówienia (kolumny: Rabat, Cena produktu po rabacie...)
+PDFUltimate_weightOrder1Description=Kompletny szablon zamówienia (kolumna z wagą)
+PDFUltimate_invoice1Description=Kompletny szablon PDF faktury (szablon z LCR)
+PDFUltimate_invoice2Description=Kompletny szablon PDF faktury (kolumny: Rabat, Cena produktu po rabacie...)
+PDFUltimate_weightInvoice1Description=Kompletny szablon PDF faktury (kolumna z wagą)
+DocumentDesignUltimate_shipment=Kompletny szablon wysyłki
+DocumentDesignUltimate_receipt=Więcej kompletnych szablonów dla odbioru/doręczenia (logo...)
+UltimatepdfSetup=Konfiguracja modułu Ultimatepdf
+BackgroundColorByDefault=Kolor tła
+SetOpacityForBackgroundColor=Ustaw przeźroczystość dla koloru tła
+SetOpacityForBackgroundColorDescription=Ustaw przeźroczystość od 0 do 1 (domyślna wartość to 0.5)
+BorderColorByDefault=Kolor ramki
+TextcolorByDefault=Kolor czcionki
+QRcodeColorByDefault=Kolor kodów QR
+SetBorderToDashDotted=Ustawienie lini ramki
+ContinuousLine=Linia ciągła
+DottedLine=Linia kropkowana
+Bgcolor=Kolor tła
+Dashdotted=Wykropkowana linia
+Bordercolor=Kolor ramki
+Textcolor=Kolor czcionki
+Footertextcolor=Kolor czcionki w stopce
+CreateModel=Stwórz szablon
+CreateYourModel=Stwórz swój szablon
+SetUpHeader=Ustaw nagłówek
+SetCoreBloc=Ustawienia główne
+DoNotRepeatHeadInsideUltimatepdf=Nie powtarzaj nagłówka jeśli jest więcej niż jedna strona
+SetFontToWhatYouWant=Ustaw czcionkę jaką chcesz
+SetFontToWhatYouWantDescription=Możesz wybrać np. czcionkę DejaVuSans dla języka UTF8 (np. Cyrylica) <br>Nie zapomnij ponownie zapisać swojego szablonu (kliknij ikonę w prawym górnym rogu, znajdź szablon w oknie dialogowym, a następnie kliknij OK), jeśli nie zrobisz tego, zmiana nie będzie brana pod uwagę.<br><img src="../img/demo4.png">
+SelectWithRef=Wyświetl kolumnę odniesienia
+SelectWithRefDescription=Nie zapomnij ponownie zapisać swojego szablonu (kliknij ikonę w prawym górnym rogu, znajdź szablon w oknie dialogowym, a następnie kliknij OK), jeśli nie zrobisz tego, zmiana nie będzie brana pod uwagę.
+SelectWithoutVatDescription=Nie zapomnij ponownie zapisać swojego szablonu (kliknij ikonę w prawym górnym rogu, znajdź szablon w oknie dialogowym, a następnie kliknij OK), jeśli nie zrobisz tego, zmiana nie będzie brana pod uwagę.
+DesignsManagement=Menadżer szablonów
+UltimatepdfDesigns=Szablony
+UltimatepdfMiscellaneous=Ustawienia ogólne
+AddCgvToDocumentsInsideUltimatepdf=Adds the possibility of attaching your GSC automatically to PDF documents (invoices, quotes, orders)
+NoPDFFileFound=No PDF files found into directory for the moment
+ConcatenateFile = Add GSC to PDF
+IAcceptTheTermsOfThisAgreement=I accept the terms of this agreement
+DrawYourSignature=Draw your signature
+DrawIt=Draw It
+Clear=Clear
+ShowIntraVatInAddress=Show Intra-Vat into sender address
+VATIntra=VAT ID
+VATIntraShort=VAT ID
+NumShort=N°
+CustomerCode=Customer code
+On=On
+OtherLogoName=Give it a name
+ErrorUserSignatureFileNotFound=1) You forgot to select a person in charge's signature \n2) Your user has no signature configured
+ErrorSignatureFileNotFound=\n3) File %s not found (Bad path, wrong permissions or access denied by PHP openbasedir or safe_mode parameter)
+SelectAnAliasCompanyName= Select an alias company name
+AliasCompanyName= Other name
+SelectAliasInformation= Select other informations
+AliasCompanyAddress= Select an other company address
+AliasCompanyZip= Select an other company Zip
+AliasCompanyTown= Select an other company Town
+AliasCompanyCountry= Select an other company country
+AliasCompanyPhone= Select an other company phone
+AliasCompanyFax= Select an other company fax
+AliasCompanyEmail= Select an other company email
+AliasCompanyUrl= Select an other company Url for site
+
+##### invoices #####
+UltimatepdfSpecificInvoices=Określone ustawienia faktur
+ShowByDefaultPhotosInsideInvoiceUltimatepdf=Wyświetl miniatury zdjęć twoich produktów w ramach twoich Faktur.
+ShowProductsBarcodeInsideInvoiceUltimatepdf=Display products barcode within invoices.
+ShowByDefaultBarcodeAtTopInsideInvoicesUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich Faktur.
+ShowByDefaultQRcodeAtTopInsideInvoicesUltimatepdf=Wyświetlaj kod QR kontrahenta w nagłówku twoich Faktur.
+ShowByDefaultMycompQRcodeAtTopInsideInvoicesUltimatepdf=Wyświetlaj twój kod QR w nagłówku twoich Faktur.
+ShowByDefaultAutoLiquidationInsideInvoicesUltimatepdf=Wyświetl linię "Schemat automatycznego zlikwidowania podwykonawstwa" w fakturach.
+ShowByDefaultMergePdfInsideInvoicesUltimatepdf=Dołącz pliki PDF poprzez połączenie faktur.
+ShowOutstandingBillsInsideInvoicesUltimatepdf=Wyświetl zaległe rachunki w fakturach.
+ActivateSituationInvoicesInsideInvoicesUltimatepdf=Activate Situation Invoices.
+UltimateGenerateInvoicesWithPriceUht=Display unit price without taxes column within invoices.
+UltimateGenerateInvoicesWithDiscount=Display discount column within invoices.
+UltimateGenerateInvoicesWithPuAfter=Display unit price after discount column within invoices.
+UltimateGenerateInvoicesWithQty=Display quantity column within invoices.
+UltimateGenerateInvoicesWithWeightColumn=Display weight column within invoices.
+AddCapabilitiesToConvertAmountsIntoFullTextInsideInvoicesUltimatepdf=Add capabilities to convert amounts and numbers into full text.
+StopTheBillAtSumOf=Stop the bill at the sum of:
+YouShouldSetUpCustomerDefaultLanguage=You should setup customer default language
+AddResponsableSignatureInsideInvoicesUltimatepdf=Add the responsable signature within invoices
+DisplayRefProjectInsideInvoicesUltimatepdf=Display reference of project within invoices.
+HideInvoicePaymentInsideInvoicesUltimatepdf=Hide already paid amount within invoice.
+
+##### orders #####
+UltimatepdfSpecificOrders=Określone ustawienia zamówień
+ShowByDefaultPhotosInsideOrderUltimatepdf=Wyświetl miniatury zdjęć twoich produktów w ramach twoich Zamówień.
+ShowProductsBarcodeInsideOrderUltimatepdf=Display products barcode within orders.
+ShowByDefaultBarcodeAtTopInsideOrdersUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich Zamówień.
+ShowByDefaultOrderLinkQRcodeAtTopInsideOrdersUltimatepdf=Wyświetlaj kod QR zamówienia w nagłówku twoich Zamówień.
+ShowByDefaultQRcodeAtTopInsideOrdersUltimatepdf=Wyświetlaj kod QR kontrahenta w nagłówku twoich Zamówień.
+ShowByDefaultMycompQRcodeAtTopInsideOrdersUltimatepdf=Wyświetlaj twój kod QR w nagłówku twoich Zamówień.
+ShowByDefaultAutoLiquidationInsideOrdersUltimatepdf=Wyświetl linię "Schemat automatycznego zlikwidowania podwykonawstwa" w zamówieniach
+ShowHideAllPricesInsideOrdersUltimatepdf=Show or Hide all prices within Orders.
+ShowByDefaultMergePdfInsideOrdersUltimatepdf=Dołącz pliki PDF poprzez połączenie zamówień.
+UltimateGenerateOrdersWithPriceUht=Display unit price without taxes column within orders.
+UltimateGenerateOrdersWithDiscount=Display discount column within orders.
+UltimateGenerateOrdersWithPuAfter=Display unit price after discount column within orders.
+UltimateGenerateOrdersWithQty=Display quantity column within orders.
+UltimateGenerateOrdersWithWeightColumn=Display weight column within orders.
+DisplayRefProjectInsideOrderUltimatepdf=Display reference of project within an order.
+
+##### proposals #####
+UltimatepdfSpecificProposals=Określone ustawienia ofert
+UltimatepdfSpecificSupplierProposals=Konkretne ustawienia ofert
+ShowByDefaultPhotosInsidePropalUltimatepdf=Wyświetl miniatury zdjęć twoich produktów w ramkach twoich Ofert
+ShowProductsBarcodeInsidePropalUltimatepdf=Display products barcode within proposals.
+ShowByDefaultMergePdfInsideProposalsUltimatepdf=Dołącz pliki PDF poprzez połączenie oferty biznesowej
+ShowByDefaultBarcodeAtTopInsidePropalUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich ofert.
+ShowByDefaultQRcodeAtTopInsidePropalUltimatepdf=Wyświetlaj kod QR kontrahenta w nagłówku twoich ofert.
+ShowByDefaultMycompQRcodeAtTopInsidePropalUltimatepdf=Wyświetlaj twój kod QR w nagłówku twoich ofert.
+ShowMergedPdfFromProductsInsideProposalsUltimatepdf=Display merged Pdf from products within proposals.
+UltimateGenerateProposalsWithPriceUht=Display unit price without taxes column within proposals.
+UltimateGenerateProposalsWithDiscount=Display discount column within proposals.
+UltimateGenerateProposalsWithPuAfter=Display unit price after discount column within proposals.
+UltimateGenerateProposalsWithQty=Display quantity column within proposals.
+UltimateGenerateProposalsWithWeightColumn=Display weight column within proposals.
+ShowByDefaultElectronicSignatureWithinAgreementBlock=Dysplay Electronic Signature Within Agreement Block
+HelpShowByDefaultElectronicSignatureWithinAgreementBlock=By clicking on the ACCEPT / REFUSE button you open a modal window that allows you to have your client sign with his mouse or to refuse the proposal.
+AddResponsableSignatureInsideProposalsUltimatepdf=Add the responsable signature within proposals.
+ThisProposalIsNotSigned=This proposal is not signed
+AddResponsableSignatureInsideProposalsUltimatepdf=Add the responsable signature within proposals.
+ProposalNotSigned=Proposal not signed (Closed)
+CaseFollowedBy=Case followed by
+ShowByDefaultCaseFollowedByInsideProposal=Add Case followed by within proposals note
+DisplayRefProjectInsideProposalsUltimatepdf=Display reference of project within proposals.
+
+##### shipments #####
+UltimatepdfSpecificShipments=Określone ustawienia wysyłki
+ShowByDefaultPhotosInsideShipmentsUltimatepdf=Wyświetl miniatury zdjęć twoich produktów w ramach twoich Wysyłek.
+ShowProductsBarcodeInsideShippingUltimatepdf=Display products barcode within Shipments.
+ShowByDefaultOrderLinkQRcodeAtTopInsideShipmentsUltimatepdf=Wyświetlaj kod QR zamówienia w nagłówku twoich Wysyłek.
+ShowByDefaultBarcodeAtTopInsideShipmentsUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich Wysyłek.
+ShowByDefaultBarcodeAtBottomInsideShipmentsUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w stopce Wysyłek.
+ShowByDefaultQRcodeAtTopInsideShipmentsUltimatepdf=Wyświetlaj kod QR kontrahenta w nagłówku twoich Wysyłek.
+ShowByDefaultMycompQRcodeAtTopInsideShipmentsUltimatepdf=Wyświetlaj twój kod QR w nagłówku twoich Wysyłek.
+ShowByDefaultColumnWeightVolumeInsideUltimatepdf=Wyświetl kolumnę z wagą i rozmiarem w wysyłkach
+UltimateGenerateShipmentsWithWeightVolume=Display weight and volume column within shipments.
+UltimateGenerateShipmentsWithQtyAsked=Display Asked quantity column within shipments.
+UltimateGenerateShipmentsWithQtyShipped=Display Shipped quantity column within shipments.
+UltimateGenerateShipmentsWithReliquat=Display remained quantity column within shipments.
+DisplayRefProjectInsideShipmentUltimatepdf=Display reference of project within shipments.
+
+##### receipts #####
+UltimatepdfSpecificReceipts=Konfiguracja ustawień Przychodów.
+ShowByDefaultPhotosInsideReceiptsUltimatepdf=Wyświetl miniatury zdjęć twoich produktów w ramach twoich Przychodów.
+ShowByDefaultBarcodeAtTopInsideReceiptsUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich Przychodów.
+ShowByDefaultQRcodeAtTopInsideReceiptsUltimatepdf=Wyświetlaj kod QR kontrahenta w nagłówku twoich Przychodów.
+ShowByDefaultOrderLinkQRcodeAtTopInsideReceiptsUltimatepdf=Wyświetlaj kod QR zamówienia w nagłówku twoich Przychodów.
+ShowByDefaultMycompQRcodeAtTopInsideReceiptsUltimatepdf=Wyświetlaj twój kod QR w nagłówku twoich Przychodów.
+UltimateGenerateReceiptsWithWeightVolume=Display weight and volume column within receipts.
+UltimateGenerateReceiptsWithQtyShipped=Display Shipped quantity column within receipts.
+UltimateGenerateReceiptsWithReliquat=Display remained quantity column within receipts.
+ShowProductsBarcodeInsideDeliveryUltimatepdf=Display products barcode within receipts.
+
+##### contracts #####
+UltimatepdfSpecificContracts=Określone ustawienia kontraktu
+ShowByDefaultBarcodeAtTopInsideContractsUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich Kontraktów.
+ShowByDefaultThirdpartyQRcodeAtTopInsideContractsUltimatepdf=Display the thirdparty barcode at the top of your contracts.
+ShowByDefaultMycompQRcodeAtTopInsideContractsUltimatepdf=Display your QR-code at the top of your contracts.
+ShowByDefaultMergePdfInsideContractsUltimatepdf=Dołącz pliki PDF poprzez połączenie kontraktów.
+UltimateGenerateContractsWithPriceUht=Display unit price without taxes column within contracts.
+UltimateGenerateContractsWithDiscount=Display discount column within contracts.
+UltimateGenerateContractsWithPuAfter=Display unit price after discount column within contracts.
+UltimateGenerateContractlsWithQty=Display quantity column within contracts.
+DisplayRefProjectInsideContractsUltimatepdf=Display reference of project within contracts.
+ShowProductsBarcodeInsideContractUltimatepdf=Display products barcode within contracts.
+
+##### interventions #####
+UltimatepdfSpecificInterventions=Konfiguracja ustawień interwencji
+ShowByDefaultOrderLinkQRcodeAtTopInsideFichinterUltimatepdf=Wyświetlaj kod QR zamówienia w nagłówku twoich interwencji.
+ShowByDefaultBarcodeAtTopInsideFichinterUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich interwencji.
+ShowByDefaultQRcodeAtTopInsideFichinterUltimatepdf=Wyświetlaj kod QR kontrahenta w nagłówku twoich interwencji.
+ShowByDefaultMycompQRcodeAtTopInsideFichinterUltimatepdf=Wyświetlaj twój kod QR w nagłówku twoich interwencji.
+ShowSpecificCodeForEncrajeInsideUltimatepdf=Display some specific code for Encraje company.
+ShowByDefaultColumnDateInsideUltimatepdf=Display date column within intervention.
+ShowByDefaultColumnDurationInsideUltimatepdf=Display duration column within intervention.
+AddResponsableSignatureInsideFichinterUltimatepdf=Add Responsable Signature within Fichinter.
+DisplayRefProjectInsideFichinterUltimatepdf=Display reference of project within projects.
+
+##### expense report #####
+UltimatepdfSpecificExpensereport=Konfiguracja ustawień wydatków
+UltimateGenerateExpensereportWithPriceUht=Display unit price with taxes column within expense report.
+UltimateGenerateExpensereportWithQty=Display quantity column within expense report.
+
+##### supplier order #####
+UltimatepdfHideProductDescWithinSupplierOrders=Ukryj opis produktu w zamówieniach do dostawcy.
+SupplierorderMergePdfSupplierorderActualFile=File(s) merged with supplier order
+SupplierorderMergePdfSupplierorderChooseFile=File(s) to merge with supplier order
+UltimateGenerateSupplierordersWithPriceUht=Display unit price without taxes column within supplier orders.
+AddResponsableSignatureInsideOrdersUltimatepdf=Add the responsable signature within an order.
+AddResponsableSignatureInsideOrdersUltimatepdf=Add the responsable signature within an order.
+DisplayRefProjectInsideOrderUltimatepdf=Display reference of project within an order.
+
+##### supplier invoice #####
+UltimatepdfHideProductDescWithinSupplierInvoices=Ukryj opis produktu w Fakturach Dostawcy.
+ShowByDefaultPhotosInsideSupplierinvoicesUltimatepdf=Wyświetl miniatury zdjęć twoich produktów w ramach twoich Faktur Dostawcy.
+ShowByDefaultBarcodeAtTopInsideSupplierinvoicesUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w nagłówku twoich Faktur Dostawcy.
+ShowByDefaultQRcodeAtTopInsideSupplierinvoicesUltimatepdf=Wyświetlaj kod QR kontrahenta w nagłówku twoich Faktur Dostawcy.
+ShowByDefaultMycompQRcodeAtTopInsideSupplierinvoicesUltimatepdf=Wyświetlaj twój kod QR w nagłówku twoich Faktur Dostawcy.
+HideMysocLogoAndDisplaySupplierNameInstead=Hide my company logo and display the supplier name instead
+
+##### supplier proposals #####
+UltimatepdfHideProductDescWithinSupplierProposal=Ukryj opis produktu w ofertach dostawcy
+HidePaymentTermCondInsideUltimatepdf=Hide payment term and type.
+UltimateGenerateSupplierProposalWithPriceUht=Display unit price without taxes column within supplier proposals.
+UltimateGenerateSupplierProposalWithDiscount=Display discount column within supplier proposals.
+UltimateGenerateSupplierProposalWithPuAfter=Display unit price after discount column within supplier proposals.
+UltimateGenerateSupplierProposalWithQty=Display quantity column within supplier proposals.
+UltimateGenerateSupplierProposalWithWeightColumn=Display Weight column within supplier proposals.
+UltimateGenerateSupplierProposalWithPriceColumn=Display Price column within supplier proposals.
+ShowByDefaultMergePdfInsideSupplierProposalUltimatepdf=Attach pdf files by merging the supplier proposals.
+ShowProductsBarcodeInsideSupplierProposalUltimatepdf=Display products barcode within supplier proposals.
+
+##### projects #####
+SetProjectColumn=Set Project Column
+SetProjectWidth=Set Project Width
+SetProjectWidthDescription=Adjust the size of the project column for expense report either resizing the image, or by entering a value directly in the field (click on the button "Update" to see the image resized).
+UltimatepdfSpecificProject=Specific projects setup
+UltimateGenerateProjectsWithProgress=Display progress column within projects.
+UltimateGenerateProjectsWithDateStart=Display date start column within projects.
+UltimateGenerateProjectsWithDateEnd=Display date end column within projects.
+
+UseBackGround=Wyświetl obraz tła w szablonach
+UseBackGroundDescription=Zdefiniuj tą stałą za pomocą krótkiej nazwy obrazu (na przykład "mójobraz.jpg"), która musi zostać zapisana w katalogu "documents/mycompany/logos". Spowoduje to dodanie tego obrazu tła do wygenerowanych plików PDF. Ostrzeżenie, ta opcja powoduje, że generowanie protokołu TCPDF jest szalone, a niektóre treści znikają za obrazem.
+MasterDesign=Główny szablon
+MasterDesignDesc=To jest szablon domyślny
+UseCompanyNameOfContactInrecipientAddress=Use Company Name Of Contact In recipient Address
+HideBydefaultProductDetailsInsideUltimatepdf=Ukryj wszystkie dane w kolumnach po opisie (VAT, cena, ilość, rabat, suma).
+HideByDefaultProductDescInsideUltimatepdf=Ukryj długi opis w kolumnie opisu.
+HideByDefaultProductRefInsideUltimatepdf=Ukryj odniesienia w kolumnie opisu.
+HideByDefaultProductTvaInsideUltimatepdf=Ukryj kolumnę i kwotę podatku VAT.
+HideBydefaultProductPUHTInsideUltimatepdf=Ukryj kwotę bez podatku
+HideBydefaultProductQtyInsideUltimatepdf=Ukryj ilość.
+HideBydefaultProductTHTInsideUltimatepdf=Ukryj kwotę VAT.
+HideByDefaultBankDetailsInsideUltimatepdf=Ukryj RIB konta bankowego
+HideBydefaultProductVATColumnInsideUltimatepdf=Ukryj kolumnę VAT ale wyświetlaj kwotę VAT w sumie.
+HydeByDefaultColumnOrderedInsideUltimatepdf=Hide ordered column.
+MainUseCompanyNameOfContactInsideUltimatepdf=Użyj nazwy firmy kontaktu wewnątrz ultimatepdf.
+SupplierAddress=Adres dostawcy
+ShowByDefaultDashBetweenLinesInsideUltimatepdf=Dodaj linię kropkowaną pomiędzy wersami produktu/serwisu
+ShowByDefaultPhotosInsideSupplierProposalUltimatepdf=Wyświetl miniatury zdjęć twoich produktów w Ofertach Dostawcy
+ShowByDefaultFoldMarkInsideUltimatepdf=Pokaż punkt składania strony, aby przygotować do wysyłki listownej.
+ShowByDefaultSaleRepSignatureInsideUltimatepdf=Wyświetl podpis upoważnionego przedstawiciela w notatce publicznej.
+ShowByDefaultAgreementBlockInsideUltimatepdf=Wyświetl: "Zatwierdzone i podpisane"
+ShowByDefaultAutoLiquidationInsideProposalsUltimatepdf=Wyświetl autolikwidację w ofertach.
+
+ShowByDefaultBarcodeAtBottomInsideUltimatepdf=Wyświetlaj kod kreskowy kontrahenta w stopce dokumentów.
+ShowByDefaultAutoLiquidationInsideOrdersUltimatepdf=Wyświetl linię "Schemat automatycznego zlikwidowania podwykonawstwa" w zamówieniach
+ShowByDefaultLSLRInsideShipmentsUltimatepdf=Wyświetlaj kolumny LS i LR
+
+ShowBydefaultLineWithTotalTTCInsideUltimatepdf=Wyświetlaj domyślnie pełną kwotę z podatkiem.
+
+ShowByDefaultColumnLineNumberInsideUltimatepdf=Wyświetl kolumnę numerowania wierszy.
+DateDeliveryEstimate=Szacowany termin dostawy.
+HideTvaIntraWithinAddress=Ukryj VAT wewnątrz ciągu adresów
+HideSourceDetails=Ukryj szczegóły ze źródła w polu adresu.
+ShowAlsoTargetDetails=Wyświetl numer telefonu, faxu i adres email jeśli adres kontaktu jest użyty
+ShowAlsoClientDetails=Pokaż numer telefonu, faxu i adres email klienta
+ShowAlsoPublicNoteInSourceAddress=Display public note within source address block.
+ShowAlsoSocieteNoteInSourceAddress=Display private note from societe within source address block.
+SetHeightForFreeText=Zmień wysokość przestrzeni zarezerwowanej dla swobodnego tworzenia tekstu.
+SetHeightForFreeTextDescription=Nie zapomnij ponownie zapisać swojego szablonu (kliknij ikonę w prawym górnym rogu, znajdź szablon w oknie dialogowym, a następnie kliknij OK), jeśli nie zrobisz tego, zmiana nie będzie brana pod uwagę.<br><img src="../img/demo5.png">
+SetFontSizeForFreeText=Zmień wielkość czcionki dla wolnego tekstu.
+SetInvertSenderRecipient=Odwróć odbiorcę nadawcy.
+SetInvertSenderRecipientDescription=Odwróć odbiorcę nadawcy
+SetAddressesBlocks=Ustaw szerokość ramki adresu
+SetAddressesBlocksDescription=Ustaw szerokość ramki nadawcy od 70 do 120 px ramka odbiorcy zwiększy się lub zmniejszy proporcjonalnie
+SenderBlockWidth=Szerokość ramki nadawcy
+SetFooterBloc=Ustawienia stopki
+SetFooterTextcolorByDefault=Ustaw kolor czcionki w stopce
+SetNumberingColumn=Ustawienia kolumny numeracyjnej
+SetNumberingWidth=Ustaw szerokość kolumny numeracyjnej
+NumberingColumnWidth=Szerokość kolumny numeracyjnej
+SetDescColumn=Ustawienia kolumny opisu
+SetDescWidth=Ustaw szerokosć kolumny opisu
+SetDescWidthDescription=Dostosuj wielkość kolumny opisu zmieniając rozmiar obrazka lub wprowadzając wartość bezpośrednio w polu (kliknij przycisk "Aktualizuj", aby zobaczyć zmienioną wielkość kolumny).
+SetUnitColumn=Ustawienia kolumny jednostki.
+SetUnitWidth=Ustaw szerokość kolumny jednostki
+SetUnitWidthDescription=Dostosuj wielkość kolumny jednostki zmieniając rozmiar obrazka lub wprowadzając wartość bezpośrednio w polu (kliknij przycisk "Aktualizuj", aby zobaczyć zmienioną wielkość kolumny).
+SetTvaColumn=Ustaw kolumnę VAT
+SetTvaWidth=Ustaw szerokość kolumny VAT
+SetTvaWidthDescription=Dostosuj wielkość kolumny VAT zmieniając rozmiar obrazka lub wprowadzając wartość bezpośrednio w polu (kliknij przycisk "Aktualizuj", aby zobaczyć zmienioną wielkość kolumny).
+SetUpColumn=Ustawienia kolumny
+SetUpWidth=Ustaw szerokość górnej kolumny
+SetUpWidthDescription=Dostosuj wielkość górnej kolumny zmieniając rozmiar obrazka lub wprowadzając wartość bezpośrednio w polu (kliknij przycisk "Aktualizuj", aby zobaczyć zmienioną wielkość kolumny).
+SetQtyColumn=Ustaw kolumnę ilości
+SetQtyWidth=Ustaw szerokość kolumny ilości
+SetQtyWidthDescription=Dostosuj wielkość kolumny ilości zmieniając rozmiar obrazka lub wprowadzając wartość bezpośrednio w polu (kliknij przycisk "Aktualizuj", aby zobaczyć zmienioną wielkość kolumny).
+SetDiscountColumn=Ustaw kolumnę rabatu
+SetDiscountWidth=Ustaw szerokość kolumny rabatu
+SetDiscountWidthDescription=Dostosuj wielkość kolumny rabatu zmieniając rozmiar obrazka lub wprowadzając wartość bezpośrednio w polu (kliknij przycisk "Aktualizuj", aby zobaczyć zmienioną wielkość kolumny).
+SetRadiusForRoundBorder=Set radius for round border.
+SetRadiusForRoundBorderDescription=You can set radius from 0 (square) to 2 (round)
+PropalMergePdfPropalActualFile=Plik(i) połączone z ofertą
+PropalMergePdfPropalChooseFile=Plik(i) do połączenia z ofertą
+SupplierproposalMergePdfSupplierproposalChooseFile=File(s) to merge with supplier proposal
+SupplierproposalMergePdfSupplierproposalActualFile=File(s) merged with supplier proposal
+InvoiceMergePdfInvoiceActualFile=Plik(i) połączone z fakturą
+InvoiceMergePdfInvoiceChooseFile=Plik(i) do połączenia z fakturą
+OrderMergePdfOrderActualFile=Plik(i) połączone z zamówieniem
+OrderMergePdfOrderChooseFile=Plik(i) do połączenia z zamówieniem
+SupplierorderMergePdfSupplierorderChooseFile=File(s) to merge with supplier order
+SupplierorderMergePdfSupplierorderActualFile=File(s) merged with supplier order
+ContractMergePdfContractActualFile=Plik(i) połączone z kontraktem
+ContractMergePdfContractChooseFile=Plik(i) do połączenia z kontraktem
+SupplierproposalMergePdfSupplierproposalActualFile=File(s) merged with supplier proposal
+SupplierproposalMergePdfSupplierproposalChooseFile=File(s) to merge with supplier proposal
+GotoDocumentsTab=Nie posiadasz jeszcze żadnych dokumentów do połączenia. Idź do zakładki <em> Połączone pliki </em> żeby dodać nowy plik.
+VATNumber=VAT number
+PuAfter=Cena sztuki z rabatem
+AddDesign=Dodaj szablon
+EditDesign=Edytuj szablon
+DesignInfo=Parametry
+PDFColumnForging=Zasady generowania kolumn
+PDFFooterAddressForging=Zasady generowania danych stopki
+SwitchToAnotherDesign=Wybierz inny szablon
+SelectADesign=Wybierz szablon
+SelectAnOtherlogo=Wybierz nowe logo
+OtherlogoDescription=Wybierz prawidłowy obraz jako nowe logo (.jpg, .png). Nie zapomnij ponownie zapisać swojego szablonu (kliknij ikonę w prawym górnym rogu, znajdź szablon w oknie dialogowym, a następnie kliknij OK), jeśli nie zrobisz tego, zmiana nie będzie brana pod uwagę.
+MoreModules=Inne dostępne moduły tego samego autora są dostępne na oficialnej stronie DoliStore
+MoreModulesLink=<a target="_blank" href="https://www.dolistore.com/en/search?controller=search&orderby=position&orderway=desc&search_query=atoo.net&submit_search=">Kliknij tutaj żeby zobaczyć całą listę</a>
+MoreModulesLink2=https://www.dolistore.com/en/search?controller=search&orderby=position&orderway=desc&search_query=atoo.net&submit_search=
+AutoLiquidation1=Schemat automatycznego zlikwidowania podwykonawstwa
+AutoLiquidation2=(CGI ann.II art.242 nonies A.I-I 3°)
+SetImageWidth=Ustaw wielkość kolumny zdjęcia
+SetImageWidthDescription=Ustaw wielkość kolumny zdjęcia (miniatura produktu)
+Numbering=N°
+SetLogoHeigth=Ustaw wielkość loga (wysokość w mm)
+SetLogoHeigthDescription=Ustaw wysokość loga w szerokości 130mm
+TotalQty= Całkowita ilość
+CalculatedWeight=Całkowita waga
+Weight=Waga
+UseAutowrapOnFreeTextInsideUltimatepdf=Użyj autozawijania tekstu.
+DeleteDesign=Usuń szablon
+ConfirmDeleteDesign=Jesteś pewień, że chcesz usunąć ten szablon?
+ConfirmedDesignDeleted=Szablon został usunięty
+ErrorDesignLabelAlreadyExist=Błąd, szablon już istnieje!
+OtherLogo=Nowe logo
+SetPdfMargin=Ustaw marginesy swoich dokumentów
+SetPdfMarginDescription=Ustaw marginesy swoich dokumentów
+SetRefColumn=Ustaw kolumnę odniesienia
+SetRefWidth=Ustaw szerokość kolumny odniesienia
+SetRefWidthDescription=Dostosuj wielkość kolumny odniesienia zmieniając rozmiar obrazka lub wprowadzając wartość bezpośrednio w polu (kliknij przycisk "Aktualizuj", aby zobaczyć wprowadzone zmiany).
+RefWidth=Szerokość kolumny odniesienia
+SetImageColumn=Ustaw kolumnę zdjęcia
+SetDateColumn=Set Date Column
+SetDateWidth=Set Date Width
+SetDateWidthDescription=Adjust the size of the date column for expense report either resizing the image, or by entering a value directly in the field (click on the button "Update" to see the image resized).
+SetTypeColumn=Set Type Column
+SetTypeWidth=Set Type Width
+SetTypeWidthDescription=Adjust the size of the type column for expense report either resizing the image, or by entering a value directly in the field (click on the button "Update" to see the image resized).
+ShowAllLinkedShipmentsInsideUltimatepdf=Show all linked shipments.
+ShowContactAddressBlocksOneAboveTheOther=Show contact address blocks one above the other.
+
+SetFreeTextBloc=Ustawienia tekstu
+ProposalDate=Data oferty
+ActivateProductUnitcolumn=Aktywuj kolumnę z ilością produktów
+RefShort=Ref.
+UltimatepdfUpgradeIsNeeded=Używasz nowej wersji modułu Ultimatepdf, aby aktualizować, dezaktywuj i zrestartuj moduł.
+Reliquat=Pozostało
+BarCodeDataForThirdpartyMissing=Brak kodu kreskowego tego kontrahenta.
+MergePropalProductCardWithinUltimatepdf=Aktywuj w produktach/serwisach w zakładce Załączone Pliki opcję do dołączenia pliku PDF produktu do oferty jeśli produkt/serwis istnieje w ofercie.
+
+SenderBackgroundColorByDefault= Sender background color
+ReceiptBackgroundColorByDefault= Receiver background color
+ColoredBackground= Colored background
+WhiteBackground= White background
+
+##### Bill #####
+DocLCR1=Przeciwko temu rachunkowi
+DocLCR2=Opłata pieniężna
+DocLCR3=Proszę zapłacić podaną kwotę
+DocLCR4=Poniżej w kolejności:
+DocLCR5=Kod waluty
+DocLCR6=Kwota do kontroli
+DocLCR7=Data utworzenia
+DocLCR8=Termin płatności
+DocLCR9=Tylko CSF
+DocLCR10=kwota
+DocLCR11=Kod banku
+DocLCR12=Kod oddziału
+DocLCR13=Numer konta
+DocLCR14=klucz banku
+DocLCR15=debit
+DocLCR16=Akceptacja lub zatwierdzenie
+DocLCR17=wystawiającego
+DocLCR18=Numer SIREN wystawiającego
+DocLCR19=Podpis wystawiającego
+DocLCR20=Nie pisz poniżej tej lini
+
+##### Order #####
+DocORDER1=Ustalone i zatwierdzone :
+DocORDER2=Podpisanie tej ofery przez klienta równa się z jej akceptacją.
+DocORDER3=Data: ___ / ___ / ______ o: ________________
+MadeTo=Made to:
+The=The
+DocORDER4=Pieczęć i podpis klienta
+DocORDER5=Pieczęć i podpis mówcy
+
+##### Azoled #####
+AllStufStayOnPlace=* Wszystkie zastąpione materiały pozostają u klienta
+AgreeWith=Deklaruje zgodę na wykonanie pracy i ogólne warunki
+CustomerOrWhatelse=Klient albo jego przedstawiciel : …………………………………………
+SignatureFrNl=Podpis : ……………………………………………………………………………………………
+NewAppointment=Przedstaw nowe spotkanie
+TestedAndOrder=Instalacja przetestowana i w porządku
+InterDate=Data
+InterDeplacement=podróż wliczona
+InterHeures=Godziny
+InterAttenteNote=Oczekiwania i Opinie
+#InterRemarques=Fedback
+ReplacedMaterial=Wymieniony materiał
+ArtCode=Kod art.
+CustomerInformation= Informacje klienta
+
+##### Encraje #####
+AutorisationShowComment=I authorize ENCRAJE to post this comment in my name
+
+

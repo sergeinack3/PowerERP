@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="PowerERP (PSR2)">
+ <description>The PSR2 standard with PowerERP quirks.</description>
+
+ <!-- Include the whole PSR2 standard -->
+ <rule ref="PSR2">
+     <!-- Code can be indented with tabs -->
+     <exclude name="Generic.WhiteSpace.DisallowTabIndent" />
+     <!-- PowerERP don't support namespacing (yet) -->
+     <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace" />
+ </rule>
+</ruleset>

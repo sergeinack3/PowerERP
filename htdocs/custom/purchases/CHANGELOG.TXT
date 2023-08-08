@@ -1,0 +1,26 @@
+=====================================
+        PURCHASES MODULE CHANGELOG
+=====================================
+
+== 2017-11-30 v 1.4
+ - added french translation
+
+== 2017-11-30 v 1.3
+ - supplier quotation form: added name of country languages on the tooltips of the flag buttons
+ - purchase edit page: removed the numbers from the status circles on the list of products. They were confusing.
+
+== 2017-11-29 v 1.2
+ - added polish translation
+ - fixed grammatical issues on english translation
+ - made compatible the module with /custom install
+ - fixed an error when the module Projects is not enabled on PowerERP
+
+== 2017-11-20 v 1.1
+ - first version
+
+
+=====================================
+        TODO
+=====================================
+
+ - product thumbnail on quotation form... it's a great idea.

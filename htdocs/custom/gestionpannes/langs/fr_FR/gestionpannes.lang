@@ -1,0 +1,167 @@
+
+Gestiondespannes = Gestion des pannes
+ModuleDesc = Gestion des pannes, Liste des affectations, Générer l'état d'affectation ...
+BackToModuleList=Retour à la liste des modules
+
+gestionpannesSetup = Configuration du module portail Nom du Module
+
+gestionpannes=Gestion des pannes
+
+# DROITS
+Permission_label=Permission label
+
+
+# MENU
+
+GestionPannes=Gestion des pannes
+paramere=Paramétrage
+typepanne=Type de panne
+Type_urgent=Type d'urgence
+Liste_des_gestionpannes=Liste des affectations
+add_affectation =Nouvelle affectation
+edit_affectation =Modifier une affectation
+Etat_un_affectation=Générer l'état d'affectation 
+material=
+Etat_materia = État du Material
+date_creation= Date d'affectation
+date_fin=Date fin
+dure=Durée
+affectation = Affectation
+fk_user=Utilisateur
+
+Ref_l=Réf
+ref=Réf
+material=Matériel  
+user=Utilisateur
+guide_intervention=Guide
+guide_solution=Guide
+descreption_l=Description
+descreption=Description
+rechercher_l=rechercher
+resultat=Résultat
+#create
+objet=Objet
+date=Date
+
+gestion_affectation = Gestion des affectations
+Date_ffectation=Date d'affectation 
+Datfi_fectation=Date fin d'affectation 
+Etat_aterial=État du Materiel 
+descreption=Descreption 
+photos_avant_affectation=Photos du matériel avant Affectation
+photo_apres_affectation=Photo Après l'affectation 
+
+#show
+
+ref_chow=Réf	
+choisir_un_material_show=Matériel 
+utilisateur=Utilisateur
+Date_Affectation=Date d'affectation
+Date_fin_Affectation = Date fin
+la_duree=La durée
+Etat_material = État du Matériel 
+descreption	= Description
+Pho_du_mnt_Aff=Photos du matériel Avant Affectation
+Pho_ap=Photos du matériel aprés affectation
+#edit
+
+etatt = État
+ref_chow=Réf	
+choisir_un_material_showe=Choisir un matériel
+utilisateure=Utilisateur
+Date_Affectatione=Date d'affectation
+Date_fin_Affectatione = Date fin
+
+Etat_materiale = État du Matériel 
+descreption	= Description
+Pho_du_mnt_Affe=Photos du matériel avant affectation
+Pho_apf=Photos du matériel aprés affectation
+
+#etataffe
+menuetat=Exporter l'état d'affectation (Historique des affectations du matériel aux personnels)
+# CARD
+msgconfirmdelet=Êtes-vous sûr de vouloir continuer la suppression?
+#pdf
+utilisateurp=Utilisateurs
+Date_Affectationp=Date d'affectation
+Date_fin_Affectationp = Date fin
+la_dureep=Durée
+materialp = État d'affectation 
+utilis=Chronologies des affectations de l'année 
+utilis1=Chronologies des affectations 
+utilis3=Chronologies des affectations
+list_photo=Photos du matériel avant affectation
+list_photoapr=Photos du matériel aprés affectation
+#panne
+utiilisateur=Utiilisateur
+maat=Matériel
+add_panne=Nouvelle Panne
+edit_panne=Modifier une Panne
+show_panne=Panne
+objet_panne=Objet de Panne
+date_panne=Date du Panne
+listpanne=Liste des Pannes
+typepanne=Type de Panne
+typeurgent=Niveau d'urgence
+etatpanne=État 
+#responsable_maintenance
+respo_main=Responsable de maintenance
+
+ajou_respo=Ajouter un responsable
+list_respo=Liste des responsables de maintenance
+nom_respo=Nom de responsable
+responsable=Responsable  de maintenance
+add_responsable = Nouveau responsable de maintenance
+edit_responsable = Modifier un responsable de maintenance
+utilisateurs= Les utilisateurs
+#typeurgent
+
+niveau_urgence=Niveau d'urgence
+#typepanne
+types_de_pannes =Liste des Types de Pannes 
+#ajoutpanetypr
+ajouter_panne=Ajouter Type de Panne
+list_panne=Liste de Pannes
+type_de_panne = Type de panne
+edit_type_pannes = Modifier un Type de panne
+add_type_pannes  = Nouveau Type de panne
+#piecederechange
+pcerech=Pièces de Rechange
+pcerechj=Pièce de Rechange
+add_piece=Ajouter une Pièce de Rechange
+edit_piece=Modifier une Pièce de Rechange
+piece_list=Liste des pièces de Rechange
+ref=Réf
+materiel=Matériel 
+quantite=Quantité
+datmplacement=Date de Remplacement
+commantaire=Commantaire
+add_niveau = Nouveau niveau d'urgence
+edit_niveau = Modifier un niveau d'urgence
+
+list_solution = Liste des solutions
+solution = Solution
+add_solution = Nouvelle solution
+edit_solution = Modifier une solution
+
+parametrage = Paramétrage
+liste_materiel=Liste des matériels
+list_interventions=Liste des interventions
+general=Générale
+interventions=Interventions
+solutions=Les solutions
+intervention=Intervention
+edit_intervention=Modifier une intervention
+add_intervention=Nouvelle intervention
+panne = Panne
+
+cree_typepanne = Ajouter un type
+cree_typeurgent = Ajouter un niveau
+dure/jours = Durée/Jours
+add_pieces = Nouvelle pièce
+
+date_remplace = Date de remplacement
+Valide = Valider
+
+choix_materiel = Choisir le matériel
+

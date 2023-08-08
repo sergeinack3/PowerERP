@@ -1,0 +1,180 @@
+#payrollmodpage span.payrollsearchbutton {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+#payrollmodpage span.payrollsearchbutton > input {
+    vertical-align: middle;
+}
+
+.payrollcalculdesalaire > div.tablesalaire {
+    border: 1px dashed #e9eaed;
+}
+
+.payrollcalculdesalaire > div.tablesalaire th.payrollemptyline {
+    background-color: #e9eaed;
+    border: 1px solid #e9eaed;
+    padding: 0 !important;
+    width: 7px;
+    max-width: 3px;
+    min-width: 3px;
+}
+.payrollcalculdesalaire tr.breakline td {
+    background-color: #e9eaed;
+    padding: 2px;
+    height: 15px;
+}
+.payrollpaiediv .recalculpaie {
+    text-align: center;
+    margin-bottom: 15px;
+    /*display: none;*/
+}
+.payrollpaiediv td.td_total input[readonly] {
+    background-color: #e9eaed;
+    font-size: 11px;
+    text-align: right;
+}
+
+.payrollpaiediv .footertable input {
+    width: 72px;
+}
+.payrollpaiediv .footertable th {
+    font-weight: bold;
+}
+.payrollpaiediv .payrollreposr span {
+    margin: 0 15px;
+}
+/*.payrollpaiediv td.td_amount
+,.payrollpaiediv td.td_total 
+,.payrollpaiediv td.td_defaultpart 
+,.payrollpaiediv td.td_code 
+,.payrollpaiediv td.td_taux  
+{
+    width: 110px;
+}*/
+
+.payrollpaiediv td.td_action .removerule:hover{
+    background-color: #fff;
+}
+
+.payrollcalculdesalaire input.designation{
+    width: calc(100% - 16px);
+    min-width: 240px;
+}
+.payrollpaiediv td.td_action  
+{
+    width: 27px;
+    padding: 0 3px;
+}
+.payrollpaiediv td.td_action .removerule{
+    cursor: pointer;
+    display: block;
+    line-height: 27px;
+    height: 27px;
+    width: 27px;
+    border-radius: 3px;
+}
+.payrollpaiediv td.td_category {
+    width: 76px;
+    padding: 0;
+}
+.payrollpaiediv td.td_engras {
+    width: 50px;
+    padding: 0;
+}
+.payrollpaiediv td.td_gainretenu {
+    width: 45px;
+    padding: 0;
+}
+.payrollpaiediv td.td_defaultpart {
+    width: 86px;
+    padding: 0;
+}
+.payrollpaiediv th.payrolltaux {
+    padding: 0;
+}
+.payrollpaiediv td.td_total input
+,.payrollpaiediv td.td_amount  input
+{
+    width: 92px;
+    padding: 5px 3px;
+    font-size: 11px;
+    text-align: right;
+}
+.payrollpaiediv td.td_total, .payrollpaiediv td.td_amount {
+    width: 104px;
+    padding: 0 3px;
+    white-space: nowrap;
+}
+.payrollpaiediv td.td_code input {
+    width: 35px;
+    padding: 5px 3px;
+}
+.payrollpaiediv td.td_code {
+    width: 35px;
+    padding: 0 3px;
+}
+.payrollpaiediv td.td_taux input {
+    width: 66px;
+    padding: 5px 2px;
+    font-size: 11px;
+    text-align: right;
+}
+.payrollpaiediv td.td_taux {
+    width: 66px;
+    padding: 0 3px;
+}
+.payrollpaiediv td.td_amount .info {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+}
+.payrollpaiediv td.td_amount {
+    position: relative;
+}
+.payrollpaiediv tr:not("BASIQUE") td.td_amount input[readonly] {
+    background-color: #ddf0f3;
+}
+.payrollpaiediv tr.BASIQUE input[readonly] {
+    background-color: #e9eaed;
+}
+.payrollconfigurationmod img.watermarkimg{
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    max-width: 800px;
+    margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payrollpaiediv td.td_amount.frombase {
+    background-color: #ddf0f3;
+}
+
+.payrollpaiediv td.td_amount.fromsbi {
+    background-color: #dcf9dd;
+}
+.payrollpaiediv td input[readonly] {
+    cursor: no-drop;
+}
+
+.payrollpaierulesdiv .amounttype
+{
+    margin-right: 15px;
+}
+.payrollpaierulesdiv tr.titlepartsalpatr td {
+    font-weight: bold;
+    background-color: #daebe1;
+    padding-left: 10px;
+}

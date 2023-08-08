@@ -1,0 +1,8 @@
+# PowerERP language file - it_IT - notiftask 
+CHARSET=UTF-8
+
+descripcio_notiftask = Invia un e-mail a chi viene assegnato il task - ADQA
+subject_notif = Ti ho assegnato un task 
+textmail1 = Ti è stato assegnato il seguente task
+textmail2 = fa parte del progetto
+missatgenotif = Messaggio di notifica inviato

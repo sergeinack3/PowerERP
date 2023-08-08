@@ -1,0 +1,95 @@
+# Copyright (C) 2018 Admin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModulecrmenhancedName'
+ModulecrmenhancedName = CRM Enhanced
+# Module description 'ModulecrmenhancedDesc'
+ModulecrmenhancedDesc = Advanced CRM features
+
+#
+# Admin page
+#
+crmenhancedSetup = CRM Enhanced setup
+Settings = Settings
+crmenhancedSetupPage = CRM Enhanced setup page
+CRMENHANCED_MAIL_MODALITY = Mode for sending Mail
+CRMENHANCED_MAIL_MODALITYTooltip = Indicates the code used in the "Activity mode" table for the mailing activity
+CRMENHANCED_SMS_MODALITY = Mode for sending SMS
+CRMENHANCED_SMS_MODALITYTooltip = Indicates the code used in the "Activity mode" table for the SMS activity
+CRMENHANCED_DEFAULT_STATUS = Default state
+CRMENHANCED_DEFAULT_STATUSTooltip = Indicates the default status for sending Mail and SMS
+CRMENHANCED_DEFAULT_OBJECT = Default object
+CRMENHANCED_DEFAULT_OBJECTTooltip = Indicates the default object for sending Mail and SMS
+
+#
+# About page
+#
+About = About
+crmenhancedAbout = About CRM Enhanced
+crmenhancedAboutPage = CRM Enhanced about page
+
+#
+# Permissions
+#
+Permission220810=Access/Read
+Permission220811=View campaigns
+Permission220812=Create campaigns
+Permission220813=View activity
+Permission220814=Create activity
+PPermission220814=Delete activity
+
+
+#
+# Other
+#
+crmenhanced = CRM Enhanced
+Campaigns=Campaigns
+NewCampaign=New Campaign
+Campaign=Campaign
+DeleteCampaign=Delete Campaign
+ConfirmDeleteCampaign=Do you confirm the cancellation of the campaign?
+CannotDeleteUsedCampaign=The campaign is in use in other tables. Impossible to delete
+ActivityMode=Activity mode
+ActivityObject=Object of the activity
+ActivityStatus=Activity states
+ActivityList=Activity List
+ShowActivity=Show Activity
+Outcoming=Out	
+Incoming=In
+ActivitiesList=Activities List
+Mode=Mode
+Object=Object
+NextOwner=Next action assigned to
+NextDate=Next action date
+NextNote=Next action nite
+NewActivity=New Activity
+Activity=Activity
+DeleteActivity=Delete Activity
+ConfirmDeleteActivity=Do you really want to cancel the activity?
+BackToActivityList=Back to the activity list
+ActivityStats=Activity statistics
+ExportCSV=Export to csv
+ExportExcel=Export to Excel
+ExportExcel2007=Export to Excel 2007
+ExportTitle=Export Activity	
+CreateAgenda=Event creation
+CreateNextAgenda=Next Event creation
+ConfirmCreateAgendaEvent=Confirm the creation of the event for the
+ScheduledActivity=Scheduled activity
+

@@ -1,0 +1,436 @@
+# PowerERP language file - en_US - ultimatepdf
+CHARSET=UTF-8
+Module300100Name=UltimatePDF
+Module300100Desc=PDF Modelle Verwaltung
+Module300100DescLong=<img src="https://www.dolistore.com/2663-large_default/ultimatepdf-4-0.jpg"><br>"Original Schweizer Armeemesser" zum Anpassen iher Dokumente (Aufträge, Lieferungen, Rechnungen, Angebote, Lieferantenbelege, Projekte Verträge ...). Mit dem Administrationsmodul können Sie Ihre persönlichen Grafikschema und zahlreiche weitere Einstellungen verwalten.
+
+
+##### Module #####
+PdfDesignsManagement=PDF Modelle Verwaltung
+UseTopMenuAccessForUltimatepdfSetup=Verwenden Sie den Top-Menü Zugriff für das UltimatePDF-Setup.
+PDFUltimate_propal1Description=vollständige Angebots-Vorlage  (Logo...)
+PDFUltimate_propal2Description=vollständige Angebots-Vorlagel  (Spalten: Rabatt, Stückpreis mit Rabatt ...)
+PDFUltimate_weightPropal1Description=vollständige Angebots-Vorlage (mit Spalte Produktgewicht)
+PDFUltimate_order1Description=vollständige Auftrags-Vorlage (Logo...)
+PDFUltimate_order2Description=vollständige Auftrags-Vorlage (Spalten: Rabatt, Stückpreis mit Rabatt ...)
+PDFUltimate_weightOrder1Description=vollständiges Auftrags-Vorlage  (mit Spalte Gewicht)
+PDFUltimate_invoice1Description=vollständige Rechnungs-Vorlage (Vorlage mit LCR)
+PDFUltimate_invoice2Description=vollständige Rechnungs-Vorlage (Spalten: Rabatt, Stückpreis mit Rabatt ...)
+PDFUltimate_weightInvoice1Description=vollständige Rechnungs-Vorlage (mit Spalte Gewicht)
+DocumentDesignUltimate_shipment=vollständige Versandvorlage
+DocumentDesignUltimate_receipt=vollständigeres Dokumentenmodell für Empfangs- / Zustellbelege (Logo ...)
+UltimatepdfSetup=UltimatePDF Moduleinstellungen
+BackgroundColorByDefault=Hintergrundfarbe
+SetOpacityForBackgroundColor=Deckkraft für die Hintergrundfarbe einstellen
+SetOpacityForBackgroundColorDescription=Deckkraft einstellen von 0 bis 1  (Standardwert ist 0.5)
+BorderColorByDefault=Randfarbe
+TextcolorByDefault=Textfarbe
+QRcodeColorByDefault=QR-Code Farbe
+SetBorderToDashDotted=Einstellungen Ränderlinie
+ContinuousLine=durchgehende Linie
+DottedLine=gepunktete Linie
+Bgcolor=Hintergrundfarbe
+Dashdotted=gepunktete Linie
+Bordercolor=Randfarbe
+Textcolor=Textfarbe
+Footertextcolor=Fußtextfarbe
+CreateModel=Erstelle ein Modell
+CreateYourModel=Erstelle dein Modell
+SetUpHeader=Einstellungen Kopfzeile
+SetCoreBloc=Einstellungen Kernbereich
+DoNotRepeatHeadInsideUltimatepdf=Kopfzeile nicht wiederholen, wenn mehr als eine Seite vorhanden ist
+SetFontToWhatYouWant=Stellen Sie die gewünschte Schriftart ein
+SetFontToWhatYouWantDescription=Sie können beispielsweise die DejaVuSans-Schriftart für UTF8-Sprachen verwenden (z. B. Kyrillisch). <br> Vergessen Sie nicht, Ihr Modell erneut zu registrieren (klicken Sie auf das Symbol oben rechts, suchen Sie Ihr Modell im Dialogfeld, und klicken Sie dann auf OK) sonst werden die Änderungen  nicht berücksichtigt. <br> <img src = "../ img / demo4.png">
+SelectWithRef=Zeigen die Referenzspalte an
+SelectWithRefDescription=Vergessen Sie nicht, Ihr Modell erneut zu registrieren (klicken Sie auf das Symbol oben rechts, suchen Sie Ihr Modell im Dialogfeld und klicken Sie auf OK). Andernfalls wird die Änderung nicht berücksichtigt.
+SelectWithoutVatDescription=Vergessen Sie nicht, Ihr Modell erneut zu registrieren (klicken Sie auf das Symbol oben rechts, suchen Sie Ihr Modell im Dialogfeld und klicken Sie auf OK). Andernfalls wird die Änderung nicht berücksichtigt.
+DesignsManagement=Modellverwaltung
+UltimatepdfDesigns=Modelle
+UltimatepdfMiscellaneous=sonstige Einstellungen
+AddCgvToDocumentsInsideUltimatepdf=Fügt die Möglichkeit hinzu, Ihre AGB automatisch an PDF-Dokumente anzuhängen (Rechnungen, Angebote, Bestellungen)
+NoPDFFileFound=Momentan wurden keine PDF-Dateien im Verzeichnis gefunden
+ConcatenateFile = Fügen Sie die AGB zum PDF hinzu
+IAcceptTheTermsOfThisAgreement=I accept the terms of this agreement
+DrawYourSignature=Draw your signature
+DrawIt=Draw It
+Clear=Clear
+ShowIntraVatInAddress=Show Intra-Vat into sender address
+VATIntra=VAT ID
+VATIntraShort=VAT ID
+NumShort=N°
+CustomerCode=Customer code
+On=On
+OtherLogoName=Give it a name
+ErrorUserSignatureFileNotFound=1) You forgot to select a person in charge's signature \n2) Your user has no signature configured
+ErrorSignatureFileNotFound=\n3) File %s not found (Bad path, wrong permissions or access denied by PHP openbasedir or safe_mode parameter)
+SelectAnAliasCompanyName= Select an alias company name
+AliasCompanyName= Other name
+SelectAliasInformation= Select other informations
+AliasCompanyAddress= Select an other company address
+AliasCompanyZip= Select an other company Zip
+AliasCompanyTown= Select an other company Town
+AliasCompanyCountry= Select an other company country
+AliasCompanyPhone= Select an other company phone
+AliasCompanyFax= Select an other company fax
+AliasCompanyEmail= Select an other company email
+AliasCompanyUrl= Select an other company Url for site
+
+##### invoices #####
+UltimatepdfSpecificInvoices=spezielle Einstellungen für Rechnungen
+ShowByDefaultPhotosInsideInvoiceUltimatepdf=zeige Miniaturbilder der Produkte in Rechnungen an
+ShowProductsBarcodeInsideInvoiceUltimatepdf=zeige Produktbarcodes in Rechnungen an
+ShowByDefaultBarcodeAtTopInsideInvoicesUltimatepdf=zeige Geschäftspartner-Barcode in Rechnungen oben an
+ShowByDefaultQRcodeAtTopInsideInvoicesUltimatepdf=zeige Geschäftspartner-QR-Code in Rechnungen oben an
+ShowByDefaultMycompQRcodeAtTopInsideInvoicesUltimatepdf=zeige Firmen-QR-Code in Rechnungen oben an
+ShowByDefaultAutoLiquidationInsideInvoicesUltimatepdf=Zeigen Sie in Ihren Rechnungen die Zeile "Selbstliquidationsschema des Outsourcings" an.
+ShowByDefaultMergePdfInsideInvoicesUltimatepdf=Fügen Sie PDF-Dateien hinzu, indem Sie die Rechnungen zusammenführen.
+ShowOutstandingBillsInsideInvoicesUltimatepdf=Zeige offene Beträge in Rechnungen an
+ActivateSituationInvoicesInsideInvoicesUltimatepdf=Rechnungsstatus anzeigen
+UltimateGenerateInvoicesWithPriceUht=zeige Stückpreis ohne Steuer in Rechnungen
+UltimateGenerateInvoicesWithDiscount=zeige Rabattspalte in Rechnungen
+UltimateGenerateInvoicesWithPuAfter=zeige rabattierten Stückpreis in Rechnungen
+UltimateGenerateInvoicesWithQty=zeige Mengenspalte in Rechnungen
+UltimateGenerateInvoicesWithWeightColumn=zeige Gewichtsspalte in Rechnungen
+AddCapabilitiesToConvertAmountsIntoFullTextInsideInvoicesUltimatepdf=Fügen Sie Funktionen hinzu, um Beträge und Zahlen in Volltext umzuwandeln.
+StopTheBillAtSumOf=Stoppen Sie die Rechnung bei der Summe von:
+YouShouldSetUpCustomerDefaultLanguage=Sie sollten die Standardsprache des Kunden festlegen.
+AddResponsableSignatureInsideInvoicesUltimatepdf=Add the responsable signature within invoices
+DisplayRefProjectInsideInvoicesUltimatepdf=Display reference of project within invoices.
+HideInvoicePaymentInsideInvoicesUltimatepdf=Hide already paid amount within invoice.
+
+##### orders #####
+UltimatepdfSpecificOrders=spezielle Einstellungen für Aufträge
+ShowByDefaultPhotosInsideOrderUltimatepdf=Zeige Miniaturbilder der Produkte in Aufträgen an
+ShowProductsBarcodeInsideOrderUltimatepdf=zeige Produkte-Barcode in Aufträgen
+ShowByDefaultBarcodeAtTopInsideOrdersUltimatepdf=zeige Geschäftspartner-Barcode in Aufträgen oben an
+ShowByDefaultOrderLinkQRcodeAtTopInsideOrdersUltimatepdf=zeige Auftrags-Link-QR-Code in Aufträgen oben an
+ShowByDefaultQRcodeAtTopInsideOrdersUltimatepdf=zeige Geschäftspartner-QR-Code in Aufträgen oben an
+ShowByDefaultMycompQRcodeAtTopInsideOrdersUltimatepdf=zeige Firmen-QR-Code in Aufträgen oben an
+ShowByDefaultAutoLiquidationInsideOrdersUltimatepdf=Zeigen Sie in Ihren Aufträgen die Zeile "Selbstliquidation-Outsourcing-Schema" an.
+ShowHideAllPricesInsideOrdersUltimatepdf=Zeige oder verstecke alle Preise innerhalb von Kundenaufträgen
+ShowByDefaultMergePdfInsideOrdersUltimatepdf=Fügen Sie PDF-Dateien hinzu, indem Sie die Kundenaufträgen zusammenführen.
+UltimateGenerateOrdersWithPriceUht=Anzeige des Stückpreises ohne Steuerspalte in Kundenaufträgen
+UltimateGenerateOrdersWithDiscount=Anzeigen der Rabattspalte in Kundenaufträgen
+UltimateGenerateOrdersWithPuAfter=Stückpreis nach Rabatt in Kundenaufträgen anzeigen
+UltimateGenerateOrdersWithQty=Mengenspalte in Kundenaufträgen anzeigen
+UltimateGenerateOrdersWithWeightColumn=Gewichtsspalte in Kundenaufträgen anzeigen
+DisplayRefProjectInsideOrderUltimatepdf=Display reference of project within an order.
+
+##### proposals #####
+UltimatepdfSpecificProposals=spezielle Einstellungen für Angebote
+UltimatepdfSpecificSupplierProposals=spezielle Einstellungen für Lieferantenanfragen
+ShowByDefaultPhotosInsidePropalUltimatepdf=zeige Miniaturbilder der Produkte in Angeboten an
+ShowProductsBarcodeInsidePropalUltimatepdf=Zeige den Produkt-Barcode in Angeboten an
+ShowByDefaultMergePdfInsideProposalsUltimatepdf=Fügen Sie PDF-Dateien hinzu, indem Sie das kommerzielle Angebot zusammenführen.
+ShowByDefaultBarcodeAtTopInsidePropalUltimatepdf=zeige Geschäftspartner-Barcode in Angeboten oben an
+ShowByDefaultQRcodeAtTopInsidePropalUltimatepdf=zeige Geschäftspartner-QR-Code in Angeboten oben an
+ShowByDefaultMycompQRcodeAtTopInsidePropalUltimatepdf=zeige Firmen-QR-Code in Angeboten oben an
+ShowMergedPdfFromProductsInsideProposalsUltimatepdf=Zeigen Sie zusammengeführte PDF-Dateien aus Produkten in Angeboten an.
+UltimateGenerateProposalsWithPriceUht=zeige Stückpreis ohne Steuern in Angeboten an
+UltimateGenerateProposalsWithDiscount=zeige Rabattspalte in Angeboten an
+UltimateGenerateProposalsWithPuAfter=zeige Stückpreis nach Rabatt in Angeboten an
+UltimateGenerateProposalsWithQty=zeige Mengenspalte in Angeboten an
+UltimateGenerateProposalsWithWeightColumn=zeige Gewichtsspalte in Angeboten an
+ShowByDefaultElectronicSignatureWithinAgreementBlock=Display Electronic Signature Within Agreement Block
+HelpShowByDefaultElectronicSignatureWithinAgreementBlock=By clicking on the ACCEPT / REFUSE button you open a modal window that allows you to have your client sign with his mouse or to refuse the proposal.
+AddResponsableSignatureInsideProposalsUltimatepdf=Add the responsable signature within proposals.
+ThisProposalIsNotSigned=This proposal is not signed
+AddResponsableSignatureInsideProposalsUltimatepdf=Add the responsable signature within proposals.
+ProposalNotSigned=Proposal not signed (Closed)
+CaseFollowedBy=Case followed by
+ShowByDefaultCaseFollowedByInsideProposal=Add Case followed by within proposals note
+DisplayRefProjectInsideProposalsUltimatepdf=Display reference of project within proposals.
+
+##### shipments #####
+UltimatepdfSpecificShipments=spezielle Einstellungen für Lieferungen
+ShowByDefaultPhotosInsideShipmentsUltimatepdf=zeige Miniaturbilder der Produkte in Lieferungen an
+ShowProductsBarcodeInsideShippingUltimatepdf=Display products barcode within Shipments.
+ShowByDefaultOrderLinkQRcodeAtTopInsideShipmentsUltimatepdf=zeige Auftrags-Link-QR-Code in Lieferungen oben an
+ShowByDefaultBarcodeAtTopInsideShipmentsUltimatepdf=zeige Geschäftspartner-Barcode in Lieferungen oben an
+ShowByDefaultBarcodeAtBottomInsideShipmentsUltimatepdf=zeige Geschäftspartner-Barcode in Lieferungen unten an
+ShowByDefaultQRcodeAtTopInsideShipmentsUltimatepdf=zeige Geschäftspartner-QR-Code in Lieferungen oben an
+ShowByDefaultMycompQRcodeAtTopInsideShipmentsUltimatepdf=zeige eigenen Firmen-QR-Code in Lieferungen oben an
+ShowByDefaultColumnWeightVolumeInsideUltimatepdf=zeige Gewichts- & Volumenspalte in Lieferungen an
+UltimateGenerateShipmentsWithWeightVolume=zeige Gewichts- & Volumenspalte in Lieferungen an
+UltimateGenerateShipmentsWithQtyAsked=zeige Spalte "angefragte Menge" in Lieferungen an
+UltimateGenerateShipmentsWithQtyShipped=zeige Spalte "Versandmenge" in Lieferungen an
+UltimateGenerateShipmentsWithReliquat=zeige Spalte "Restmenge" in Lieferungen an
+DisplayRefProjectInsideShipmentUltimatepdf=Display reference of project within shipments.
+
+##### receipts #####
+UltimatepdfSpecificReceipts=Specific receipts setup
+ShowByDefaultPhotosInsideReceiptsUltimatepdf=View thumbnail images of your products within your receipts
+ShowByDefaultBarcodeAtTopInsideReceiptsUltimatepdf=View the thirdparty barcode at the top of your receipts.
+ShowByDefaultQRcodeAtTopInsideReceiptsUltimatepdf=View the thirdparty QR-code at the top of your receipts.
+ShowByDefaultOrderLinkQRcodeAtTopInsideReceiptsUltimatepdf=View the order link QR-code at the top of your receipts.
+ShowByDefaultMycompQRcodeAtTopInsideReceiptsUltimatepdf=View your QR-code at the top of your receipts.
+UltimateGenerateReceiptsWithWeightVolume=Display weight and volume column within receipts.
+UltimateGenerateReceiptsWithQtyShipped=Display Shipped quantity column within receipts.
+UltimateGenerateReceiptsWithReliquat=Display remained quantity column within receipts.
+ShowProductsBarcodeInsideDeliveryUltimatepdf=Display products barcode within receipts.
+
+##### contracts #####
+UltimatepdfSpecificContracts=spezielle Einstellungen für Verträge
+ShowByDefaultBarcodeAtTopInsideContractsUltimatepdf=zeigen Geschäftspartner-Barcode in Verträgen oben an
+ShowByDefaultThirdpartyQRcodeAtTopInsideContractsUltimatepdf=Display the thirdparty barcode at the top of your contracts.
+ShowByDefaultMycompQRcodeAtTopInsideContractsUltimatepdf=Display your QR-code at the top of your contracts.
+ShowByDefaultMergePdfInsideContractsUltimatepdf=Fügen Sie PDF-Dateien hinzu, indem Sie die Verträge zusammenführen.
+UltimateGenerateContractsWithPriceUht=Display unit price without taxes column within contracts.
+UltimateGenerateContractsWithDiscount=Display discount column within contracts.
+UltimateGenerateContractsWithPuAfter=Display unit price after discount column within contracts.
+UltimateGenerateContractlsWithQty=Display quantity column within contracts.
+DisplayRefProjectInsideContractsUltimatepdf=Display reference of project within contracts.
+ShowProductsBarcodeInsideContractUltimatepdf=Display products barcode within contracts.
+
+##### interventions #####
+UltimatepdfSpecificInterventions=spezielle Einstellungen für Serviceaufträge
+ShowByDefaultOrderLinkQRcodeAtTopInsideFichinterUltimatepdf=zeige Auftrags-Link-QR-Code in Serviceaufträgen oben an
+ShowByDefaultBarcodeAtTopInsideFichinterUltimatepdf=zeige Geschäftspartner-Barcode in Serviceaufträgen oben an
+ShowByDefaultQRcodeAtTopInsideFichinterUltimatepdf=zeige Geschäftspartner-QR-Code in Serviceaufträgen oben an
+ShowByDefaultMycompQRcodeAtTopInsideFichinterUltimatepdf=zeige Firmen-QR-Code in Serviceaufträgen oben an
+ShowSpecificCodeForEncrajeInsideUltimatepdf=Display some specific code for Encraje company.
+ShowByDefaultColumnDateInsideUltimatepdf=zeige Spalte 'Datum' in Serviceaufträgen an
+ShowByDefaultColumnDurationInsideUltimatepdf=zeige Spalte 'Dauer' in Serviceaufträgen an
+AddResponsableSignatureInsideFichinterUltimatepdf=Add Responsable Signature within Fichinter.
+DisplayRefProjectInsideFichinterUltimatepdf=Display reference of project within projects.
+
+##### expense report #####
+UltimatepdfSpecificExpensereport=spezifische Einstellungen für Spesenabrechnung
+UltimateGenerateExpensereportWithPriceUht=zeige Spalte 'Stückpreis mit Steuer' in Spesenabrechnung an
+UltimateGenerateExpensereportWithQty=zeigen Spalte 'Menge' in der Spesenabrechnung an
+
+##### supplier order #####
+UltimatepdfHideProductDescWithinSupplierOrders=Produktbeschreibungen in Lieferantenbestellungen ausblenden
+SupplierorderMergePdfSupplierorderActualFile=Datei(en) mit Lieferantenbestellung zusammengeführt
+SupplierorderMergePdfSupplierorderChooseFile=Datei (en) mit Lieferantenbestellung zusammenführen
+UltimateGenerateSupplierordersWithPriceUht=zeige Spalte 'Stückpreis ohne Steuern' in Lieferantenbestellungen an
+AddResponsableSignatureInsideOrdersUltimatepdf=Add the responsable signature within an order.
+AddResponsableSignatureInsideOrdersUltimatepdf=Add the responsable signature within an order.
+DisplayRefProjectInsideOrderUltimatepdf=Display reference of project within an order.
+
+##### supplier invoice #####
+UltimatepdfHideProductDescWithinSupplierInvoices=verberge Produktbeschreibungen in Lieferantenrechnungen
+ShowByDefaultPhotosInsideSupplierinvoicesUltimatepdf=zeige Miniaturbilder der Produkte in Lieferantenrechnungen an
+ShowByDefaultBarcodeAtTopInsideSupplierinvoicesUltimatepdf=zeige Geschäftspartner-Barcode in Lieferantenrechnungen oben an
+ShowByDefaultQRcodeAtTopInsideSupplierinvoicesUltimatepdf=zeige Geschäftspartner-QR-Code in Lieferantenrechnungen oben an
+ShowByDefaultMycompQRcodeAtTopInsideSupplierinvoicesUltimatepdf=zeige Firmen-QR-Code in Lieferantenrechnungen oben an
+HideMysocLogoAndDisplaySupplierNameInstead=Hide my company logo and display the supplier name instead
+
+##### supplier proposals #####
+UltimatepdfHideProductDescWithinSupplierProposal=verberge Produktbeschreibungen in Lieferantenanfragen
+HidePaymentTermCondInsideUltimatepdf=Zahlungsbedingung & -art ausblenden
+UltimateGenerateSupplierProposalWithPriceUht=zeige Spalte 'Stückpreis ohne Steuern' in Lieferantenanfragen an
+UltimateGenerateSupplierProposalWithDiscount=zeige Spalte 'Rabatt' in Lieferantenanfragen an
+UltimateGenerateSupplierProposalWithPuAfter=zeige Spalte 'Stückpreis nach Rabatt' in Lieferantenanfragen an
+UltimateGenerateSupplierProposalWithQty=zeige Spalte 'Menge' in Lieferantenanfragen an
+UltimateGenerateSupplierProposalWithWeightColumn=zeige Spalte 'Gewicht' in Lieferantenanfragen an
+UltimateGenerateSupplierProposalWithPriceColumn=zeige Spalte 'Preis' in Lieferantenanfragen an
+ShowByDefaultMergePdfInsideSupplierProposalUltimatepdf=Fügen Sie PDF-Dateien hinzu, indem Sie die Lieferantenanfragen zusammenführen.
+ShowProductsBarcodeInsideSupplierProposalUltimatepdf=Display products barcode within supplier proposals.
+
+##### projects #####
+SetProjectColumn=Projektspalte festlegen
+SetProjectWidth=Spaltenbreite für Projekte
+SetProjectWidthDescription=Passen Sie die Größe der Projektspalte für die Spesenabrechnung an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe des Bildes zu ändern).
+UltimatepdfSpecificProject=spezielle Einstellungen für Projekte
+UltimateGenerateProjectsWithProgress=zeige die Spalte 'Fortschritt' in Projekten an
+UltimateGenerateProjectsWithDateStart=zeige die Spalte 'Startdatum' in Projekten an
+UltimateGenerateProjectsWithDateEnd=zeige die Spalte 'Enddatum' in Projekten an
+
+UseBackGround=zeige ein Hintergrundbild in den Vorlagen an
+UseBackGroundDescription=Definieren Sie diese Konstante mit dem Kurznamen eines Bildes (Beispiel "myimage.jpg"), das im Verzeichnis "documents / mycompany / logos" gespeichert werden muss. Dadurch wird dieses Hintergrundbild in Ihre generierten PDF-Dateien eingefügt. Achtung, diese Option macht die TCPDF-Generierung verrückt und einige Inhalte sind hinter dem Bild verschwunden.
+MasterDesign=Hauptmodell / Hauptvorlage
+MasterDesignDesc=Das ist das Standardmodell
+UseCompanyNameOfContactInrecipientAddress=Verwende den Firmennamen des Kontakts in der Empfängeradresse
+HideBydefaultProductDetailsInsideUltimatepdf=Verberge alle Daten in den Spalten, die der Beschreibung folgen (MwSt.,  Preis, Menge, Rabatt, Gesamtbetrag)
+HideByDefaultProductDescInsideUltimatepdf=blende die lange Beschreibung in der Beschreibungsspalte aus
+HideByDefaultProductRefInsideUltimatepdf=blende die Referenz in der Beschreibungsspalte aus
+HideByDefaultProductTvaInsideUltimatepdf=blende die Spalte Mehrwertsteuer aus
+HideBydefaultProductPUHTInsideUltimatepdf=Betrag ohne Steuer ausblenden
+HideBydefaultProductQtyInsideUltimatepdf=Mengen ausblenden
+HideBydefaultProductTHTInsideUltimatepdf=Mehrwertsteuerbeträge ausblenden
+HideByDefaultBankDetailsInsideUltimatepdf=RIB-Teil des Bankkontos ausblenden
+HideBydefaultProductVATColumnInsideUltimatepdf=nur Spalte 'Mehrwertsteuer' ausblenden, aber die Beträge in der Gesamtsumme anzeigen
+HydeByDefaultColumnOrderedInsideUltimatepdf=Hide ordered column.
+MainUseCompanyNameOfContactInsideUltimatepdf=verwende den Firmennamen des Ansprechpartners in UltimatePDF
+SupplierAddress=Lieferantenadresse
+ShowByDefaultDashBetweenLinesInsideUltimatepdf=eine gepunktete Linie zwischen den Produkt- / Dienstleistungszeilen einfügen
+ShowByDefaultPhotosInsideSupplierProposalUltimatepdf=zeige Miniaturbilder der Produkte in den Lieferantenanfragen an
+ShowByDefaultFoldMarkInsideUltimatepdf=zeige im Drittel der Seite eine Falzmarkierung für den Postversand an
+ShowByDefaultSaleRepSignatureInsideUltimatepdf=Zeige die Unterschrift des zuständigen Vertreters im Bereich der öffentlichen Blocknotiz an
+ShowByDefaultAgreementBlockInsideUltimatepdf=Anzeige Feld "Einverstanden und unterschrieben"
+ShowByDefaultAutoLiquidationInsideProposalsUltimatepdf=zeige Selbstliquidation im Angebot an
+
+ShowByDefaultBarcodeAtBottomInsideUltimatepdf=Zeige den Geschäftspartner-Barcode in Dokumenten unten an
+ShowByDefaultAutoLiquidationInsideOrdersUltimatepdf=Zeigen Sie in Ihren Aufträgen die Zeile "Selbstliquidation-Outsourcing-Schema" an.
+ShowByDefaultLSLRInsideShipmentsUltimatepdf=Anzeigen von LS- und LR-Spalten
+
+ShowBydefaultLineWithTotalTTCInsideUltimatepdf=Standardmäßig Zeile 'Summe mit Steuern' anzeigen
+
+ShowByDefaultColumnLineNumberInsideUltimatepdf=Zeige Spalte mit Zeilennummerierung an
+DateDeliveryEstimate=Voraussichtlicher Liefertermin
+HideTvaIntraWithinAddress=Umsatzsteuer-ID innerhalb von Adressblöcken ausblenden
+HideSourceDetails=Absenderdetails im Adressblock ausblenden
+ShowAlsoTargetDetails=Telefon, Fax und E-Mail anzeigen, wenn eine Kontaktadresse verwendet wird
+ShowAlsoClientDetails=Telefon, Fax und E-Mail des Kunden anzeigen
+ShowAlsoPublicNoteInSourceAddress=Öffentliche Notiz innerhalb des Quelladressblocks anzeigen
+ShowAlsoSocieteNoteInSourceAddress=Private Notiz der Firma innerhalb des Quelladressblocks anzeigen
+SetHeightForFreeText=Ändern Sie die Höhe des für die Ausgabe des freien Texts reservierten Platzes.
+SetHeightForFreeTextDescription=Vergessen Sie nicht, Ihr Modell erneut zu registrieren (klicken Sie auf das Symbol oben rechts, suchen Sie Ihr Modell im Dialogfeld und klicken Sie auf OK). Andernfalls wird die Änderung nicht berücksichtigt. <br> < img src = "../ img / demo5.png">
+SetFontSizeForFreeText=Ändern Sie die Schriftgröße des freien Textes.
+SetInvertSenderRecipient=Vertausche Blöcke Absender & Empfänger
+SetInvertSenderRecipientDescription=Vertausche Blöcke Absender & Empfänger
+SetAddressesBlocks=Stellen Sie die Breite der Adressblöcke ein
+SetAddressesBlocksDescription=Die eingestellte Breite des Absenderadressblocks von 70 bis 120 px Empfängerblock soll proportional vergrößert oder verkleinert werden.
+SenderBlockWidth=Breite des Absender-Block
+SetFooterBloc=Richten Sie den Fußzeilenblock ein
+SetFooterTextcolorByDefault=Richten Sie die Textfarbe für den Fußzeilenblock ein
+SetNumberingColumn=Einrichten der Nummerierungsspalte
+SetNumberingWidth=Stellen Sie die Breite der Nummerierungsspalte ein
+NumberingColumnWidth=Breite der Nummerierungsspalte
+SetDescColumn=Einrichtung der Beschreibungsspalte
+SetDescWidth=Breite der Beschreibungsspalte
+SetDescWidthDescription=Passen Sie die Größe der Beschreibungsspalte an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe der Spalte zu ändern).
+SetUnitColumn=Einrichtung der Einheiten-Spalte
+SetUnitWidth=Breite der Einheiten-Spalte
+SetUnitWidthDescription=Passen Sie die Größe der Einheitenspalte an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe der Spalte zu ändern).
+SetTvaColumn=Einrichtung der Mehrwertsteuer-Spalte
+SetTvaWidth=Breite der Mehrwertsteuer-Spalte
+SetTvaWidthDescription=Passen Sie die Größe der Mehrwertsteuer-Spalte an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe der Spalte zu ändern).
+SetUpColumn=Einrichtung der Stückpreis-Spalte
+SetUpWidth=Breite der Stückpreis-Spalte
+SetUpWidthDescription=Passen Sie die Größe der Stückpreis-Spalte an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe der Spalte zu ändern).
+SetQtyColumn=Einrichtung der Menge-Spalte
+SetQtyWidth=Breite der Menge-Spalte
+SetQtyWidthDescription=Passen Sie die Größe der Mengen-Spalte an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe der Spalte zu ändern).
+SetDiscountColumn=Einrichtung der Rabatt-Spalte
+SetDiscountWidth=Breite der Rabatt-Spalte
+SetDiscountWidthDescription=Passen Sie die Größe der Rabatt-Spalte an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe der Spalte zu ändern).
+SetRadiusForRoundBorder=Stellen Sie den Radius für den runden Rand ein.
+SetRadiusForRoundBorderDescription=Sie können den Radius von 0 (Quadrat) bis 2 (Rund) einstellen.
+PropalMergePdfPropalActualFile=Datei(en) mit Angebot zusammengeführt
+PropalMergePdfPropalChooseFile=Datei(en) um mit Angebot zusammen zuführen
+SupplierproposalMergePdfSupplierproposalChooseFile=Datei(en) um mit Lieferantenanfrage zusammen zuführen
+SupplierproposalMergePdfSupplierproposalActualFile=Datei(en) mit Lieferantenanfrage zusammengeführt
+InvoiceMergePdfInvoiceActualFile=Datei(en) mit Rechnung zusammengeführt
+InvoiceMergePdfInvoiceChooseFile=Datei(en) um mit Rechnung zusammen zuführen
+OrderMergePdfOrderActualFile=Datei(en) mit Auftrag zusammengeführt
+OrderMergePdfOrderChooseFile=Datei(en) um mit Auftrag zusammen zuführen
+SupplierorderMergePdfSupplierorderChooseFile=Datei (en) mit Lieferantenbestellung zusammenführen
+SupplierorderMergePdfSupplierorderActualFile=Datei(en) mit Lieferantenbestellung zusammengeführt
+ContractMergePdfContractActualFile=Datei(en) mit Vertrag zusammengeführt
+ContractMergePdfContractChooseFile=Datei(en) um mit Vertrag zusammen zuführen
+SupplierproposalMergePdfSupplierproposalActualFile=Datei(en) mit Lieferantenanfrage zusammengeführt
+SupplierproposalMergePdfSupplierproposalChooseFile=Datei(en) um mit Lieferantenanfrage zusammen zuführen
+GotoDocumentsTab=Sie haben noch kein Dokument zum Zusammenführen. Gehen Sie zum Tab <em> Verknüpfte Dateien </ em>, um eine neue Datei hinzuzufügen.
+VATNumber=USt-ID-Nummer
+PuAfter=Einzelpreis mit Rabatt
+AddDesign=ein Modell hinzufügen
+EditDesign=ein Modell bearbeiten
+DesignInfo=Parameter
+PDFColumnForging=Regeln zum Zusammenführen von Spalten
+PDFFooterAddressForging=Regeln zum Zusammenführen von Adressfeldern in der Fußzeile
+SwitchToAnotherDesign=ein anderes Modell wählen
+SelectADesign=ein Modell wählen
+SelectAnOtherlogo=Wähle ein neues Logo
+OtherlogoDescription=Wählen Sie ein gültiges Bild als neues Logo (.jpg, .png). Vergessen Sie nicht, Ihr Modell erneut zu registrieren (klicken Sie auf das Symbol oben rechts, suchen Sie Ihr Modell im Dialogfeld und klicken Sie auf OK). Andernfalls wird die Änderung nicht berücksichtigt.\n \n
+MoreModules=Andere Module des Autors sind im offiziellen DoliStore-Shop erhältlich ...
+MoreModulesLink=<a target="_blank" href="https://www.dolistore.com/en/search?controller=search&orderby=position&orderway=desc&search_query=atoo.net&submit_search=">Click here to see full list</a>
+MoreModulesLink2=https://www.dolistore.com/en/search?controller=search&orderby=position&orderway=desc&search_query=atoo.net&submit_search=
+AutoLiquidation1=Selbstliquidationsschema des Outsourcings
+AutoLiquidation2=(CGI ann.II art.242 nonies A.I-I 3°)
+SetImageWidth=Größe der Bildspalte einstellen
+SetImageWidthDescription=Passt die Größe der Bildspalte an (Produkte-Thumbnail)
+Numbering=Nr.
+SetLogoHeigth=Passen Sie die Größe des Logos an (Höhe in mm)
+SetLogoHeigthDescription=Stellen Sie die Höhe des Logos bis zu einer Breite von 130 mm ein.
+TotalQty= Gesamtmenge
+CalculatedWeight=Gesamtgewicht
+Weight=Gewicht
+UseAutowrapOnFreeTextInsideUltimatepdf=automatisches Einfassen für Freitext
+DeleteDesign=Ein Modell löschen
+ConfirmDeleteDesign=Möchten Sie dieses Modell wirklich löschen?
+ConfirmedDesignDeleted=Das Modell wurde gelöscht.
+ErrorDesignLabelAlreadyExist=Fehler, so ein Modell existiert bereits!
+OtherLogo=neues Logo
+SetPdfMargin=Set margins of your documents
+SetPdfMarginDescription=Set margins of your documents
+SetRefColumn=Referenz-Spalte festlegen
+SetRefWidth=Breite Referenz einstellen
+SetRefWidthDescription=Passen Sie die Größe der Referenzspalte an, indem Sie entweder die Bildgröße ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Bildgröße zu ändern).
+RefWidth=Breite Referenz-Spalte
+SetImageColumn=Spalte Bild festlegen
+SetDateColumn=Spalte Datum festlegen
+SetDateWidth=Breite Datum einstellen
+SetDateWidthDescription=Passen Sie die Größe der Datumsspalte für die Spesenabrechnung an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe des Bildes zu ändern).
+SetTypeColumn=Spalte Typ festlegen
+SetTypeWidth=Breite Typ einstellen
+SetTypeWidthDescription=Passen Sie die Größe der Typenspalte für die Spesenabrechnung an, indem Sie entweder die Größe des Bildes ändern oder einen Wert direkt in das Feld eingeben (klicken Sie auf die Schaltfläche "Aktualisieren", um die Größe des Bildes zu ändern).
+ShowAllLinkedShipmentsInsideUltimatepdf=zeige alle verknüpften Lieferungen an
+ShowContactAddressBlocksOneAboveTheOther=Show contact address blocks one above the other.
+
+SetFreeTextBloc=setze Freitextblock
+ProposalDate=Angebotsdatum
+ActivateProductUnitcolumn=Aktiviere die Spalte Produkteinheit
+RefShort=Ref./Nr.
+UltimatepdfUpgradeIsNeeded=Sie verwenden eine neue Version des UltimatePDF-Moduls. \nZum Aktualisieren deaktivieren und reaktivieren Sie das Modul.
+Reliquat=Verbleibend
+BarCodeDataForThirdpartyMissing=Die Barcode-Daten für diesen Partner fehlen.
+MergePropalProductCardWithinUltimatepdf=Aktivieren Sie in 'Produkte | Leistungen'  im Register 'Angehängte Dateien' die Option zum Zusammenführen des PDF-Dokuments des Produkts mit dem PDF-Angebot, wenn das Produkt / der Service im Angebot enthalten ist.
+
+SenderBackgroundColorByDefault= Absender Hintergrundfarbe
+ReceiptBackgroundColorByDefault= Empfänger Hintergrundfarbe
+ColoredBackground= farbiger Hintergrund
+WhiteBackground= weißer Hintergrund
+
+##### Bill #####
+DocLCR1=gegen diese Rechnung
+DocLCR2=Festgelegte Maut
+DocLCR3=Bitte zahlen Sie die angegebene Summe
+DocLCR4=Unten in der Reihenfolge von:
+DocLCR5=Währungscode
+DocLCR6=Kontrollbetrag
+DocLCR7=Erstellungsdatum
+DocLCR8=Fälligkeit
+DocLCR9=nur CSF
+DocLCR10=Betrag
+DocLCR11=Betriebscode
+DocLCR12=Branchencode
+DocLCR13=Konto Nr
+DocLCR14=Hauptbank
+DocLCR15=Lastschrift
+DocLCR16=Annahme oder Genehmigung
+DocLCR17=des Bezogenen
+DocLCR18=SIREN Nummer des Bezogenen
+DocLCR19=Unterschrift des Zeichners
+DocLCR20=Nicht unterhalb dieser Linie schreiben
+
+##### Order #####
+DocORDER1=Einverstanden und unterschrieben:
+DocORDER2=Die Unterzeichnung dieses Angebots durch den Kunden steigert die Akzeptanz.
+DocORDER3=Datum: ___ / ___ / ______  um: ________________
+MadeTo=Made to:
+The=The
+DocORDER4=Stempel und Unterschrift des Kunden
+DocORDER5=Stempel und Unterschrift des Ansprechpartners
+
+##### Azoled #####
+AllStufStayOnPlace=* Alle ausgetauschten Materialien verbleiben beim Kunden
+AgreeWith=Erklärt sich mit den durchgeführten Arbeiten und den allgemeinen Bedingungen einverstanden
+CustomerOrWhatelse=Kunde oder sein Vertreter : …………………………………………
+SignatureFrNl=Unterschrift : ……………………………………………………………………………………………
+NewAppointment=Legen Sie einen neuen Termin fest
+TestedAndOrder=Installation getestet und in Ordnung
+InterDate=Datum
+InterDeplacement=einschließlich Reisen
+InterHeures=Stunden
+InterAttenteNote=Erwartungen & Rückmeldungen
+#InterRemarques=Fedback
+ReplacedMaterial=ersetztes Material
+ArtCode=Code art.
+CustomerInformation= Kundeninformation
+
+##### Encraje #####
+AutorisationShowComment=Ich ermächtige %S diesen Kommentar in meinem Namen zu veröffentlichen
+
+

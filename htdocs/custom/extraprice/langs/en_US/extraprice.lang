@@ -1,0 +1,8 @@
+# PowerERP language file - fr_FR - Extraprice
+CHARSET=UTF-8
+ExtraPriceSetup=Extraprice set-up
+ExtrapriceFormulaSetting=price ponderation fomula set-up
+ExtrapriceFormula=formula
+ExtrapriceExplication='$newprice' is the sale price '$origineprice' is the original price, please read our documentation for other terms.
+MoreModules=Other modules
+MoreModulesLink=Same developper's modules

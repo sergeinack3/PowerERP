@@ -1,0 +1,1 @@
+ALTER TABLE llx_crm_messages ADD CONSTRAINT `fk_message_fk_campaign` FOREIGN KEY (`fk_campaign`) REFERENCES `llx_crm_campaigns` (`rowid`);

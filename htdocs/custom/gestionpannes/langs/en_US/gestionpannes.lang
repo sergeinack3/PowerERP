@@ -1,0 +1,166 @@
+
+Gestiondespannes = Management of breakdowns
+ModuleDesc = Fault Management, Assignment List, Generate Assignment Status ...
+#BackToModuleList = Back to the list of modules
+
+gestionpannesSetup = Portal Module Configuration Module Name
+
+gestionpannes = Management of breakdowns
+
+# DROITS
+Permission_label=Permission label
+
+# MENU
+
+GestionPannes           =  Management of breakdowns
+paramere             	=  Setting
+typepanne=Type of breakdown
+Type_urgent          	=  Type of urgency
+Liste_des_gestionpannes =  List of assignments
+add_affectation         =  New assignment
+edit_affectation        =  Edit assignment
+Etat_un_affectation     =  Generate the assignment status 
+material=
+Etat_materia = State of the Material
+date_creation= Date of assignment
+date_fin= End date
+dure=Duration
+affectation = Assignment
+fk_user=Users
+
+Ref_l=Ref
+ref=Ref
+material=Material  
+user=User
+guide_intervention=Guide
+guide_solution=Guide
+descreption_l=Description
+descreption=Description
+rechercher_l=Searche
+resultat=Result
+etatt = State
+#create
+objet=Object
+date=Date
+
+gestion_affectation = Assignment Management
+Date_ffectation=Date of assignment
+Datfi_fectation=End date of assignment 
+Etat_aterial=State of the Material
+descreption=Descreption 
+photos_avant_affectation=Material Photos Before Assignment
+photo_apres_affectation=Photo After the assignment
+
+#show
+
+ref_chow=Ref	
+choisir_un_material_show=Material
+utilisateur=user
+Date_Affectation=Date of assignment
+Date_fin_Affectation = End date
+la_duree=Duration
+Etat_material = State of the Material
+descreption	= Description
+Pho_du_mnt_Aff=Material Photos Before Assignment
+Pho_ap=Photos of material after assignment
+#edit
+
+
+ref_chow=Ref	
+choisir_un_material_showe=Choose a material
+utilisateure=User
+Date_Affectatione=Date of assignment
+Date_fin_Affectatione = End date
+
+Etat_materiale = State of the Material 
+descreption	= Description
+Pho_du_mnt_Affe=Material Photos Before Assignment
+Pho_apf=Photos of equipment after assignment
+
+#etataffe
+menuetat=Export Assignment Status (Material Assignment History to Personnel)
+# CARD
+msgconfirmdelet=Are you sure you want to continue deleting?
+#pdf
+utilisateurp=Users
+Date_Affectationp=Date of assignments
+Date_fin_Affectationp = End date
+la_dureep=Duration
+materialp =State of assignment
+utilis=Chronologies of assignments of the year
+utilis1=Chronologies of assignments
+utilis3=Chronologies of assignments
+list_photo=Material Photos Before Assignment
+list_photoapr=Photos of material after assignment
+#panne
+utiilisateur=User
+maat=Material
+add_panne=New breakdown
+edit_panne=Edit breakdown
+show_panne=Breakdown
+objet_panne=Object of breakdown
+date_panne=Date of breakdown
+listpanne=List of breakdowns
+typepanne=Type of breakdowns
+typeurgent=Emergency level
+etatpanne=State 
+#responsable_maintenance
+respo_main=Maintenance Manager
+
+ajou_respo=Add a manager
+list_respo=List of maintenance responsible
+nom_respo=Responsible name
+responsable=Maintenance responsible
+add_responsable = New responsible of maintenance
+edit_responsable = Edit the responsible of maintenance
+utilisateurs= Users
+#typeurgent
+
+niveau_urgence=Emergency level
+#typepanne
+types_de_pannes =List of Breakdowns Types 
+#ajoutpanetypr
+ajouter_panne= Add Type of breakdown
+list_panne=List of Breakdowns
+type_de_panne = Type of breakdown
+edit_type_pannes = Modify the Type of breakdown
+add_type_pannes  = New Type of breakdown
+#piecederechange
+pcerech=Spare parts
+pcerechj=Spare parts
+add_piece=Add Spare Part
+edit_piece=Modifiy spare Part
+piece_list=List of spare parts
+ref=Ref
+materiel=Material 
+quantite=Quantity
+datmplacement=Replacement Date
+commantaire=Commantent
+add_niveau = New level of urgency
+edit_niveau = Modify the level of urgency
+
+list_solution = List of solutions
+solution = Solution
+add_solution = New solution
+edit_solution = Modifiy solution
+
+parametrage = Setting
+liste_materiel=List of materials
+list_interventions = List of interventions
+general=General
+interventions=Interventions
+solutions=The solutions
+intervention=Intervention
+edit_intervention=Edit an intervention
+add_intervention=New intervention
+panne = Breakdown
+
+cree_typepanne = Add a type
+cree_typeurgent = Add a level
+dure/jours = Duration / Days
+add_pieces = New piece
+
+date_remplace = Replacement date
+Valide = Valide
+
+choix_materiel = Choose the material

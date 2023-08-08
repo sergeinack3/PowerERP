@@ -1,0 +1,146 @@
+
+
+request_attendc = attendance request
+nopresent = No Attendance
+present = Present
+attendec_employe = Attendance employee
+notavailabl= Not available
+
+
+
+
+# Award
+hrm_award = Rewards Management
+Liste_des_award = list of Rewards
+award_for =  Award
+award_type = Award type
+award_amount = Amount 
+award_date   = Date 
+award_month  = Month
+
+add_award  = Add new award
+edit_award = Edit 
+gift = GIFT
+cash = Cash
+
+# Complaint 
+Liste_des_complain = List Of Complaints
+complainby = Complaint By
+against = Complain against
+hrm_complain = Complaints management
+add_complain = Report a complaint
+new_complain = New complaint
+complain = Complaint
+
+
+#Resignation
+hrm_resignation = Resignation Management
+Liste_des_demissions = List Of Resignation
+add_resignation = Declare a resignation
+notice_date = Notice date
+date_resignation = Resignation date
+resignation_for  = Resignation for
+ModuleName=HRM management
+gestionhrmSetup=HRM module setup management
+ModuleDescgestionhrm=Advanced HR management
+gestionhrm=HRM
+
+#Attendance
+
+hrm_presences = Presence management
+hrm_presence = Presence management
+Liste_des_attendance = List of Presences
+
+in_time = On Time
+out_time = Until the hour
+request_attendc = Declare presence
+presence = Presence
+attendec_employe = Attendance employee
+present =   Present
+nopresent = Absent
+status = Etat
+notavailabl = Unavailable
+all_user = Presence of all employees
+
+
+
+# Warning
+
+hrm_warning = Warning Management
+warning     = Warning
+add_warning = Create a warning
+new_warning = New warning
+Liste_des_warning = List of Warnings
+warningby = Warning by
+against_wrn = Warning against
+
+employe=Employe
+
+#Termination
+
+hrm_termination       = Termination Management
+Liste_des_termination = List of Terminations
+new_termination       = New termination
+termination           = Termination
+date_termination  = Termination Date
+termination_for = Termination for
+Nb_demission_resiliation = Number of Terminations / Resignations
+
+#Promotions
+
+hrm_promotion       = Promotion Management
+Liste_des_promotion = List of Promotions
+
+
+#Holiday
+
+hrm_holiday       = Holiday Management
+Liste_des_holiday = Holiday list
+holiday     = Holiday
+holiday_for = Reason for holiday
+add_holiday = Add a holiday
+duree = Duration (Day)
+
+
+#Dashbord
+
+dashbordhrm  = Dashboard
+Statebordgrh = GRH Statistics
+Statebordhrm = HRM Statistics
+
+presences    = The Presences
+awards       = The Bonuses
+complains    = The complaints
+warnings     = The Warnings
+resignations = The Resignations
+terminations = The Terminations
+holidays     = The holidays
+timeconsm    = Time consumed
+consomtempsbyprojet = The time consumed on the last 5 selected project tasks:
+
+
+draft = Draft Holiday
+approve = Approved holiday
+refuser = Denied holiday
+
+Statebordaward = The last 5 bonuses
+Statebordvacance = The last 5 holidays
+
+Statebordpresenc  = The last 5 presence declarations:
+Nb_notefrais      = Expense Report Statistics
+
+ecv = E-CV
+recrutement = Recruitment
+cv=CV and Letters
+recru_recherche_avancee=Advanced search
+ecv_competences = Skills
+
+WorkingBoardRecrut = The number of applications at each stage compared to the positions
+title_chartrecrut = Applications / Steps
+WorkingBoardcontrat = The last 5 employee contracts:
+
+
+
+contrat_salarie = Employee contracts
+
+Nb_de_complwarn = Number of Complaints / Warnings

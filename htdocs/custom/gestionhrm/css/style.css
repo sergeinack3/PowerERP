@@ -1,0 +1,268 @@
+
+.chartshrm #chartdiv {
+  	width: 100%;
+  	height: 500px;
+}
+
+.chartshrm #chartdiv2 {
+  	width: 100%;
+  	height: 500px;
+}
+
+.chartshrm .contacts {
+  	width: 100%;
+	min-height: 264px;
+}
+
+filter[id*='filter-id-']{
+  /*display: none;*/
+}
+tr.aucun_result_tr_tiers td{
+  height:168px !important;
+}
+.chartshrm div.clear{
+	clear: both;
+}
+path[d=" M6,15  C8.2501,15 9.7498,15.0001 15,15 C20.2502,14.9999 20.7748,3.6 27,3.6 C33.2252,3.6 33.8998,14.9999 39.9,15 C45.9002,15.0001 45.9748,15 51,15 C56.0252,15 57.7499,15 60,15"],
+path[d=" M15,15  C17.4001,15 22.7998,15.0001 27,15 C31.2002,14.9999 33.2999,6 36,6 C38.7001,6 38.6999,10.5 40.5,10.5 C42.3001,10.5 42.2999,6 45,6 C47.7001,6 50.9999,14.9999 54,15 C57.0002,15.0001 58.7999,15 60,15"]
+{
+  /*display: none;*/
+  opacity: 0.2;
+}
+tspan[style="font-weight:bold;font-size: 21.83"] {
+    opacity: 0;
+}
+
+.chartshrm #contentcontacts table th{
+	padding: 6px 0;
+}
+.chartshrm #contacts .choosetier {
+    text-align: center;
+    padding: 12px 0px;
+}
+.chartshrm #contacts .container {
+  /*display: block;*/
+  position: relative;
+  padding-left: 28px;
+  margin-left: 13px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  /*font-size: 22px;*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.chartshrm #contacts .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.chartshrm #contacts .checkmark {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.chartshrm #contacts .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.chartshrm #contacts .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.chartshrm #contacts .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.chartshrm #contacts .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.chartshrm #contacts .container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+
+
+
+
+
+.chartshrm #contentcontacts table td {
+	text-align: center;
+}
+
+.chartshrm div#contacts .contact {
+    padding: 7px 30px;
+}
+.chartshrm div#contacts .contact h3 {
+    margin:0;
+    font-weight: normal;
+}
+.chartshrm span.blue {
+  background: #5178D0;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+
+.chartshrm .m-portlet {
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(81,77,92,0.08);
+    box-shadow: 0px 1px 15px 1px rgba(81,77,92,0.08);
+    background-color: #fff;
+    margin-bottom: 2.2rem;
+    border: 0.1px solid #eaeaea;
+    width: 100%;
+}
+.chartshrm .m-portlet.width50percent.left {
+    margin-right: 10px;
+    float: left;
+    width: calc(50% - 11px)
+}
+.chartshrm .m-portlet.width50percent.right {
+    width: 50%;
+    float: right;
+}
+.chartshrm .m-portlet.width30percent.left {
+    margin-right: 10px;
+    float: left;
+    width: calc(30% - 11px)
+}
+.chartshrm .m-portlet.width70percent.right {
+    width: 70%;
+    float: left;
+}
+.chartshrm .m-portlet__head-text{
+    float: left;
+    margin: 2px 0px
+}
+.chartshrm .m-portlet__head-title .iconimg{
+    float: left;
+    min-width: 30px;
+    text-align: center;
+    margin-right: 5px;
+}
+.chartshrm .m-portlet .m-portlet__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    padding: 0 0.6rem;
+    height: 3rem;
+    position: relative;
+    border-bottom: 1px solid #ebedf2;
+    /*background-color: #4f5c82 !important;*/
+    /*background-color: #3c4664 !important;*/
+    background-color: #3c4664;
+    color: #fff;
+}
+.chartshrm .m-portlet .m-portlet__head .m-portlet__head-caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.chartshrm .m-portlet__body {
+    padding: 6px 3px;
+}
+.chartshrm .m-portlet__body>div:not(.filterstate) {
+    margin: 0 2px;
+    text-align: center;
+}
+
+
+
+.chartshrm .lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 51px;
+  height: 51px;
+}
+.chartshrm .lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  margin: 6px;
+  border: 6px solid #e4e7ef;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #e4e7ef transparent transparent transparent;
+}
+.chartshrm .lds-ring div:nth-child(1) {
+  /*animation-delay: -0.45s;*/
+  animation-delay: -0.50s;
+}
+.chartshrm .lds-ring div:nth-child(2) {
+  /*animation-delay: -0.3s;*/
+  animation-delay: -0.8s;
+}
+.chartshrm .lds-ring div:nth-child(3) {
+  /*animation-delay: -0.15s;*/
+  animation-delay: -0.25s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+#dashbord_hrm .boxstatsindicator img{
+  height: 22px;
+  vertical-align: sub;
+}
+
+#boxhalfleft .boxstatsindicator img{
+  height: 18px !important;
+}

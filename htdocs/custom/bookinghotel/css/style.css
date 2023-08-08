@@ -1,0 +1,599 @@
+@charset "UTF-8";
+
+div#link_propal_form>.formlink {
+    max-width: 700px;
+    margin: 31px auto 12px;
+    border: 1px #cfcfd0 dashed;
+    background: #f0f0f1 !important;
+    padding: 15px;
+    border-radius: 9px;
+}
+div#link_propal_form {
+    display: none;
+}
+@media only screen and (max-width: 570px){
+#filter_dashboard .third_div_{
+    width: 100% !important;
+}
+.third_div_.leftrightthree {
+    margin-top: 28px;
+    margin-bottom: 13px;
+}
+
+#filter_dashboard .select2-container {
+    width: auto !important;
+}
+#filter_dashboard .third_div_ .right {
+    float: initial !important;
+}
+#filter_dashboard{
+    overflow: auto;
+}
+.nowrapbookinghotel th,.nowrapbookinghotel td:not(.showallservices){
+    white-space: nowrap;
+}
+.div-table-responsive{
+    overflow-x: auto;
+    width: 100%;
+}
+div#filter_dashboard,div#filter_dashboard input,div#filter_dashboard .third_div_ {
+    font-size: 12px;
+    text-align:center;
+}
+div#filter_dashboard #debut_srch,#fin_srch{
+    width: 80px !important;
+}
+div#filter_dashboard input.datepickerdoli{
+    width: 69px !important;
+}
+div#filter_dashboard .fromdate{
+    margin-right: 13px !important;
+}
+.datepickerdoli ,#nbrnuits{
+    font-size: 14px !important;
+}
+}
+
+
+.nowrapbookinghotel {
+    width: 100%;
+}
+.nowrapbookinghotel td.date_td_tab{
+    text-align: center;
+}
+
+
+#catdiv0{
+    display: none !important;
+}
+
+tr[id*="extrarow-propaldet_dolirefreservinlines"]>td{
+   font-size: 11px;
+}
+tr[id*="extrarow-propaldet_dolirefreservinlines"]>td>a>img{
+   height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a[href*="&action=edit_extras&attribute=rs_modulebookinghotel"],
+a[href*="propaldet_extrafields.php?action=edit&attrname=dolirefreservinlines"],
+a[href*="propaldet_extrafields.php?action=delete&attrname=dolirefreservinlines"],
+a[href*="admin/propal_extrafields.php?action=delete&attrname=rs_modulebookinghotel"],
+a[href*="admin/propal_extrafields.php?action=delete&attrname=rs_modulebookinghotel_1"],
+a[href*="admin/propal_extrafields.php?action=delete&attrname=rs_modulebookinghotel_2"],
+a[href*="admin/propal_extrafields.php?action=delete&attrname=rs_modulebookinghotel_3"],
+a[href*="admin/propal_extrafields.php?action=delete&attrname=rs_modulebookinghotel_4"],
+a[href*="admin/propal_extrafields.php?action=edit&attrname=rs_modulebookinghotel"],
+a[href*="admin/propal_extrafields.php?action=edit&attrname=rs_modulebookinghotel_1"],
+a[href*="admin/propal_extrafields.php?action=edit&attrname=rs_modulebookinghotel_2"],
+a[href*="admin/propal_extrafields.php?action=edit&attrname=rs_modulebookinghotel_3"],
+a[href*="admin/propal_extrafields.php?action=edit&attrname=rs_modulebookinghotel_4"],
+tr.propal_extras_rs_modulebookinghotel,
+tr.propal_extras_rs_modulebookinghotel_1,
+tr.propal_extras_rs_modulebookinghotel_2,
+tr.propal_extras_rs_modulebookinghotel_3,
+tr.propal_extras_rs_modulebookinghotel_4{
+    display: none;
+}
+a[href*="&action=edit_extras&attribute=rs_modulebookinghotel_f"]{
+    display: block !important;
+}
+input.datepickerdoli{width:99px;    text-align: center;}
+.plusminusday i {
+    font-size: 8px;
+    position: absolute;
+    top: 3.2px;
+    right: 4.3px;
+}
+
+a[href*="&action=edit_extras&attribute=rs_modulebookinghotel_f"],
+a[href*="admin/facture_cust_extrafields.php?action=delete&attrname=rs_modulebookinghotel_f"],
+a[href*="admin/facture_cust_extrafields.php?action=delete&attrname=rs_modulebookinghotel_f_1"],
+a[href*="admin/facture_cust_extrafields.php?action=delete&attrname=rs_modulebookinghotel_f_2"],
+a[href*="admin/facture_cust_extrafields.php?action=delete&attrname=rs_modulebookinghotel_f_3"],
+a[href*="admin/facture_cust_extrafields.php?action=delete&attrname=rs_modulebookinghotel_f_4"],
+a[href*="admin/facture_cust_extrafields.php?action=edit&attrname=rs_modulebookinghotel_f"],
+a[href*="admin/facture_cust_extrafields.php?action=edit&attrname=rs_modulebookinghotel_f_1"],
+a[href*="admin/facture_cust_extrafields.php?action=edit&attrname=rs_modulebookinghotel_f_2"],
+a[href*="admin/facture_cust_extrafields.php?action=edit&attrname=rs_modulebookinghotel_f_3"],
+a[href*="admin/facture_cust_extrafields.php?action=edit&attrname=rs_modulebookinghotel_f_4"],
+tr.facture_extras_rs_modulebookinghotel_f,
+tr.facture_extras_rs_modulebookinghotel_f_1,
+tr.facture_extras_rs_modulebookinghotel_f_2,
+tr.facture_extras_rs_modulebookinghotel_f_3,
+tr.facture_extras_rs_modulebookinghotel_f_4,
+a[href*="admin/product_extrafields.php?action=edit&attrname=rs_modulebookinghotel_occupied"],a[href*="admin/product_extrafields.php?action=delete&attrname=rs_modulebookinghotel_occupied"]{
+    display: none;
+}
+
+
+
+span.occupiedornot {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+span.occupiedornot.yes {
+    background: green;
+}
+
+span.occupiedornot.no {
+    background: red;
+}
+
+
+#filter_dashboard .third_div_ {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.leftrightthree a {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.leftrightthree a:hover .left, .leftrightthree a:hover .right{
+  border: 0.5em solid #e74c3c;
+}
+
+.leftrightthree a:hover .left:after, .leftrightthree a:hover .right:after {
+  border-top: 0.5em solid #e74c3c;
+  border-right: 0.5em solid #e74c3c;
+}
+
+.leftrightthree .left {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #333;
+  border-radius: 50%;
+  /*margin-right: 1.5em;*/
+  text-align: center;
+}
+
+.leftrightthree .left:after {
+  content: '';
+  display: inline-block;
+  margin-top: 1.05em;
+  margin-left: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #333;
+  border-right: 0.5em solid #333;
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.leftrightthree .right {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #333;
+  border-radius: 50%;
+  /*margin-left: 1.5em;*/
+  text-align: center;
+}
+
+.leftrightthree .right:after {
+  content: '';
+  display: inline-block;
+  margin-top: 1.05em;
+  margin-left: -0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #333;
+  border-right: 0.5em solid #333;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.third_div_.leftrightthree * {
+    /*font-size: 0.1em;*/
+    font-size: 6px;
+}
+
+.leftrightthree a.left_,.leftrightthree a.right_{
+    margin-left: 1.2em;
+    margin-top: 6px;
+}
+
+
+table td input[name="nbrpersonne"],table td input[name="nbrenfants"]{
+ width: 55px
+}
+
+
+
+.div_update_devis{
+    float: right;
+}
+
+div#s2id_select_reservation_typerepas,div#s2id_to_centrale {
+    width: 200px !important;
+}
+
+.guides_color td{
+    text-align: center;
+}
+.select2-container #s2id_client{
+    min-width: 228px;
+}
+td.reservation_etat #s2id_select_reservation_etat{
+    width: 180px !important;
+}
+.guides_color span {
+    padding: 6px 13px;
+    margin: 0 10px;
+    font-size: 11px;
+    width: 100px;
+    opacity: 1;
+    border: 1px solid #000;
+    display: inline-block;
+    color:#000;
+}
+.montnat_td_{
+    white-space: nowrap;
+}
+span.old_debut {
+    font-size: 14px;
+    margin: 0 12px;
+    /* font-weight: bold; */
+    color: #bdbdbd;
+}
+span.span_info {
+    font-size: 12px;
+    margin: 0 12px;
+    font-weight: bold;
+    color: #737373;
+}
+.slctbuttonColor {
+    width: 44px;
+    height: 23px;
+    cursor: pointer;
+    border-width: 1px;
+    padding: 0px 1px;
+}
+td.chambre_nmbr {
+    background-color: #f8f8f8;
+}
+td.select_filter *{
+    text-align: left !important;
+}
+i.fa-eye:before{
+    content : "\f06e";
+    font-family:fontawesome;
+}
+.eye_show i{
+    cursor: pointer;
+}
+/*.guides_color .reserv_reservee{
+    background-color: #e8ee1e;
+}
+.guides_color .reserv_confirmer{
+    background-color: #58de68;
+    color:#fff;
+}
+.guides_color .reserv_travaux{
+    background-color: #000;
+    color:#fff;
+}
+.guides_color .reserv_parti{
+    background-color: #e91015;
+    color:#fff;
+}
+.guides_color .reserv_payee{
+    background-color: #ff751a;
+    color:#fff;
+}
+.td_etat_reserv .reserv_reservee{
+    background-color: #e8ee1e;
+}
+.td_etat_reserv .reserv_confirmer{
+    background-color: #58de68;
+    color:#fff;
+}
+.td_etat_reserv .reserv_travaux{
+    background-color: #000;
+    color:#fff;
+}
+.td_etat_reserv .reserv_parti{
+    background-color: #e91015;
+    color:#fff;
+}
+.td_etat_reserv .reserv_payee{
+    background-color: #ff751a;
+    color:#fff;
+}*/
+.td_etat_reserv span {
+    padding: 5px;
+    font-size: 12px;
+    width: 100px;
+    opacity: 1;
+    display: inline-block;    
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+}
+
+span.bg_color_td{
+    padding: 2px;
+    font-size: 12px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    height: 14px;
+}
+
+
+.listes .cin_td{
+    max-width: 100px;
+    width: 100px;
+}
+.listes .cin_td input{
+    width: 100%;
+}
+.listes .actions_td{
+    max-width: 100px;
+    width: 100px;
+}
+.listes .ref_td{
+    max-width: 100px;
+    width: 100px;
+}
+
+.listes .select2-container{
+    width: 100% !important;
+    max-width: 100%;
+}
+.editOrtrush a{
+    margin: 0 5px;
+    font-size: 18px;
+}
+.editOrtrush a.edit{
+    vertical-align: middle;
+}
+.hotel_filtrage_tr td {
+    text-align: center;
+}
+.pagination li.pagination>button:not(.home){
+    padding: 5.2px 15px !important;
+}
+
+#chartdiv {
+  width: 100%;
+}
+/*#mainmenutd_tools{
+    display: none;
+}*/
+*{
+    font-family: roboto,arial,tahoma,verdana,helvetica;
+}
+
+.icon_pdf_export img{
+    height: 20px;
+}
+th.facture_th {
+    max-width: 77px;
+    width: 77px;
+}
+td.prix_td {
+    max-width: 77px;
+    width: 77px;
+}
+
+td.reservation_etat .select2-container,td.reservation_typerepas .select2-container{
+    width: 180px !important;
+}
+
+
+div.mainmenu.bookinghotel.topmenuimage{
+    background-size: 25px auto;
+    background-repeat: no-repeat;
+}
+div.mainmenu.bookinghotel.topmenuimage{
+    /*background-image: url(../../bookinghotel/img/bookinghotel.png);*/
+}
+.icon_folder:before{
+	content: "\f07c";
+    font-family: FontAwesome;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.fa-check{
+	color: #42bebf;
+	font-size: 17px;
+}
+.fa-times{
+	color: #e86051;
+	font-size: 17px;
+}
+.icon-bookinghotel1:before,.icon-bookinghotel2:before,.icon-bookinghotel3:before{
+    content: "\f07c";
+    font-family: FontAwesome;
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+/*POP UP Combin Propal*/
+.hover_bkgr_fricc{
+    /*background:rgba(0,0,0,.4);*/
+    /*background:rgba(0,0,0,.6);*/
+    display:none;
+    height:100%;
+    position:absolute;
+    text-align:center;
+    top:0;
+    width:100%;
+    /*z-index:100001;*/
+    /*margin-left: -25px;*/
+    /*padding: 25px 0;*/
+    overflow: auto;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    /*background-color: #fff;*/
+    background-color: #505a78;
+    /*box-shadow: 10px 10px 60px #555;*/
+    box-shadow: 0px 1px 60px #4c4c4c;
+    display: inline-block;
+    height: auto;
+    max-width: 550px;
+    min-height: 200px;
+    vertical-align: middle;
+    width: 80%;
+    position: relative;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-align: left;
+    margin: 30px 0;
+    color: #fff;
+}
+.popupCloseButton {
+    background-color: #fff;
+    /* border: 3px solid #fff; */
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+    line-height: 31px;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    color: #505a78 !important;
+}
+.popupCloseButton:hover {
+    background-color: #f5f5f5;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.windows_pop.hotr_pop * {
+    color: #fff;
+}
+.windows_pop.hotr_pop .sumitform {
+    color: #333;
+}
+body #id-right .windows_pop.hotr_pop input.sumitform:hover{
+    background-color: #5e688a !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+table.noborder.pop_up_propal td,table.noborder.pop_up_propal tr {
+    background: transparent !important;
+    border:  none !important;
+}
+
+table.noborder.pop_up_propal {
+    border-top-color: transparent !important;
+    border: transparent !important;
+    border-bottom-color: transparent !important;
+}
+.pop_up_propal td {
+    padding: 13px !important;
+}
+td.select_propal_in_popup .select2-container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.select2-chosen,.select_propal_in_popup .select2-container .select2-selection--single .select2-selection__rendered{
+    color: #333 !important;
+}
+.disabled_propals_message {
+    padding: 15px 4px 0;
+    /* font-weight: bold; */
+    text-align: center;
+    font-size: 11px;
+    margin-top: 13px;
+    font-style: italic;
+    color: #757373;
+}
+/* End POP UP Combin Propal*/
+
+
+
+
+
+
+
+
+
+.reservation_etat div.modpayment, .td_etat_reserv div.modpayment {
+    display: none;
+    padding-left: 15px;
+}
+.reservation_etat div.modpayment.showmodp, .td_etat_reserv div.modpayment.showmodp {
+    display: inline-block;
+}
+
+#containerchartdiv .nocateg{
+    text-align: center;
+    height: 300px;
+    line-height: 24;
+    font-size: 16px;
+    opacity: 0.6;
+    color: #aaa;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+}
+
+.etatshotel .paginationafterarrows a.butAction{
+    font-size: 13px;
+    margin: 0em 0.5em;
+}

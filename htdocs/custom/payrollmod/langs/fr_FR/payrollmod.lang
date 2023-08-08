@@ -1,0 +1,293 @@
+Module940328081Name = BULLETINS DE LEMPLOYÉ
+Module940328081Desc = Gestion des Bulletins d'employés
+BackToModuleList=Retour à la liste des modules
+payrollmodSetup = Configuration du module Paie
+payrollmodAbout = A propos du module Paie
+payrollmod=Paie
+date_day= Date du jour
+interval= Période
+
+
+
+#---------------------------------------------------------
+payrollsemployee=Bulletins de l'employé
+payrollmod2=Bulletin de l'employé
+payrollsname=Nom de bulletin de paie
+payrollmodemploye=Employé
+payrollsalairenet=Salaire net
+NewPayroll=Nouveau bulletin
+PAYROLLSLIP=PAIE
+Fiche_de_salaire=Fiche de salaire
+payrollmodmsgconfirmdelet=Êtes-vous sûr de vouloir continuer la suppression?
+payrollcalculdesalaire=Calcul de salaire
+payrollofmonth=Période
+payrollmod_employe=Employée
+payrollmod_ref=Référence
+payrollsdatepay=Date de paiement
+payrolllist=Bulletins de l'employé
+payrolladd=Nouveau
+payrollrules=Règles Salariales
+BASIQUE=Basique
+BRUT=Brut
+CIRPP = IRPP
+CAC = CAC
+COTISATION=COTISATION
+OTHER=AUTRE
+OPRET = EMPRUNT
+CTAXEC= TAXE COMMUNALE
+CCF = CREDIT FONCIER
+CIS= IMPOT SUR SALAIRE
+CN= CONTRIBUTION NATIONALE
+CIGR= IGR
+CRG= RETRAITE GENERALE
+CPF= PRESTATION FAMILIALE
+CAT= ACCIDENT DE TRAVAIL
+CFDFP= TAXE DAPPRENTISSAGE
+CFPC= FORMATION PRO
+CTFP= TAXE FORMATION PRO
+CFNE= FNE
+CPV= PENSION VIEILLESSE 
+CAF= ALLOCATION FAMILIALE
+
+
+#------------------------------------------------------------------------------------------------------
+payrollconfig=Configuration
+payrollConfActiv=Activation des éléments salaires
+payrollConfActivRet=Activation des éléments de retenues/taxes sur salaire
+payrollConfLine=Lignes du bulletin de paie
+
+payrollOpenSession=Ouverture/Fermeture session de paie
+
+
+
+payrollRapport=Rapports
+payrollRapportPart=Rapport des différents partenaires sociaux
+payrollFisca=Fiscalité
+payrollCnps=Retenues CNPS
+payrollSyndicat=Syndicats
+payrollFne=FNE
+payrollEtc=ETC
+
+uniqueShowPayroll = Voir mes Bulletin (Les miens uniquements)
+
+
+
+StatePayroll=Etats des paies
+state=Liste des états
+running=En cours
+stop=Fermer
+
+
+
+
+
+payrollCode=N°
+payrollDesignation=Désignation
+payrollBase=Base
+payrollTaux=Taux
+payrollSalariale_Patronale=Salariale / Patronale
+payrollRetenu_Gain=Retenu (-) / Gain (+)
+payrollTotal=Total
+payrollCategorie=Catégorie
+
+payrollMontant_de_base=Montant de base
+payrollPart_par_defaut=Part par défaut
+payrollCalcule_automatiquement=Calculé automatiquement
+payrollMontant_fixe=Montant fixe
+payrollSalaire_de_base=Salaire de base
+payrollSalaire_Brut_Imposable=Salaire Brut Imposable
+#payrollSalaire_Brut_Imposable=Salaire Brut
+payrollSalariale=Salariale
+payrollPatronale=Patronale
+payrollGain=Gain (+)
+payrollRetenu=Retenu (-)
+payrollGainSigne=+
+payrollRetenuSigne=-
+ChooseAnEmployee=Merci de choisir un(e) employé(e)
+
+
+payrollBulletin_de_paie=Bulletin de paie
+payrollBulletin_de_salaire=Bulletin de salaire
+payrollPeriode=Période
+payrollPaiement_le=Paiement le
+payrollPar=Par
+payrollMatricule=Matricule
+payrollSituation_F=Situation .F
+payrollNbre_enfants=Nbre enfants
+payrollPart_IGR=Part IGR
+payrollAnciennete=Ancienneté
+payrollN_de_securite_sociale=N° de sécurité sociale
+payrollEmploi_occupe=Emploi occupé
+payrollQualification=Qualification
+payrollNbre_Jrs=Nbre Jrs
+payrollDate_d_embauche=Date dembauche
+payrollAcquis=Acquis
+payrollReste_a_prendre=Reste à prendre
+payrollPrix=Prix
+payrollRepos_comp=Repos comp.
+payrollConges=Congés
+payrollDates_de_conges=Dates de congés
+payrolldu=du
+payrollau=au
+payrollCommentaire=Commentaire
+payrollNombre=Nombre
+payrollPart_salariale=Part salariale
+payrollPart_patronale=Part patronale
+payrollRetenue=Retenue
+payrollTotal_des_Cotisations=Total des Cotisations
+payrollSalaire_de_base=Salaire de base
+payrollCharges_salariales=Charges salariales
+payrollCharges_patronales=Charges patronales
+payrollRetenus=Retenus
+payrollTransports=Transports
+payrollNet_a_payer=Net à payer
+payrolltipfooter=Pour vous aider à faire valoir vos droits, conservez ce bulletin de paie sans limitation de durée.
+payrollSignature_employe=Signature employé(e)
+payrollCachet_et_signature_employeur=Cachet et signature employeur
+payrollPrintFile=Imprimer
+
+
+#--------------------------------------------------------- User
+beginpayrollmod2=Payroll
+endpayrollmod2=---
+payrollmatricule=Matricule
+payrollzone=Zone
+payrollcategorie=Catégorie
+payrollechelon=Echelon
+payrollcnss=N° de sécurité sociale
+
+
+
+SetupSavedpayroll=Configuration enregistrée
+Watermarkphoto=Photo en filigrane
+NewPayrollRule=Nouvelle règle de paie
+NewPayrollRule2=Nouvelle règle
+listofpayroll=Liste des Bulletins
+
+
+
+
+
+
+
+
+
+#--------------------------------------------------------- 
+payrollIban_Rib=Iban / Rib
+payrollEmploi=Emploi
+payrollStatut_professionnel=Statut professionnel
+payrollNiveau=Niveau
+payrollEntree=Entrée
+payrollConvention_collective=Convention collective
+payrollA_deduire=A déduire
+payrollA_payer=A payer
+payrollCharges_patronales=Charges patronales
+payrolltexte_en_gras=Texte en gras
+payrollTotal_des_Cotisations_contributions=Total des cotisations et contributions
+payrollNet_a_payer_avant_impot=Net à payer avant impôt sur le revenu
+
+payrollNet_paye=Net payé
+payrollHeures=Heures
+payrollHeures_suppl=Heures suppl.
+payrollBrut=Brut
+payroll_Plafond_S=Plafond S.S.
+payrollNet_imposable=Net imposable
+payrolle_Ch_patronales=Ch. patronales
+payrollCout_global=Coût Global
+payrollTotal_verse=Total versé
+payrollAllegements=Allègements
+payrollMensuel=Mensuel
+payrollAnnuel=Annuel
+payrollRepos_R=Repos R
+payrollAcquis=Acquis
+payrollPris=Pris
+payrollSolde=Solde
+payrollSalaire_brut=Salaire brut
+payrollCumuls=Cumuls
+payrollJours_travailles=Jours travailles
+payrollAvantages_en_nature=Avantages en nature
+
+payrollmodelepaie=Modèle de bulletin de paie
+payrollFranceModel=France
+payrollCamerounModel=Cameroun
+payrollCote_d_ivoireModel=Côte dIvoire
+
+
+payrolltipfooter_france=Dans votre intérêt, et pour vous aider à faire valoir vos droits, conservez ce bulletin de paie sans limitation de durée. Informations complémentaires : www.service-public.fr
+payrolltipfooter_cameroun=Pour vous aider à faire vos droits, conservez ce bulletin de paie sans limitation de durée.
+
+
+libelle=Libellé
+description=Description
+Date_start=Date douverture
+Date_end=Date de cloture
+payrollmodStatus=Status
+open=Ouverte
+close=Fermer
+butOpen=Ouvrir
+butClose=Fermer
+BackToRule=Retour sur les règles
+state=Status
+
+PayrollmodSetupPage=Configuration de la session de paie
+PayrollmodSetupModelPage=Configuration du modèle de bulletin de paie
+PayrollmodSetupOpenClosePage = Ouverture ou fermeture de la session de paie
+
+payrollmod_session=Session de paie
+PayrollmodSetup=Configuration
+payrollmod_elementpaie=Modèle de bulletin de paie
+Payrollmod_open_close=Ouverture / Fermeture de la session de paie
+NOT_ACCESS_SESSION=Accès impossible à cette zone !
+help_access=Configuration requise de la session de paie
+Home_session=Configuration
+
+PaieStateMonth=ÉTAT MENSUEL DES BULLETINS
+CPTitreMenu=État mensuel des bulletins
+
+
+#--------------------------------------------------------------------
+
+state_ref=ref
+fname=Nom
+lname=Prenom
+section=Section
+matric=Matricule
+day=Jour
+salaryb=Salaire Brut
+irpp=IRPP
+cac/irpp=CAC / IRPP
+ccf/sal= CCF / Salaire
+crtv=CRTV
+tdl=TDL
+pvid/sa=PVID / SA 
+syndicat=Syndicat
+t/impot=T / Impot
+accompte=Accompte
+remb=Rembourssement
+a.t/=A.T/
+ccf/p=CCF / P
+pvid/p=PVID / P
+pf=PF
+fne=FNE
+t/charges=T / Charges
+netapaye=Net A Payé
+exportexcel=Exporter avec excel
+
+
+
+
+#--------------------------------------------------------------------
+
+payrollSupp= Suppléments
+payroll_Element=Enregistrement éléments de paie mensuelle
+payroll_ElementConfig = Configuration des éléments de paie
+payrollElements_de_paie=Enregistrer Les Eléments de Paie
+payrollConfRules=Règles Salariales
+payrollMontant= Montant
+payrollMontant_save= Montant Enregistré
+Update=Mise à Jour
+save=Enregistrer
+PayrollmodElementsPaie=Configuration Des Primes
+payrollAbsence=Nombre de jour d'Absence
+payrollHeuresSupp= Heures Supplementaires
+payrollJoursConges=Nombre de jour de congés

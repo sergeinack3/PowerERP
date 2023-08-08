@@ -1,0 +1,47 @@
+ModuleName=Approbations
+approbationSetup=Approvals module setup
+ModuleDescapprobation=Gestion des approbations
+approbation=Approbations
+
+
+Mes_approbations=Mes approbations
+Mes_demandes=Mes demandes
+Nouvelle_demande=Nouvelle demande
+Gestion_des_approbations=Gestion des approbations
+Liste_des_approbations=Liste des approbations
+Approbations_a_reviser=Approbations à réviser
+Types_d_approbations=Types d'approbations
+Type_d_approbation=Type d'approbation
+Aprovaltypename=Nom du type d'approbation
+Nouveau_type=Nouveau type
+Approval_Subject=Sujet de l'approbation
+Request_Owner=Propriétaire de la demande
+periode=Période
+Requis=Requis
+Éléments=Éléments
+Quantité=Quantité
+Référence=Référence
+Lieu=Lieu
+
+
+#-------------------------------------------------------- Imane
+etat=État
+add_demande=Nouvelle demande
+a_soumettre=À soumettre
+soumis=Soumis
+confirme_resp= Confirmé par responsable
+refus=Refusée
+annuler=Annuler
+#annulerapp=Annuler
+mesapprobations=Demandes
+Approvers=Approbateurs 
+category=Catégorie
+Aprovaldemandename=Nom de la demande d'approbation
+nouv_demande=Nouvelle Demande
+a_reviser=À réviser
+approb_recherche_avancee=Recherche avancée
+srch_by_type=Rechercher par types des approbations
+srch_by_demande = Rechercher par demandes
+recru_result_of_search = Résultat de la recherche des approbations
+msgconfirmdelettype=Êtes-vous sûr de vouloir supprimer cet type ?
+msgconfirmdeletapprob=Êtes-vous sûr de vouloir supprimer cette approbation ?

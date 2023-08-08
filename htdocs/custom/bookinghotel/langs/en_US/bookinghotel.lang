@@ -1,0 +1,419 @@
+﻿#--------------------------------------------------- New
+Type_Réservation=Reservation type
+Semaine=Week
+Week-end=Week-end
+Category_regrouper_devis=Categories of products / services to be grouped on the future proposal
+regrouper_products=Group products / services by category on the proposal
+MaxHourBreakfast=Maximum time of breakfast
+Nbre_de_services=Nber of services
+Prix_unitaire=Unit price
+Group_Services_By_Category=Group Products / Services by category in a reservation
+Additional_Service_Will_add_in_proposal=Additional service that will be added in proposal
+add_servicesupplimentaire=Add the extra service in the proposal
+DefaultValue_regrouper_products=Default value of the field <b>"Group products/services<br> by category on the proposal?"</b>
+groupe_and_observations=Group // Observations
+Matin=Morning
+Midi=Midday
+Soir=Evening
+repas_par_semaine=Meals per week
+repas_par_jours=Meals per day
+Nbre_de=Number of
+BookingHotelCodeAcces=Access code
+reporterDates=Extend the dates
+QtyActuel=Current quantity
+
+
+
+
+#--------------------------------------------------- Repas
+
+Breakfast=Breakfast
+Lunch=Lunch
+Dinner=Dinner
+
+P=B
+M=L
+S=D
+
+REPAS=MEALS
+nbr_repas=Number of meals
+
+Gestion_des_lieu_repas=Meal place management
+Lieu_des_repas=Meal places
+Type_de_ressource=Resource type of meal places
+
+liste_des_repas_par_jour=List of meals per day
+Lieu_Repas=Place Meal
+Choisir_le_jour=Choose the day
+Nb_total_P=Total nb B
+Nb_total_M=Total nb L
+Nb_total_S=Total nb D
+#--------------------------------------------------- Description Module
+
+DescriptionMod1909671880=Management of reservation services by category with the creation of commercial proposals, the assignment of services in a proposal, change of the status of each reservation automatically, ...
+
+#--------------------------------------------------- Menu
+
+HotelRéservation=BookingHotel
+bookinghotel=BookingHotel
+
+Réservations=Reservations
+Liste_des_réservations=List of reservations
+NewBookingHotel=Add a reservation
+Gestion_des_repas=Meals management
+États_de_réservation=Reservation status
+Réservation_Repas=Reservation / Meals
+
+prix_dégressifs=Discounts prices
+
+Services_virtuels=Virtual services
+Utiliser_les_services_virtuels=Use virtual services
+Gestion_des_services_virtuels=Virtual Services Management
+Sélectionner_un_service_virtuel=Select a virtual service
+
+
+hrCustomers=Clients
+hrNewCustomer=New client
+ServicesToReserve=Services to reserve
+hrNewService=New Service
+#--------------------------------------------------- Les permissions
+
+Consulter_les_réservations=Read reservations
+Ajouter_Modifier_les_réservations=Create/modify reservations
+Supprimer_les_réservations=Delete reservations
+Consulter_partie_Paramétrage=Read elements of reservation status
+Ajouter_Modifier_Paramétrage=Create/modify elements of reservation status
+Supprimer_Paramétrage=Delete elements of reservation status
+
+
+Consulter_repas=Consult meals
+Ajouter_Modifier_repas=Create/modify meals
+Supprimer_repas=Delete meals
+#--------------------------------------------------- Liste Réservations
+hotelreService_s=Services
+Service_s=Product / Service
+Service_s2=Product/Service
+#Arrivé_le=Arrived on
+#Départ_le=Departure on
+Arrivé_le=Reservation start date/time
+Départ_le=Reservation end date/time
+État_de_réservation=Reservation status
+Devis_client=Customer proposal
+
+#--------------------------------------------------- Tableau de bord
+
+GO=GO
+Afficher_tout=Show all
+nom_occupant=Name of the occupier
+Début=Start
+Fin=End
+
+daysavant=days before
+daysapres=days after
+
+#--------------------------------------------------- Create/Edit/Delete of Reservation
+
+Nombre_de_jours=Number of days
+Nombre_de_personnes=Number of persons
+TO_Centrale=Source
+Réservation=Reservation
+
+#dateArriveActuel=Current arrival date
+#dateDepartActuel=Current departure date
+dateArriveActuel=Current start date
+dateDepartActuel=Current end date
+
+Personnel=Personal
+Partenaires=Partners
+Online=Online
+Commanditaires=Sponsorship
+
+Devises_du_Client=Proposals of customer
+msgdeviseDesactivated=Proposals that are deactivated are already Signed, Unsigned, or Invoiced
+
+Proposition_commercial_Devis=Commercial proposal
+Créer_un_devis=Create proposal
+NB_client_aucundevis=PS : the customer of this reservation does not contain any proposal
+
+dejafacturee=proposal already invoiced
+UpdateDevis=Update proposal
+Génerer_la_facture=Generate invoice
+#--------------------------------------------------- Parametrage
+
+BookingHotelSetup=BookingHotel Module setup
+Services_Repas=Meals service/product
+Service_Produit=Service / Product
+categories_a_reservee=Categories of products/services
+tout_Category_reservee=Categories of products/services to be reserved
+Category_reservee_nonpasafficher_tb=Categories that will not be displayed in the dashboard
+
+produit_taxe_sejour=Tourist tax product
+produit_taxe_sejour_enfants=Tourist tax product (children)
+adultes_enfants=Management of adults and children
+enfants=Children
+adultes=Adults
+
+
+Gestion_services_produit_ocuppee=Occupied services / products
+occupés_question=Occupied?
+occupés=Occupied
+non_occupés= Not Occupied
+fleches_tableau_bord=the arrows on the dashboard : Go step by
+heure_arrive_default=Default arrival time
+heure_depart_default=Default departure time
+#--------------------------------------------------- Activation Du Module
+
+Réservée=Reserved
+Confirmée=Confirmed
+Partie=Gone
+
+repas_midi_simple=simple lunch
+repas_soir_simple=simple evening meal
+meals_M=lunch (L)
+meals_S=dinner (D)
+
+en_nuitée=En toda la noche
+en_nuitée_simple=En simple estancia de una noche
+en_demi-pension_midi=In half board noon
+en_demi-pension_soir=In half board evening
+en_pension_complète=In full board
+
+sans_repas=without meals
+meals_P=breakfast (B)
+meals_P_M=breakfast (B) + lunch (L)
+meals_P_S=breakfast (B) + dinner (D)
+meals_P_M_S=breakfast (B) + lunch (L) + dinner (D)
+
+#--------------------------------------------------- Multiple
+
+Affichage=Viewing
+Modification=Modification
+
+Confirmation=Confirmation
+msgconfirmdelet=Are you sure you want to continue deleting?
+
+
+#--------------------------------------------------- Prices
+# Main
+PricesProdList=Price list
+PricesProdLists=Price lists
+
+# Tab product
+AddPricesProdList=Add tariff
+NewPriceOffer=New tariff
+FromQtyLong=From (quantity)
+FromQty=From
+AllFieldIsRequired=All field are required
+PriceHT=Price HT
+AddedBy=Added by
+
+PricesProdListInsert=Price list applied
+
+DeletePricesProdList=Delete price
+ConfirmDeletePricesProdList=Are you sure you want to delete this price?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WiewReservations=Reservations
+WiewReservationsDesc=Retrouvez facilement tous vos réservations
+EALINKNAME_bookinghotel=Reservations
+Reservations=Reservations
+
+
+
+
+# DROITS
+external_access_invoices=Peut consulter les factures
+external_access_propals=Peut consulter les devis
+external_access_orders=Peut consulter les commandes
+external_access_userinfos_edit=Peut modifier ces informations personnelles
+
+# MENU
+TopMenuexternalaccess=Portail client
+
+# STATUS
+externalaccessStatusDraft=Brouillon (à valider)
+externalaccessStatusValidated=Validée (à accepter)
+externalaccessStatusRefused=Refusée (fermée)
+externalaccessStatusAccepted=Acceptée (fermée)
+
+Draft=Brouillon
+Validate=Validé
+Refused=Refusé
+Accepted=Accepté
+
+# LIST
+externalaccessList=Liste Portail client
+Noexternalaccess=(vide)
+
+# CARD
+Newexternalaccess=Création externalaccess
+externalaccessCard=Fiche externalaccess
+ErrorDetected=Erreur(s) détectée(s), veuillez vérifier le formulaire
+
+# CARD TPL
+Save=Enregistrer
+CreateDraft=Créer brouillon
+Cancel=Annuler
+Validate=Valider
+Modify=Modifier
+Reopen=Rouvrir
+ToClone=Cloner
+Delete=Supprimer
+DateFinValidite=Date de fin de validité
+EndValidDate=Fin de validité
+DateLivraison=Date prévue de livraison
+DatePayLimit=Date échéance
+
+# MENU
+EALINKNAME_gobackurl=Retour au site
+
+WiewInvoices=Factures
+WiewInvoicesDesc=Retrouvez facilement toutes vos factures
+EALINKNAME_invoices=Factures
+
+WiewPropals=Devis
+WiewPropalsDesc=Retrouvez facilement tous vos devis
+EALINKNAME_propals=Devis
+
+WiewOrders=Commandes
+WiewOrdersDesc=Retrouvez facilement toutes vos commandes
+EALINKNAME_orders=Commandes
+
+PersonalInformations=Informations personnelles
+
+# PAGE TITLE
+Welcome=Bienvenue
+WelcomeDesc=Bienvenue sur votre portail client
+
+# SETUP PAGE
+AbricotNotFound=Module Abricot non trouvé, le portail client ne peut pas fonctionner correctement sans ce module.
+AbricotWiki=Consulter la page d'information du module abricot.
+BOOKINGHOTEL_ROOT_URL=Url d'accès  public
+BOOKINGHOTEL_ROOT_URL_HELP=Si vous utilisez un virtual host
+BOOKINGHOTEL_TITLE=Titre de l'accès extérieur
+BOOKINGHOTEL_TITLE_HELP=Visible sur le menu du haut
+BOOKINGHOTEL_GOBACK_URL=Url du lien de retour
+BOOKINGHOTEL_GOBACK_URL_HELP=Si l'URL est renseignée, celà ajoute un lien "retour vers le site" dans le menu du haut
+BOOKINGHOTEL_PRIMARY_COLOR=Couleur principale du thème
+BOOKINGHOTEL_PRIMARY_COLOR_HELP=Sur les pages du portail client, pensez à appuyer sur la touche CTRL+F5 ou videz le cache de votre navigateur après avoir modifié cette valeur pour que le changement soit effectif
+BOOKINGHOTEL_PHONE=Téléphone de contact
+BOOKINGHOTEL_EMAIL=Email de contact
+BOOKINGHOTEL_EMAIL_HELP=Cet adresse email est visible dans le pied de page
+BOOKINGHOTEL_ACTIVATE_MODULES=Modules accessibles
+BOOKINGHOTEL_ACTIVATE_INVOICES=Téléchargement des Factures
+BOOKINGHOTEL_need_some_rights=Note: Des droits utilisateurs sont à paramétrer
+BOOKINGHOTEL_ACTIVATE_PROPALS=Téléchargement des Devis
+BOOKINGHOTEL_ACTIVATE_ORDERS=Téléchargement des Commandes
+BOOKINGHOTEL_HEADER_IMG=Url de l'image de fond
+BOOKINGHOTEL_HEADER_IMG_HELP=Vous pouvez utiliser une image personalisée ou utiliser une des images suivantes: <ul><li>../img/header_01.jpg</li><li>../img/header_04.jpg</li><li>../img/header_02.jpg</li><li>../img/header_03.jpg</li></ul>Sur les pages du portail client, pensez à appuyer sur la touche CTRL+F5 ou videz le cache de votre navigateur après avoir modifié cette valeur pour que le changement soit effectif
+AccessToCustomerGate=Consulter le portail client
+BOOKINGHOTEL_LOGIN_EXTRA_HTML=Text supplémentaire affiché sur la page de connexion.
+BOOKINGHOTEL_RGPD_MSG=Message RGPD sur le formulaire des informations personnelles
+BOOKINGHOTEL_RGPD_MSG_default=Vous pouvez demander la rectification des informations inexactes ou incomplètes vous concernant. En modifiant et soumettant ce formulaire, j'accepte que les données saisies soient utilisées par %s afin qu'elle puisse, lire et, si nécessaire, gérer la relation contractuelle qui pourrait en résulter.
+
+# INDEX
+Quotations=Devis
+QuotationsDesc=
+Orders=Commandes
+OrdersDesc=
+Invoices=Factures
+InvoicesDesc=
+MySpace=Consulter mon espace
+
+
+
+ForgotThePassword=Mot de passe oublié?
+ForgotPassword=Mot de passe oublié?
+Rememberme=Se souvenir de moi.
+SignIn=Connexion
+YouCanResetYourPasswordHere=Vous pouvez le renouveller ici
+Renew=Renouveller
+
+# FOOTER
+GetInTouch=Restons en contact
+GetInTouchDesc=Prêt à commencer votre prochain projet avec nous? Appelez-nous ou envoyez-nous un courriel et nous vous répondrons dans les plus brefs délais!
+
+# UserInfos
+MyPersonalInfos=Mes infos
+UserInfosDesc=Vos informations personnelles
+YourPersonnalInformations=Vos informations personnelles
+firstname=Prénom
+lastname=Nom
+address=Adresse
+addresszip=Code postal
+town=Ville
+exa_Edit=Modifier
+User_mobile=Téléphone mobile
+Office_phone=Téléphone bureau
+Office_fax=Fax
+Saved=Sauvegardé
+Company=Société
+
+# 404 tpl 
+SorryThereIsNothingHere=Désolé il n'y a rien ici
+
+BOOKINGHOTEL_Nothing=Actuellement il n'y a rien ici, patience, vos documents seront disponibles prochainement
+
+Amount_HT=Montant HT
+Amount_TTC=Montant TTC
+RemainderToPay=Reste à payer
+DocumentFileNotAvailable=Document actuellement non disponible.
+
+
+EaBack=Retour
+
+

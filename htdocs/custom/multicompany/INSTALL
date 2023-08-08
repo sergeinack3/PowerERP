@@ -1,0 +1,16 @@
+INSTALL
+-------
+
+Since version 3 it is possible to define an alternative root directory,
+This allows you to store, same place, plug-ins and custom templates.
+Just create a directory at the root of PowerERP (eg custom),
+then declare it in the file conf.php :
+
+examples :
+
+$powererp_main_url_root='http://myserver';
+$powererp_main_document_root='/path/of/powererp/htdocs';
+$powererp_main_url_root_alt='/custom';
+$powererp_main_document_root_alt='/path/of/powererp/htdocs/custom';
+
+Copy "multicompany" directory to the root of "custom" directory.
