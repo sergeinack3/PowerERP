@@ -1,0 +1,132 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleImmigrationName'
+ModuleImmigrationName = Immigration
+# Module description 'ModuleImmigrationDesc'
+ModuleImmigrationDesc = Immigration description
+
+#
+# Admin page
+#
+ImmigrationSetup = Configuration du module d'immigration
+ImmigrationSetupPage = Page de configuration du module d'immigration
+IMMIGRATION_MYPARAM1 = My param 1
+IMMIGRATION_MYPARAM1Tooltip = My param 1 tooltip
+IMMIGRATION_MYPARAM2=My param 2
+IMMIGRATION_MYPARAM2Tooltip=My param 2 tooltip
+
+
+
+#########################################
+#       modImmigration.class.php        #
+#########################################
+
+Dashboard = Tableau de bord
+Settings = Configurations
+ListDocuments = Documentation
+ListCat_Procedures = Types de procedure
+StepProcedure = Etapes de procedure
+Step_procedures = Etape de procedure
+Procedures = Procedures
+ListProcedures = Listes des procedures
+NewProcedures = Nouvelle procedure
+Tracking = Suivi
+Student = Etudiant
+Temporary = Temporaire
+Qualified = Qualifie
+Visitor = Visiteur
+Certified_TW = C.T.W
+
+
+####################
+#       RIGHT      #
+####################
+
+Configure_immigration = Configurer le processus d'immigration
+Read_procedures = Consulter une/plusieurs procedures
+Create/Update_procedures = Créer/modifier une procedure d'immigration
+Delete_procedures = Supprimer une procedures
+
+Read_cat_procedures = Consulter une/plusieurs categorie de procedures
+Create/Update_cat_procedures = Créer/modifier une categorie de procedure d'immigration
+Delete_cat_procedures = Supprimer une categorie procedures
+
+Read_step_procedures = Consulter une/plusieurs etapes de suivis
+Create/Update_step_procedures = Créer/modifier une ou plusieurs etapes de suivi
+Delete_cat_step_procedures = Supprimer une etape de suivis de procedures
+
+
+
+
+ExtraFields_(Procedures) = Attributs supplémentaires (Procedures)
+ExtraFields_(ListCat_Procedures) = Attributs supplémentaires (Types de procedure)
+ExtraFields_(StepProcedure) = Attributs supplémentaires (Etapes de procedure)
+
+
+
+############################
+#       Cat_procedures     #
+############################
+
+Cat_procedures = Types de procedure
+
+
+
+############################
+#       Procedures     #
+############################
+
+AddCustomerDocumentation = Ajouter une documentation client
+InApprovale = Mise en approbation
+Modify = Modifier
+initialised = Initialiser
+Cloture = Cloturer
+Documente = Documenter
+InStepUsed = En traitement (Suivi)
+Ending = Terminer
+running = En cours
+changeState = Changement d'etape
+got_it = Avancez
+Intracking = En suivi
+
+
+ListMissingFiles = Liste des fichiers/documents restants
+ListSetFiles = Liste des fichiers/documents fournis
+TotalFiles = Nombre total de fichiers/documents
+
+
+#
+# About page
+#
+About = À propos
+ImmigrationAbout = À propos du module d'immigration
+ImmigrationAboutPage = page description du module d'immigration
+
+#
+# Sample page
+#
+ImmigrationArea = Accueil Immigration
+MyPageName = Nom de ma page
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = Description de mon widget 

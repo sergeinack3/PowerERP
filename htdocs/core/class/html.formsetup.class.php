@@ -19,6 +19,8 @@
 /**
  * This class help you create setup render
  */
+require_once DOL_DOCUMENT_ROOT.'/product/class/product.class.php';
+
 class FormSetup
 {
 
@@ -1053,6 +1055,8 @@ class FormSetupItem
 		}
 
 		$out = '';
+
+		$this->type = 'product';
 
 		if ($this->type == 'title') {
 			// nothing to do
