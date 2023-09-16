@@ -18,27 +18,29 @@
 
 
 
--- TRUNCATE llx_c_immigrations_documents;
+TRUNCATE llx_c_immigrations_documents;
 
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ACN', 'Acte de naissance ', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('PAP', 'Passeport', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CVC', 'Cv type Canadien', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('LEM', 'Lettre de motivation ', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('BUP', 'Bulletin de paies', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('COT', 'Contrat de travail', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CAB', 'Caution bancaire', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('REB', 'Relevés bancaires des 6 derniers mois', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ATT', 'Attestations de travail', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('EQD', 'Equivalence de diplômes', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('TEL', 'Test de langue valide anglais et français', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('REU', 'Relevés universitaires', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ECJ', 'Extrait de casier judiciaire', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('TIF', 'Titres fonciers', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CAG', 'Cartes grises', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('COE', 'Compte d’épargne', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('LEC', 'Lettre de congés', '1');
--- INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ITV', 'Itinéraire de voyage', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ACN', 'Acte de naissance ', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('PAP', 'Passeport', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CVC', 'Cv type Canadien', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('LEM', 'Lettre de motivation ', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('BUP', 'Bulletin de paies', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('COT', 'Contrat de travail', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CAB', 'Caution bancaire', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('REB', 'Relevés bancaires des 6 derniers mois', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ATT', 'Attestations de travail', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('EQD', 'Equivalence de diplômes', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('TEL', 'Test de langue valide anglais et français', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('REU', 'Relevés universitaires', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ECJ', 'Extrait de casier judiciaire', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('TIF', 'Titres fonciers', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CAG', 'Cartes grises', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('COE', 'Compte d’épargne', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('LEC', 'Lettre de congés', '1');
+INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ITV', 'Itinéraire de voyage', '1');
 
+
+TRUNCATE llx_immigration_cat_procedures;
 
 INSERT INTO `llx_immigration_cat_procedures` (`rowid`, `ref`, `label`, `description`, `note_public`, `note_private`, `date_creation`, `tms`, `fk_user_creat`, `fk_user_modif`, `status`) VALUES
 	(1, 'PRD-VISITE', 'Procédure Visiteur', 'Vérifier si vous avez besoin d’un visa de visiteur, d’un visa de transit au Canada ou d’un visa pour voyage d’affaires, et voir comment prolonger un visa de visiteur', NULL, NULL, '2023-08-17 15:56:58', '2023-08-18 23:26:14', 1, 1, 1),
@@ -48,9 +50,11 @@ INSERT INTO `llx_immigration_cat_procedures` (`rowid`, `ref`, `label`, `descript
 	(5, 'CTW', 'Certified temporary work', '', NULL, NULL, '2023-08-18 16:30:48', '2023-08-19 22:40:37', 1, 1, 1);
 
 
+TRUNCATE llx_immigration_step_procedures;
+
 
 INSERT INTO `llx_immigration_step_procedures` (`rowid`, `ref`, `fk_ca_procedure`, `label`, `position`, `duration`, `rappel`, `date_creation`, `tms`, `fk_user_creat`, `fk_user_modif`) VALUES
-	(1, 'RECUEIL-INFORMATION', 2, 'Recueil d\'information', 1, 90, 90, '2023-08-20 00:58:21', '2023-08-19 20:58:21', 1, NULL);
+	(1, 'RECUEIL-INFORMATION', 2, 'Recueil d\'information', 1, 90, 90, '2023-08-20 00:58:21', '2023-08-19 20:58:21', 1, NULL),
 	(2, 'CAQ', 2, 'Demande de C.A.Q', 2, 90, 90, '2023-08-20 00:38:47', '2023-08-19 20:38:47', 1, 1),
 	(3, 'PERMIS-ETUDE', 2, 'Demande du permis d\'étude', 3, 90, 90, '2023-08-20 00:41:12', '2023-08-19 20:41:12', 1, 1),
 	(4, 'VISITE-MEDICALE', 2, 'Visite médicale', 4, 90, 90, '2023-08-20 00:41:47', '2023-08-19 20:41:47', 1, 1),

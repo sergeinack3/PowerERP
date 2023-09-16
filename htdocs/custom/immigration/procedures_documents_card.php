@@ -77,7 +77,11 @@ if (!$res) {
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/images.lib.php';
+
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
+require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
+require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
+require_once DOL_DOCUMENT_ROOT.'/core/class/html.formprojet.class.php';
 
 dol_include_once('/immigration/class/procedures.class.php');
 dol_include_once('/immigration/lib/immigration_procedures.lib.php');
@@ -150,6 +154,9 @@ if (!$permissiontoread) accessforbidden();
  * Actions
  */
 
+ $documentDocumented = $object->fetchDocumentsDocumented($id);
+//  var_dump($documentDocumented);
+
 include DOL_DOCUMENT_ROOT.'/core/actions_linkedfiles.inc.php';
 
 
@@ -158,11 +165,32 @@ include DOL_DOCUMENT_ROOT.'/core/actions_linkedfiles.inc.php';
  */
 
 $form = new Form($db);
+$formfile = new FormFile($db);
+$formproject = new FormProjets($db);
+
+
 
 $title = $langs->trans("Procedures").' - '.$langs->trans("Files");
 $help_url = '';
 //$help_url='EN:Module_Third_Parties|FR:Module_Tiers|ES:Empresas';
 llxHeader('', $title, $help_url);
+
+
+$formconfirm = '';
+
+
+if ($action == 'empty_doc') {
+	print dol_htmloutput_mesg("Aucun document selectionné", '', 'warning', 0);
+}
+
+if ($action == 'move_doc') {
+	print dol_htmloutput_mesg("Document supprimé", '', 'ok', 0);
+}
+
+if ($action == 'add_doc') {
+	print dol_htmloutput_mesg("Document ajouté", '', 'ok', 0);
+}
+
 
 if ($object->id) {
 	/*
@@ -238,20 +266,22 @@ if ($object->id) {
                 
                 print '<td  colspan="10"></td>';
 
-                // Number of files
+				// Number of files
                 foreach($object->fetchDocumentsConfig() as $obj){
-                    print '<tr>';
-                        print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
-                        print '<td colspan="2" style="text-align:right" class="titlefield">
-							<a href="'.$_SERVER["PHP_SELF"].'?id='.$obj->id.'&action=delete_doc&token='.newToken().'class="reposition deletefilelink"><span class="fas fa-trash pictodelete" style="" title="Supprimer"></span></a>
-						</td>';
-                    print '</tr>';
+                    if(in_array((int) $obj->rowid, $documentDocumented)){
+						print '<tr>';
+							print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
+							print '<td colspan="2" style="text-align:right" class="titlefield">
+								<a href="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$id.'&iddoc='.$obj->rowid.'&action=confirm_delete" class="reposition deletefilelink"><span class="fas fa-trash pictodelete" style="" title="Supprimer"></span></a>
+							</td>';
+						print '</tr>';
+					}
                 }
 
                 print '<td  colspan="10"></td>';
 
                 // Total size
-                print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">50</td></tr>';
+                print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">'.count($documentDocumented).'</td></tr>';
 
             print '</table>';
 
@@ -272,18 +302,22 @@ if ($object->id) {
 
 
             // Number of files
+			$total = 0;
             foreach($object->fetchDocumentsConfig() as $obj){
-                print '<tr>';
-                    print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
-                    print '<td colspan="2" style="text-align:right" class="titlefield">
-						<a href="'.$_SERVER["PHP_SELF"].'?id='.$obj->id.'&action=add_doc&token='.newToken().'class="reposition deletefilelink"><span class="fas fa-plus-circle paddingright" style="" title="Supprimer"></span></a>
-					</td>';
-                print '</tr>';
+                if(!in_array((int) $obj->rowid, $documentDocumented)){
+					print '<tr>';
+						print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
+						print '<td colspan="2" style="text-align:right" class="titlefield">
+							<a href="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$id.'&iddoc='.$obj->rowid.'&action=add_doc" class="reposition deletefilelink"><span class="fas fa-plus-circle paddingright" style="" title="Supprimer"></span></a>
+						</td>';
+					print '</tr>';
+					$total++;
+				}
             }
 
             print '<td  colspan="10"></td>';
             // Total size
-            print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">50</td></tr>';
+            print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">'.$total.'</td></tr>';
 
         print '</table>';
 

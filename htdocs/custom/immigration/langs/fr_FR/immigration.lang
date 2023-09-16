@@ -95,6 +95,7 @@ Cat_procedures = Types de procedure
 
 AddCustomerDocumentation = Ajouter une documentation client
 InApprovale = Mise en approbation
+InApproval = Mise en approbation
 Modify = Modifier
 initialised = Initialiser
 Cloture = Cloturer

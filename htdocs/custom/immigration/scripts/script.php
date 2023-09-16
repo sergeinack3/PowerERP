@@ -86,8 +86,8 @@ dol_include_once('/immigration/class/cat_procedures.class.php');
 dol_include_once('/immigration/class/step_procedures.class.php');
 
 
-
 $id = GETPOST('id', 'int');
+$iddoc = GETPOST('iddoc', 'int');
 $ref = GETPOST('ref', 'alpha');
 $action = GETPOST('action', 'aZ09');
 
@@ -120,3 +120,48 @@ if ($action === 'change_tracking'){
     $object->change_tracking($id, $user, $procedure, (int) $newtracking, (int) $lastStepProcedure->rowid);
     header("Location: ".dol_buildpath('/custom/immigration/procedures_card.php?id='.$id, 1).'&state=changed');
 }
+
+
+if ($action === 'add_doc'){
+
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		// Vérifiez si le champ "countries" a été soumis
+		if (isset($_POST["countries"])) {
+			// Accédez aux éléments sélectionnés du select multiple
+			$countries = $_POST["countries"];
+
+			// Traitez les données selon vos besoins
+			foreach ($countries as $item) {
+				// Faites ce que vous voulez avec chaque élément sélectionné
+				// echo "Élément sélectionné : " . $item . "<br>";
+				$object->insertDoc($user, $id, $item);
+			}
+			header("Location: ".dol_buildpath('/custom/immigration/procedures_card.php?id='.$id, 1).'&action=add_doc');
+
+		} else {
+			header("Location: ".dol_buildpath('/custom/immigration/procedures_card.php?id='.$id, 1).'&action=empty_doc');
+		}
+	} elseif ($_SERVER["REQUEST_METHOD"] == "GET") {
+		if (isset($_GET["iddoc"])) {
+			// Accédez aux éléments sélectionnés du select multiple
+			$countries = $_GET["iddoc"];
+			$object->insertDoc($user, $id, (int)$countries);
+			header("Location: ".dol_buildpath('/custom/immigration/procedures_documents_card.php?id='.$id, 1).'&action=add_doc');
+
+		} else {
+			header("Location: ".dol_buildpath('/custom/immigration/procedures_documents_card.php?id='.$id, 1).'&action=empty_doc');
+		}
+	} else {
+		header("Location: ".dol_buildpath('/custom/immigration/procedures_card.php?id='.$id, 1).'&action=badvalue_doc');
+	}
+
+}
+
+
+if ($action == 'confirm_delete'){
+
+	$object->deleteDocument((int) $iddoc);
+	header("Location: ".dol_buildpath('/custom/immigration/procedures_documents_card.php?id='.$id, 1).'&action=move_doc');
+
+}
+

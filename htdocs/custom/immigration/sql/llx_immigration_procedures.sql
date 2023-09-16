@@ -32,7 +32,7 @@ CREATE TABLE llx_immigration_procedures(
 	fk_user_creat integer NOT NULL, 
 	fk_user_modif integer, 
 	status integer NOT NULL, 
-	status_step integer NOT NULL, 
+	status_step integer, 
 	tracking integer
 	-- END MODULEBUILDER FIELDS
 ) ENGINE=innodb;

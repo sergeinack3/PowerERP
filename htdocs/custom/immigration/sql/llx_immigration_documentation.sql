@@ -20,7 +20,6 @@ CREATE TABLE llx_immigration_documentation(
 	ref varchar(128) DEFAULT '(DOC)' NOT NULL, 
 	fk_procedure integer NOT NULL, 
 	fk_document integer NOT NULL, 
-	label varchar(255), 
 	date_creation datetime NOT NULL, 
 	tms timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, 
 	fk_user_creat integer NOT NULL, 

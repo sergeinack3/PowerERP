@@ -251,6 +251,7 @@ llxHeader('', $title, $help_url);
 // 	}
 // }
 
+$documentDocumented = $object->fetchDocumentsDocumented($id);
 $firstStepProcedure = $object_step->fetchFirstStepProcedure($object->ca_procedure);
 $stepLabel = $object_step->fetchLabelStep($object->ca_procedure, $object->tracking);
 $lastStepProcedure = $object_step->fetchLastStepProcedure($object->ca_procedure);
@@ -261,15 +262,7 @@ $proDocuments = $object->fetchDocumentsConfig();
 
 // print_r($object->tracking);
 
-$local_link = $_SERVER["PHP_SELF"].'?id='.$object->id;
-// $local_link = dol_buildpath('/immigration/scripts/script.php', 1);
-// $local_link = dol_buildpath($_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc, 1');
-
-// var_dump($local_link);
-
 // Example : Adding jquery code
-
-
 
 
 // print '<script type="text/javascript">
@@ -404,8 +397,15 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 
 	// Add document for a procedure
 	if ($action == 'add_doc') {
-	
+		print dol_htmloutput_mesg("Procédure documentée", '', 'ok', 0);
+	}
 
+	if ($action == 'empty_doc') {
+		print dol_htmloutput_mesg("Aucun document selectionné", '', 'warning', 0);
+	}
+
+	if ($action == 'badvalue_doc') {
+		print dol_htmloutput_mesg("Aucun document selectionné", '', 'error', 0);
 	}
 
 	if ($action === 'approval'){
@@ -524,6 +524,8 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	// Object card
 	// ------------------------------------------------------------
 	$linkback = '<a href="'.dol_buildpath('/immigration/procedures_list.php', 1).'?restore_lastsearch_values=1'.(!empty($socid) ? '&socid='.$socid : '').'">'.$langs->trans("BackToList").'</a>';
+	$local_link = $_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken();
+
 
 	$morehtmlref = '<div class="refidno">';
 	/*
@@ -591,22 +593,29 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	// // Total size
 	// print '<tr><td>'.$langs->trans("Nombre total de fichiers/documents :").'</td><td colspan="3">50</td></tr>';
 
-
 	if (($object->status != $object::STATUS_TERMINATE) && ($object->status != $object::STATUS_CANCELED)){
 		if ($object->status != $object::STATUS_TERMINATE){
-			print '<form method="POST" action="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'" id="add_docs_form">';
+			print '<form method="POST" action="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$object->id.'&action=add_doc" id="add_docs_form">';
 				print '<tr>';
 					print '<td colspan="5">';
 						// print '<select name="field1" id="field1" multiple onchange="console.log(Array.from(this.selectedOptions).map(x=>x.value??x.text))" multiselect-hide-x="true">';
-						print '<select name="countries" id="countries" multiple>';
-						foreach($proDocuments as $obj){
-							print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
+						print '<select name="countries[]" id="countries" multiple>';
+						if (!empty($documentDocumented)){
+							foreach($proDocuments as $obj){
+								if(!empty($documentDocumented) && !in_array((int) $obj->rowid, $documentDocumented)){
+									print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
+								}
+							}
+						}else{
+							foreach($proDocuments as $obj){
+								print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
+							}
 						}
 						print '</select>';
 					print '</td>';
 					print '<td colspan="2">';
-					// print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('Documente').'" value="'.$langs->trans('Documente').'">';
-					print '<a class="butAction relative_div_" onclick="recup_docs()"  title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; //href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'"
+					print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('Documente').'" value="'.$langs->trans('Documente').'">';
+					// print '<a class="butAction relative_div_" onclick="recup_docs()"  title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; //href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'"
 					print '</td>';
 
 
@@ -880,7 +889,6 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	include DOL_DOCUMENT_ROOT.'/core/tpl/card_presend.tpl.php';
 }
 
-// $local_link = $_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken();
 // $local_link = dol_buildpath('/immigration/scripts/script.php', 1);
 // $local_link = dol_buildpath($_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc, 1');
 
@@ -925,33 +933,6 @@ $db->close();
 		shadow: true,      // default false
 		placeholder: 'Search',  // default Search...
 		onChange: function(values) {
-
-			// var form_data = values;
-			// var data = new Array();
-			// var xhr = new XMLHttpRequest();
-
-			// for ( let i=0; i< form_data.length; i++) {
-			// 	// data.push(form_data[i].value);
-			// 	data[form_data[i].label] = form_data[i].value;
-			// }
-
-			// xhr.onreadystatechange = function(){
-
-			// 	if (this.readyState == 4 && this.status == 200){
-			// 		console.log(this.response);
-			// 	} else if (this.readyState == 4){
-			// 		alert('Une erreur est survenue...')
-			// 	}
-			// };
-
-
-
-			// xhr.open("POST", "<?php print $local_link ?>", true); 
-			// xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-			// xhr.send(data);
-
-			
-
 			console.log(data);
 		}
 	})
@@ -960,6 +941,7 @@ $db->close();
 
 		let docs = [];
 		let doc = document.getElementById("countries");
+		
 
 		for ( let i=0; i< doc.options.length; i++) {
 			if ( doc.options[i].selected == true ) {
@@ -967,43 +949,31 @@ $db->close();
 			}
 		}
 
+		var data = '';
+		var xhr = new XMLHttpRequest();
+		var Url = <?php $local_link ?>
+		
 
-		alert(docs);
+		xhr.open('POST', Url, true);
+		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState === 4 && xhr.status === 200) {
+				// Réponse du serveur PHP
+				console.log(xhr.responseText);
+			}
+		};
+
+		// Conversion des données JavaScript en une chaîne de requête
+		data = 'countries=' + encodeURIComponent(docs.join(','));
+
+		// Envoi de la requête AJAX
+		xhr.send(data);
+
+
+		// alert(docs);
 	}
 	
-	// document.getElementById("add_docs_form").addEventListener("submit", function(e){
-	// 	e.preventDefault();
-
-	// 	var data = new FormData(this);
-	// 	var xhr = new XMLHttpRequest();
-		
-	// 	var doc = document.getElementById('countries');
-	// 	var docs = [];
-
-	// 	for ( let i=0; i< doc.options.length; i++) {
-	// 		if ( doc.options[i].selected == true ) {
-	// 			docs.push(doc.options[i].value);
-	// 		}
-	// 	}
-
-	// 	data.append('docs', docs);
-
-	// 	xhr.onreadystatechange = function(){
-
-	// 		if (this.readyState == 4 && this.status == 200){
-	// 			console.log(this.response);
-	// 		} else if (this.readyState == 4){
-	// 			alert('Une erreur est survenue...')
-	// 		}
-	// 	};
-
-	// 	xhr.open("POST", "<?php print $local_link ?>", true); 
-	// 	xhr.responseType = "json";
-	// 	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	// 	xhr.send('1');
-
-	// 	return false;
-	// })
+	
 
 
 

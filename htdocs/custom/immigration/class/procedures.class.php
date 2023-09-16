@@ -497,9 +497,6 @@ class Procedures extends CommonObject
 
 	}
 
-
-
-
 	public function fetchOne($id)
 	{
 		global $conf;
@@ -539,6 +536,168 @@ class Procedures extends CommonObject
 		}
 	}
 
+	public function insertDoc(User $user, $fk_procedure, $fk_document, $notrigger = false)
+	{
+		global $langs;
+
+		$error = 0;
+
+		$now = dol_now('now');
+
+		// setEventMessages($langs->trans("Vous ne pouvez qu'empruntez ".$somme)." XAF", null, 'errors');
+
+		$this->db->begin();
+
+		$sql = 'INSERT INTO '.MAIN_DB_PREFIX.'immigration_documentation';
+		$sql .= ' (ref, fk_procedure, fk_document, fk_user_creat)';
+		$sql .= " VALUES ('DOC', ";
+		$sql .= " $fk_procedure,";
+		$sql .= " $fk_document,";
+		$sql .= " $user->id";
+		$sql .= ")";
+		// var_dump($sql);die;
+		$res = $this->db->query($sql);
+
+		if ($res === false) {
+			$error++;
+			$this->errors[] = $this->db->lasterror();
+		}
+
+		if (!$error) {
+			$this->id = $this->db->last_insert_id(MAIN_DB_PREFIX.'immigration_documentation');
+		}
+
+		// If we have a field ref with a default value of (PROV)
+		// if (!$error) {
+		// 	if (key_exists('ref', $this->fields) && $this->fields['ref']['notnull'] > 0 && key_exists('default', $this->fields['ref']) && $this->fields['ref']['default'] == '(PROV)') {
+		// 		$sql = "UPDATE ".MAIN_DB_PREFIX.$this->table_element." SET ref = '(PROV".$this->id.")' WHERE (ref = '(PROV)' OR ref = '') AND rowid = ".((int) $this->id);
+		// 		$resqlupdate = $this->db->query($sql);
+
+		// 		if ($resqlupdate === false) {
+		// 			$error++;
+		// 			$this->errors[] = $this->db->lasterror();
+		// 		} else {
+		// 			$this->ref = '(PROV'.$this->id.')';
+		// 		}
+		// 	}
+		// }
+
+		// Commit or rollback
+		if ($error) {
+			$this->db->rollback();
+			return -1;
+		} else {
+			$this->db->commit();
+			return 1;
+		}
+
+
+		
+	}
+
+	public function fetchDocumentsDocumented($procedure)
+	{
+
+		$records = array();
+
+		$sql = 'SELECT d.rowid as rowid, d.fk_procedure, d.fk_document';
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_documentation as d'; 
+		$sql .= ' WHERE d.fk_procedure = '.$procedure;
+
+		$resql = $this->db->query($sql);
+
+		if ($resql) {
+
+			$num = $this->db->num_rows($resql);
+			$i = 0;
+
+			while ($i < ($limit ? min($limit, $num) : $num)) {
+				$obj = $this->db->fetch_object($resql);
+				array_push( $records, (int) $obj->fk_document);
+				$i++;
+			}
+
+			$this->db->free($resql);
+
+			return $records;
+		} else {
+			$this->errors[] = 'Error ' . $this->db->lasterror();
+			dol_syslog(__METHOD__ . ' ' . join(',', $this->errors), LOG_ERR);
+
+			return $sql;
+		}
+
+	}
+
+	public function fetchAllDocument($procedure)
+	{
+
+		$records = array();
+
+		$sql = 'SELECT d.rowid as rowid, d.label, d.fk_procedure, d.fk_document';
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_documentation as d'; 
+		$sql .= ' WHERE d.fk_procedure = '.$procedure;
+
+		$resql = $this->db->query($sql);
+
+		if ($resql) {
+
+			$num = $this->db->num_rows($resql);
+			$i = 0;
+
+			while ($i < ($limit ? min($limit, $num) : $num)) {
+				$obj = $this->db->fetch_object($resql);
+
+				$record = new stdClass($this->db);
+				
+				$record->rowid		=		$obj->rowid;
+				$record->fk_procedure		=		$obj->procedure;
+				$record->fk_document		=		$obj->document;
+
+				$records[$i] = $record;
+				$i++;
+			}
+
+			$this->db->free($resql);
+
+			return $records;
+		} else {
+			$this->errors[] = 'Error ' . $this->db->lasterror();
+			dol_syslog(__METHOD__ . ' ' . join(',', $this->errors), LOG_ERR);
+
+			return $sql;
+		}
+
+	}
+
+	public function deleteDocument($id){
+		global $conf, $langs;
+		$error = 0;
+
+		$num = $this->ref;
+		$this->newref = dol_sanitizeFileName($num);
+
+
+		$sql = "DELETE FROM " . MAIN_DB_PREFIX .'immigration_documentation';
+		$sql .= " WHERE fk_document = " . ((int) $id);
+
+		$this->db->begin();
+
+		$resql = $this->db->query($sql);
+		if (!$resql) {
+			$error++;
+			$this->errors[] = "Error " . $this->db->lasterror();
+		}
+		
+
+		if (!$error) {
+			$this->db->commit();
+			return 1;
+		} else {
+			$this->db->rollback();
+			return -1;
+		}
+	}
 	
 	
 
