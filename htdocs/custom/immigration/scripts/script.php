@@ -158,10 +158,55 @@ if ($action === 'add_doc'){
 }
 
 
-if ($action == 'confirm_delete'){
+if ($action === 'add_catdoc'){
 
-	$object->deleteDocument((int) $iddoc);
-	header("Location: ".dol_buildpath('/custom/immigration/procedures_documents_card.php?id='.$id, 1).'&action=move_doc');
+	
+
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		// Vérifiez si le champ "countries" a été soumis
+		if (isset($_POST["countries"])) {
+			// Accédez aux éléments sélectionnés du select multiple
+			
+			$countries = $_POST["countries"];
+
+			// Traitez les données selon vos besoins
+			foreach ($countries as $item) {
+				// Faites ce que vous voulez avec chaque élément sélectionné
+				// echo "Élément sélectionné : " . $item . "<br>";
+				$object_cat->insertDoc($user, $id, $item);
+			}
+			header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_card.php?id='.$id, 1).'&action=add_doc');
+
+		} else {
+			header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_card.php?id='.$id, 1).'&action=empty_doc');
+		}
+	} elseif ($_SERVER["REQUEST_METHOD"] == "GET") {
+		if (isset($_GET["iddoc"])) {
+			// Accédez aux éléments sélectionnés du select multiple
+			$countries = $_GET["iddoc"];
+			$object_cat->insertDoc($user, $id, (int)$countries);
+			header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_documents_card.php?id='.$id, 1).'&action=add_doc');
+
+		} else {
+			header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_documents_card.php?id='.$id, 1).'&action=empty_doc');
+		}
+	} else {
+		header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_card.php?id='.$id, 1).'&action=badvalue_doc');
+	}
 
 }
 
+
+if ($action == 'confirm_delete'){
+
+	$object->deleteDocument((int) $iddoc);
+	header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_documents_card.php?id='.$id, 1).'&action=move_doc');
+
+}
+
+if ($action == 'confirm_catdoc_delete'){
+
+	$object_cat->deleteDocument((int) $iddoc);
+	header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_card.php?id='.$id, 1).'&action=move_doc');
+
+}

@@ -78,7 +78,10 @@ if (!$res) {
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formprojet.class.php';
+require_once DOL_DOCUMENT_ROOT.'/custom/immigration/scripts/multi-select-tag.php';
+
 dol_include_once('/immigration/class/cat_procedures.class.php');
+dol_include_once('/immigration/class/procedures.class.php');
 dol_include_once('/immigration/lib/immigration_cat_procedures.lib.php');
 
 // Load translation files required by the page
@@ -99,6 +102,7 @@ $dol_openinpopup = GETPOST('dol_openinpopup', 'aZ09');
 
 // Initialize technical objects
 $object = new Cat_procedures($db);
+$object_procedure = new Procedures($db);
 $extrafields = new ExtraFields($db);
 $diroutputmassaction = $conf->immigration->dir_output.'/temp/massgeneration/'.$user->id;
 $hookmanager->initHooks(array('cat_procedurescard', 'globalcard')); // Note that conf->hooks_modules contains array
@@ -240,6 +244,10 @@ llxHeader('', $title, $help_url);
 // });
 // </script>';
 
+$proDocuments = $object_procedure->fetchDocumentsConfig();
+$documentDocumented = $object->fetchDocumentsDocumented($id);
+$fetchDocumetDocumented = $object->fetchAllDocument($id);
+
 
 // Part to create
 if ($action == 'create') {
@@ -326,6 +334,24 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	print dol_get_fiche_head($head, 'card', $langs->trans("Cat_procedures"), -1, $object->picto);
 
 	$formconfirm = '';
+
+
+	if ($action == 'add_doc') {
+		print dol_htmloutput_mesg("Catégorie documentée", '', 'ok', 0);
+	}
+
+	if ($action == 'move_doc') {
+		print dol_htmloutput_mesg("Document supprimé", '', 'ok', 0);
+	}
+
+	if ($action == 'empty_doc') {
+		print dol_htmloutput_mesg("Aucun document selectionné", '', 'warning', 0);
+	}
+
+	if ($action == 'badvalue_doc') {
+		print dol_htmloutput_mesg("Aucun document selectionné", '', 'error', 0);
+	}
+
 
 	// Confirmation to delete
 	if ($action == 'delete') {
@@ -436,6 +462,53 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	//unset($object->fields['fk_project']);				// Hide field already shown in banner
 	//unset($object->fields['fk_soc']);					// Hide field already shown in banner
 	include DOL_DOCUMENT_ROOT.'/core/tpl/commonfields_view.tpl.php';
+
+
+	print '<table class="border centpercent tableforfield">';
+
+	print '<tr class="liste_titre">';
+	print '<td colspan="10" class="left" style="width:100%;font-size:18px;font-weight:500px;color:#000">' . $langs->trans("AddProcedureDocumentation") . '</td>';
+	print '</tr>';
+	
+	// if (($object->status != $object::STATUS_TERMINATE) && ($object->status != $object::STATUS_CANCELED)){
+		if ($object->status == $object::STATUS_VALIDATED){
+			print '<form method="POST" action="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$object->id.'&action=add_catdoc" id="add_docs_form">';
+				print '<tr>';
+					print '<td colspan="5">';
+						// print '<select name="field1" id="field1" multiple onchange="console.log(Array.from(this.selectedOptions).map(x=>x.value??x.text))" multiselect-hide-x="true">';
+						print '<select name="countries[]" id="countries" multiple>';
+						if (!empty($documentDocumented)){
+							foreach($proDocuments as $obj){
+								if(!empty($documentDocumented) && !in_array((int) $obj->rowid, $documentDocumented)){
+									print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
+								}
+							}
+						}else{
+							foreach($proDocuments as $obj){
+								print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
+							}
+						}
+						print '</select>';
+					print '</td>';
+					print '<td colspan="2">';
+					print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('Documente').'" value="'.$langs->trans('Documente').'">';
+					// print '<a class="butAction relative_div_" onclick="recup_docs()"  title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; //href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'"
+					print '</td>';
+
+
+
+				print '</tr>';
+
+				print '<tr></tr>';
+
+			print '</form>';
+
+		}
+
+	// }
+
+	print '</table>';
+
 
 	// Other attributes. Fields from hook formObjectOptions and Extrafields.
 	include DOL_DOCUMENT_ROOT.'/core/tpl/extrafields_view.tpl.php';
@@ -584,9 +657,56 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 		}
 
 		// Show links to link elements
-		$linktoelem = $form->showLinkToObjectBlock($object, null, array('cat_procedures'));
-		$somethingshown = $form->showLinkedObjectBlock($object, $linktoelem);
+		// $linktoelem = $form->showLinkToObjectBlock($object, null, array('cat_procedures'));
+		// $somethingshown = $form->showLinkedObjectBlock($object, $linktoelem);
+		
+		
 
+		print '<table class="centpercent notopnoleftnoright table-fiche-title showlinkedobjectblock">';
+			print '<tr class="titre">';
+				print '<td class="nobordernopadding valignmiddle col-title">';
+					print '<div class="titre inline-block">Objets li&eacute;s</div>';
+				print '</td>';
+			print '	</tr>';
+		print '</table>';
+		print '<div class="div-table-responsive-no-min">';
+			print '<table class="noborder allwidth" data-block="showLinkedObject" data-element="cat_procedures"  data-elementid="1"   >';
+					
+				
+					print '<tr class="liste_titre">';
+						print '<td class="left">ID</td>';
+						print '<td class="left">Code</td>';
+						print '<td class="left">label</td>';
+						print '<td class="center">Etat</td>';
+						print '<td class="center">Action</td>';
+					print '</tr>';
+
+					if ($object->status == $object::STATUS_VALIDATED) {
+						if (isset($documentDocumented) && !empty($documentDocumented)){
+							foreach ($object_procedure->fetchDocumentsConfig() as $obj) {
+								if(in_array((int) $obj->rowid, $documentDocumented)){
+									print '<tr>';
+										print '<td class="left">'.$obj->rowid.'</td>';
+										print '<td class="left">'.$obj->code.'</td>';
+										print '<td class="left">'.$obj->label.'</td>';
+										print '<td class="center"><span class="badge  badge-dot badge-status'.$obj->active.' classfortooltip badge-status" title="'.$object->LibStatut((int) $obj->active).'n" aria-label="'.$object->LibStatut((int) $obj->active).'"></span></td>';
+										print '<td colspan="2" style="text-align:center">
+											<a href="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$id.'&iddoc='.$obj->rowid.'&action=confirm_catdoc_delete" class="reposition deletefilelink"><span class="fas fa-trash pictodelete" style="" title="Supprimer"></span></a>
+											</td>';
+									print '</tr>';
+								}
+							}
+						}
+					}else{
+						print '<tr>';
+							print '<td class="impair" colspan="7"><span class="opacitymedium">Aucun</span></td>';
+						print '</tr>';
+					}
+					
+					
+			print '</table>';
+		print '</div>';
+		
 
 		print '</div><div class="fichehalfright">';
 
@@ -619,3 +739,65 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 // End of page
 llxFooter();
 $db->close();
+
+
+?>
+
+
+<script src="scripts/multi-select-tag.js" ></script>
+
+<script>
+
+	
+
+	new MultiSelectTag('countries', {
+		rounded: true,    // default true
+		shadow: true,      // default false
+		placeholder: 'Search',  // default Search...
+		onChange: function(values) {
+			console.log(data);
+		}
+	})
+
+	function recup_docs(){
+
+		let docs = [];
+		let doc = document.getElementById("countries");
+		
+
+		for ( let i=0; i< doc.options.length; i++) {
+			if ( doc.options[i].selected == true ) {
+				docs.push(doc.options[i].value);
+			}
+		}
+
+		var data = '';
+		var xhr = new XMLHttpRequest();
+		var Url = <?php $local_link ?>
+		
+
+		xhr.open('POST', Url, true);
+		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState === 4 && xhr.status === 200) {
+				// Réponse du serveur PHP
+				console.log(xhr.responseText);
+			}
+		};
+
+		// Conversion des données JavaScript en une chaîne de requête
+		data = 'countries=' + encodeURIComponent(docs.join(','));
+
+		// Envoi de la requête AJAX
+		xhr.send(data);
+
+
+		// alert(docs);
+	}
+	
+	
+
+
+
+	
+</script>

@@ -217,6 +217,166 @@ class Cat_procedures extends CommonObject
 		}
 	}
 
+
+	/**               ********************************************               **/
+
+
+	public function insertDoc(User $user, $fk_catprocedure, $fk_document, $notrigger = false)
+	{
+		global $langs;
+
+		$error = 0;
+
+		$now = dol_now('now');
+
+		// setEventMessages($langs->trans("Vous ne pouvez qu'empruntez ".$somme)." XAF", null, 'errors');
+
+		$this->db->begin();
+
+		$sql = 'INSERT INTO '.MAIN_DB_PREFIX.'immigration_catprocedure_document';
+		$sql .= ' (ref, fk_catprocedure, fk_document, fk_user_creat)';
+		$sql .= " VALUES ('DOC', ";
+		$sql .= " $fk_catprocedure,";
+		$sql .= " $fk_document,";
+		$sql .= " $user->id";
+		$sql .= ")";
+		// var_dump($sql);die;
+		$res = $this->db->query($sql);
+
+		if ($res === false) {
+			$error++;
+			$this->errors[] = $this->db->lasterror();
+		}
+
+		if (!$error) {
+			$this->id = $this->db->last_insert_id(MAIN_DB_PREFIX.'immigration_catprocedure_document');
+		}
+
+		// Commit or rollback
+		if ($error) {
+			$this->db->rollback();
+			return -1;
+		} else {
+			$this->db->commit();
+			return 1;
+		}
+
+
+		
+	}
+
+	public function fetchDocumentsDocumented($catprocedure)
+	{
+
+		$records = array();
+
+		$sql = 'SELECT d.rowid as rowid, d.fk_catprocedure, d.fk_document';
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_catprocedure_document as d'; 
+		$sql .= ' WHERE d.fk_catprocedure = '.$catprocedure;
+
+		$resql = $this->db->query($sql);
+
+		if ($resql) {
+
+			$num = $this->db->num_rows($resql);
+			$i = 0;
+
+			while ($i < ($limit ? min($limit, $num) : $num)) {
+				$obj = $this->db->fetch_object($resql);
+				array_push( $records, (int) $obj->fk_document);
+				$i++;
+			}
+
+			$this->db->free($resql);
+
+			return $records;
+		} else {
+			$this->errors[] = 'Error ' . $this->db->lasterror();
+			dol_syslog(__METHOD__ . ' ' . join(',', $this->errors), LOG_ERR);
+
+			return $sql;
+		}
+
+	}
+
+	public function fetchAllDocument($catprocedure)
+	{
+
+		$records = array();
+
+		$sql = 'SELECT d.rowid as rowid, d.fk_catprocedure, d.fk_document, d.date_creation';
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_catprocedure_document as d'; 
+		$sql .= ' WHERE d.fk_catprocedure = '.$catprocedure;
+
+		$resql = $this->db->query($sql);
+
+		if ($resql) {
+
+			$num = $this->db->num_rows($resql);
+			$i = 0;
+
+			while ($i < ($limit ? min($limit, $num) : $num)) {
+				$obj = $this->db->fetch_object($resql);
+
+				$record = new stdClass($this->db);
+				
+				$record->rowid				=		$obj->rowid;
+				$record->fk_catprocedure	=		$obj->procedure;
+				$record->fk_document		=		$obj->document;
+				$record->date_creation		=		$obj->date_creation;
+
+				$records[$i] = $record;
+				$i++;
+			}
+
+			$this->db->free($resql);
+
+			return $records;
+		} else {
+			$this->errors[] = 'Error ' . $this->db->lasterror();
+			dol_syslog(__METHOD__ . ' ' . join(',', $this->errors), LOG_ERR);
+
+			return -1;
+		}
+
+	}
+
+	public function deleteDocument($id){
+		global $conf, $langs;
+		$error = 0;
+
+		$num = $this->ref;
+		$this->newref = dol_sanitizeFileName($num);
+
+
+		$sql = "DELETE FROM " . MAIN_DB_PREFIX .'immigration_catprocedure_document';
+		$sql .= " WHERE fk_document = " . ((int) $id);
+
+		$this->db->begin();
+
+		$resql = $this->db->query($sql);
+		if (!$resql) {
+			$error++;
+			$this->errors[] = "Error " . $this->db->lasterror();
+		}
+		
+
+		if (!$error) {
+			$this->db->commit();
+			return 1;
+		} else {
+			$this->db->rollback();
+			return -1;
+		}
+	}
+	
+	
+
+	/**               ********************************************               **/
+
+
+
+
 	/**
 	 * Create object into database
 	 *

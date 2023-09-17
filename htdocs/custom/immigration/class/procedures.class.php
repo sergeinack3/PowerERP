@@ -288,6 +288,52 @@ class Procedures extends CommonObject
 		// return $DocumentsConfig;
 	}
 
+	public function fetchDocumentsConfigExclus(array $document)
+	{
+
+		$records = array();
+
+		$sql = 'SELECT d.rowid as rowid, d.code, d.label, d.active';
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'c_immigrations_documents as d'; 
+		$sql .= ' WHERE d.active = 1 AND d.rowid IN ('. implode(',', $document).')';
+		// $sql .= ' as d WHERE rowid = ' . $id . '';
+		$resql = $this->db->query($sql);
+
+		if ($resql) {
+
+			$num = $this->db->num_rows($resql);
+			$i = 0;
+
+			while ($i < ($limit ? min($limit, $num) : $num)) {
+				$obj = $this->db->fetch_object($resql);
+
+				$record = new stdClass($this->db);
+				
+				$record->rowid		=		$obj->rowid;
+				$record->code		=		$obj->code;
+				$record->label		=		$obj->label;
+				$record->active		=		$obj->active;
+
+				$records[$i] = $record;
+
+				$i++;
+			}
+
+			$this->db->free($resql);
+
+			return $records;
+		} else {
+			$this->errors[] = 'Error ' . $this->db->lasterror();
+			dol_syslog(__METHOD__ . ' ' . join(',', $this->errors), LOG_ERR);
+
+			return -1;
+		}
+
+		// $DocumentsConfig = $this->db->fetch_object($resql);
+
+		// return $DocumentsConfig;
+	}
+
 	public function inApproval($user, $object, $notrigger = 0)
 	{
 		global $conf, $langs;
@@ -548,7 +594,7 @@ class Procedures extends CommonObject
 
 		$this->db->begin();
 
-		$sql = 'INSERT INTO '.MAIN_DB_PREFIX.'immigration_documentation';
+		$sql = 'INSERT INTO '.MAIN_DB_PREFIX.'immigration_procedure_document';
 		$sql .= ' (ref, fk_procedure, fk_document, fk_user_creat)';
 		$sql .= " VALUES ('DOC', ";
 		$sql .= " $fk_procedure,";
@@ -601,7 +647,7 @@ class Procedures extends CommonObject
 		$records = array();
 
 		$sql = 'SELECT d.rowid as rowid, d.fk_procedure, d.fk_document';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_documentation as d'; 
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_procedure_document as d'; 
 		$sql .= ' WHERE d.fk_procedure = '.$procedure;
 
 		$resql = $this->db->query($sql);
@@ -634,8 +680,8 @@ class Procedures extends CommonObject
 
 		$records = array();
 
-		$sql = 'SELECT d.rowid as rowid, d.label, d.fk_procedure, d.fk_document';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_documentation as d'; 
+		$sql = 'SELECT d.rowid as rowid, d.fk_procedure, d.fk_document, d.date_creation';
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_procedure_document as d'; 
 		$sql .= ' WHERE d.fk_procedure = '.$procedure;
 
 		$resql = $this->db->query($sql);
@@ -678,7 +724,7 @@ class Procedures extends CommonObject
 		$this->newref = dol_sanitizeFileName($num);
 
 
-		$sql = "DELETE FROM " . MAIN_DB_PREFIX .'immigration_documentation';
+		$sql = "DELETE FROM " . MAIN_DB_PREFIX .'immigration_procedure_document';
 		$sql .= " WHERE fk_document = " . ((int) $id);
 
 		$this->db->begin();

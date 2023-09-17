@@ -252,18 +252,19 @@ llxHeader('', $title, $help_url);
 // }
 
 $documentDocumented = $object->fetchDocumentsDocumented($id);
+$catdocumentDocumented = $object_cat->fetchDocumentsDocumented($object->ca_procedure);
 $firstStepProcedure = $object_step->fetchFirstStepProcedure($object->ca_procedure);
 $stepLabel = $object_step->fetchLabelStep($object->ca_procedure, $object->tracking);
 $lastStepProcedure = $object_step->fetchLastStepProcedure($object->ca_procedure);
 // $allStepProcedure = $object_step->fetchStepProcedure($object->ca_procedure);
 $allStepProcedureExclus = $object_step->fetchStepProcedureExclus($object->ca_procedure, $object->tracking);
 $type = $object->fetchProcedureByStep($user, $object->ca_procedure);
-$proDocuments = $object->fetchDocumentsConfig();
+$proDocuments = $object->fetchDocumentsConfigExclus($catdocumentDocumented);
 
 // print_r($object->tracking);
 
 // Example : Adding jquery code
-
+// var_dump($object->fetchDocumentsConfigExclus($catdocumentDocumented));
 
 // print '<script type="text/javascript">
 // jQuery(document).ready(function() {

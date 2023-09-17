@@ -20,24 +20,47 @@
 
 TRUNCATE llx_c_immigrations_documents;
 
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ACN', 'Acte de naissance ', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('PAP', 'Passeport', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CVC', 'Cv type Canadien', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('LEM', 'Lettre de motivation ', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('BUP', 'Bulletin de paies', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('COT', 'Contrat de travail', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CAB', 'Caution bancaire', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('REB', 'Relevés bancaires des 6 derniers mois', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ATT', 'Attestations de travail', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('EQD', 'Equivalence de diplômes', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('TEL', 'Test de langue valide anglais et français', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('REU', 'Relevés universitaires', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ECJ', 'Extrait de casier judiciaire', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('TIF', 'Titres fonciers', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('CAG', 'Cartes grises', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('COE', 'Compte d’épargne', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('LEC', 'Lettre de congés', '1');
-INSERT INTO `llx_c_immigrations_documents` (`code`, `label`, `active`) VALUES ('ITV', 'Itinéraire de voyage', '1');
+INSERT INTO `llx_c_immigrations_documents` (`rowid`, `code`, `label`, `active`) VALUES
+	(1, 'ACN', 'Acte de naissance ', 1),
+	(2, 'PAP', 'Passeport', 1),
+	(3, 'CVC', 'Cv type Canadien', 1),
+	(4, 'LEM', 'Lettre de motivation ', 1),
+	(5, 'BUP', 'Bulletin de paies', 1),
+	(6, 'COT', 'Contrat de travail', 1),
+	(7, 'CAB', 'Caution bancaire', 1),
+	(8, 'REB', 'Relevés bancaires des 6 derniers mois', 1),
+	(9, 'ATT', 'Attestations de travail', 1),
+	(10, 'EQD', 'Equivalence de diplômes', 1),
+	(11, 'TEL', 'Test de langue valide anglais et français', 1),
+	(12, 'REU', 'Relevés universitaires + Attestations authentifié et certifié par L’université où le Candidat auras obtenue son diplôme', 1),
+	(13, 'ECJ', 'Extrait de casier judiciaire', 1),
+	(14, 'TIF', 'Titres fonciers', 1),
+	(15, 'CAG', 'Cartes grises', 1),
+	(16, 'COE', 'Compte d’épargne', 1),
+	(17, 'LEC', 'Lettre de congés', 1),
+	(18, 'ITV', 'Itinéraire de voyage', 1),
+	(19, 'CNI', 'CNI ou récépissé valide', 1),
+	(20, 'PNU', 'Photo numérique 50x70', 1),
+	(21, 'LEI', 'Lettre d’invitation', 1),
+	(22, 'BUT', 'Bulletin trimestriel de la seconde', 1),
+	(23, 'BUT', 'Bulletin trimestriel de la première', 1),
+	(24, 'BUT', 'Bulletin trimestriel de la terminale', 1),
+	(25, 'REP', 'Relevés du probatoire', 1),
+	(26, 'REB', 'Relevés du baccalauréat', 1),
+	(27, 'LEA', 'La lettre d’admission', 1),
+	(28, 'LEE', 'Lettre explicative et promesse d’embauche', 1),
+	(29, 'REB', 'Relevés bancaires du garant des 6 derniers mois + Attestations de compte bancaire', 1),
+	(30, 'LEP', 'Lettre de prise en charge du garant', 1),
+	(31, 'TIF', 'Titres fonciers ou cartes grises ou, des biens quelconques', 1),
+	(32, 'ACM', 'Acte de mariage des parents', 1),
+	(33, 'ATT', 'Attestation de travail allant de l’année d’obtention du dernier diplôme jusqu’à nos jours et fiches de paie des 6 derniers moi', 1),
+	(34, 'REN', 'Tous les relevés de notes et tous les diplômes à partir du Baccalauréat', 1),
+	(35, 'CNG', 'CNI ou Passeport du garant', 1),
+	(36, 'ACN', 'Acte de naissance Etudiant+ parents + garants', 1),
+	(37, 'CAQ', 'C.A.Q', 1),
+	(38, 'ATS', 'Attestations de stage si l’étudiant a fait des stages', 1),
+	(39, 'ENQ', 'Engagement de quitter le territoire', 1),
+	(40, 'REC', 'Registres de commerce, attestations de non redevance immatriculation (pour garant chef d’entreprise', 1);
 
 
 TRUNCATE llx_immigration_cat_procedures;
