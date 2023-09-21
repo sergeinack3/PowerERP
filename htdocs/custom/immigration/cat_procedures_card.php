@@ -130,13 +130,14 @@ include DOL_DOCUMENT_ROOT.'/core/actions_fetchobject.inc.php'; // Must be includ
 
 // There is several ways to check permission.
 // Set $enablepermissioncheck to 1 to enable a minimum low level of checks
-$enablepermissioncheck = 0;
+$enablepermissioncheck = 1;
 if ($enablepermissioncheck) {
 	$permissiontoread = $user->rights->immigration->cat_procedures->read;
 	$permissiontoadd = $user->rights->immigration->cat_procedures->write; // Used by the include of actions_addupdatedelete.inc.php and actions_lineupdown.inc.php
-	$permissiontodelete = $user->rights->immigration->cat_procedures->delete || ($permissiontoadd && isset($object->status) && $object->status == $object::STATUS_DRAFT);
+	$permissiontodelete = $user->rights->immigration->cat_procedures->delete;
 	$permissionnote = $user->rights->immigration->cat_procedures->write; // Used by the include of actions_setnotes.inc.php
 	$permissiondellink = $user->rights->immigration->cat_procedures->write; // Used by the include of actions_dellink.inc.php
+	$permissiontovalidate = $user->rights->immigration->procedures->validate; 
 } else {
 	$permissiontoread = 1;
 	$permissiontoadd = 1; // Used by the include of actions_addupdatedelete.inc.php and actions_lineupdown.inc.php
@@ -491,8 +492,10 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 						print '</select>';
 					print '</td>';
 					print '<td colspan="2">';
-					print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('Documente').'" value="'.$langs->trans('Documente').'">';
-					// print '<a class="butAction relative_div_" onclick="recup_docs()"  title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; //href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'"
+					if ($permissiontoadd) {
+						print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('Documente').'" value="'.$langs->trans('Documente').'">';
+						// print '<a class="butAction relative_div_" onclick="recup_docs()"  title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; //href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'"
+					}
 					print '</td>';
 
 
@@ -592,12 +595,14 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 			// Back to draft
 			if ($object->status == $object::STATUS_VALIDATED) {
 				print dolGetButtonAction($langs->trans('SetToDraft'), '', 'default', $_SERVER["PHP_SELF"].'?id='.$object->id.'&action=confirm_setdraft&confirm=yes&token='.newToken(), '', $permissiontoadd);
+				print dolGetButtonAction($langs->trans('Delete'), '', 'delete', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=delete&token='.newToken(), '', $permissiontodelete || ($object->status == $object::STATUS_DRAFT && $permissiontodelete));
 			}
 
 			// Validate
 			if ($object->status == $object::STATUS_DRAFT) {
 				if (empty($object->table_element_line) || (is_array($object->lines) && count($object->lines) > 0)) {
-					print dolGetButtonAction($langs->trans('Validate'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_validate&confirm=yes&token='.newToken(), '', $permissiontoadd);
+					print dolGetButtonAction($langs->trans('Validate'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_validate&confirm=yes&token='.newToken(), '', $permissiontovalidate);
+					print dolGetButtonAction($langs->trans('Delete'), '', 'delete', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=delete&token='.newToken(), '', $permissiontodelete || ($object->status == $object::STATUS_DRAFT && $permissiontodelete));
 				} else {
 					$langs->load("errors");
 					print dolGetButtonAction($langs->trans("ErrorAddAtLeastOneLineFirst"), $langs->trans("Validate"), 'default', '#', '', 0);

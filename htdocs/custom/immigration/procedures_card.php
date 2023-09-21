@@ -139,20 +139,32 @@ include DOL_DOCUMENT_ROOT.'/core/actions_fetchobject.inc.php'; // Must be includ
 
 // There is several ways to check permission.
 // Set $enablepermissioncheck to 1 to enable a minimum low level of checks
-$enablepermissioncheck = 0;
+$enablepermissioncheck = 1;
 if ($enablepermissioncheck) {
 	$permissiontoread = $user->rights->immigration->procedures->read;
+	$permissiontoreadone = $user->rights->immigration->procedures->oneread; 
 	$permissiontoadd = $user->rights->immigration->procedures->write; // Used by the include of actions_addupdatedelete.inc.php and actions_lineupdown.inc.php
-	$permissiontodelete = $user->rights->immigration->procedures->delete || ($permissiontoadd && isset($object->status) && $object->status == $object::STATUS_DRAFT);
+	$permissiontodelete = $user->rights->immigration->procedures->delete;
 	$permissionnote = $user->rights->immigration->procedures->write; // Used by the include of actions_setnotes.inc.php
-	$permissiondellink = $user->rights->immigration->procedures->write; // Used by the include of actions_dellink.inc.php
+	$permissiondellink = $user->rights->immigration->procedures->write; 
+	$permissiontotrack = $user->rights->immigration->procedures->tracking; 
+	$permissiontotrackone = $user->rights->immigration->procedures->onetracking; 
+	$permissiontovalidate = $user->rights->immigration->procedures->validate; 
+	$permissiontostart = $user->rights->immigration->procedures->start; 
+
 } else {
 	$permissiontoread = 1;
 	$permissiontoadd = 1; // Used by the include of actions_addupdatedelete.inc.php and actions_lineupdown.inc.php
 	$permissiontodelete = 1;
 	$permissionnote = 1;
 	$permissiondellink = 1;
+	$permissiontoreadone = 1;
+	$permissiontotrack = 1; 
+	$permissiontotrackone = 1; 
+	$permissiontovalidate = 1; 
+	$permissiontostart = 1; 
 }
+
 
 $upload_dir = $conf->immigration->multidir_output[isset($object->entity) ? $object->entity : 1].'/procedures';
 
@@ -259,7 +271,8 @@ $lastStepProcedure = $object_step->fetchLastStepProcedure($object->ca_procedure)
 // $allStepProcedure = $object_step->fetchStepProcedure($object->ca_procedure);
 $allStepProcedureExclus = $object_step->fetchStepProcedureExclus($object->ca_procedure, $object->tracking);
 $type = $object->fetchProcedureByStep($user, $object->ca_procedure);
-$proDocuments = $object->fetchDocumentsConfigExclus($catdocumentDocumented);
+
+
 
 // print_r($object->tracking);
 
@@ -375,6 +388,13 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	if ($state === 'changed'){
 		print dol_htmloutput_mesg("Changement effectue (En Traitement)", '', 'ok', 0);
 	}
+
+
+
+	if (isset($catdocumentDocumented) && !empty($catdocumentDocumented)){
+		$proDocuments = $object->fetchDocumentsConfigExclus($catdocumentDocumented);
+	}
+
 
 
 
@@ -615,8 +635,10 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 						print '</select>';
 					print '</td>';
 					print '<td colspan="2">';
+					if ($permissiontoadd) {
 					print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('Documente').'" value="'.$langs->trans('Documente').'">';
 					// print '<a class="butAction relative_div_" onclick="recup_docs()"  title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; //href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'"
+					}
 					print '</td>';
 
 
@@ -633,37 +655,40 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 				print '<td colspan="10" class="left" style="width:100%;font-size:18px;font-weight:500px;color:#000">' . $langs->trans("changeState") . '</td>';
 				print '</tr>';
 	
-				print '<form method="POST" action="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$object->id.'&action=change_tracking" id="change_tracking">';
+				if ($permissiontostart){
+					print '<form method="POST" action="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$object->id.'&action=change_tracking" id="change_tracking">';
 					
-					print '<tr>';
-	
-						print '<td colspan="5" class="valuefieldcreate">';
-							print '<label class="select" for="slct">';
-							print '<select id="slct" class="flat minwidth200imp  --success widthcentpercentminusx" name="newtracking">';
-								print '<option value="" disabled="disabled" selected="selected">Select option</option>';
-								
-								foreach ($allStepProcedureExclus as $value) {
-										print '<option value="'.$value->rowid.'">'.$value->label.'</option>';
-								}
-								
-							print '</select>';
-	
-							print '<svg><use xlink:href="#select-arrow-down"></use></svg>';
-								print '<svg class="sprites">
-								<symbol id="select-arrow-down" viewbox="0 0 10 6">
-								  <polyline points="1 1 5 5 9 1"></polyline>
-								</symbol>
-							  </svg>';
-	
-							print '</label>';
-						print '</td>';
-	
-						print '<td colspan="2">';
-							print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('got_it').'" value="'.$langs->trans('got_it').'">';
-							// print '<a class="butAction relative_div_" href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&newtracking='.$newtracking.'&action=confirm_change"  title="'.$langs->trans('got_it').'">'.$langs->trans('got_it').'</a>'; 
+						print '<tr>';
+		
+							print '<td colspan="5" class="valuefieldcreate">';
+								print '<label class="select" for="slct">';
+								print '<select id="slct" class="flat minwidth200imp  --success widthcentpercentminusx" name="newtracking">';
+									print '<option value="" disabled="disabled" selected="selected">Select option</option>';
+									
+									foreach ($allStepProcedureExclus as $value) {
+											print '<option value="'.$value->rowid.'">'.$value->label.'</option>';
+									}
+									
+								print '</select>';
+		
+								print '<svg><use xlink:href="#select-arrow-down"></use></svg>';
+									print '<svg class="sprites">
+									<symbol id="select-arrow-down" viewbox="0 0 10 6">
+									<polyline points="1 1 5 5 9 1"></polyline>
+									</symbol>
+								</svg>';
+		
+								print '</label>';
 							print '</td>';
-	
-					print '</tr>';
+		
+							print '<td colspan="2">';
+								print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('got_it').'" value="'.$langs->trans('got_it').'">';
+								// print '<a class="butAction relative_div_" href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&newtracking='.$newtracking.'&action=confirm_change"  title="'.$langs->trans('got_it').'">'.$langs->trans('got_it').'</a>'; 
+								print '</td>';
+		
+						print '</tr>';
+					print '</form>';
+				}
 			}
 
 		}
@@ -672,7 +697,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 
 	print '</table>';
 
-
+	// var_dump($permissiontostart);
 	// Other attributes. Fields from hook formObjectOptions and Extrafields.
 	include DOL_DOCUMENT_ROOT.'/core/tpl/extrafields_view.tpl.php';
 
@@ -750,8 +775,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 
 			if ($permissiontoadd && $object->status != $object::STATUS_CANCELED) {
 				if($object->status != $object::STATUS_TERMINATE){
-					// print '<a class="butAction relative_div_" onclick="recup_docs()" href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'" title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; 
-					// print '<a class="butAction relative_div_" href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=add_doc&token='.newToken().'" title="'.$langs->trans('Documente').'">'.$langs->trans('Documente').'</a>'; 
+
 				}
 				
 			}
@@ -759,14 +783,14 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 			// DRAFT
 			if ($object->status == $object::STATUS_DRAFT) {
 
-				print dolGetButtonAction($langs->trans('InApprovale'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=approval&confirm=yes&token='.newToken(), '', $permissiontoadd);
+				print dolGetButtonAction($langs->trans('InApprovale'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=approval&confirm=yes&token='.newToken(), '', $permissiontovalidate);
 				print dolGetButtonAction($langs->trans('Modify'), '', 'default', $_SERVER["PHP_SELF"].'?id='.$object->id.'&action=edit&token='.newToken(), '', $permissiontoadd);
 
 				// Clone
 				print dolGetButtonAction($langs->trans('ToClone'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.(!empty($object->socid)?'&socid='.$object->socid:'').'&action=clone&token='.newToken(), '', $permissiontoadd);
 				
 				// Delete (need delete permission, or if draft, just need create/modify permission)
-				print dolGetButtonAction($langs->trans('Delete'), '', 'delete', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=delete&token='.newToken(), '', $permissiontodelete || ($object->status == $object::STATUS_DRAFT && $permissiontoadd));
+				print dolGetButtonAction($langs->trans('Delete'), '', 'delete', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=delete&token='.newToken(), '', $permissiontodelete);
 			}
 
 			// IN_APPROVAL
@@ -775,7 +799,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 				if (empty($object->table_element_line) || (is_array($object->lines) && count($object->lines) > 0)) {
 					print dolGetButtonAction($langs->trans('Modify'), '', 'default', $_SERVER["PHP_SELF"].'?id='.$object->id.'&action=edit&token='.newToken(), '', $permissiontoadd);
 
-					print dolGetButtonAction($langs->trans('Validate'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_validated&confirm=yes&token='.newToken(), '', $permissiontoadd);
+					print dolGetButtonAction($langs->trans('Validate'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_validated&confirm=yes&token='.newToken(), '', $permissiontovalidate);
 				} else {
 					$langs->load("errors");
 					print dolGetButtonAction($langs->trans("ErrorAddAtLeastOneLineFirst"), $langs->trans("Validate"), 'default', '#', '', 0);
@@ -794,8 +818,8 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 				}
 
 				// print dolGetButtonAction($langs->trans('initialised'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_tracking&token='.newToken(), '', $permissiontoadd);
-				print dolGetButtonAction($langs->trans('initialised'), '', 'default', dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$object->id.'&action=tracking&token='.newToken(), '', $permissiontoadd);
-				print dolGetButtonAction($langs->trans('Cloture'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_close&token='.newToken(), '', $permissiontoadd);
+				print dolGetButtonAction($langs->trans('initialised'), '', 'default', dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$object->id.'&action=tracking&token='.newToken(), '', $permissiontostart);
+				print dolGetButtonAction($langs->trans('Cloture'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_close&token='.newToken(), '', $permissiontovalidate);
 
 			}
 
@@ -806,7 +830,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 					print dolGetButtonAction($langs->trans('SendMail'), '', 'default', $_SERVER["PHP_SELF"].'?id='.$object->id.'&action=presend&mode=init&token='.newToken().'#formmailbeforetitle');
 				}
 
-				print dolGetButtonAction($langs->trans('Cloture'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_close&token='.newToken(), '', $permissiontoadd);
+				print dolGetButtonAction($langs->trans('Cloture'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=confirm_close&token='.newToken(), '', $permissiontovalidate);
 
 			}
 

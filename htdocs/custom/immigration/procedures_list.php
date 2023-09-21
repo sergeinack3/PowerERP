@@ -188,15 +188,21 @@ $arrayfields = dol_sort_array($arrayfields, 'position');
 
 // There is several ways to check permission.
 // Set $enablepermissioncheck to 1 to enable a minimum low level of checks
-$enablepermissioncheck = 0;
+$enablepermissioncheck = 1;
 if ($enablepermissioncheck) {
 	$permissiontoread = $user->rights->immigration->procedures->read;
 	$permissiontoadd = $user->rights->immigration->procedures->write;
 	$permissiontodelete = $user->rights->immigration->procedures->delete;
+	$permissiontoreadone = $user->rights->immigration->procedures->oneread; 
+	$permissiontotrack = $user->rights->immigration->procedures->tracking; 
+	$permissiontotrackone = $user->rights->immigration->procedures->onetracking; 
 } else {
 	$permissiontoread = 1;
 	$permissiontoadd = 1;
 	$permissiontodelete = 1;
+	$permissiontoreadone = 1;
+	$permissiontotrack = 1;
+	$permissiontotrackone = 1;
 }
 
 // Security check (enable the most restrictive one)
@@ -206,7 +212,7 @@ if ($user->socid > 0) accessforbidden();
 //$isdraft = (($object->status == $object::STATUS_DRAFT) ? 1 : 0);
 //restrictedArea($user, $object->element, 0, $object->table_element, '', 'fk_soc', 'rowid', $isdraft);
 if (empty($conf->immigration->enabled)) accessforbidden('Module not enabled');
-if (!$permissiontoread) accessforbidden();
+if (!$permissiontoread && !$permissiontoreadone) accessforbidden();
 
 
 /*
@@ -302,6 +308,12 @@ if ($object->ismultientitymanaged == 1) {
 } else {
 	$sql .= " WHERE 1 = 1";
 }
+
+if ($permissiontotrackone && !$permissiontotrack){
+	$sql .= ' AND fk_user_creat = '.$user->id;
+}
+
+
 foreach ($search as $key => $val) {
 	if (array_key_exists($key, $object->fields)) {
 		if ($key == 'status' && $search[$key] == -1) {
@@ -405,6 +417,7 @@ $sql .= $db->order($sortfield, $sortorder);
 if ($limit) {
 	$sql .= $db->plimit($limit + 1, $offset);
 }
+
 
 $resql = $db->query($sql);
 if (!$resql) {

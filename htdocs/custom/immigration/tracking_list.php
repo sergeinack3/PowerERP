@@ -195,15 +195,21 @@ $arrayfields = dol_sort_array($arrayfields, 'position');
 
 // There is several ways to check permission.
 // Set $enablepermissioncheck to 1 to enable a minimum low level of checks
-$enablepermissioncheck = 0;
+$enablepermissioncheck = 1;
 if ($enablepermissioncheck) {
 	$permissiontoread = $user->rights->immigration->procedures->read;
 	$permissiontoadd = $user->rights->immigration->procedures->write;
 	$permissiontodelete = $user->rights->immigration->procedures->delete;
+	$permissiontoreadone = $user->rights->immigration->procedures->oneread; 
+	$permissiontotrack = $user->rights->immigration->procedures->tracking; 
+	$permissiontotrackone = $user->rights->immigration->procedures->onetracking; 
 } else {
 	$permissiontoread = 1;
 	$permissiontoadd = 1;
 	$permissiontodelete = 1;
+	$permissiontoreadone = 1;
+	$permissiontotrack = 1;
+	$permissiontotrackone = 1;
 }
 
 // Security check (enable the most restrictive one)
@@ -213,7 +219,7 @@ if ($user->socid > 0) accessforbidden();
 //$isdraft = (($object->status == $object::STATUS_DRAFT) ? 1 : 0);
 //restrictedArea($user, $object->element, 0, $object->table_element, '', 'fk_soc', 'rowid', $isdraft);
 if (empty($conf->immigration->enabled)) accessforbidden('Module not enabled');
-if (!$permissiontoread) accessforbidden();
+if (!$permissiontotrack && !$permissiontotrackone) accessforbidden();
 
 
 /*
@@ -634,33 +640,38 @@ $savnbfield = $totalarray['nbfield'];
 $totalarray = array();
 $totalarray['nbfield'] = 0;
 $imaxinloop = ($limit ? min($num, $limit) : $num);
+$total_label = count($fields_compare);
 
-// var_dump($fields_compare);
 
+if (!empty($num_procedures)){
+	for ($j=0; $j < $num_procedures; $j++) { 
+		print '<tr data-rowid="3" class="oddeven">';
 
-for ($j=0; $j < $num_procedures; $j++) { 
-	print '<tr data-rowid="3" class="oddeven">';
-
-	if($procedures[$j]->status_step === '1')
-		$status = 'status2';
-		$status_label = $langs->trans("running");
-	// var_dump($procedures[$j]); 
-	// var_dump('---------------------------',$fields_compare, '---------------------------');
-	for ($k = 0; $k < $num_fields; $k++) {
-		
-			if ((int) $fields_compare[$k]['rowid'] ===  (int)$procedures[$j]->tracking){
-				print '<td class="wrapcolumntitle liste_titre left" style="font-size:11px">';
-					print '<a href="'.dol_buildpath('/immigration/procedures_card.php', 1).'?id='.$procedures[$j]->rowid.'" title="&lt;img src=&quot;/powererp-16.0.2/htdocs/custom/immigration/img/object_documents.png&quot; alt=&quot;&quot; class=&quot;inline-block&quot;&gt; &lt;u&gt;Procedures&lt;/u&gt; &lt;span class=&quot;badge  badge-'.$status.' badge-status&quot; title=&quot;'.$status_label.'&quot;&gt;'.$status_label.'&lt;/span&gt;&lt;br&gt;&lt;b&gt;R&eacute;f.:&lt;/b&gt; '.$procedures[$j]->ref.'" class="classfortooltip">'.$procedures[$j]->ref.'</a>';
-					print '<span class="badge  badge-'.$status.' badge-status" title="'.$status_label.'">'.$status_label.'</span>';
-				print '</td>';
-			}elseif ((int) $fields_compare[$k]['rowid'] <  (int)$procedures[$j]->tracking) {
-				print '<td class="wrapcolumntitle liste_titre left"><span class="badge marginleftonlyshort" style="background-color:#25A580">Passe</span></td>';
-			}else{
-				print '<td class="wrapcolumntitle liste_titre left"><span class="badge marginleftonlyshort">En attente </span></td>';
-			}
+			if($procedures[$j]->status_step === '1')
+				$status = 'status2';
+				$status_label = $langs->trans("running");
+			// var_dump($procedures[$j]); 
+			// var_dump('---------------------------',$fields_compare, '---------------------------');
+			for ($k = 0; $k < $num_fields; $k++) {
+				
+					if ((int) $fields_compare[$k]['rowid'] ===  (int)$procedures[$j]->tracking){
+						print '<td class="wrapcolumntitle liste_titre left" style="font-size:11px">';
+							print '<a href="'.dol_buildpath('/immigration/procedures_card.php', 1).'?id='.$procedures[$j]->rowid.'" title="&lt;img src=&quot;/powererp-16.0.2/htdocs/custom/immigration/img/object_documents.png&quot; alt=&quot;&quot; class=&quot;inline-block&quot;&gt; &lt;u&gt;Procedures&lt;/u&gt; &lt;span class=&quot;badge  badge-'.$status.' badge-status&quot; title=&quot;'.$status_label.'&quot;&gt;'.$status_label.'&lt;/span&gt;&lt;br&gt;&lt;b&gt;R&eacute;f.:&lt;/b&gt; '.$procedures[$j]->ref.'" class="classfortooltip">'.$procedures[$j]->ref.'</a>';
+							print '<span class="badge  badge-'.$status.' badge-status" title="'.$status_label.'">'.$status_label.'</span>';
+						print '</td>';
+					}elseif ((int) $fields_compare[$k]['rowid'] <  (int)$procedures[$j]->tracking) {
+						print '<td class="wrapcolumntitle liste_titre left"><span class="badge marginleftonlyshort" style="background-color:#25A580">Passe</span></td>';
+					}else{
+						print '<td class="wrapcolumntitle liste_titre left"><span class="badge marginleftonlyshort">En attente </span></td>';
+					}
+			}	
+		print '</tr>';
 	}
+}else{
+	print '<tr data-rowid="3" class="oddeven">';
+		print '<td colspan="'.$total_label.'"><span class="opacitymedium">Aucun enregistrement trouv&eacute;</span></td>';
 	print '</tr>';
-}
+}	
 // print '<tr data-rowid="3" class="oddeven">';
 // // foreach ($object_step->getFields($type) as $obj_step => $value) {
 

@@ -124,7 +124,7 @@ class Procedures extends CommonObject
 		'ref' => array('type'=>'varchar(128)', 'label'=>'Ref', 'enabled'=>'1', 'position'=>20, 'notnull'=>1, 'visible'=>1, 'index'=>1, 'searchall'=>1, 'showoncombobox'=>'1', 'validate'=>'1', 'comment'=>"Reference of object"),
 		'label' => array('type'=>'varchar(255)', 'label'=>'Label', 'enabled'=>'1', 'position'=>30, 'notnull'=>0, 'visible'=>1, 'searchall'=>1, 'css'=>'minwidth300', 'cssview'=>'wordbreak', 'help'=>"Help text", 'showoncombobox'=>'2', 'validate'=>'1',),
 		'ca_procedure' => array('type'=>'integer:Cat_procedures:custom/immigration/class/cat_procedures.class.php', 'label'=>'Categories procedure', 'picto'=>'object_configuration@immigration', 'enabled'=>'1', 'position'=>40, 'notnull'=>1, 'visible'=>1, 'foreignkey'=>'cat_procedures.rowid',),
-		'candidate' => array('type'=>'integer:Client:societe/class/client.class.php:1:status=1 AND client=3 AND entity IN (__SHARED_ENTITIES__)', 'label'=>'Client', 'picto'=>'company', 'enabled'=>'$conf->societe->enabled', 'position'=>50, 'notnull'=>-1, 'visible'=>1, 'index'=>1, 'css'=>'maxwidth500 widthcentpercentminusxx', 'help'=>"OrganizationEventLinkToThirdParty", 'validate'=>'1',),
+		'candidate' => array('type'=>'integer:Client:societe/class/client.class.php:1:status=1 AND client=1 AND entity IN (__SHARED_ENTITIES__)', 'label'=>'Client', 'picto'=>'company', 'enabled'=>'$conf->societe->enabled', 'position'=>50, 'notnull'=>-1, 'visible'=>1, 'index'=>1, 'css'=>'maxwidth500 widthcentpercentminusxx', 'help'=>"OrganizationEventLinkToThirdParty", 'validate'=>'1',),
 		'fk_project' => array('type'=>'integer:Project:projet/class/project.class.php:1', 'label'=>'Project', 'picto'=>'project', 'enabled'=>'$conf->project->enabled', 'position'=>52, 'notnull'=>-1, 'visible'=>-1, 'index'=>1, 'css'=>'maxwidth500 widthcentpercentminusxx', 'validate'=>'1',),
 		'note_public' => array('type'=>'html', 'label'=>'NotePublic', 'enabled'=>'1', 'position'=>61, 'notnull'=>0, 'visible'=>0, 'cssview'=>'wordbreak', 'validate'=>'1',),
 		'note_private' => array('type'=>'html', 'label'=>'NotePrivate', 'enabled'=>'1', 'position'=>62, 'notnull'=>0, 'visible'=>0, 'cssview'=>'wordbreak', 'validate'=>'1',),
@@ -512,11 +512,19 @@ class Procedures extends CommonObject
 
 		$records = array();
 
+		$permissiontotrack = $user->rights->immigration->procedures->tracking; 
+		$permissiontotrackone = $user->rights->immigration->procedures->onetracking; 
+
 		$sql = 'SELECT p.rowid, p.ref as ref, p.ca_procedure, p.label, p.status, p.status_step, p.tracking';
 		$sql .= " FROM ".MAIN_DB_PREFIX.$this->table_element." as p";
 		$sql .= ' WHERE p.ca_procedure = '.$type.'';
+		if ($permissiontotrackone && !$permissiontotrack){
+			$sql .= ' AND fk_user_creat = '.$user->id;
+		}
 		$sql .= ' AND p.status = '.self::STATUS_USED.'';
 		$sql .= ' AND p.status_step = '.self::STATUS_TRACKING_START.' ;';
+
+
 
 		$resql = $this->db->query($sql);
 

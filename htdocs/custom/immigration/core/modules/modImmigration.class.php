@@ -291,17 +291,23 @@ class modImmigration extends PowerERPModules
 		// Add here entries to declare new permissions
 		/* BEGIN MODULEBUILDER PERMISSIONS */
 
+	// Configuration
 		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Configure_immigration'; // Permission label
 		$this->rights[$r][4] = 'procedures';
 		$this->rights[$r][5] = 'configure'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->delete)
 		$r++;
 
-		// Procedures
+	// Procedures
 		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Read_procedures'; // Permission label
 		$this->rights[$r][4] = 'procedures';
 		$this->rights[$r][5] = 'read'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->read)
+		$r++;
+		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
+		$this->rights[$r][1] = 'Read_one_procedures'; // Permission label
+		$this->rights[$r][4] = 'procedures';
+		$this->rights[$r][5] = 'oneread'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->read)
 		$r++;
 		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Create/Update_procedures'; // Permission label
@@ -313,8 +319,18 @@ class modImmigration extends PowerERPModules
 		$this->rights[$r][4] = 'procedures';
 		$this->rights[$r][5] = 'delete'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->delete)
 		$r++;
+		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
+		$this->rights[$r][1] = 'Put_in_approval/validate'; // Permission label
+		$this->rights[$r][4] = 'procedures';
+		$this->rights[$r][5] = 'validate'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->delete)
+		$r++;
+		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
+		$this->rights[$r][1] = 'Start_procedure'; // Permission label
+		$this->rights[$r][4] = 'procedures';
+		$this->rights[$r][5] = 'start'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->delete)
+		$r++;
 		
-		// Categories procedures
+	// Categories procedures
 		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Read_cat_procedures'; // Permission label
 		$this->rights[$r][4] = 'cat_procedures';
@@ -331,7 +347,7 @@ class modImmigration extends PowerERPModules
 		$this->rights[$r][5] = 'delete'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->delete)
 		$r++;
 
-		// step procedures
+	// step procedures
 		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
 		$this->rights[$r][1] = 'Read_step_procedures'; // Permission label
 		$this->rights[$r][4] = 'step_procedures';
@@ -346,6 +362,18 @@ class modImmigration extends PowerERPModules
 		$this->rights[$r][1] = 'Delete_step_procedures'; // Permission label
 		$this->rights[$r][4] = 'step_procedures';
 		$this->rights[$r][5] = 'delete'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->delete)
+		$r++;
+
+	// Tracking
+		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
+		$this->rights[$r][1] = 'Read_one_tracking'; // Permission label
+		$this->rights[$r][4] = 'procedures';
+		$this->rights[$r][5] = 'onetracking'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->read)
+		$r++;
+		$this->rights[$r][0] = $this->numero . sprintf("%02d", $r + 1); // Permission id (must not be already used)
+		$this->rights[$r][1] = 'Read_tracking'; // Permission label
+		$this->rights[$r][4] = 'procedures';
+		$this->rights[$r][5] = 'tracking'; // In php code, permission will be checked by test if ($user->rights->immigration->procedures->read)
 		$r++;
 		/* END MODULEBUILDER PERMISSIONS */
 
@@ -494,7 +522,7 @@ class modImmigration extends PowerERPModules
 				'langs'=>'immigration@immigration',
 				'position'=>1100+$r,
 				// Define condition to show or hide menu entry. Use '$conf->immigration->enabled' if entry must be visible if module is enabled. Use '$leftmenu==\'system\'' to show if leftmenu system is selected.
-				'enabled'=>'$conf->immigration->enabled',
+				'enabled'=>'$user->rights->immigration->cat_procedures->read',
 				// Use 'perms'=>'$user->rights->immigration->level1->level2' if you want your menu with a permission rules
 				'perms'=>'1',
 				'target'=>'',
@@ -514,7 +542,7 @@ class modImmigration extends PowerERPModules
 				'langs'=>'immigration@immigration',
 				'position'=>1100+$r,
 				// Define condition to show or hide menu entry. Use '$conf->immigration->enabled' if entry must be visible if module is enabled. Use '$leftmenu==\'system\'' to show if leftmenu system is selected.
-				'enabled'=>'$conf->immigration->enabled',
+				'enabled'=>'$user->rights->immigration->step_procedures->read',
 				// Use 'perms'=>'$user->rights->immigration->level1->level2' if you want your menu with a permission rules
 				'perms'=>'1',
 				'target'=>'',
@@ -537,7 +565,7 @@ class modImmigration extends PowerERPModules
             'langs'=>'immigration@immigration',
             'position'=>1100+$r,
             // Define condition to show or hide menu entry. Use '$conf->immigration->enabled' if entry must be visible if module is enabled. Use '$leftmenu==\'system\'' to show if leftmenu system is selected.
-            'enabled'=>'$conf->immigration->enabled',
+            'enabled'=>'$user->rights->immigration->procedures->oneread',
             // Use 'perms'=>'$user->rights->immigration->level1->level2' if you want your menu with a permission rules
             'perms'=>'1',
             'target'=>'',
@@ -557,7 +585,7 @@ class modImmigration extends PowerERPModules
 				'langs'=>'immigration@immigration',
 				'position'=>1100+$r,
 				// Define condition to show or hide menu entry. Use '$conf->immigration->enabled' if entry must be visible if module is enabled. Use '$leftmenu==\'system\'' to show if leftmenu system is selected.
-				'enabled'=>'$conf->immigration->enabled',
+				'enabled'=>'$user->rights->immigration->procedures->oneread',
 				// Use 'perms'=>'$user->rights->immigration->level1->level2' if you want your menu with a permission rules
 				'perms'=>'1',
 				'target'=>'',
@@ -577,7 +605,7 @@ class modImmigration extends PowerERPModules
 				'langs'=>'immigration@immigration',
 				'position'=>1100+$r,
 				// Define condition to show or hide menu entry. Use '$conf->immigration->enabled' if entry must be visible if module is enabled. Use '$leftmenu==\'system\'' to show if leftmenu system is selected.
-				'enabled'=>'$conf->immigration->enabled',
+				'enabled'=>'$user->rights->immigration->procedures->write',
 				// Use 'perms'=>'$user->rights->immigration->level1->level2' if you want your menu with a permission rules
 				'perms'=>'1',
 				'target'=>'',
@@ -601,7 +629,7 @@ class modImmigration extends PowerERPModules
             'langs'=>'immigration@immigration',
             'position'=>1100+$r,
             // Define condition to show or hide menu entry. Use '$conf->immigration->enabled' if entry must be visible if module is enabled. Use '$leftmenu==\'system\'' to show if leftmenu system is selected.
-            'enabled'=>'$conf->immigration->enabled',
+            'enabled'=>'$user->rights->immigration->procedures->onetracking',
             // Use 'perms'=>'$user->rights->immigration->level1->level2' if you want your menu with a permission rules
             'perms'=>'1',
             'target'=>'',

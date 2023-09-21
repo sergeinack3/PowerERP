@@ -13,6 +13,7 @@
 -- You should have received a copy of the GNU General Public License
 -- along with this program.  If not, see https://www.gnu.org/licenses/.
 
+DROP TABLE IF EXISTS `llx_immigration_catprocedure_document`;
 
 CREATE TABLE llx_immigration_catprocedure_document(
 	-- BEGIN MODULEBUILDER FIELDS

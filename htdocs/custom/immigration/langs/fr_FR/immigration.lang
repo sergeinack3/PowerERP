@@ -60,6 +60,9 @@ Certified_TW = C.T.W
 ####################
 
 Configure_immigration = Configurer le processus d'immigration
+
+Read_one_procedures = Consulter ses procedures (Specifique a un utilisateur)
+Read_procedures = Consulter toute les procedures
 Read_procedures = Consulter une/plusieurs procedures
 Create/Update_procedures = Créer/modifier une procedure d'immigration
 Delete_procedures = Supprimer une procedures
@@ -70,7 +73,13 @@ Delete_cat_procedures = Supprimer une categorie procedures
 
 Read_step_procedures = Consulter une/plusieurs etapes de suivis
 Create/Update_step_procedures = Créer/modifier une ou plusieurs etapes de suivi
-Delete_cat_step_procedures = Supprimer une etape de suivis de procedures
+Delete_step_procedures = Supprimer une etape de suivis de procedures
+
+Read_one_tracking = Suivre uniquement ses procedures (Creer par soi)
+Read_tracking = Suivre toutes les procedures (Toutes les procedure)
+
+Put_in_approval/validate = Mettre en approbation / Valider une procedure
+Start_procedure = Iniatiliser le suivi d'une procedure
 
 
 
