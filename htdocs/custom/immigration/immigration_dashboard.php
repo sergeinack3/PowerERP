@@ -116,18 +116,20 @@ if (isset($user->socid) && $user->socid > 0) {
 
 $max = 5;
 
-
-
 /*
  * Actions
  */
 
-// None
-// foreach ($object_cat->fetchAll('', '', '', $sortorder, $filter, 'AND') as $value) {
-// 	var_dump($value->label);print '</br>';
-// 	// var_dump($value);print '</br>';
-// 	// var_dump($object->LibStatut((int) $val->status));
-// }
+// $sql1 = 'SELECT COUNT(*) AS procedure_active FROM llx_immigration_procedures WHERE STATUS = 3 AND status_step = 1 AND ca_procedure = 1';
+// $sql2 = 'SELECT * FROM llx_immigration_cat_procedures WHERE 1 = 1';
+// $sql3 = 'SELECT * FROM llx_immigration_procedures WHERE ca_procedure = 1';
+
+// $resql1 = $db->query($sql1);
+// $resql2 = $db->query($sql2);
+// $resql3 = $db->query($sql3);
+
+
+
 
 
 /*
@@ -149,101 +151,152 @@ print '<div id="grid_title">';
 		// print '<span class="title_name"> <h1>'.$langs->trans('Dashboard').'</h1><hr style="width:50px;>';
 		// print '<span class="title_name" style="font-size:18px"> <p>'.$langs->trans('Description_dashboard').'</p> </span>';
 	print '</div>';
-		
+
 print '</div>';
 
 print '<div class="fichecenter"><div class="fichethirdleft">';
 
-print '
-<div class="div-table-responsive-no-min">
-<table class="noborder nohover centpercent">
-	<tr class="liste_titre">
-		<th colspan="2">Statistiques - Montant des opportunit&eacute;s ouvertes par statut</th>
-	</tr>
-	<tr>	
-		<td class="center nopaddingleftimp nopaddingrightimp" colspan="2">
-			<div class="nographyet" style="width:380px; height:200px;"></div>
-			<div class="nographyettext margintoponly">Pas assez de donn&eacute;es...</div>
-		</td>
-	</tr>
-	<tr class="liste_total">
-		<td class="maxwidth200 tdoverflow">Montant total des opportunit&eacute;s (hors opportunit&eacute;s remport&eacute;es/perdues)</td>
-		<td class="right">0,00 €</td>
-	</tr>
-	<tr class="liste_total">
-		<td class="minwidth200 tdoverflow">
-			<span style="padding: 0px; padding-right: 3px !important;">Montant pond&eacute;r&eacute; des opportunit&eacute;s (hors opportunit&eacute;s remport&eacute;es/perdues)</span>
-			<span class="classfortooltip" style="padding: 0px; padding: 0px; padding-right: 3px !important;" title="Montant des opportunit&eacute;s pond&eacute;r&eacute; par la probabilit&eacute;">
-			<span class="fas fa-info-circle  em088 opacityhigh" style=" vertical-align: middle; cursor: help"></span></span></td><td class="right">0,00 €</td></tr></table></div><br><div class="div-table-responsive-no-min">
-				<table class="noborder centpercent">
-					<tr class="liste_titre">
-						<th class="wrapcolumntitle liste_titre" >Projets Brouillon<a href="/powererp-16.0.2/htdocs/projet/list.php?search_status=0"><span class="badge marginleftonlyshort">0</span></a></th><th class="wrapcolumntitle liste_titre"  title="Tiers">Tiers</th>
-						<th class="wrapcolumntitle right liste_titre" style="max-width: 100px"><span style="padding: 0px; padding-right: 3px !important;">Montant</span><span class="classfortooltip" style="padding: 0px; padding: 0px; padding-right: 3px !important;" title="Montant opportunit&eacute; (Tooltip = Montant pond&eacute;r&eacute; des opportunit&eacute;s)"><span class="fas fa-info-circle  em088 opacityhigh" style=" vertical-align: middle; cursor: help"></span></span></th>
-						<th class="wrapcolumntitle liste_titre" align="right" title="T&acirc;ches">T&acirc;ches</th>
-					</tr>
-					<tr class="liste_total">
-						<td>Total</td>
-						<td></td>
-						<td class="liste_total right">
-							<span style="padding: 0px; padding-right: 3px !important;">0</span>
-							<span class="classfortooltip" style="padding: 0px; padding: 0px; padding-right: 3px !important;" title="Montant des opportunit&eacute;s pond&eacute;r&eacute; par la probabilit&eacute; : 0 &euro;">
-							<span class="fas fa-info-circle  em088 opacityhigh" style=" vertical-align: middle; cursor: help"></span></span>
-						</td>
-						<td class="liste_total right">0</td>
-					</tr>
-				</table>
-			</div>
-		</div>';
+	print '
+	<div class="div-table-responsive-no-min">
+		<table class="noborder nohover centpercent">
+			<tr class="liste_titre">
+				<th colspan="2">Statistiques - Montant des opportunit&eacute;s ouvertes par statut</th>
+			</tr>
+			<tr>
+				<td class="center nopaddingleftimp nopaddingrightimp" colspan="2">
+					<div class="nographyet" style="width:380px; height:200px;"></div>
+					<div class="nographyettext margintoponly">Pas assez de donn&eacute;es...</div>
+				</td>
+			</tr>';
 
-		print '<div class="fichetwothirdright">
-			<div class="div-table-responsive-no-min">
-				<table class="noborder centpercent">
-					<tr class="liste_titre">
-						<th colspan="5">Les 5 dernieres procedures modifi&eacute;s</th>
+			// if(!empty($allCatprocedure)){
+			// 	foreach($allCatprocedure as $val){
+
+			// 		// var_dump($val->rowid);
+
+			// 		print '<tr class="liste_total">
+			// 		<td class="maxwidth200 tdoverflow">Montant total des opportunit&eacute;s (hors opportunit&eacute;s remport&eacute;es/perdues)</td>
+			// 		<td>
+			// 			<div class="progress" style="margin-top:10px;border-radius:10px">
+			// 				<div class="progress-bar" role="progressbar" style="width: 40%;border-radius:10px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40% d\'avancement</div>
+			// 			</div>
+			// 		</td>
+			// 	</tr>';
+			// 	}
+			// }else {
+			// 	# code...
+			// }
+
+
+		print '</table>
+	</div><br>
+	<div class="div-table-responsive-no-min">
+		<table class="noborder centpercent">
+			<tr class="liste_titre">
+				<th class="wrapcolumntitle liste_titre" >Projets Brouillon<a href="/powererp-16.0.2/htdocs/projet/list.php?search_status=0"><span class="badge marginleftonlyshort">0</span></a></th><th class="wrapcolumntitle liste_titre"  title="Tiers">Tiers</th>
+				<th class="wrapcolumntitle right liste_titre" style="max-width: 100px"><span style="padding: 0px; padding-right: 3px !important;">Montant</span><span class="classfortooltip" style="padding: 0px; padding: 0px; padding-right: 3px !important;" title="Montant opportunit&eacute; (Tooltip = Montant pond&eacute;r&eacute; des opportunit&eacute;s)"><span class="fas fa-info-circle  em088 opacityhigh" style=" vertical-align: middle; cursor: help"></span></span></th>
+				<th class="wrapcolumntitle liste_titre" align="right" title="T&acirc;ches">T&acirc;ches</th>
+			</tr>
+			<tr class="liste_total">
+				<td>Total</td>
+				<td></td>
+				<td class="liste_total right">
+					<span style="padding: 0px; padding-right: 3px !important;">0</span>
+					<span class="classfortooltip" style="padding: 0px; padding: 0px; padding-right: 3px !important;" title="Montant des opportunit&eacute;s pond&eacute;r&eacute; par la probabilit&eacute; : 0 &euro;">
+					<span class="fas fa-info-circle  em088 opacityhigh" style=" vertical-align: middle; cursor: help"></span></span>
+				</td>
+				<td class="liste_total right">0</td>
+			</tr>
+		</table>
+	</div>
+</div>';
+
+print '<div class="fichetwothirdright">
+	<div class="div-table-responsive-no-min">
+		<table class="noborder centpercent">
+			<tr class="liste_titre">
+				<th colspan="5">Les 5 dernieres procedures modifi&eacute;s</th>
+			</tr>';
+
+			if(!empty($last5procedures)){
+				foreach ($last5procedures as $val) {
+					print '<tr class="oddeven">
+					<td class="nowrap">
+						<table class="nobordernopadding">
+							<tr class="nocellnopadd">
+								<td width="96" class="nobordernopadding nowrap">
+									<a href="'.dol_buildpath($_SERVER["PHP_SELF"].'?id='.$val->id, 1).'" title="&lt;span class=&quot;fas fa-project-diagram  em088 infobox-project pictofixedwidth&quot; style=&quot;&quot;&gt;&lt;/span&gt; &lt;u class=&quot;paddingrightonly&quot;&gt;Procedure&lt;/u&gt; &lt;span class=&quot;badge  badge-status'.$val->status_step.' badge-status&quot; title=&quot;'.$object->LibStatut((int) $val->status).'&quot;&gt;'.$object->LibStatut((int) $val->status).'&lt;/span&gt;&lt;br&gt;&lt;b&gt;R&eacute;f.: &lt;/b&gt;'.$val->ref.'&lt;br&gt;&lt;b&gt;Libell&eacute;: &lt;/b&gt;'.$val->label.'" class="classfortooltip">
+										<span class="fas fa-project-diagram  em088 infobox-project paddingright classfortooltip pictofixedwidth em088" style=""></span>
+										'.$val->ref.'
+									</a>
+								</td>
+								<td width="16" class="nobordernopadding nowrap">&nbsp;</td>
+							<tr>
+						</table>
+					</td>
+					<td class="tdoverflowmax150" title="'.$val->label.'">'.$val->label.'</td>
+					<td class="nowrap"></td>
+					<td class="center" title="'.$langs->trans('tms').': '.$val->tms.'">'.$val->tms.'</td>
+					<td class="right"><span class="badge  badge-dot badge-status'.$val->status.' classfortooltip badge-status" title="Brouillon" aria-label="'.$object->LibStatut((int) $val->status).'"></span></td>
 					</tr>';
-					
-					foreach ($last5procedures as $val) {
-						print '<tr class="oddeven">
-						<td class="nowrap">
-							<table class="nobordernopadding">
-								<tr class="nocellnopadd">
-									<td width="96" class="nobordernopadding nowrap">
-										<a href="'.dol_buildpath($_SERVER["PHP_SELF"].'?id='.$val->id, 1).'" title="&lt;span class=&quot;fas fa-project-diagram  em088 infobox-project pictofixedwidth&quot; style=&quot;&quot;&gt;&lt;/span&gt; &lt;u class=&quot;paddingrightonly&quot;&gt;Procedure&lt;/u&gt; &lt;span class=&quot;badge  badge-status'.$val->status_step.' badge-status&quot; title=&quot;'.$object->LibStatut((int) $val->status).'&quot;&gt;'.$object->LibStatut((int) $val->status).'&lt;/span&gt;&lt;br&gt;&lt;b&gt;R&eacute;f.: &lt;/b&gt;'.$val->ref.'&lt;br&gt;&lt;b&gt;Libell&eacute;: &lt;/b&gt;'.$val->label.'" class="classfortooltip">
-											<span class="fas fa-project-diagram  em088 infobox-project paddingright classfortooltip pictofixedwidth em088" style=""></span>
-											'.$val->ref.'
-										</a>
-									</td>
-									<td width="16" class="nobordernopadding nowrap">&nbsp;</td>
-								<tr>
-							</table>
-						</td>
-						<td class="tdoverflowmax150" title="'.$val->label.'">'.$val->label.'</td>
-						<td class="nowrap"></td>
-						<td class="center" title="'.$langs->trans('tms').': '.$val->tms.'">'.$val->tms.'</td>
-						<td class="right"><span class="badge  badge-dot badge-status'.$val->status.' classfortooltip badge-status" title="Brouillon" aria-label="'.$object->LibStatut((int) $val->status).'"></span></td>
-						</tr>';
-					}
-					
-				print '</table>
-			</div><br>
-			<div class="div-table-responsive-no-min">
-				<table class="noborder centpercent">';
-					print '<tr class="liste_titre">';
-						foreach($allCatprocedure as $val){
-							print '<th class="wrapcolumntitle center liste_titre" style="max-width: 100px" title="'.$val->label.'">'.$val->label.'</th>';
-						}
-					print '</tr>';
-					print '<tr class="liste_total">';
-						foreach($allCatprocedure as $val){
-							$filter = array('ca_procedure' => "$val->id");
-							print '<td class="wrapcolumntitle liste_titre center"><span class="badge marginleftonlyshort">'.count($object->fetchAll('', '', 0, '', $filter, 'AND')).'</span></td>';
-						}
-					print '</tr>';
-				print '</table>
-			</div>
-		</div>
+				}
+			}else{
+				print '<tr class="oddeven">
+				<td class="tdoverflowmax150" title="Aucune information">Aucune information</td>
+				</tr>';
+			}
 
-';
+		print '</table>
+	</div><br>
+
+	<div class="div-table-responsive-no-min">
+		<table class="noborder centpercent">';
+			print '<tr class="liste_titre">';
+				foreach($allCatprocedure as $val){
+					print '<th class="wrapcolumntitle center liste_titre" style="max-width: 100px" title="'.$val->label.'">'.$val->label.'</th>';
+				}
+			print '</tr>';
+			print '<tr class="liste_total">';
+				foreach($allCatprocedure as $val){
+					$filter = array('ca_procedure' => "$val->id");
+					print '<td class="wrapcolumntitle liste_titre center"><span class="badge marginleftonlyshort">'.count($object->fetchAll('', '', 0, '', $filter, 'AND')).'</span></td>';
+				}
+			print '</tr>';
+		print '</table>';
+
+	print '</div>';
+
+
+	// print '	<div class="div-table-responsive-no-min">';
+	// 	print '<table class="noborder centpercent">';
+	// 		print '<tr class="liste_titre">';
+	// 			print '<th class="wrapcolumntitle liste_titre">Progression du suivis</th>';
+	// 			print '<th class="wrapcolumntitle liste_titre" title="Tiers"></th>';
+	// 		print '</tr>';
+
+	// 			print '<tr">';
+	// 				print '<td>ljlskdslk</td>';
+	// 				print '<td><div class="progress" style="margin-top:10px;border-radius:10px">';
+	// 				print '<div class="progress-bar" role="progressbar" style="width: 40%;border-radius:10px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40% d\'avancement</div>';
+	// 				print '</div></td>';
+	// 			print '</tr>';
+	// 	print '</table>';
+	// print '</div>';
+
+
+print '</div>';
+
+			// print '<table summary="boxtable11" width="100%" class="noborder boxtable">';
+			// 	print '<tr class="liste_titre box_titre">';
+			// 	print '<p style="text-align:left;font-size:18px;font-weight:300;margin-top:3%">Description</p>';
+			// 	print '<p style="text-align:left;font-size:12px;margin-top:1%">ladjlkasdjlksadlsa </p>';
+			// 	print '</tr>';
+			// 	print '<tr">';
+			// 		print '<td colspan="10" ><div class="progress" style="margin-top:10px;border-radius:10px">';
+			// 		print '<div class="progress-bar" role="progressbar" style="width: ' . $pourcentage_consumption . '%;border-radius:10px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">' . $pourcentage_consumption . '% ' . $langs->trans('consumption') . '</div>';
+			// 		print '</div></td>';
+			// 		print '</tr>';
+			// 	print '</table>';
 
 
 
@@ -276,14 +329,14 @@ $db->close();
 	<title>Document</title>
 </head>
 <body>
-	
+
 
 <!-- <div class="div-table-responsive-no-min">
 	<table class="noborder nohover centpercent">
 		<tr class="liste_titre">
 			<th colspan="2">Statistiques - Montant des opportunit&eacute;s ouvertes par statut</th>
 		</tr>
-		<tr>	
+		<tr>
 			<td class="center nopaddingleftimp nopaddingrightimp" colspan="2">
 				<div class="nographyet" style="width:380px; height:200px;"></div>
 				<div class="nographyettext margintoponly">Pas assez de donn&eacute;es...</div>

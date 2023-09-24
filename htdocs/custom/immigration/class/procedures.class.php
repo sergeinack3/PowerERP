@@ -242,13 +242,29 @@ class Procedures extends CommonObject
 	 * @param  bool $notrigger false=launch triggers after, true=disable triggers
 	 * @return int  Object
 	 */
+
+
+	/*  Statistiques */
+
+
+
+
+
+
+
+
+
+
+	/*  end Statistiques */
+
+
 	public function fetchDocumentsConfig()
 	{
 
 		$records = array();
 
 		$sql = 'SELECT d.rowid as rowid, d.code, d.label, d.active';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'c_immigrations_documents as d'; 
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'c_immigrations_documents as d';
 		$sql .= ' WHERE d.active = 1';
 		// $sql .= ' as d WHERE rowid = ' . $id . '';
 		$resql = $this->db->query($sql);
@@ -262,7 +278,53 @@ class Procedures extends CommonObject
 				$obj = $this->db->fetch_object($resql);
 
 				$record = new stdClass($this->db);
-				
+
+				$record->rowid		=		$obj->rowid;
+				$record->code		=		$obj->code;
+				$record->label		=		$obj->label;
+				$record->active		=		$obj->active;
+
+				$records[$i] = $record;
+
+				$i++;
+			}
+
+			$this->db->free($resql);
+
+			return $records;
+		} else {
+			$this->errors[] = 'Error ' . $this->db->lasterror();
+			dol_syslog(__METHOD__ . ' ' . join(',', $this->errors), LOG_ERR);
+
+			return -1;
+		}
+
+		// $DocumentsConfig = $this->db->fetch_object($resql);
+
+		// return $DocumentsConfig;
+	}
+
+	public function fetchDocumentsByCatProcedure($ca_procedure)
+	{
+
+		$records = array();
+
+		$sql = 'SELECT d.rowid as rowid, d.code, d.label, d.active';
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_catprocedure_document as d';
+		$sql .= ' WHERE d.fk_procedure = '.$ca_procedure;
+		// $sql .= ' as d WHERE rowid = ' . $id . '';
+		$resql = $this->db->query($sql);
+
+		if ($resql) {
+
+			$num = $this->db->num_rows($resql);
+			$i = 0;
+
+			while ($i < ($limit ? min($limit, $num) : $num)) {
+				$obj = $this->db->fetch_object($resql);
+
+				$record = new stdClass($this->db);
+
 				$record->rowid		=		$obj->rowid;
 				$record->code		=		$obj->code;
 				$record->label		=		$obj->label;
@@ -294,7 +356,7 @@ class Procedures extends CommonObject
 		$records = array();
 
 		$sql = 'SELECT d.rowid as rowid, d.code, d.label, d.active';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'c_immigrations_documents as d'; 
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'c_immigrations_documents as d';
 		$sql .= ' WHERE d.active = 1 AND d.rowid IN ('. implode(',', $document).')';
 		// $sql .= ' as d WHERE rowid = ' . $id . '';
 		$resql = $this->db->query($sql);
@@ -308,7 +370,7 @@ class Procedures extends CommonObject
 				$obj = $this->db->fetch_object($resql);
 
 				$record = new stdClass($this->db);
-				
+
 				$record->rowid		=		$obj->rowid;
 				$record->code		=		$obj->code;
 				$record->label		=		$obj->label;
@@ -434,7 +496,7 @@ class Procedures extends CommonObject
 		$sql .= " WHERE rowid = " . (int) $id;
 
 		// var_dump($sql);die;
-		
+
 		$this->db->begin();
 
 		dol_syslog(get_class($this) . "::deny()", LOG_DEBUG);
@@ -505,15 +567,15 @@ class Procedures extends CommonObject
 			$this->db->rollback();
 			return -1;
 		}
-	}	
+	}
 
 	public function fetchProcedureByStep($user, $type)
 	{
 
 		$records = array();
 
-		$permissiontotrack = $user->rights->immigration->procedures->tracking; 
-		$permissiontotrackone = $user->rights->immigration->procedures->onetracking; 
+		$permissiontotrack = $user->rights->immigration->procedures->tracking;
+		$permissiontotrackone = $user->rights->immigration->procedures->onetracking;
 
 		$sql = 'SELECT p.rowid, p.ref as ref, p.ca_procedure, p.label, p.status, p.status_step, p.tracking';
 		$sql .= " FROM ".MAIN_DB_PREFIX.$this->table_element." as p";
@@ -567,11 +629,11 @@ class Procedures extends CommonObject
 		} else {
 			$sql .= " WHERE t.rowid = ".$id;
 		}
-		
+
 
 		$resql = $this->db->query($sql);
 		if ($resql) {
-			
+
 			$obj = $this->db->fetch_object($resql);
 
 			$record = new self($this->db);
@@ -646,7 +708,7 @@ class Procedures extends CommonObject
 		}
 
 
-		
+
 	}
 
 	public function fetchDocumentsDocumented($procedure)
@@ -655,7 +717,7 @@ class Procedures extends CommonObject
 		$records = array();
 
 		$sql = 'SELECT d.rowid as rowid, d.fk_procedure, d.fk_document';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_procedure_document as d'; 
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_procedure_document as d';
 		$sql .= ' WHERE d.fk_procedure = '.$procedure;
 
 		$resql = $this->db->query($sql);
@@ -689,7 +751,7 @@ class Procedures extends CommonObject
 		$records = array();
 
 		$sql = 'SELECT d.rowid as rowid, d.fk_procedure, d.fk_document, d.date_creation';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_procedure_document as d'; 
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_procedure_document as d';
 		$sql .= ' WHERE d.fk_procedure = '.$procedure;
 
 		$resql = $this->db->query($sql);
@@ -703,7 +765,7 @@ class Procedures extends CommonObject
 				$obj = $this->db->fetch_object($resql);
 
 				$record = new stdClass($this->db);
-				
+
 				$record->rowid		=		$obj->rowid;
 				$record->fk_procedure		=		$obj->procedure;
 				$record->fk_document		=		$obj->document;
@@ -742,7 +804,7 @@ class Procedures extends CommonObject
 			$error++;
 			$this->errors[] = "Error " . $this->db->lasterror();
 		}
-		
+
 
 		if (!$error) {
 			$this->db->commit();
@@ -752,8 +814,8 @@ class Procedures extends CommonObject
 			return -1;
 		}
 	}
-	
-	
+
+
 
 	/**               ********************************************               **/
 
@@ -960,9 +1022,9 @@ class Procedures extends CommonObject
 		if (!empty($limit)) {
 			$sql .= $this->db->plimit($limit, $offset);
 		}
-		
+
 		$resql = $this->db->query($sql);
-		
+
 		if ($resql) {
 			$num = $this->db->num_rows($resql);
 			$i = 0;
@@ -1383,9 +1445,9 @@ class Procedures extends CommonObject
 		 // phpcs:enable
 		 if (empty($this->labelStatus) || empty($this->labelStatusShort)) {
 			 global $langs;
- 
+
 			 $langs->load("immigration@immigration");
- 
+
 			 $this->labelStatus[self::STATUS_DRAFT] = $langs->transnoentitiesnoconv('Draft');
 			 $this->labelStatus[self::STATUS_IN_APPROVAL] = $langs->transnoentitiesnoconv('InApproval');
 			 $this->labelStatus[self::STATUS_VALIDATED] = $langs->transnoentitiesnoconv('Approved');
@@ -1399,7 +1461,7 @@ class Procedures extends CommonObject
 			 $this->labelStatusShort[self::STATUS_USED] = $langs->transnoentitiesnoconv('InStepUsed');
 			 $this->labelStatusShort[self::STATUS_TERMINATE] = $langs->transnoentitiesnoconv('Ending');
 		 }
- 
+
 		 // $statusType = 'status'.$status;
 		 //if ($status == self::STATUS_VALIDATED) $statusType = 'status1';
 		 if ($status == self::STATUS_DRAFT) {
@@ -1420,8 +1482,8 @@ class Procedures extends CommonObject
 		 if ($status == self::STATUS_TERMINATE) {
 			 $statusType = 'status4';
 		 }
-		
- 
+
+
 		 return dolGetStatus($this->labelStatus[$status], $this->labelStatusShort[$status], '', $statusType, $mode);
 	 }
 
@@ -1430,9 +1492,9 @@ class Procedures extends CommonObject
 		 // phpcs:enable
 		 if (empty($this->labelStatus) || empty($this->labelStatusShort)) {
 			 global $langs;
- 
+
 			 $langs->load("immigration@immigration");
- 
+
 			 $this->labelStatus[self::STATUS_TRACKING_START] = $langs->transnoentitiesnoconv('Intracking');
 			 $this->labelStatus[self::STATUS_TRACKING_STOP] = $langs->transnoentitiesnoconv('Cancel');
 			 $this->labelStatus[self::STATUS_TRACKING_TERMINATE] = $langs->transnoentitiesnoconv('Ending');
@@ -1440,7 +1502,7 @@ class Procedures extends CommonObject
 			 $this->labelStatusShort[self::STATUS_TRACKING_STOP] = $langs->transnoentitiesnoconv('Cancel');
 			 $this->labelStatusShort[self::STATUS_TRACKING_TERMINATE] = $langs->transnoentitiesnoconv('Ending');
 		 }
- 
+
 		 // $statusType = 'status'.$status;
 		 //if ($status == self::STATUS_VALIDATED) $statusType = 'status1';
 
@@ -1455,8 +1517,8 @@ class Procedures extends CommonObject
 		 if ($status == self::STATUS_TRACKING_TERMINATE) {
 			 $statusType = 'status4';
 		 }
-		
- 
+
+
 		 return dolGetStatus($this->labelStatus[$status], $this->labelStatusShort[$status], '', $statusType, $mode);
 	 }
 

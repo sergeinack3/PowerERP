@@ -106,7 +106,7 @@ $lastStepProcedure = $object_step->fetchLastStepProcedure($procedure->ca_procedu
 
 
 
-// ------------- ******Action***** ----------------------// 
+// ------------- ******Action***** ----------------------//
 
 
 if ($action === 'tracking'){
@@ -160,13 +160,13 @@ if ($action === 'add_doc'){
 
 if ($action === 'add_catdoc'){
 
-	
+
 
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		// Vérifiez si le champ "countries" a été soumis
 		if (isset($_POST["countries"])) {
 			// Accédez aux éléments sélectionnés du select multiple
-			
+
 			$countries = $_POST["countries"];
 
 			// Traitez les données selon vos besoins
@@ -200,7 +200,7 @@ if ($action === 'add_catdoc'){
 if ($action == 'confirm_delete'){
 
 	$object->deleteDocument((int) $iddoc);
-	header("Location: ".dol_buildpath('/custom/immigration/cat_procedures_documents_card.php?id='.$id, 1).'&action=move_doc');
+	header("Location: ".dol_buildpath('/custom/immigration/procedures_documents_card.php?id='.$id, 1).'&action=move_doc');
 
 }
 

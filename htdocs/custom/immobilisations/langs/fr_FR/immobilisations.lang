@@ -1,0 +1,103 @@
+# Copyright (C) 2022 Serge inack <inack3serge@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleGestionImmobilisationsName'
+ModuleGestionImmobilisationsName = GestionImmobilisations
+# Module description 'ModuleGestionImmobilisationsDesc'
+ModuleGestionImmobilisationsDesc = GestionImmobilisations description
+
+#
+# Admin page
+#
+GestionImmobilisationsSetup = GestionImmobilisations setup
+Settings = Settings
+GestionImmobilisationsSetupPage = GestionImmobilisations setup page
+GESTIONIMMOBILISATIONS_MYPARAM1 = My param 1
+GESTIONIMMOBILISATIONS_MYPARAM1Tooltip = My param 1 tooltip
+GESTIONIMMOBILISATIONS_MYPARAM2=My param 2
+GESTIONIMMOBILISATIONS_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+GestionImmobilisationsAbout = About GestionImmobilisations
+GestionImmobilisationsAboutPage = GestionImmobilisations about page
+
+#
+# Sample page
+#
+MyPageName = My page name
+InApproval = En approbation
+Transfer = Transférer
+
+
+#
+# link
+#
+
+
+ExtraFields_(catégories) = Attributs supplémentaires (catégories)
+ExtraFields_(immobilisations) = Attributs supplémentaires (immobilisations)
+
+ModuleGestionImmobilisationsNameLink = Gestion des immobilisations
+ListImmobilisations = Liste des immobilisations
+NewImmobilisations = Nouvelle immobilisation
+categoriesimmo = Catégories d'immobilisations
+Newcategories = Nouvelle catégorie
+Listcategories = Liste des catégories
+Sublistcategories = Liste des sous-categories
+
+#
+# Immobilisations object
+#
+
+cc_immobilisation = Code comptable (immobilisation)
+cc_compte_amortissement = Code comptable (compte d'amortissement)
+cc_compte_charges_amortissement = Code comptable (compte de charges d'amortissement)
+total_period = Période d'immobilisation
+remaining_period = Période restante
+consumption = de consommation
+immo_information = Informations supplémentaires sur l'immobilisation
+InUsed = En consommation
+initConsumption = Initialiser la consommation
+Terminate = Consommé
+Disabled = Refusé
+Transfer/Attribute = Transférer / Attribué
+UserTransfer = Validateur
+UserAttribute = Attribué à
+
+
+closeThisImmo = Annuler l'immobilisation
+TransferInApproval = Mettre en approbation
+closeThisImmoText = Etes vous vraiment sur de vouloir annuler cette immobilisation ?
+depreciation = Amortissement
+accountWriting = Voir les écritures périodiques
+accountacy = Comptabilité
+scrapping = Mise au rebus
+putSrapping = êtes-vous sûr de vouloir continuer cette opération ?
+
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+ImmobilisationsDashboard = Tableau de bord

@@ -262,8 +262,10 @@ class Cat_procedures extends CommonObject
 		}
 
 
-		
+
 	}
+
+	
 
 	public function fetchDocumentsDocumented($catprocedure)
 	{
@@ -271,7 +273,7 @@ class Cat_procedures extends CommonObject
 		$records = array();
 
 		$sql = 'SELECT d.rowid as rowid, d.fk_catprocedure, d.fk_document';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_catprocedure_document as d'; 
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_catprocedure_document as d';
 		$sql .= ' WHERE d.fk_catprocedure = '.$catprocedure;
 
 		$resql = $this->db->query($sql);
@@ -305,7 +307,7 @@ class Cat_procedures extends CommonObject
 		$records = array();
 
 		$sql = 'SELECT d.rowid as rowid, d.fk_catprocedure, d.fk_document, d.date_creation';
-		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_catprocedure_document as d'; 
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'immigration_catprocedure_document as d';
 		$sql .= ' WHERE d.fk_catprocedure = '.$catprocedure;
 
 		$resql = $this->db->query($sql);
@@ -319,7 +321,7 @@ class Cat_procedures extends CommonObject
 				$obj = $this->db->fetch_object($resql);
 
 				$record = new stdClass($this->db);
-				
+
 				$record->rowid				=		$obj->rowid;
 				$record->fk_catprocedure	=		$obj->procedure;
 				$record->fk_document		=		$obj->document;
@@ -359,7 +361,7 @@ class Cat_procedures extends CommonObject
 			$error++;
 			$this->errors[] = "Error " . $this->db->lasterror();
 		}
-		
+
 
 		if (!$error) {
 			$this->db->commit();
@@ -369,8 +371,8 @@ class Cat_procedures extends CommonObject
 			return -1;
 		}
 	}
-	
-	
+
+
 
 	/**               ********************************************               **/
 

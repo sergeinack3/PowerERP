@@ -142,15 +142,15 @@ include DOL_DOCUMENT_ROOT.'/core/actions_fetchobject.inc.php'; // Must be includ
 $enablepermissioncheck = 1;
 if ($enablepermissioncheck) {
 	$permissiontoread = $user->rights->immigration->procedures->read;
-	$permissiontoreadone = $user->rights->immigration->procedures->oneread; 
+	$permissiontoreadone = $user->rights->immigration->procedures->oneread;
 	$permissiontoadd = $user->rights->immigration->procedures->write; // Used by the include of actions_addupdatedelete.inc.php and actions_lineupdown.inc.php
 	$permissiontodelete = $user->rights->immigration->procedures->delete;
 	$permissionnote = $user->rights->immigration->procedures->write; // Used by the include of actions_setnotes.inc.php
-	$permissiondellink = $user->rights->immigration->procedures->write; 
-	$permissiontotrack = $user->rights->immigration->procedures->tracking; 
-	$permissiontotrackone = $user->rights->immigration->procedures->onetracking; 
-	$permissiontovalidate = $user->rights->immigration->procedures->validate; 
-	$permissiontostart = $user->rights->immigration->procedures->start; 
+	$permissiondellink = $user->rights->immigration->procedures->write;
+	$permissiontotrack = $user->rights->immigration->procedures->tracking;
+	$permissiontotrackone = $user->rights->immigration->procedures->onetracking;
+	$permissiontovalidate = $user->rights->immigration->procedures->validate;
+	$permissiontostart = $user->rights->immigration->procedures->start;
 
 } else {
 	$permissiontoread = 1;
@@ -159,10 +159,10 @@ if ($enablepermissioncheck) {
 	$permissionnote = 1;
 	$permissiondellink = 1;
 	$permissiontoreadone = 1;
-	$permissiontotrack = 1; 
-	$permissiontotrackone = 1; 
-	$permissiontovalidate = 1; 
-	$permissiontostart = 1; 
+	$permissiontotrack = 1;
+	$permissiontotrackone = 1;
+	$permissiontovalidate = 1;
+	$permissiontostart = 1;
 }
 
 
@@ -277,7 +277,7 @@ $type = $object->fetchProcedureByStep($user, $object->ca_procedure);
 // print_r($object->tracking);
 
 // Example : Adding jquery code
-// var_dump($object->fetchDocumentsConfigExclus($catdocumentDocumented));
+
 
 // print '<script type="text/javascript">
 // jQuery(document).ready(function() {
@@ -396,8 +396,6 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	}
 
 
-
-
 	$formconfirm = '';
 
 	// Confirmation to delete
@@ -409,7 +407,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 		$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"].'?id='.$object->id.'&lineid='.$lineid, $langs->trans('DeleteLine'), $langs->trans('ConfirmDeleteLine'), 'confirm_deleteline', '', 0, 1);
 	}
 
-	// Clone confirmation 
+	// Clone confirmation
 	if ($action == 'clone') {
 		// Create an array for form
 		$formquestion = array();
@@ -447,30 +445,30 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	// Confirmation of action validate
 	if ($action === 'confirm_validated') {
 		$text = $langs->trans('Cela suppose que cette procedure est complete. aucune autre information ne sera renseigner en dehors de la documentation.', $object->ref);
-		
+
 		$formquestion = array();
-		
+
 		$forcecombo=0;
 		if ($conf->browser->name == 'ie') $forcecombo = 1;	// There is a bug in IE10 that make combo inside popup crazy
 		$formquestion = array(
 			'text' => $langs->trans("Confirmez-vous la validation de cette procédure ?"),
 		);
-		
+
 		$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"].'?id='.$object->id, $langs->trans('confirm_tracking'), $text, 'validated', $formquestion, 0, 1, 220);
 	}
 
 	// Confirmation of action tracking
 	// if ($action === 'confirm_tracking') {
 	// 	$text = $langs->trans('Cela suppose que vous êtes prêt à suivre votre procedure.', $object->ref);
-		
+
 	// 	$formquestion = array();
-		
+
 	// 	$forcecombo=0;
 	// 	if ($conf->browser->name == 'ie') $forcecombo = 1;	// There is a bug in IE10 that make combo inside popup crazy
 	// 	$formquestion = array(
 	// 		'text' => $langs->trans("Confirmez-vous l'initialisation du processus de traitement de la procédure ?"),
 	// 	);
-		
+
 	// 	$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"].'?id='.$object->id, $langs->trans('confirm_tracking'), $text, 'tracking', $formquestion, 0, 1, 220);
 	// }
 
@@ -478,28 +476,28 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	// if ($action === 'confirm_change') {
 
 	// 	$formquestion = array();
-		
+
 	// 	$forcecombo=0;
 	// 	if ($conf->browser->name == 'ie') $forcecombo = 1;	// There is a bug in IE10 that make combo inside popup crazy
 	// 	$formquestion = array(
 	// 		'text' => $langs->trans("Confirmez-vous le changement d'etat de cette procédure ?"),
 	// 	);
-		
+
 	// 	$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"].'?id='.$object->id.'&newtracking=', $langs->trans('confirm_change'), $text, 'change_tracking', $formquestion, 0, 1, 220);
 	// }
 
 	// Confirmation of action close
 	if ($action === 'confirm_close') {
 		$text = $langs->trans('Ceci suppose que vous ne pourrez plus avoir accès à celle-ci.', $object->ref);
-		
+
 		$formquestion = array();
-		
+
 		$forcecombo=0;
 		if ($conf->browser->name == 'ie') $forcecombo = 1;	// There is a bug in IE10 that make combo inside popup crazy
 		$formquestion = array(
 			'text' => $langs->trans("Êtes-vous sûr de vouloir clôturer cette procédure	?"),
 		);
-		
+
 		$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"].'?id='.$object->id, $langs->trans('confirm_close'), $text, 'close', $formquestion, 0, 1, 220);
 	}
 
@@ -607,7 +605,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 	print '<tr class="liste_titre">';
 	print '<td colspan="10" class="left" style="width:100%;font-size:18px;font-weight:500px;color:#000">' . $langs->trans("AddCustomerDocumentation") . '</td>';
 	print '</tr>';
-	
+
 	// // Number of files
 	// print '<tr><td class="titlefield">'.$langs->trans("Fichiers/documents transmis :").'</td><td colspan="3">30</td></tr>';
 
@@ -621,15 +619,17 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 					print '<td colspan="5">';
 						// print '<select name="field1" id="field1" multiple onchange="console.log(Array.from(this.selectedOptions).map(x=>x.value??x.text))" multiselect-hide-x="true">';
 						print '<select name="countries[]" id="countries" multiple>';
-						if (!empty($documentDocumented)){
+						if (!empty($documentDocumented) && (!empty($documentDocumented) || !empty($proDocuments))){
 							foreach($proDocuments as $obj){
 								if(!empty($documentDocumented) && !in_array((int) $obj->rowid, $documentDocumented)){
 									print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
 								}
 							}
 						}else{
-							foreach($proDocuments as $obj){
-								print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
+							if(!empty($proDocuments)){
+								foreach($proDocuments as $obj){
+									print '<option value="'.$obj->rowid.'">'.$obj->code.'-'.$obj->label.'</option><hr />';
+								}
 							}
 						}
 						print '</select>';
@@ -654,38 +654,38 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 				print '<tr class="liste_titre">';
 				print '<td colspan="10" class="left" style="width:100%;font-size:18px;font-weight:500px;color:#000">' . $langs->trans("changeState") . '</td>';
 				print '</tr>';
-	
+
 				if ($permissiontostart){
 					print '<form method="POST" action="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$object->id.'&action=change_tracking" id="change_tracking">';
-					
+
 						print '<tr>';
-		
+
 							print '<td colspan="5" class="valuefieldcreate">';
 								print '<label class="select" for="slct">';
 								print '<select id="slct" class="flat minwidth200imp  --success widthcentpercentminusx" name="newtracking">';
 									print '<option value="" disabled="disabled" selected="selected">Select option</option>';
-									
-									foreach ($allStepProcedureExclus as $value) {
-											print '<option value="'.$value->rowid.'">'.$value->label.'</option>';
+									if(!empty($allStepProcedureExclus)){
+										foreach ($allStepProcedureExclus as $value) {
+												print '<option value="'.$value->rowid.'">'.$value->label.'</option>';
+										}
 									}
-									
 								print '</select>';
-		
+
 								print '<svg><use xlink:href="#select-arrow-down"></use></svg>';
 									print '<svg class="sprites">
 									<symbol id="select-arrow-down" viewbox="0 0 10 6">
 									<polyline points="1 1 5 5 9 1"></polyline>
 									</symbol>
 								</svg>';
-		
+
 								print '</label>';
 							print '</td>';
-		
+
 							print '<td colspan="2">';
 								print '<input class="butAction relative_div_" type="submit" name="'.$langs->trans('got_it').'" value="'.$langs->trans('got_it').'">';
-								// print '<a class="butAction relative_div_" href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&newtracking='.$newtracking.'&action=confirm_change"  title="'.$langs->trans('got_it').'">'.$langs->trans('got_it').'</a>'; 
+								// print '<a class="butAction relative_div_" href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&newtracking='.$newtracking.'&action=confirm_change"  title="'.$langs->trans('got_it').'">'.$langs->trans('got_it').'</a>';
 								print '</td>';
-		
+
 						print '</tr>';
 					print '</form>';
 				}
@@ -777,7 +777,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 				if($object->status != $object::STATUS_TERMINATE){
 
 				}
-				
+
 			}
 
 			// DRAFT
@@ -788,7 +788,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 
 				// Clone
 				print dolGetButtonAction($langs->trans('ToClone'), '', 'default', $_SERVER['PHP_SELF'].'?id='.$object->id.(!empty($object->socid)?'&socid='.$object->socid:'').'&action=clone&token='.newToken(), '', $permissiontoadd);
-				
+
 				// Delete (need delete permission, or if draft, just need create/modify permission)
 				print dolGetButtonAction($langs->trans('Delete'), '', 'delete', $_SERVER['PHP_SELF'].'?id='.$object->id.'&action=delete&token='.newToken(), '', $permissiontodelete);
 			}
@@ -803,10 +803,10 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 				} else {
 					$langs->load("errors");
 					print dolGetButtonAction($langs->trans("ErrorAddAtLeastOneLineFirst"), $langs->trans("Validate"), 'default', '#', '', 0);
-				}				
-				
+				}
+
 				print dolGetButtonAction($langs->trans('SetToDraft'), '', 'default', $_SERVER["PHP_SELF"].'?id='.$object->id.'&action=confirm_setdraft&confirm=yes&token='.newToken(), '', $permissiontoadd);
-				
+
 			}
 
 
@@ -835,7 +835,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 			}
 
 
-			
+
 			/*
 			if ($permissiontoadd) {
 				if ($object->status == $object::STATUS_ENABLED) {
@@ -853,7 +853,7 @@ if ($object->id > 0 && (empty($action) || ($action != 'edit' && $action != 'crea
 			}
 			*/
 
-			
+
 		}
 		print '</div>'."\n";
 	}
@@ -966,7 +966,7 @@ $db->close();
 
 		let docs = [];
 		let doc = document.getElementById("countries");
-		
+
 
 		for ( let i=0; i< doc.options.length; i++) {
 			if ( doc.options[i].selected == true ) {
@@ -977,7 +977,7 @@ $db->close();
 		var data = '';
 		var xhr = new XMLHttpRequest();
 		var Url = <?php $local_link ?>
-		
+
 
 		xhr.open('POST', Url, true);
 		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
@@ -997,12 +997,12 @@ $db->close();
 
 		// alert(docs);
 	}
-	
-	
 
 
 
-	
+
+
+
 </script>
 
 

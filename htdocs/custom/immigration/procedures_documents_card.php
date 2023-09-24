@@ -84,6 +84,9 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formprojet.class.php';
 
 dol_include_once('/immigration/class/procedures.class.php');
+dol_include_once('/immigration/class/cat_procedures.class.php');
+dol_include_once('/immigration/class/step_procedures.class.php');
+
 dol_include_once('/immigration/lib/immigration_procedures.lib.php');
 dol_include_once('/immigration/css/bootstrap.min.css.php');
 
@@ -117,6 +120,9 @@ if (!$sortfield) {
 
 // Initialize technical objects
 $object = new Procedures($db);
+$object_step = new Step_procedures($db);
+$object_cat = new Cat_procedures($db);
+
 $extrafields = new ExtraFields($db);
 $diroutputmassaction = $conf->immigration->dir_output.'/temp/massgeneration/'.$user->id;
 $hookmanager->initHooks(array('proceduresdocument', 'globalcard')); // Note that conf->hooks_modules contains array
@@ -132,7 +138,7 @@ if ($id > 0 || !empty($ref)) {
 
 // There is several ways to check permission.
 // Set $enablepermissioncheck to 1 to enable a minimum low level of checks
-$enablepermissioncheck = 0;
+$enablepermissioncheck = 1;
 if ($enablepermissioncheck) {
 	$permissiontoread = $user->rights->immigration->procedures->read;
 	$permissiontoadd = $user->rights->immigration->procedures->write; // Used by the include of actions_addupdatedelete.inc.php and actions_linkedfiles.inc.php
@@ -155,7 +161,12 @@ if (!$permissiontoread) accessforbidden();
  */
 
  $documentDocumented = $object->fetchDocumentsDocumented($id);
-//  var_dump($documentDocumented);
+ $catdocumentDocumented = $object_cat->fetchDocumentsDocumented($object->ca_procedure);
+
+ if (isset($catdocumentDocumented) && !empty($catdocumentDocumented)){
+	$proDocuments = $object->fetchDocumentsConfigExclus($catdocumentDocumented);
+}
+
 
 include DOL_DOCUMENT_ROOT.'/core/actions_linkedfiles.inc.php';
 
@@ -263,61 +274,67 @@ if ($object->id) {
                 print '<tr class="liste_titre">';
                 print '<td colspan="10" class="left" style="width:100%;font-size:18px;font-weight:500px;color:#000">' . $langs->trans("ListSetFiles") . '</td>';
                 print '</tr>';
-                
+
                 print '<td  colspan="10"></td>';
 
 				// Number of files
-                foreach($object->fetchDocumentsConfig() as $obj){
-                    if(in_array((int) $obj->rowid, $documentDocumented)){
-						print '<tr>';
-							print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
-							print '<td colspan="2" style="text-align:right" class="titlefield">
-								<a href="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$id.'&iddoc='.$obj->rowid.'&action=confirm_delete" class="reposition deletefilelink"><span class="fas fa-trash pictodelete" style="" title="Supprimer"></span></a>
-							</td>';
-						print '</tr>';
+				$total_adding_file = 0;
+                if (!empty($proDocuments)){
+					foreach($proDocuments as $obj){
+						if(in_array((int) $obj->rowid, $documentDocumented)){
+							print '<tr>';
+								print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
+								print '<td colspan="2" style="text-align:right" class="titlefield">
+									<a href="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$id.'&iddoc='.$obj->rowid.'&action=confirm_delete" class="reposition deletefilelink"><span class="fas fa-trash pictodelete" style="" title="Supprimer"></span></a>
+								</td>';
+							print '</tr>';
+							$total_adding_file++;
+						}
+
 					}
-                }
+				}
 
                 print '<td  colspan="10"></td>';
 
                 // Total size
-                print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">'.count($documentDocumented).'</td></tr>';
+                print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">'.$total_adding_file.'</td></tr>';
 
             print '</table>';
 
 
     print '</div>';
-    
-    
+
+
     print '<div class="fichehalfright">';
         print '<div class="underbanner clearboth"></div>';
-	        
+
         print '<table class="border centpercent tableforfield">';
 
             print '<tr class="liste_titre">';
             print '<td colspan="10" class="left" style="width:100%;font-size:18px;font-weight:500px;color:#000">' . $langs->trans("ListMissingFiles") . '</td>';
             print '</tr>';
-            
+
             print '<td  colspan="10"></td>';
 
 
             // Number of files
-			$total = 0;
-            foreach($object->fetchDocumentsConfig() as $obj){
-                if(!in_array((int) $obj->rowid, $documentDocumented)){
-					print '<tr>';
-						print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
-						print '<td colspan="2" style="text-align:right" class="titlefield">
-							<a href="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$id.'&iddoc='.$obj->rowid.'&action=add_doc" class="reposition deletefilelink"><span class="fas fa-plus-circle paddingright" style="" title="Supprimer"></span></a>
-						</td>';
-					print '</tr>';
-					$total++;
+			$total_missing_file = 0;
+			if (!empty($proDocuments)){
+				foreach($proDocuments as $obj){
+					if(!in_array((int) $obj->rowid, $documentDocumented)){
+						print '<tr>';
+							print '<td colspan="8" class="titlefield">'.$obj->label.'</td>';
+							print '<td colspan="2" style="text-align:right" class="titlefield">
+								<a href="'.dol_buildpath('/immigration/scripts/script.php', 1).'?id='.$id.'&iddoc='.$obj->rowid.'&action=add_doc" class="reposition deletefilelink"><span class="fas fa-plus-circle paddingright" style="" title="Supprimer"></span></a>
+							</td>';
+						print '</tr>';
+						$total_missing_file++;
+					}
 				}
-            }
-
+			}
             print '<td  colspan="10"></td>';
             // Total size
-            print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">'.$total.'</td></tr>';
+            print '<tr><td colspan="8">'.$langs->trans("TotalFiles").'</td><td style="text-align:right;font-size:30px">'.$total_missing_file.'</td></tr>';
 
         print '</table>';
 
@@ -325,7 +342,7 @@ if ($object->id) {
 
 	print dol_get_fiche_end();
 
-	
+
 } else {
 	accessforbidden('', 0, 1);
 }
