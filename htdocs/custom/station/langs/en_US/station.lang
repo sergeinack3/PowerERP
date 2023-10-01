@@ -1,0 +1,183 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleStationName'
+ModuleStationName = Station
+# Module description 'ModuleStationDesc'
+ModuleStationDesc = Station description
+
+#
+# Admin page
+#
+StationSetup = Station setup
+Settings = Settings
+StationSetupPage = Station setup page
+STATION_VOLUMECRITIQUE = Critical Volume
+STATION_VOLUMECRITIQUETooltip = This parameter specifies the default critical volume (in liters).
+STATION_POURCENTAGEMAX = Maximum percentage
+STATION_POURCENTAGEMAXTooltip = This parameter specifies the maximum percentage that can be distributed to stakeholders.
+STATION_MYPARAM2 = Paramètres 2
+STATION_MYPARAM2Tooltip = Tooltip Param 2
+conf_tiers = Stakeholder-specific configurations
+pourcentage = Percentage
+
+
+
+#
+# About page
+#
+About = About
+StationAbout = About Station
+StationAboutPage = Station about page
+
+#
+# Notification page
+#
+Notification = Notification
+Notif_cuve = Notifications specific to tanks
+Notif_cuve12 = The quantity of the Tank
+Notif_cuve22 = reached its critical volume
+Qty_rest = Quantity left
+liters = Liters
+set_depotage = Unloading
+no_notif_cuve = No notification regarding tanks at this time
+list_cuve = List of tanks
+Notif_rel_ind = Notifications specific to index readings
+Notif_ri12 = The Index reading
+Notif_ri22 = has not yet been approved
+approved_rel = Approve the Index reading
+no_notif_rel = No notification regarding Index reading at this time
+
+#
+# Statistiques page
+#
+stats = Statistics
+stats_type = The Type
+sell = Sales
+qty = Quantity
+stats_expl1 = allows you to configure stats according to the amount
+stats_expl2 = allows to configure stats according to quantity (in liters)
+from_stat = From
+to_stat = To
+type = Type
+reset = reset
+validate = Validate
+stat_filter_info = Results for the period
+stat_rev_partis = Stakeholder income
+stat_rev_total = Stakeholder income
+stat_sell_car = Fuel sales
+stat_sell_total = Total sales
+stat_sell_car_pom = Fuel sales (per Pumper)
+stat_sell_car_sta = Fuel sales (per Station)
+stat_moy_car_qua = Average amount per quarter
+stat_moy_total = Total Average
+stat_sell_car_ben = Profit margin
+stat_ben_total = Total Profit
+stat_sell_qty_car = Fuel quantity
+stat_sell_qty_total = Total quantity
+stat_moy_qty_car_qua = Average quantity of per Quarter
+stat_moy_qty_total = Total Average quantity
+
+#
+# Menu
+#
+Configuration = Configurations
+Notifications = Notifications
+Statistiques = Statistics
+Depotage = Unloading
+List_Depotage = List of Unloadings
+New_Depotage = New Unloading
+Stations/Quarts = Stations/Quarters
+List_Stations = List of Stations
+New_Stations = New Station
+Cuve&Pompe = Tank&Pump
+List_Cuve = List of Tanks
+New_Cuve = New Tank
+List_Pompe = List of Pumps
+New_Pompe = New Pump
+Pompiste = Pumpers
+chefDePiste = Runway managers
+Releve = Index reading
+List_Releve = List of Index readings
+New_Releve = New Index reading
+ReleveDeControle = Control Index reading
+
+#
+# Depotage object
+#
+error_depotage = The Total quantities to be unloaded are greater than the total possible quantities to be unloaded. Please consult the inserted quantities!
+error_dep_cuv12 = The Tank
+error_dep_cuv22 = will not be able to support this quantity. Insert a quantity
+enter_qty_dep = Enter the quantity to be unloaded
+confirm_dep = Confirm unloading
+cuve_dep = Unloaded Tanks
+
+#
+# Quarts object
+#
+quart_list = List of Quarters
+quart_info_title = Information specific to quarters
+hour_start = Start time
+hour_end = End time
+
+#
+# Releve object
+#
+index_debut = Start Index
+index_fin = End Index
+releve_clos = Complete the Index reading
+quart_clos = Close le quarter
+error_clos_quart = You can't close the quarter with the end index lower than the start index!
+error_rel_ctrl = No control readings taken!
+idx_releved = Index readed
+
+#
+# General
+#
+Cuve = Tank
+Pompe = Pump
+Station = Station
+quart = Quarter
+qty_actu = Initial Quantity
+cty_max = Max Capacity
+no_record_found = No record found
+select_cuve = Select a tank
+select_station = Select a station
+ref = Ref
+Id = Login
+lastname = Lastname
+firstname = Firstname
+Statut = Status
+Actif = Actif
+Configured = Configured
+Clos = Closed
+Compare = Compare
+send_approval = Send to approval
+in_approval = In approval
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description

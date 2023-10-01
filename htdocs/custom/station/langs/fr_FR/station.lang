@@ -1,0 +1,179 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleStationName'
+ModuleStationName = Station Service
+# Module description 'ModuleStationDesc'
+ModuleStationDesc = Station description
+
+#
+# Admin page
+#
+StationSetup = Configuration de la station
+Settings = Paramètres
+StationSetupPage = Page de configuration de la station
+STATION_VOLUMECRITIQUE = Volume Critique
+STATION_VOLUMECRITIQUETooltip = Ce Paramètres Spécifie le volume Critique par défaut (en litre)
+STATION_POURCENTAGEMAX = Pourcentage Maximal
+STATION_POURCENTAGEMAXTooltip = Ce Paramètres Spécifie le Pourcentage maximale qu'on peut repartir aux partis prenantes
+STATION_MYPARAM2 = Paramètres 2
+STATION_MYPARAM2Tooltip = Info-bulle Paramètres 2
+conf_tiers = Configuration spécifique au Partis Prenante
+pourcentage = Pourcentage
+
+
+
+#
+# About page
+#
+About = About
+StationAbout = À propos
+StationAboutPage = Station page À propos
+
+#
+# Notification page
+#
+Notification = Notification
+Notif_cuve = Notifications spécifiques aux Cuves
+Notif_cuve12 = La quantité de la cuve
+Notif_cuve22 = a atteint son volume critique
+Qty_rest = Quantité restante
+liters = Litres
+set_depotage = Effectuer un dépotage
+no_notif_cuve = Aucune notification concernant les cuves pour le moment
+list_cuve = Liste des Cuves
+Notif_rel_ind = Notifications spécifiques aux Relèves d'index
+Notif_ri12 = La relève
+Notif_ri22 = a pas encore été approuvée
+approved_rel = Approuver la releve
+no_notif_rel = Aucune notification concernant les relèves pour le moment
+
+#
+# Statistiques page
+#
+stats = Statistiques
+stats_type = Le Type
+sell = Vente
+qty = Quantité
+stats_expl1 = permet de configurer les stats en fonction du montant
+stats_expl2 = permet de configurer les stats en fonction de la quantité (en litre)
+from_stat = De
+to_stat = à
+type = Type
+reset = reset
+validate = Valider
+stat_filter_info = Resultat pour la periode
+stat_rev_partis = Revenu des partis
+stat_rev_total = Revenu des partis
+stat_sell_car = Vente de Carburants
+stat_sell_total = Vente Total
+stat_sell_car_pom = Vente de Carburants (par Pompiste)
+stat_sell_car_sta = Vente de Carburants (par Station)
+stat_moy_car_qua = Montant Moyen par Quart
+stat_moy_total = Moyenne Total
+stat_sell_car_ben = Marge Beneficiaires
+stat_ben_total = Benefice Total
+stat_sell_qty_car = Quantite de carburant
+stat_sell_qty_total = Quantite Total
+stat_moy_qty_car_qua = Quantite de Moyenne de par Quart
+stat_moy_qty_total = Quantite Moyenne Total
+
+
+#
+# Menu
+#
+Configuration = Configurations
+Notifications = Notifications
+Statistiques = Statistiques
+Depotage = Depotage
+List_Depotage = Liste des Depotages
+New_Depotage = Nouveau Depotage
+Stations/Quarts = Stations/Quarts
+List_Stations = Liste des Stations
+New_Stations = Nouvelle Station
+Cuve&Pompe = Cuve&Pompe
+List_Cuve = Liste des Cuves
+New_Cuve = Nouvelle Cuve
+List_Pompe = Liste des Pompes
+New_Pompe = Nouvelle Pompe
+Pompiste = Pompistes
+chefDePiste = Chefs de Piste
+Releve = Relève
+List_Releve = Liste des Relèves
+New_Releve = Nouvelle Relève
+ReleveDeControle = Relève de Controle
+
+#
+# Depotage object
+#
+error_depotage = Le Total quantités à depoter sont superieurs au total des quantités possibles à depoter. Veuillez consulter les quantités insérées SVP!!
+error_dep_cuv12 = La cuve
+error_dep_cuv22 = ne pourra pas supporter cette quantité. Insérer une quantité
+enter_qty_dep = Entrer la quantité à dépoter
+confirm_dep = Confirmer le depotage
+cuve_dep = Cuves Depotées
+
+#
+# Quarts object
+#
+quart_list = Liste des Quarts
+quart_info_title = Informations Spécifiques aux Quarts
+hour_start = Heure Debut
+hour_end = Heure Fin
+
+#
+# Releve object
+#
+index_debut = Index Debut
+index_fin = Index Fin
+releve_clos = Cloturer la relève
+quart_clos = Cloturer le quart
+error_clos_quart = Vous ne pouvez pas cloturer le quart avec l'index de fin inferieur à l'index de debut!!
+error_rel_ctrl = Aucune releve de controle effectuée !!
+idx_releved = Index Relevé
+
+#
+# General
+#
+Cuve = Cuve
+Pompe = Pompe
+Station = Station
+quart = Quart
+qty_actu = Quantité Actuel
+cty_max = Capacité max
+no_record_found = Aucun enregistrement trouvé
+select_cuve = Sélectionner une cuve
+select_station = Sélectionner une station
+ref = Réf
+Id = Identifiant
+lastname = Nom
+firstname = Prénom
+Statut = Statut
+Actif = Actif
+Configured = Configuré
+Clos = Cloturé
+Compare = Comparer
+send_approval = Envoyer en approbation
+in_approval = En Approbation
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
