@@ -1,4 +1,4 @@
-# DOLIBARR ERP & CRM
+# POWERERPERP & CRM
 
 ![Downloads per day](https://img.shields.io/sourceforge/dw/PowerERP.svg)
 ![Build status](https://img.shields.io/travis/PowerERP/PowerERP/develop.svg)
