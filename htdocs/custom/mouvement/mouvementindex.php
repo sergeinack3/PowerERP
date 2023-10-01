@@ -87,7 +87,6 @@ $now = dol_now();
 
 // None
 
-
 /*
  * View
  */
